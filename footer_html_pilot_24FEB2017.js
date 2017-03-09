@@ -12,6 +12,6 @@ $(document).ready(function(){
   $(this).html($(this).html().replace('Browse for Training','Browse Learning'));
   });
   
-  $("#navTabs").css({"background-color": "#023161"});
+  $("#navTabs").css({"background": "#023161"});
 
 });
