@@ -11,7 +11,7 @@ $(document).ready(function(){
   $('.navTabs-subTabList a:contains("Browse for Training")').each(function(){
   $(this).html($(this).html().replace('Browse for Training','Browse Learning'));
   });
-    
-  $(".navTabs").css("background-color", "#023161");
+  
+  $("#navTabs").css({"background-color": "#023161"});
 
 });
