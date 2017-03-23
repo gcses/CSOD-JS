@@ -1,7 +1,8 @@
 $(document).ready(function(){
 	
-	$("h3:contains('Price')").empty();
-	$("span:contains('$0.00')").empty();
+	$(".cso-cont-padtb5 h3:contains('Price') span:contains('$0.00')").empty();
+//	$("h3:contains('Price')").empty();
+//	$("span:contains('$0.00')").empty();
 	
 	$("[aria-labelledby=Support]").empty();
 	
