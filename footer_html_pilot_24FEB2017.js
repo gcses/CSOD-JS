@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	
-	$("title=Contact&#32;Us").remove();
+	$("href=/catalog/CustomPage.aspx?id=20000480&tab_page_id=20000480").remove();
 	
   $("[aria-labelledby=Support]").append('<li><a href="http://cp.carefusion.com" title="Change Password" tabindex="-1">Change Password</a></li><li><a href="/catalog/CustomPage.aspx?id=20000480&amp;tab_page_id=20000480" title="Contact Us" tabindex="-1">Contact Us</a></li><li><a href="/catalog/CustomPage.aspx?id=20000480&amp;tab_page_id=20000480" title="Frequently Asked Questions" tabindex="-1">Frequently Asked Questions</a></li>');
   $smjquery('#main-menu').smartmenus('refresh')
