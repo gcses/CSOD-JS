@@ -1,5 +1,7 @@
 $(document).ready(function(){
 	
+	$("div:contains('$0.00')").empty();
+	
 	$("[aria-labelledby=Support]").empty();
 	
   $("[aria-labelledby=Support]").append('<li><a href="http://cp.carefusion.com" title="Change Password" tabindex="-1">Change Password</a></li><li><a href="/catalog/CustomPage.aspx?id=20000480&amp;tab_page_id=20000480" title="Contact Us" tabindex="-1">Contact Us</a></li><li><a href="/catalog/CustomPage.aspx?id=20000480&amp;tab_page_id=20000480" title="Frequently Asked Questions" tabindex="-1">Frequently Asked Questions</a></li>');
