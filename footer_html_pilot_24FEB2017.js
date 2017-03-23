@@ -1,6 +1,8 @@
 $(document).ready(function(){
 	
-	$( "span:contains('$0.00')" ).empty();
+	$( "span:contains('$0.00')" ).prev().empty();
+
+	$("span:contains('$0.00')").empty();
 	
 	$("[aria-labelledby=Support]").empty();
 	
