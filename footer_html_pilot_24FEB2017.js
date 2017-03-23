@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	
 	$("span:contains('$0.00')").each(function(){
- 		$(this).closest('h3').empty();
+ 		$(this).empty();
 	});
 	
 	$("[aria-labelledby=Support]").empty();
