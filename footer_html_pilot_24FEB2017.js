@@ -1,5 +1,6 @@
 $(document).ready(function(){
 	
+	$("h3:contains('Price')").empty();
 	$("span:contains('$0.00')").empty();
 	
 	$("[aria-labelledby=Support]").empty();
