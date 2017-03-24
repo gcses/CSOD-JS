@@ -1,8 +1,6 @@
 $(document).ready(function(){
 	
-	$('.cso-txt.cso-txt-smed.b.cso-cont-iblock h2:contains("Subject")').each(function(){
- 		$(this).html($(this).html().replace('Subject','Topics'));
-	});
+	$("h2:contains('Subject')").css("border", "solid red");
 	
 	$("a:has(span:contains('Popular'))").remove();
 	
