@@ -1,9 +1,9 @@
 $(document).ready(function(){
 	
-	$(".cso-cont-padtb5:has(h3:contains('Subjects'))").css("border", "solid red");
-	$(".cso-cont-padtb5:has(h3:contains('Available Languages'))").css("border", "solid red");
-	$(".cso-cont-padtb5:has(h3:contains('Product'))").css("border", "solid red");
-	$(".cso-cont-padtb5:has(h3:contains('Brand'))").css("border", "solid red");
+	$(".cso-cont-padtb5:has(h3:contains('Subjects'))").remove();
+	$(".cso-cont-padtb5:has(h3:contains('Available Languages'))").remove();
+	$(".cso-cont-padtb5:has(h3:contains('Product'))").remove();
+	$(".cso-cont-padtb5:has(h3:contains('Brand'))").remove();
 	$(".cso-cont-padtb5:has(span:contains('$0.00'))").remove();
 	$(".dot:contains('$0.00')").remove();
 //	$(".cso-cont-padtb5:has(span:contains('$0.00'))").remove();
