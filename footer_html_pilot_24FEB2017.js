@@ -1,8 +1,6 @@
 $(document).ready(function(){
 	
-	$('.cso-txt h2:contains("Subject")').each(function(){
- 		$(this).css("border", "solid red");
-	});
+	$("h2:contains('Subject')").css("border", "solid red");
 	
 	$("a:has(span:contains('Popular'))").remove();
 	
