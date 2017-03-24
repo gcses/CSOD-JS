@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	
-	$('.cso-txt span:contains("You are already registered for this training.")').each(function(){
+	$('.cso-txt.blue:contains("You are already registered for this training.")').each(function(){
  	$(this).html($(this).html().replace('You are already registered for this training.','TESTING - Blue text replace'));
 	});
 	
