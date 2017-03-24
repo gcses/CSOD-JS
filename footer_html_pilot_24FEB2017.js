@@ -1,5 +1,9 @@
 $(document).ready(function(){
 	
+	$('h2:contains("Browse for Training")').each(function(){
+ 		$(this).html($(this).html().replace('Browse for Training','Browse Learning'));
+	});
+	
 	$('h2:contains("Suggested Training")').each(function(){
  		$(this).html($(this).html().replace('Suggested Training','Suggested Learning'));
 	});
