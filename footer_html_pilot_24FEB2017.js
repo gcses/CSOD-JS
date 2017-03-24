@@ -4,10 +4,6 @@ $(document).ready(function(){
  		$(this).html($(this).html().replace('Online Class','Web-based Training'));
 	});
 	
-	$("div:contains('Online Class')").each(function(){
- 		$(this).css("border", "solid red");
-	});
-	
 	$("h2:contains('Subject')").each(function(){
  		$(this).html($(this).html().replace('Subject','Topics'));
 	});
