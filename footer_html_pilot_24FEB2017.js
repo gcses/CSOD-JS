@@ -1,5 +1,9 @@
 $(document).ready(function(){
 	
+	$('h2:contains("Suggested Training")').each(function(){
+ 		$(this).html($(this).html().replace('Suggested Training','Suggested Learning'));
+	});
+	
 	$('a:contains("Change your password")').each(function(){
  		$(this).remove();
 	});
