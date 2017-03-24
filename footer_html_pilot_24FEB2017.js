@@ -1,5 +1,9 @@
 $(document).ready(function(){
 	
+	$("span:contains('Online Class')").each(function(){
+ 		$(this).html($(this).html().replace('Online Class','Web-based Training'));
+	});
+	
 	$("h2:contains('Subject')").each(function(){
  		$(this).html($(this).html().replace('Subject','Topics'));
 	});
