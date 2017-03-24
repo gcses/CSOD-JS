@@ -1,6 +1,7 @@
 $(document).ready(function(){
 
 	$(".cso-cont-padtb5:has(span:contains('$0.00'))").remove();
+	$("span:contains('$0.00')").css("border", "solid red");
 //	$(".cso-cont-padtb5:has(span:contains('$0.00'))").css("border", "solid red");
 //	$(".cso-cont-padtb5 h3:contains('Price') span:contains('$0.00')").empty();
 //	$("h3:contains('Price')").empty();
