@@ -1,7 +1,9 @@
 $(document).ready(function(){
 
 	$(".cso-cont-padtb5:has(span:contains('$0.00'))").remove();
-	$("span:contains('$0.00')").css("border", "solid red");
+	$(".dot:contains('$0.00')").css("border", "solid red");
+//	$(".cso-cont-padtb5:has(span:contains('$0.00'))").remove();
+//	$("span:contains('$0.00')").css("border", "solid red");
 //	$(".cso-cont-padtb5:has(span:contains('$0.00'))").remove();
 //	$("span:contains('$0.00')").empty();
 //	$(".cso-cont-padtb5:has(span:contains('$0.00'))").css("border", "solid red");
