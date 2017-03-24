@@ -1,5 +1,9 @@
 $(document).ready(function(){
 	
+	$('.cso-txt.cso-txt-smed.b.cso-cont-iblock h2:contains("Subject")').each(function(){
+ 		$(this).html($(this).html().replace('Subject','Topics'));
+	});
+	
 	$("a:has(span:contains('Popular'))").remove();
 	
 	$('h2:contains("Browse for Training")').each(function(){
