@@ -1,6 +1,8 @@
 $(document).ready(function(){
 	
-	$("h2:contains('Subject')").css("border", "solid red");
+	$("h2:contains('Subject')").each(function(){
+ 		$(this).html($(this).html().replace('Subject','Topics'));
+	});
 	
 	$("a:has(span:contains('Popular'))").remove();
 	
