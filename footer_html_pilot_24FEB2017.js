@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	
-	$('.blue span:contains("You are already registered for this training.")').each(function(){
- 		$(this).html($(this).html().replace('You are already registered for this training.','TESTING - Blue text replace'));
+	$('.cso-txt span:contains("You are already registered for this training.")').each(function(){
+ 	$(this).html($(this).html().replace('You are already registered for this training.','TESTING - Blue text replace'));
 	});
 	
 	$(".cso-cont-padtb5:has(h3:contains('Subjects'))").remove();
