@@ -1,5 +1,9 @@
 $(document).ready(function(){
 	
+	$('a:contains("Change your password")').each(function(){
+ 		$(this).remove();
+	});
+	
 	$('a:contains("Go to Customer Portal")').each(function(){
  		$(this).remove();
 	});
