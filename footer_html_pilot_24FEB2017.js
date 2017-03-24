@@ -1,5 +1,9 @@
 $(document).ready(function(){
 	
+	$('.cso-wspn-cont.cso-txt.lt.b2 a:contains("Popular")').each(function(){
+ 		$(this).remove();
+	});
+	
 	$('h2:contains("Browse for Training")').each(function(){
  		$(this).html($(this).html().replace('Browse for Training','Browse Learning'));
 	});
