@@ -43,7 +43,7 @@ $(document).ready(function(){
 	});
 
 //TESTING - 3/24/17 - JS	
-	$('[data-original-title="Online Class"]').attr('data-original-title', 'Web-Based Training');
+//	$('[data-original-title="Online Class"]').attr('data-original-title', 'Web-Based Training');
 //  $('.tooltip-cso').tooltip();
 	
 	$("span:contains('Online Class')").each(function(){
