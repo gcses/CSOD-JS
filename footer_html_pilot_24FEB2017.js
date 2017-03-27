@@ -1,4 +1,5 @@
-$(document).ready(function(){
+//$(document).ready(function(){
+$(window).load(function(){
 	
 	$("h2:contains('Subject')").each(function(){
  		$(this).html($(this).html().replace('Subject','Topics'));
