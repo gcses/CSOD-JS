@@ -58,11 +58,11 @@ $(document).ready(function(){
 	$('.cso-title-cont.cso-wsp-cont span:contains("Browse for Training")').each(function(){
  	$(this).html($(this).html().replace('Browse for Training','Browse Learning'));
 	});
-
+*/
 	$('.cso-cont-marb35.cso-cont-mart20 h2:contains("Training")').each(function(){
  	$(this).html($(this).html().replace('Training','Learning'));
 	});
-*/
+
 	$('.navTabs-subTabList a:contains("Browse for Training")').each(function(){
  	$(this).html($(this).html().replace('Browse for Training','Browse Learning'));
 	});
