@@ -32,12 +32,12 @@ $(document).ready(function(){
 	$(".cso-cont-padtb5:has(h3:contains('Brand'))").remove();
 	$(".cso-cont-padtb5:has(span:contains('$0.00'))").remove();
 	$(".dot:contains('$0.00')").remove();
-*/
+
 	$("[aria-labelledby=Support]").empty();
 	
   $("[aria-labelledby=Support]").append('<li><a href="http://cp.carefusion.com" title="Change Password" tabindex="-1">Change Password</a></li><li><a href="/catalog/CustomPage.aspx?id=20000480&amp;tab_page_id=20000480" title="Contact Us" tabindex="-1">Contact Us</a></li><li><a href="/catalog/CustomPage.aspx?id=20000480&amp;tab_page_id=20000480" title="Frequently Asked Questions" tabindex="-1">Frequently Asked Questions</a></li>');
   $smjquery('#main-menu').smartmenus('refresh')
-
+*/
 	$('.cso-txt span:contains("Online Class")').each(function(){
  	$(this).html($(this).html().replace('Online Class','Web-Based Training'));
 	});
