@@ -45,11 +45,13 @@ $(document).ready(function(){
 //TESTING - 3/24/17 - JS	
 	$('[data-original-title="Online Class"]').attr('data-original-title', 'Web-Based Training');
 //  $('.tooltip-cso').tooltip();
-	
+
+/*	
 	$("span:contains('Online Class')").each(function(){
  		$(this).html($(this).html().replace('Online Class','Web-based Training'));
 	});
-
+*/
+	
 	$('.cso-brdcrm-cont a:contains("Browse for Training")').each(function(){
  	$(this).html($(this).html().replace('Browse for Training','Browse Learning'));
 	});
