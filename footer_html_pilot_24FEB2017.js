@@ -50,7 +50,6 @@ $(document).ready(function(){
 	$("span:contains('Online Class')").each(function(){
  		$(this).html($(this).html().replace('Online Class','Web-based Training'));
 	});
-*/
 	
 	$('.cso-brdcrm-cont a:contains("Browse for Training")').each(function(){
  	$(this).html($(this).html().replace('Browse for Training','Browse Learning'));
@@ -71,7 +70,7 @@ $(document).ready(function(){
 	$('.navTabs-subTabList a:contains("Manage Employee Learning")').each(function(){
  	$(this).html($(this).html().replace('Manage Employee Learning','Manage My Learners'));
 	});
-
+*/
 	$('.item.oc').css({'background':'url("https://placeholdit.imgix.net/~text?txtsize=33&txt=61×61&w=61&h=61")'});
 
 	$('.item.mt').css({'background':'url("https://placeholdit.imgix.net/~text?txtsize=33&txt=61×61&w=61&h=61")'});
