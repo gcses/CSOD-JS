@@ -85,7 +85,7 @@ $(document).ready(function(){
 
 });
 
-window.setInterval(replaceOnlineClass, 1000000);
+window.setInterval(replaceOnlineClass, 10000);
 
 function replaceOnlineClass() {
 	var elements=document.getElementsByTagName("*"), count=elements.length, elementChildNodes=[], subCount=0, i=0, sub=0;
