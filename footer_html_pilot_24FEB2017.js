@@ -101,7 +101,7 @@ $(document).ready(function(){
 					elementChildNodes[sub].nodeValue = elementChildNodes[sub].nodeValue.replace(new RegExp("Online Class", "g"), "Web-based Training");
 					//elementChildNodes[sub].nodeValue = elementChildNodes[sub].innerText.replace(new RegExp("Online Class", "g"), "Web-based Training");
 					elementChildNodes[sub].nodeValue = elementChildNodes[sub].textContent.replace(new RegExp("Online Class", "g"), "Web-based Training");
-					elementChildNodes[sub].nodeValue = elementChildNodes[sub].innerHTML.replace(new RegExp("Online Class", "g"), "Web-based Training");
+					//elementChildNodes[sub].nodeValue = elementChildNodes[sub].innerHTML.replace(new RegExp("Online Class", "g"), "Web-based Training");
 				}
 
 			}
