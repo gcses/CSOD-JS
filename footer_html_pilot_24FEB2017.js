@@ -144,6 +144,9 @@ $(document).ready(function(){
 						elementChildNodes[sub].text = elementChildNodes[sub].text.replace(new RegExp("This training item is currently unavailable to you. Please select alternative training, or complete prior requirements before requesting this training.", "g"), "This item is part of a curriculum. Please return to the previous page and select Request to access this item.");
 					} catch(err) {
 					}
+					$('.cso-txt.blue:contains("This training item is currently unavailable to you. Please select alternative training, or complete prior requirements before requesting this training.")').each(function(){
+					    $(this).html($(this).html().replace('This training item is currently unavailable to you. Please select alternative training, or complete prior requirements before requesting this training.','This item is part of a curriculum. Please return to the previous page and select Request to access this item.'));
+					});
 				}
 
 			}
