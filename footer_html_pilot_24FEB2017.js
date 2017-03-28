@@ -1,5 +1,5 @@
 $(document).ready(function(){
-/*	
+	
 	$("h2:contains('Subject')").each(function(){
  		$(this).html($(this).html().replace('Subject','Topics'));
 	});
@@ -41,7 +41,7 @@ $(document).ready(function(){
 	$('.cso-txt span:contains("Online Class")').each(function(){
  	$(this).html($(this).html().replace('Online Class','Web-Based Training'));
 	});
-*/
+
 //TESTING - 3/24/17 - JS	
 	$('[data-original-title="Online Class"]').attr('data-original-title', 'Web-Based Training');
 //  $('.tooltip-cso').tooltip();
