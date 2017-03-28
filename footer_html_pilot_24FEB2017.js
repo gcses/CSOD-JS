@@ -83,7 +83,7 @@ $(document).ready(function(){
 
 	$('#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl01_widgetContainer_ctl00_pnlSuggestedTraining_title').css({'background-color':'#00B8B0'});
 
-	window.setInterval(replaceOnlineClass, 10000);
+	window.setInterval(replaceOnlineClass, 1000);
 
 	function replaceOnlineClass() {
 		
