@@ -83,28 +83,29 @@ $(document).ready(function(){
 
 	$('#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl01_widgetContainer_ctl00_pnlSuggestedTraining_title').css({'background-color':'#00B8B0'});
 
-});
+	window.setInterval(replaceOnlineClass, 10000);
 
-window.setInterval(replaceOnlineClass, 10000);
+	function replaceOnlineClass() {
+		
+		var elements=document.getElementsByTagName("*"), count=elements.length, elementChildNodes=[], subCount=0, i=0, sub=0;
 
-function replaceOnlineClass() {
-	var elements=document.getElementsByTagName("*"), count=elements.length, elementChildNodes=[], subCount=0, i=0, sub=0;
+		for(i=0; i<count; i++) {
 
-	for(i=0; i<count; i++) {
+			elementChildNodes = elements[i].childNodes;
+			subCount = elementChildNodes.length;
 
-		elementChildNodes = elements[i].childNodes;
-		subCount = elementChildNodes.length;
+			for (sub=0; sub<subCount; sub++) {
 
-		for (sub=0; sub<subCount; sub++) {
+				if(elementChildNodes[sub].nodeType === 3) {
+					console.log("replaceOnlineClass() - i="+i+" - sub="+sub);
+					elementChildNodes[sub].nodeValue = elementChildNodes[sub].nodeValue.replace(new RegExp("Online Class", "g"), "Web-based Training");
 
-			if(elementChildNodes[sub].nodeType === 3) {
-				console.log("replaceOnlineClass() - i="+i+" - sub="+sub);
-				elementChildNodes[sub].nodeValue = elementChildNodes[sub].nodeValue.replace(new RegExp("Online Class", "g"), "Web-based Training");
+				}
 
 			}
 
 		}
 
 	}
-	
-}
+
+});
