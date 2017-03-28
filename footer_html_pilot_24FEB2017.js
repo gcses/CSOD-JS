@@ -122,7 +122,7 @@ $(document).ready(function(){
 					}
 					
 					try {
-						elementChildNodes[sub].nodeValue = elementChildNodes[sub].nodeValue.replace(new RegExp("This training item is currently unavailable to you. Please select alternative training, or complete prior requirements before requesting this training.", "g"), "This item is part of a curriculum. Please return to the previous page and select Request to access this item.");
+						elementChildNodes[sub].innerHTML = String(elementChildNodes[sub].innerHTML).replace(new RegExp("This training item is currently unavailable to you. Please select alternative training, or complete prior requirements before requesting this training.", "g"), "This item is part of a curriculum. Please return to the previous page and select Request to access this item.");
 					} catch(err) {
 					}
 				}
