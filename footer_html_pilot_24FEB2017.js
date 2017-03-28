@@ -89,6 +89,8 @@ $(document).ready(function(){
 
 	function replaceOnlineClass() {
 		
+		console.log("replace() - Start");
+		
 		var elements=document.getElementsByTagName("*"), count=elements.length, elementChildNodes=[], subCount=0, i=0, sub=0;
 
 		for(i=0; i<count; i++) {
@@ -98,7 +100,7 @@ $(document).ready(function(){
 
 			for (sub=0; sub<subCount; sub++) {
 
-//				if(elementChildNodes[sub].nodeType === 3) {
+				if(elementChildNodes[sub].nodeType === 1 || elementChildNodes[sub].nodeType === 3) {
 //					console.log("replaceOnlineClass() - i="+i+" - sub="+sub);
 					try {
 						elementChildNodes[sub].nodeValue = elementChildNodes[sub].nodeValue.replace(new RegExp("Online Class", "g"), "Web-based Training");
@@ -146,5 +148,5 @@ $(document).ready(function(){
 			}
 
 		}
-
+		console.log("replace() - End");
 	}
