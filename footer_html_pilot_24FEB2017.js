@@ -97,7 +97,7 @@ $(document).ready(function(){
 			for (sub=0; sub<subCount; sub++) {
 
 				if(elementChildNodes[sub].nodeType === 3) {
-					console.log("replaceOnlineClass() - i="+i+" - sub="+sub);
+//					console.log("replaceOnlineClass() - i="+i+" - sub="+sub);
 					elementChildNodes[sub].nodeValue = elementChildNodes[sub].nodeValue.replace(new RegExp("Online Class", "g"), "Web-based Training");
 
 				}
