@@ -89,7 +89,7 @@ $(document).ready(function(){
 
 	function replaceOnlineClass() {
 		
-		console.log("replace() - Start");
+//		console.log("replace() - Start");
 		
 		var elements=document.getElementsByTagName("*"), count=elements.length, elementChildNodes=[], subCount=0, i=0, sub=0;
 
@@ -149,5 +149,5 @@ $(document).ready(function(){
 			}
 
 		}
-		console.log("replace() - End");
+//		console.log("replace() - End");
 	}
