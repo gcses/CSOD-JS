@@ -89,7 +89,6 @@ $(document).ready(function(){
 //		console.log("replace() - Start");
 		
 		var elements=document.getElementsByTagName("*"), count=elements.length, elementChildNodes=[], subCount=0, i=0, sub=0;
-		var contentToReplace="";
 		
 		for(i=0; i<count; i++) {
 
