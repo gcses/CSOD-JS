@@ -122,8 +122,32 @@ $(document).ready(function(){
 					}
 				
 					try {
-						if (String(elementChildNodes[sub]).indexOf("$0.00") > -1) {
-							console.log("Replace $0.00 = " + String(elementChildNodes[sub]));
+						if (String(elementChildNodes[sub].nodeValue).indexOf("$0.00") > -1) {
+							elementChildNodes[sub].style.border = "thick solid #00FF00";
+						}
+					} catch(err) {
+					}
+					try {	
+						if (String(elementChildNodes[sub].innerText).indexOf("$0.00") > -1) {
+							elementChildNodes[sub].style.border = "thick solid #FF0000";
+						}
+					} catch(err) {
+					}
+					try {
+						if (String(elementChildNodes[sub].textContent).indexOf("$0.00") > -1) {
+							elementChildNodes[sub].style.border = "thick solid #0000FF";
+						}
+					} catch(err) {
+					}
+					try {
+						if (String(elementChildNodes[sub].innerHTML).indexOf("$0.00") > -1) {
+							elementChildNodes[sub].style.border = "thick solid aqua";
+						}
+					} catch(err) {
+					}
+					try {
+						if (String(elementChildNodes[sub].nodeValue).text("$0.00") > -1) {
+							elementChildNodes[sub].style.border = "thick solid #000000";
 						}
 					} catch(err) {
 					}
