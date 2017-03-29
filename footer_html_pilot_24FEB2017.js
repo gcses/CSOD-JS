@@ -129,17 +129,17 @@ $(document).ready(function(){
 		if (document.getElementById("common-messages")) {
 			
 			try {
-				
 				if (document.getElementById("common-messages").innerHTML.indexOf("This training item is currently unavailable to you.") > -1) {
 					
-				document.getElementById("common-messages").innerHTML = '<div>' +
+					document.getElementById("common-messages").innerHTML = '<div>' +
                 
-				'<span class="cso-txt blue">' +
-					'This item is part of a curriculum. ' +
-					'Please return to the previous page and select Request to access this item.' +
-				'</span>' +
-				'</div>';
+						'<span class="cso-txt blue">' +
+						'This item is part of a curriculum. ' +
+						'Please return to the previous page and select Request to access this item.' +
+						'</span>' +
+					'</div>';
 					
+				}
 			} catch(err) {
 				console.log("common-messages = null");
 			}
