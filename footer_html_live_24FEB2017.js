@@ -4,8 +4,8 @@ $(document).ready(function(){
    //$name = $("{FIRSTNAME}");
   // $name = {FIRSTNAME};
 			
- $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").find( "p" ).css( "color", "red" );
-	var $name = "k"; //getUserName();
+// $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").find( "p" ).css( "color", "red" );
+	var $name = getUserName();
 
    $('h2:contains("My Learning")').each(function(){
  	    $(this).html($(this).html().replace('My Learning', $name + '\'s Learning In Progress'));
@@ -21,13 +21,19 @@ function getUserName()
 	var div = document.getElementById('ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer');
 	var children = div.childNodes;  
 	var name = "";
-	
+	/*
         for (var i=0; i<children.length; i++)  
 	{    
 		if (children[i].innerHTML != null && children[i].innerHTML != "") 
 		{       
 			names = children[i].innerHTML.split(' ');
 			fName = names[0];
-		}  }
-  return name;
+		}  
+		}
+  */
+  return children.length; 
 }
+
+
+
+
