@@ -14,6 +14,14 @@ $(document).ready(function(){
  		$(this).html($(this).html().replace('Suggested Training','Suggested Learning'));
 	});
 	
+	//run db query here as a function to get name, similar to 
+	///phnx/driver.aspx?routename=Social/UniversalProfile/Bio&TargetUser=84712 - maybe run another query to get userID
+        $('h2:contains("My Learning")').each(function(){
+ 		$(this).html($(this).html().replace('My Learning','Test User\'s Learning'));
+	});
+	
+	
+	
 	$('a:contains("Change your password")').each(function(){
  		$(this).remove();
 	});
