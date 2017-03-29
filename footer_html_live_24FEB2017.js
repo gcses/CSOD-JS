@@ -15,9 +15,18 @@ $(document).ready(function(){
    $smjquery('#main-menu').smartmenus('refresh');
 });
 
-function getUserName() {
+function getUserName()
+{  
+	var div = document.getElementById('ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer');
+	var children = div.childNodes;  
+	var name = "";
 	
-	return "Bill";
-	
-	
+        for (var i=0; i<children.length; i++)  
+	{    
+		if (children[i].innerHTML != null && children[i].innerHTML != "") 
+		{       
+			names = children[i].innerHTML.split(' ');
+			fName = names[0];
+		}  }
+  return name;
 }
