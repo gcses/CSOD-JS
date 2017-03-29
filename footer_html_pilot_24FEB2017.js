@@ -181,11 +181,7 @@ $(document).ready(function(){
 			} catch(err) {
 				console.log(".blue data = null");
 			}
-			try {
-				console.log(".blue * = " + $(this).*);
-			} catch(err) {
-				console.log(".blue * = null");
-			}
+			
 		});
 		
 		$('.cso-txt.blue span:contains("This training item is currently unavailable to you. Please select alternative training, or complete prior requirements before requesting this training.")').each(function(){
