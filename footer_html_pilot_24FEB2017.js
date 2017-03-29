@@ -151,6 +151,7 @@ $(document).ready(function(){
 
 		}
 		$('.cso-txt.blue span:contains("This training item is currently unavailable to you. Please select alternative training, or complete prior requirements before requesting this training.")').each(function(){
+			console.log("Curriculum warning found")
 			$(this).html($(this).html().replace('This training item is currently unavailable to you. Please select alternative training, or complete prior requirements before requesting this training.','This item is part of a curriculum. Please return to the previous page and select Request to access this item.'));
 		});
 //		console.log("replace() - End");
