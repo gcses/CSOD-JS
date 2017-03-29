@@ -3,9 +3,10 @@ $(document).ready(function(){
    
    //$name = $("{FIRSTNAME}");
   // $name = {FIRSTNAME};
-		
-   var $name = getUserName();
-	
+			
+ $( "ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer" ).find( "p" ).css( "color", "red" );
+	var $name = "k"; //getUserName();
+
    $('h2:contains("My Learning")').each(function(){
  	    $(this).html($(this).html().replace('My Learning', $name + '\'s Learning In Progress'));
 	});
