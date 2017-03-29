@@ -4,7 +4,7 @@ $(document).ready(function(){
    //$name = $("{FIRSTNAME}");
   // $name = {FIRSTNAME};
 			
- $( "ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer" ).find( "p" ).css( "color", "red" );
+ $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").find( "p" ).css( "color", "red" );
 	var $name = "k"; //getUserName();
 
    $('h2:contains("My Learning")').each(function(){
