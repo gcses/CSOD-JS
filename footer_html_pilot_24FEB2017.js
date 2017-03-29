@@ -119,7 +119,14 @@ $(document).ready(function(){
 						elementChildNodes[sub].text = elementChildNodes[sub].text.replace(new RegExp("Online Class", "g"), "Web-based Training");
 					} catch(err) {
 					}
-
+					try {
+						if (elementChildNodes[sub].id.substr(-19) === "_ucPrice_lblLoPrice") {
+							if (elementChildNodes[sub].innerHTML.indexOf("$0.00") > -1) {
+								elementChildNodes[sub].innerHTML = "!@#$#@!";
+							}
+						}
+					} catch(err) {
+					}
 				}
 
 			}
