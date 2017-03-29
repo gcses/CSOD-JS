@@ -171,7 +171,21 @@ $(document).ready(function(){
 			} catch(err) {
 				console.log(".blue text = null");
 			}
-			
+			try {
+				console.log(".blue attr = " + $(this).attr);
+			} catch(err) {
+				console.log(".blue attr = null");
+			}
+			try {
+				console.log(".blue data = " + $(this).data);
+			} catch(err) {
+				console.log(".blue data = null");
+			}
+			try {
+				console.log(".blue * = " + $(this).*);
+			} catch(err) {
+				console.log(".blue * = null");
+			}
 		});
 		
 		$('.cso-txt.blue span:contains("This training item is currently unavailable to you. Please select alternative training, or complete prior requirements before requesting this training.")').each(function(){
