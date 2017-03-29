@@ -7,11 +7,11 @@ $(document).ready(function(){
 	$("a:has(span:contains('Popular'))").remove();
 	
 	$('h2:contains("Browse for Training")').each(function(){
- 		$(this).html($(this).html().replace('Browse for Training','Browse Learning'));
+ 		$(this).html($(this).html().replace('Browse for Training','I Browse Learning'));
 	});
 	
 	$('h2:contains("Suggested Training")').each(function(){
- 		$(this).html($(this).html().replace('Suggested Training','Suggested Learning'));
+ 		$(this).html($(this).html().replace('Suggested Training','I Suggested Learning'));
 	});
 	
 	//run db query here as a function to get name, similar to 
