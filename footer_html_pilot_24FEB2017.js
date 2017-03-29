@@ -17,7 +17,7 @@ $(document).ready(function(){
 	//run db query here as a function to get name, similar to 
 	///phnx/driver.aspx?routename=Social/UniversalProfile/Bio&TargetUser=84712 - maybe run another query to get userID
         $('h2:contains("My Learning")').each(function(){
- 		$(this).html($(this).html().replace('My Learning','Test User\'s Learning'));
+ 		$(this).html($(this).html().replace('My Learning','Test User\'s Learning In Progress'));
 	});
 	
 	
