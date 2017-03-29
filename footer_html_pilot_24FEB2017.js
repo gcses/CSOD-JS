@@ -16,7 +16,7 @@ $(document).ready(function(){
 
 	//fetch tag and apply
 	
-        $name = $("{FIRSTNAME}");
+        $name = 'Bill';    //$("{FIRSTNAME}");
 	$('h2:contains("My Learning")').each(function(){
  		$(this).html($(this).html().replace('My Learning', $name + '\'s Learning In Progress'));
 	});
