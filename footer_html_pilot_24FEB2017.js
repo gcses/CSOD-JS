@@ -150,7 +150,7 @@ $(document).ready(function(){
 			}
 
 		}
-		
+/*
 		$('.blue').each(function(){
 			
 			try {
@@ -180,5 +180,14 @@ $(document).ready(function(){
 			console.log("Curriculum warning found");
 			$(this).html($(this).html().replace('This training item is currently unavailable to you. Please select alternative training, or complete prior requirements before requesting this training.','This item is part of a curriculum. Please return to the previous page and select Request to access this item.'));
 		});
+*/
+		if (document.getElementById("common-messages")) {
+			try {
+				console.log("common-messages = " + document.getElementById("common-messages").innerHTML);
+			} catch(err) {
+				console.log("common-messages = null");
+			}
+		}
+		
 //		console.log("replace() - End");
 	}
