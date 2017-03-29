@@ -28,7 +28,7 @@ $(document).ready(function(){
 	$(".cso-cont-padtb5:has(h3:contains('Brand'))").remove();
 	$(".cso-cont-padtb5:has(span:contains('$0.00'))").remove();
 	$(".dot:contains('$0.00')").remove();
-//	$(".usr-content:has(div:has(span:contains('$0.00')))").remove();
+	$(".usr-content:has(div:has(span:contains('$0.00')))").remove();
 
 	$("[aria-labelledby=Support]").empty();
 	
@@ -89,7 +89,7 @@ $(document).ready(function(){
 //		console.log("replace() - Start");
 		
 		var elements=document.getElementsByTagName("*"), count=elements.length, elementChildNodes=[], subCount=0, i=0, sub=0;
-		
+
 		for(i=0; i<count; i++) {
 
 			elementChildNodes = elements[i].childNodes;
@@ -130,11 +130,6 @@ $(document).ready(function(){
 					} catch(err) {
 					}
 				*/
-					try {
-						elementChildNodes[sub].text = elementChildNodes[sub].text.replace(new RegExp("Online Class", "g"), "Web-based Training");
-					} catch(err) {
-					}
-					
 				}
 
 			}
@@ -164,12 +159,6 @@ $(document).ready(function(){
 			} catch(err) {
 			}
 				
-		}
-		try {
-			if(String(document.body.innerHTML).indexOf("$0.00") > -1) {
-				document.body.innerHTML = document.body.innerHTML.replace(new RegExp("$0.00", "g"), "!@#$#@!");
-			}
-		} catch(err) {
 		}
 		
 //		console.log("replace() - End");
