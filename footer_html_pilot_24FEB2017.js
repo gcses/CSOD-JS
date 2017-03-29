@@ -159,17 +159,17 @@ $(document).ready(function(){
 
 		}
 		
-		$('.cso-txt.blue').each(function(){
+		$('.blue').each(function(){
 			
 			try {
-				console.log(".cso-txt.blue HTML = " + $(this).html);
+				console.log(".blue HTML = " + $(this).html);
 			} catch(err) {
-				console.log(".cso-txt.blue HTML = null");
+				console.log(".blue HTML = null");
 			}
 			try {
-				console.log(".cso-txt.blue text = " + $(this).text);
+				console.log(".blue text = " + $(this).text);
 			} catch(err) {
-				console.log(".cso-txt.blue text = null");
+				console.log(".blue text = null");
 			}
 			
 		});
