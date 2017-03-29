@@ -23,11 +23,11 @@ $(document).ready(function(){
 	});
 	
 	
+	$("#Common-Messages").text("Info");
 	
-	
-	$('div.cso-txt:contains("training")').each(function(){
-            $(this).html($(this).html().replace('training','goldfish'));
-	});
+	//$('div.cso-txt:contains("training")').each(function(){
+        //    $(this).html($(this).html().replace('training','goldfish'));
+	//});
 	
 	$(".cso-cont-padtb5:has(h3:contains('Subjects'))").remove();
 	$(".cso-cont-padtb5:has(h3:contains('Available Languages'))").remove();
