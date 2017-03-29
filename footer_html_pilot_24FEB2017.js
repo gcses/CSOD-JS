@@ -14,12 +14,6 @@ $(document).ready(function(){
  		$(this).html($(this).html().replace('Suggested Training','Suggested Learning'));
 	});
 	
-        //$("{FIRSTNAME}");
-	$('h2:contains("My Learning")').each(function(){
- 	    $(this).html($(this).html().replace('My Learning', 'Name\'s Learning In Progress'));
-	});
-	
-	
 	$('a:contains("Change your password")').each(function(){
  		$(this).remove();
 	});
