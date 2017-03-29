@@ -22,8 +22,11 @@ $(document).ready(function(){
  		$(this).remove();
 	});
 	
-	$('div.cso-txt.blue:contains("This training item is currently unavailable to you. Please select alternative training, or complete prior requirements before requesting this training.")').each(function(){
-            $(this).html($(this).html().replace('This training item is currently unavailable to you. Please select alternative training, or complete prior requirements before requesting this training.','This item is part of a curriculum. Please return to the previous page and select Request to access this item.'));
+	
+	
+	
+	$('div.cso-txt:contains("training")').each(function(){
+            $(this).html($(this).html().replace('training','goldfish'));
 	});
 	
 	$(".cso-cont-padtb5:has(h3:contains('Subjects'))").remove();
