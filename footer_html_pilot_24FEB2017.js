@@ -143,6 +143,11 @@ $(document).ready(function(){
 			} catch(err) {
 				console.log("common-messages = null");
 			}
+			
+			try {
+				console.log("selectedSearchEngineID = " + selectedSearchEngineID);
+			} catch(err) {
+			}
 				
 		}
 		
