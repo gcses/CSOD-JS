@@ -4,7 +4,7 @@ $(document).ready(function(){
    //$name = $("{FIRSTNAME}");
   // $name = {FIRSTNAME};
 		
-   var $name = {FIRSTNAME};
+   var $name = getUserName();
 	
    $('h2:contains("My Learning")').each(function(){
  	    $(this).html($(this).html().replace('My Learning', $name.value + '\'s Learning In Progress'));
@@ -14,3 +14,10 @@ $(document).ready(function(){
 
    $smjquery('#main-menu').smartmenus('refresh');
 });
+
+function getUserName() {
+	
+	return "Bill";
+	
+	
+}
