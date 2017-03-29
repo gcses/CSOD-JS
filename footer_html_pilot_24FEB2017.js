@@ -160,7 +160,18 @@ $(document).ready(function(){
 		}
 		
 		$('.cso-txt.blue').each(function(){
-			console.log(".cso-txt.blue HTML = " + $(this).html);
+			
+			try {
+				console.log(".cso-txt.blue HTML = " + $(this).html);
+			} catch(err) {
+				console.log(".cso-txt.blue HTML = null");
+			}
+			try {
+				console.log(".cso-txt.blue text = " + $(this).text);
+			} catch(err) {
+				console.log(".cso-txt.blue text = null");
+			}
+			
 		});
 		
 		$('.cso-txt.blue span:contains("This training item is currently unavailable to you. Please select alternative training, or complete prior requirements before requesting this training.")').each(function(){
