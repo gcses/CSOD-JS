@@ -7,17 +7,20 @@ $(document).ready(function(){
 	$("a:has(span:contains('Popular'))").remove();
 	
 	$('h2:contains("Browse for Training")').each(function(){
- 		$(this).html($(this).html().replace('Browse for Training','I Browse Learning'));
+ 		$(this).html($(this).html().replace('Browse for Training','Browse Learning'));
 	});
 	
 	$('h2:contains("Suggested Training")').each(function(){
- 		$(this).html($(this).html().replace('Suggested Training','I Suggested Learning'));
+ 		$(this).html($(this).html().replace('Suggested Training','Suggested Learning'));
 	});
-	
+
 	//run db query here as a function to get name, similar to 
 	///phnx/driver.aspx?routename=Social/UniversalProfile/Bio&TargetUser=84712 - maybe run another query to get userID
-        $('h2:contains("My Learning")').each(function(){
- 		$(this).html($(this).html().replace('My Learning','Test User\'s Learning In Progress'));
+        $name = $(this).html({FIRSTNAME});
+	alert($name);
+	$newString = $name + "\'s Learning In Progress";
+	$('h2:contains("My Learning")').each(function(){
+ 		$(this).html($(this).html().replace('My Learning', $newString));
 	});
 	
 	
@@ -159,27 +162,17 @@ $(document).ready(function(){
 
 		}
 		
-		$('.blue').each(function(){
+		$('.cso-txt.blue').each(function(){
 			
 			try {
-				console.log(".blue HTML = " + $(this).html);
+				console.log(".cso-txt.blue HTML = " + $(this).html);
 			} catch(err) {
-				console.log(".blue HTML = null");
+				console.log(".cso-txt.blue HTML = null");
 			}
 			try {
-				console.log(".blue text = " + $(this).text);
+				console.log(".cso-txt.blue text = " + $(this).text);
 			} catch(err) {
-				console.log(".blue text = null");
-			}
-			try {
-				console.log(".blue attr = " + $(this).attr);
-			} catch(err) {
-				console.log(".blue attr = null");
-			}
-			try {
-				console.log(".blue data = " + $(this).data);
-			} catch(err) {
-				console.log(".blue data = null");
+				console.log(".cso-txt.blue text = null");
 			}
 			
 		});
