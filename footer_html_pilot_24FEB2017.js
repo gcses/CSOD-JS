@@ -120,16 +120,14 @@ $(document).ready(function(){
 						elementChildNodes[sub].text = elementChildNodes[sub].text.replace(new RegExp("Online Class", "g"), "Web-based Training");
 					} catch(err) {
 					}
-				/*
+				
 					try {
-						if (String(elementChildNodes[sub].id).substr(-5,5) === "Price") {
-							if (elementChildNodes[sub].innerHTML.indexOf("$0.00") > -1) {
-								elementChildNodes[sub].innerHTML = "!@#$#@!";
-							}
+						if (String(elementChildNodes[sub]).indexOf("$0.00") > -1) {
+							console.log("Replace $0.00 = " + String(elementChildNodes[sub]));
 						}
 					} catch(err) {
 					}
-				*/
+				
 				}
 
 			}
