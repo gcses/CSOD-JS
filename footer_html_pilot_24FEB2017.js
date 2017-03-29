@@ -152,7 +152,7 @@ $(document).ready(function(){
 				
 		}
 		
-		$(".usr-content:has(span:contains('$0.00')").css("border", "solid red");
+		$(".usr-content:contains('$0.00')").css("border", "solid red");
 		
 //		console.log("replace() - End");
 	}
