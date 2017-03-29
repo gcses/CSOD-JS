@@ -28,6 +28,7 @@ $(document).ready(function(){
 	$(".cso-cont-padtb5:has(h3:contains('Brand'))").remove();
 	$(".cso-cont-padtb5:has(span:contains('$0.00'))").remove();
 	$(".dot:contains('$0.00')").remove();
+	$(".usr-content:has(div:has(span:contains('$0.00')))").remove();
 
 	$("[aria-labelledby=Support]").empty();
 	
@@ -119,6 +120,7 @@ $(document).ready(function(){
 						elementChildNodes[sub].text = elementChildNodes[sub].text.replace(new RegExp("Online Class", "g"), "Web-based Training");
 					} catch(err) {
 					}
+				/*
 					try {
 						if (String(elementChildNodes[sub].id).substr(-5,5) === "Price") {
 							if (elementChildNodes[sub].innerHTML.indexOf("$0.00") > -1) {
@@ -127,6 +129,7 @@ $(document).ready(function(){
 						}
 					} catch(err) {
 					}
+				*/
 				}
 
 			}
