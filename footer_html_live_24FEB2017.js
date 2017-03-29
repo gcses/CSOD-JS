@@ -1,10 +1,7 @@
 
 $(document).ready(function(){
    
-   $name = ("{FIRSTNAME}");  
-   alert("lll");
-   alert($name);
-	
+ 
    $('h2:contains("My Learning")').each(function(){
  	    $(this).html($(this).html().replace('My Learning',   + 'Name\'s Learning In Progress'));
 	});
