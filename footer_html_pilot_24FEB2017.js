@@ -22,10 +22,6 @@ $(document).ready(function(){
  		$(this).remove();
 	});
 	
-	$('div.cso-txt.blue:contains("This training item is currently unavailable to you. Please select alternative training, or complete prior requirements before requesting this training.")').each(function(){
-            $(this).html($(this).html().replace('This training item is currently unavailable to you. Please select alternative training, or complete prior requirements before requesting this training.','This item is part of a curriculum. Please return to the previous page and select Request to access this item.'));
-	});
-	
 	$(".cso-cont-padtb5:has(h3:contains('Subjects'))").remove();
 	$(".cso-cont-padtb5:has(h3:contains('Available Languages'))").remove();
 	$(".cso-cont-padtb5:has(h3:contains('Product'))").remove();
@@ -123,70 +119,31 @@ $(document).ready(function(){
 						elementChildNodes[sub].text = elementChildNodes[sub].text.replace(new RegExp("Online Class", "g"), "Web-based Training");
 					} catch(err) {
 					}
-					
-					try {
-						elementChildNodes[sub].innerHTML = elementChildNodes[sub].innerHTML.replace(new RegExp("This training item is currently unavailable to you. Please select alternative training, or complete prior requirements before requesting this training.", "g"), "This item is part of a curriculum. Please return to the previous page and select Request to access this item.");
-					} catch(err) {
-					}
-					try {
-						elementChildNodes[sub].nodeValue = elementChildNodes[sub].nodeValue.replace(new RegExp("This training item is currently unavailable to you. Please select alternative training, or complete prior requirements before requesting this training.", "g"), "This item is part of a curriculum. Please return to the previous page and select Request to access this item.");
-					} catch(err) {
-					}
-					try {	
-						elementChildNodes[sub].innerText = elementChildNodes[sub].innerText.replace(new RegExp("This training item is currently unavailable to you. Please select alternative training, or complete prior requirements before requesting this training.", "g"), "This item is part of a curriculum. Please return to the previous page and select Request to access this item.");
-					} catch(err) {
-					}
-					try {
-						elementChildNodes[sub].textContent = elementChildNodes[sub].textContent.replace(new RegExp("This training item is currently unavailable to you. Please select alternative training, or complete prior requirements before requesting this training.", "g"), "This item is part of a curriculum. Please return to the previous page and select Request to access this item.");
-					} catch(err) {
-					}
-					try {
-						elementChildNodes[sub].text = elementChildNodes[sub].text.replace(new RegExp("This training item is currently unavailable to you. Please select alternative training, or complete prior requirements before requesting this training.", "g"), "This item is part of a curriculum. Please return to the previous page and select Request to access this item.");
-					} catch(err) {
-					}
 
 				}
 
 			}
 
 		}
-/*
-		$('.blue').each(function(){
-			
-			try {
-				console.log(".blue HTML = " + $(this).html);
-			} catch(err) {
-				console.log(".blue HTML = null");
-			}
-			try {
-				console.log(".blue text = " + $(this).text);
-			} catch(err) {
-				console.log(".blue text = null");
-			}
-			try {
-				console.log(".blue attr = " + $(this).attr);
-			} catch(err) {
-				console.log(".blue attr = null");
-			}
-			try {
-				console.log(".blue data = " + $(this).data);
-			} catch(err) {
-				console.log(".blue data = null");
-			}
-			
-		});
-		
-		$('.cso-txt.blue span:contains("This training item is currently unavailable to you. Please select alternative training, or complete prior requirements before requesting this training.")').each(function(){
-			console.log("Curriculum warning found");
-			$(this).html($(this).html().replace('This training item is currently unavailable to you. Please select alternative training, or complete prior requirements before requesting this training.','This item is part of a curriculum. Please return to the previous page and select Request to access this item.'));
-		});
-*/
+
 		if (document.getElementById("common-messages")) {
+			
 			try {
-				console.log("common-messages = " + document.getElementById("common-messages").innerHTML);
+				
+				if (document.getElementById("common-messages").innerHTML.indexOf("This training item is currently unavailable to you.") > -1) {
+					
+				document.getElementById("common-messages").innerHTML = '<div>' +
+                
+				'<span class="cso-txt blue">' +
+					'This item is part of a curriculum. ' +
+					'Please return to the previous page and select Request to access this item.' +
+				'</span>' +
+				'</div>';
+					
 			} catch(err) {
 				console.log("common-messages = null");
 			}
+				
 		}
 		
 //		console.log("replace() - End");
