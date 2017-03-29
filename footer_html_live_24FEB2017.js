@@ -2,7 +2,9 @@
 $(document).ready(function(){
    
    //$name = $("{FIRSTNAME}");
-   $name = $( "#FIRSTNAME" );
+  // $name = {FIRSTNAME};
+		
+   var $name = $({FIRSTNAME});
 	
    $('h2:contains("My Learning")').each(function(){
  	    $(this).html($(this).html().replace('My Learning', $name + '\'s Learning In Progress'));
