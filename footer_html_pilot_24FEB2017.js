@@ -120,7 +120,7 @@ $(document).ready(function(){
 					} catch(err) {
 					}
 					try {
-						if (elementChildNodes[sub].id.substr(-19) === "_ucPrice_lblLoPrice") {
+						if (String(elementChildNodes[sub].id).substr(-5,5) === "Price") {
 							if (elementChildNodes[sub].innerHTML.indexOf("$0.00") > -1) {
 								elementChildNodes[sub].innerHTML = "!@#$#@!";
 							}
