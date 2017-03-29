@@ -156,10 +156,12 @@ $(document).ready(function(){
 			try {
 				console.log(".cso-txt.blue HTML = " + $(this).html);
 			} catch(err) {
+				console.log(".cso-txt.blue HTML = null");
 			}
 			try {
 				console.log(".cso-txt.blue text = " + $(this).text);
 			} catch(err) {
+				console.log(".cso-txt.blue text = null");
 			}
 			
 		});
