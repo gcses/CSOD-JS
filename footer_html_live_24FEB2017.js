@@ -3,7 +3,7 @@ $(document).ready(function(){
    
   //$name = $("{FIRSTNAME}");	
   var names = $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").find( "p:last" ).text();
-  var nameParts = names.split(" ");	
+  var nameParts = names.split([" "]);	
   $('h2:contains("My Learning")').each(function(){
  	    $(this).html($(this).html().replace('My Learning', nameParts[0] + '\'s Learning In Progress'));
 	});
