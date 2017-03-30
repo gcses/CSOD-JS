@@ -7,7 +7,7 @@ $(document).ready(function(){
   // var selectedSearchEngineId = $("input[id*='hfCurrentSearchEngine']").val();
   // ShowAdvanceControl(selectedSearchEngineId);
 //	$('#btnSun').click(myFunction);
-  document.getElementById("lnkShowMoreSearchOptions").click();
+ // document.getElementById("lnkShowMoreSearchOptions").click();
 	
   //hide the first name field. It is only included to that we can use the name elsewhere
   $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl01_widgetContainer_ctl00_htmlContainer").hide();
