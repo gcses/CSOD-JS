@@ -1,7 +1,7 @@
 
 $(document).ready(function(){
    
-  var fName = $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl01_widgetContainer_ctl00_htmlContainer").innerHTML;
+  var fName = $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl01_widgetContainer_ctl00_htmlContainer").text();
 
   $('h2:contains("My Learning")').each(function(){
  	    $(this).html($(this).html().replace('My Learning', fName + '\'s Learning In Progress'));
