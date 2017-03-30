@@ -173,11 +173,12 @@ $(document).ready(function(){
 	}
 
 	function eventFire(element, elementType){
-	  if (element.fireEvent) {
-	    element.fireEvent('on' + elementType);
-	  } else {
-	    var eventObject = document.createEvent('Events');
-	    eventObject.initEvent(elementType, true, false);
-	    element.dispatchEvent(eventObject);
-	  }
+		if (element.fireEvent) {
+			element.fireEvent('on' + elementType);
+		} else {
+			var eventObject = document.createEvent('Events');
+			eventObject.initEvent(elementType, true, false);
+			element.dispatchEvent(eventObject);
+		}
+		$("#cs-advsrch-close-btn").remove();
 	}
