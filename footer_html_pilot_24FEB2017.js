@@ -154,6 +154,7 @@ $(document).ready(function(){
 		
 		$(".usr-content:contains('$0.00')").css("border", "solid red");
 		$(".usr-content:contains('$0.00')").each(function(){
+			$(this).html($(this).html().replace('Total Price',''));
  			$(this).html($(this).html().replace('$0.00',''));
 		});
 		
