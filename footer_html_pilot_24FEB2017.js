@@ -158,9 +158,10 @@ $(document).ready(function(){
 <span class="cs-moresrchoptns-cont">Refine search</span>
 </a>
 */
-		$("#lnkShowMoreSearchOptions").css("border", "3px solid red");
+		$("#lnkShowMoreSearchOptions").each(function(){
 //		$("div[style='width: 420px; text-align: left; margin-top: 10px; margin-bottom: 10px;']");
-//			eventFire(document.getElementById('lnkShowMoreSearchOptions'), 'click');
+			eventFire(document.getElementById('lnkShowMoreSearchOptions'), 'click');
+		});
 		
 //		$(".usr-content:contains('$0.00')").css("border", "solid red");
 		$(".usr-content:contains('$0.00')").each(function(){
