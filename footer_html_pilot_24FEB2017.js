@@ -157,7 +157,7 @@ $(document).ready(function(){
 		$(".usr-content:contains('$0.00')").each(function(){
 			$(this).html($(this).html().replace('Total Price',''));
  			$(this).html($(this).html().replace('$0.00',''));
-			$(this).html($(this).html().replace(/|([^|]*)$/,'$1'));
+			$(this).html($(this).html().replace(/|([^|]*)$/,'$1');
 		});
 		
 //		console.log("replace() - End");
