@@ -158,7 +158,7 @@ $(document).ready(function(){
 <span class="cs-moresrchoptns-cont">Refine search</span>
 </a>
 */
-		$("a[style='display: inline-block;']").css("border", "3px solid red");
+		$("#lnkShowMoreSearchOptions").css("border", "3px solid red");
 //		$("div[style='width: 420px; text-align: left; margin-top: 10px; margin-bottom: 10px;']");
 //			eventFire(document.getElementById('lnkShowMoreSearchOptions'), 'click');
 		
