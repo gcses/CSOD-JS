@@ -5,7 +5,7 @@ $(document).ready(function(){
 			
   var $Ps = $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").find( "p" ).text();
   //var $names = $Ps[$Ps.length - 1].text();
-  $names = $Ps;
+  $names = "me";
 	
 	$('h2:contains("My Learning")').each(function(){
  	    $(this).html($(this).html().replace('My Learning', $names + '\'s Learning In Progress'));
