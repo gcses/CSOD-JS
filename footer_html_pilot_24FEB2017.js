@@ -152,6 +152,14 @@ $(document).ready(function(){
 			}
 				
 		}
+
+/*
+<a id="lnkShowMoreSearchOptions" href="javascript:void(0)" style="display: inline-block;" title="Refine search">
+<span class="cs-moresrchoptns-cont">Refine search</span>
+</a>
+*/
+		$("#lnkShowMoreSearchOptions[style='display: inline-block;']").css("border", "3px solid red");
+//			eventFire(document.getElementById('lnkShowMoreSearchOptions'), 'click');
 		
 //		$(".usr-content:contains('$0.00')").css("border", "solid red");
 		$(".usr-content:contains('$0.00')").each(function(){
@@ -160,4 +168,14 @@ $(document).ready(function(){
 		});
 		
 //		console.log("replace() - End");
+	}
+
+	function eventFire(element, elementType){
+	  if (element.fireEvent) {
+	    element.fireEvent('on' + elementType);
+	  } else {
+	    var eventObject = document.createEvent('Events');
+	    eventObject.initEvent(elementType, true, false);
+	    element.dispatchEvent(eventObject);
+	  }
 	}
