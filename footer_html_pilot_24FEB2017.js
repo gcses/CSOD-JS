@@ -163,6 +163,8 @@ $(document).ready(function(){
 			eventFire(document.getElementById('lnkShowMoreSearchOptions'), 'click');
 		});
 		
+		$("#cs-advsrch-close-btn").remove();
+		
 //		$(".usr-content:contains('$0.00')").css("border", "solid red");
 		$(".usr-content:contains('$0.00')").each(function(){
 			$(this).html($(this).html().replace('Total Price',''));
@@ -180,5 +182,4 @@ $(document).ready(function(){
 			eventObject.initEvent(elementType, true, false);
 			element.dispatchEvent(eventObject);
 		}
-		$("#cs-advsrch-close-btn").remove();
 	}
