@@ -93,7 +93,7 @@ $(document).ready(function(){
 		
 //		console.log("replace() - Start");
 		
-		var elements=document.getElementsByTagName("*"), count=elements.length, elementChildNodes=[], subCount=0, i=0, sub=0;
+		var elements=document.getElementsByTagName("*"), count=elements.length, elementChildNodes=[], subCount=0, i=0, sub=0, elementHeight=0;
 
 		for(i=0; i<count; i++) {
 
@@ -169,7 +169,8 @@ $(document).ready(function(){
 			//<span class="input-cont">
 			
 			$("#srch-ctrl").each(function(){
-				console.log("#srch-ctrl.offsetHeight = " + $(this).offsetHeight);
+				elementHeight = $(this).style.height;
+				console.log("#srch-ctrl.offsetHeight = " + elementHeight);
 			});
 			eventFire(document.getElementById('lnkShowMoreSearchOptions'), 'click');
 		});
