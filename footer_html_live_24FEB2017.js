@@ -1,13 +1,16 @@
 
 $(document).ready(function(){
 	
-   //show the advanced global search options by default
-  // $("#ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_hfCurrentSearchEngine").show();
-  // $("ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_hfAdvanceOptions").show();
-  // var selectedSearchEngineId = $("input[id*='hfCurrentSearchEngine']").val();
-  // ShowAdvanceControl(selectedSearchEngineId);
-//	$('#btnSun').click(myFunction);
- // document.getElementById("lnkShowMoreSearchOptions").click();
+  //show the advanced search option whenever search is shown
+  $("#lnkShowMoreSearchOptions").each(function(){
+      $("#srch-ctrl").each(function(){
+	 console.log("#srch-ctrl.offsetHeight = " + $(this).offsetHeight);
+	});
+	eventFire(document.getElementById('lnkShowMoreSearchOptions'), 'click');
+   });
+
+  //remove the close button on the advanced options
+  $(".cs-advsrch-close-btn").remove();
 	
   //hide the first name field. It is only included to that we can use the name elsewhere
   $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl01_widgetContainer_ctl00_htmlContainer").hide();
