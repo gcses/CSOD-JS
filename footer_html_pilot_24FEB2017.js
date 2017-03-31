@@ -168,10 +168,10 @@ $(document).ready(function(){
 			//<div class="input-cont-outer">
 			//<span class="input-cont">
 			
-			$("#srch-ctrl").each(function(){
-				elementHeight = $(this).style.height;
-				console.log("#srch-ctrl.offsetHeight = " + elementHeight);
-			});
+//			$(".input-cont-outer").each(function(){
+//				elementHeight = $(this).style.height;
+//				console.log("#srch-ctrl.offsetHeight = " + elementHeight);
+//			});
 			eventFire(document.getElementById('lnkShowMoreSearchOptions'), 'click');
 		});
 		
