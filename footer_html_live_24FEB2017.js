@@ -1,8 +1,8 @@
 
 $(document).ready(function(){
 	
-   $("#ctl00_breadCrumbs_rpBreadCrumbs_ctl00_breadCrumb_breadTitle").remove();
-	
+   $("#ctl00_breadCrumbs_rpBreadCrumbs_ctl00_breadCrumb_breadTitle").hide();
+
 	
   //show the advanced search option whenever search is shown
   $("#lnkShowMoreSearchOptions").each(function(){
