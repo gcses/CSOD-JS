@@ -163,9 +163,9 @@ $(document).ready(function(){
 			eventFire(document.getElementById('lnkShowMoreSearchOptions'), 'click');
 		});
 		
-		$("#srch-ctrl").each(function() {
+		$("#srch-ctrl").each(function(){
 			console.log("#srch-ctrl.offsetHeight = " + $(this).offsetHeight);
-		}
+		});
 		
 		$(".cs-advsrch-close-btn").remove();
 /*		
