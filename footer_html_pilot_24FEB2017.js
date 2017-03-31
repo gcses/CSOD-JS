@@ -160,11 +160,14 @@ $(document).ready(function(){
 */
 		$("#lnkShowMoreSearchOptions").each(function(){
 //		$("div[style='width: 420px; text-align: left; margin-top: 10px; margin-bottom: 10px;']");
+			
+			//<div class="input-cont-outer">
+			//<span class="input-cont">
+			
+			$("div.input-cont-outer:has(span.input-cont)").each(function(){
+				console.log("div.input-cont-outer:has(span.input-cont).offsetHeight = " + $(this).offsetHeight);
+			});
 			eventFire(document.getElementById('lnkShowMoreSearchOptions'), 'click');
-		});
-		
-		$("#srch-ctrl").each(function(){
-			console.log("#srch-ctrl.offsetHeight = " + $(this).offsetHeight);
 		});
 		
 		$(".cs-advsrch-close-btn").remove();
