@@ -160,11 +160,12 @@ $(document).ready(function(){
 */
 		$("#lnkShowMoreSearchOptions").each(function(){
 //		$("div[style='width: 420px; text-align: left; margin-top: 10px; margin-bottom: 10px;']");
-			$("#srch-ctrl").each(function() {
-				console.log("#srch-ctrl.offsetHeight = " + $(this).offsetHeight);
-			}
 			eventFire(document.getElementById('lnkShowMoreSearchOptions'), 'click');
 		});
+		
+		$("#srch-ctrl").each(function() {
+			console.log("#srch-ctrl.offsetHeight = " + $(this).offsetHeight);
+		}
 		
 		$(".cs-advsrch-close-btn").remove();
 /*		
