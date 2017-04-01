@@ -1,8 +1,26 @@
 
 $(document).ready(function(){
 	
-   $("#ctl00_breadCrumbs_rpBreadCrumbs_ctl00_breadCrumb_breadTitle").hide();
-
+   $("#ctl00_breadCrumbs_rpBreadCrumbs_ctl00_breadCrumb_breadTitle").css({ 'color': 'red', 'font-size': '150%' });
+	
+	
+	/*
+	try {
+				if (document.getElementById("common-messages").innerHTML.indexOf("This training item is currently unavailable to you.") > -1) {
+					
+					document.getElementById("common-messages").innerHTML = '<div>' +
+                
+						'<span class="cso-txt blue">' +
+						'This item is part of a curriculum. ' +
+						'Please return to the previous page and select Request to access this item.' +
+						'</span>' +
+					'</div>';
+					
+				}
+			} catch(err) {
+				console.log("common-messages = null");
+			}
+*/
 	
   //show the advanced search option whenever search is shown
   $("#lnkShowMoreSearchOptions").each(function(){
