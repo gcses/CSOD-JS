@@ -71,12 +71,14 @@ $(document).ready(function(){
                        			' &#215;' +
                     			'</a><span class="cso-txt-lrg" style="line-height:normal;">Refine your search</span></div>';
 
+		  queryElement.innerHTML +=  '<div id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_divAdvanceControls" class="divAdvanceControls" style="display: none" engineId="1">' +
+					     '<span class="cs-advsrch-item1">' +
+        				     '<label class="cs-acc-hid-con" for="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_tbKeywords">Keywords:</label>' +
+       					     '<input name="ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$rptAdvanceControls$ctl00$ctl00$tbKeywords" type="text" maxlength="100" id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_tbKeywords" class="cs-advsrch-input" /><input type="hidden" name="ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$rptAdvanceControls$ctl00$ctl00$atxKeywords_ClientState" id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_atxKeywords_ClientState" />' +
+    					     '</span><span class="cs-advsrch-item1">';
+        
 
-		
-	       //queryElement.innerHTML += '<div><span class="cs-advsrch-item1"><label class="cso-txt b2">Brand:</label>' +
-		//			'<span id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_rptCustomFields_ctl00_ucCFWrapper">' +
-		//			'<input name="ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$rptAdvanceControls$ctl00$ctl00$rptCustomFields$ctl00$ucCFWrapper$ctl00$parentValue" type="hidden" id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_rptCustomFields_ctl00_ucCFWrapper_ctl00_parentValue" />';
-
+		//L. 1791
 		
 	
 	
