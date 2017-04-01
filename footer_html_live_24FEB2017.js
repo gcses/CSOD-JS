@@ -5,9 +5,16 @@ $(document).ready(function(){
 		
 	
 	 $('.cs-main-sep').innerHTML = 
-		  "<span class='input-cont'>" +
-			"<label for='ctl00_ContentPlaceHolder1_txtsearch' id='ctl00_ContentPlaceHolder1_lblSearch' class='cs-acc-hid-con'>What would you like to search for?</label>" +
-		  "</span>";
+		 
+	var sepElements = document.getElementsByClassName("cs-main-sep"). 
+	var queryElement = sepElements[0];
+	queryElement.innerHTML = '<div>' +
+                
+						'<span class="cso-txt blue">' +
+						'This item is part of a curriculum. ' +
+						'Please return to the previous page and select Request to access this item.' +
+						'</span>' +
+					'</div>';
 
 				
 		 //$('.cso-h1').css("color", "red");		
