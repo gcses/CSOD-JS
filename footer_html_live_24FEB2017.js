@@ -1,7 +1,7 @@
 
 $(document).ready(function(){
 	
-   $("#ctl00_breadCrumbs_rpBreadCrumbs_ctl00_breadCrumb_breadTitle").css({ 'color': 'red', 'font-size': '150%' });
+   $('.cso-title-cont cso-wsp-cont h1').css({ 'color': 'red', 'font-size': '150%' });
 	
 	
 	/*
