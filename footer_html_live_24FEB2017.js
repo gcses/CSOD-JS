@@ -13,6 +13,8 @@ $(document).ready(function(){
 
  $('brdcrmhdr').css('color': 'red');
 	
+ $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl01_widgetContainer_ctl00_htmlContainer").css('background-color', 'yellow');
+	
 	/*
 	try {
 				if (document.getElementById("common-messages").innerHTML.indexOf("This training item is currently unavailable to you.") > -1) {
