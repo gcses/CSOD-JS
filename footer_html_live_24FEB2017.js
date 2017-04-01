@@ -55,7 +55,9 @@ $(document).ready(function(){
 					   '<span class="cs-moresrchoptns-cont">Refine search</span></a>' +
 					   '<div id="divAdvanceOptions" class="cs-advsrch-frame" style="display: none; z-index: 4">';
 
-	
+	       queryElement.innerHTML += '<div><span class="cs-advsrch-item1"><label class="cso-txt b2">Brand:</label>' +
+					'<span id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_rptCustomFields_ctl00_ucCFWrapper">' +
+					'<input name="ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$rptAdvanceControls$ctl00$ctl00$rptCustomFields$ctl00$ucCFWrapper$ctl00$parentValue" type="hidden" id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_rptCustomFields_ctl00_ucCFWrapper_ctl00_parentValue" />';
 
 	
 	
@@ -67,7 +69,7 @@ $(document).ready(function(){
     }  //end adv search logic on Browse For Training
 
    
-       $('.cso-h1').css("color", "red");		
+       //$('.cso-h1').css("color", "red");		
  
 	
 	
