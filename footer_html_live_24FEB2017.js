@@ -13,8 +13,10 @@ $(document).ready(function(){
 		queryElement.innerHTML = '<div>' +
 		 		'<span class="cso-txt blue">' +
 				'<label for="ctl00_ContentPlaceHolder1_txtsearch" id="ctl00_ContentPlaceHolder1_lblSearch" class="cs-acc-hid-con">What would you like to search for?</label>' +
-				'This item is part of a curriculum. ' +
-				'Please return to the previous page and select Request to access this item.' +
+				'<input name="ctl00$ContentPlaceHolder1$txtsearch" type="text" maxlength="250" id="ctl00_ContentPlaceHolder1_txtsearch" title="Search" class="txtsearch" />' +
+				'<input type="hidden" name="ctl00$ContentPlaceHolder1$WcTextBoxWatermarkExtender1_ClientState" id="ctl00_ContentPlaceHolder1_WcTextBoxWatermarkExtender1_ClientState" />' +
+				'<select name="ctl00$ContentPlaceHolder1$ddlSearchEngine" id="ctl00_ContentPlaceHolder1_ddlSearchEngine" title="Select a category" class="ddlSearchEngine" style="width:118px;">' +
+					'<option selected="selected" value="1">Training</option></select>' +	 
 				'</span>' +
 				'</div>';
 
