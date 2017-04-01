@@ -51,7 +51,13 @@ $(document).ready(function(){
 		queryElement.innerHTML += '</span><span id="btSearch" class="cs-srch-btn-cont">' +
 					  '<button type="button" class="bd"><span class="cs-srch-btn-go">Search</span></button>' +
 					   '</span><br /></div>' +
-					   '<a id="lnkShowMoreSearchOptions" href="javascript:void(0)" style="display: none;" title="Refine search">';
+					   '<a id="lnkShowMoreSearchOptions" href="javascript:void(0)" style="display: none;" title="Refine search">' +
+					   '<span class="cs-moresrchoptns-cont">Refine search</span></a>' +
+					   '<div id="divAdvanceOptions" class="cs-advsrch-frame" style="display: none; z-index: 4">';
+
+	
+
+	
 	
 
 
@@ -61,7 +67,7 @@ $(document).ready(function(){
     }  //end adv search logic on Browse For Training
 
    
-       //$('.cso-h1').css("color", "red");		
+       $('.cso-h1').css("color", "red");		
  
 	
 	
