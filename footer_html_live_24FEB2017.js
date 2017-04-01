@@ -19,7 +19,6 @@ $(document).ready(function(){
 					'<option selected="selected" value="1">Training</option></select>' +	 
 				'</span>' +
 				'</div>';
-
 	}
 	
        // $('.cso-h1').css("color", "red");		
@@ -40,32 +39,6 @@ $(document).ready(function(){
 					<option selected="selected" value="1">Training</option>
 				</select>'		 
 */		 
-	
-
-
-// $('.cs-main-sep').css("background-color", "yellow");
-
-//$('.brdcrmhdr').css("color", "red");
-	
-//$("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl01_widgetContainer_ctl00_htmlContainer").css("background-color", "yellow");
-	
-	/*
-	try {
-				if (document.getElementById("common-messages").innerHTML.indexOf("This training item is currently unavailable to you.") > -1) {
-					
-					document.getElementById("common-messages").innerHTML = '<div>' +
-                
-						'<span class="cso-txt blue">' +
-						'This item is part of a curriculum. ' +
-						'Please return to the previous page and select Request to access this item.' +
-						'</span>' +
-					'</div>';
-					
-				}
-			} catch(err) {
-				console.log("common-messages = null");
-			}
-*/
 	
   //show the advanced search option whenever search is shown
   $("#lnkShowMoreSearchOptions").each(function(){
