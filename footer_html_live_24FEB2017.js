@@ -57,43 +57,24 @@ $(document).ready(function(){
 					<!-- Advanced Search Options -->
 					   '<div id="divAdvanceOptions" class="cs-advsrch-frame" style="display: none; z-index: 4">' +
 
-		'</div></span></div></div></div>';
+	
 		
-		/*
-		
-		    function passSerializedValuesBackToSearchPage(values) {
-        		ResetViewAfterPostback();
-        		globalSearchManager.onSearchButtonClick(values);
-   			 }
+		queryElement.innerHTML += '<div><span class="cs-advsrch-item1"><label class="cso-txt b2">Brand:</label>' +
+					'<span id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_rptCustomFields_ctl00_ucCFWrapper">' +
+					'<input name="ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$rptAdvanceControls$ctl00$ctl00$rptCustomFields$ctl00$ucCFWrapper$ctl00$parentValue" type="hidden" id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_rptCustomFields_ctl00_ucCFWrapper_ctl00_parentValue" />' +
+						   '<select name="ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$rptAdvanceControls$ctl00$ctl00$rptCustomFields$ctl00$ucCFWrapper$ctl00$lstControl" id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_rptCustomFields_ctl00_ucCFWrapper_ctl00_lstControl" class="FieldValue">' +
+					'<option selected="selected" value="-1">Select</option>' +
+					'<option value="1">Pyxis</option>' +
+					'<option value="2">Alaris</option>' +
+					'<option value="3">Cato</option>' +
+					'<option value="4">BD</option>' +
+					'<option value="5">MedMined</option>' +
+					'<option value="6">Rowa</option>' +
+					'<option value="7">V. Mueller</option>' +
+					'</select></span></span>';
 
-    		    function closeDialog() {
-       			globalSearchManager.closeAdvanceOptionIFrame();
-        		globalSearchManager.initMoreSearchOptions();
-   			 }
-
-   		   function HideAdvanceControl() {
-       			 $('.divAdvanceControls').hide();
-    			}
-
-    		   function ShowAdvanceControl(selectedSearchEngineId) {    
-        		$('.divAdvanceControls[engineId="' + selectedSearchEngineId + '"]').show();
-
-        	   //Set the search engine to the hidden field on the Advance Optional Control
-        	   $("input[id*='hfCurrentSearchEngine']").val(selectedSearchEngineId);
-			   
-	           function PopulateAdvanceFields(selectedSearchEngineId, advanceCoptions) {
-        		$("input[id*='hfCurrentSearchEngine']").val(selectedSearchEngineId);
-        		$("input[id*='hfAdvanceOptions']").val(advanceCoptions);
-        		__doPostBack('ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$lkPopulateAdvanceFields','');
-   			 }
-
-    		   function ResetViewAfterPostback(){
-        		//Set the Advance Control Visible based on the hidden field value
-        		var selectedSearchEngineId = $("input[id*='hfCurrentSearchEngine']").val();
-        		ShowAdvanceControl(selectedSearchEngineId);	
-			}
+		//queryElement.innerHTML += '</div></span></div></div></div>';
 			
-			*/
 
     }  //end adv search logic on Browse For Training
 
