@@ -1,8 +1,9 @@
 
 $(document).ready(function(){
 	
-   $('.cso-title-cont cso-wsp-cont h1').css({ 'color': 'red', 'font-size': '150%' });
+  // $('.cso-title-cont cso-wsp-cont h1').css({ 'color': 'red', 'font-size': '150%' });
 	
+ $('cso-h1').css({ 'color': 'red', 'font-size': '150%' });	
 	
 	/*
 	try {
