@@ -59,6 +59,7 @@ $(document).ready(function(){
 
 		'</div></span></div></div></div>';
 		
+		/*
 		
 		    function passSerializedValuesBackToSearchPage(values) {
         		ResetViewAfterPostback();
@@ -91,6 +92,8 @@ $(document).ready(function(){
         		var selectedSearchEngineId = $("input[id*='hfCurrentSearchEngine']").val();
         		ShowAdvanceControl(selectedSearchEngineId);	
 			}
+			
+			*/
 
     }  //end adv search logic on Browse For Training
 
