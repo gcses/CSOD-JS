@@ -10,7 +10,9 @@ $(document).ready(function(){
 		var queryElement = sepElements[0];
 	
 		//add html for search
-		queryElement.innerHTML = '<div>' +
+		queryElement.innerHTML = '<div class="srch-cont-outer">' +
+				'<div id="srch-ctrl" class="srch-cont">' +
+		        	'<div class="input-cont-outer">' +
 		 		'<span class="cso-txt blue">' +
 				'<label for="ctl00_ContentPlaceHolder1_txtsearch" id="ctl00_ContentPlaceHolder1_lblSearch" class="cs-acc-hid-con">What would you like to search for?</label>' +
 				'<input name="ctl00$ContentPlaceHolder1$txtsearch" type="text" maxlength="250" id="ctl00_ContentPlaceHolder1_txtsearch" title="Search" class="txtsearch" />' +
@@ -18,7 +20,7 @@ $(document).ready(function(){
 				'<select name="ctl00$ContentPlaceHolder1$ddlSearchEngine" id="ctl00_ContentPlaceHolder1_ddlSearchEngine" title="Select a category" class="ddlSearchEngine" style="width:118px;">' +
 					'<option selected="selected" value="1">Training</option></select>' +	 
 				'</span>' +
-				'</div>';
+				'</div></div></div>';
 	}
 	
        // $('.cso-h1').css("color", "red");		
