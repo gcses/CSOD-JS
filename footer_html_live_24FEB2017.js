@@ -1,9 +1,6 @@
 
 $(document).ready(function(){
 
-	 //$('.cs-main-sep').innerHTML = 
-        //get the separation div just below Browse For Training
-
 	if (document.title.indexOf("Browse for Training") > -1)
 	{			
 		var sepElements = document.getElementsByClassName("cs-main-sep"); 
@@ -21,9 +18,21 @@ $(document).ready(function(){
 					'<option selected="selected" value="1">Training</option></select>' +	 
 				'</span>' +
 				'</div></div></div>';
+		
+		function populatePSQuery_Search(query) {
+			query.index = $('#ctl00_ContentPlaceHolder1_ddlSearchEngine').val();
+			}
+
+		function psItemSelected_Search() {
+			if ($("#btSearch").is(':disabled') == false) {
+				$("#btSearch").click();
+			}
+		}
+
+		
 	}
 	
-       // $('.cso-h1').css("color", "red");		
+        $('.cso-h1').css("color", "red");		
  
 	
 	
