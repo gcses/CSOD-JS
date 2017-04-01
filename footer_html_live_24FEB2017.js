@@ -7,9 +7,11 @@ $(document).ready(function(){
  		$(this).html($(this).html().replace('Training','Fun'));
 	});
 	
- $('cso-h1').css({ 'color': 'red' });
-	
- $('brdcrmhdr').css({ 'color': 'red' });
+ $('cso-h1').css('color': 'red');
+
+ $('cs-main-sep').css('background-color', 'yellow');
+
+ $('brdcrmhdr').css('color': 'red');
 	
 	/*
 	try {
