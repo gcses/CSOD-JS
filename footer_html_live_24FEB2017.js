@@ -1,12 +1,9 @@
 
 $(document).ready(function(){
-	
-	
-		
-	
+
 	 //$('.cs-main-sep').innerHTML = 
 		 
-	var sepElements = document.getElementsByClassName("cs-main-sep"). 
+	var sepElements = document.getElementsByClassName("cs-main-sep"); 
 	var queryElement = sepElements[0];
 	queryElement.innerHTML = '<div>' +
                 
@@ -17,7 +14,7 @@ $(document).ready(function(){
 					'</div>';
 
 				
-		 //$('.cso-h1').css("color", "red");		
+   $('.cso-h1').css("color", "red");		
  
 	
 	
