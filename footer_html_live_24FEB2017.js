@@ -152,6 +152,24 @@ $(document).ready(function(){
 			'<option value="53">Tissue and Implant Module</option>' +
 			'<option value="54">VELA</option>' +
 			'</select></span></span>';
+		
+		queryElement.innerHTML += '<span class="cs-advsrch-item1"><label class="cso-txt b2">Role:</label>' +
+			'<span id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_rptCustomFields_ctl02_ucCFWrapper">' +
+			'<input name="ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$rptAdvanceControls$ctl00$ctl00$rptCustomFields$ctl02$ucCFWrapper$ctl00$parentValue" type="hidden" id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_rptCustomFields_ctl02_ucCFWrapper_ctl00_parentValue" /><select name="ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$rptAdvanceControls$ctl00$ctl00$rptCustomFields$ctl02$ucCFWrapper$ctl00$lstControl" id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_rptCustomFields_ctl02_ucCFWrapper_ctl00_lstControl" class="FieldValue">' +
+			'<option selected="selected" value="-1">Select</option>' +
+			'<option value="57">Administrator/System Manager</option>' +
+			'<option value="58">Anesthesia Provider</option>' +
+			'<option value="59">Biomed</option>' +
+			'<option value="60">Material Management personnel</option>' +
+			'<option value="61">Nurse/Clinician</option>' +
+			'<option value="62">Pharmacist</option>' +
+			'<option value="63">Pharmacy Technician</option>' +
+			'<option value="64">Radiology Technician</option>' +
+			'<option value="65">Respiratory Therapist</option>' +
+			'</select></span></span>';
+
+	
+		
 
     }  //end adv search logic on Browse For Training
 
