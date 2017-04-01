@@ -3,7 +3,9 @@ $(document).ready(function(){
 	
   // $('.cso-title-cont cso-wsp-cont h1').css({ 'color': 'red', 'font-size': '150%' });
 	
- $('cso-h1').css({ 'color': 'red', 'font-size': '150%' });	
+ $('cso-h1').css({ 'color': 'red' });
+	
+ $('brdcrmhdr').css({ 'color': 'red' });
 	
 	/*
 	try {
