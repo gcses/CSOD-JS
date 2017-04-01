@@ -15,9 +15,8 @@ $(document).ready(function(){
 				'<input name="ctl00$ContentPlaceHolder1$txtsearch" type="text" maxlength="250" id="ctl00_ContentPlaceHolder1_txtsearch" title="Search" class="txtsearch" />' +
 				'<input type="hidden" name="ctl00$ContentPlaceHolder1$WcTextBoxWatermarkExtender1_ClientState" id="ctl00_ContentPlaceHolder1_WcTextBoxWatermarkExtender1_ClientState" />' +
 				'<select name="ctl00$ContentPlaceHolder1$ddlSearchEngine" id="ctl00_ContentPlaceHolder1_ddlSearchEngine" title="Select a category" class="ddlSearchEngine" style="width:118px;">' +
-					'<option selected="selected" value="1">Training</option></select>' +	 
-				'</span>' +
-				'</div></div></div>';
+					'<option selected="selected" value="1">Training</option></select>';	 
+				
 		
 		function populatePSQuery_Search(query) {
 			query.index = $('#ctl00_ContentPlaceHolder1_ddlSearchEngine').val();
@@ -31,16 +30,15 @@ $(document).ready(function(){
 
 		queryElement.innerHTML += '<link rel="stylesheet" type="text/css" href="/Core/GlobalSearch/PredictiveSearch/PredictiveSearch.css" />' +      
     					  '<script src="/Core/GlobalSearch/PredictiveSearch/PredictiveSearch.js?hsh=-1363452586" type="text/javascript"></script>';
-
-		
-		 (function (onload) {
-            if (window.addEventListener) {
-                window.addEventListener('load', onload, false);
-            } else if (window.attachEvent) {
-                window.attachEvent('onload', onload);
-            }
-        })(function () {
-            new PredictiveSearch('ctl00_ContentPlaceHolder1_txtsearch',
+	
+		(function (onload) {
+            		if (window.addEventListener) {
+                		window.addEventListener('load', onload, false);
+            		} else if (window.attachEvent) {
+                		window.attachEvent('onload', onload);
+            		}
+        	})(function () {
+            	new PredictiveSearch('ctl00_ContentPlaceHolder1_txtsearch',
                          '/Core/GlobalSearch/PredictiveSearch/PredictiveSearchService.ashx',
                          '|rWhe3ES6+2gcQp01Yw9olk3oPo3K+lrChNP+K8aFfoWNm4hT0tqBCAdb+J/7YrHK4cM0CEqo5WyQzSCCx9mUVA==||',
                          'populatePSQuery_Search',
@@ -49,30 +47,23 @@ $(document).ready(function(){
                          '',
                          '2'
                 ).initialize();
-        });
+        	});
 
 		
-		/*
-			</span>
-									<span id="btSearch" class="cs-srch-btn-cont">
-										<button type="button" class="bd">
-										<span class="cs-srch-btn-go">Search</span>
-										</button>
-									</span>
-									<br />
-								</div>
-								<a id="lnkShowMoreSearchOptions" href="javascript:void(0)" style="display: none;" title='Refine search'>
-									<span class="cs-moresrchoptns-cont">Refine search</span>
-								</a>
-								<!-- Advanced Search Options -->
-								<div id="divAdvanceOptions" class="cs-advsrch-frame" style="display: none; z-index: 4">
-*/
+		queryElement.innerHTML += '</span><span id="btSearch" class="cs-srch-btn-cont">' +
+					  '<button type="button" class="bd"><span class="cs-srch-btn-go">Search</span></button>' +
+					   '</span><br /></div>' +
+					   '<a id="lnkShowMoreSearchOptions" href="javascript:void(0)" style="display: none;" title="Refine search">' +
+					   '<span class="cs-moresrchoptns-cont">Refine search</span></a>' +
+					<!-- Advanced Search Options -->
+					   '<div id="divAdvanceOptions" class="cs-advsrch-frame" style="display: none; z-index: 4">' +
+
 		
-		
+		'</div></span></div></div></div>';
 		
 	}
 	
-       $('.cso-h1').css("color", "red");		
+       //$('.cso-h1').css("color", "red");		
  
 	
 	
