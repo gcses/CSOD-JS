@@ -2,19 +2,20 @@
 $(document).ready(function(){
 
 	 //$('.cs-main-sep').innerHTML = 
-		 
+        //get the separation div just below Browse For Training
 	var sepElements = document.getElementsByClassName("cs-main-sep"); 
 	var queryElement = sepElements[0];
+	
+	//add html for search
 	queryElement.innerHTML = '<div>' +
-                
-						'<span class="cso-txt blue">' +
-						'This item is part of a curriculum. ' +
-						'Please return to the previous page and select Request to access this item.' +
-						'</span>' +
-					'</div>';
+				'<span class="cso-txt blue">' +
+				'This item is part of a curriculum. ' +
+				'Please return to the previous page and select Request to access this item.' +
+				'</span>' +
+				'</div>';
 
 				
-   $('.cso-h1').css("color", "red");		
+        $('.cso-h1').css("color", "red");		
  
 	
 	
