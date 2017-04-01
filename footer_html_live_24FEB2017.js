@@ -7,13 +7,14 @@ $(document).ready(function(){
  	//	$(this).html($(this).html().replace('Training','Fun'));
 	//});
 	
-	 $('.panel-rt').css("background-color", "yellow");
+
+	 $('.cs-main-sep').css("background-color", "yellow");
 	
- $('.cso-h1').css("color", "red");
+ //$('.cso-h1').css("color", "red");
 
- $('.cs-main-sep').css("background-color", "yellow");
+// $('.cs-main-sep').css("background-color", "yellow");
 
-$('.brdcrmhdr').css("color", "red");
+//$('.brdcrmhdr').css("color", "red");
 	
 //$("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl01_widgetContainer_ctl00_htmlContainer").css("background-color", "yellow");
 	
