@@ -3,6 +3,10 @@ $(document).ready(function(){
 	
   // $('.cso-title-cont cso-wsp-cont h1').css({ 'color': 'red', 'font-size': '150%' });
 	
+	$('h1:contains("Browse For Training")').each(function(){
+ 		$(this).html($(this).html().replace('Training','Fun'));
+	});
+	
  $('cso-h1').css({ 'color': 'red' });
 	
  $('brdcrmhdr').css({ 'color': 'red' });
