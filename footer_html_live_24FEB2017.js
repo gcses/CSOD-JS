@@ -64,7 +64,14 @@ $(document).ready(function(){
            				' <input type="hidden" name="ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$hfAdvanceOptions" id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_hfAdvanceOptions" />';
 
 		
-		
+		 queryElement.innerHTML += '<a id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_lkPopulateAdvanceFields" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$lkPopulateAdvanceFields&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"></a>' +
+            				'</span><div class="cs-advsrch-cont1">' +
+		  			'<div class="cs-advsrch-cont-title">' +
+				    	'<a class="cs-advsrch-close-btn" href="#" onclick="closeDialog(); return false;">' +
+                       			' &#215;' +
+                    			'</a><span class="cso-txt-lrg" style="line-height:normal;">Refine your search</span></div>';
+
+
 		
 	       //queryElement.innerHTML += '<div><span class="cs-advsrch-item1"><label class="cso-txt b2">Brand:</label>' +
 		//			'<span id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_rptCustomFields_ctl00_ucCFWrapper">' +
@@ -81,7 +88,7 @@ $(document).ready(function(){
     }  //end adv search logic on Browse For Training
 
    
-       $('.cso-h1').css("color", "red");		
+      // $('.cso-h1').css("color", "red");		
  
 	
 	
