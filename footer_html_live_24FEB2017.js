@@ -4,7 +4,7 @@ $(document).ready(function(){
 	
 		
 	
-	 $('.cs-main-sep').innerHTML = 
+	 //$('.cs-main-sep').innerHTML = 
 		 
 	var sepElements = document.getElementsByClassName("cs-main-sep"). 
 	var queryElement = sepElements[0];
