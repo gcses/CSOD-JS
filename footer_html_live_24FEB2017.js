@@ -4,7 +4,6 @@ $(document).ready(function(){
 	 //$('.cs-main-sep').innerHTML = 
         //get the separation div just below Browse For Training
 	
-	/*
 	var sepElements = document.getElementsByClassName("cs-main-sep"); 
 	var queryElement = sepElements[0];
 	
@@ -16,10 +15,9 @@ $(document).ready(function(){
 				'</span>' +
 				'</div>';
 
-				
         $('.cso-h1').css("color", "red");		
  
-	*/
+	
 	
 
 /*		 
