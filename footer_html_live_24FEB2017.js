@@ -3,12 +3,14 @@ $(document).ready(function(){
 
 	 //$('.cs-main-sep').innerHTML = 
         //get the separation div just below Browse For Training
+
+	if (document.title.indexOf("Browse for Training") > -1)
+	{			
+		var sepElements = document.getElementsByClassName("cs-main-sep"); 
+		var queryElement = sepElements[0];
 	
-	var sepElements = document.getElementsByClassName("cs-main-sep"); 
-	var queryElement = sepElements[0];
-	
-	//add html for search
-	queryElement.innerHTML = '<div>' +
+		//add html for search
+		queryElement.innerHTML = '<div>' +
 		 		'<span class="cso-txt blue">' +
 				'<label for="ctl00_ContentPlaceHolder1_txtsearch" id="ctl00_ContentPlaceHolder1_lblSearch" class="cs-acc-hid-con">What would you like to search for?</label>' +
 				'This item is part of a curriculum. ' +
@@ -16,7 +18,7 @@ $(document).ready(function(){
 				'</span>' +
 				'</div>';
 
-	
+	}
 	
        // $('.cso-h1').css("color", "red");		
  
