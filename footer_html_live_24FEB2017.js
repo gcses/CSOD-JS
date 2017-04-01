@@ -78,19 +78,28 @@ $(document).ready(function(){
     					     '</span><span class="cs-advsrch-item1">';
         
 
-		//L. 1791
+		//L. 1791- 
 		
-	
-	
+		 queryElement.innerHTML += '<span class="cs-advsrch-item1"><label class="cso-txt b2">Brand:</label>' +
+				'<span id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_rptCustomFields_ctl00_ucCFWrapper">' +
+				'<input name="ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$rptAdvanceControls$ctl00$ctl00$rptCustomFields$ctl00$ucCFWrapper$ctl00$parentValue" type="hidden" id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_rptCustomFields_ctl00_ucCFWrapper_ctl00_parentValue" /><select name="ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$rptAdvanceControls$ctl00$ctl00$rptCustomFields$ctl00$ucCFWrapper$ctl00$lstControl" id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_rptCustomFields_ctl00_ucCFWrapper_ctl00_lstControl" class="FieldValue">' +
+					'<option selected="selected" value="-1">Select</option>' +
+					'<option value="1">Pyxis</option>' +
+					'<option value="2">Alaris</option>' +
+					'<option value="3">Cato</option>' +
+					'<option value="4">BD</option>' +
+					'<option value="5">MedMined</option>' +
+					'<option value="6">Rowa</option>' +
+					'<option value="7">V. Mueller</option>' +
+					'</select></span>';
 
 
-		//queryElement.innerHTML += '</div></span></div></div></div>';
 			
 
     }  //end adv search logic on Browse For Training
 
    
-      // $('.cso-h1').css("color", "red");		
+       $('.cso-h1').css("color", "red");		
  
 	
 	
