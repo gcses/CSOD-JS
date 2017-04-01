@@ -1,16 +1,35 @@
 
 $(document).ready(function(){
 	
-  // $('.cso-title-cont cso-wsp-cont h1').css({ 'color': 'red', 'font-size': '150%' });
 	
-	//$('h1:contains("Browse For Training")').each(function(){
- 	//	$(this).html($(this).html().replace('Training','Fun'));
-	//});
+		
+	
+	 $('.cs-main-sep').innerHTML = 
+		  "<span class='input-cont'>" +
+			"<label for='ctl00_ContentPlaceHolder1_txtsearch' id='ctl00_ContentPlaceHolder1_lblSearch' class='cs-acc-hid-con'>What would you like to search for?</label>" +
+		  "</span>";
+
+				
+		 //$('.cso-h1').css("color", "red");		
+ 
+	
 	
 
-	 $('.cs-main-sep').css("background-color", "yellow");
+/*		 
+<!-- Search Bar -->
+		"<div class='srch-cont-outer'>
+		     <div id='srch-ctrl' class='srch-cont'>
+		        <div class='input-cont-outer'>
+			   <span class='input-cont'>
+				<label for="ctl00_ContentPlaceHolder1_txtsearch" id="ctl00_ContentPlaceHolder1_lblSearch" class="cs-acc-hid-con">What would you like to search for?</label>
+				<input name="ctl00$ContentPlaceHolder1$txtsearch" type="text" maxlength="250" id="ctl00_ContentPlaceHolder1_txtsearch" title="Search" class="txtsearch" />
+				<input type="hidden" name="ctl00$ContentPlaceHolder1$WcTextBoxWatermarkExtender1_ClientState" id="ctl00_ContentPlaceHolder1_WcTextBoxWatermarkExtender1_ClientState" />
+				<select name="ctl00$ContentPlaceHolder1$ddlSearchEngine" id="ctl00_ContentPlaceHolder1_ddlSearchEngine" title="Select a category" class="ddlSearchEngine" style="width:118px;">
+					<option selected="selected" value="1">Training</option>
+				</select>'		 
+*/		 
 	
- //$('.cso-h1').css("color", "red");
+
 
 // $('.cs-main-sep').css("background-color", "yellow");
 
