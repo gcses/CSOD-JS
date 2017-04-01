@@ -92,9 +92,66 @@ $(document).ready(function(){
 					'<option value="6">Rowa</option>' +
 					'<option value="7">V. Mueller</option>' +
 					'</select></span>';
-
-
-			
+		
+		queryElement.innerHTML += '</span><span class="cs-advsrch-item1"><label class="cso-txt b2">Product:</label>' +
+			'<span id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_rptCustomFields_ctl01_ucCFWrapper">' +
+			'<input name="ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$rptAdvanceControls$ctl00$ctl00$rptCustomFields$ctl01$ucCFWrapper$ctl00$parentValue" type="hidden" id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_rptCustomFields_ctl01_ucCFWrapper_ctl00_parentValue" /><select name="ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$rptAdvanceControls$ctl00$ctl00$rptCustomFields$ctl01$ucCFWrapper$ctl00$lstControl" id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_rptCustomFields_ctl01_ucCFWrapper_ctl00_lstControl" class="FieldValue">' +
+			'<option selected="selected" value="-1">Select</option>' +
+			'<option value="8">3100A HFOV</option>' +
+			'<option value="9">ACE</option>' +
+			'<option value="10">Alaris Server 9.2.1</option>' +
+			'<option value="79">Alaris Plus Editor</option>' +
+			'<option value="56">Alaris System with Guardrails Suite MX</option>' +
+			'<option value="80">Alaris Viewer Suite</option>' +
+			'<option value="11">Anesthesia ES</option>' +
+			'<option value="12">Anesthesia System</option>' +
+			'<option value="13">AVEA</option>' +
+			'<option value="76">CATO</option>' +
+			'<option value="14">CIISafe</option>' +
+			'<option value="15">Connect</option>' +
+			'<option value="16">CQI Reporter</option>' +
+			'<option value="17">DuoStation</option>' +
+			'<option value="18">EnVe</option>' +
+			'<option value="19">Gateway Workstation v1.2</option>' +
+			'<option value="78">Gateway Workstation v1.5</option>' +
+			'<option value="20">Guardrails Editor</option>' +
+			'<option value="21">IMPRESS</option>' +
+			'<option value="22">Infant Flow LP</option>' +
+			'<option value="23">Alaris Infusion System</option>' +
+			'<option value="24">Alaris Infusion Viewer</option>' +
+			'<option value="25">International (Non-USA)</option>' +
+			'<option value="26">Knowledge Portal</option>' +
+			'<option value="27">LTV</option>' +
+			'<option value="28">Medication Stewardship Advisor</option>' +
+			'<option value="29">MedMined</option>' +
+			'<option value="30">MedStation</option>' +
+			'<option value="31">MedStation ES</option>' +
+			'<option value="32">MicroLoop</option>' +
+			'<option value="55">N/A</option>' +
+			'<option value="33">Nurse Link</option>' +
+			'<option value="34">ParAssist</option>' +
+			'<option value="77">PARx</option>' +
+			'<option value="35">Patterns</option>' +
+			'<option value="36">PHACTS</option>' +
+			'<option value="37">Pharmacy</option>' +
+			'<option value="38">PharmoCode (Canada)</option>' +
+			'<option value="39">Pharmogistics</option>' +
+			'<option value="40">PharmoPack</option>' +
+			'<option value="41">ProcedureStation</option>' +
+			'<option value="42">Pyxis Advisor</option>' +
+			'<option value="43">Pyxis Control Center</option>' +
+			'<option value="44">Pyxis Enterprise Server</option>' +
+			'<option value="45">Pyxis ES</option>' +
+			'<option value="46">Pyxis ES Link</option>' +
+			'<option value="47">Pyxis IV</option>' +
+			'<option value="48">Pyxis Medication Dispensing</option>' +
+			'<option value="49">Respiratory</option>' +
+			'<option value="50">ScrubStation</option>' +
+			'<option value="51">SpecialtyStation</option>' +
+			'<option value="52">SupplyStation</option>' +
+			'<option value="53">Tissue and Implant Module</option>' +
+			'<option value="54">VELA</option>' +
+			'</select></span></span>';
 
     }  //end adv search logic on Browse For Training
 
