@@ -32,9 +32,47 @@ $(document).ready(function(){
 		queryElement.innerHTML += '<link rel="stylesheet" type="text/css" href="/Core/GlobalSearch/PredictiveSearch/PredictiveSearch.css" />' +      
     					  '<script src="/Core/GlobalSearch/PredictiveSearch/PredictiveSearch.js?hsh=-1363452586" type="text/javascript"></script>';
 
+		
+		 (function (onload) {
+            if (window.addEventListener) {
+                window.addEventListener('load', onload, false);
+            } else if (window.attachEvent) {
+                window.attachEvent('onload', onload);
+            }
+        })(function () {
+            new PredictiveSearch('ctl00_ContentPlaceHolder1_txtsearch',
+                         '/Core/GlobalSearch/PredictiveSearch/PredictiveSearchService.ashx',
+                         '|rWhe3ES6+2gcQp01Yw9olk3oPo3K+lrChNP+K8aFfoWNm4hT0tqBCAdb+J/7YrHK4cM0CEqo5WyQzSCCx9mUVA==||',
+                         'populatePSQuery_Search',
+                         'psItemSelected_Search',
+                         '0',
+                         '',
+                         '2'
+                ).initialize();
+        });
+
+		
+		/*
+			</span>
+									<span id="btSearch" class="cs-srch-btn-cont">
+										<button type="button" class="bd">
+										<span class="cs-srch-btn-go">Search</span>
+										</button>
+									</span>
+									<br />
+								</div>
+								<a id="lnkShowMoreSearchOptions" href="javascript:void(0)" style="display: none;" title='Refine search'>
+									<span class="cs-moresrchoptns-cont">Refine search</span>
+								</a>
+								<!-- Advanced Search Options -->
+								<div id="divAdvanceOptions" class="cs-advsrch-frame" style="display: none; z-index: 4">
+*/
+		
+		
+		
 	}
 	
-       // $('.cso-h1').css("color", "red");		
+       $('.cso-h1').css("color", "red");		
  
 	
 	
