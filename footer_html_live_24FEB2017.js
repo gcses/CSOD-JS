@@ -9,13 +9,16 @@ $(document).ready(function(){
 	
 	//add html for search
 	queryElement.innerHTML = '<div>' +
-				'<span class="cso-txt blue">' +
+		 		'<span class="cso-txt blue">' +
+				'<label for="ctl00_ContentPlaceHolder1_txtsearch" id="ctl00_ContentPlaceHolder1_lblSearch" class="cs-acc-hid-con">What would you like to search for?</label>' +
 				'This item is part of a curriculum. ' +
 				'Please return to the previous page and select Request to access this item.' +
 				'</span>' +
 				'</div>';
 
-        $('.cso-h1').css("color", "red");		
+	
+	
+       // $('.cso-h1').css("color", "red");		
  
 	
 	
