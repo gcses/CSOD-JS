@@ -17,7 +17,6 @@ $(document).ready(function(){
 				'<select name="ctl00$ContentPlaceHolder1$ddlSearchEngine" id="ctl00_ContentPlaceHolder1_ddlSearchEngine" title="Select a category" class="ddlSearchEngine" style="width:118px;">' +
 					'<option selected="selected" value="1">Training</option></select>';	 
 				
-		
 		function populatePSQuery_Search(query) {
 			query.index = $('#ctl00_ContentPlaceHolder1_ddlSearchEngine').val();
 			}
@@ -38,7 +37,7 @@ $(document).ready(function(){
                 		window.attachEvent('onload', onload);
             		}
         	})(function () {
-            	new PredictiveSearch('ctl00_ContentPlaceHolder1_txtsearch',
+            		new PredictiveSearch('ctl00_ContentPlaceHolder1_txtsearch',
                          '/Core/GlobalSearch/PredictiveSearch/PredictiveSearchService.ashx',
                          '|rWhe3ES6+2gcQp01Yw9olk3oPo3K+lrChNP+K8aFfoWNm4hT0tqBCAdb+J/7YrHK4cM0CEqo5WyQzSCCx9mUVA==||',
                          'populatePSQuery_Search',
@@ -46,7 +45,7 @@ $(document).ready(function(){
                          '0',
                          '',
                          '2'
-                ).initialize();
+                	).initialize();
         	});
 
 		
@@ -58,10 +57,44 @@ $(document).ready(function(){
 					<!-- Advanced Search Options -->
 					   '<div id="divAdvanceOptions" class="cs-advsrch-frame" style="display: none; z-index: 4">' +
 
-		
 		'</div></span></div></div></div>';
 		
-	}
+		
+		    function passSerializedValuesBackToSearchPage(values) {
+        		ResetViewAfterPostback();
+        		globalSearchManager.onSearchButtonClick(values);
+   			 }
+
+    		    function closeDialog() {
+       			globalSearchManager.closeAdvanceOptionIFrame();
+        		globalSearchManager.initMoreSearchOptions();
+   			 }
+
+   		   function HideAdvanceControl() {
+       			 $('.divAdvanceControls').hide();
+    			}
+
+    		   function ShowAdvanceControl(selectedSearchEngineId) {    
+        		$('.divAdvanceControls[engineId="' + selectedSearchEngineId + '"]').show();
+
+        	   //Set the search engine to the hidden field on the Advance Optional Control
+        	   $("input[id*='hfCurrentSearchEngine']").val(selectedSearchEngineId);
+			   
+	           function PopulateAdvanceFields(selectedSearchEngineId, advanceCoptions) {
+        		$("input[id*='hfCurrentSearchEngine']").val(selectedSearchEngineId);
+        		$("input[id*='hfAdvanceOptions']").val(advanceCoptions);
+        		__doPostBack('ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$lkPopulateAdvanceFields','');
+   			 }
+
+    		   function ResetViewAfterPostback(){
+        		//Set the Advance Control Visible based on the hidden field value
+        		var selectedSearchEngineId = $("input[id*='hfCurrentSearchEngine']").val();
+        		ShowAdvanceControl(selectedSearchEngineId);	
+			}
+
+    }  //end adv search logic on Browse For Training
+
+   
 	
        //$('.cso-h1').css("color", "red");		
  
@@ -110,4 +143,6 @@ function eventFire(element, elementType){
 		element.dispatchEvent(eventObject);
 	}
 }
+
+
 
