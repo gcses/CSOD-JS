@@ -14,8 +14,6 @@ $(document).ready(function(){
 				'<label for="ctl00_ContentPlaceHolder1_txtsearch" id="ctl00_ContentPlaceHolder1_lblSearch" class="cs-acc-hid-con">What would you like to search for?</label>' +
 				'<input name="ctl00$ContentPlaceHolder1$txtsearch" type="text" maxlength="250" id="ctl00_ContentPlaceHolder1_txtsearch" title="Search" class="txtsearch" />' +
 				'<input type="hidden" name="ctl00$ContentPlaceHolder1$WcTextBoxWatermarkExtender1_ClientState" id="ctl00_ContentPlaceHolder1_WcTextBoxWatermarkExtender1_ClientState" />' +
-				'<select name="ctl00$ContentPlaceHolder1$ddlSearchEngine" id="ctl00_ContentPlaceHolder1_ddlSearchEngine" title="Select a category" class="ddlSearchEngine" style="width:118px;">' +
-					'<option selected="selected" value="1">Training</option></select>';	 
 				
 		function populatePSQuery_Search(query) {
 			query.index = $('#ctl00_ContentPlaceHolder1_ddlSearchEngine').val();
@@ -48,10 +46,7 @@ $(document).ready(function(){
                 	).initialize(); 
         	});
 
-		queryElement.innerHTML += '</span><span id="btSearch" class="cs-srch-btn-cont">' +
-					  '<button type="button" class="bd"><span class="cs-srch-btn-go">Search</span></button>' +
-					   '</span><br /></div>' +
-					   '<a id="lnkShowMoreSearchOptions" href="javascript:void(0)" style="display: none;" title="Refine search">' +
+		queryElement.innerHTML += '</span><br /></div>' +
 					   '<span class="cs-moresrchoptns-cont">Refine search</span></a>' +
 					   '<div id="divAdvanceOptions" class="cs-advsrch-frame" style="display: none; z-index: 4">';
 
@@ -173,7 +168,19 @@ $(document).ready(function(){
                         '<a id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_btSubmit" class="btnRefine cso-btn cso-btn-large cso-btn-blue cso-corner" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$btSubmit&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))" style="width: 155px">Refine</a>' +
                     	'</span></div></div>';
 
+		
 
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
     }  //end adv search logic on Browse For Training
 
    
