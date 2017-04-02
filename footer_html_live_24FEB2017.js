@@ -5,15 +5,13 @@ $(document).ready(function(){
 	{			
 		var sepElements = document.getElementsByClassName("cs-main-sep"); 
 		var queryElement = sepElements[0];
+		
+		//$("p").css({"background-color": "yellow", "font-size": "200%"});
 	
 		
 		//add html for search
 		queryElement.innerHTML = '<div id="search-cont-outer" >';
-		 $("#search-cont-outer").css("background-color", "CCCCCC");
-		 $("#search-cont-outer").css("margin-left", "25px");
-		 $("#search-cont-outer").css("padding", "13px");
-		 $("#search-cont-outer").css("margin-right", "5px");
-		 
+		 $("#search-cont-outer").css("background-color": "CCCCCC", "margin-left": "25px", "padding": "13px", "margin-right": "5px" );	 
 		
 		function populatePSQuery_Search(query) {
 			query.index = $('#ctl00_ContentPlaceHolder1_ddlSearchEngine').val();
