@@ -3,18 +3,6 @@ $(document).ready(function(){
 
 	if (document.title.indexOf("Browse for Training") > -1)
 	{			
-		<!--[if lte IE 7]> 
-		<style type="text/css">
-		   #dir-rtl .srch-cont-outer
-		  {
-		   position:relative !important;
-		   margin-left:25px;
-		   zoom: 1 !important;
-		   }
-		
-		</style>
-		<![endif]-->
-
 		var sepElements = document.getElementsByClassName("cs-main-sep"); 
 		var queryElement = sepElements[0];
 	
@@ -179,23 +167,10 @@ $(document).ready(function(){
                         '<a id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_btSubmit" class="btnRefine cso-btn cso-btn-large cso-btn-blue cso-corner" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$btSubmit&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))" style="width: 155px">Refine</a>' +
                     	'</span></div></div>';
 
-		
-
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
     }  //end adv search logic on Browse For Training
 
    
-      // $('.cso-h1').css("color", "red");		
+     $('.cso-h1').css("color", "red");		
  
 	
 	
