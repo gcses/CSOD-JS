@@ -8,15 +8,8 @@ $(document).ready(function(){
 	
 		
 		//add html for search
-		queryElement.innerHTML = '<div id="search-cont-outer" >' +
-				'<div id="srch-ctrl" class="srch-cont">' +
-		        	'<div class="input-cont-outer">' +
-		 		'<span class="cso-txt blue">' +
-				'<label for="ctl00_ContentPlaceHolder1_txtsearch" id="ctl00_ContentPlaceHolder1_lblSearch" class="cs-acc-hid-con">What would you like to search for?</label>' +
-				'<input name="ctl00$ContentPlaceHolder1$txtsearch" type="text" maxlength="250" id="ctl00_ContentPlaceHolder1_txtsearch" title="Search" class="txtsearch" />' +
-				'<input type="hidden" name="ctl00$ContentPlaceHolder1$WcTextBoxWatermarkExtender1_ClientState" id="ctl00_ContentPlaceHolder1_WcTextBoxWatermarkExtender1_ClientState" />';
-				
-		 $("#search-cont-outer").css("background-color", "red");
+		queryElement.innerHTML = '<div id="search-cont-outer" >';
+		 $("#search-cont-outer").css("background-color", "FFFFFF");
 		 
 		
 		function populatePSQuery_Search(query) {
@@ -50,8 +43,11 @@ $(document).ready(function(){
                 	).initialize(); 
         	});
 
-		queryElement.innerHTML += '</span><br /></div>' +
-					   '<div id="divAdvanceOptions" class="cs-advsrch-frame" style="display: none; z-index: 4">';
+		queryElement.innerHTML += '<div id="divAdvanceOptions" class="cs-advsrch-frame" style="display: none; z-index: 4">';
+		
+		
+		
+		
 
 		//L. 1713-1752
 		
