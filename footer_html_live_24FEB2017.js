@@ -166,15 +166,18 @@ $(document).ready(function(){
 			'<option value="63">Pharmacy Technician</option>' +
 			'<option value="64">Radiology Technician</option>' +
 			'<option value="65">Respiratory Therapist</option>' +
-			'</select></span></span>';
+			'</select></span></span></div>';
 
-	
-		
+		  queryElement.innerHTML += '<div class="cs-advsrch-srchbtn-cont">' +
+                    	'<span class="cs-srch-btn-cont cs-advsrch-btn">' +
+                        '<a id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_btSubmit" class="btnRefine cso-btn cso-btn-large cso-btn-blue cso-corner" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$btSubmit&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))" style="width: 155px">Refine</a>' +
+                    	'</span></div></div>';
+
 
     }  //end adv search logic on Browse For Training
 
    
-       $('.cso-h1').css("color", "red");		
+      // $('.cso-h1').css("color", "red");		
  
 	
 	
