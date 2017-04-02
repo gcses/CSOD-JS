@@ -3,6 +3,84 @@ $(document).ready(function(){
 
 	if (document.title.indexOf("Browse for Training") > -1)
 	{			
+		<!--[if lte IE 7]> 
+		<style type="text/css">
+		#dir-rtl .srch-cont-outer{
+		position:relative !important;
+		margin-left:25px;
+		zoom: 1 !important;
+	}
+	#dir-rtl .dk_toggle{
+		float:left;
+	}
+	#dir-rtl .srch-cont-outer .srch-cont{
+		padding:13px 0;
+	}
+	#dir-rtl .srch-cont .input-cont INPUT{
+		margin-left:125px;
+	}
+	#dir-rtl .dk_container a{
+		line-height:15px;
+	}
+	#dir-rtl .cs-advsrch-item1{
+		width: 150px;
+		position: relative;
+		margin:10px 3px 20px !important;
+	}
+	#dir-rtl .cs-advsrch-item1 input{
+		position:absolute;
+		right:5px;
+		height:16px;
+	}
+	#dir-rtl .cs-advsrch-item1 select{
+		position:absolute;
+	} 
+	#dir-rtl .cs-advsrch-item1 span.PopupSelect .text{
+		margin-top: 0;
+		padding-right: 5px;
+	}
+	#dir-rtl .cs-advsrch-item1 span.PopupSelect{
+		width:auto;
+		display:inline-block;
+		position: absolute;
+		right: 0;
+		height:13px;
+		margin-right:10px;
+	}
+	#dir-rtl .cs-advsrch-item1 input.cs-advsrch-input{
+		margin-right: 5px; 
+	}
+	#dir-rtl .cs-advsrch-item1 .cs-advsrch-rating-cont{
+		position:absolute;
+		width: 95%;
+	}
+	#dir-rtl .srch-cont-outer .srch-cont .input-cont-outer .input-cont{
+		margin-right: 5px;
+	}
+	#dir-rtl .cs-advsrch-cont-title{
+		padding-right: 5px;
+	}
+	#dir-rtl .cs-advsrch-cont-title {
+		display:table;
+		width: 98%;
+	}
+	#dir-rtl .cs-advsrch-cont-title .cs-advsrch-close-btn {
+		display:table-cell;
+		vertical-align:middle;
+	}
+	#dir-rtl .cs-advsrch-cont-title span.cso-txt-lrg {
+		display:table-cell;
+		vertical-align:middle;
+	}
+	#dir-rtl .cs-srch-rslts-ol .usr-content .ou-info span{
+		float:none;
+	}
+	</style>
+	<![endif]-->
+
+
+		
+		
 		var sepElements = document.getElementsByClassName("cs-main-sep"); 
 		var queryElement = sepElements[0];
 	
