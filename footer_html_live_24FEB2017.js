@@ -9,7 +9,10 @@ $(document).ready(function(){
 		
 		//add html for search
 		queryElement.innerHTML = '<div id="search-cont-outer" >';
-		 $("#search-cont-outer").css("background-color", "FFFFFF");
+		 $("#search-cont-outer").css("background-color", "CCCCCC");
+		 $("#search-cont-outer").css("margin-left", "25px");
+		 $("#search-cont-outer").css("padding", "13px");
+		 $("#search-cont-outer").css("margin-right", "5px");
 		 
 		
 		function populatePSQuery_Search(query) {
