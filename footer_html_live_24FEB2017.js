@@ -11,7 +11,8 @@ $(document).ready(function(){
 		
 		//add html for search
 		queryElement.innerHTML = '<div id="search-cont-outer" >';
-		 $("#search-cont-outer").css("background-color": "CCCCCC", "margin-left": "25px", "padding": "13px", "margin-right": "5px" );	 
+		
+		//$("#search-cont-outer").css("background-color": "CCCCCC", "margin-left": "25px", "padding": "13px", "margin-right": "5px");	 
 		
 		function populatePSQuery_Search(query) {
 			query.index = $('#ctl00_ContentPlaceHolder1_ddlSearchEngine').val();
@@ -171,7 +172,7 @@ $(document).ready(function(){
     }  //end adv search logic on Browse For Training
 
    
-     //$('.cso-h1').css("color", "red");		
+     $('.cso-h1').css("color", "red");		
  
 	
 	
