@@ -6,8 +6,9 @@ $(document).ready(function(){
 		var sepElements = document.getElementsByClassName("cs-main-sep"); 
 		var queryElement = sepElements[0];
 	
+		
 		//add html for search
-		queryElement.innerHTML = '<div class="srch-cont-outer">' +
+		queryElement.innerHTML = '<div id="search-cont-outer" >' +
 				'<div id="srch-ctrl" class="srch-cont">' +
 		        	'<div class="input-cont-outer">' +
 		 		'<span class="cso-txt blue">' +
@@ -15,6 +16,9 @@ $(document).ready(function(){
 				'<input name="ctl00$ContentPlaceHolder1$txtsearch" type="text" maxlength="250" id="ctl00_ContentPlaceHolder1_txtsearch" title="Search" class="txtsearch" />' +
 				'<input type="hidden" name="ctl00$ContentPlaceHolder1$WcTextBoxWatermarkExtender1_ClientState" id="ctl00_ContentPlaceHolder1_WcTextBoxWatermarkExtender1_ClientState" />';
 				
+		 $("#search-cont-outer").css("background-color", "red");
+		 
+		
 		function populatePSQuery_Search(query) {
 			query.index = $('#ctl00_ContentPlaceHolder1_ddlSearchEngine').val();
 			}
