@@ -16,7 +16,7 @@ $(document).ready(function(){
 		queryElement.innerHTML += '<hr id="searchHR" />';
 		$("#searchHR").css({"border-color": "grey", "margin": "20px 0px 20px 0px"});   
 		
-		queryElement.innerHTML += 'Refine your Search<br/><br/>'
+		queryElement.innerHTML += '<h2>Refine your Search</h2><br/><br/>'
 		
 		//keywords here
 		queryElement.innerHTML += '<span class="cs-advsrch-item1">' +
@@ -29,15 +29,16 @@ $(document).ready(function(){
 		
 		
 		//all languages here
-		/*
-		  <select id="languages" name="cars">
-  <option value="AL">All Languages</option>
-  <option value="volvo">Volvo</option>
-  <option value="saab">Saab</option>
-  <option value="fiat">Fiat</option>
-  <option value="audi">Audi</option>
-</select><br/><br/>
-*/
+		queryElement.innerHTML += '<select id="languages" name="cars">'+
+  			'<option value="AL">All Languages</option>'+
+ 			 '<option value="volvo">Volvo</option>'+
+  			'<option value="saab">Saab</option>'+
+  			'<option value="fiat">Fiat</option>'+
+  			'<option value="audi">Audi</option>'+
+		 	'</select><br/><br/>';
+		
+		$("#languages").css({"padding": "5px", "width": "150px"});   
+	
 		
 		function populatePSQuery_Search(query) {
 			query.index = $('#ctl00_ContentPlaceHolder1_ddlSearchEngine').val();
