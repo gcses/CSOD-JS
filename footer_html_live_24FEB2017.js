@@ -10,7 +10,8 @@ $(document).ready(function(){
 		var sepElements = document.getElementsByClassName("cs-main-sep"); 
 		var queryElement = sepElements[0];
 		
-		queryElement.setAttribute("style", "height: 210px; padding: 15px; backgroundColor: yellow");
+		queryElement.setAttribute("style", "backgroundColor: yellow; height: 210px");
+		//queryElement.setAttribute("style", "height: 210px; padding: 15px; backgroundColor: yellow");
 		//queryElement.setAttribute("style", "height: 210px; width: 60\%; padding: 15px; backgroundColor: yellow");
 		 
 		//Object.assign(queryElementt.style,{backgroundColor:"EEEEEE", padding: "15px"});
