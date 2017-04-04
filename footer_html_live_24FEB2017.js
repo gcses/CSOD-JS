@@ -11,10 +11,8 @@ $(document).ready(function(){
 		
 		queryElement.innerHTML += '<input id="searchText" placeholder="What would you like to search for?" style="font-style:italic"></input><br/>';
 		
+		$("#searchText").css({"padding": "5px", "width": "520px"});   
 		
-
-		//add html for search
-		queryElement.innerHTML = '<div id="search-cont-outer" >';
 		
 		
 		function populatePSQuery_Search(query) {
@@ -175,7 +173,7 @@ $(document).ready(function(){
     }  //end adv search logic on Browse For Training
 
    
-    //$('.cso-h1').css("color", "red");		
+    $('.cso-h1').css("color", "red");		
  
 	
 	
