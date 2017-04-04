@@ -9,15 +9,18 @@ $(document).ready(function(){
 		var sepElements = document.getElementsByClassName("cs-main-sep"); 
 		var queryElement = sepElements[0];
 		
-		queryElement.innerHTML += '<input id="searchText" placeholder="What would you like to search for?" style="font-style:italic"></input><br/>';
+		queryElement.innerHTML += '<input id="searchText" placeholder="What would you like to search for?" style="font-style:italic"></input>';
 		
 		$("#searchText").css({"padding": "5px", "width": "520px"});   
 		
-		queryElement.innerHTML += '<hr id="searchHR" /><br/>';
-		$("#searchHR").css({"border-color": "grey"});   
+		queryElement.innerHTML += '<hr id="searchHR" />';
+		$("#searchHR").css({"border-color": "grey", "margin": "0px 20px 0px 20px"});   
 		
 		
+		//keywords here
 		
+		
+		//all languages here
 	
 		
 		function populatePSQuery_Search(query) {
