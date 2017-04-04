@@ -91,8 +91,6 @@ $(document).ready(function(){
 		//L. 1791- 
 		queryElement.innerHTML += '<table id="advSearchTable"><tr><td>Brand:</td><td>Product:</td><td>Role:</td></tr><tr>';
 		
-		
-		
 		 queryElement.innerHTML += '<td><input name="ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$rptAdvanceControls$ctl00$ctl00$rptCustomFields$ctl00$ucCFWrapper$ctl00$parentValue" type="hidden" id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_rptCustomFields_ctl00_ucCFWrapper_ctl00_parentValue" /><select name="ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$rptAdvanceControls$ctl00$ctl00$rptCustomFields$ctl00$ucCFWrapper$ctl00$lstControl" id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_rptCustomFields_ctl00_ucCFWrapper_ctl00_lstControl" class="FieldValue">' +
 					'<option selected="selected" value="-1">Select</option>' +
 					'<option value="1">Pyxis</option>' +
@@ -175,7 +173,7 @@ $(document).ready(function(){
 			'<option value="65">Respiratory Therapist</option>' +
 			'</select></td></tr></table>';
 	
-		 $("td").css({"width": "100px", "padding-right": "10px"});   
+		 $("#advSearchTable td").css({"padding-right": "10px", "margin-right": "10px"});   
   
 
 		  queryElement.innerHTML += '<br/><div class="cs-advsrch-srchbtn-cont">' +
@@ -190,7 +188,7 @@ $(document).ready(function(){
     }  //end adv search logic on Browse For Training
 
    
-   $('.cso-h1').css("color", "red");		
+  // $('.cso-h1').css("color", "red");		
  
 	
 	
