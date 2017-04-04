@@ -13,6 +13,9 @@ $(document).ready(function(){
 		
 		$("#searchText").css({"padding": "5px", "width": "520px"});   
 		
+		queryElement.innerHTML += '<hr id="searchHR" />';
+		$("#searchHR").css({"border-color": "grey"});   
+		
 		
 		
 		function populatePSQuery_Search(query) {
