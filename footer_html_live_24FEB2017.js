@@ -52,10 +52,7 @@ $(document).ready(function(){
         	});
 
 		queryElement.innerHTML += '<div id="divAdvanceOptions" class="cs-advsrch-frame" style="display: none; z-index: 4">';
-		
-		
-		
-		
+
 
 		//L. 1713-1752
 		
@@ -170,15 +167,17 @@ $(document).ready(function(){
 		 $("td").css({"width": "100px", "padding-right": "10px"});   
   
 
-		  queryElement.innerHTML += '<div class="cs-advsrch-srchbtn-cont">' +
+		  queryElement.innerHTML += '<br/><div class="cs-advsrch-srchbtn-cont">' +
                     	'<span class="cs-srch-btn-cont cs-advsrch-btn">' +
                         '<a id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_btSubmit" class="btnRefine cso-btn cso-btn-large cso-btn-blue cso-corner" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$btSubmit&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))" style="width: 155px">Refine</a>' +
                     	'</span></div></div>';
 
+		 $("cs-advsrch-srchbtn-cont").css({"float": "right"});   
+  
     }  //end adv search logic on Browse For Training
 
    
-   $('.cso-h1').css("color", "red");		
+  // $('.cso-h1').css("color", "red");		
  
 	
 	
