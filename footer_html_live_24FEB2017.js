@@ -166,8 +166,8 @@ $(document).ready(function(){
 			'<option value="64">Radiology Technician</option>' +
 			'<option value="65">Respiratory Therapist</option>' +
 			'</select></td></tr></table>';
-		
-		  $('td').css("width": "100px", "padding-right": "10px");		
+	
+		 $("td").css({"width": "100px", "padding-right": "10px"});   
   
 
 		  queryElement.innerHTML += '<div class="cs-advsrch-srchbtn-cont">' +
