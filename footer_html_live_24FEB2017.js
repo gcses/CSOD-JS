@@ -6,15 +6,14 @@ $(document).ready(function(){
 		//$('.cs-main-sep:first').css("background-color": "EEEEEE");
 					      //, "margin": "200 10px 0 0", "padding": "15px", "width": "60%", "height": "210px");	 
 
+		$(".cs-main-sep").css({"backgroundColor": "#EEEEEE", "height": "210px",  "margin": "0px 10px 0px 10px", "padding": "15px"});   
 		
 		var sepElements = document.getElementsByClassName("cs-main-sep"); 
 		var queryElement = sepElements[0];
 		
 		
 		
-		$(".cs-main-sep").css({"backgroundColor": "#EEEEEE", "height": "210px"});
 		
-		//queryElement.setAttribute("style", "backgroundColor: yellow");
 		//queryElement.setAttribute("style", "height: 210px; padding: 15px; backgroundColor: yellow");
 		//queryElement.setAttribute("style", "height: 210px; width: 60\%; padding: 15px; backgroundColor: yellow");
 		 
