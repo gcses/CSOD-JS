@@ -173,9 +173,13 @@ $(document).ready(function(){
 			'<option value="65">Respiratory Therapist</option>' +
 			'</select></td></tr></table>';
 	
-		 $("#advSearchTable td").css({"backgroundColor": "yellow", "width": "220px", "padding-right": "10px"});   
-                 $("ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_rptCustomFields_ctl00_ucCFWrapper_ctl00_parentValue").css({"backgroundColor": "yellow", "width": "100px", "padding-right": "10px"});   
+		
+		
+		
+		 $("#advSearchTable td").css({"width": "220px", "padding-right": "10px"});   
+                 $("ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_rptCustomFields_ctl00_ucCFWrapper_ctl00_parentValue").css({"width": "60px", "padding-right": "10px"});   
 
+		
 		  queryElement.innerHTML += '<br/><div class="cs-advsrch-srchbtn-cont">' +
                     	'<span class="cs-srch-btn-cont cs-advsrch-btn">' +
                         '<a id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_btSubmit" class="btnRefine cso-btn cso-btn-large cso-btn-blue cso-corner" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$btSubmit&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))" style="width: 155px">Refine</a>' +
