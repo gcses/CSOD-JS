@@ -10,7 +10,7 @@ $(document).ready(function(){
 		var sepElements = document.getElementsByClassName("cs-main-sep"); 
 		var queryElement = sepElements[0];
 		
-		queryElement.setAttribute("style", "height: 210px; width: 60%; padding: 15px; backgroundColor: #eeeeee");
+		queryElement.setAttribute("style", "height: 210px; width: 60%; padding: 15px; backgroundColor: yellow");
 		 
 		//Object.assign(queryElementt.style,{backgroundColor:"EEEEEE", padding: "15px"});
 
@@ -182,7 +182,7 @@ $(document).ready(function(){
     }  //end adv search logic on Browse For Training
 
    
-     //$('.cso-h1').css("color", "red");		
+     $('.cso-h1').css("color", "red");		
  
 	
 	
