@@ -17,10 +17,21 @@ $(document).ready(function(){
 		$("#searchHR").css({"border-color": "grey", "margin": "20px 0px 20px 0px"});   
 		
 		//keywords here
+		queryElement.innerHTML += '<input id="keywords" placeholder="Keywords"></input>';
 		
+		$("#keywords").css({"padding": "5px", "width": "150px", "margin-right": "10px"});   
 		
+
 		//all languages here
-		
+		/*
+		  <select id="languages" name="cars">
+  <option value="AL">All Languages</option>
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="fiat">Fiat</option>
+  <option value="audi">Audi</option>
+</select><br/><br/>
+*/
 		
 		function populatePSQuery_Search(query) {
 			query.index = $('#ctl00_ContentPlaceHolder1_ddlSearchEngine').val();
@@ -65,13 +76,6 @@ $(document).ready(function(){
            				' <input type="hidden" name="ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$hfAdvanceOptions" id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_hfAdvanceOptions" />';
 
 		
-		 queryElement.innerHTML += '<a id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_lkPopulateAdvanceFields" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$lkPopulateAdvanceFields&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"></a>' +
-            				'</span><div class="cs-advsrch-cont1">' +
-		  			'<div class="cs-advsrch-cont-title">' +
-				    	'<a class="cs-advsrch-close-btn" href="#" onclick="closeDialog(); return false;">' +
-                       			' &#215;' +
-                    			'</a><span class="cso-txt-lrg" style="line-height:normal;">Refine your search</span></div><br/>';
-
 		  queryElement.innerHTML +=  '<div id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_divAdvanceControls" class="divAdvanceControls" style="display: none" engineId="1">' +
 					     '<span class="cs-advsrch-item1">' +
         				     '<label class="cs-acc-hid-con" for="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_tbKeywords">Keywords:</label>' +
