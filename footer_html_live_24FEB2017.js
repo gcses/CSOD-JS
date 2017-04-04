@@ -13,10 +13,12 @@ $(document).ready(function(){
 		
 		$("#searchText").css({"padding": "5px", "width": "520px"});   
 		
-		queryElement.innerHTML += '<hr id="searchHR" />';
+		queryElement.innerHTML += '<hr id="searchHR" /><br/>';
 		$("#searchHR").css({"border-color": "grey"});   
 		
 		
+		
+	
 		
 		function populatePSQuery_Search(query) {
 			query.index = $('#ctl00_ContentPlaceHolder1_ddlSearchEngine').val();
@@ -79,10 +81,11 @@ $(document).ready(function(){
         
 
 		//L. 1791- 
+		queryElement.innerHTML += '<table id="advSearchTable"><tr><td>Brand:</td><td>Product:</td><td>Role:</td></tr><tr>';
 		
-		 queryElement.innerHTML += '<span class="cs-advsrch-item1"><label class="cso-txt b2">Brand:</label>' +
-				'<span id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_rptCustomFields_ctl00_ucCFWrapper">' +
-				'<input name="ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$rptAdvanceControls$ctl00$ctl00$rptCustomFields$ctl00$ucCFWrapper$ctl00$parentValue" type="hidden" id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_rptCustomFields_ctl00_ucCFWrapper_ctl00_parentValue" /><select name="ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$rptAdvanceControls$ctl00$ctl00$rptCustomFields$ctl00$ucCFWrapper$ctl00$lstControl" id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_rptCustomFields_ctl00_ucCFWrapper_ctl00_lstControl" class="FieldValue">' +
+		
+		
+		 queryElement.innerHTML += '<td><input name="ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$rptAdvanceControls$ctl00$ctl00$rptCustomFields$ctl00$ucCFWrapper$ctl00$parentValue" type="hidden" id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_rptCustomFields_ctl00_ucCFWrapper_ctl00_parentValue" /><select name="ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$rptAdvanceControls$ctl00$ctl00$rptCustomFields$ctl00$ucCFWrapper$ctl00$lstControl" id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_rptCustomFields_ctl00_ucCFWrapper_ctl00_lstControl" class="FieldValue">' +
 					'<option selected="selected" value="-1">Select</option>' +
 					'<option value="1">Pyxis</option>' +
 					'<option value="2">Alaris</option>' +
@@ -91,11 +94,9 @@ $(document).ready(function(){
 					'<option value="5">MedMined</option>' +
 					'<option value="6">Rowa</option>' +
 					'<option value="7">V. Mueller</option>' +
-					'</select></span>';
+					'</select></td>';
 		
-		queryElement.innerHTML += '</span><span class="cs-advsrch-item1"><label class="cso-txt b2">Product:</label>' +
-			'<span id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_rptCustomFields_ctl01_ucCFWrapper">' +
-			'<input name="ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$rptAdvanceControls$ctl00$ctl00$rptCustomFields$ctl01$ucCFWrapper$ctl00$parentValue" type="hidden" id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_rptCustomFields_ctl01_ucCFWrapper_ctl00_parentValue" /><select name="ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$rptAdvanceControls$ctl00$ctl00$rptCustomFields$ctl01$ucCFWrapper$ctl00$lstControl" id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_rptCustomFields_ctl01_ucCFWrapper_ctl00_lstControl" class="FieldValue">' +
+		queryElement.innerHTML += '<td><input name="ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$rptAdvanceControls$ctl00$ctl00$rptCustomFields$ctl01$ucCFWrapper$ctl00$parentValue" type="hidden" id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_rptCustomFields_ctl01_ucCFWrapper_ctl00_parentValue" /><select name="ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$rptAdvanceControls$ctl00$ctl00$rptCustomFields$ctl01$ucCFWrapper$ctl00$lstControl" id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_rptCustomFields_ctl01_ucCFWrapper_ctl00_lstControl" class="FieldValue">' +
 			'<option selected="selected" value="-1">Select</option>' +
 			'<option value="8">3100A HFOV</option>' +
 			'<option value="9">ACE</option>' +
@@ -151,11 +152,9 @@ $(document).ready(function(){
 			'<option value="52">SupplyStation</option>' +
 			'<option value="53">Tissue and Implant Module</option>' +
 			'<option value="54">VELA</option>' +
-			'</select></span></span>';
+			'</select></td>';
 		
-		queryElement.innerHTML += '<span class="cs-advsrch-item1"><label class="cso-txt b2">Role:</label>' +
-			'<span id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_rptCustomFields_ctl02_ucCFWrapper">' +
-			'<input name="ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$rptAdvanceControls$ctl00$ctl00$rptCustomFields$ctl02$ucCFWrapper$ctl00$parentValue" type="hidden" id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_rptCustomFields_ctl02_ucCFWrapper_ctl00_parentValue" /><select name="ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$rptAdvanceControls$ctl00$ctl00$rptCustomFields$ctl02$ucCFWrapper$ctl00$lstControl" id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_rptCustomFields_ctl02_ucCFWrapper_ctl00_lstControl" class="FieldValue">' +
+		queryElement.innerHTML += '<td><input name="ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$rptAdvanceControls$ctl00$ctl00$rptCustomFields$ctl02$ucCFWrapper$ctl00$parentValue" type="hidden" id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_rptCustomFields_ctl02_ucCFWrapper_ctl00_parentValue" /><select name="ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$rptAdvanceControls$ctl00$ctl00$rptCustomFields$ctl02$ucCFWrapper$ctl00$lstControl" id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_rptCustomFields_ctl02_ucCFWrapper_ctl00_lstControl" class="FieldValue">' +
 			'<option selected="selected" value="-1">Select</option>' +
 			'<option value="57">Administrator/System Manager</option>' +
 			'<option value="58">Anesthesia Provider</option>' +
@@ -166,7 +165,7 @@ $(document).ready(function(){
 			'<option value="63">Pharmacy Technician</option>' +
 			'<option value="64">Radiology Technician</option>' +
 			'<option value="65">Respiratory Therapist</option>' +
-			'</select></span></span></div>';
+			'</select></td></tr></table>';
 
 		  queryElement.innerHTML += '<div class="cs-advsrch-srchbtn-cont">' +
                     	'<span class="cs-srch-btn-cont cs-advsrch-btn">' +
