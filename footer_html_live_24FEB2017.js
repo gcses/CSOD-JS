@@ -14,14 +14,13 @@ $(document).ready(function(){
 		$("#searchText").css({"padding": "5px", "width": "520px"});   
 		
 		queryElement.innerHTML += '<hr id="searchHR" />';
-		$("#searchHR").css({"border-color": "grey", "margin": "0px 20px 0px 20px"});   
-		
+		$("#searchHR").css({"border-color": "grey", "margin": "20px 0px 20px 0px"});   
 		
 		//keywords here
 		
 		
 		//all languages here
-	
+		
 		
 		function populatePSQuery_Search(query) {
 			query.index = $('#ctl00_ContentPlaceHolder1_ddlSearchEngine').val();
