@@ -71,7 +71,7 @@ $(document).ready(function(){
 		  			'<div class="cs-advsrch-cont-title">' +
 				    	'<a class="cs-advsrch-close-btn" href="#" onclick="closeDialog(); return false;">' +
                        			' &#215;' +
-                    			'</a><span class="cso-txt-lrg" style="line-height:normal;">Refine your search</span></div>';
+                    			'</a><span class="cso-txt-lrg" style="line-height:normal;">Refine your search</span></div><br/>';
 
 		  queryElement.innerHTML +=  '<div id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_divAdvanceControls" class="divAdvanceControls" style="display: none" engineId="1">' +
 					     '<span class="cs-advsrch-item1">' +
@@ -166,6 +166,9 @@ $(document).ready(function(){
 			'<option value="64">Radiology Technician</option>' +
 			'<option value="65">Respiratory Therapist</option>' +
 			'</select></td></tr></table>';
+		
+		  $('td').css("width": "100px", "padding-right": "10px");		
+  
 
 		  queryElement.innerHTML += '<div class="cs-advsrch-srchbtn-cont">' +
                     	'<span class="cs-srch-btn-cont cs-advsrch-btn">' +
@@ -175,7 +178,7 @@ $(document).ready(function(){
     }  //end adv search logic on Browse For Training
 
    
-    $('.cso-h1').css("color", "red");		
+   // $('.cso-h1').css("color", "red");		
  
 	
 	
