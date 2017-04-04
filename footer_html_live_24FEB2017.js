@@ -4,7 +4,7 @@ $(document).ready(function(){
 	if (document.title.indexOf("Browse for Training") > -1)
 	{			 
                 //define style of grey area around search options
-		$(".cs-main-sep").css({"backgroundColor": "#EEEEEE", "height": "270px",  "margin": "40px 0px 40px 0px", "padding": "15px", "border-style": "solid", "border-width": "1px", "border-radius": "5px", "border-color": "grey"});   
+		$(".cs-main-sep").css({"backgroundColor": "#EEEEEE", "height": "250px",  "margin": "40px 0px 40px 0px", "padding": "15px", "border-style": "solid", "border-width": "1px", "border-radius": "5px", "border-color": "grey"});   
 		
 		var sepElements = document.getElementsByClassName("cs-main-sep"); 
 		var queryElement = sepElements[0];
@@ -174,14 +174,14 @@ $(document).ready(function(){
 			'</select></td></tr></table>';
 	
 		 $("#advSearchTable td").css({"backgroundColor": "yellow", "width": "60px", "padding-right": "10px"});   
-  
+                 $("ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_rptCustomFields_ctl00_ucCFWrapper_ctl00_parentValue").css({"backgroundColor": "yellow", "width": "100px", "padding-right": "10px"});   
 
 		  queryElement.innerHTML += '<br/><div class="cs-advsrch-srchbtn-cont">' +
                     	'<span class="cs-srch-btn-cont cs-advsrch-btn">' +
                         '<a id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_btSubmit" class="btnRefine cso-btn cso-btn-large cso-btn-blue cso-corner" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$btSubmit&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))" style="width: 155px">Refine</a>' +
                     	'</span></div></div>';
 
-		 $(".cs-advsrch-srchbtn-cont").css({"float": "right", "margin": "15px 0px 15px 0px", "width": "100px"});   
+		 $(".cs-advsrch-srchbtn-cont").css({"float": "right", "margin": "15px 0px 15px 0px"});   
 		
 		 
   
