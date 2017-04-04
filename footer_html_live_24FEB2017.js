@@ -2,32 +2,22 @@
 $(document).ready(function(){
 
 	if (document.title.indexOf("Browse for Training") > -1)
-	{		
-		//$('.cs-main-sep:first').css("background-color": "EEEEEE");
-					      //, "margin": "200 10px 0 0", "padding": "15px", "width": "60%", "height": "210px");	 
+	{			 
+                //define style of grey area around search options
+		$(".cs-main-sep").css({"backgroundColor": "#EEEEEE", "height": "210px",  "margin": "0px 10px 0px 10px", "padding": "15px", "border-style": "solid", "border-width": "1px", "border-radius": "5px", "border-color": "grey"});   
+		
 
-		$(".cs-main-sep").css({"backgroundColor": "#EEEEEE", "height": "210px",  "margin": "0px 10px 0px 10px", "padding": "15px"});   
 		
 		var sepElements = document.getElementsByClassName("cs-main-sep"); 
 		var queryElement = sepElements[0];
 		
+		queryElement.innerHTML += '<input id="searchText" placeholder="What would you like to search for?" style="font-style:italic"></input><br/>';
 		
 		
-		
-		//queryElement.setAttribute("style", "height: 210px; padding: 15px; backgroundColor: yellow");
-		//queryElement.setAttribute("style", "height: 210px; width: 60\%; padding: 15px; backgroundColor: yellow");
-		 
-		//Object.assign(queryElementt.style,{backgroundColor:"EEEEEE", padding: "15px"});
 
-		
-		
-		//$("p").css({"background-color": "yellow", "font-size": "200%"});
-	
-		
 		//add html for search
 		queryElement.innerHTML = '<div id="search-cont-outer" >';
 		
-		//$("#search-cont-outer").css("background-color": "CCCCCC", "margin-left": "25px", "padding": "13px", "margin-right": "5px");	 
 		
 		function populatePSQuery_Search(query) {
 			query.index = $('#ctl00_ContentPlaceHolder1_ddlSearchEngine').val();
