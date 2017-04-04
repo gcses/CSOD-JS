@@ -3,7 +3,7 @@ $(document).ready(function(){
 
 	if (document.title.indexOf("Browse for Training") > -1)
 	{		
-		$(".cs-main-sep").first().css("background-color": "EEEEEE");
+		//$(".cs-main-sep").first().css("background-color": "EEEEEE");
 					      //, "margin": "200 10px 0 0", "padding": "15px", "width": "60%", "height": "210px");	 
 	
     
