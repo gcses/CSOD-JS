@@ -12,7 +12,7 @@ $(document).ready(function(){
 		
 		
 		
-		$(".cs-main-sep").css({"backgroundColor": "yellow", "height": "210px"});
+		$(".cs-main-sep:first-child").css({"backgroundColor": "#EEEEEE", "height": "210px"});
 		
 		//queryElement.setAttribute("style", "backgroundColor: yellow");
 		//queryElement.setAttribute("style", "height: 210px; padding: 15px; backgroundColor: yellow");
