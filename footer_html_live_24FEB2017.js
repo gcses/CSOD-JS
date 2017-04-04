@@ -27,12 +27,7 @@ $(document).ready(function(){
 		//'<input id="keywords" placeholder="Keywords" name="ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$rptAdvanceControls$ctl00$ctl00$tbKeywords"></input>';
 		//$("#keywords").css({"padding": "5px", "width": "150px", "margin-right": "10px"});   
 		
-		<span class="cs-advsrch-item1">
-                <label class="cs-acc-hid-con" for="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_tbKeywords">Keywords:</label>
-		<input name="ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$rptAdvanceControls$ctl00$ctl00$tbKeywords" type="text" maxlength="100" id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_tbKeywords" class="cs-advsrch-input" /><input type="hidden" name="ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$rptAdvanceControls$ctl00$ctl00$atxKeywords_ClientState" id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_atxKeywords_ClientState" />
-    		</span>
-
-
+		
 		//all languages here
 		/*
 		  <select id="languages" name="cars">
@@ -199,12 +194,6 @@ $(document).ready(function(){
 	
 	
 	
-	
-	
-	
-	
-	
-	
   //show the advanced search option whenever search is shown
   $("#lnkShowMoreSearchOptions").each(function(){
       //$("#srch-ctrl").each(function(){
@@ -217,7 +206,7 @@ $(document).ready(function(){
   $(".cs-advsrch-close-btn").remove();
 	
   //hide the first name field. It is only included to that we can use the name elsewhere
-  //$("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl01_widgetContainer_ctl00_htmlContainer").hide();
+  $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl01_widgetContainer_ctl00_htmlContainer").hide();
 	
   //use the name field to alter the My Learning header
   var fName = $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl01_widgetContainer_ctl00_htmlContainer").text();
