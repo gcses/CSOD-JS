@@ -173,7 +173,7 @@ $(document).ready(function(){
 			'<option value="65">Respiratory Therapist</option>' +
 			'</select></td></tr></table>';
 	
-		 $("#advSearchTable td").css({"backgroundColor": "yellow", "width": "60px", "padding-right": "10px"});   
+		 $("#advSearchTable td").css({"backgroundColor": "yellow", "width": "220px", "padding-right": "10px"});   
                  $("ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_rptCustomFields_ctl00_ucCFWrapper_ctl00_parentValue").css({"backgroundColor": "yellow", "width": "100px", "padding-right": "10px"});   
 
 		  queryElement.innerHTML += '<br/><div class="cs-advsrch-srchbtn-cont">' +
