@@ -89,7 +89,7 @@ $(document).ready(function(){
         
 
 		//L. 1791- 
-		queryElement.innerHTML += '<table id="advSearchTable"><tr><td><h3>Brand:</h3></td><td><h3>Product:</h3></td><td><h3>Role:</h3></td></tr><tr>';
+		queryElement.innerHTML += '<table id="advSearchTable"><tr><td>Brand:</td><td>Product:</td><td>Role:</td></tr><tr>';
 		
 		 queryElement.innerHTML += '<td><input name="ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$rptAdvanceControls$ctl00$ctl00$rptCustomFields$ctl00$ucCFWrapper$ctl00$parentValue" type="hidden" id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_rptCustomFields_ctl00_ucCFWrapper_ctl00_parentValue" /><select name="ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$rptAdvanceControls$ctl00$ctl00$rptCustomFields$ctl00$ucCFWrapper$ctl00$lstControl" id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_rptCustomFields_ctl00_ucCFWrapper_ctl00_lstControl" class="FieldValue">' +
 					'<option selected="selected" value="-1">Select</option>' +
@@ -176,7 +176,7 @@ $(document).ready(function(){
 		
 		
 		
-		 $("#advSearchTable td").css({"width": "200px", "padding-right": "10px"});   
+		 $("#advSearchTable td").css({"width": "210px", "padding-right": "10px", "fontWeight": "bold"});   
                  $("ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_rptCustomFields_ctl00_ucCFWrapper_ctl00_parentValue").css({"width": "60px", "padding-right": "10px"});   
 
 		
