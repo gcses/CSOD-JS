@@ -12,7 +12,7 @@ $(document).ready(function(){
 		
 		
 		
-		$(".cs-main-sep:first-child").css({"backgroundColor": "#EEEEEE", "height": "210px"});
+		$(".cs-main-sep").css({"backgroundColor": "#EEEEEE", "height": "210px"});
 		
 		//queryElement.setAttribute("style", "backgroundColor: yellow");
 		//queryElement.setAttribute("style", "height: 210px; padding: 15px; backgroundColor: yellow");
@@ -188,7 +188,7 @@ $(document).ready(function(){
     }  //end adv search logic on Browse For Training
 
    
-    $('.cso-h1').css("color", "red");		
+   // $('.cso-h1').css("color", "red");		
  
 	
 	
