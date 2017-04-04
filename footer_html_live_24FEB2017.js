@@ -10,7 +10,9 @@ $(document).ready(function(){
 		var sepElements = document.getElementsByClassName("cs-main-sep"); 
 		var queryElement = sepElements[0];
 		
-		 Object.assign(queryElementt.style,{backgroundColor:"EEEEEE", padding: "15px"});
+		queryElement.setAttribute("style", "padding: 15px; backgroundColor:#eeeeee");
+		 
+		//Object.assign(queryElementt.style,{backgroundColor:"EEEEEE", padding: "15px"});
 
 		
 		
