@@ -4,7 +4,7 @@ $(document).ready(function(){
 	if (document.title.indexOf("Browse for Training") > -1)
 	{			 
                 //define style of grey area around search options
-		$(".cs-main-sep").css({"backgroundColor": "#EEEEEE", "height": "270px",  "margin": "40px 0px 40px 0px", "padding": "15px", "border-style": "solid", "border-width": "1px", "border-radius": "5px", "border-color": "grey"});   
+		$(".cs-main-sep").css({"backgroundColor": "#EEEEEE", "height": "370px",  "margin": "40px 0px 40px 0px", "padding": "15px", "border-style": "solid", "border-width": "1px", "border-radius": "5px", "border-color": "grey"});   
 		
 		var sepElements = document.getElementsByClassName("cs-main-sep"); 
 		var queryElement = sepElements[0];
@@ -190,7 +190,7 @@ $(document).ready(function(){
     }  //end adv search logic on Browse For Training
 
    
-  // $('.cso-h1').css("color", "red");		
+   $('.cso-h1').css("color", "red");		
  
 	
 	
