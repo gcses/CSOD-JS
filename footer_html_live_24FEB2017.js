@@ -183,7 +183,7 @@ $(document).ready(function(){
     }  //end adv search logic on Browse For Training
 
    
-     $('.cso-h1').css("color", "red");		
+    // $('.cso-h1').css("color", "red");		
  
 	
 	
