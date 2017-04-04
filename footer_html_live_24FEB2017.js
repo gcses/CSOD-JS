@@ -4,7 +4,7 @@ $(document).ready(function(){
 	if (document.title.indexOf("Browse for Training") > -1)
 	{			 
                 //define style of grey area around search options
-		$(".cs-main-sep").css({"backgroundColor": "#EEEEEE", "height": "300px",  "margin": "40px 0px 40px 0px", "padding": "15px", "border-style": "solid", "border-width": "1px", "border-radius": "5px", "border-color": "grey"});   
+		$(".cs-main-sep").css({"backgroundColor": "#EEEEEE", "height": "270px",  "margin": "40px 0px 40px 0px", "padding": "15px", "border-style": "solid", "border-width": "1px", "border-radius": "5px", "border-color": "grey"});   
 		
 		var sepElements = document.getElementsByClassName("cs-main-sep"); 
 		var queryElement = sepElements[0];
@@ -173,7 +173,7 @@ $(document).ready(function(){
 			'<option value="65">Respiratory Therapist</option>' +
 			'</select></td></tr></table>';
 	
-		 $("#advSearchTable td").css({"padding-right": "10px", "margin-right": "10px"});   
+		 $("#advSearchTable td").css({"width": "60px", "padding-right": "10px"});   
   
 
 		  queryElement.innerHTML += '<br/><div class="cs-advsrch-srchbtn-cont">' +
@@ -181,7 +181,7 @@ $(document).ready(function(){
                         '<a id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_btSubmit" class="btnRefine cso-btn cso-btn-large cso-btn-blue cso-corner" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$btSubmit&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))" style="width: 155px">Refine</a>' +
                     	'</span></div></div>';
 
-		 $(".cs-advsrch-srchbtn-cont").css({"float": "right", "margin": "15px 0px 15px 0px"});   
+		 $(".cs-advsrch-srchbtn-cont").css({"float": "right", "margin": "15px 0px 15px 0px", "width": "100px"});   
 		
 		 
   
