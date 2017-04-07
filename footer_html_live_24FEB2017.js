@@ -287,19 +287,38 @@ $(document).ready(function(){
 
 	$('#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl01_widgetContainer_ctl00_pnlSuggestedTraining_title').css({'background-color':'#00B8B0'});
 
+	window.setInterval(replaceOnlineClass, 1000);
+	
+	
+	
+	
+	
+
+	
+	
+	
 	
 });
 
 
 
+function eventFire(element, elementType)
+{
+      if (element.fireEvent)
+       {
+           element.fireEvent('on' + elementType);
+       } 
+      else 
+      {
+	   var eventObject = document.createEvent('Events');
+	   eventObject.initEvent(elementType, true, false);
+	   element.dispatchEvent(eventObject);
+      } 
+}
 
 /*
 
 
-
-//});
-
-	window.setInterval(replaceOnlineClass, 1000);
 
 	function replaceOnlineClass() {
 		
@@ -378,16 +397,7 @@ $(document).ready(function(){
 //		console.log("replace() - End");
 	}
 
-       function eventFire(element, elementType){
-	if (element.fireEvent) {
-		element.fireEvent('on' + elementType);
-	} 
-	else {
-		var eventObject = document.createEvent('Events');
-		eventObject.initEvent(elementType, true, false);
-		element.dispatchEvent(eventObject);
-	}
-     }
+
 
 */
 
