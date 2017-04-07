@@ -251,15 +251,10 @@ $(document).ready(function(){
 
 	$('[data-original-title="Online Class"]').attr('data-original-title', 'Web-Based Training');
         //  $('.tooltip-cso').tooltip();
-
-});
-
-
-
-
-/*
-
-
+	
+	
+	
+	
 	$('.cso-brdcrm-cont a:contains("Browse for Training")').each(function(){
  	$(this).html($(this).html().replace('Browse for Training','Browse Learning'));
 	});
@@ -291,6 +286,16 @@ $(document).ready(function(){
 	$('.item.vd').css({'background':'url("https://placeholdit.imgix.net/~text?txtsize=33&txt=61×61&w=61&h=61")'});
 
 	$('#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl01_widgetContainer_ctl00_pnlSuggestedTraining_title').css({'background-color':'#00B8B0'});
+
+	
+});
+
+
+
+
+/*
+
+
 
 //});
 
