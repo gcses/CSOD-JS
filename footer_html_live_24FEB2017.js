@@ -1,6 +1,7 @@
 
 $(document).ready(function(){
 
+	// -------------  Browse For Training Global Search Options -------------
 	if (document.title.indexOf("Browse for Training") > -1)
 	{			 
                 //define style of grey area around search options
@@ -190,10 +191,12 @@ $(document).ready(function(){
 		 
   
     }  //end adv search logic on Browse For Training
-
+    // -------------  End Browse For Training Global Search Options ------------
    
   // $('.cso-h1').css("color", "red");		
  
+	
+
 	
 	
 	
@@ -204,7 +207,7 @@ $(document).ready(function(){
 	//});
 	eventFire(document.getElementById('lnkShowMoreSearchOptions'), 'click');
    });
-
+	
   //remove the close button on the advanced options
   $(".cs-advsrch-close-btn").remove();
 	
