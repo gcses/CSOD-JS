@@ -175,8 +175,6 @@ $(document).ready(function(){
 			'</select></td></tr></table>';
 	
 		
-		
-		
 		 $("#advSearchTable td").css({"width": "210px", "padding-right": "10px", "fontWeight": "bold"});   
                  $("ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_rptCustomFields_ctl00_ucCFWrapper_ctl00_parentValue").css({"width": "60px", "padding-right": "10px"});   
 
@@ -188,18 +186,14 @@ $(document).ready(function(){
 
 		 $(".cs-advsrch-srchbtn-cont").css({"float": "right", "margin": "15px 0px 15px 0px"});   
 		
-		 
-  
-    }  //end adv search logic on Browse For Training
-    // -------------  End Browse For Training Global Search Options ------------
+        }  //end adv search logic on Browse For Training
+        // -------------  End Browse For Training Global Search Options ------------
    
-  // $('.cso-h1').css("color", "red");		
+        // $('.cso-h1').css("color", "red");		
  
 	
 
-	
-	
-	
+		
   //show the advanced search option whenever search is shown
   $("#lnkShowMoreSearchOptions").each(function(){
       //$("#srch-ctrl").each(function(){
@@ -227,6 +221,9 @@ $(document).ready(function(){
 });
 
 
+
+
+/*
 
         $("a:has(span:contains('Popular'))").remove();
 	
@@ -256,13 +253,12 @@ $(document).ready(function(){
 
 	$("[aria-labelledby=Support]").empty();
 	
-  $("[aria-labelledby=Support]").append('<li><a href="http://cp.carefusion.com" title="Change Password" tabindex="-1">Change Password</a></li><li><a href="/catalog/CustomPage.aspx?id=20000480&amp;tab_page_id=20000480" title="Contact Us" tabindex="-1">Contact Us</a></li><li><a href="/catalog/CustomPage.aspx?id=20000480&amp;tab_page_id=20000480" title="Frequently Asked Questions" tabindex="-1">Frequently Asked Questions</a></li>');
-  $smjquery('#main-menu').smartmenus('refresh')
+        $("[aria-labelledby=Support]").append('<li><a href="http://cp.carefusion.com" title="Change Password" tabindex="-1">Change Password</a></li><li><a href="/catalog/CustomPage.aspx?id=20000480&amp;tab_page_id=20000480" title="Contact Us" tabindex="-1">Contact Us</a></li><li><a href="/catalog/CustomPage.aspx?id=20000480&amp;tab_page_id=20000480" title="Frequently Asked Questions" tabindex="-1">Frequently Asked Questions</a></li>');
+        $smjquery('#main-menu').smartmenus('refresh');
 
 	$('.cso-txt span:contains("Online Class")').each(function(){
- 	$(this).html($(this).html().replace('Online Class','Web-Based Training'));
-	});
-
+ 	     $(this).html($(this).html().replace('Online Class','Web-Based Training'));
+	    });
 
 //TESTING - 3/24/17 - JS	
 	$('[data-original-title="Online Class"]').attr('data-original-title', 'Web-Based Training');
@@ -300,7 +296,7 @@ $(document).ready(function(){
 
 	$('#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl01_widgetContainer_ctl00_pnlSuggestedTraining_title').css({'background-color':'#00B8B0'});
 
-});
+//});
 
 	window.setInterval(replaceOnlineClass, 1000);
 
@@ -345,7 +341,7 @@ $(document).ready(function(){
 
 			}
 
-		}
+		} //end function replaceOnlineClass()
 
 		if (document.getElementById("common-messages")) {
 			
@@ -392,7 +388,7 @@ $(document).ready(function(){
 	}
      }
 
-
+*/
 
 
 
