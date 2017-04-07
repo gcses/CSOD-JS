@@ -232,34 +232,6 @@ $(document).ready(function(){
  		$(this).remove();
 	});
 	
-	
-	
-	
-});
-
-
-
-
-/*
-
-        $("a:has(span:contains('Popular'))").remove();
-	
-	$('h2:contains("Browse for Training")').each(function(){
- 		$(this).html($(this).html().replace('Browse for Training','Browse Learning'));
-	});
-	
-	$('h2:contains("Suggested Training")').each(function(){
- 		$(this).html($(this).html().replace('Suggested Training','Suggested Learning'));
-	});
-	
-	$('a:contains("Change your password")').each(function(){
- 		$(this).remove();
-	});
-	
-	$('a:contains("Go to Customer Portal")').each(function(){
- 		$(this).remove();
-	});
-	
 	$(".cso-cont-padtb5:has(h3:contains('Subjects'))").remove();
 	$(".cso-cont-padtb5:has(h3:contains('Available Languages'))").remove();
 	$(".cso-cont-padtb5:has(h3:contains('Product'))").remove();
@@ -277,9 +249,16 @@ $(document).ready(function(){
  	     $(this).html($(this).html().replace('Online Class','Web-Based Training'));
 	    });
 
-//TESTING - 3/24/17 - JS	
 	$('[data-original-title="Online Class"]').attr('data-original-title', 'Web-Based Training');
-//  $('.tooltip-cso').tooltip();
+        //  $('.tooltip-cso').tooltip();
+
+});
+
+
+
+
+/*
+
 
 	$('.cso-brdcrm-cont a:contains("Browse for Training")').each(function(){
  	$(this).html($(this).html().replace('Browse for Training','Browse Learning'));
