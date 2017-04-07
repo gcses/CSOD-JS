@@ -228,10 +228,7 @@ $(document).ready(function(){
 
 
 
-
-
-
-$("a:has(span:contains('Popular'))").remove();
+        $("a:has(span:contains('Popular'))").remove();
 	
 	$('h2:contains("Browse for Training")').each(function(){
  		$(this).html($(this).html().replace('Browse for Training','Browse Learning'));
@@ -375,35 +372,6 @@ $("a:has(span:contains('Popular'))").remove();
 				
 		}
 
-/*
-<a id="lnkShowMoreSearchOptions" href="javascript:void(0)" style="display: inline-block;" title="Refine search">
-<span class="cs-moresrchoptns-cont">Refine search</span>
-</a>
-*/
-		$("#lnkShowMoreSearchOptions").each(function(){
-//		$("div[style='width: 420px; text-align: left; margin-top: 10px; margin-bottom: 10px;']");
-			
-			//<div class="input-cont-outer">
-			//<span class="input-cont">
-			
-//			$(".input-cont-outer").each(function(){
-//				elementHeight = $(this).style.height;
-//				console.log("#srch-ctrl.offsetHeight = " + elementHeight);
-//			});
-			eventFire(document.getElementById('lnkShowMoreSearchOptions'), 'click');
-		});
-		
-		$(".cs-advsrch-close-btn").remove();
-/*		
-		<div class="cs-advsrch-cont-title">
-				    <a class="cs-advsrch-close-btn" href="#" onclick="closeDialog(); return false;">
-                        ×
-                    </a>
-                    <span class="cso-txt-lrg" style="line-height:normal;">
-                        Refine your search
-                    </span>
-                </div>
-*/
 //		$(".usr-content:contains('$0.00')").css("border", "solid red");
 		$(".usr-content:contains('$0.00')").each(function(){
 			$(this).html($(this).html().replace('Total Price',''));
