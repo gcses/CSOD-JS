@@ -289,6 +289,37 @@ $(document).ready(function(){
 
 	window.setInterval(replaceOnlineClass, 1000);
 	
+	if (document.getElementById("common-messages")) 
+	{
+			try
+			{
+				if (document.getElementById("common-messages").innerHTML.indexOf("This training item is currently unavailable to you.") > -1)
+				{
+					document.getElementById("common-messages").innerHTML = '<div>' +
+                
+						'<span class="cso-txt blue">' +
+						'This item is part of a curriculum. ' +
+						'Please return to the previous page and select Request to access this item.' +
+						'</span>' +
+					'</div>';
+					
+				} //end if
+			} 
+			catch(err)
+			{
+				console.log("common-messages = null");
+			}
+			
+			try
+			{
+				console.log("selectedSearchEngineID = " + selectedSearchEngineID);
+			} 
+			catch(err)
+			{
+			}
+	} //end if
+	
+	
 	// $(".usr-content:contains('$0.00')").css("border", "solid red");
 			
 	$(".usr-content:contains('$0.00')").each(function(){
@@ -321,16 +352,17 @@ function eventFire(element, elementType)
 function replaceOnlineClass() 
 {
     //	console.log("replace() - Start");
-	
-/*
 		
     var elements=document.getElementsByTagName("*"), count=elements.length, elementChildNodes=[], subCount=0, i=0, sub=0, elementHeight=0;
-             for(i=0; i<count; i++)
-             {
-			elementChildNodes = elements[i].childNodes;
-			subCount = elementChildNodes.length;
-			for (sub=0; sub<subCount; sub++)
-			{
+    
+    for(i=0; i<count; i++)
+    {
+	elementChildNodes = elements[i].childNodes;
+	subCount = elementChildNodes.length;
+	for (sub=0; sub<subCount; sub++)
+	{
+				
+				/*
 //				if(elementChildNodes[sub].nodeType === 1 || elementChildNodes[sub].nodeType === 3) {
 				if(elementChildNodes[sub].nodeType === 3)
 				{
@@ -357,40 +389,11 @@ function replaceOnlineClass()
 					catch(err) 
 					{
 					}
-				  } //end if
-			} //end for
-		} //end for
-	
-		if (document.getElementById("common-messages")) 
-		{
-			try
-			{
-				if (document.getElementById("common-messages").innerHTML.indexOf("This training item is currently unavailable to you.") > -1)
-				{
-					document.getElementById("common-messages").innerHTML = '<div>' +
-                
-						'<span class="cso-txt blue">' +
-						'This item is part of a curriculum. ' +
-						'Please return to the previous page and select Request to access this item.' +
-						'</span>' +
-					'</div>';
-					
-				} //end if
-			} 
-			catch(err)
-			{
-				console.log("common-messages = null");
-			}
-			
-			try
-			{
-				console.log("selectedSearchEngineID = " + selectedSearchEngineID);
-			} 
-			catch(err)
-			{
-			}
-		} //end if
-		*/
+				  } //end inner if
+				  
+				  */
+	} //end inner for
+    } //end outer for
 } //end function	
 		
 
