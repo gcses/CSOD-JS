@@ -361,12 +361,10 @@ function replaceOnlineClass()
 	subCount = elementChildNodes.length;
 	for (sub=0; sub<subCount; sub++)
 	{
-				
-				/*
-//				if(elementChildNodes[sub].nodeType === 1 || elementChildNodes[sub].nodeType === 3) {
-				if(elementChildNodes[sub].nodeType === 3)
-				{
-//					console.log("replaceOnlineClass() - i="+i+" - sub="+sub);
+		//  if(elementChildNodes[sub].nodeType === 1 || elementChildNodes[sub].nodeType === 3) {
+		if(elementChildNodes[sub].nodeType === 3)
+		{
+		   // console.log("replaceOnlineClass() - i="+i+" - sub="+sub);
 					try {
 						elementChildNodes[sub].nodeValue = elementChildNodes[sub].nodeValue.replace(new RegExp("Online Class", "g"), "Web-based Training");
 					} catch(err) {
@@ -389,9 +387,8 @@ function replaceOnlineClass()
 					catch(err) 
 					{
 					}
-				  } //end inner if
+		 } //end if
 				  
-				  */
 	} //end inner for
     } //end outer for
 } //end function	
