@@ -289,7 +289,14 @@ $(document).ready(function(){
 
 	window.setInterval(replaceOnlineClass, 1000);
 	
+	// $(".usr-content:contains('$0.00')").css("border", "solid red");
+			
+	$(".usr-content:contains('$0.00')").each(function(){
+			$(this).html($(this).html().replace('Total Price',''));
+ 			$(this).html($(this).html().replace('$0.00',''));
+	});
 	
+	 // console.log("replace() - End");
 	
 });
 
@@ -314,6 +321,8 @@ function eventFire(element, elementType)
 function replaceOnlineClass() 
 {
     //	console.log("replace() - Start");
+	
+/*
 		
     var elements=document.getElementsByTagName("*"), count=elements.length, elementChildNodes=[], subCount=0, i=0, sub=0, elementHeight=0;
              for(i=0; i<count; i++)
@@ -348,12 +357,12 @@ function replaceOnlineClass()
 					catch(err) 
 					{
 					}
-				} //end if
+				  } //end if
 			} //end for
 		} //end for
+	
 		if (document.getElementById("common-messages")) 
 		{
-			
 			try
 			{
 				if (document.getElementById("common-messages").innerHTML.indexOf("This training item is currently unavailable to you.") > -1)
@@ -381,15 +390,10 @@ function replaceOnlineClass()
 			{
 			}
 		} //end if
-		// $(".usr-content:contains('$0.00')").css("border", "solid red");
-			
-		$(".usr-content:contains('$0.00')").each(function(){
-			$(this).html($(this).html().replace('Total Price',''));
- 			$(this).html($(this).html().replace('$0.00',''));
-		});
+		*/
+} //end function	
 		
-              // console.log("replace() - End");
-} //end function
+
 
 
 
