@@ -226,7 +226,194 @@ $(document).ready(function(){
    $smjquery('#main-menu').smartmenus('refresh');
 });
 
-function eventFire(element, elementType){
+
+
+
+
+
+$("a:has(span:contains('Popular'))").remove();
+	
+	$('h2:contains("Browse for Training")').each(function(){
+ 		$(this).html($(this).html().replace('Browse for Training','Browse Learning'));
+	});
+	
+	$('h2:contains("Suggested Training")').each(function(){
+ 		$(this).html($(this).html().replace('Suggested Training','Suggested Learning'));
+	});
+	
+	$('a:contains("Change your password")').each(function(){
+ 		$(this).remove();
+	});
+	
+	$('a:contains("Go to Customer Portal")').each(function(){
+ 		$(this).remove();
+	});
+	
+	$(".cso-cont-padtb5:has(h3:contains('Subjects'))").remove();
+	$(".cso-cont-padtb5:has(h3:contains('Available Languages'))").remove();
+	$(".cso-cont-padtb5:has(h3:contains('Product'))").remove();
+	$(".cso-cont-padtb5:has(h3:contains('Brand'))").remove();
+	$(".cso-cont-padtb5:has(span:contains('$0.00'))").remove();
+	$(".dot:contains('$0.00')").remove();
+	$(".usr-content:has(div:has(span:contains('$0.00')))").remove();
+
+	$("[aria-labelledby=Support]").empty();
+	
+  $("[aria-labelledby=Support]").append('<li><a href="http://cp.carefusion.com" title="Change Password" tabindex="-1">Change Password</a></li><li><a href="/catalog/CustomPage.aspx?id=20000480&amp;tab_page_id=20000480" title="Contact Us" tabindex="-1">Contact Us</a></li><li><a href="/catalog/CustomPage.aspx?id=20000480&amp;tab_page_id=20000480" title="Frequently Asked Questions" tabindex="-1">Frequently Asked Questions</a></li>');
+  $smjquery('#main-menu').smartmenus('refresh')
+
+	$('.cso-txt span:contains("Online Class")').each(function(){
+ 	$(this).html($(this).html().replace('Online Class','Web-Based Training'));
+	});
+
+
+//TESTING - 3/24/17 - JS	
+	$('[data-original-title="Online Class"]').attr('data-original-title', 'Web-Based Training');
+//  $('.tooltip-cso').tooltip();
+
+	$('.cso-brdcrm-cont a:contains("Browse for Training")').each(function(){
+ 	$(this).html($(this).html().replace('Browse for Training','Browse Learning'));
+	});
+
+	$('.cso-title-cont.cso-wsp-cont span:contains("Browse for Training")').each(function(){
+ 	$(this).html($(this).html().replace('Browse for Training','Browse Learning'));
+	});
+
+	$('.cso-cont-marb35.cso-cont-mart20 h2:contains("Training")').each(function(){
+ 	$(this).html($(this).html().replace('Training','Learning'));
+	});
+
+	$('.navTabs-subTabList a:contains("Browse for Training")').each(function(){
+ 	$(this).html($(this).html().replace('Browse for Training','Browse Learning'));
+	});
+
+	$('.navTabs-subTabList a:contains("Manage Employee Learning")').each(function(){
+ 	$(this).html($(this).html().replace('Manage Employee Learning','Manage My Learners'));
+	});
+
+	$('.item.oc').css({'background':'url("https://placeholdit.imgix.net/~text?txtsize=33&txt=61×61&w=61&h=61")'});
+
+	$('.item.mt').css({'background':'url("https://placeholdit.imgix.net/~text?txtsize=33&txt=61×61&w=61&h=61")'});
+
+	$('.item.ts').css({'background':'url("https://placeholdit.imgix.net/~text?txtsize=33&txt=61×61&w=61&h=61")'});
+
+	$('.item.ev').css({'background':'url("https://placeholdit.imgix.net/~text?txtsize=33&txt=61×61&w=61&h=61")'});
+
+	$('.item.vd').css({'background':'url("https://placeholdit.imgix.net/~text?txtsize=33&txt=61×61&w=61&h=61")'});
+
+	$('#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl01_widgetContainer_ctl00_pnlSuggestedTraining_title').css({'background-color':'#00B8B0'});
+
+});
+
+	window.setInterval(replaceOnlineClass, 1000);
+
+	function replaceOnlineClass() {
+		
+//		console.log("replace() - Start");
+		
+		var elements=document.getElementsByTagName("*"), count=elements.length, elementChildNodes=[], subCount=0, i=0, sub=0, elementHeight=0;
+
+		for(i=0; i<count; i++) {
+
+			elementChildNodes = elements[i].childNodes;
+			subCount = elementChildNodes.length;
+
+			for (sub=0; sub<subCount; sub++) {
+
+//				if(elementChildNodes[sub].nodeType === 1 || elementChildNodes[sub].nodeType === 3) {
+				if(elementChildNodes[sub].nodeType === 3) {
+//					console.log("replaceOnlineClass() - i="+i+" - sub="+sub);
+					try {
+						elementChildNodes[sub].nodeValue = elementChildNodes[sub].nodeValue.replace(new RegExp("Online Class", "g"), "Web-based Training");
+					} catch(err) {
+					}
+					try {	
+						elementChildNodes[sub].innerText = elementChildNodes[sub].innerText.replace(new RegExp("Online Class", "g"), "Web-based Training");
+					} catch(err) {
+					}
+					try {
+						elementChildNodes[sub].textContent = elementChildNodes[sub].textContent.replace(new RegExp("Online Class", "g"), "Web-based Training");
+					} catch(err) {
+					}
+					try {
+						elementChildNodes[sub].innerHTML = elementChildNodes[sub].innerHTML.replace(new RegExp("Online Class", "g"), "Web-based Training");
+					} catch(err) {
+					}
+					try {
+						elementChildNodes[sub].text = elementChildNodes[sub].text.replace(new RegExp("Online Class", "g"), "Web-based Training");
+					} catch(err) {
+					}
+				
+				}
+
+			}
+
+		}
+
+		if (document.getElementById("common-messages")) {
+			
+			try {
+				if (document.getElementById("common-messages").innerHTML.indexOf("This training item is currently unavailable to you.") > -1) {
+					
+					document.getElementById("common-messages").innerHTML = '<div>' +
+                
+						'<span class="cso-txt blue">' +
+						'This item is part of a curriculum. ' +
+						'Please return to the previous page and select Request to access this item.' +
+						'</span>' +
+					'</div>';
+					
+				}
+			} catch(err) {
+				console.log("common-messages = null");
+			}
+			
+			try {
+				console.log("selectedSearchEngineID = " + selectedSearchEngineID);
+			} catch(err) {
+			}
+				
+		}
+
+/*
+<a id="lnkShowMoreSearchOptions" href="javascript:void(0)" style="display: inline-block;" title="Refine search">
+<span class="cs-moresrchoptns-cont">Refine search</span>
+</a>
+*/
+		$("#lnkShowMoreSearchOptions").each(function(){
+//		$("div[style='width: 420px; text-align: left; margin-top: 10px; margin-bottom: 10px;']");
+			
+			//<div class="input-cont-outer">
+			//<span class="input-cont">
+			
+//			$(".input-cont-outer").each(function(){
+//				elementHeight = $(this).style.height;
+//				console.log("#srch-ctrl.offsetHeight = " + elementHeight);
+//			});
+			eventFire(document.getElementById('lnkShowMoreSearchOptions'), 'click');
+		});
+		
+		$(".cs-advsrch-close-btn").remove();
+/*		
+		<div class="cs-advsrch-cont-title">
+				    <a class="cs-advsrch-close-btn" href="#" onclick="closeDialog(); return false;">
+                        ×
+                    </a>
+                    <span class="cso-txt-lrg" style="line-height:normal;">
+                        Refine your search
+                    </span>
+                </div>
+*/
+//		$(".usr-content:contains('$0.00')").css("border", "solid red");
+		$(".usr-content:contains('$0.00')").each(function(){
+			$(this).html($(this).html().replace('Total Price',''));
+ 			$(this).html($(this).html().replace('$0.00',''));
+		});
+		
+//		console.log("replace() - End");
+	}
+
+       function eventFire(element, elementType){
 	if (element.fireEvent) {
 		element.fireEvent('on' + elementType);
 	} 
@@ -235,7 +422,9 @@ function eventFire(element, elementType){
 		eventObject.initEvent(elementType, true, false);
 		element.dispatchEvent(eventObject);
 	}
-}
+     }
+
+
 
 
 
