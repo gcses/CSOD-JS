@@ -20,14 +20,14 @@ $(document).ready(function(){
 		queryElement.innerHTML += '<h2>Refine your Search</h2><br/>'
 		 
 		// Create a single row holding both a Keywords input and a Languages selection input
-		queryElement.innerHTML += '<table><tr><td>';
+		queryElement.innerHTML += '<table><tr><td id="inputsTD">';
 			
 		//keywords here
 		queryElement.innerHTML += '<span class="cs-advsrch-item1">' +
                 			  '<label class="cs-acc-hid-con" for="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_tbKeywords">Keywords:</label>'+
 					  '<input placeholder="Keywords" name="ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$rptAdvanceControls$ctl00$ctl00$tbKeywords" type="text" maxlength="100" id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_tbKeywords" class="cs-advsrch-input" /><input type="hidden" name="ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$rptAdvanceControls$ctl00$ctl00$atxKeywords_ClientState" id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_atxKeywords_ClientState" />'+
     					  '</span></td>' +
-			                  '<td><select>' +
+			                  '<td id="inputsTD"><select>' +
 			                     '<option>All Languages</option>' +
 					     '<option>Bahasa Malaysia (Malaysia)</option>' +
 					     '<option>Bulgarian (Bulgaria)</option>' +
@@ -43,7 +43,7 @@ $(document).ready(function(){
 					     '<option>Estonian (Estonia)</option>';
 					   '</select></td></tr></table>';
 			
-		//$("#keywordLanguageOptions").css({"backgroundColor": "yellow"}); 
+		$("#inputsTD").css({"padding": "10px", "backgroundColor": "yellow"}); 
 			
 			/*
 			
