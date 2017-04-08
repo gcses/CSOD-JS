@@ -44,8 +44,7 @@ $(document).ready(function(){
 		$(".selectBox select").css({"font-weight": "bold"}); 
 		$(".overSelect").css({"position": "absolute"}); 
 		$("#checkboxes").css({"display": "none", "border": "1px, #dadada, solid"}); 
-		
-		
+		$(".multiselect").css({"width": "200px"}); 
 		
 	/*	
 		//all languages here
