@@ -39,17 +39,7 @@ $(document).ready(function(){
    			'</div></div></div>' +
                          '</td></tr></table>';
 		
-		
-		
-		
-		//keywords here
-		queryElement.innerHTML += '<span class="cs-advsrch-item1">' +
-                			  '<label class="cs-acc-hid-con" for="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_tbKeywords">Keywords:</label>'+
-					  '<input placeholder="Keywords" name="ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$rptAdvanceControls$ctl00$ctl00$tbKeywords" type="text" maxlength="100" id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_tbKeywords" class="cs-advsrch-input" /><input type="hidden" name="ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$rptAdvanceControls$ctl00$ctl00$atxKeywords_ClientState" id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_atxKeywords_ClientState" />'+
-    					  '</span>';
-		$("#ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_tbKeywords").css({"padding": "5px", "width": "150px", "margin-right": "10px"});   
-		
-		
+	/*	
 		//all languages here
 		queryElement.innerHTML += '<span class="cs-advsrch-item1">' +
                     '<div id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_ucLanguage_LangCB" class="RadComboBox RadComboBox_Default FieldValue" style="width:230px;white-space:normal;">' +
@@ -73,15 +63,16 @@ $(document).ready(function(){
 		         '<input name="ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$rptAdvanceControls$ctl00$ctl00$ucLanguage$LangCB$i2$chk1" type="checkbox" id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_ucLanguage_LangCB_i2_chk1" title="Select Language" value="38" onclick="onCheckBoxClick(this,&#39;ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_ucLanguage_LangCB&#39;)" />'+
 		         '<label for="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_ucLanguage_LangCB_i2_chk1" id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_ucLanguage_LangCB_i2_Label1">Bahasa Malaysia (Malaysia)</label>'+
 	                '</div>';
-
-
+			
+			$("#languages").css({"padding": "5px", "width": "150px"});   
+*/
 		
 		
 		
 		
 		
 		
-		$("#languages").css({"padding": "5px", "width": "150px"});   
+		
 	
 		
 		function populatePSQuery_Search(query) {
