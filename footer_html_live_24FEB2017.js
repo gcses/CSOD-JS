@@ -332,7 +332,7 @@ $(document).ready(function(){
 
 	window.setInterval(replaceOnlineClass, 1000);
 	
-	if (document.getElementById("common-messages")) 
+	if (document.getElementById("common-messages"))   
 	{
 			try
 			{
@@ -390,6 +390,18 @@ function eventFire(element, elementType)
       } 
 }
 
+var expanded = false;
+
+function showCheckboxes() {
+  var checkboxes = document.getElementById("checkboxes");
+  if (!expanded) {
+    checkboxes.style.display = "block";
+    expanded = true;
+  } else {
+    checkboxes.style.display = "none";
+    expanded = false;
+  }
+}
 
 
 function replaceOnlineClass() 
