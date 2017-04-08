@@ -1,8 +1,8 @@
 $(document).ready(function(){		
 
         //hide the first name field. It is only included to that we can use the name elsewhere
-        $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").hide();
-	
+        $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl01_widgetContainer_ctl00_htmlContainer").hide();
+
         //use the name field to alter the My Learning header
         var fName = $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl01_widgetContainer_ctl00_htmlContainer").text();
         $('h2:contains("My Learning")').each(function(){
