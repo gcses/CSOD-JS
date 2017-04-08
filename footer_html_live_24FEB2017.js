@@ -40,7 +40,7 @@ $(document).ready(function(){
                          '</td></tr></table>';
 		
 		$(".selectBox").css({"position": "relative"});  
-		$(".selectBox select").css({"width": "100%", "font-weight": "bold"}); 
+		$(".selectBox select").css({"font-weight": "bold"}); 
 		$(".overSelect").css({"position": "absolute"}); 
 		$("#checkboxes").css({"display": "none", "border": "1px, #dadada, solid"}); 
 		
