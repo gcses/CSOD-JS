@@ -28,13 +28,24 @@ $(document).ready(function(){
 		
 		
 		//all languages here
-		queryElement.innerHTML += '<select id="languages" name="cars">'+
-  			'<option value="AL">All Languages</option>'+
- 			 '<option value="volvo">Volvo</option>'+
-  			'<option value="saab">Saab</option>'+
-  			'<option value="fiat">Fiat</option>'+
-  			'<option value="audi">Audi</option>'+
-		 	'</select><br/><br/>';
+		queryElement.innerHTML += '<span class="cs-advsrch-item1">' +
+                    '<div id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_ucLanguage_LangCB" class="RadComboBox RadComboBox_Default FieldValue" style="width:230px;white-space:normal;">' +
+	            '<!-- 2014.3.1209.40 --><table summary="combobox" border="0" style="border-width:0;border-collapse:collapse;width:100%">' +
+		    '<tr><td class="rcbInputCell rcbInputCellLeft" style="width:100%;"><input name="ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$rptAdvanceControls$ctl00$ctl00$ucLanguage$LangCB" type="text" class="rcbInput radPreventDecorate" id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_ucLanguage_LangCB_Input" value="All Languages" tabindex="1" accesskey="L" /></td><td class="rcbArrowCell rcbArrowCellRight"><a id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_ucLanguage_LangCB_Arrow" style="overflow: hidden;display: block;position: relative;outline: none;">select</a></td>' +
+		    '</tr></table><div class="rcbSlide" style="z-index:99999999;"><div id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_ucLanguage_LangCB_DropDown" class="RadComboBoxDropDown RadComboBoxDropDown_Default " style="display:none;"><div class="rcbScroll rcbWidth" style="height:250px;width:100%;"><ul class="rcbList" style="list-style:none;margin:0;padding:0;zoom:1;"><li class="rcbItem  rcbTemplate">' +
+		    '<div onclick="StopPropagation(event)">' +
+		    '<input name="ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$rptAdvanceControls$ctl00$ctl00$ucLanguage$LangCB$i0$chk1" type="checkbox" id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_ucLanguage_LangCB_i0_chk1" title="Select Language" value="0" onclick="onCheckBoxClick(this,&#39;ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_ucLanguage_LangCB&#39;)" />' +
+		    '<label for="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_ucLanguage_LangCB_i0_chk1" id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_ucLanguage_LangCB_i0_Label1">All Languages</label>' +
+		    '</div></li><li class="rcbItem  rcbTemplate"><div onclick="StopPropagation(event)">' +
+		    '<input name="ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$rptAdvanceControls$ctl00$ctl00$ucLanguage$LangCB$i1$chk1" type="checkbox" id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_ucLanguage_LangCB_i1_chk1" title="Select Language" value="28" onclick="onCheckBoxClick(this,&#39;ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_ucLanguage_LangCB&#39;)" />' +
+		    '<label for="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_ucLanguage_LangCB_i1_chk1" id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_ucLanguage_LangCB_i1_Label1">Arabic</label>' +
+		    '</div></li><li class="rcbItem  rcbTemplate"><div onclick="StopPropagation(event)">';
+
+		
+		
+		
+		
+		
 		
 		$("#languages").css({"padding": "5px", "width": "150px"});   
 	
