@@ -39,6 +39,13 @@ $(document).ready(function(){
    			'</div></div></div>' +
                          '</td></tr></table>';
 		
+		$(".selectBox").css({"position": "relative"});  
+		$(".selectBox select").css({"width": "100%", "font-weight": "bold"}); 
+		$(".overSelect").css({"position": "absolute"}); 
+		$("#checkboxes").css({"display": "none", "border": "1px, #dadada, solid"}); 
+		
+		
+		
 	/*	
 		//all languages here
 		queryElement.innerHTML += '<span class="cs-advsrch-item1">' +
