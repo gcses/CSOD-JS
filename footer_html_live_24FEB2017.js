@@ -41,7 +41,7 @@ $(document).ready(function(){
 					     '<option>Estonian (Estonia)</option>';
 					   '</select>';
 			
-		$("#langSelect").css({"margin": "0px 0px 0px 20px"}); 
+		$("#langSelect").css({"margin": "0px 0px 20px 20px"}); 
 			
 			/*
 			
@@ -242,7 +242,7 @@ $(document).ready(function(){
 			'</select></td></tr></table>';
 	
 		
-		 $("#advSearchTable td").css({"margin": "20px 0px 0px 0px", "width": "210px", "padding-right": "10px", "fontWeight": "bold"});   
+		 $("#advSearchTable td").css({"width": "210px", "padding-right": "10px", "fontWeight": "bold"});   
                  $("ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_rptCustomFields_ctl00_ucCFWrapper_ctl00_parentValue").css({"width": "60px", "padding-right": "10px"});   
 
 		
