@@ -18,6 +18,29 @@ $(document).ready(function(){
 		$("#searchHR").css({"border-color": "grey", "margin": "15px 0px 15px 0px"});   
 		
 		queryElement.innerHTML += '<h2>Refine your Search</h2><br/>'
+		 
+		// Create a single row holding both a Keywords input and a Languages selection input
+		queryElement.innerHTML += '<table><tr><td>';
+			
+		//keywords here
+		queryElement.innerHTML += '<span class="cs-advsrch-item1">' +
+                			  '<label class="cs-acc-hid-con" for="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_tbKeywords">Keywords:</label>'+
+					  '<input placeholder="Keywords" name="ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$rptAdvanceControls$ctl00$ctl00$tbKeywords" type="text" maxlength="100" id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_tbKeywords" class="cs-advsrch-input" /><input type="hidden" name="ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$rptAdvanceControls$ctl00$ctl00$atxKeywords_ClientState" id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_atxKeywords_ClientState" />'+
+    					  '</span>';
+		$("#ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_tbKeywords").css({"padding": "5px", "width": "150px", "margin-right": "10px"});   
+		
+		//Language Selection here
+		queryElement.innerHTML += '</td><td><div class="multiselect"><div class="selectBox" onclick="showCheckboxes()">'+
+          		'<select><option>Select an option</option></select>'+
+          		'<div class="overSelect"></div></div>'+
+       			'<div id="checkboxes"><label for="one"><input type="checkbox" id="one" />First checkbox</label>'+
+                        '<label for="two"><input type="checkbox" id="two" />Second checkbox</label>'+
+        		'<label for="three"><input type="checkbox" id="three" />Third checkbox</label>'+
+   			'</div></div></div>' +
+                         '</td></tr></table>';
+		
+		
+		
 		
 		//keywords here
 		queryElement.innerHTML += '<span class="cs-advsrch-item1">' +
