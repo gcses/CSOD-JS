@@ -10,9 +10,12 @@ $(document).ready(function(){
 		var sepElements = document.getElementsByClassName("cs-main-sep"); 
 		var queryElement = sepElements[0];
 		
-		queryElement.innerHTML += '<input id="searchText" placeholder="What would you like to search for?" style="font-style:italic"></input>';
+		queryElement.innerHTML += '<input id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_atxKeywords_ClientState" name="ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$rptAdvanceControls$ctl00$ctl00$tbKeywords" placeholder="What would you like to search for?" style="font-style:italic"></input>';
 		
-		$("#searchText").css({"padding": "5px", "width": "520px"});   
+
+		
+		
+		$("#ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_atxKeywords_ClientState").css({"padding": "5px", "width": "520px"});   
 		
 		queryElement.innerHTML += '<hr id="searchHR" />';
 		$("#searchHR").css({"border-color": "grey", "margin": "15px 0px 15px 0px"});   
