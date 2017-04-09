@@ -251,10 +251,23 @@ $(document).ready(function(){
                  $("ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_rptCustomFields_ctl00_ucCFWrapper_ctl00_parentValue").css({"width": "60px", "padding-right": "10px"});   
 
 		
+		
+		
+		//test: https://bd.csod.com/GlobalSearch/search.aspx?s=1&q=pyxis
+                $newQuery= "https://bd.csod.com/GlobalSearch/search.aspx?s=1&q=pyxis";
+		//ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$btSubmit&quot"
+		
+		
 		  queryElement.innerHTML += '<br/><div class="cs-advsrch-srchbtn-cont">' +
                     	'<span class="cs-srch-btn-cont cs-advsrch-btn">' +
-                        '<a id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_btSubmit" class="btnRefine cso-btn cso-btn-large cso-btn-blue cso-corner" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$btSubmit&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))" style="width: 100px">Refine</a>' +
+			   '<a id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_btSubmit" 
+		class="btnRefine cso-btn cso-btn-large cso-btn-blue cso-corner" 
+		href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot; $newQuery;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))" style="width: 100px">Refine</a>' +
                     	'</span></div></div>';
+			  
+			  
+                      //  '<a id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_btSubmit" class="btnRefine cso-btn cso-btn-large cso-btn-blue cso-corner" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$btSubmit&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))" style="width: 100px">Refine</a>' +
+                    	//'</span></div></div>';
 
 		 $(".cs-advsrch-srchbtn-cont").css({"float": "right", "margin": "15px 0px 15px 0px"});   
 		
