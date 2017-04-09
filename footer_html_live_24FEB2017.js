@@ -260,9 +260,7 @@ $(document).ready(function(){
 		
 		  queryElement.innerHTML += '<br/><div class="cs-advsrch-srchbtn-cont">' +
                     	'<span class="cs-srch-btn-cont cs-advsrch-btn">' +
-			   '<a id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_btSubmit" 
-		class="btnRefine cso-btn cso-btn-large cso-btn-blue cso-corner" 
-		href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot; $newQuery;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))" style="width: 100px">Refine</a>' +
+			   '<a id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_btSubmit" class="btnRefine cso-btn cso-btn-large cso-btn-blue cso-corner" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot; $newQuery;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))" style="width: 100px">Refine</a>' +
                     	'</span></div></div>';
 			  
 			  
