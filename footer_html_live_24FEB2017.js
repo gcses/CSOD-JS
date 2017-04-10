@@ -22,6 +22,20 @@ $(document).ready(function(){
 		
 		queryElement.innerHTML += '<h2>Refine your Search</h2><br/>';
 			
+		
+		
+		
+		
+		
+
+
+
+		
+		
+		
+		queryElement.innerHTML += '<div id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_divAdvanceControls" 
+		class="divAdvanceControls" style="display: none" engineId="1">';
+                            
 		//keywords here
 		queryElement.innerHTML += '<span class="cs-advsrch-item1">' +
                 			  '<label class="cs-acc-hid-con" for="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_tbKeywords">Keywords:</label>'+
@@ -29,6 +43,11 @@ $(document).ready(function(){
     					  '</span>';
 		
 		$("#ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_tbKeywords").css({"padding": "5px", "width": "200px"}); 
+		
+		queryElement.innerHTML += '</div>';
+		
+		
+		
 		
 		queryElement.innerHTML += '<select id="langSelect">' +
 			                     '<option>All Languages</option>' +
