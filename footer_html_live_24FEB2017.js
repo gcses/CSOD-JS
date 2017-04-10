@@ -33,7 +33,7 @@ $(document).ready(function(){
 		
 		
 		
-		queryElement.innerHTML += '<div id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_divAdvanceControls" class="divAdvanceControls" style="display: none" engineId="1">';
+		//queryElement.innerHTML += '<div id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_divAdvanceControls" class="divAdvanceControls" style="display: none" engineId="1">';
                             
 		//keywords here
 		queryElement.innerHTML += '<span class="cs-advsrch-item1">' +
@@ -43,7 +43,7 @@ $(document).ready(function(){
 		
 		$("#ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_tbKeywords").css({"padding": "5px", "width": "200px"}); 
 		
-		queryElement.innerHTML += '</div>';
+		//queryElement.innerHTML += '</div>';
 		
 		
 		
@@ -206,7 +206,6 @@ $(document).ready(function(){
         				     '<label class="cs-acc-hid-con" for="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_tbKeywords">Keywords:</label>' +
        					     '<input name="ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$rptAdvanceControls$ctl00$ctl00$tbKeywords" type="text" maxlength="100" id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_tbKeywords" class="cs-advsrch-input" /><input type="hidden" name="ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$rptAdvanceControls$ctl00$ctl00$atxKeywords_ClientState" id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_atxKeywords_ClientState" />' +
     					     '</span><span class="cs-advsrch-item1">';
-        
 
 		//L. 1791- 
 		queryElement.innerHTML += '<table id="advSearchTable"><tr><td>Brand:</td><td>Product:</td><td>Role:</td></tr><tr>';
@@ -298,8 +297,6 @@ $(document).ready(function(){
                  $("ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_rptCustomFields_ctl00_ucCFWrapper_ctl00_parentValue").css({"width": "60px", "padding-right": "10px"});   
 
 		
-		
-		
 		//test: https://bd.csod.com/GlobalSearch/search.aspx?s=1&q=pyxis
                 $newQuery= "https://bd.csod.com/GlobalSearch/search.aspx?s=1&q=pyxis";
 		//ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$btSubmit&quot"
@@ -381,8 +378,6 @@ $(document).ready(function(){
 
 	$('[data-original-title="Online Class"]').attr('data-original-title', 'Web-Based Training');
         //  $('.tooltip-cso').tooltip();
-	
-	
 	
 	
 	$('.cso-brdcrm-cont a:contains("Browse for Training")').each(function(){
