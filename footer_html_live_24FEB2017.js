@@ -43,7 +43,34 @@ $(document).ready(function(){
 					     '<option>English (Australia)</option>' +
 					     '<option>English (England)</option>' +
 					     '<option>English (US)</option>' +
-					     '<option>Estonian (Estonia)</option>';
+					     '<option>Estonian (Estonia)</option>'+
+					     '<option>Finnish (Finland)</option>'+
+					     '<option>French (Canada)</option>'+
+					     '<option>French (France)</option>'+
+					     '<option>German (Germany)</option>'+
+					     '<option>Greek (Greece)</option>'+
+					     '<option>Hebrew (Israel)</option>'+
+					     '<option>Hungarian (Hungary)</option>'+
+					     '<option>Indonesian (Indonesia)</option>'+
+					     '<option>Italian (Italy)</option>'+
+					     '<option>Japanese (Japan)</option>'+
+					     '<option>Korean (Korea)</option>'+
+					     '<option>Latvian (Latvia)</option>'+
+				             '<option>Lithuanian (Lithuania)</option>'+
+					     '<option>Norwegian (Norway)</option>'+
+			'<option>Polish (Poland)</option>'+
+			'<option>Portuguese (Brazil)</option>'+
+			'<option>Portuguese (Portugal)</option>'+
+			'<option>Romanian (Romania)</option>'+
+			'<option>Russian (Russia)</option>'+
+			'<option>Serbian (Serbia)</option>'+
+			'<option>Slovak (Slovakia)</option>'+
+			'<option>Slovenian (Slovenia)</option>'+
+			'<option>Spanish (Latin America)</option>'+
+			'<option>Spanish (Spain)</option>'+
+			'<option>Swedish (Sweden)</option>'+
+			'<option>Estonian (Estonia)</option>'+
+			
 					   '</select>';
  
 		$("#langSelect").css({"margin": "0px 0px 20px 20px"}); 
