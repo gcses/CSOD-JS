@@ -33,8 +33,7 @@ $(document).ready(function(){
 		
 		
 		
-		queryElement.innerHTML += '<div id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_divAdvanceControls" 
-		class="divAdvanceControls" style="display: none" engineId="1">';
+		queryElement.innerHTML += '<div id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_divAdvanceControls" class="divAdvanceControls" style="display: none" engineId="1">';
                             
 		//keywords here
 		queryElement.innerHTML += '<span class="cs-advsrch-item1">' +
