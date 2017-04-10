@@ -58,19 +58,21 @@ $(document).ready(function(){
 					     '<option>Latvian (Latvia)</option>'+
 				             '<option>Lithuanian (Lithuania)</option>'+
 					     '<option>Norwegian (Norway)</option>'+
-			'<option>Polish (Poland)</option>'+
-			'<option>Portuguese (Brazil)</option>'+
-			'<option>Portuguese (Portugal)</option>'+
-			'<option>Romanian (Romania)</option>'+
-			'<option>Russian (Russia)</option>'+
-			'<option>Serbian (Serbia)</option>'+
-			'<option>Slovak (Slovakia)</option>'+
-			'<option>Slovenian (Slovenia)</option>'+
-			'<option>Spanish (Latin America)</option>'+
-			'<option>Spanish (Spain)</option>'+
-			'<option>Swedish (Sweden)</option>'+
-			'<option>Estonian (Estonia)</option>'+
-			
+					     '<option>Polish (Poland)</option>'+
+					     '<option>Portuguese (Brazil)</option>'+
+					     '<option>Portuguese (Portugal)</option>'+
+					     '<option>Romanian (Romania)</option>'+
+					     '<option>Russian (Russia)</option>'+
+					     '<option>Serbian (Serbia)</option>'+
+					     '<option>Slovak (Slovakia)</option>'+
+					     '<option>Slovenian (Slovenia)</option>'+
+					     '<option>Spanish (Latin America)</option>'+
+					     '<option>Spanish (Spain)</option>'+
+					     '<option>Swedish (Sweden)</option>'+
+					     '<option>Thai (Thailand)</option>'+
+					     '<option>Turkish (Turkey)</option>'+
+					     '<option>Ukrainian (Ukraine)</option>'+
+				             '<option>Vietnamese - Vietnam</option>';	
 					   '</select>';
  
 		$("#langSelect").css({"margin": "0px 0px 20px 20px"}); 
