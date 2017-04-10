@@ -523,7 +523,7 @@ function replaceOnlineClass()
 } //end function	
 		
 
-/*
+
 
 
  function passSerializedValuesBackToSearchPage(values) {
@@ -763,4 +763,4 @@ var globalSearchManager;
 		var backQueryString = GetBackQueryString();
 		var url = ResolveUrl(postingURL.substring(1)) + '&query=' + encodeURIComponent(backQueryString);
 		window.location = url;
-*/
+
