@@ -8,18 +8,6 @@ $(document).ready(function(){
 	// -------------  Browse For Training Global Search Options -------------
 	if (document.title.indexOf("Browse for Training") > -1)
 	{		
-		//add watermark text to text boxes
-		Sys.Application.add_init(function() {
-    			$create(Sys.Extended.UI.TextBoxWatermarkBehavior, {"ClientStateFieldID":"ctl00_ContentPlaceHolder1_WcTextBoxWatermarkExtender1_ClientState","id":"ctl00_ContentPlaceHolder1_WcTextBoxWatermarkExtender1","watermarkCssClass":"txtsearch watermark_text","watermarkText":"What would you like to search for?"}, null, null, $get("ctl00_ContentPlaceHolder1_txtsearch"));
-		});
-		Sys.Application.add_init(function() {
-    			$create(Sys.Extended.UI.TextBoxWatermarkBehavior, {"ClientStateFieldID":"ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_atxKeywords_ClientState","id":"ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_atxKeywords","watermarkCssClass":"cs-advsrch-input watermark_text","watermarkText":"Keywords"}, null, null, $get("ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_tbKeywords"));
-		});
-
-
-
-		
-		
                 //define style of grey area around search options
 		$(".cs-main-sep").css({"backgroundColor": "#EEEEEE", "height": "250px",  "margin": "40px 0px 40px 0px", "padding": "15px", "border-style": "solid", "border-width": "1px", "border-radius": "5px", "border-color": "grey"});   
 		
@@ -47,9 +35,7 @@ $(document).ready(function(){
 		$("#ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_tbKeywords").css({"padding": "5px", "width": "200px"}); 
 		
 		//queryElement.innerHTML += '</div>';
-		
-		
-		
+
 		
 		queryElement.innerHTML += '<select id="langSelect">' +
 			                     '<option>All Languages</option>' +
@@ -97,69 +83,7 @@ $(document).ready(function(){
 					   '</select>';
  
 		$("#langSelect").css({"margin": "0px 0px 20px 20px"}); 
-			
-			/*
-			
-			//'<span class="cs-advsrch-item1">' +
-                			  '<label class="cs-acc-hid-con" for="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_tbKeywords">Keywords:</label>'+
-					  '<input placeholder="Keywords" name="ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$rptAdvanceControls$ctl00$ctl00$tbKeywords" type="text" maxlength="100" id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_tbKeywords" class="cs-advsrch-input" /><input type="hidden" name="ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$rptAdvanceControls$ctl00$ctl00$atxKeywords_ClientState" id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_atxKeywords_ClientState" />'+
-    					  '</span>'+
-			'</td>';
-		$("#ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_tbKeywords").css({"padding": "5px", "width": "150px", "margin-right": "10px"});   
-		
-		//Language Selection here
-		queryElement.innerHTML += '<td><div class="multiselect"><div class="selectBox" onclick="showCheckboxes()">'+
-          		'<select><option>Select an option</option></select>'+
-          		//'<div class="overSelect"></div></div>'+
-       			//'<div id="checkboxes"><label for="one"><input type="checkbox" id="one" />First checkbox</label>'+
-                        //'<label for="two"><input type="checkbox" id="two" />Second checkbox</label>'+
-        		//'<label for="three"><input type="checkbox" id="three" />Third checkbox</label>'+
-   			//'</div>'+
-			'</div></div>' +
-                         '</td></tr></table>';
-		
-		$(".selectBox").css({"position": "relative"});  
-		$(".selectBox select").css({"font-weight": "bold"}); 
-		$(".overSelect").css({"position": "absolute"}); 
-		$("#checkboxes").css({"display": "none", "border": "1px #dadada solid"}); 
-		$(".multiselect").css({"width": "100px"}); 
-		*/
-		
-	/*	
-		//all languages here
-		queryElement.innerHTML += '<span class="cs-advsrch-item1">' +
-                    '<div id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_ucLanguage_LangCB" class="RadComboBox RadComboBox_Default FieldValue" style="width:230px;white-space:normal;">' +
-	            '<!-- 2014.3.1209.40 -->' +
-		    '<table summary="combobox" border="0" style="border-width:0;border-collapse:collapse;width:100%">' +
-		    '<tr><td class="rcbInputCell rcbInputCellLeft" style="width:100%;"><input name="ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$rptAdvanceControls$ctl00$ctl00$ucLanguage$LangCB" type="text" class="rcbInput radPreventDecorate" id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_ucLanguage_LangCB_Input" value="All Languages" tabindex="1" accesskey="L" /></td>'+
-			'<td class="rcbArrowCell rcbArrowCellRight"><a id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_ucLanguage_LangCB_Arrow" style="overflow: hidden;display: block;position: relative;outline: none;">select</a></td>' +
-		    '</tr></table>'+
-		    '<div class="rcbSlide" style="z-index:99999999;"><div id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_ucLanguage_LangCB_DropDown" class="RadComboBoxDropDown RadComboBoxDropDown_Default " style="display:none;"><div class="rcbScroll rcbWidth" style="height:250px;width:100%;"><ul class="rcbList" style="list-style:none;margin:0;padding:0;zoom:1;">'+
-			'<li class="rcbItem  rcbTemplate">' +
-		         '<div onclick="StopPropagation(event)">' +
-		           '<input name="ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$rptAdvanceControls$ctl00$ctl00$ucLanguage$LangCB$i0$chk1" type="checkbox" id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_ucLanguage_LangCB_i0_chk1" title="Select Language" value="0" onclick="onCheckBoxClick(this,&#39;ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_ucLanguage_LangCB&#39;)" />' +
-		          '<label for="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_ucLanguage_LangCB_i0_chk1" id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_ucLanguage_LangCB_i0_Label1">All Languages</label>' +
-		         '</div></li>'+
-			'<li class="rcbItem  rcbTemplate"><div onclick="StopPropagation(event)">' +
-		           '<input name="ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$rptAdvanceControls$ctl00$ctl00$ucLanguage$LangCB$i1$chk1" type="checkbox" id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_ucLanguage_LangCB_i1_chk1" title="Select Language" value="28" onclick="onCheckBoxClick(this,&#39;ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_ucLanguage_LangCB&#39;)" />' +
-		           '<label for="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_ucLanguage_LangCB_i1_chk1" id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_ucLanguage_LangCB_i1_Label1">Arabic</label>' +
-		        '</div>'+
-			'</li><li class="rcbItem  rcbTemplate"><div onclick="StopPropagation(event)">' +
-		        '<div onclick="StopPropagation(event)">'+
-		         '<input name="ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$rptAdvanceControls$ctl00$ctl00$ucLanguage$LangCB$i2$chk1" type="checkbox" id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_ucLanguage_LangCB_i2_chk1" title="Select Language" value="38" onclick="onCheckBoxClick(this,&#39;ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_ucLanguage_LangCB&#39;)" />'+
-		         '<label for="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_ucLanguage_LangCB_i2_chk1" id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_ucLanguage_LangCB_i2_Label1">Bahasa Malaysia (Malaysia)</label>'+
-	                '</div>';
-			
-			$("#languages").css({"padding": "5px", "width": "150px"});   
-*/
-		
-		
-		
-		
-		
-		
-		
-	
+
 		
 		function populatePSQuery_Search(query) {
 			query.index = $('#ctl00_ContentPlaceHolder1_ddlSearchEngine').val();
@@ -300,15 +224,11 @@ $(document).ready(function(){
                  $("ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_rptCustomFields_ctl00_ucCFWrapper_ctl00_parentValue").css({"width": "60px", "padding-right": "10px"});   
 
 		
-		//test: https://bd.csod.com/GlobalSearch/search.aspx?s=1&q=pyxis
 		//ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$btSubmit&quot"
-		
-	
 		
 		  queryElement.innerHTML += '<br/><div class="cs-advsrch-srchbtn-cont">' +
                     	'<span class="cs-srch-btn-cont cs-advsrch-btn">' +
-			//  '<a id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_btSubmit" class="btnRefine cso-btn cso-btn-large cso-btn-blue cso-corner" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$btSubmit&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))" style="width: 100px">Refine</a>' +
-                        '<a id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_btSubmit" class="btnRefine cso-btn cso-btn-large cso-btn-blue cso-corner" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("https://bd.csod.com/GlobalSearch/search.aspx?s=1&q=#q=&s=1&a=typ%253d0%2526lng%253d28%25252c38%25252c31%25252c7%25252c34%25252c40%25252c21%25252c26%25252c18%25252c35%25252c2%25252c1%25252c47%25252c36%25252c3%25252c13%25252c4%25252c29%25252c27%25252c39%25252c33%25252c10%25252c6%25252c30%25252c22%25252c23%25252c24%25252c11%25252c12%25252c16%25252c20%25252c5%25252c48%25252c41%25252c42%25252c14%25252c15%25252c25%25252c17%25252c19%25252c32%25252c37%2526cus%253d%2525253cCustomFields%2525253e%2525253cfield%25252bid%2525253d%2525252299%25252522%25252bvalue%2525253d%2525252214%25252522%25252b%2525252f%2525253e%2525253c%2525252fCustomFields%2525253e"))" style="width: 100px">Refine</a>' +
+			'<a id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_btSubmit" class="btnRefine cso-btn cso-btn-large cso-btn-blue cso-corner" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("https://bd.csod.com/GlobalSearch/search.aspx?s=1&q=#q=&s=1&a=typ%253d0%2526lng%253d28%25252c38%25252c31%25252c7%25252c34%25252c40%25252c21%25252c26%25252c18%25252c35%25252c2%25252c1%25252c47%25252c36%25252c3%25252c13%25252c4%25252c29%25252c27%25252c39%25252c33%25252c10%25252c6%25252c30%25252c22%25252c23%25252c24%25252c11%25252c12%25252c16%25252c20%25252c5%25252c48%25252c41%25252c42%25252c14%25252c15%25252c25%25252c17%25252c19%25252c32%25252c37%2526cus%253d%2525253cCustomFields%2525253e%2525253cfield%25252bid%2525253d%2525252299%25252522%25252bvalue%2525253d%2525252214%25252522%25252b%2525252f%2525253e%2525253c%2525252fCustomFields%2525253e"))" style="width: 100px">Refine</a>' +
                     	'</span></div></div>';
 
 		 $(".cs-advsrch-srchbtn-cont").css({"float": "right", "margin": "15px 0px 15px 0px"});   
@@ -318,11 +238,6 @@ $(document).ready(function(){
    
         // $('.cso-h1').css("color", "red");		
  
-	
-	
-	
-	
-	
 	
 	
        //show the advanced search option whenever search is shown
@@ -341,9 +256,6 @@ $(document).ready(function(){
        $('h2:contains("My Learning")').each(function(){
  	    $(this).html($(this).html().replace('My Learning', fName + '\'s Learning In Progress'));
 	});
-	
-	
-	
 	
         $smjquery('#main-menu').smartmenus('refresh');
 	
