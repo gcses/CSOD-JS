@@ -224,12 +224,15 @@ $(document).ready(function(){
                  $("ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_rptCustomFields_ctl00_ucCFWrapper_ctl00_parentValue").css({"width": "60px", "padding-right": "10px"});   
 
 		
-		//ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$btSubmit&quot"
+		// '<a id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_btSubmit" class="btnRefine cso-btn cso-btn-large cso-btn-blue cso-corner" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$btSubmit&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))" style="width: 155px">Refine</a>'+
+            
+		
+		$testArgs = "-6#f=1&s=568,614&o=1&h=2";
 		
 		  queryElement.innerHTML += '<br/><div class="cs-advsrch-srchbtn-cont">' +
                     	'<span class="cs-srch-btn-cont cs-advsrch-btn">' +
-			 '<a id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_btSubmit" class="btnRefine cso-btn cso-btn-large cso-btn-blue cso-corner" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$btSubmit&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))" style="width: 155px">Refine</a>'+
-                    '</span></div></div>';
+			 '<a id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_btSubmit" class="btnRefine cso-btn cso-btn-large cso-btn-blue cso-corner" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ContentPlaceHolder1$testArgs$btSubmit&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))" style="width: 155px">Refine</a>'+
+                    '</span></div></div>';   
 
 		 $(".cs-advsrch-srchbtn-cont").css({"float": "right", "margin": "15px 0px 15px 0px"});   
 		
