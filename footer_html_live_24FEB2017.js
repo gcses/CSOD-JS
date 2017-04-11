@@ -231,7 +231,7 @@ https://bd.csod.com/LMS/BrowseTraining/BrowseTraining.aspx?s=1&q=#f=1&s=534,546&
 		
 		  queryElement.innerHTML += '<br/><div class="cs-advsrch-srchbtn-cont">' +
                     	'<span class="cs-srch-btn-cont cs-advsrch-btn">' +
-			'<a id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_btSubmit" class="btnRefin ce cso-btnso-btn-large cso-btn-blue cso-corner" href="https://bd.csod.com/LMS/BrowseTraining/BrowseTraining.aspx?s=1&q=#f=1&s=534&o=1&h=2" style="width: 100px">Refine</a>' +
+			'<a id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_btSubmit" class="btnRefin ce cso-btnso-btn-large cso-btn-blue cso-corner" href="https://bd.csod.com/LMS/BrowseTraining/BrowseTraining.aspx?tab_page_id=-6#f=1&s=568,614&o=1&h=2" style="width: 100px">Refine</a>' +
                     	
 			//'<a id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_btSubmit" class="btnRefin ce cso-btnso-btn-large cso-btn-blue cso-corner" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("https://bd.csod.com/GlobalSearch/search.aspx?s=1&q=#q=&s=1&a=typ%253d0%2526lng%253d28%25252c38%25252c31%25252c7%25252c34%25252c40%25252c21%25252c26%25252c18%25252c35%25252c2%25252c1%25252c47%25252c36%25252c3%25252c13%25252c4%25252c29%25252c27%25252c39%25252c33%25252c10%25252c6%25252c30%25252c22%25252c23%25252c24%25252c11%25252c12%25252c16%25252c20%25252c5%25252c48%25252c41%25252c42%25252c14%25252c15%25252c25%25252c17%25252c19%25252c32%25252c37%2526cus%253d%2525253cCustomFields%2525253e%2525253cfield%25252bid%2525253d%2525252299%25252522%25252bvalue%2525253d%2525252214%25252522%25252b%2525252f%2525253e%2525253c%2525252fCustomFields%2525253e"))" style="width: 100px">Refine</a>' +
            
