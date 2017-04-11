@@ -1,8 +1,11 @@
-<script type="text/javascript">
-//<![CDATA[
-Sys.WebForms.PageRequestManager._initialize('ctl00$scriptManager', 'aspnetForm', ['fctl00$ContentPlaceHolder1$ucSearchAdvanceControls$uplAdvanceOptions','','tctl00$ContentPlaceHolder1$peopleSearchOuPopup$panelSelect$selectOUUpdate','','tctl00$ContentPlaceHolder1$skillSectionsPopup$skillSelect$selectSkillUpdate','','tctl00$ContentPlaceHolder1$searchSkillPopup$panelSelect$selectSkillUpdate','','tctl00$ContentPlaceHolder1$selectCategoryPopup$dlgSelectCategoryPopup$upContents','','tctl00$ContentPlaceHolder1$selectCategoryPopup$dlgSelectCategoryPopup$ucDialog_SelectCategoriesDialog$UpdatePanel','','tctl00$ContentPlaceHolder1$selectOrganizationsPopup$dlgOrganizations$upContents',''], ['ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$btSubmit','','ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$lkPopulateAdvanceFields',''], [], 90, 'ctl00');
-//]]>
-</script>
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.TextBoxWatermarkBehavior, {"ClientStateFieldID":"ctl00_ContentPlaceHolder1_WcTextBoxWatermarkExtender1_ClientState","id":"ctl00_ContentPlaceHolder1_WcTextBoxWatermarkExtender1","watermarkCssClass":"txtsearch watermark_text","watermarkText":"What would you like to search for?"}, null, null, $get("ctl00_ContentPlaceHolder1_txtsearch"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.TextBoxWatermarkBehavior, {"ClientStateFieldID":"ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_atxKeywords_ClientState","id":"ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_atxKeywords","watermarkCssClass":"cs-advsrch-input watermark_text","watermarkText":"Keywords"}, null, null, $get("ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_ctl00_tbKeywords"));
+});
+
+
 
 
 
