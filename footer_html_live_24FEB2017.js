@@ -217,7 +217,7 @@ $(document).ready(function(){
 			'<option value="63">Pharmacy Technician</option>' +
 			'<option value="64">Radiology Technician</option>' +
 			'<option value="65">Respiratory Therapist</option>' +
-			'</select></td></tr></table>';
+			'</select></td></tr></table>';  
 	
 		
 		 $("#advSearchTable td").css({"width": "210px", "padding-right": "10px", "fontWeight": "bold"});   
@@ -227,7 +227,7 @@ $(document).ready(function(){
 		// '<a id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_btSubmit" class="btnRefine cso-btn cso-btn-large cso-btn-blue cso-corner" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$btSubmit&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))" style="width: 155px">Refine</a>'+
             
 		
-		$testArgs = "-6#f=1&s=568,614&o=1&h=2";
+		$testArgs = "-6\#f=1\&s=568,614\&o=1\&h=2";
 		
 		  queryElement.innerHTML += '<br/><div class="cs-advsrch-srchbtn-cont">' +
                     	'<span class="cs-srch-btn-cont cs-advsrch-btn">' +
