@@ -20,16 +20,6 @@ $(document).ready(function(){
 		queryElement.innerHTML += '<h2>Refine your Search</h2><br/>';
 			
 		
-		
-		
-		
-		
-
-
-
-		
-		
-		
 		//queryElement.innerHTML += '<div id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_divAdvanceControls" class="divAdvanceControls" style="display: none" engineId="1">';
                             
 		//keywords here
@@ -308,8 +298,14 @@ $(document).ready(function(){
         }  //end adv search logic on Browse For Training
         // -------------  End Browse For Training Global Search Options ------------
    
-        // $('.cso-h1').css("color", "red");		
+         $('.cso-h1').css("color", "red");		
  
+	
+	
+	
+	
+	
+	
 	
        //show the advanced search option whenever search is shown
        $("#lnkShowMoreSearchOptions").each(function(){
@@ -328,9 +324,27 @@ $(document).ready(function(){
  	    $(this).html($(this).html().replace('My Learning', fName + '\'s Learning In Progress'));
 	});
 	
+	
+	
+	
+	
+	
+	
+	
+	
        //add smart menu items that allow for third party links
-       $(".smenu.sm.navTabs").append('<li><a href="javascript:;" title="Support" aria-haspopup="true" aria-expanded="false" aria-controls="menu-Support" class="has-submenu"><span class="sub-arrow">+</span>Support</a><ul class="navTabs-subTabList sm-nowrap" role="group" aria-labelledby="Support" aria-expanded="false" style="display: none; width: auto; min-width: 10em; max-width: 20em; top: auto; left: 0px; margin-left: 0px; margin-top: 0px"><li><a href="http://cp.carefusion.com" title="Change Password" tabindex="-1">Change Password</a></li><li><a href="/catalog/CustomPage.aspx?id=20000480&amp;tab_page_id=20000480" title="Contact Us" tabindex="-1">Contact Us</a></li><li><a href="/catalog/CustomPage.aspx?id=20000480&amp;tab_page_id=20000480" title="Frequently Asked Questions" tabindex="-1">Frequently Asked Questions</a></li></ul></li>');
+       $(".smenu.sm.navTabs").append('<li><a href="javascript:;" title="Support" aria-haspopup="true" aria-expanded="false" aria-controls="menu-Support" class="has-submenu">' +
+				      '<span class="sub-arrow">+</span>Support</a>'+
+				       '<ul class="navTabs-subTabList sm-nowrap" role="group" aria-labelledby="Support" aria-expanded="false" style="display: none; width: auto; min-width: 10em; max-width: 20em; top: auto; left: 0px; margin-left: 0px; margin-top: 0px">'+
+				       '<li><a href="http://cp.carefusion.com" title="Change Password" tabindex="-1">Change Password</a></li>'+
+				       '<li><a href="/catalog/CustomPage.aspx?id=20000480&amp;tab_page_id=20000480" title="Contact Us" tabindex="-1">Contact Us</a></li>'+
+				       '<li><a href="/catalog/CustomPage.aspx?id=20000480&amp;tab_page_id=20000480" title="Frequently Asked Questions" tabindex="-1">Frequently Asked Questions</a></li>';
+				       '</ul></li>');
 
+	
+	
+	
+	
         $smjquery('#main-menu').smartmenus('refresh');
 	
         $("a:has(span:contains('Popular'))").remove();
