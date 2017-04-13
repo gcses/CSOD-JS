@@ -6,13 +6,13 @@
 $(document).ready(function(){
 
 	
-        $('.cso-h1').css("color", "red");	
+        //$('.cso-h1').css("color", "red");	
 	
 	// -------------  Browse For Training Global Search Options -------------
 	if (document.title.indexOf("Browse for Training") > -1)
 	{		
-		//Change "Subject" header to "Topic"
-		$('.cso-txt.cso-txt-smed.b.cso-cont-iblock h2:contains("Subject")').each(function(){
+		//Change "Subject" header to "Topic"    .cso-txt-smed.b.cso-cont-iblock
+		$('.cso-txt h2:contains("Subject")').each(function(){
  			$(this).html($(this).html().replace('Subject','Topic'));
 			});
 		
