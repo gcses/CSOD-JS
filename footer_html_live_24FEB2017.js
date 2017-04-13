@@ -5,6 +5,9 @@
 
 $(document).ready(function(){
 
+	
+        $('.cso-h1').css("color", "red");	
+	
 	// -------------  Browse For Training Global Search Options -------------
 	if (document.title.indexOf("Browse for Training") > -1)
 	{		
@@ -244,8 +247,7 @@ $(document).ready(function(){
 		
         }  //end adv search logic on Browse For Training
         // -------------  End Browse For Training Global Search Options ------------
-   
-        // $('.cso-h1').css("color", "red");		
+   	
  
 	
 	
