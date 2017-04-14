@@ -18,11 +18,10 @@ $(document).ready(function(){
 	//$('#main-menu > li')[0].attr("href","My Learning");
 
 	$('a:contains("Home")').each(function(){
- 		$(this).html($(this).html().attr("href","www.bd.com");
+ 		$(this).html($(this).html().attr("href","www.bd.com"));
 		});
 	  
 	  
-	
 	// -------------  Browse For Training Global Search Options -------------
 	if (document.title.indexOf("Browse for Training") > -1)
 	{		 
