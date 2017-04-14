@@ -14,8 +14,7 @@ $(document).ready(function(){
  	//	$(this).html($(this).html().attr("href","https://bd.csod.com/LMS/catalog/Welcome.aspx?tab_page_id=-67&tab_id=-1"));
 	//	});
 	
-	$('#main-menu > li')[0].html("<a href='https://bd.csod.com/LMS/catalog/Welcome.aspx?tab_page_id=-67&tab_id=-1' data-tag='Home' aria-haspopup='false' aria-expanded='false' aria-controls='menu-Home'>Home</a>
-");
+	$('#main-menu > li')[0].html('<a href="https://bd.csod.com/LMS/catalog/Welcome.aspx?tab_page_id=-67&tab_id=-1" data-tag="Home">Home</a>');
 	  
 	  
 	  
