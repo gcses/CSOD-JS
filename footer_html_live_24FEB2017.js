@@ -10,10 +10,16 @@ $(document).ready(function(){
 		});
         $(".nav-transcript  ").attr("title","My Learning");
 	
-	$("a [data-tag=Home]").each(function(){
- 		$(this).html($(this).html().attr("href","https://bd.csod.com/LMS/catalog/Welcome.aspx?tab_page_id=-67&tab_id=-1"));
-		});
+	//$("a [data-tag=Home]").each(function(){
+ 	//	$(this).html($(this).html().attr("href","https://bd.csod.com/LMS/catalog/Welcome.aspx?tab_page_id=-67&tab_id=-1"));
+	//	});
 	
+	$('#main-menu > li')[0].html("<a href='https://bd.csod.com/LMS/catalog/Welcome.aspx?tab_page_id=-67&tab_id=-1' data-tag='Home' aria-haspopup='false' aria-expanded='false' aria-controls='menu-Home'>Home</a>
+");
+	  
+	  
+	  
+	  
 	
 	// -------------  Browse For Training Global Search Options -------------
 	if (document.title.indexOf("Browse for Training") > -1)
