@@ -2,7 +2,7 @@
 
 $(document).ready(function(){
 
-      // $('.cso-h1').css("color", "red");	
+       $('.cso-h1').css("color", "red");	
 	
         // change the Profile page's links
 	$('span:contains("Transcript")').each(function(){
@@ -20,6 +20,8 @@ $(document).ready(function(){
 	$('#ctl00_footer_pnlCustomFooter').hide();
         $('#ces_footer1_pnlCustomFooter').hide();
 	$('#footer_pnlCustomFooter').hide();
+	
+	$('.df-footer').hide();
 	
 	
 	// -------------  Browse For Training Global Search Options -------------
