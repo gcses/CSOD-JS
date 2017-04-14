@@ -10,6 +10,10 @@ $(document).ready(function(){
 		});
         $(".nav-transcript  ").attr("title","My Learning");
 	
+	$("a [data-tag=Home]").each(function(){
+ 		$(this).html($(this).html().attr("href","https://bd.csod.com/LMS/catalog/Welcome.aspx?tab_page_id=-67&tab_id=-1"));
+		});
+	
 	
 	// -------------  Browse For Training Global Search Options -------------
 	if (document.title.indexOf("Browse for Training") > -1)
