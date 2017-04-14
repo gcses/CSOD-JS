@@ -16,9 +16,12 @@ $(document).ready(function(){
 	
 	$('a:contains("Home")').attr("href","/LMS/catalog/Main.aspx?tab_page_id=-67");
 	    
+	//hide the various Cornerstone footers
 	$('#ctl00_footer_pnlCustomFooter').hide();
-
-	  
+        $('#ces_footer1_pnlCustomFooter').hide();
+	$('#footer_pnlCustomFooter').hide();
+	
+	
 	// -------------  Browse For Training Global Search Options -------------
 	if (document.title.indexOf("Browse for Training") > -1)
 	{		 
