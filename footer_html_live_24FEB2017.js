@@ -3,21 +3,22 @@
 $(document).ready(function(){
 
 	
-       $('.cso-h1').css("color", "red");	
+      // $('.cso-h1').css("color", "red");	
 	
 	
 			//$('.cso-txt h2:contains("Subject")').each(function(){
  		//	$(this).html($(this).html().replace('Subject','Topic'));
 		//	});
 	
-	
+	        // change the Profile page's links
 		$('span:contains("Transcript")').each(function(){
  			$(this).html($(this).html().replace('Transcript','My Learning'));
 			});
 		
-		$('span:contains("Transcript")').prop('title', 'My Learning');
-		
+		$('span:contains("Transcript")').attr('title', 'My Learning');
 	
+	
+
 	
 	
 	// -------------  Browse For Training Global Search Options -------------
