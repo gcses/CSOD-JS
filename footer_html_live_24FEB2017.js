@@ -1,24 +1,23 @@
 
 
-
-
-
 $(document).ready(function(){
 
 	
         $('.cso-h1').css("color", "red");	
 	
+	
+			//$('.cso-txt h2:contains("Subject")').each(function(){
+ 		//	$(this).html($(this).html().replace('Subject','Topic'));
+		//	});
+	
 	// -------------  Browse For Training Global Search Options -------------
 	if (document.title.indexOf("Browse for Training") > -1)
 	{		 
-		//Change "Subject" header to "Topic"    .cso-txt-smed.b.cso-cont-iblock
-		//$('.cso-txt h2:contains("Subject")').each(function(){
- 		//	$(this).html($(this).html().replace('Subject','Topic'));
-		//	});
-		
+		//Change "Subject" header to "Topic"
 		$('h2:contains("Subject")').each(function(){
  			$(this).html($(this).html().replace('Subject','Topic'));
 			});
+		
 		
 		
                 //define style of grey area around search options
