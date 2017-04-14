@@ -3,12 +3,22 @@
 $(document).ready(function(){
 
 	
-      // $('.cso-h1').css("color", "red");	
+       $('.cso-h1').css("color", "red");	
 	
 	
 			//$('.cso-txt h2:contains("Subject")').each(function(){
  		//	$(this).html($(this).html().replace('Subject','Topic'));
 		//	});
+	
+	
+		$('span:contains("Transcript")').each(function(){
+ 			$(this).html($(this).html().replace('Transcript','My Learning'));
+			});
+		
+		$('span:contains("Transcript")').prop('title', 'My Learning');
+		
+	
+	
 	
 	// -------------  Browse For Training Global Search Options -------------
 	if (document.title.indexOf("Browse for Training") > -1)
@@ -18,14 +28,7 @@ $(document).ready(function(){
  			$(this).html($(this).html().replace('Subject','Topic'));
 			});
 		
-		$('span:contains("Transcript")').each(function(){
- 			$(this).html($(this).html().replace('Transcript','My Learning'));
-			});
-		
-		$('span:contains("Transcript")').prop('title', 'My Learning');
-		
-		
-		
+
                 //define style of grey area around search options
 		$(".cs-main-sep").css({"backgroundColor": "#EEEEEE", "height": "250px",  "margin": "40px 0px 40px 0px", "padding": "15px", "border-style": "solid", "border-width": "1px", "border-radius": "5px", "border-color": "grey"});   
 		
