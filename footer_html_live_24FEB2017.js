@@ -2,7 +2,7 @@
 
 $(document).ready(function(){
 
-       $('.cso-h1').css("color", "red");	
+       //$('.cso-h1').css("color", "red");	
 	
         // change the Profile page's links
 	$('span:contains("Transcript")').each(function(){
@@ -16,7 +16,8 @@ $(document).ready(function(){
 	
 	//$('#main-menu > li')[0].html('<a href="https://bd.csod.com/LMS/catalog/Welcome.aspx?tab_page_id=-67&tab_id=-1" data-tag="Home">Home</a>');
         //make the Home button clickable and pointed to our Welcome page
-	$('a:contains("Home")').attr("href","Welcome.aspx?tab_page_id=-67&tab_id=-1");
+	//$('a:contains("Home")').attr("href","Welcome.aspx?tab_page_id=-67&tab_id=-1");
+	$('a:contains("Home")').attr("href","Welcome.aspx?tab_page_id=-67");
 
 	
 	  
