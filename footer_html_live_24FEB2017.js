@@ -2,7 +2,7 @@
 
 $(document).ready(function(){
 
-       $('.cso-h1').css("color", "red");	
+      // $('.cso-h1').css("color", "red");	
 	
         // change the Profile page's links
 	$('span:contains("Transcript")').each(function(){
@@ -17,9 +17,9 @@ $(document).ready(function(){
 	$('a:contains("Home")').attr("href","/LMS/catalog/Main.aspx?tab_page_id=-67");
 	    
 	//hide the various Cornerstone footers
-	$('#ctl00_footer_pnlCustomFooter').hide();
-        $('#ces_footer1_pnlCustomFooter').hide();
-	$('#footer_pnlCustomFooter').hide();
+	//$('#ctl00_footer_pnlCustomFooter').hide();
+       // $('#ces_footer1_pnlCustomFooter').hide();
+	//$('#footer_pnlCustomFooter').hide();
 	
 	$('.df-footer').hide();
 	
