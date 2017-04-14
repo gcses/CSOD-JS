@@ -2,7 +2,7 @@
 
 $(document).ready(function(){
 
-       $('.cso-h1').css("color", "red");	
+      // $('.cso-h1').css("color", "red");	
 	
         // change the Profile page's links
 	$('span:contains("Transcript")').each(function(){
@@ -16,10 +16,15 @@ $(document).ready(function(){
 	//hide the various Cornerstone footers
 	$('.df-footer').hide();
 	
+	
+	
+	
 	//replace coupon code with customer code in shopping cart area
-	$('label:contains("coupon code")').each(function(){
- 		$(this).html($(this).html().replace('coupon code','customer code'));
+	$('label:contains("Enter coupon code")').each(function(){
+ 		$(this).html($(this).html().replace('Enter coupon code','Enter customer code'));
 		});
+	
+
 	
 	$('span:contains("Coupon Code")').each(function(){
  		$(this).html($(this).html().replace('Coupon Code','Customer Code'));
