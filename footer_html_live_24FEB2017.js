@@ -16,14 +16,21 @@ $(document).ready(function(){
 	//hide the various Cornerstone footers
 	$('.df-footer').hide();
 	
-	//replace coupon code with customer code in shopping cart area
-	$('label:contains("coupon code")').each(function(){
- 		$(this).html($(this).html().replace('coupon code','customer code'));
+
+	$('.cs-acc-hid-con span:contains("coupon code")').each(function(){
+		 var text = $(this).text();
+   		 $(this).text(text.replace('coupon code', 'customer code')); 
 		});
 	
-	$('span:contains("Coupon Code")').each(function(){
- 		$(this).html($(this).html().replace('Coupon Code','Customer Code'));
-		});
+	
+	//replace coupon code with customer code in shopping cart area
+	//$('label:contains("coupon code")').each(function(){
+ 	//	$(this).html($(this).html().replace('coupon code','customer code'));
+	//	});
+	
+	//$('span:contains("Coupon Code")').each(function(){
+ 	//	$(this).html($(this).html().replace('Coupon Code','Customer Code'));
+	//	});
 	
 	
 	
