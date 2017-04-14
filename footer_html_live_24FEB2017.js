@@ -3,7 +3,7 @@
 $(document).ready(function(){
 
 	
-       // $('.cso-h1').css("color", "red");	
+       $('.cso-h1').css("color", "red");	
 	
 	
 			//$('.cso-txt h2:contains("Subject")').each(function(){
@@ -18,7 +18,7 @@ $(document).ready(function(){
  			$(this).html($(this).html().replace('Subject','Topic'));
 			});
 		
-		$('.nav-transcript span:contains("Transcript")').each(function(){
+		$('.nav-transcript  span:contains("Transcript")').each(function(){
  			$(this).html($(this).html().replace('Transcript','My Learning'));
 			});
 		//class="nav-transcript  "  <span>Transcript</span>
