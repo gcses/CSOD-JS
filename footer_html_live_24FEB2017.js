@@ -10,18 +10,22 @@ $(document).ready(function(){
 		});
         $(".nav-transcript  ").attr("title","My Learning");
 	
-	//$('a:contains("Home")').each(function(){
-	//    this.href = "/LMS/catalog/Main.aspx?tab_page_id=-67";
-	//	});
-	
+	//Make the home page clickable and link to the Welcome page / Main page
 	$('a:contains("Home")').attr("href","/LMS/catalog/Main.aspx?tab_page_id=-67");
 	    
 	//hide the various Cornerstone footers
-	//$('#ctl00_footer_pnlCustomFooter').hide();
-       // $('#ces_footer1_pnlCustomFooter').hide();
-	//$('#footer_pnlCustomFooter').hide();
-	
 	$('.df-footer').hide();
+	
+	//replace coupon code with customer code in shopping cart area
+	$('label:contains("coupon code")').each(function(){
+ 		$(this).html($(this).html().replace('coupon code','customer code'));
+		});
+	
+	$('span:contains("Coupon Code")').each(function(){
+ 		$(this).html($(this).html().replace('Coupon Code','Customer Code'));
+		});
+	
+	
 	
 	
 	// -------------  Browse For Training Global Search Options -------------
