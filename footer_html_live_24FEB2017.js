@@ -4,12 +4,6 @@ $(document).ready(function(){
 
        //$('.cso-h1').css("color", "red");	
 	
-	//Change referenced document in Frequently Asked Questions link from 20000479 to 20000480
-	$('li a:contains("20000479")').each(function(){
- 		$(this).html($(this).html().replace('20000479','20000480'));
-		});
-	
-	
         // change the Profile page's links
 	$('span:contains("Transcript")').each(function(){
  		$(this).html($(this).html().replace('Transcript','My Learning'));
@@ -307,7 +301,7 @@ $(document).ready(function(){
 
 	$("[aria-labelledby=Support]").empty();
 	
-        $("[aria-labelledby=Support]").append('<li><a href="http://cp.carefusion.com" title="Change Password" tabindex="-1">Change Password</a></li><li><a href="/catalog/CustomPage.aspx?id=20000480&amp;tab_page_id=20000480" title="Contact Us" tabindex="-1">Contact Us</a></li><li><a href="/catalog/CustomPage.aspx?id=20000480&amp;tab_page_id=20000480" title="Frequently Asked Questions" tabindex="-1">Frequently Asked Questions</a></li>');
+        $("[aria-labelledby=Support]").append('<li><a href="http://cp.carefusion.com" title="Change Password" tabindex="-1">Change Password</a></li><li><a href="/catalog/CustomPage.aspx?id=20000480&amp;tab_page_id=20000480" title="Contact Us" tabindex="-1">Contact Us</a></li><li><a href="/catalog/CustomPage.aspx?id=20000479&amp;tab_page_id=20000479" title="Frequently Asked Questions" tabindex="-1">Frequently Asked Questions</a></li>');
         $smjquery('#main-menu').smartmenus('refresh');
 
 	$('.cso-txt span:contains("Online Class")').each(function(){
