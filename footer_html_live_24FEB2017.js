@@ -2,7 +2,7 @@
 
 $(document).ready(function(){
 
-       $('.cso-h1').css("color", "red");	
+      // $('.cso-h1').css("color", "red");	
 	
         // change the Profile page's links
 	$('span:contains("Transcript")').each(function(){
@@ -10,18 +10,11 @@ $(document).ready(function(){
 		});
         $(".nav-transcript  ").attr("title","My Learning");
 	
-	//$("a [data-tag=Home]").each(function(){
- 	//	$(this).html($(this).html().attr("href","https://bd.csod.com/LMS/catalog/Welcome.aspx?tab_page_id=-67&tab_id=-1"));
-	//	});
-	
-	//$('#main-menu > li')[0].html('<a href="https://bd.csod.com/LMS/catalog/Welcome.aspx?tab_page_id=-67&tab_id=-1" data-tag="Home">Home</a>');
-        //make the Home button clickable and pointed to our Welcome page
-	//$('a:contains("Home")').attr("href","Welcome.aspx?tab_page_id=-67&tab_id=-1");
-	
-	//$('a:contains("Home")').attr("href","Welcome.aspx?tab_page_id=-67");
 	$('a:contains("Home")').each(function(){
-	    this.href = "/LMS/catalog/Main.aspx?tab_page_id=-67";
+	    $this.href = "/LMS/catalog/Main.aspx?tab_page_id=-67";
 		});
+	
+	$('#ctl00_footer_pnlCustomFooter').hide();
 
 	  
 	// -------------  Browse For Training Global Search Options -------------
