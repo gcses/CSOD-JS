@@ -4,6 +4,12 @@ $(document).ready(function(){
 
        //$('.cso-h1').css("color", "red");	
 	
+	//Change referenced document in Frequently Asked Questions link from 20000479 to 20000480
+	$('li a:contains("20000479")').each(function(){
+ 		$(this).html($(this).html().replace('20000479','20000480'));
+		});
+	
+	
         // change the Profile page's links
 	$('span:contains("Transcript")').each(function(){
  		$(this).html($(this).html().replace('Transcript','My Learning'));
