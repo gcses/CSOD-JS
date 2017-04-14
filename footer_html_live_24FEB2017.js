@@ -3,7 +3,7 @@
 $(document).ready(function(){
 
 	
-      // $('.cso-h1').css("color", "red");	
+       $('.cso-h1').css("color", "red");	
 	
 	
 			//$('.cso-txt h2:contains("Subject")').each(function(){
@@ -15,10 +15,9 @@ $(document).ready(function(){
  			$(this).html($(this).html().replace('Transcript','My Learning'));
 			});
 		
-		$('span:contains("Transcript")').attr('title', 'My Learning');
+		//$('span:contains("Transcript")').attr('title', 'My Learning');
 	
-	
-
+               $(".nav-snap  ").attr("title","after click");
 	
 	
 	// -------------  Browse For Training Global Search Options -------------
