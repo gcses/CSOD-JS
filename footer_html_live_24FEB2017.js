@@ -10,10 +10,12 @@ $(document).ready(function(){
 		});
         $(".nav-transcript  ").attr("title","My Learning");
 	
-	$('a:contains("Home")').each(function(){
-	    this.href = "/LMS/catalog/Main.aspx?tab_page_id=-67";
-		});
+	//$('a:contains("Home")').each(function(){
+	//    this.href = "/LMS/catalog/Main.aspx?tab_page_id=-67";
+	//	});
 	
+	$('a:contains("Home")').attr("href","/LMS/catalog/Main.aspx?tab_page_id=-67");
+	    
 	$('#ctl00_footer_pnlCustomFooter').hide();
 
 	  
