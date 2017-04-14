@@ -3,7 +3,7 @@
 $(document).ready(function(){
 
 	
-       $('.cso-h1').css("color", "red");	
+      // $('.cso-h1').css("color", "red");	
 	
 	
 			//$('.cso-txt h2:contains("Subject")').each(function(){
@@ -18,11 +18,11 @@ $(document).ready(function(){
  			$(this).html($(this).html().replace('Subject','Topic'));
 			});
 		
-		$('.nav-transcript  span:contains("Transcript")').each(function(){
+		
+		$('span:contains("Transcript")').each(function(){
  			$(this).html($(this).html().replace('Transcript','My Learning'));
 			});
-		//class="nav-transcript  "  <span>Transcript</span>
-
+	
 		
                 //define style of grey area around search options
 		$(".cs-main-sep").css({"backgroundColor": "#EEEEEE", "height": "250px",  "margin": "40px 0px 40px 0px", "padding": "15px", "border-style": "solid", "border-width": "1px", "border-radius": "5px", "border-color": "grey"});   
