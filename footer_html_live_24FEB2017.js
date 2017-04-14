@@ -21,6 +21,7 @@ $(document).ready(function(){
 		
 
                 //define style of grey area around search options
+		$(".cs-main-sep").hide();  //hide until working
 		$(".cs-main-sep").css({"backgroundColor": "#EEEEEE", "height": "250px",  "margin": "40px 0px 40px 0px", "padding": "15px", "border-style": "solid", "border-width": "1px", "border-radius": "5px", "border-color": "grey"});   
 		
 		var sepElements = document.getElementsByClassName("cs-main-sep"); 
