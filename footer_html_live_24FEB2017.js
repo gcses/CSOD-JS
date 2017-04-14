@@ -15,8 +15,11 @@ $(document).ready(function(){
 	//	});
 	
 	//$('#main-menu > li')[0].html('<a href="https://bd.csod.com/LMS/catalog/Welcome.aspx?tab_page_id=-67&tab_id=-1" data-tag="Home">Home</a>');
-	  
-	  
+	//$('#main-menu > li')[0].attr("href","My Learning");
+
+	$('a:contains("Home")').each(function(){
+ 		$(this).html($(this).html().attr("href","www.bd.com");
+		});
 	  
 	  
 	
