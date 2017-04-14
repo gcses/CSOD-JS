@@ -2,7 +2,7 @@
 
 $(document).ready(function(){
 
-       //$('.cso-h1').css("color", "red");	
+       $('.cso-h1').css("color", "red");	
 	
         // change the Profile page's links
 	$('span:contains("Transcript")').each(function(){
@@ -20,11 +20,9 @@ $(document).ready(function(){
 	
 	//$('a:contains("Home")').attr("href","Welcome.aspx?tab_page_id=-67");
 	$('a:contains("Home")').each(function(){
-	    this.href = "Welcome.aspx?tab_page_id=-67";
+	    this.href = "Main.aspx?tab_page_id=-67";
 		});
 
-	
-	  
 	  
 	// -------------  Browse For Training Global Search Options -------------
 	if (document.title.indexOf("Browse for Training") > -1)
