@@ -20,28 +20,23 @@ $(document).ready(function(){
 	//	$(this).html("Enter customer code");
 	//	});
 	
+	console.log("str: ");
+	
 	$('label:contains("coupon")').each(function(){
 		$(this).text = "Enter customer code";
+		});
 		
-		
-		
-		
+	
+	
 	/*	
-	try
-	{
 	      $(this).innerHTML = $(this).innerHTML.replace(new RegExp("coupon", "g"), "customer");
 	} 
-	catch(err)
-	{
-	}
+
 	try 
 	{
 	     $(this).text = $(this).text.replace(new RegExp("coupon", "g"), "customer");
 	} 
-	catch(err)
-	{
-	}
-	*/
+
 	});
 		
 		
@@ -77,6 +72,10 @@ $(document).ready(function(){
 	$("label[for='txtCouponCode']").hide();
 	$("label[for='txtCouponCode']").css({"color": "black"}); 
 	*/
+	
+	
+	
+	
 	
 	//$('label:contains("coupon")').replace('coupon','customer');
 
