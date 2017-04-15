@@ -21,7 +21,11 @@ $(document).ready(function(){
 	//	});
 	
 	$('label:contains("coupon")').each(function(){
-		$(this).text = $(this).text.replace(new RegExp("coupon", "g"), "customer");
+		$(this).text = "Enter customer code";
+		
+		
+		
+		
 	/*	
 	try
 	{
