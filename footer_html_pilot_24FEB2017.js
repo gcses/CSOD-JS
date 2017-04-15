@@ -30,7 +30,9 @@ $(document).ready(function(){
 	$('label:contains("coupon")').each(function(){
 		//var m = $(this).html($(this).text());
 		var m = $(this).text();
- 		console.log("Holla: " + m);
+ 		console.log("Holla1: " + m);
+		var m2 = $(this).html($(this).html().text());
+ 		console.log("Holla2: " + m2);
 		});
 	
 	
@@ -49,14 +51,6 @@ $(document).ready(function(){
 	$("label[for='txtCouponCode']").text("Whassup Foo");
 	$("label[for='txtCouponCode']").hide();
 	$("label[for='txtCouponCode']").css({"color": "black"}); 
-	
-	
-
-	
-	
-	
-	
-	
 	
 	//$('label:contains("coupon")').replace('coupon','customer');
 
