@@ -2,7 +2,7 @@
 
 $(document).ready(function(){
 
-      // $('.cso-h1').css("color", "red");	
+       $('.cso-h1').css("color", "red");	
 	
         // change the Profile page's links
 	$('span:contains("Transcript")').each(function(){
@@ -23,12 +23,12 @@ $(document).ready(function(){
 	
 	//replace coupon code with customer code in shopping cart area
 	$('label:contains("Enter coupon code")').each(function(){
- 		$(this).html($(this).text().replace('Enter coupon code','Enter customer code'));
-		});
+ 		$(this).css({"backgroundColor": "yellow"})
+	   });
 	
-	$('#txtCouponCode:contains("Enter coupon code")').each(function(){
- 		$(this).html($(this).html().replace('Enter coupon code','Enter customer code'));
-		});
+	//$('#txtCouponCode:contains("Enter coupon code")').each(function(){
+ 	//	$(this).html($(this).html().replace('Enter coupon code','Enter customer code'));
+//		});
 	
 	
 
