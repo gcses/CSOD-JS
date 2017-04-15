@@ -17,34 +17,16 @@ $(document).ready(function(){
 	$('.df-footer').hide();
 	
 	
-	//$('label[for='txtCouponCode']').each(function(){
-	//$('span:contains("Transcript")').each(function(){
-	
-	//$('label[for='txtCouponCode']').each(function(){
- 	//	console.log("Holla");
-	//	});
-	
-	console.log("Start Here");
-	
+	//swap the shopping cart's 'coupon code' for 'customer code'
 	$('label:contains("coupon")').each(function(){
-		var m = $(this).text();
- 		console.log("Holla5: " + m);
-		});
-	
-	
-	$('label:contains("coupon")').each(function(){
-		$(this).html("Enter customer coupon");
-		//$(this).html($(this).html().replace('coupon','customer'));
-		//$(this).text($(this).text().replace('coupon','customer'));
-		//$(this).text().replace('coupon', 'customer'); 
-		
+		$(this).html("Enter customer code");
 		});
 
-	
 	$('label:contains("coupon")').each(function(){
 		var m = $(this).text();
- 		console.log("HollaY: " + m);
+ 		console.log("Holla7: " + m);
 		});
+	
 	
 	
 	
