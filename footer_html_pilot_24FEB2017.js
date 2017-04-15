@@ -31,8 +31,8 @@ $(document).ready(function(){
 	*/
 	
 	$('label[for='txtCouponCode']').each(function(){
-		 var x = $(this).text();
-	         console.log("text: " + x);
+		// var x = $(this).text();
+	        // console.log("text: " + x);
  		$(this).html($(this).html().replace('coupon','customer'));
 		});
 	
