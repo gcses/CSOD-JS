@@ -21,6 +21,8 @@ $(document).ready(function(){
 	//	});
 	
 	$('label:contains("coupon")').each(function(){
+		$(this).text = $(this).text.replace(new RegExp("coupon", "g"), "customer");
+	/*	
 	try
 	{
 	      $(this).innerHTML = $(this).innerHTML.replace(new RegExp("coupon", "g"), "customer");
@@ -35,6 +37,7 @@ $(document).ready(function(){
 	catch(err)
 	{
 	}
+	*/
 	});
 		
 		
