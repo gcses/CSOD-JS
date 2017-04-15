@@ -20,9 +20,9 @@ $(document).ready(function(){
 	$('.cso-input-outer.med.cso-fleft-ie7').css({"background-color": "yellow"}); 
 	
 
-
 	var someElements = document.getElementsByClassName('cso-input-outer med cso-fleft-ie7'); 
-	//var spanWithCouponCodeField = someElements[0];
+	var spanWithCouponCodeField = someElements[0];
+	
 	
 	//spanWithCouponCodeField.innerHTML = 
 	//	'<label for="txtCouponCode" class="cs-acc-hid-con">Enter customer code</label>' +
