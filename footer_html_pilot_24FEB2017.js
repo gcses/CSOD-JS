@@ -16,6 +16,19 @@ $(document).ready(function(){
 	//hide the various Cornerstone footers
 	$('.df-footer').hide();
 	
+	
+	/*
+	$('label[for='txtCouponCode']').each(function(){
+ 		$(this).html($(this).html().replace('coupon','customer'));
+		});
+	*/
+	
+	
+	
+	
+	
+	
+	
 	//$('#txtCouponCode label.cs-acc-hid-con').hide();
 	//$('.cso-input-outer.med.cso-fleft-ie7').css({"background-color": "yellow"}); 
 	
@@ -30,11 +43,7 @@ $(document).ready(function(){
 	$("label[for='txtCouponCode']").css({"color": "black"}); 
 	*/
 	
-	$('label[for='txtCouponCode']').each(function(){
-		// var x = $(this).text();
-	        // console.log("text: " + x);
- 		$(this).html($(this).html().replace('coupon','customer'));
-		});
+
 	
 	
 	
