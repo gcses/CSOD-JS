@@ -19,6 +19,10 @@ $(document).ready(function(){
 	$('#txtCouponCode label.cs-acc-hid-con').hide();
 	
 	
+	$('.cso-cont-padtb8').css({"background-color": "yellow"}); 
+	
+	
+	
 	/*
 	//$( "label:contains('coupon')" ).css( "text-decoration", "underline" );
        // $("#txtCouponCode").
