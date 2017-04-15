@@ -16,10 +16,10 @@ $(document).ready(function(){
 	//hide the various Cornerstone footers
 	$('.df-footer').hide();
 	
-	$('#txtCouponCode label.cs-acc-hid-con').hide();
+	//$('#txtCouponCode label.cs-acc-hid-con').hide();
 	
 	
-	$('.cso-cont-padtb8').css({"background-color": "yellow"}); 
+	$('.cs-acc-hid-con').css({"background-color": "yellow"}); 
 	
 	
 	
