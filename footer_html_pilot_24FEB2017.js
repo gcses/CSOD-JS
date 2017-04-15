@@ -2,7 +2,7 @@
 
 $(document).ready(function(){
 
-       $('.cso-h1').css("color", "red");	
+       //$('.cso-h1').css("color", "red");	
 	
         // change the Profile page's links
 	$('span:contains("Transcript")').each(function(){
@@ -16,10 +16,21 @@ $(document).ready(function(){
 	//hide the various Cornerstone footers
 	$('.df-footer').hide();
 	
+	$('#txtCouponCode label.cs-acc-hid-con').hide();
 	
-	$( "label:contains('coupon')" ).css( "text-decoration", "underline" );
-
 	
+	/*
+	//$( "label:contains('coupon')" ).css( "text-decoration", "underline" );
+       // $("#txtCouponCode").
+	var inputElementArray = $("input.txtCouponCode");
+        $.each(inputElementArray, function(index, element){
+   		 // the local variables 'label' and 'input' are an enclosed
+    		// references to the corresponding  INPUT and LABEL jQuery objects
+    		var input = $(element);
+    		var label = $("label[for=" + input.attr("id") + "]");
+   	 	label.hide();
+	}); //end of $(document).ready(fn)
+		*/
 	
 	
 	// -------------  Browse For Training Global Search Options -------------
