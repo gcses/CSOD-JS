@@ -16,29 +16,40 @@ $(document).ready(function(){
 	//hide the various Cornerstone footers
 	$('.df-footer').hide();
 	
-	console.log("begin");
+	//$('label:contains("coupon")').each(function(){
+	//	$(this).html("Enter customer code");
+	//	});
 	
 	$('label:contains("coupon")').each(function(){
-		var m = $(this).text();
- 		console.log("B1: " + m);
-		});
-	
-
-	$('label:contains("coupon")').each(function(){
-		$(this).html("Enter customer code");
+	try
+	{
+	      $(this).innerHTML = $(this).innerHTML.replace(new RegExp("coupon", "g"), "customer");
+	} 
+	catch(err)
+	{
+	}
+	try 
+	{
+	     $(this).text = $(this).text.replace(new RegExp("coupon", "g"), "customer");
+	} 
+	catch(err)
+	{
+	}
+	});
 		
-		});
-	
-	
+		
 	$('label:contains("customer")').each(function(){
 		var m = $(this).text();
- 		console.log("B2: " + m);
+ 		console.log("T2: " + m);
 		});
 	
+	
+	
+	
 	//write to console to confirm attributes
-	console.log("Test");
-        var x = $("label[for='txtCouponCode']").text();
-	console.log("text: " + x);
+	//console.log("Test");
+        //var x = $("label[for='txtCouponCode']").text();
+	//console.log("text: " + x);
 	
 	
 	//$(this).html($(this).html().replace('coupon','customer'));
