@@ -2,10 +2,10 @@
 
 $(document).ready(function(){
 
-       //$('.cso-h1').css("color", "red");	
+       $('.cso-h1').css("color", "red");	
 	
         // change the Profile page's links
-	$('span:contains("Transcript")').each(function(){
+	$('sn:contains("Transcript")').each(function(){
  		$(this).html($(this).html().replace('Transcript','My Learning'));
 		});
         $(".nav-transcript  ").attr("title","My Learning");
@@ -18,8 +18,9 @@ $(document).ready(function(){
 	
 	//$('#txtCouponCode label.cs-acc-hid-con').hide();
 	
+	$('.cs-acc-hid-con').css({"color": "blue"}); 
+	$('.cs-acc-hid-con').css({"background-color": "yellow"}); 
 	
-	$('#txtCouponCode').css({"background-color": "yellow"}); 
 	
 	
 	
