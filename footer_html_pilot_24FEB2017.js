@@ -32,7 +32,7 @@ $(document).ready(function(){
 	
 	
 	$('label:contains("coupon")').each(function(){
-		$(this).text().replace('coupon', 'customer')); 
+		$(this).text().replace('coupon', 'customer'); 
 		});
 
 	
