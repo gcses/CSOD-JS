@@ -2,7 +2,7 @@
 
 $(document).ready(function(){
 
-       $('.cso-h1').css("color", "red");	
+       //$('.cso-h1').css("color", "red");	
 	
         // change the Profile page's links
 	$('sn:contains("Transcript")').each(function(){
@@ -24,8 +24,8 @@ $(document).ready(function(){
 	var spanWithCouponCodeField = someElements[0];
 	
 	
-	//spanWithCouponCodeField.innerHTML = 
-	//	'<label for="txtCouponCode" class="cs-acc-hid-con">Enter customer code</label>' +
+	spanWithCouponCodeField.innerHTML = 
+	   '<label for="txtCouponCode" class="cs-acc-hid-con">Enter customer code</label>';
          //       '<input id="txtCouponCode" type="text" maxlength="16" data-bind="value: couponCode, valueUpdate: "afterkeydown", event: {keyup: applyCouponOnEnter}" />';
 
 
