@@ -2,7 +2,7 @@
 
 $(document).ready(function(){
 
-       $('.cso-h1').css("color", "red");	
+       //$('.cso-h1').css("color", "red");	
 	
         // change the Profile page's links
 	$('sn:contains("Transcript")').each(function(){
@@ -23,12 +23,19 @@ $(document).ready(function(){
 	var someElements = document.getElementsByClassName('cso-input-outer med cso-fleft-ie7'); 
 	var spanWithCouponCodeField = someElements[0];
 	
-	spanWithCouponCodeField.innerHTML = 
-		'<label for="txtCouponCode" class="cs-acc-hid-con">Enter customer code</label>' +
-		'<input id="txtCouponCode" type="text" maxlength="16" data-bind="value: couponCode, valueUpdate: \'afterkeydown\', event: {keyup: applyCouponOnEnter}" />';
+	//spanWithCouponCodeField.innerHTML = 
+	//	'<label for="txtCouponCode" class="cs-acc-hid-con">Enter customer code</label>' +
+	//	'<input id="txtCouponCode" type="text" maxlength="16" data-bind="value: couponCode, valueUpdate: \'afterkeydown\', event: {keyup: applyCouponOnEnter}" />';
 
-	
-	
+	var elementChildNodes = spanWithCouponCodeField.childNodes;
+	var subCount = elementChildNodes.length;
+	for (var sub=0; sub<subCount; sub++)
+	{
+		if(elementChildNodes[sub].nodeType === 3)
+		{
+		    elementChildNodes[sub].nodeValue = elementChildNodes[sub].nodeValue.replace(new RegExp("coupon", "g"), "customer");	
+		}
+	}
 	 //  '<label for="txtCouponCode" class="cs-acc-hid-con">Enter customer code</label>';
          //       '<input id="txtCouponCode" type="text" maxlength="16" data-bind="value: couponCode, valueUpdate: "afterkeydown", event: {keyup: applyCouponOnEnter}" />';
 
