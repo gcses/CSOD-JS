@@ -16,10 +16,6 @@ $(document).ready(function(){
 	//hide the various Cornerstone footers
 	$('.df-footer').hide();
 	
-	 <label for="txtCouponCode" class="cs-acc-hid-con">Enter coupon code</label>
-                                        <input id="txtCouponCode" type="text" maxlength="16" data-bind="value: couponCode, valueUpdate: 'afterkeydown', event: {keyup: applyCouponOnEnter}" />
-
-	
 	
 	//replace coupon code with customer code in shopping cart area
 	$( "label:contains('coupon')" ).css( "text-decoration", "underline" );
