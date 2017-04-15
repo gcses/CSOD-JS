@@ -20,7 +20,7 @@ $(document).ready(function(){
 	
 	$('label:contains("coupon")').each(function(){
 		var m = $(this).text();
- 		console.log("A1: " + m);
+ 		console.log("B1: " + m);
 		});
 	
 
@@ -33,7 +33,7 @@ $(document).ready(function(){
 
 	$('label:contains("coupon")').each(function(){
 		var m = $(this).text();
- 		console.log("A2: " + m);
+ 		console.log("B2: " + m);
 		});
 	
 	
