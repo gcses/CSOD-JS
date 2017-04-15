@@ -18,9 +18,13 @@ $(document).ready(function(){
 	
 	//$('label[for='txtCouponCode']').each(function(){
 	//$('span:contains("Transcript")').each(function(){
+	
 	//$('label[for='txtCouponCode']').each(function(){
  	//	console.log("Holla");
 	//	});
+	
+	
+	
 	console.log("Start Here");
 	
 	$('label:contains("coupon")').each(function(){
@@ -31,15 +35,10 @@ $(document).ready(function(){
 	//$(this).html($(this).html().replace('coupon','customer'));
 	//	});
 	
-	
-	
-	
-	
-	
 	//$('#txtCouponCode label.cs-acc-hid-con').hide();
 	//$('.cso-input-outer.med.cso-fleft-ie7').css({"background-color": "yellow"}); 
 	
-	/*
+	
 	//write to console to confirm attributes
 	console.log("Test");
         var x = $("label[for='txtCouponCode']").text();
@@ -48,7 +47,7 @@ $(document).ready(function(){
 	$("label[for='txtCouponCode']").text("Whassup Foo");
 	$("label[for='txtCouponCode']").hide();
 	$("label[for='txtCouponCode']").css({"color": "black"}); 
-	*/
+	
 	
 
 	
