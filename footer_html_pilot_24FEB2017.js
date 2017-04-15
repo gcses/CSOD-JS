@@ -21,7 +21,7 @@ $(document).ready(function(){
 	
 	//write to console to confirm attributes
 	console.log("Test");
-        var x = $("label[for='txtCouponCode']").text;
+        var x = $("label[for='txtCouponCode']").text();
 	console.log("text: " + x);
 	
 	$("label[for='txtCouponCode']").text("Whassup Foo");
