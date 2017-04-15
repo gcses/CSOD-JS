@@ -19,7 +19,7 @@ $(document).ready(function(){
 	//$('#txtCouponCode label.cs-acc-hid-con').hide();
 	
 	
-	$('.cs-acc-hid-con').css({"background-color": "yellow"}); 
+	$('#txtCouponCode').css({"background-color": "yellow"}); 
 	
 	
 	
