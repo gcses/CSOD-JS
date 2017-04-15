@@ -23,10 +23,13 @@ $(document).ready(function(){
  		console.log("A1: " + m);
 		});
 	
-	//swap the shopping cart's 'coupon code' for 'customer code'
+
 	$('label:contains("coupon")').each(function(){
 		$(this).html("Enter customer code");
 		});
+	
+	
+	
 
 	$('label:contains("coupon")').each(function(){
 		var m = $(this).text();
