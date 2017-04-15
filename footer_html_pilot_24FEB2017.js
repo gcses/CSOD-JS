@@ -16,55 +16,17 @@ $(document).ready(function(){
 	//hide the various Cornerstone footers
 	$('.df-footer').hide();
 	
-	//$('label:contains("coupon")').each(function(){
-	//	$(this).html("Enter customer code");
-	//	});
-	
-	console.log("str: ");
-	
+	//swap the shopping carts coupon code text for customer code (this swaps but does not update somehow)
 	$('label:contains("coupon")').each(function(){
-		$(this).text = "Enter customer code";
+		$(this).html("Enter customer code");
 		});
-		
-	
-	$('label:contains("customer")').each(function(){
-		var m = $(this).text();
- 		console.log("T2: " + m);
-		});
-	
-	/*	
-	      $(this).innerHTML = $(this).innerHTML.replace(new RegExp("coupon", "g"), "customer");
-	} 
-
-	try 
-	{
-	     $(this).text = $(this).text.replace(new RegExp("coupon", "g"), "customer");
-	} 
-
-	});
-		
-		
-	$('label:contains("customer")').each(function(){
-		var m = $(this).text();
- 		console.log("T2: " + m);
-		});
-	
-	
-	
 	
 	//write to console to confirm attributes
-	//console.log("Test");
-        //var x = $("label[for='txtCouponCode']").text();
-	//console.log("text: " + x);
+        var x = $("label[for='txtCouponCode']").text();
+	console.log("text: " + x);
 	
 	
-	//$(this).html($(this).html().replace('coupon','customer'));
-	//	});
-	
-	//$('#txtCouponCode label.cs-acc-hid-con').hide();
 	//$('.cso-input-outer.med.cso-fleft-ie7').css({"background-color": "yellow"}); 
-	
-	
 	/*
 	
 	//write to console to confirm attributes
@@ -76,64 +38,6 @@ $(document).ready(function(){
 	$("label[for='txtCouponCode']").hide();
 	$("label[for='txtCouponCode']").css({"color": "black"}); 
 	*/
-	
-	
-	
-	
-	
-	//$('label:contains("coupon")').replace('coupon','customer');
-
-	
-	/*
-	
-	//cs-acc-hid-con
-	var someElements = document.getElementsByClassName('cso-input-outer med cso-fleft-ie7'); 
-	var spanWithCouponCodeField = someElements[0];
-	
-	//spanWithCouponCodeField.innerHTML = 
-	//	'<label for="txtCouponCode" class="cs-acc-hid-con">Enter customer code</label>' +
-	//	'<input id="txtCouponCode" type="text" maxlength="16" data-bind="value: couponCode, valueUpdate: \'afterkeydown\', event: {keyup: applyCouponOnEnter}" />';
-
-	var elementChildNodes = spanWithCouponCodeField.childNodes;
-	var subCount = elementChildNodes.length;
-	for (var sub=0; sub<subCount; sub++)
-	{
-		if(elementChildNodes[sub].nodeType === 3)
-		{
-		    elementChildNodes[sub].nodeValue = elementChildNodes[sub].nodeValue.replace(new RegExp("coupon", "g"), "customer");	
-		}
-	}
-	
-	*/
-	 //  '<label for="txtCouponCode" class="cs-acc-hid-con">Enter customer code</label>';
-         //       '<input id="txtCouponCode" type="text" maxlength="16" data-bind="value: couponCode, valueUpdate: "afterkeydown", event: {keyup: applyCouponOnEnter}" />';
-
-
-	
-	
-	
-	
-	//$('.cs-acc-hid-con').css({"color": "black"}); 
-	
-	
-	// <span class="cso-input-outer med cso-fleft-ie7">
-         //                               <label for="txtCouponCode" class="cs-acc-hid-con">Enter coupon code</label>
-           //                             <input id="txtCouponCode" type="text" maxlength="16" data-bind="value: couponCode, valueUpdate: 'afterkeydown', event: {keyup: applyCouponOnEnter}" />
-             //                       </span>
-	
-	
-	/*
-	//$( "label:contains('coupon')" ).css( "text-decoration", "underline" );
-       // $("#txtCouponCode").
-	var inputElementArray = $("input.txtCouponCode");
-        $.each(inputElementArray, function(index, element){
-   		 // the local variables 'label' and 'input' are an enclosed
-    		// references to the corresponding  INPUT and LABEL jQuery objects
-    		var input = $(element);
-    		var label = $("label[for=" + input.attr("id") + "]");
-   	 	label.hide();
-	}); //end of $(document).ready(fn)
-		*/
 	
 	
 	// -------------  Browse For Training Global Search Options -------------
