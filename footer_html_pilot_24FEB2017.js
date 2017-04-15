@@ -2,10 +2,10 @@
 
 $(document).ready(function(){
 
-       //$('.cso-h1').css("color", "red");	
+       $('.cso-h1').css("color", "red");	
 	
         // change the Profile page's links
-	$('sn:contains("Transcript")').each(function(){
+	$('span:contains("Transcript")').each(function(){
  		$(this).html($(this).html().replace('Transcript','My Learning'));
 		});
         $(".nav-transcript  ").attr("title","My Learning");
@@ -19,6 +19,7 @@ $(document).ready(function(){
 	//$('#txtCouponCode label.cs-acc-hid-con').hide();
 	//$('.cso-input-outer.med.cso-fleft-ie7').css({"background-color": "yellow"}); 
 	
+	/*
 	//write to console to confirm attributes
 	console.log("Test");
         var x = $("label[for='txtCouponCode']").text();
@@ -27,7 +28,13 @@ $(document).ready(function(){
 	$("label[for='txtCouponCode']").text("Whassup Foo");
 	$("label[for='txtCouponCode']").hide();
 	$("label[for='txtCouponCode']").css({"color": "black"}); 
+	*/
 	
+	$('label[for='txtCouponCode']').each(function(){
+		 var x = $(this).text();
+	         console.log("text: " + x);
+ 		$(this).html($(this).html().replace('coupon','customer'));
+		});
 	
 	
 	
