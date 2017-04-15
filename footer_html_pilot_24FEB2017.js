@@ -26,17 +26,19 @@ $(document).ready(function(){
 
 	$('label:contains("coupon")').each(function(){
 		$(this).html("Enter customer code");
+		
 		});
 	
 	
-	
-
-	$('label:contains("coupon")').each(function(){
+	$('label:contains("customer")').each(function(){
 		var m = $(this).text();
  		console.log("B2: " + m);
 		});
 	
-	
+	//write to console to confirm attributes
+	console.log("Test");
+        var x = $("label[for='txtCouponCode']").text();
+	console.log("text: " + x);
 	
 	
 	//$(this).html($(this).html().replace('coupon','customer'));
