@@ -2,7 +2,7 @@
 
 $(document).ready(function(){
 
-       //$('.cso-h1').css("color", "red");	
+       $('.cso-h1').css("color", "red");	
 	
         // change the Profile page's links
 	$('sn:contains("Transcript")').each(function(){
@@ -19,7 +19,17 @@ $(document).ready(function(){
 	//$('#txtCouponCode label.cs-acc-hid-con').hide();
 	$('.cso-input-outer.med.cso-fleft-ie7').css({"background-color": "yellow"}); 
 	
-	$('.cs-acc-hid-con').css({"color": "black"}); 
+
+
+	var someElements = document.getElementsByClassName('cso-input-outer med cso-fleft-ie7'); 
+	var spanWithCouponCodeField = someElements[0];
+	spanWithCouponCodeField.innerHTML = 
+		'<label for="txtCouponCode" class="cs-acc-hid-con">Enter customer code</label>' +
+                '<input id="txtCouponCode" type="text" maxlength="16" data-bind="value: couponCode, valueUpdate: "afterkeydown", event: {keyup: applyCouponOnEnter}" />';
+
+
+	
+	//$('.cs-acc-hid-con').css({"color": "black"}); 
 	
 	
 	// <span class="cso-input-outer med cso-fleft-ie7">
