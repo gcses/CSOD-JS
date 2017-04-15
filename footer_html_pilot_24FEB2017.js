@@ -28,14 +28,16 @@ $(document).ready(function(){
 	
 	$('label:contains("coupon")').each(function(){
 		var m = $(this).text();
- 		console.log("HollaX: " + m);
+ 		console.log("Holla5: " + m);
 		});
 	
 	
 	$('label:contains("coupon")').each(function(){
-		$(this).html($(this).html().replace('coupon','customer'));
+		$(this).html("Enter customer coupon");
+		//$(this).html($(this).html().replace('coupon','customer'));
 		//$(this).text($(this).text().replace('coupon','customer'));
 		//$(this).text().replace('coupon', 'customer'); 
+		
 		});
 
 	
