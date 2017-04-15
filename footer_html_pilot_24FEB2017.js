@@ -28,7 +28,8 @@ $(document).ready(function(){
 	console.log("Start Here");
 	
 	$('label:contains("coupon")').each(function(){
-		var m = $(this).html($(this).text());
+		//var m = $(this).html($(this).text());
+		var m = $(this).text();
  		console.log("Holla: " + m);
 		});
 	
