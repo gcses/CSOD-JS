@@ -22,20 +22,20 @@ $(document).ready(function(){
 		});
 	
 	//write to console to confirm attributes
-        var x = $("label[for='txtCouponCode']").text();
-	console.log("text: " + x);
+       // var x = $("label[for='txtCouponCode']").text();
+	//console.log("text: " + x);
 	
 	//swap the shopping carts coupon code text for customer code
 	$('span:contains("Coupon Code")').each(function(){
-		$(this).html("Customer Code");
+		$(this).html($(this).html().replace('Coupon','Customer'));
 		});
 	
-	//swap the shopping reference number with purchase order number
+	//swap the label in the shopping reference number with purchase order number
 	$('label:contains("Reference Number")').each(function(){
  		$(this).html($(this).html().replace('Reference Number','Purchase Order Number'));
 		});
 	
-	//swap the shopping reference number with purchase order number
+	//swap the div shopping reference number with purchase order number
 	$('div:contains("Reference Number")').each(function(){
  		$(this).html($(this).html().replace('Reference Number','Purchase Order Number'));
 		});
