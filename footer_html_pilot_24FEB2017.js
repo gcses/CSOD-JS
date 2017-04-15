@@ -22,9 +22,7 @@ $(document).ready(function(){
 	
 	
 	//replace coupon code with customer code in shopping cart area
-	$('label:contains("Enter coupon code")').each(function(){
- 		$(this).css({"backgroundColor": "yellow"})
-	   });
+	$('label:contains("Enter coupon code")').css({"backgroundColor": "yellow"});
 	
 	//$('#txtCouponCode:contains("Enter coupon code")').each(function(){
  	//	$(this).html($(this).html().replace('Enter coupon code','Enter customer code'));
