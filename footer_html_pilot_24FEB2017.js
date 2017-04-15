@@ -21,8 +21,9 @@ $(document).ready(function(){
 	//$('label[for='txtCouponCode']').each(function(){
  	//	console.log("Holla");
 	//	});
+	console.log("Start Here");
 	
-	$('label:contains("coupone")').each(function(){
+	$('label:contains("coupon")').each(function(){
  		console.log("Holla");
 		});
 	
