@@ -27,8 +27,12 @@ $(document).ready(function(){
 	
 	//swap the shopping carts coupon code text for customer code
 	$('span:contains("Coupon Code")').each(function(){
-		$(this).html($(this).html().replace('Coupon','Customer'));
+		console.log("span found!!");
+	        $(this).html($(this).html().replace('Coupon','Customer'));
 		});
+	
+	
+	
 	
 	//swap the label in the shopping reference number with purchase order number
 	$('label:contains("Reference Number")').each(function(){
