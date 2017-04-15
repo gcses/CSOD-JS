@@ -16,6 +16,7 @@ $(document).ready(function(){
 	//hide the various Cornerstone footers
 	$('.df-footer').hide();
 	
+	
 	//$('label[for='txtCouponCode']').each(function(){
 	//$('span:contains("Transcript")').each(function(){
 	
@@ -32,7 +33,9 @@ $(document).ready(function(){
 	
 	
 	$('label:contains("coupon")').each(function(){
-		$(this).text().replace('coupon', 'customer'); 
+		//$(this).html($(this).html().replace('coupon','customer'));
+		$(this).text($(this).text().replace('coupon','customer'));
+		//$(this).text().replace('coupon', 'customer'); 
 		});
 
 	
