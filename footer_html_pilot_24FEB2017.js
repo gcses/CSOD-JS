@@ -17,7 +17,8 @@ $(document).ready(function(){
 	$('.df-footer').hide();
 	
 	
-	
+	$( "label:contains('coupon')" ).css( "text-decoration", "underline" );
+
 	
 	
 	
