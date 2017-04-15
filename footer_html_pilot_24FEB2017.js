@@ -20,7 +20,7 @@ $(document).ready(function(){
 	//$('.cso-input-outer.med.cso-fleft-ie7').css({"background-color": "yellow"}); 
 	
 	//write to console to confirm attributes
-	console.log("Test);
+	console.log("Test");
         var x = $("label[for='txtCouponCode']").text;
 	console.log("text: " + x);
 	
