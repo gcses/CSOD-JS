@@ -25,16 +25,17 @@ $(document).ready(function(){
         var x = $("label[for='txtCouponCode']").text();
 	console.log("text: " + x);
 	
+	//swap the shopping carts coupon code text for customer code
 	$('span:contains("Coupon Code")').each(function(){
 		$(this).html("Customer Code");
 		});
 	
-	 // change the Profile page's links
+	//swap the shopping reference number with purchase order number
 	$('label:contains("Reference Number")').each(function(){
  		$(this).html($(this).html().replace('Reference Number','Purchase Order Number'));
 		});
 	
-	 // change the Profile page's links
+	//swap the shopping reference number with purchase order number
 	$('div:contains("Reference Number")').each(function(){
  		$(this).html($(this).html().replace('Reference Number','Purchase Order Number'));
 		});
