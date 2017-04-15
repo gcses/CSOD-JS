@@ -22,7 +22,8 @@ $(document).ready(function(){
 
 
 	var someElements = document.getElementsByClassName('cso-input-outer med cso-fleft-ie7'); 
-	var spanWithCouponCodeField = someElements[0];
+	//var spanWithCouponCodeField = someElements[0];
+	
 	//spanWithCouponCodeField.innerHTML = 
 	//	'<label for="txtCouponCode" class="cs-acc-hid-con">Enter customer code</label>' +
          //       '<input id="txtCouponCode" type="text" maxlength="16" data-bind="value: couponCode, valueUpdate: "afterkeydown", event: {keyup: applyCouponOnEnter}" />';
