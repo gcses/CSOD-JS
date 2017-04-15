@@ -2,7 +2,7 @@
 
 $(document).ready(function(){
 
-       $('.cso-h1').css("color", "red");	
+       //$('.cso-h1').css("color", "red");	
 	
         // change the Profile page's links
 	$('span:contains("Transcript")').each(function(){
@@ -16,13 +16,14 @@ $(document).ready(function(){
 	//hide the various Cornerstone footers
 	$('.df-footer').hide();
 	
-	
-	/*
+	//$('label[for='txtCouponCode']').each(function(){
+	//$('span:contains("Transcript")').each(function(){
 	$('label[for='txtCouponCode']').each(function(){
- 		$(this).html($(this).html().replace('coupon','customer'));
+ 		console.log("Holla");
 		});
-	*/
 	
+	//$(this).html($(this).html().replace('coupon','customer'));
+	//	});
 	
 	
 	
