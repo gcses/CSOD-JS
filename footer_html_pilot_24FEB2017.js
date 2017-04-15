@@ -17,11 +17,15 @@ $(document).ready(function(){
 	$('.df-footer').hide();
 	
 	//$('#txtCouponCode label.cs-acc-hid-con').hide();
+	$('.cso-input-outer.med.cso-fleft-ie7').css({"background-color": "yellow"}); 
 	
-	$('.cs-acc-hid-con').css({"color": "blue"}); 
-	$('.cs-acc-hid-con').css({"background-color": "yellow"}); 
+	$('.cs-acc-hid-con').css({"color": "black"}); 
 	
 	
+	// <span class="cso-input-outer med cso-fleft-ie7">
+         //                               <label for="txtCouponCode" class="cs-acc-hid-con">Enter coupon code</label>
+           //                             <input id="txtCouponCode" type="text" maxlength="16" data-bind="value: couponCode, valueUpdate: 'afterkeydown', event: {keyup: applyCouponOnEnter}" />
+             //                       </span>
 	
 	
 	/*
