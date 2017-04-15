@@ -18,7 +18,14 @@ $(document).ready(function(){
 	
 	//$('#txtCouponCode label.cs-acc-hid-con').hide();
 	//$('.cso-input-outer.med.cso-fleft-ie7').css({"background-color": "yellow"}); 
+	
 	$("label[for='txtCouponCode']").text("Whassup Foo");
+	$("label[for='txtCouponCode']").hide();
+	$("label[for='txtCouponCode']").css({"color": "black"}); 
+	
+	
+	
+	
 	
 	//$('label:contains("coupon")').replace('coupon','customer');
 
