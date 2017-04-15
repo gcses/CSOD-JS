@@ -27,6 +27,10 @@ $(document).ready(function(){
 		});
 		
 	
+	$('label:contains("customer")').each(function(){
+		var m = $(this).text();
+ 		console.log("T2: " + m);
+		});
 	
 	/*	
 	      $(this).innerHTML = $(this).innerHTML.replace(new RegExp("coupon", "g"), "customer");
