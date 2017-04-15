@@ -17,20 +17,6 @@ $(document).ready(function(){
 	$('.df-footer').hide();
 	
 	
-	//replace coupon code with customer code in shopping cart area
-	$( "label:contains('coupon')" ).css( "text-decoration", "underline" );
-	//$('label:contains("coupon")').css({"backgroundColor": "yellow"});
-	
-	//$('#txtCouponCode:contains("Enter coupon code")').each(function(){
- 	//	$(this).html($(this).html().replace('Enter coupon code','Enter customer code'));
-//		});
-	
-	
-
-	
-	//$('span:contains("Coupon Code")').each(function(){
- 	//	$(this).html($(this).html().replace('Coupon Code','Customer Code'));
-	//	});
 	
 	
 	
