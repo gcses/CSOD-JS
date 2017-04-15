@@ -21,11 +21,14 @@ $(document).ready(function(){
 	
 	//write to console to confirm attributes
 	console.log("Test);
-	console.log("text: " + $("label[for='txtCouponCode']"));
+        var x = $("label[for='txtCouponCode']").text;
+	console.log("text: " + x);
 	
 	$("label[for='txtCouponCode']").text("Whassup Foo");
 	$("label[for='txtCouponCode']").hide();
 	$("label[for='txtCouponCode']").css({"color": "black"}); 
+	
+	
 	
 	
 	
