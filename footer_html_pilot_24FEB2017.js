@@ -25,6 +25,21 @@ $(document).ready(function(){
         var x = $("label[for='txtCouponCode']").text();
 	console.log("text: " + x);
 	
+	$('span:contains("Coupon Code")').each(function(){
+		$(this).html("Customer Code");
+		});
+	
+	 // change the Profile page's links
+	$('label:contains("Reference Number")').each(function(){
+ 		$(this).html($(this).html().replace('Reference Number','Purchase Order Number'));
+		});
+	
+	 // change the Profile page's links
+	$('div:contains("Reference Number")').each(function(){
+ 		$(this).html($(this).html().replace('Reference Number','Purchase Order Number'));
+		});
+	
+	
 	
 	//$('.cso-input-outer.med.cso-fleft-ie7').css({"background-color": "yellow"}); 
 	/*
