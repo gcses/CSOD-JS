@@ -27,18 +27,18 @@ $(document).ready(function(){
 	
 	$('label:contains("coupon")').each(function(){
 		var m = $(this).text();
- 		console.log("Holla1: " + m);
+ 		console.log("HollaA: " + m);
 		});
 	
 	
 	$('label:contains("coupon")').each(function(){
-		$(this).text.replace('coupon','customer');
+		$(this).text(text.replace('coupon', 'customer')); 
 		});
 
 	
 	$('label:contains("coupon")').each(function(){
 		var m = $(this).text();
- 		console.log("Holla2: " + m);
+ 		console.log("HollaB: " + m);
 		});
 	
 	
