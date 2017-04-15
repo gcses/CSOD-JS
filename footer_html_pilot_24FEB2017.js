@@ -16,19 +16,26 @@ $(document).ready(function(){
 	//hide the various Cornerstone footers
 	$('.df-footer').hide();
 	
-	
+	 <label for="txtCouponCode" class="cs-acc-hid-con">Enter coupon code</label>
+                                        <input id="txtCouponCode" type="text" maxlength="16" data-bind="value: couponCode, valueUpdate: 'afterkeydown', event: {keyup: applyCouponOnEnter}" />
+
 	
 	
 	//replace coupon code with customer code in shopping cart area
 	$('label:contains("Enter coupon code")').each(function(){
+ 		$(this).html($(this).text().replace('Enter coupon code','Enter customer code'));
+		});
+	
+	$('#txtCouponCode:contains("Enter coupon code")').each(function(){
  		$(this).html($(this).html().replace('Enter coupon code','Enter customer code'));
 		});
 	
+	
 
 	
-	$('span:contains("Coupon Code")').each(function(){
- 		$(this).html($(this).html().replace('Coupon Code','Customer Code'));
-		});
+	//$('span:contains("Coupon Code")').each(function(){
+ 	//	$(this).html($(this).html().replace('Coupon Code','Customer Code'));
+	//	});
 	
 	
 	
