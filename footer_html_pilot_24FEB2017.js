@@ -19,7 +19,14 @@ $(document).ready(function(){
 	//$('#txtCouponCode label.cs-acc-hid-con').hide();
 	$('.cso-input-outer.med.cso-fleft-ie7').css({"background-color": "yellow"}); 
 	
+	$("label[for='txtCouponCode']").text("Whassup Foo");
+	
+	//$('label:contains("coupon")').replace('coupon','customer');
 
+	
+	/*
+	
+	//cs-acc-hid-con
 	var someElements = document.getElementsByClassName('cso-input-outer med cso-fleft-ie7'); 
 	var spanWithCouponCodeField = someElements[0];
 	
@@ -36,6 +43,8 @@ $(document).ready(function(){
 		    elementChildNodes[sub].nodeValue = elementChildNodes[sub].nodeValue.replace(new RegExp("coupon", "g"), "customer");	
 		}
 	}
+	
+	*/
 	 //  '<label for="txtCouponCode" class="cs-acc-hid-con">Enter customer code</label>';
          //       '<input id="txtCouponCode" type="text" maxlength="16" data-bind="value: couponCode, valueUpdate: "afterkeydown", event: {keyup: applyCouponOnEnter}" />';
 
