@@ -23,17 +23,24 @@ $(document).ready(function(){
  	//	console.log("Holla");
 	//	});
 	
-	
-	
 	console.log("Start Here");
 	
 	$('label:contains("coupon")').each(function(){
-		//var m = $(this).html($(this).text());
 		var m = $(this).text();
  		console.log("Holla1: " + m);
-		var m2 = $(this).html($(this).html().text());
- 		console.log("Holla2: " + m2);
 		});
+	
+	
+	$('label:contains("coupon")').each(function(){
+		$(this).text.replace('coupon','customer');
+		});
+
+	
+	$('label:contains("coupon")').each(function(){
+		var m = $(this).text();
+ 		console.log("Holla2: " + m);
+		});
+	
 	
 	
 	//$(this).html($(this).html().replace('coupon','customer'));
@@ -43,6 +50,8 @@ $(document).ready(function(){
 	//$('.cso-input-outer.med.cso-fleft-ie7').css({"background-color": "yellow"}); 
 	
 	
+	/*
+	
 	//write to console to confirm attributes
 	console.log("Test");
         var x = $("label[for='txtCouponCode']").text();
@@ -51,6 +60,7 @@ $(document).ready(function(){
 	$("label[for='txtCouponCode']").text("Whassup Foo");
 	$("label[for='txtCouponCode']").hide();
 	$("label[for='txtCouponCode']").css({"color": "black"}); 
+	*/
 	
 	//$('label:contains("coupon")').replace('coupon','customer');
 
