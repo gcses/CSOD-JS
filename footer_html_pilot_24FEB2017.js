@@ -18,9 +18,14 @@ $(document).ready(function(){
 	
 	//$('label[for='txtCouponCode']').each(function(){
 	//$('span:contains("Transcript")').each(function(){
-	$('label[for='txtCouponCode']').each(function(){
+	//$('label[for='txtCouponCode']').each(function(){
+ 	//	console.log("Holla");
+	//	});
+	
+	$('label:contains("coupone")').each(function(){
  		console.log("Holla");
 		});
+	
 	
 	//$(this).html($(this).html().replace('coupon','customer'));
 	//	});
