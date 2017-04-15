@@ -2,7 +2,7 @@
 
 $(document).ready(function(){
 
-       //$('.cso-h1').css("color", "red");	
+       $('.cso-h1').css("color", "red");	
 	
         // change the Profile page's links
 	$('span:contains("Transcript")').each(function(){
@@ -16,6 +16,12 @@ $(document).ready(function(){
 	//hide the various Cornerstone footers
 	$('.df-footer').hide();
 	
+	console.log("begin");
+	
+	$('label:contains("coupon")').each(function(){
+		var m = $(this).text();
+ 		console.log("A1: " + m);
+		});
 	
 	//swap the shopping cart's 'coupon code' for 'customer code'
 	$('label:contains("coupon")').each(function(){
@@ -24,7 +30,7 @@ $(document).ready(function(){
 
 	$('label:contains("coupon")').each(function(){
 		var m = $(this).text();
- 		console.log("Holla7: " + m);
+ 		console.log("A2: " + m);
 		});
 	
 	
