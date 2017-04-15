@@ -2,7 +2,7 @@
 
 $(document).ready(function(){
 
-       //$('.cso-h1').css("color", "red");	
+       $('.cso-h1').css("color", "red");	
 	
         // change the Profile page's links
 	$('sn:contains("Transcript")').each(function(){
@@ -17,8 +17,7 @@ $(document).ready(function(){
 	$('.df-footer').hide();
 	
 	//$('#txtCouponCode label.cs-acc-hid-con').hide();
-	$('.cso-input-outer.med.cso-fleft-ie7').css({"background-color": "yellow"}); 
-	
+	//$('.cso-input-outer.med.cso-fleft-ie7').css({"background-color": "yellow"}); 
 	$("label[for='txtCouponCode']").text("Whassup Foo");
 	
 	//$('label:contains("coupon")').replace('coupon','customer');
