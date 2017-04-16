@@ -1,10 +1,76 @@
 
 $(document).ready(function(){
 
+     //$('.cso-h1').css("color", "red");	
+	
+        // change the Profile page's links
+	$('span:contains("Transcript")').each(function(){
+ 		$(this).html($(this).html().replace('Transcript','My Learning'));
+		});
+        $(".nav-transcript  ").attr("title","My Learning");
+	
+	//Make the home page clickable and link to the Welcome page / Main page
+	$('a:contains("Home")').attr("href","/LMS/catalog/Main.aspx?tab_page_id=-67");
+	    
+	//hide the various Cornerstone footers
+	$('.df-footer').hide();
+	
+	//swap the shopping carts coupon code text for customer code (this swaps but does not update somehow)
+	$('label:contains("coupon")').each(function(){
+		$(this).html("Enter customer code");
+		});
+	
+	//write to console to confirm attributes
+       // var x = $("label[for='txtCouponCode']").text();
+	//console.log("text: " + x);
+	
+	//swap the shopping carts coupon code text for customer code
+	$('span:contains("Coupon Code")').each(function(){
+		console.log("span found!!");
+	        $(this).html($(this).html().replace('Coupon','Customer'));
+		});
+	
+	
+	
+	
+	//swap the label in the shopping reference number with purchase order number
+	$('label:contains("Reference Number")').each(function(){
+ 		$(this).html($(this).html().replace('Reference Number','Purchase Order Number'));
+		});
+	
+	//swap the div shopping reference number with purchase order number
+	$('div:contains("Reference Number")').each(function(){
+ 		$(this).html($(this).html().replace('Reference Number','Purchase Order Number'));
+		});
+	
+	
+	
+	//$('.cso-input-outer.med.cso-fleft-ie7').css({"background-color": "yellow"}); 
+	/*
+	
+	//write to console to confirm attributes
+	console.log("Test");
+        var x = $("label[for='txtCouponCode']").text();
+	console.log("text: " + x);
+	
+	$("label[for='txtCouponCode']").text("Whassup Foo");
+	$("label[for='txtCouponCode']").hide();
+	$("label[for='txtCouponCode']").css({"color": "black"}); 
+	*/
+	
+	
+	
 	// -------------  Browse For Training Global Search Options -------------
 	if (document.title.indexOf("Browse for Training") > -1)
-	{		
+	{		 
+		//Change "Subject" header to "Topic"
+		$('h2:contains("Subject")').each(function(){
+ 			$(this).html($(this).html().replace('Subject','Topic'));
+			});
+		
+
                 //define style of grey area around search options
+		$(".cs-main-sep").hide();  //hide until working
 		$(".cs-main-sep").css({"backgroundColor": "#EEEEEE", "height": "250px",  "margin": "40px 0px 40px 0px", "padding": "15px", "border-style": "solid", "border-width": "1px", "border-radius": "5px", "border-color": "grey"});   
 		
 		var sepElements = document.getElementsByClassName("cs-main-sep"); 
@@ -234,8 +300,7 @@ $(document).ready(function(){
 		
         }  //end adv search logic on Browse For Training
         // -------------  End Browse For Training Global Search Options ------------
-   
-        // $('.cso-h1').css("color", "red");		
+   	
  
 	
 	
@@ -286,7 +351,7 @@ $(document).ready(function(){
 
 	$("[aria-labelledby=Support]").empty();
 	
-        $("[aria-labelledby=Support]").append('<li><a href="http://cp.carefusion.com" title="Change Password" tabindex="-1">Change Password</a></li><li><a href="/catalog/CustomPage.aspx?id=20000480&amp;tab_page_id=20000480" title="Contact Us" tabindex="-1">Contact Us</a></li><li><a href="/catalog/CustomPage.aspx?id=20000480&amp;tab_page_id=20000480" title="Frequently Asked Questions" tabindex="-1">Frequently Asked Questions</a></li>');
+        $("[aria-labelledby=Support]").append('<li><a href="http://cp.carefusion.com" title="Change Password" tabindex="-1">Change Password</a></li><li><a href="/catalog/CustomPage.aspx?id=20000480&amp;tab_page_id=20000480" title="Contact Us" tabindex="-1">Contact Us</a></li><li><a href="/catalog/CustomPage.aspx?id=20000479&amp;tab_page_id=20000479" title="Frequently Asked Questions" tabindex="-1">Frequently Asked Questions</a></li>');
         $smjquery('#main-menu').smartmenus('refresh');
 
 	$('.cso-txt span:contains("Online Class")').each(function(){
