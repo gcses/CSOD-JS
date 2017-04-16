@@ -2,7 +2,7 @@
 
 $(document).ready(function(){
 
-       $('.cso-h1').css("color", "red");	
+     //$('.cso-h1').css("color", "red");	
 	
         // change the Profile page's links
 	$('span:contains("Transcript")').each(function(){
@@ -16,22 +16,48 @@ $(document).ready(function(){
 	//hide the various Cornerstone footers
 	$('.df-footer').hide();
 	
-
-	$('.cs-acc-hid-con span:contains("coupon code")').each(function(){
-		 var text = $(this).text();
-   		 $(this).text(text.replace('coupon code', 'customer code')); 
+	//swap the shopping carts coupon code text for customer code (this swaps but does not update somehow)
+	$('label:contains("coupon")').each(function(){
+		$(this).html("Enter customer code");
+		});
+	
+	//write to console to confirm attributes
+       // var x = $("label[for='txtCouponCode']").text();
+	//console.log("text: " + x);
+	
+	//swap the shopping carts coupon code text for customer code
+	$('span:contains("Coupon Code")').each(function(){
+		console.log("span found!!");
+	        $(this).html($(this).html().replace('Coupon','Customer'));
 		});
 	
 	
-	//replace coupon code with customer code in shopping cart area
-	//$('label:contains("coupon code")').each(function(){
- 	//	$(this).html($(this).html().replace('coupon code','customer code'));
-	//	});
 	
-	//$('span:contains("Coupon Code")').each(function(){
- 	//	$(this).html($(this).html().replace('Coupon Code','Customer Code'));
-	//	});
 	
+	//swap the label in the shopping reference number with purchase order number
+	$('label:contains("Reference Number")').each(function(){
+ 		$(this).html($(this).html().replace('Reference Number','Purchase Order Number'));
+		});
+	
+	//swap the div shopping reference number with purchase order number
+	$('div:contains("Reference Number")').each(function(){
+ 		$(this).html($(this).html().replace('Reference Number','Purchase Order Number'));
+		});
+	
+	
+	
+	//$('.cso-input-outer.med.cso-fleft-ie7').css({"background-color": "yellow"}); 
+	/*
+	
+	//write to console to confirm attributes
+	console.log("Test");
+        var x = $("label[for='txtCouponCode']").text();
+	console.log("text: " + x);
+	
+	$("label[for='txtCouponCode']").text("Whassup Foo");
+	$("label[for='txtCouponCode']").hide();
+	$("label[for='txtCouponCode']").css({"color": "black"}); 
+	*/
 	
 	
 	
