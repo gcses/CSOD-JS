@@ -2,13 +2,16 @@
 
 $(document).ready(function(){
 
-	console.log("test3");
+	console.log("test4");
 	
-        // change the Profile page's links
-	$('span:contains("Transcript")').each(function(){
- 		$(this).html($(this).html().replace('Transcript','My Learning'));
+	if (document.title.indexOf("Universal Profile") > -1)
+	{	
+       		// change the Profile page's links
+		$('span:contains("Transcript")').each(function(){
+ 			$(this).html($(this).html().replace('Transcript','My Learning'));
 		});
-        $(".nav-transcript  ").attr("title","My Learning");
+        	$(".nav-transcript  ").attr("title","My Learning");
+	}
 	
 	//Make the home page clickable and link to the Welcome page / Main page
 	//$('a:contains("Home")').attr("href","/LMS/catalog/Main.aspx?tab_page_id=-67");
