@@ -2,7 +2,7 @@
 
 $(document).ready(function(){
 
-	console.log("test4");
+	//console.log("test4");
 	
 	if (document.title.indexOf("Universal Profile") > -1)
 	{	
@@ -14,10 +14,11 @@ $(document).ready(function(){
 	}
 	
 	//Make the home page clickable and link to the Welcome page / Main page
-	//$('a:contains("Home")').attr("href","/LMS/catalog/Main.aspx?tab_page_id=-67");
+	$('a:contains("Home")').attr("href","/LMS/catalog/Main.aspx?tab_page_id=-67");
 	    
 	//hide the various Cornerstone footers
-	//$('.df-footer').hide();
+	$('.df-footer').hide();
+	
 	
 /*
 	//swap the shopping carts coupon code text for customer code (this swaps but does not update somehow)
@@ -35,7 +36,6 @@ $(document).ready(function(){
 	        $(this).html($(this).html().replace('Coupon','Customer'));
 		});
 	
-
 	//swap the label in the shopping reference number with purchase order number
 	$('label:contains("Reference Number")').each(function(){
  		$(this).html($(this).html().replace('Reference Number','Purchase Order Number'));
