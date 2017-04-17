@@ -2,12 +2,7 @@
 
 $(document).ready(function(){
 
-	console.log("test1");
-	
-	
-/*
-	
-     //$('.cso-h1').css("color", "red");	
+	console.log("test2");
 	
         // change the Profile page's links
 	$('span:contains("Transcript")').each(function(){
@@ -21,11 +16,12 @@ $(document).ready(function(){
 	//hide the various Cornerstone footers
 	$('.df-footer').hide();
 	
+/*
 	//swap the shopping carts coupon code text for customer code (this swaps but does not update somehow)
 	$('label:contains("coupon")').each(function(){
 		$(this).html("Enter customer code");
 		});
-	
+
 	//write to console to confirm attributes
        // var x = $("label[for='txtCouponCode']").text();
 	//console.log("text: " + x);
@@ -36,8 +32,7 @@ $(document).ready(function(){
 	        $(this).html($(this).html().replace('Coupon','Customer'));
 		});
 	
-	
-	
+
 	//swap the label in the shopping reference number with purchase order number
 	$('label:contains("Reference Number")').each(function(){
  		$(this).html($(this).html().replace('Reference Number','Purchase Order Number'));
@@ -52,15 +47,10 @@ $(document).ready(function(){
 	
 	//$('.cso-input-outer.med.cso-fleft-ie7').css({"background-color": "yellow"}); 
 	/*
-	
 	//write to console to confirm attributes
 	console.log("Test");
         var x = $("label[for='txtCouponCode']").text();
 	console.log("text: " + x);
-	
-	$("label[for='txtCouponCode']").text("Whassup Foo");
-	$("label[for='txtCouponCode']").hide();
-	$("label[for='txtCouponCode']").css({"color": "black"}); 
 	*/
 	
 	
