@@ -2,7 +2,7 @@
 
 $(document).ready(function(){
 
-	console.log("test2");
+	console.log("test3");
 	
         // change the Profile page's links
 	$('span:contains("Transcript")').each(function(){
