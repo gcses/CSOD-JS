@@ -2,6 +2,8 @@
 
 $(document).ready(function(){
 
+	fsafafasfddsafsaf
+	
      //$('.cso-h1').css("color", "red");	
 	
         // change the Profile page's links
