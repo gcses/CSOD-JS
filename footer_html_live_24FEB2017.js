@@ -11,10 +11,10 @@ $(document).ready(function(){
         $(".nav-transcript  ").attr("title","My Learning");
 	
 	//Make the home page clickable and link to the Welcome page / Main page
-	$('a:contains("Home")').attr("href","/LMS/catalog/Main.aspx?tab_page_id=-67");
+	//$('a:contains("Home")').attr("href","/LMS/catalog/Main.aspx?tab_page_id=-67");
 	    
 	//hide the various Cornerstone footers
-	$('.df-footer').hide();
+	//$('.df-footer').hide();
 	
 /*
 	//swap the shopping carts coupon code text for customer code (this swaps but does not update somehow)
