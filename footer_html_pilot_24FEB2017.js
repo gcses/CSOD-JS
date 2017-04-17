@@ -2,13 +2,16 @@
 
 $(document).ready(function(){
 
-      // $('.cso-h1').css("color", "red");	
+       // $('.cso-h1').css("color", "red");	
 	
-        // change the Profile page's links
-	$('span:contains("Transcript")').each(function(){
- 		$(this).html($(this).html().replace('Transcript','My Learning'));
-		});
-        $(".nav-transcript  ").attr("title","My Learning");
+	if (document.title.indexOf("Universal Profile") > -1)
+	{	
+        	// change the Profile page's links
+		$('span:contains("Transcript")').each(function(){
+ 			$(this).html($(this).html().replace('Transcript','My Learning'));
+			});
+       		$(".nav-transcript  ").attr("title","My Learning");
+	}
 	
 	//Make the home page clickable and link to the Welcome page / Main page
 	$('a:contains("Home")').attr("href","/LMS/catalog/Main.aspx?tab_page_id=-67");
@@ -16,6 +19,7 @@ $(document).ready(function(){
 	//hide the various Cornerstone footers
 	$('.df-footer').hide();
 	
+	/*
 	//swap the shopping carts coupon code text for customer code (this swaps but does not update somehow)
 	$('label:contains("coupon")').each(function(){
 		$(this).html("Enter customer code");
@@ -31,9 +35,6 @@ $(document).ready(function(){
 	        $(this).html($(this).html().replace('Coupon','Customer'));
 		});
 	
-	
-	
-	
 	//swap the label in the shopping reference number with purchase order number
 	$('label:contains("Reference Number")').each(function(){
  		$(this).html($(this).html().replace('Reference Number','Purchase Order Number'));
@@ -43,7 +44,7 @@ $(document).ready(function(){
 	$('div:contains("Reference Number")').each(function(){
  		$(this).html($(this).html().replace('Reference Number','Purchase Order Number'));
 		});
-	
+	*/
 	
 	
 	//$('.cso-input-outer.med.cso-fleft-ie7').css({"background-color": "yellow"}); 
