@@ -2,7 +2,10 @@
 
 $(document).ready(function(){
 
-	fsafafasfddsafsaf
+	console.log("test1");
+	
+	
+/*
 	
      //$('.cso-h1').css("color", "red");	
 	
@@ -35,7 +38,6 @@ $(document).ready(function(){
 	
 	
 	
-	
 	//swap the label in the shopping reference number with purchase order number
 	$('label:contains("Reference Number")').each(function(){
  		$(this).html($(this).html().replace('Reference Number','Purchase Order Number'));
@@ -45,7 +47,7 @@ $(document).ready(function(){
 	$('div:contains("Reference Number")').each(function(){
  		$(this).html($(this).html().replace('Reference Number','Purchase Order Number'));
 		});
-	
+*/
 	
 	
 	//$('.cso-input-outer.med.cso-fleft-ie7').css({"background-color": "yellow"}); 
