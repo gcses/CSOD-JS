@@ -25,13 +25,17 @@ $(document).ready(function(){
 	//	$(this).html("Enter customer code");
         //	});
 	
-	console.log("span3!");
+	console.log("span9!");
 	
 	var couponSpan = $(".cso-input-outer.med.cso-fleft-ie7");
 	couponSpan.html('<label for="txtCouponCode" class="cs-acc-hid-con">Enter customer code</label>');
-	couponSpan.html += '<input id="txtCouponCode" type="text" maxlength="16" data-bind="value: couponCode, valueUpdate: 'afterkeydown'"  /></span>';
+	couponSpan.html += '<input id="txtCouponCode" type="text" maxlength="16" /></span>';
 	
-
+	//valueUpdate: 'afterkeydown'" 
+        var obj = {
+          value: "couponCode"
+	};
+	dataBind(couponSpan, obj);
 	
 	
 	
@@ -480,6 +484,32 @@ function showCheckboxes() {
     expanded = false;
   }
 }
+
+
+function dataBind(domElement, obj) {    
+    var bind = domElement.getAttribute("bind").split(":");
+    var domAttr = bind[0].trim(); // the attribute on the DOM element
+    var itemAttr = bind[1].trim(); // the attribute the object
+
+    // when the object changes - update the DOM
+    Object.observe(obj, function (change) {
+        domElement[domAttr] = obj[itemAttr]; 
+    });
+    // when the dom changes - update the object
+    new MutationObserver(updateObj).observe(domElement, { 
+        attributes: true,
+        childList: true,
+        characterData: true
+    });
+    domElement.addEventListener("keyup", updateObj);
+    domElement.addEventListener("click",updateObj);
+    function updateObj(){
+        obj[itemAttr] = domElement[domAttr];   
+    }
+    // start the cycle by taking the attribute from the object and updating it.
+    domElement[domAttr] = obj[itemAttr]; 
+}
+
 
 
 function replaceOnlineClass() 
