@@ -35,11 +35,12 @@ $(document).ready(function(){
 	var smooshedLabel = $("label[for='txtCouponCode']").css({"height": "50px")};
 								
 	//valueUpdate: 'afterkeydown'" 
+	/*
         var obj = {
           value: "couponCode"
 	};
 	dataBind(couponSpan, obj);
-	
+	*/
 	
 	
           //<input id="txtCouponCode" type="text" maxlength="16" data-bind="value: couponCode, valueUpdate: 'afterkeydown', 
