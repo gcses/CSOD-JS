@@ -19,22 +19,44 @@ $(document).ready(function(){
 	//hide the various Cornerstone footers
 	$('.df-footer').hide();
 	
-	/*
+	
 	//swap the shopping carts coupon code text for customer code (this swaps but does not update somehow)
-	$('label:contains("coupon")').each(function(){
-		$(this).html("Enter customer code");
-		});
+	//$('label:contains("coupon")').each(function(){
+	//	$(this).html("Enter customer code");
+        //	});
+	
+	
+	var couponSpan = $(".cso-input-outer.med.cso-fleft-ie7");
+	couponSpan.html('<label for="txtCouponCode" class="cs-acc-hid-con">Enter customer code</label>');
+	
+	
+	
+          //<input id="txtCouponCode" type="text" maxlength="16" data-bind="value: couponCode, valueUpdate: 'afterkeydown', 
+	//            event: {keyup: applyCouponOnEnter});
+	//<span class="cso-input-outer med cso-fleft-ie7">
+          //<label for="txtCouponCode" class="cs-acc-hid-con">Enter coupon code</label>
+          //<input id="txtCouponCode" type="text" maxlength="16" data-bind="value: couponCode, valueUpdate: 'afterkeydown', 
+	//            event: {keyup: applyCouponOnEnter}" </span>  />
+
+	
+	
+	//swap the shopping carts coupon code text for customer code
+	//$('span:contains("Coupon Code")').each(function(){
+	//	console.log("span found!!");
+	 //       $(this).html($(this).html().replace('Coupon','Customer'));
+	//	});
+	
+	
+	
+	
 	
 	//write to console to confirm attributes
        // var x = $("label[for='txtCouponCode']").text();
 	//console.log("text: " + x);
 	
-	//swap the shopping carts coupon code text for customer code
-	$('span:contains("Coupon Code")').each(function(){
-		console.log("span found!!");
-	        $(this).html($(this).html().replace('Coupon','Customer'));
-		});
 	
+	
+	/*
 	//swap the label in the shopping reference number with purchase order number
 	$('label:contains("Reference Number")').each(function(){
  		$(this).html($(this).html().replace('Reference Number','Purchase Order Number'));
