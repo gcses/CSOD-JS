@@ -25,10 +25,10 @@ $(document).ready(function(){
 	//	$(this).html("Enter customer code");
         //	});
 	
-	console.log("span2!");
+	console.log("span3!");
 	
 	var couponSpan = $(".cso-input-outer.med.cso-fleft-ie7");
-	couponSpan.html('<label for="txtCouponCode">Enter customer code</label>');
+	couponSpan.html('<label for="txtCouponCode" class="cs-acc-hid-con">Enter customer code</label>');
 	couponSpan.html += '<input id="txtCouponCode" type="text" maxlength="16" /></span>';
 	
 	
