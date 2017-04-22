@@ -25,9 +25,12 @@ $(document).ready(function(){
 	//	$(this).html("Enter customer code");
         //	});
 	
+	console.log("span!");
 	
 	var couponSpan = $(".cso-input-outer.med.cso-fleft-ie7");
-	couponSpan.html('<label for="txtCouponCode" class="cs-acc-hid-con">Enter customer code</label>');
+	couponSpan.html('<label>Enter customer code</label>');
+	
+	
 	
 	
 	
@@ -108,7 +111,6 @@ $(document).ready(function(){
 		
 		queryElement.innerHTML += '<h2>Refine your Search</h2><br/>';
 			
-		
 		//queryElement.innerHTML += '<div id="ctl00_ContentPlaceHolder1_ucSearchAdvanceControls_rptAdvanceControls_ctl00_divAdvanceControls" class="divAdvanceControls" style="display: none" engineId="1">';
                             
 		//keywords here
