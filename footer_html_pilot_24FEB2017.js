@@ -31,9 +31,9 @@ $(document).ready(function(){
 	couponSpan.html += '<input id="txtCouponCode" type="text" maxlength="16" /></span>';
 	
 	//fix the css on the label
-	var couponLabel = $("label[for='txtCouponCode']");
+	//var couponLabel = $("label[for='txtCouponCode']");
 	
-	couponLabel.css({"height": "50px", "background-color": "yellow")};
+	//couponLabel.css({"height": "50px", "background-color": "yellow")};
 								
 	//valueUpdate: 'afterkeydown'" 
 	/*
