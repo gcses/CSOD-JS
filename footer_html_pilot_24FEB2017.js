@@ -25,7 +25,7 @@ $(document).ready(function(){
 	//	$(this).html("Enter customer code");
         //	});
 	
-	console.log("span9!");
+	console.log("span10!");
 	
 	var couponSpan = $(".cso-input-outer.med.cso-fleft-ie7");
 	couponSpan.html('<label for="txtCouponCode" class="cs-acc-hid-con">Enter customer code</label>');
