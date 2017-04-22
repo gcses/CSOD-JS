@@ -19,7 +19,6 @@ $(document).ready(function(){
 	//hide the various Cornerstone footers
 	$('.df-footer').hide();
 	
-	
 	//swap the shopping carts coupon code text for customer code (this swaps but does not update somehow)
 	//$('label:contains("coupon")').each(function(){
 	//	$(this).html("Enter customer code");
