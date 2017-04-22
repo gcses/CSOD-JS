@@ -28,14 +28,15 @@ $(document).ready(function(){
 	console.log("span!");
 	
 	var couponSpan = $(".cso-input-outer.med.cso-fleft-ie7");
-	couponSpan.html('<label>Enter customer code</label>');
+	couponSpan.html('<label for="txtCouponCode">Enter customer code</label>');
+	couponSpan.html += '<input id="txtCouponCode" type="text" maxlength="16" /></span>';
 	
 	
 	
 	
 	
           //<input id="txtCouponCode" type="text" maxlength="16" data-bind="value: couponCode, valueUpdate: 'afterkeydown', 
-	//            event: {keyup: applyCouponOnEnter});
+	//            event: {keyup: applyCouponOnEnte
 	//<span class="cso-input-outer med cso-fleft-ie7">
           //<label for="txtCouponCode" class="cs-acc-hid-con">Enter coupon code</label>
           //<input id="txtCouponCode" type="text" maxlength="16" data-bind="value: couponCode, valueUpdate: 'afterkeydown', 
@@ -71,19 +72,7 @@ $(document).ready(function(){
 		});
 	*/
 	
-	
 	//$('.cso-input-outer.med.cso-fleft-ie7').css({"background-color": "yellow"}); 
-	/*
-	
-	//write to console to confirm attributes
-	console.log("Test");
-        var x = $("label[for='txtCouponCode']").text();
-	console.log("text: " + x);
-	
-	$("label[for='txtCouponCode']").text("Whassup Foo");
-	$("label[for='txtCouponCode']").hide();
-	$("label[for='txtCouponCode']").css({"color": "black"}); 
-	*/
 	
 	
 	// -------------  Browse For Training Global Search Options -------------
