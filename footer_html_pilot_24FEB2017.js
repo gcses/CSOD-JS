@@ -24,14 +24,14 @@ $(document).ready(function(){
 	//	$(this).html("Enter customer code");
         //	});
 	
-	console.log("span11!");
+	console.log("span12!");
 	
 	var couponSpan = $(".cso-input-outer.med.cso-fleft-ie7");
 	couponSpan.html('<label for="txtCouponCode" class="cs-acc-hid-con">Enter customer code</label>');
 	couponSpan.html += '<input id="txtCouponCode" type="text" maxlength="16" /></span>';
 	
 	//fix the css on the label
-	//var smooshedLabel = $("label[for='txtCouponCode']").css({"height": "50px")};
+	$("label[for='txtCouponCode']").css({"height": "50px", "background-color": "yellow")};
 								
 	//valueUpdate: 'afterkeydown'" 
 	/*
