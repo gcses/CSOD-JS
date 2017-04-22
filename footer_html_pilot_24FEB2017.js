@@ -31,6 +31,9 @@ $(document).ready(function(){
 	couponSpan.html('<label for="txtCouponCode" class="cs-acc-hid-con">Enter customer code</label>');
 	couponSpan.html += '<input id="txtCouponCode" type="text" maxlength="16" /></span>';
 	
+	//fix the css on the label
+	var smooshedLabel = $("label[for='txtCouponCode']").css({"height": "50px")};
+								
 	//valueUpdate: 'afterkeydown'" 
         var obj = {
           value: "couponCode"
