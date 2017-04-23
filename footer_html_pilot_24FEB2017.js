@@ -24,15 +24,13 @@ $(document).ready(function(){
 	//	$(this).html("Enter customer code");
         //	});
 	
-console.log("span14!");
+console.log("span15!");
 	
 	var couponSpan = $(".cso-input-outer.med.cso-fleft-ie7");
 	couponSpan.html('<label for="txtCouponCode" class="cs-acc-hid-con" height="50" >Enter customer code</label>');
-	couponSpan.html += '<input id="txtCouponCode" type="text" maxlength="16" height="50" /></span>';
-	//couponSpan.css({"height": "50px", "background-color": "yellow")};
-	
-		       
-	$(".cso-input-outer.med.cso-fleft-ie7").css({"width": "50px", "height": "50px", "background-color": "yellow"});  
+	couponSpan.html += '<input id="txtCouponCode" type="text" maxlength="16" height="50" data-bind="value: couponCode, valueUpdate: \'afterkeydown\', event: {keyup: applyCouponOnEnter}" /></span>';
+	     
+	$(".cso-input-outer.med.cso-fleft-ie7").css({"width": "100px", "height": "30px", "background-color": "yellow", "margin": "0px 0px 0px 10px", });  
 	
 	//fix the css on the label
 	//var couponLabel = $("label[for='txtCouponCode']");
@@ -47,8 +45,7 @@ console.log("span14!");
 	*/
 	
 	
-          //<input id="txtCouponCode" type="text" maxlength="16" data-bind="value: couponCode, valueUpdate: 'afterkeydown', 
-	//            event: {keyup: applyCouponOnEnte
+
 	//<span class="cso-input-outer med cso-fleft-ie7">
           //<label for="txtCouponCode" class="cs-acc-hid-con">Enter coupon code</label>
           //<input id="txtCouponCode" type="text" maxlength="16" data-bind="value: couponCode, valueUpdate: 'afterkeydown', 
