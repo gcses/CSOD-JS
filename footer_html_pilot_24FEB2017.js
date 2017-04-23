@@ -19,23 +19,17 @@ $(document).ready(function(){
 	//hide the various Cornerstone footers
 	$('.df-footer').hide();
 	
-	//swap the shopping carts coupon code text for customer code (this swaps but does not update somehow)
-	//$('label:contains("coupon")').each(function(){
-	//	$(this).html("Enter customer code");
-        //	});
-	
-console.log("span15!");
+console.log("span16!");
 	  
 	var couponSpan = $(".cso-input-outer.med.cso-fleft-ie7");
-	couponSpan.html('<label for="txtCouponCode" class="cs-acc-hid-con" >Enter customer code</label>');
-	couponSpan.html += '<input id="txtCouponCode" type="text" maxlength="16" data-bind="value: couponCode, valueUpdate: \'afterkeydown\', event: {keyup: applyCouponOnEnter}" /></span>';
-	 
+	couponSpan.html('<label for="txtCouponCode">Enter customer code</label>');
+	couponSpan.html += '<input id="txtCouponCode" type="text" maxlength="16"/></span>';
+	//couponSpan.html += '<input id="txtCouponCode" type="text" maxlength="16" data-bind="value: couponCode, valueUpdate: \'afterkeydown\', event: {keyup: applyCouponOnEnter}" /></span>';
+	
+	
 	// margin: top, right, bottom, left
 	$(".cso-input-outer.med.cso-fleft-ie7").css({"width": "100px", "height": "25px", "background-color": "yellow", "margin": "0px 10px 0px 0px", });  
 	
-	//fix the css on the label
-	//var couponLabel = $("label[for='txtCouponCode']");
-	//couponLabel.css({"height": "50px", "background-color": "yellow")};
 								
 	//valueUpdate: 'afterkeydown'" 
 	/*
