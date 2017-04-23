@@ -24,15 +24,15 @@ $(document).ready(function(){
 	//	$(this).html("Enter customer code");
         //	});
 	
-console.log("span13!");
+console.log("span14!");
 	
 	var couponSpan = $(".cso-input-outer.med.cso-fleft-ie7");
 	couponSpan.html('<label for="txtCouponCode" class="cs-acc-hid-con" height="50" >Enter customer code</label>');
-	couponSpan.html += '<input id="txtCouponCode" type="text" maxlength="16" /></span>';
+	couponSpan.html += '<input id="txtCouponCode" type="text" maxlength="16" height="50" /></span>';
+	couponSpan.css({"height": "50px", "background-color": "yellow")};
 	
 	//fix the css on the label
 	//var couponLabel = $("label[for='txtCouponCode']");
-	
 	//couponLabel.css({"height": "50px", "background-color": "yellow")};
 								
 	//valueUpdate: 'afterkeydown'" 
