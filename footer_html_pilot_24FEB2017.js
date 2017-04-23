@@ -25,12 +25,13 @@ $(document).ready(function(){
         //	});
 	
 console.log("span15!");
-	
+	  
 	var couponSpan = $(".cso-input-outer.med.cso-fleft-ie7");
-	couponSpan.html('<label for="txtCouponCode" class="cs-acc-hid-con" height="50" >Enter customer code</label>');
-	couponSpan.html += '<input id="txtCouponCode" type="text" maxlength="16" height="50" data-bind="value: couponCode, valueUpdate: \'afterkeydown\', event: {keyup: applyCouponOnEnter}" /></span>';
-	     
-	$(".cso-input-outer.med.cso-fleft-ie7").css({"width": "100px", "height": "30px", "background-color": "yellow", "margin": "0px 0px 0px 10px", });  
+	couponSpan.html('<label for="txtCouponCode" class="cs-acc-hid-con" >Enter customer code</label>');
+	couponSpan.html += '<input id="txtCouponCode" type="text" maxlength="16" data-bind="value: couponCode, valueUpdate: \'afterkeydown\', event: {keyup: applyCouponOnEnter}" /></span>';
+	 
+	// margin: top, right, bottom, left
+	$(".cso-input-outer.med.cso-fleft-ie7").css({"width": "100px", "height": "25px", "background-color": "yellow", "margin": "0px 10px 0px 0px", });  
 	
 	//fix the css on the label
 	//var couponLabel = $("label[for='txtCouponCode']");
