@@ -21,8 +21,17 @@ $(document).ready(function(){
 	
 	var EnterCoupon = "Enter customer code";	
 
+	//swap the shopping carts coupon code text for customer code
+	$('span:contains("Coupon Code")').each(function(){
+		console.log("span found!!");
+	        $(this).html($(this).html().replace('Coupon','Customer'));
+		});
 	
-console.log("span3!");
+        //write to console to confirm attributes
+        var x = $("label[for='txtCouponCode']").text();
+	console.log("text: " + x);
+	
+console.log("span4!");
 	  
 	var couponSpan = $(".cso-input-outer.med.cso-fleft-ie7");
 	//couponSpan.html('<label for="txtCouponCode">Enter customer code</label>');
@@ -36,15 +45,7 @@ console.log("span3!");
 	
 	
 	
-		//swap the shopping carts coupon code text for customer code
-	$('span:contains("Coupon Code")').each(function(){
-		console.log("span found!!");
-	        $(this).html($(this).html().replace('Coupon','Customer'));
-		});
-	
-        //write to console to confirm attributes
-        var x = $("label[for='txtCouponCode']").text();
-	console.log("text: " + x);
+
 	
 	
 								
