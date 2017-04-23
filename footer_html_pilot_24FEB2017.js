@@ -22,7 +22,7 @@ $(document).ready(function(){
 	var EnterCoupon = "Enter customer code";	
 
 	
-console.log("span2!");
+console.log("span3!");
 	  
 	var couponSpan = $(".cso-input-outer.med.cso-fleft-ie7");
 	//couponSpan.html('<label for="txtCouponCode">Enter customer code</label>');
@@ -42,6 +42,9 @@ console.log("span2!");
 	        $(this).html($(this).html().replace('Coupon','Customer'));
 		});
 	
+        //write to console to confirm attributes
+        var x = $("label[for='txtCouponCode']").text();
+	console.log("text: " + x);
 	
 	
 								
@@ -68,9 +71,7 @@ console.log("span2!");
 	
 	
 	
-	//write to console to confirm attributes
-       // var x = $("label[for='txtCouponCode']").text();
-	//console.log("text: " + x);
+
 	
 	
 	
