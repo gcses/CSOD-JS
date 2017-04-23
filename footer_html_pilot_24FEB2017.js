@@ -22,11 +22,12 @@ $(document).ready(function(){
 	var EnterCoupon = "Enter customer code";	
 
 	
-console.log("span18!");
+console.log("span19!");
 	  
 	var couponSpan = $(".cso-input-outer.med.cso-fleft-ie7");
 	//couponSpan.html('<label for="txtCouponCode">Enter customer code</label>');
-	couponSpan.html = '<input id="txtCouponCode" type="text" maxlength="16" /></span>';
+	couponSpan.html('<input id="txtCouponCode" type="text" maxlength="16" /></span>');
+	
 	//couponSpan.html += '<input id="txtCouponCode" type="text" maxlength="16" data-bind="value: couponCode, valueUpdate: \'afterkeydown\', event: {keyup: applyCouponOnEnter}" /></span>';
 	
 	
