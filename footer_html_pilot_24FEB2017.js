@@ -22,17 +22,17 @@ $(document).ready(function(){
 	var EnterCoupon = "Enter customer code";	
 
 	
-console.log("span20!");
+console.log("span2!");
 	  
-	//var couponSpan = $(".cso-input-outer.med.cso-fleft-ie7");
+	var couponSpan = $(".cso-input-outer.med.cso-fleft-ie7");
 	//couponSpan.html('<label for="txtCouponCode">Enter customer code</label>');
 	
 	//couponSpan.html('<input id="txtCouponCode" type="text" maxlength="16" /></span>');
 	
-	//couponSpan.html('<input id="txtCouponCode" type="text" maxlength="16" data-bind="value: couponCode, valueUpdate: \'afterkeydown\', event: {keyup: applyCouponOnEnter}" /></span>');
+	couponSpan.html('<input id="txtCouponCode" type="text" maxlength="16" data-bind="value: couponCode, valueUpdate: \'afterkeydown\', event: {keyup: applyCouponOnEnter}" /></span>');
 	
 	// margin: top, right, bottom, left
-	//$(".cso-input-outer.med.cso-fleft-ie7").css({"width": "105px", "height": "25px", "background-color": "yellow", "margin": "0px 10px 0px 0px", });  
+	$(".cso-input-outer.med.cso-fleft-ie7").css({"width": "105px", "height": "25px", "background-color": "yellow", "margin": "0px 10px 0px 0px", });  
 	
 	
 	
