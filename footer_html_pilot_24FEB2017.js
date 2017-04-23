@@ -29,7 +29,10 @@ console.log("span14!");
 	var couponSpan = $(".cso-input-outer.med.cso-fleft-ie7");
 	couponSpan.html('<label for="txtCouponCode" class="cs-acc-hid-con" height="50" >Enter customer code</label>');
 	couponSpan.html += '<input id="txtCouponCode" type="text" maxlength="16" height="50" /></span>';
-	couponSpan.css({"height": "50px", "background-color": "yellow")};
+	//couponSpan.css({"height": "50px", "background-color": "yellow")};
+	
+		       
+	$(".cso-input-outer.med.cso-fleft-ie7").css({"width": "50px", "height": "50px", "background-color": "yellow"});  
 	
 	//fix the css on the label
 	//var couponLabel = $("label[for='txtCouponCode']");
