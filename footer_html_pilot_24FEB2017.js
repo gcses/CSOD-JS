@@ -31,7 +31,7 @@ $(document).ready(function(){
         var x = $("label[for='txtCouponCode']").text();
 	console.log("text: " + x);
 	
-console.log("span4!");
+console.log("span5!");
 	  
 	var couponSpan = $(".cso-input-outer.med.cso-fleft-ie7");
 	//couponSpan.html('<label for="txtCouponCode">Enter customer code</label>');
