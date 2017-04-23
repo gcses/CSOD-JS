@@ -38,16 +38,16 @@ console.log("span4!");
 	
 	//couponSpan.html('<input id="txtCouponCode" type="text" maxlength="16" /></span>');
 	
-	couponSpan.html('<input id="txtCouponCode" type="text" maxlength="16" data-bind="value: couponCode, valueUpdate: \'afterkeydown\', event: {keyup: applyCouponOnEnter}" /></span>');
+	couponSpan.html('<input id="txtCouponCode" type="text" maxlength="16" /></span>');
+	
+	//couponSpan.html('<input id="txtCouponCode" type="text" maxlength="16" data-bind="value: couponCode, valueUpdate: \'afterkeydown\', event: {keyup: applyCouponOnEnter}" /></span>');
+	
+	
 	
 	// margin: top, right, bottom, left
 	$(".cso-input-outer.med.cso-fleft-ie7").css({"width": "105px", "height": "25px", "background-color": "yellow", "margin": "0px 10px 0px 0px", });  
 	
-	
-	
 
-	
-	
 								
 	//valueUpdate: 'afterkeydown'" 
 	/*
