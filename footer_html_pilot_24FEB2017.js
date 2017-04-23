@@ -19,12 +19,16 @@ $(document).ready(function(){
 	//hide the various Cornerstone footers
 	$('.df-footer').hide();
 	
-console.log("span16!");
+	var EnterCoupon = "Enter customer code";	
+
+	
+console.log("span17!");
 	  
 	var couponSpan = $(".cso-input-outer.med.cso-fleft-ie7");
 	//couponSpan.html('<label for="txtCouponCode">Enter customer code</label>');
 	couponSpan.html += '<input id="txtCouponCode" type="text" maxlength="16" /></span>';
 	//couponSpan.html += '<input id="txtCouponCode" type="text" maxlength="16" data-bind="value: couponCode, valueUpdate: \'afterkeydown\', event: {keyup: applyCouponOnEnter}" /></span>';
+	
 	
 	
 	// margin: top, right, bottom, left
