@@ -28,24 +28,24 @@ $(document).ready(function(){
 		});
 	
         //write to console to confirm attributes
-        var x = $("label[for='txtCouponCode']").text();
-	console.log("text: " + x);
+        //var x = $("label[for='txtCouponCode']").text();
+	//console.log("text: " + x);
 	
-console.log("span5!");
+        //console.log("span5!");
 	  
-	var couponSpan = $(".cso-input-outer.med.cso-fleft-ie7");
+	//var couponSpan = $(".cso-input-outer.med.cso-fleft-ie7");
 	//couponSpan.html('<label for="txtCouponCode">Enter customer code</label>');
 	
 	//couponSpan.html('<input id="txtCouponCode" type="text" maxlength="16" /></span>');
 	
-	couponSpan.html('<input id="txtCouponCode" type="text" maxlength="16" /></span>');
+	//couponSpan.html('<input id="txtCouponCode" type="text" maxlength="16" /></span>');
 	
 	//couponSpan.html('<input id="txtCouponCode" type="text" maxlength="16" data-bind="value: couponCode, valueUpdate: \'afterkeydown\', event: {keyup: applyCouponOnEnter}" /></span>');
 	
 	
 	
 	// margin: top, right, bottom, left
-	$(".cso-input-outer.med.cso-fleft-ie7").css({"width": "105px", "height": "25px", "background-color": "yellow", "margin": "0px 10px 0px 0px", });  
+	//$(".cso-input-outer.med.cso-fleft-ie7").css({"width": "105px", "height": "25px", "background-color": "yellow", "margin": "0px 10px 0px 0px", });  
 	
 
 								
@@ -57,24 +57,13 @@ console.log("span5!");
 	dataBind(couponSpan, obj);
 	*/
 	
-	
 
 	//<span class="cso-input-outer med cso-fleft-ie7">
           //<label for="txtCouponCode" class="cs-acc-hid-con">Enter coupon code</label>
           //<input id="txtCouponCode" type="text" maxlength="16" data-bind="value: couponCode, valueUpdate: 'afterkeydown', 
 	//            event: {keyup: applyCouponOnEnter}" </span>  />
 
-	
-	
 
-	
-	
-	
-	
-	
-
-	
-	
 	
 	/*
 	//swap the label in the shopping reference number with purchase order number
