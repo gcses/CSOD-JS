@@ -2,6 +2,15 @@
 
 $(document).ready(function(){
 
+	
+	// Redesign Header with new imagery and layout
+	
+	
+	
+	
+	
+	
+	
        // $('.cso-h1').css("color", "red");	
 	
 	if (document.title.indexOf("Universal Profile") > -1)
