@@ -8,7 +8,7 @@ $(document).ready(function(){
 	//load splash image background
 	//<div class="topBarOuter">
 	$(".topBarOuter").css({"background-color": "yellow" });  
-	$("#tblTopBar").css({"background-image": "url('img_tree.gif')"});  
+	$("#tblTopBar").css({"background-image": "url('header.jpg')"});  
 
 	//"height": "250px"
 	
