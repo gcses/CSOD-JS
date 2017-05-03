@@ -13,7 +13,7 @@ $(document).ready(function(){
         //$("#tblTopBar").css({ "background-image": "header.JPG" });  
 
 	var headerTable = document.getElementById('tblTopBar');
-	headerTable.style.backgroundImage = "url('header.JPG')";
+	headerTable.style.backgroundImage = "url('https://rawgit.com/gcses/CSOD-JS/master/header.JPG')";
 	
 	
 	//"height": "250px"
