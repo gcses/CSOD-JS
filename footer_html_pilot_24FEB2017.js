@@ -8,13 +8,14 @@ $(document).ready(function(){
 	//load splash image background
 	//<div class="topBarOuter">
 	$(".topBarOuter").css({"background-color": "yellow" });  
-	
-	//$("#tblTopBar").css({ "background-image": "url('https://rawgit.com/gcses/CSOD-JS/master/header.JPG')" });  
-        //$("#tblTopBar").css({ "background-image": "header.JPG" });  
 
 	var headerTable = document.getElementById('tblTopBar');
 	headerTable.style.backgroundImage = "url('https://rawgit.com/gcses/CSOD-JS/master/header.JPG')";
 	
+	
+	$(".my-slider").css({"width": "100%" }); 
+	
+	$(".ctl00_ContentPlaceHolder1_widgetLayout_mainDivRenderedWidgets").css({"background-color": "yellow" });  
 	
 	//"height": "250px"
 	
