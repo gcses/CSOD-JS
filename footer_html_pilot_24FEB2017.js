@@ -8,14 +8,14 @@ $(document).ready(function(){
 	//load splash image background
 	//<div class="topBarOuter">
 	$(".topBarOuter").css({"background-color": "yellow" });  
-	$("#tblTopBar").css({"background-image": "header.jpg"});  
+	$("#tblTopBar").css({"background-image": "header.JPG"});  
 
 	
 	
 	//"height": "250px"
 	
 	
-	console.log("TestMe3");
+	console.log("TestMe4");
 	
 	
 	
