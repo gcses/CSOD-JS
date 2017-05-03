@@ -5,6 +5,11 @@ $(document).ready(function(){
 	
 	// Redesign Header with new imagery and layout
 	
+	//load splash image background
+	//<div class="topBarOuter">
+	$(".topBarOuter").css({"background-color": "yellow" });  
+	
+
 	
 	
 	
