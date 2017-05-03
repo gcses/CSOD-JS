@@ -8,14 +8,15 @@ $(document).ready(function(){
 	//load splash image background
 	//<div class="topBarOuter">
 	$(".topBarOuter").css({"background-color": "yellow" });  
-	$("#tblTopBar").css({"background-image": url('https://rawgit.com/gcses/CSOD-JS/master/header.JPG')});  
+	
+	$("#tblTopBar").css({ "background-image": "url('https://rawgit.com/gcses/CSOD-JS/master/header.JPG')" });  
 
 
 	
 	//"height": "250px"
 	
 	
-	console.log("TestMe6");
+	console.log("TestMe7");
 	
 	
 	
