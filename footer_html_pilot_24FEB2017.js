@@ -10,13 +10,16 @@ $(document).ready(function(){
 	$(".topBarOuter").css({"background-color": "yellow" });  
 	
 	//$("#tblTopBar").css({ "background-image": "url('https://rawgit.com/gcses/CSOD-JS/master/header.JPG')" });  
-        $("#tblTopBar").css({ "background-image": "header.JPG" });  
+        //$("#tblTopBar").css({ "background-image": "header.JPG" });  
 
+	var headerTable = document.getElementById('tblTopBar');
+	headerTable.style.backgroundImage = "url('header.JPG')";
+	
 	
 	//"height": "250px"
 	
 	
-	console.log("TestMe7");
+	console.log("TestMe8");
 	
 	
 	
