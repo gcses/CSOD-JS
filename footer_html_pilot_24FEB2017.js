@@ -20,7 +20,7 @@ $(document).ready(function(){
 	//"height": "250px"
 	
 	
-	console.log("TestMe8");
+	console.log("TestMe1");
 	
 	
 	
