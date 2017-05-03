@@ -8,11 +8,12 @@ $(document).ready(function(){
 	//load splash image background
 	//<div class="topBarOuter">
 	$(".topBarOuter").css({"background-color": "yellow" });  
-	$("#tblTopBar").css({"background-color": "yellow" });  
+	$("#tblTopBar").css({"background-image": "url('img_tree.gif')"});  
 
+	//"height": "250px"
 	
 	
-	console.log("TestMe1");
+	console.log("TestMe2");
 	
 	
 	
