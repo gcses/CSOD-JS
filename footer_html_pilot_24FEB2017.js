@@ -8,11 +8,11 @@ $(document).ready(function(){
 	//load splash image background
 	//<div class="topBarOuter">
 	$(".topBarOuter").css({"background-color": "yellow" });  
-	
+	$("#tblTopBar").css({"background-color": "yellow" });  
 
 	
 	
-	
+	console.log("TestMe1");
 	
 	
 	
