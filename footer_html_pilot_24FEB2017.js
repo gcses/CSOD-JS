@@ -15,12 +15,14 @@ $(document).ready(function(){
 	
 	$(".my-slider").css({"width": "100%" }); 
 	
-	$(".ctl00_ContentPlaceHolder1_widgetLayout_mainDivRenderedWidgets").css({"background-color": "yellow" });  
-	$(".ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").css({"background-color": "yellow" });
+	$(".ctl00_ContentPlaceHolder1_widgetLayout_mainDivRenderedWidgets").css({"width": "100%" });  
+	$(".ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").css({"width": "100%"});
+	
 	//"height": "250px"
 	
 	
-	console.log("TestMe2");
+	
+	console.log("TestMe3");
 	
 	
 	
