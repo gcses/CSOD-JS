@@ -13,6 +13,7 @@ $(document).ready(function(){
 	headerTable.style.backgroundImage = "url('https://rawgit.com/gcses/CSOD-JS/master/header.JPG')";
 	
 	
+	$(".ctl00_masterPageBody").css({"width": "1200px" }); 
 	$(".my-slider").css({"width": "1200px" }); 
 	
 	$(".ctl00_ContentPlaceHolder1_widgetLayout_mainDivRenderedWidgets").css({"width": "100%" });  
