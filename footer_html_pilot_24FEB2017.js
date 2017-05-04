@@ -16,11 +16,11 @@ $(document).ready(function(){
 	$(".my-slider").css({"width": "100%" }); 
 	
 	$(".ctl00_ContentPlaceHolder1_widgetLayout_mainDivRenderedWidgets").css({"background-color": "yellow" });  
-	
+	$(".ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").css({"background-color": "yellow" });
 	//"height": "250px"
 	
 	
-	console.log("TestMe1");
+	console.log("TestMe2");
 	
 	
 	
