@@ -16,14 +16,14 @@ $(document).ready(function(){
 	$(".ctl00_masterPageBody").css({"width": "1200px" }); 
 	$(".my-slider").css({"width": "1200px" }); 
 	
-	$(".ctl00_ContentPlaceHolder1_widgetLayout_mainDivRenderedWidgets").css({"width": "100%" });  
-	$(".ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").css({"width": "100%"});
+	$(".ctl00_ContentPlaceHolder1_widgetLayout_mainDivRenderedWidgets").css({"width": "1200px" });  
+	$(".ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").css({"width": "1200px"});
 	
 	//"height": "250px"
 	
 	
 	
-	console.log("TestMe6");
+	console.log("TestMe7");
 	
 	
 	
