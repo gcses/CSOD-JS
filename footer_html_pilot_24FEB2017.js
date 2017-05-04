@@ -13,7 +13,7 @@ $(document).ready(function(){
 	headerTable.style.backgroundImage = "url('https://rawgit.com/gcses/CSOD-JS/master/header.JPG')";
 	
 	
-	$(".my-slider").css({"width": "100%" }); 
+	$(".my-slider").css({"width": "1200px" }); 
 	
 	$(".ctl00_ContentPlaceHolder1_widgetLayout_mainDivRenderedWidgets").css({"width": "100%" });  
 	$(".ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").css({"width": "100%"});
@@ -22,7 +22,7 @@ $(document).ready(function(){
 	
 	
 	
-	console.log("TestMe3");
+	console.log("TestMe5");
 	
 	
 	
