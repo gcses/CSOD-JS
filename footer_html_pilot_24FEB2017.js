@@ -14,9 +14,9 @@ $(document).ready(function(){
 	
 	
 	//$("#ctl00_masterPageBody").css({"width": "1200px" }); 
-	$("#my-slider").css({"width": "1500px" }); 
+	$("#my-slider").css({"width": "100%" }); 
 
-	console.log("TestMe10");
+	console.log("TestMe12");
 	
 	
 	
