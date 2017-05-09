@@ -14,7 +14,7 @@ $(document).ready(function(){
 	
 	
 	// margin: top, right, bottom, left
-	headerTable.css({"margin": "90px 0px 0px 0px", });  
+	headerTable.css({"margin": "90px 0px 0px 0px"});  
 	
 	
 	//$("#ctl00_masterPageBody").css({"width": "1200px" }); 
