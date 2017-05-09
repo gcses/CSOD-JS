@@ -12,10 +12,8 @@ $(document).ready(function(){
 	var headerTable = document.getElementById('tblTopBar');
 	headerTable.style.backgroundImage = "url('https://rawgit.com/gcses/CSOD-JS/master/header.JPG')";
 	
-	
 	// margin: top, right, bottom, left
-	headerTable.css({"margin": "90px 0px 0px 0px"});  
-	
+	//headerTable.css({"margin": "90px 0px 0px 0px"});  
 	
 	//$("#ctl00_masterPageBody").css({"width": "1200px" }); 
 	$("#my-slider").css({"width": "100%" }); 
