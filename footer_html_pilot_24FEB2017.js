@@ -13,17 +13,10 @@ $(document).ready(function(){
 	headerTable.style.backgroundImage = "url('https://rawgit.com/gcses/CSOD-JS/master/header.JPG')";
 	
 	
-	$("#ctl00_masterPageBody").css({"width": "1200px" }); 
-	$("#my-slider").css({"width": "1200px" }); 
-	//$("#2").css({"width": "1200px" }); 
-	//$("#ctl00_ContentPlaceHolder1_widgetLayout_mainDivRenderedWidgets").css({"width": "1200px" });  
-	//$("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").css({"width": "1200px"});
-	
-	//"height": "250px"
-	
-	
-	
-	console.log("TestMe9");
+	//$("#ctl00_masterPageBody").css({"width": "1200px" }); 
+	$("#my-slider").css({"width": "1500px" }); 
+
+	console.log("TestMe10");
 	
 	
 	
