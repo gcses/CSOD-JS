@@ -9,11 +9,11 @@ $(document).ready(function(){
 	//<div class="topBarOuter">
 	//$(".topBarOuter").css({"background-color": "yellow" });  
 
-	var headerTable = document.getElementById('tblTopBar');
-	headerTable.style.backgroundImage = "url('https://rawgit.com/gcses/CSOD-JS/master/header.JPG')";
+	//var headerTable = document.getElementById('tblTopBar');
+	//headerTable.style.backgroundImage = "url('https://rawgit.com/gcses/CSOD-JS/master/header.JPG')";
 	
 	// margin: top, right, bottom, left
-	$("#tblTopBar").css({"margin": "90px 0px 0px 0px"});  
+	$("#my-slider").css({"margin": "-90px 0px 0px 0px"});  
 	
 	$("#my-slider").css({"width": "100%" }); 
 
