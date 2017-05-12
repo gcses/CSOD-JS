@@ -20,7 +20,6 @@ $(document).ready(function(){
 	console.log("TestMe1");
 	
 	
-	
        // $('.cso-h1').css("color", "red");	
 	
 	if (document.title.indexOf("Universal Profile") > -1)
@@ -108,6 +107,7 @@ $(document).ready(function(){
 			});
 		
 
+		/*
                 //define style of grey area around search options
 		$(".cs-main-sep").hide();  //hide until working
 		$(".cs-main-sep").css({"backgroundColor": "#EEEEEE", "height": "250px",  "margin": "40px 0px 40px 0px", "padding": "15px", "border-style": "solid", "border-width": "1px", "border-radius": "5px", "border-color": "grey"});   
@@ -335,6 +335,7 @@ $(document).ready(function(){
                     '</span></div></div>';   
 
 		 $(".cs-advsrch-srchbtn-cont").css({"float": "right", "margin": "15px 0px 15px 0px"});   
+		*/
 		
         }  //end adv search logic on Browse For Training
         // -------------  End Browse For Training Global Search Options ------------
