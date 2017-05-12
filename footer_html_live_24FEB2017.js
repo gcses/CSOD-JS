@@ -69,6 +69,7 @@ $(document).ready(function(){
 			});
 		
 
+		/*
                 //define style of grey area around search options
 		$(".cs-main-sep").hide();  //hide until working
 		$(".cs-main-sep").css({"backgroundColor": "#EEEEEE", "height": "250px",  "margin": "40px 0px 40px 0px", "padding": "15px", "border-style": "solid", "border-width": "1px", "border-radius": "5px", "border-color": "grey"});   
@@ -297,7 +298,7 @@ $(document).ready(function(){
                     '</span></div></div>';   
 
 		 $(".cs-advsrch-srchbtn-cont").css({"float": "right", "margin": "15px 0px 15px 0px"});   
-		
+		*/
         }  //end adv search logic on Browse For Training
         // -------------  End Browse For Training Global Search Options ------------
    	
@@ -320,8 +321,6 @@ $(document).ready(function(){
        $('h2:contains("My Learning")').each(function(){
  	    $(this).html($(this).html().replace('My Learning', fName + '\'s Learning In Progress'));
 	});
-	
-        $smjquery('#main-menu').smartmenus('refresh');
 	
         $("a:has(span:contains('Popular'))").remove();
 	
