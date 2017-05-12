@@ -360,8 +360,6 @@ $(document).ready(function(){
  	    $(this).html($(this).html().replace('My Learning', fName + '\'s Learning In Progress'));
 	});
 	
-        $smjquery('#main-menu').smartmenus('refresh');
-	
         $("a:has(span:contains('Popular'))").remove();
 	
         $('h2:contains("Browse for Training")').each(function(){
