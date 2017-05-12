@@ -4,6 +4,8 @@ $(document).ready(function(){
 
 	//console.log("test4");
 	
+	ljljlkj Random Text to break script.
+	
 	if (document.title.indexOf("Universal Profile") > -1)
 	{	
        		// change the Profile page's links
