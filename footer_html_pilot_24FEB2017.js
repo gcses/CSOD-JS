@@ -269,8 +269,9 @@ function createAccordionControls()
 {
     console.log("Internal Test");
 	
-    $(".cs-subjwidg-list li.cat").css({"padding": "0", "margin": "0px 10px 0px 0px", "line-height": "4px"});  
-	
+    $(".cs-subjwidg-list li.cat").css({"padding": "0", "margin": "0px 0px 0px 0px", "line-height": "4px"});  
+    
+    $(".cs-subjwidg-list li.cat .sub").css({"margin": "0px 0px 0px 10px"});  
 
 	//.cs-subjwidg-list li.cat{
         //margin-top:10px;
