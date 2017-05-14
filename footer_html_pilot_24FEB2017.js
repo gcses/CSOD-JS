@@ -17,7 +17,7 @@ $(document).ready(function(){
 	
 	$("#my-slider").css({"width": "100%" }); 
 
-	console.log("TestMe4");
+	console.log("TestMe5");
 	
 	
        // $('.cso-h1').css("color", "red");	
@@ -276,9 +276,14 @@ function createAccordionControls()
     $(".cs-subjwidg-list li.cat a.exp-icon").css({"display": "block", "width": "100%", "height": "40px", "border": "1px solid #CCCCCC", "position": "relative", "text-index": "0px"});  
     $(".cs-subjwidg-list li.cat.nochild .ex-icon").css({"display": "block", "width": "100%", "height": "40px", "border": "1px solid #CCCCCC", "position": "relative", "text-index": "0px"});  
 
+	
+	
     $(".cs-subjwidg-list li.cat a.exp-icon:after").css({"content": "\f078", "position": "absolute", "right": "-13px", "top": "12px", "color": "CCCCCC", "width": "40px", "height": "40px", "display": "block", "font": "normal normal normal 14px"});  
-
-
+    $(".cs-subjwidg-list li.cat.nochild .exp-icon:after").css({"content": "\f078", "position": "absolute", "right": "-13px", "top": "12px", "color": "CCCCCC", "width": "40px", "height": "40px", "display": "block", "font": "normal normal normal 14px"});  
+    $(".cs-subjwidg-list li.cat .exp-icon-selected:after").css({"content": "\f078", "position": "absolute", "right": "-13px", "top": "12px", "color": "CCCCCC", "width": "40px", "height": "40px", "display": "block", "font": "normal normal normal 14px"});  
+    $("#dir-rtl .cs-subjwidg-list li.cat .exp-icon.selected:after").css({"content": "\f078", "position": "absolute", "right": "-13px", "top": "12px", "color": "CCCCCC", "width": "40px", "height": "40px", "display": "block", "font": "normal normal normal 14px"});  
+    $(".cs-subjwidg-list li.cat.nochild .exp-icon:after").css({"content": "\f078", "position": "absolute", "right": "-13px", "top": "12px", "color": "CCCCCC", "width": "40px", "height": "40px", "display": "block", "font": "normal normal normal 14px"});  
+    $("#dir-rtl .cs-subjwidg-list li.cat.nochild .exp-icon:after").css({"content": "\f078", "position": "absolute", "right": "-13px", "top": "12px", "color": "CCCCCC", "width": "40px", "height": "40px", "display": "block", "font": "normal normal normal 14px"});  
 
   
 	
