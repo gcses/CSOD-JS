@@ -267,10 +267,22 @@ var expanded = false;
 
 function createAccordionControls()
 {
-    //var subjList = $(
-	//console.log("text: " + x);
+     console.log("Internal Test");
 	
+    $(".cs-subjwidg-list li.cat").css({"padding": "0", "background-color": "yellow"});  
 	
+
+	.cs-subjwidg-list li.cat{
+        margin-top:10px;
+        display:block;
+        float:none;
+        clear:both;
+    }
+	
+	// margin: top, right, bottom, left
+	//$(".cso-input-outer.med.cso-fleft-ie7").css({"width": "105px", "height": "25px", "background-color": "yellow", "margin": "0px 10px 0px 0px", });  
+	
+
 	
 }
 
