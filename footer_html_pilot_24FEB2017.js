@@ -243,7 +243,7 @@ $(document).ready(function(){
 	});
 	
 	
-	//createAccordionControls();
+	createAccordionControls();
 	
 });  // end $(document).ready(function(){
 
@@ -267,7 +267,7 @@ var expanded = false;
 
 function createAccordionControls()
 {
-    console.log("Internal Test");
+   //console.log("Internal Test");
 	
     //$(".cs-subjwidg-list li.cat").css({"padding": "0", "background-color": "yellow"});  
 	
