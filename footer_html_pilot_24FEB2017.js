@@ -272,11 +272,11 @@ function createAccordionControls()
     $(".cs-subjwidg-list li.cat").css({"padding": "0", "background-color": "yellow"});  
 	
 
-	.cs-subjwidg-list li.cat{
-        margin-top:10px;
-        display:block;
-        float:none;
-        clear:both;
+	//.cs-subjwidg-list li.cat{
+        //margin-top:10px;
+        //display:block;
+        //float:none;
+        //clear:both;
     }
 	
 	// margin: top, right, bottom, left
