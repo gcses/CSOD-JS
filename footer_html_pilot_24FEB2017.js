@@ -242,10 +242,10 @@ $(document).ready(function(){
  			$(this).html($(this).html().replace('$0.00',''));
 	});
 	
-	 // console.log("replace() - End");
 	
-});
-
+	createAccordionControls();
+	
+});  // end $(document).ready(function(){
 
 
 function eventFire(element, elementType)
@@ -267,7 +267,8 @@ var expanded = false;
 
 function createAccordionControls()
 {
-	
+    //var subjList = $(
+	//console.log("text: " + x);
 	
 	
 	
