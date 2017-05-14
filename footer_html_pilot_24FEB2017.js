@@ -17,7 +17,7 @@ $(document).ready(function(){
 	
 	$("#my-slider").css({"width": "100%" }); 
 
-	console.log("TestMe3");
+	console.log("TestMe4");
 	
 	
        // $('.cso-h1').css("color", "red");	
@@ -267,7 +267,7 @@ var expanded = false;
 
 function createAccordionControls()
 {
-   //console.log("Internal Test");
+    console.log("Internal Test");
 	
     //$(".cs-subjwidg-list li.cat").css({"padding": "0", "background-color": "yellow"});  
 	
