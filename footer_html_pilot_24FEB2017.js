@@ -17,7 +17,7 @@ $(document).ready(function(){
 	
 	$("#my-slider").css({"width": "100%" }); 
 
-	console.log("TestMe2");
+	console.log("TestMe3");
 	
 	
        // $('.cso-h1').css("color", "red");	
@@ -272,19 +272,18 @@ function createAccordionControls()
     $(".cs-subjwidg-list li.cat").css({"padding": "0", "margin": "0px 0px 0px 0px", "line-height": "4px"});  
     
     $(".cs-subjwidg-list li.cat .sub").css({"margin": "0px 0px 0px 10px"});  
+	
+    $(".cs-subjwidg-list li.cat a.exp-icon").css({"display": "block", "width": "100%", "height": "40px", "border": "1px solid #CCCCCC", "position": "relative", "text-index": "0px"});  
+    $(".cs-subjwidg-list li.cat.nochild .ex-icon").css({"display": "block", "width": "100%", "height": "40px", "border": "1px solid #CCCCCC", "position": "relative", "text-index": "0px"});  
 
-	//.cs-subjwidg-list li.cat{
-        //margin-top:10px;
-        //display:block;
-        //float:none;
-        //clear:both; }
-   
+
+
+  
+	
+	
 	
 	// margin: top, right, bottom, left
 	//$(".cso-input-outer.med.cso-fleft-ie7").css({"width": "105px", "height": "25px", "background-color": "yellow", "margin": "0px 10px 0px 0px", });  
-	
-
-	
 }
 
 
