@@ -17,7 +17,7 @@ $(document).ready(function(){
 	
 	$("#my-slider").css({"width": "100%" }); 
 
-	console.log("TestMe1");
+	console.log("TestMe2");
 	
 	
        // $('.cso-h1').css("color", "red");	
@@ -243,7 +243,7 @@ $(document).ready(function(){
 	});
 	
 	
-	createAccordionControls();
+	//createAccordionControls();
 	
 });  // end $(document).ready(function(){
 
