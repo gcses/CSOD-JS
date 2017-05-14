@@ -269,7 +269,7 @@ function createAccordionControls()
 {
     console.log("Internal Test");
 	
-    //$(".cs-subjwidg-list li.cat").css({"padding": "0", "background-color": "yellow"});  
+    $(".cs-subjwidg-list li.cat").css({"padding": "0", "background-color": "yellow"});  
 	
 
 	//.cs-subjwidg-list li.cat{
