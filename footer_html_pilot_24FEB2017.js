@@ -2,20 +2,24 @@
 
 $(document).ready(function(){
  
-		console.log("Test8");
+	//console.log("Test8");
 	
-	var name = $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl01_widgetContainer_ctl00_htmlContainer").text();
+	//hide the first name field. It is only included to that we can use the name elsewhere
+        $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl01_widgetContainer_ctl00_htmlContainer").hide();
+	$("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl02_widgetContainer_ctl00_htmlContainer").hide();
 	
+	var fname = $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl01_widgetContainer_ctl00_htmlContainer").text();
+	var lname = $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl02_widgetContainer_ctl00_htmlContainer").text();
+
 	var elements = document.getElementsByClassName('avatar');
         var univProfileLi = elements[0];
-	univProfileLi.innerHTML += name + " Smith"; 
+	univProfileLi.innerHTML += fname + lname; 
 	univProfileLi.style.width = "90px";  
 	univProfileLi.style.verticalAlign = "middle";
 	
 	//univProfileLi.style.cssFloat = "right";
 	document.getElementById('header_headerFixed_imgAvatar').src='https://rawgit.com/gcses/CSOD-JS/master/nophoto2.png';
 	document.getElementById("header_headerFixed_hlAvatar").style.cssFloat = "left";
-	
 	
 	//load splash image background
 	//<div class="topBarOuter">
@@ -29,8 +33,6 @@ $(document).ready(function(){
 	
 	$("#my-slider").css({"width": "100%" }); 
 
-
-	
 	
        // $('.cso-h1').css("color", "red");	
 	
@@ -134,11 +136,7 @@ $(document).ready(function(){
        //remove the close button on the advanced options
        $(".cs-advsrch-close-btn").remove();
 	
-       //hide the first name field. It is only included to that we can use the name elsewhere
-       $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl01_widgetContainer_ctl00_htmlContainer").hide();
-	
        //use the name field to alter the My Learning header
-       var fName = $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl01_widgetContainer_ctl00_htmlContainer").text();
        $('h2:contains("My Learning")').each(function(){
  	    $(this).html($(this).html().replace('My Learning', fName + '\'s Learning In Progress'));
 	});
