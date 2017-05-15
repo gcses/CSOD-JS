@@ -9,11 +9,11 @@ $(document).ready(function(){
 	var elements = document.getElementsByClassName('avatar');
         var univProfileLi = elements[0];
 	univProfileLi.innerHTML += name + " Smith"; 
-	univProfileLi.style.width = "180px";  
+	univProfileLi.style.width = "90px";  
+	univProfileLi.style.verticalalign = "middle";
 	
 	//univProfileLi.style.cssFloat = "right";
 	document.getElementById('header_headerFixed_imgAvatar').src='https://rawgit.com/gcses/CSOD-JS/master/nophoto2.png';
-	//document.getElementById("header_headerFixed_imgAvatar").style.cssFloat = "left";
 	document.getElementById("header_headerFixed_hlAvatar").style.cssFloat = "left";
 	
 	
