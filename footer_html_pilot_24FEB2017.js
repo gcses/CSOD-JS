@@ -2,7 +2,7 @@
 
 $(document).ready(function(){
  
-	console.log("Test11");
+	console.log("Test12");
 	
 	//hide the first name field. It is only included to that we can use the name elsewhere
         $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl01_widgetContainer_ctl00_htmlContainer").hide();
@@ -290,6 +290,8 @@ function createAccordionControls()
 
 	
     // font awesome down arrow
+	$(".cs-subjwidg-list li.cat:after").css({ "content": " - AAA", "background-color": "yellow" });  
+	
 	$(".cs-subjwidg-list li.cat a.exp-icon:after").css({ "content": " - AAA" });  
     	$(".cs-subjwidg-list li.cat .exp-icon.selected:after").css({   "content": " - AAA" });  
 	$("#dir-rtl .cs-subjwidg-list li.cat .exp-icon.selected:after").css({ "content": " - AAA" });  
