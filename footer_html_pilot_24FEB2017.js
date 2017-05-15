@@ -11,7 +11,7 @@ $(document).ready(function(){
 	//var profileImg = document.getElementById('header_headerFixed_imgAvatar');
 	//profileImg = "url('https://rawgit.com/gcses/CSOD-JS/master/nophoto2.JPG')";
      
-	document.getElementById('header_headerFixed_imgAvatar').src='https://rawgit.com/gcses/CSOD-JS/master/nophoto2.JPG';
+	document.getElementById('header_headerFixed_imgAvatar').src='https://rawgit.com/gcses/CSOD-JS/master/nophoto2.png';
 	
 	//load splash image background
 	//<div class="topBarOuter">
