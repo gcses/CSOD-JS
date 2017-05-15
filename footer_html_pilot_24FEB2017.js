@@ -4,7 +4,9 @@ $(document).ready(function(){
  
 	
 	var name = $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl01_widgetContainer_ctl00_htmlContainer").text();
-	var univProfileLi = document.getElementById('avatar');
+	
+	var elements = document.getElementsByClassName('avatar');
+        var univProfileLi = elements[0];
 	univProfileLi.innerHTML = name + " Smith"; 
 	univProfileLi.css({"width": "90px" });  
 	
