@@ -2,7 +2,7 @@
 
 $(document).ready(function(){
  
-		console.log("Test6");
+		console.log("Test7");
 	
 	var name = $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl01_widgetContainer_ctl00_htmlContainer").text();
 	
@@ -10,9 +10,12 @@ $(document).ready(function(){
         var univProfileLi = elements[0];
 	univProfileLi.innerHTML += name + " Smith"; 
 	univProfileLi.style.width = "180px";  
+	
 	//univProfileLi.style.cssFloat = "right";
 	document.getElementById('header_headerFixed_imgAvatar').src='https://rawgit.com/gcses/CSOD-JS/master/nophoto2.png';
-	document.getElementById("header_headerFixed_imgAvatar").style.cssFloat = "left";
+	//document.getElementById("header_headerFixed_imgAvatar").style.cssFloat = "left";
+	document.getElementById("header_headerFixed_hlAvatar").style.cssFloat = "left";
+	
 	
 	//load splash image background
 	//<div class="topBarOuter">
