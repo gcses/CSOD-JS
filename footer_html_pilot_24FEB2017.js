@@ -8,9 +8,10 @@ $(document).ready(function(){
 	var elements = document.getElementsByClassName('avatar');
         var univProfileLi = elements[0];
 	univProfileLi.innerHTML = name + " Smith"; 
-	univProfileLi.css({"width": "90px" });  
+	univProfileLi.style.width = "90px";  
 	
 	document.getElementById('header_headerFixed_imgAvatar').src='https://rawgit.com/gcses/CSOD-JS/master/nophoto2.png';
+	
 	
 	
 	
