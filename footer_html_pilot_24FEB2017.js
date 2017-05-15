@@ -267,47 +267,37 @@ var expanded = false;
 
 function createAccordionControls()
 {
+    // add font awesome script
     var script = document.createElement('script');
     script.src = 'https://use.fontawesome.com/a5e14d140f.js';
     script.type = 'text/javascript'; 
     document.getElementsByTagName('head')[0].appendChild(script);
 	
-    // add font awesome script
     $(".cs-subjwidg-list li.cat").css({"padding": "0", "margin": "0px 0px 0px 0px", "line-height": "4px"});  
-    
     $(".cs-subjwidg-list li.cat .sub").css({"margin": "0px 0px 0px 10px"});  
-	
     $(".cs-subjwidg-list li.cat a.exp-icon").css({"display": "block", "width": "100%", "height": "40px", "border": "1px solid #CCCCCC", "position": "relative", "text-index": "0px"});  
     $(".cs-subjwidg-list li.cat.nochild .ex-icon").css({"display": "block", "width": "100%", "height": "40px", "border": "1px solid #CCCCCC", "position": "relative", "text-index": "0px"});  
 
     // font awesome down arrow
-    //  <i class="fa fa-chevron-down" aria-hidden="true"></i>
-   // $.getScript( url, function() {
     	$(".cs-subjwidg-list li.cat a.exp-icon:after").css({"content": "\f078", "position": "absolute", "right": "-13px", "top": "12px", "color": "CCCCCC", "width": "40px", "height": "40px", "display": "block", "font": "normal normal normal 14px/1 FontAwesome"});  
     	$(".cs-subjwidg-list li.cat.nochild .exp-icon:after").css({"content": "\f078", "position": "absolute", "right": "-13px", "top": "12px", "color": "CCCCCC", "width": "40px", "height": "40px", "display": "block", "font": "normal normal normal 14px/1 FontAwesome"});  
     	$(".cs-subjwidg-list li.cat .exp-icon.selected:after").css({"content": "\f078", "position": "absolute", "right": "-13px", "top": "12px", "color": "CCCCCC", "width": "40px", "height": "40px", "display": "block", "font": "normal normal normal 14px/1 FontAwesome"});  
     	$("#dir-rtl .cs-subjwidg-list li.cat .exp-icon.selected:after").css({"content": "\f078", "position": "absolute", "right": "-13px", "top": "12px", "color": "CCCCCC", "width": "40px", "height": "40px", "display": "block", "font": "normal normal normal 14px/1 FontAwesome"});  
     	$(".cs-subjwidg-list li.cat.nochild .exp-icon:after").css({"content": "\f078", "position": "absolute", "right": "-13px", "top": "12px", "color": "CCCCCC", "width": "40px", "height": "40px", "display": "block", "font": "normal normal normal 14px/1 FontAwesome"});  
     	$("#dir-rtl .cs-subjwidg-list li.cat.nochild .exp-icon:after").css({"content": "\f078", "position": "absolute", "right": "-13px", "top": "12px", "color": "CCCCCC", "width": "40px", "height": "40px", "display": "block", "font": "normal normal normal 14px/1 FontAwesome"});  
-   // });
+
+	$(".cs-subjwidg-list li.cat .exp-icons.selected").css({"background-color": "#EEEEEE"});  
+	$("#dir-rtl .cs-subjwidg-list li.cat .exp-icon.selected").css({"background-color": "#EEEEEE"});  
 	
-	$(".cs-subjwidg-list li.cat .exp-icons.selected").css({"background-color": "yellow"});  
-	$("#dir-rtl .cs-subjwidg-list li.cat .exp-icon.selected").css({"background-color": "yellow"}); 
-	
-	//$(".cs-subjwidg-list li.cat .exp-icons.selected").css({"background-color": "#EEEEEE"});  
-	//$("#dir-rtl .cs-subjwidg-list li.cat .exp-icon.selected").css({"background-color": "#EEEEEE"});  
-	
-        // font awesome up arrow
+     // font awesome up arrow
         $(".cs-subjwidg-list li.cat .exp-icons.selected:after").css({"content": "\f077"});  
 	$("#dir-rtl .cs-subjwidg-list li.cat .exp-icon.selected:after").css({"content": "\f077"});  
-	
 	
 	$(".cs-subjwidg-list li.cat.nochild .exp-icon").css({"border": "none"});  
 	$("#dir-rtl .cs-subjwidg-list li.cat.nochild .exp-icon").css({"border": "none"});  
 	
 	$(".cs-subjwidg-list li.cat.nochild .exp-icon:after").css({"content": ''});  
 	$("#dir-rtl .cs-subjwidg-list li.cat.nochild .exp-icon:after").css({"content": ''});  
-
 
 	$(".cs-subjwidg-list li.cat a.exp-icon + a").css({"position": "relative", "top": "-22px", "padding-left": "16px", "text-decoration": "none", "color": "#333333", "font-weight": "400"});  
         $(".cs-subjwidg-list li.cat.nochild .ex-icon + a").css({"position": "relative", "top": "-22px", "padding-left": "16px", "text-decoration": "none", "color": "#333333", "font-weight": "400"});  
