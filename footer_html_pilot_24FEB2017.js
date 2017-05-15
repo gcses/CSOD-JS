@@ -5,7 +5,7 @@ $(document).ready(function(){
 	
 	var name = $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl01_widgetContainer_ctl00_htmlContainer").text();
 	var univProfileLi = document.getElementById('avatar');
-	univProfileLi.html += name;
+	univProfileLi.innerHTML = name + " Smith"; 
 	univProfileLi.css({"width": "90px" });  
 	
 	document.getElementById('header_headerFixed_imgAvatar').src='https://rawgit.com/gcses/CSOD-JS/master/nophoto2.png';
