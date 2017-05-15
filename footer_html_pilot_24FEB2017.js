@@ -1,9 +1,12 @@
 
 
 $(document).ready(function(){
-
+ 
 	
-	// Redesign Header with new imagery and layout
+	var name = $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl01_widgetContainer_ctl00_htmlContainer").text();
+	var univProfileLi = document.getElementById('avatar');
+	univProfileLi.html += name;
+	univProfileLi.css({"width": "90px" });  
 	
 	//load splash image background
 	//<div class="topBarOuter">
