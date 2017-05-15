@@ -17,7 +17,7 @@ $(document).ready(function(){
 	
 	$("#my-slider").css({"width": "100%" }); 
 
-	console.log("TestMe8");
+	console.log("Test11");
 	
 	
        // $('.cso-h1').css("color", "red");	
@@ -297,6 +297,12 @@ function createAccordionControls()
 	
 	$(".cs-subjwidg-list li.cat.nochild .exp-icon:after").css({"content": ""});  
 	$("#dir-rtl .cs-subjwidg-list li.cat.nochild .exp-icon:after").css({"content": ""});  
+
+	
+	
+	$(".cs-subjwidg-list li.cat a.exp-icon + a").css({"position": "relative", "top": "-22px", "padding-left": "16px", "text-decoration": "none", "color": "#333333", "font-weight": "400"});  
+        $(".cs-subjwidg-list li.cat.nochild .ex-icon + a").css({"position": "relative", "top": "-22px", "padding-left": "16px", "text-decoration": "none", "color": "#333333", "font-weight": "400"});  
+
 	
 }
 
