@@ -267,6 +267,12 @@ var expanded = false;
 
 function createAccordionControls()
 {
+    var script = document.createElement('script');
+    script.src = 'https://use.fontawesome.com/a5e14d140f.js';
+    script.type = 'text/javascript'; 
+    document.getElementsByTagName('head')[0].appendChild(script);
+	
+    // add font awesome script
     $(".cs-subjwidg-list li.cat").css({"padding": "0", "margin": "0px 0px 0px 0px", "line-height": "4px"});  
     
     $(".cs-subjwidg-list li.cat .sub").css({"margin": "0px 0px 0px 10px"});  
@@ -274,19 +280,16 @@ function createAccordionControls()
     $(".cs-subjwidg-list li.cat a.exp-icon").css({"display": "block", "width": "100%", "height": "40px", "border": "1px solid #CCCCCC", "position": "relative", "text-index": "0px"});  
     $(".cs-subjwidg-list li.cat.nochild .ex-icon").css({"display": "block", "width": "100%", "height": "40px", "border": "1px solid #CCCCCC", "position": "relative", "text-index": "0px"});  
 
-    var url = "https://use.fontawesome.com/a5e14d140f.js";
-	
-    $.getScript( url, function() {
-	// font awesome down arrow
-	//  <i class="fa fa-chevron-down" aria-hidden="true"></i>
+    // font awesome down arrow
+    //  <i class="fa fa-chevron-down" aria-hidden="true"></i>
+   // $.getScript( url, function() {
     	$(".cs-subjwidg-list li.cat a.exp-icon:after").css({"content": "\f078", "position": "absolute", "right": "-13px", "top": "12px", "color": "CCCCCC", "width": "40px", "height": "40px", "display": "block", "font": "normal normal normal 14px/1 FontAwesome"});  
     	$(".cs-subjwidg-list li.cat.nochild .exp-icon:after").css({"content": "\f078", "position": "absolute", "right": "-13px", "top": "12px", "color": "CCCCCC", "width": "40px", "height": "40px", "display": "block", "font": "normal normal normal 14px/1 FontAwesome"});  
     	$(".cs-subjwidg-list li.cat .exp-icon.selected:after").css({"content": "\f078", "position": "absolute", "right": "-13px", "top": "12px", "color": "CCCCCC", "width": "40px", "height": "40px", "display": "block", "font": "normal normal normal 14px/1 FontAwesome"});  
     	$("#dir-rtl .cs-subjwidg-list li.cat .exp-icon.selected:after").css({"content": "\f078", "position": "absolute", "right": "-13px", "top": "12px", "color": "CCCCCC", "width": "40px", "height": "40px", "display": "block", "font": "normal normal normal 14px/1 FontAwesome"});  
     	$(".cs-subjwidg-list li.cat.nochild .exp-icon:after").css({"content": "\f078", "position": "absolute", "right": "-13px", "top": "12px", "color": "CCCCCC", "width": "40px", "height": "40px", "display": "block", "font": "normal normal normal 14px/1 FontAwesome"});  
     	$("#dir-rtl .cs-subjwidg-list li.cat.nochild .exp-icon:after").css({"content": "\f078", "position": "absolute", "right": "-13px", "top": "12px", "color": "CCCCCC", "width": "40px", "height": "40px", "display": "block", "font": "normal normal normal 14px/1 FontAwesome"});  
-    });
-	
+   // });
 	
 	$(".cs-subjwidg-list li.cat .exp-icons.selected").css({"background-color": "yellow"});  
 	$("#dir-rtl .cs-subjwidg-list li.cat .exp-icon.selected").css({"background-color": "yellow"}); 
@@ -294,11 +297,7 @@ function createAccordionControls()
 	//$(".cs-subjwidg-list li.cat .exp-icons.selected").css({"background-color": "#EEEEEE"});  
 	//$("#dir-rtl .cs-subjwidg-list li.cat .exp-icon.selected").css({"background-color": "#EEEEEE"});  
 	
-	
-
-	$(".cs-subjwidg-list li.cat .exp-icons.selected:after").
-	
-	// font awesome up arrow
+        // font awesome up arrow
         $(".cs-subjwidg-list li.cat .exp-icons.selected:after").css({"content": "\f077"});  
 	$("#dir-rtl .cs-subjwidg-list li.cat .exp-icon.selected:after").css({"content": "\f077"});  
 	
