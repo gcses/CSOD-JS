@@ -17,7 +17,7 @@ $(document).ready(function(){
 	
 	$("#my-slider").css({"width": "100%" }); 
 
-	console.log("Test13");
+	console.log("Test14");
 	
 	
        // $('.cso-h1').css("color", "red");	
