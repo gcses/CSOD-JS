@@ -7,11 +7,11 @@ $(document).ready(function(){
 	
 	var elements = document.getElementsByClassName('avatar');
         var univProfileLi = elements[0];
-	univProfileLi.innerHTML = name + " Smith"; 
-	univProfileLi.style.width = "90px";  
+	univProfileLi.innerHTML += name + " Smith"; 
+	univProfileLi.style.width = "110px";  
 	
 	document.getElementById('header_headerFixed_imgAvatar').src='https://rawgit.com/gcses/CSOD-JS/master/nophoto2.png';
-	
+	document.getElementById('header_headerFixed_imgAvatar').style.cssFloat = "right";
 	
 	
 	
