@@ -17,7 +17,7 @@ $(document).ready(function(){
 	
 	$("#my-slider").css({"width": "100%" }); 
 
-	console.log("Test11");
+	console.log("Test13");
 	
 	
        // $('.cso-h1').css("color", "red");	
@@ -289,8 +289,8 @@ function createAccordionControls()
 	$(".cs-subjwidg-list li.cat .exp-icons.selected").css({"background": "#EEEEEE"});  
 	$("#dir-rtl .cs-subjwidg-list li.cat .exp-icon.selected").css({"background": "#EEEEEE"});  
 	
-        $(".cs-subjwidg-list li.cat .exp-icons.selected:after").css({"content": "\f077"});  
-	$("#dir-rtl .cs-subjwidg-list li.cat .exp-icon.selected:after").css({"content": "\f077"});  
+        $(".cs-subjwidg-list li.cat .exp-icons.selected:after").css({"content": "'\f077'"});  
+	$("#dir-rtl .cs-subjwidg-list li.cat .exp-icon.selected:after").css({"content": "'\f077'"});  
 	
 	$(".cs-subjwidg-list li.cat.nochild .exp-icon").css({"border": "none"});  
 	$("#dir-rtl .cs-subjwidg-list li.cat.nochild .exp-icon").css({"border": "none"});  
