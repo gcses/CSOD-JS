@@ -2,6 +2,7 @@
 
 $(document).ready(function(){
  
+		console.log("Test5");
 	
 	var name = $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl01_widgetContainer_ctl00_htmlContainer").text();
 	
@@ -12,7 +13,6 @@ $(document).ready(function(){
 	//univProfileLi.style.cssFloat = "right";
 	document.getElementById('header_headerFixed_imgAvatar').src='https://rawgit.com/gcses/CSOD-JS/master/nophoto2.png';
 	document.getElementById('header_headerFixed_imgAvatar').style.cssFloat = "left";
-	
 	
 	
 	
@@ -28,7 +28,7 @@ $(document).ready(function(){
 	
 	$("#my-slider").css({"width": "100%" }); 
 
-	console.log("Test4");
+
 	
 	
        // $('.cso-h1').css("color", "red");	
