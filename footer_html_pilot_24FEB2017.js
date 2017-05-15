@@ -288,14 +288,14 @@ function createAccordionControls()
 	$(".cs-subjwidg-list li.cat .exp-icons.selected").css({"background-color": "#EEEEEE"});  
 	$("#dir-rtl .cs-subjwidg-list li.cat .exp-icon.selected").css({"background-color": "#EEEEEE"});  
 	
-        $(".cs-subjwidg-list li.cat .exp-icons.selected:after").css({"content": "'\f077'"});  
-	$("#dir-rtl .cs-subjwidg-list li.cat .exp-icon.selected:after").css({"content": "'\f077'"});  
+        $(".cs-subjwidg-list li.cat .exp-icons.selected:after").css({"content": "\f077"});  
+	$("#dir-rtl .cs-subjwidg-list li.cat .exp-icon.selected:after").css({"content": "\f077"});  
 	
 	$(".cs-subjwidg-list li.cat.nochild .exp-icon").css({"border": "none"});  
 	$("#dir-rtl .cs-subjwidg-list li.cat.nochild .exp-icon").css({"border": "none"});  
 	
-	$(".cs-subjwidg-list li.cat.nochild .exp-icon:after").css({"content": ""});  
-	$("#dir-rtl .cs-subjwidg-list li.cat.nochild .exp-icon:after").css({"content": ""});  
+	$(".cs-subjwidg-list li.cat.nochild .exp-icon:after").css({"content": ''});  
+	$("#dir-rtl .cs-subjwidg-list li.cat.nochild .exp-icon:after").css({"content": ''});  
 
 
 	$(".cs-subjwidg-list li.cat a.exp-icon + a").css({"position": "relative", "top": "-22px", "padding-left": "16px", "text-decoration": "none", "color": "#333333", "font-weight": "400"});  
