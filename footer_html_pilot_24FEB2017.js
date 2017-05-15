@@ -290,12 +290,12 @@ function createAccordionControls()
 
 	
     // font awesome down arrow
-	$(".cs-subjwidg-list li.cat a.exp-icon:after").css({                 "content": "\f078", "position": "absolute", "right": "-13px", "top": "12px", "color": "CCCCCC", "width": "40px", "height": "40px", "display": "block", "font": "normal normal normal 14px/1px FontAwesome"});  
-    	$(".cs-subjwidg-list li.cat.nochild .exp-icon:after").css({          "content": "\f078", "position": "absolute", "right": "-13px", "top": "12px", "color": "CCCCCC", "width": "40px", "height": "40px", "display": "block", "font": "normal normal normal 14px/1px FontAwesome"});  
-    	$(".cs-subjwidg-list li.cat .exp-icon.selected:after").css({         "content": "\f078", "position": "absolute", "right": "-13px", "top": "12px", "color": "CCCCCC", "width": "40px", "height": "40px", "display": "block", "font": "normal normal normal 14px/1px FontAwesome"});  
-    	$("#dir-rtl .cs-subjwidg-list li.cat .exp-icon.selected:after").css({"content": "\f078", "position": "absolute", "right": "-13px", "top": "12px", "color": "CCCCCC", "width": "40px", "height": "40px", "display": "block", "font": "normal normal normal 14px/1px FontAwesome"});  
-    	$(".cs-subjwidg-list li.cat.nochild .exp-icon:after").css({          "content": "\f078", "position": "absolute", "right": "-13px", "top": "12px", "color": "CCCCCC", "width": "40px", "height": "40px", "display": "block", "font": "normal normal normal 14px/1px FontAwesome"});  
-    	$("#dir-rtl .cs-subjwidg-list li.cat.nochild .exp-icon:after").css({ "content": "\f078", "position": "absolute", "right": "-13px", "top": "12px", "color": "CCCCCC", "width": "40px", "height": "40px", "display": "block", "font": "normal normal normal 14px/1px FontAwesome"});  
+	$(".cs-subjwidg-list li.cat a.exp-icon:after").css({                 "content": "AAA", "position": "absolute", "right": "-13px", "top": "12px", "color": "CCCCCC", "width": "40px", "height": "40px", "display": "block"});  
+    	$(".cs-subjwidg-list li.cat.nochild .exp-icon:after").css({          "content": "AAA", "position": "absolute", "right": "-13px", "top": "12px", "color": "CCCCCC", "width": "40px", "height": "40px", "display": "block"});  
+    	$(".cs-subjwidg-list li.cat .exp-icon.selected:after").css({         "content": "AAA", "position": "absolute", "right": "-13px", "top": "12px", "color": "CCCCCC", "width": "40px", "height": "40px", "display": "block"});  
+    	$("#dir-rtl .cs-subjwidg-list li.cat .exp-icon.selected:after").css({"content": "AAA", "position": "absolute", "right": "-13px", "top": "12px", "color": "CCCCCC", "width": "40px", "height": "40px", "display": "block"});  
+    	$(".cs-subjwidg-list li.cat.nochild .exp-icon:after").css({          "content": "AAA", "position": "absolute", "right": "-13px", "top": "12px", "color": "CCCCCC", "width": "40px", "height": "40px", "display": "block"});  
+    	$("#dir-rtl .cs-subjwidg-list li.cat.nochild .exp-icon:after").css({ "content": "AAA", "position": "absolute", "right": "-13px", "top": "12px", "color": "CCCCCC", "width": "40px", "height": "40px", "display": "block"});  
 	
 	
 	
