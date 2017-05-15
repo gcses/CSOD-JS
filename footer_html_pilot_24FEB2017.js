@@ -13,8 +13,8 @@ $(document).ready(function(){
 
 	var elements = document.getElementsByClassName('avatar');
         var univProfileLi = elements[0];
-	univProfileLi.innerHTML += fname + lname; 
-	univProfileLi.style.width = "90px";  
+	univProfileLi.innerHTML += fname + " " + lname; 
+	univProfileLi.style.width = "120px";  
 	univProfileLi.style.verticalAlign = "middle";
 	
 	//univProfileLi.style.cssFloat = "right";
@@ -138,7 +138,7 @@ $(document).ready(function(){
 	
        //use the name field to alter the My Learning header
        $('h2:contains("My Learning")').each(function(){
- 	    $(this).html($(this).html().replace('My Learning', fName + '\'s Learning In Progress'));
+ 	    $(this).html($(this).html().replace('My Learning', fname + '\'s Learning In Progress'));
 	});
 	
         $("a:has(span:contains('Popular'))").remove();
