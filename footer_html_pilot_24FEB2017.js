@@ -1,8 +1,6 @@
-
-
 $(document).ready(function(){
  
-	console.log("Test3");
+	console.log("Test4");
 	
 	//hide the first name field. It is only included to that we can use the name elsewhere
         $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl01_widgetContainer_ctl00_htmlContainer").hide();
@@ -33,7 +31,6 @@ $(document).ready(function(){
 	
 	$("#my-slider").css({"width": "100%" }); 
 
-	
        // $('.cso-h1').css("color", "red");	
 	
 	if (document.title.indexOf("Universal Profile") > -1)
@@ -59,31 +56,23 @@ $(document).ready(function(){
 	        $(this).html($(this).html().replace('Coupon','Customer'));
 		});
 	
+
         //write to console to confirm attributes
         //var x = $("label[for='txtCouponCode']").text();
 	//console.log("text: " + x);
-	
-        //console.log("span5!");
-	  
 	//var couponSpan = $(".cso-input-outer.med.cso-fleft-ie7");
 	//couponSpan.html('<label for="txtCouponCode">Enter customer code</label>');
-	
 	//couponSpan.html('<input id="txtCouponCode" type="text" maxlength="16" /></span>');
-	
 	//couponSpan.html('<input id="txtCouponCode" type="text" maxlength="16" /></span>');
-	
 	//couponSpan.html('<input id="txtCouponCode" type="text" maxlength="16" data-bind="value: couponCode, valueUpdate: \'afterkeydown\', event: {keyup: applyCouponOnEnter}" /></span>');
 	
-	// margin: top, right, bottom, left
-	//$(".cso-input-outer.med.cso-fleft-ie7").css({"width": "105px", "height": "25px", "background-color": "yellow", "margin": "0px 10px 0px 0px", });  
 	
-
-								
+	// margin: top, right, bottom, left
+	//$(".cso-input-outer.med.cso-fleft-ie7").css({"width": "105px", "height": "25px", "background-color": "yellow", "margin": "0px 10px 0px 0px", });  		
 	//$('.cso-input-outer.med.cso-fleft-ie7').css({"background-color": "yellow"}); 
 	
 	
-	
-	/*
+
 	
 	// -------------  Browse For Training Global Search Options -------------
 	if (document.title.indexOf("Browse for Training") > -1)
@@ -94,15 +83,18 @@ $(document).ready(function(){
 			});
 	
         }  //end Browse For Training
-
-   	
- 
-	
 	
        //show the advanced search option whenever search is shown
        $("#lnkShowMoreSearchOptions").each(function(){
         	eventFire(document.getElementById('lnkShowMoreSearchOptions'), 'click');
        });
+	
+	
+	
+	
+	
+/*
+	
 	
        //remove the close button on the advanced options
        $(".cs-advsrch-close-btn").remove();
@@ -228,8 +220,7 @@ $(document).ready(function(){
 	
 	
 	
-	
-	*/
+*/
 	
 });  // end $(document).ready(function(){
 
