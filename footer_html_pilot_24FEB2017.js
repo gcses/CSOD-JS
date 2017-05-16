@@ -290,19 +290,19 @@ function createAccordionControls()
 
 	
     // font awesome down arrow
-	$(".cs-subjwidg-list li.cat").css({ "background-color": "blue" });  
+	//$(".cs-subjwidg-list li.cat").css({ "background-color": "blue" });  
 	
-	$('.cs-subjwidg-list li.cat').each(function(){
- 	    $(this).append($("Hello")});	
+	//$('.cs-subjwidg-list li.cat').each(function(){
+ 	//    $(this).append($("Hello")});	
 	
 	
 	 
 	
-	$(".cs-subjwidg-list li.cat a.exp-icon:after").css({ "content": " - AAA" });  
-    	$(".cs-subjwidg-list li.cat .exp-icon.selected:after").css({   "content": " - AAA" });  
-	$("#dir-rtl .cs-subjwidg-list li.cat .exp-icon.selected:after").css({ "content": " - AAA" });  
-	$(".cs-subjwidg-list li.cat.nochild .exp-icon:after").css({  "content": " - AAA" });  
-	$("#dir-rtl .cs-subjwidg-list li.cat.nochild .exp-icon:after").css({ "content": " - AAA" });  
+	//$(".cs-subjwidg-list li.cat a.exp-icon:after").css({ "content": " - AAA" });  
+    	//$(".cs-subjwidg-list li.cat .exp-icon.selected:after").css({   "content": " - AAA" });  
+	//$("#dir-rtl .cs-subjwidg-list li.cat .exp-icon.selected:after").css({ "content": " - AAA" });  
+	//$(".cs-subjwidg-list li.cat.nochild .exp-icon:after").css({  "content": " - AAA" });  
+	//$("#dir-rtl .cs-subjwidg-list li.cat.nochild .exp-icon:after").css({ "content": " - AAA" });  
 	
 	/*
 	$(".cs-subjwidg-list li.cat.nochild .exp-icon:after").css({
