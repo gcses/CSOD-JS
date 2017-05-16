@@ -1,6 +1,6 @@
 $(document).ready(function(){
  
-	console.log("Test7");
+	console.log("Test8");
 	
 	//hide the first name field. It is only included to that we can use the name elsewhere
         $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl01_widgetContainer_ctl00_htmlContainer").hide();
@@ -139,7 +139,7 @@ $(document).ready(function(){
 	
 	
 	
-
+/*
 	
 	$("[aria-labelledby=Support]").empty();
 	
@@ -189,7 +189,7 @@ $(document).ready(function(){
 
 	window.setInterval(replaceOnlineClass, 1000);
 	
-/*	
+*/	
 	
 	
 	
@@ -236,7 +236,18 @@ $(document).ready(function(){
 	
 	
 	
-*/
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 });  // end $(document).ready(function(){
 
