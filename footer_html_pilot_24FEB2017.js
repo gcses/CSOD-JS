@@ -1,7 +1,11 @@
 $(document).ready(function(){
  
-	console.log("Test14");
+	console.log("Test15");
 	
+	//hide the various Cornerstone footers
+	$('.df-footer').hide();
+	
+	/*
 	//hide the first name field. It is only included to that we can use the name elsewhere
         $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl01_widgetContainer_ctl00_htmlContainer").hide();
 	$("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl02_widgetContainer_ctl00_htmlContainer").hide();
@@ -48,10 +52,8 @@ $(document).ready(function(){
 	
 
 	
-	
-	
-	//hide the various Cornerstone footers
-	$('.df-footer').hide();
+	*/
+
 	
 	
 	
