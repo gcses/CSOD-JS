@@ -1,6 +1,6 @@
 $(document).ready(function(){
  
-	console.log("Test8");
+	console.log("Test9");
 	
 	//hide the first name field. It is only included to that we can use the name elsewhere
         $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl01_widgetContainer_ctl00_htmlContainer").hide();
@@ -139,7 +139,7 @@ $(document).ready(function(){
 	
 	
 	
-/*
+
 	
 	$("[aria-labelledby=Support]").empty();
 	
@@ -173,7 +173,8 @@ $(document).ready(function(){
 	$('.navTabs-subTabList a:contains("Manage Employee Learning")').each(function(){
  	$(this).html($(this).html().replace('Manage Employee Learning','Manage My Learners'));
 	});
-
+	
+/*
 	
 	$('.item.oc').css({'background':'url("https://placeholdit.imgix.net/~text?txtsize=33&txt=61×61&w=61&h=61")'});
 
@@ -190,6 +191,20 @@ $(document).ready(function(){
 	window.setInterval(replaceOnlineClass, 1000);
 	
 */	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
@@ -233,21 +248,6 @@ $(document).ready(function(){
 	
 	
 	createAccordionControls();
-	
-	
-	
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 });  // end $(document).ready(function(){
 
