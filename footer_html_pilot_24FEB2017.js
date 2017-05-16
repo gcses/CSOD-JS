@@ -1,6 +1,6 @@
 $(document).ready(function(){
  
-	console.log("Test4");
+	console.log("Test5");
 	
 	//hide the first name field. It is only included to that we can use the name elsewhere
         $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl01_widgetContainer_ctl00_htmlContainer").hide();
@@ -93,7 +93,15 @@ $(document).ready(function(){
 	
 	
 	
-/*
+	
+	
+	
+	
+	
+	
+	
+	
+
 	
 	
        //remove the close button on the advanced options
@@ -130,6 +138,8 @@ $(document).ready(function(){
 	$(".dot:contains('$0.00')").remove();
 	$(".usr-content:has(div:has(span:contains('$0.00')))").remove();
 
+/*	
+	
 	$("[aria-labelledby=Support]").empty();
 	
         $("[aria-labelledby=Support]").append('<li><a href="https://eim.carefusion.com/Account/ChangePassword" title="Change Password" tabindex="-1">Change Password</a></li><li><a href="/catalog/CustomPage.aspx?id=20000480&amp;tab_page_id=20000480" title="Contact Us" tabindex="-1">Contact Us</a></li><li><a href="/catalog/CustomPage.aspx?id=20000479&amp;tab_page_id=20000479" title="Frequently Asked Questions" tabindex="-1">Frequently Asked Questions</a></li>');
