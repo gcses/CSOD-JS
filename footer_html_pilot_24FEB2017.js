@@ -23,7 +23,7 @@ $(document).ready(function(){
 	
 	//univProfileLi.style.cssFloat = "right";
 	//for welcome page
-	var imgLoc = document.getElementById('header_headerFixed_imgAvatar';
+	var imgLoc = document.getElementById('header_headerFixed_imgAvatar');
 	if (imgLoc != null)
 	{
 	    document.getElementById('header_headerFixed_imgAvatar').src='https://rawgit.com/gcses/CSOD-JS/master/nophoto2.png';
