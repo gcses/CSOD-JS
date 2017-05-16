@@ -1,12 +1,10 @@
-
-
 $(document).ready(function(){
 
-	//console.log("test4");
+     //$('.cso-h1').css("color", "red");	
 	
 	if (document.title.indexOf("Universal Profile") > -1)
 	{	
-       		// change the Profile page's links
+       	 	// change the Profile page's links
 		$('span:contains("Transcript")').each(function(){
  			$(this).html($(this).html().replace('Transcript','My Learning'));
 		});
@@ -19,13 +17,12 @@ $(document).ready(function(){
 	//hide the various Cornerstone footers
 	$('.df-footer').hide();
 	
-	
-/*
+	/*
 	//swap the shopping carts coupon code text for customer code (this swaps but does not update somehow)
 	$('label:contains("coupon")').each(function(){
 		$(this).html("Enter customer code");
 		});
-
+	
 	//write to console to confirm attributes
        // var x = $("label[for='txtCouponCode']").text();
 	//console.log("text: " + x);
@@ -45,15 +42,20 @@ $(document).ready(function(){
 	$('div:contains("Reference Number")').each(function(){
  		$(this).html($(this).html().replace('Reference Number','Purchase Order Number'));
 		});
-*/
-	
+		
+	*/
 	
 	//$('.cso-input-outer.med.cso-fleft-ie7').css({"background-color": "yellow"}); 
 	/*
+	
 	//write to console to confirm attributes
 	console.log("Test");
         var x = $("label[for='txtCouponCode']").text();
 	console.log("text: " + x);
+	
+	$("label[for='txtCouponCode']").text("Whassup Foo");
+	$("label[for='txtCouponCode']").hide();
+	$("label[for='txtCouponCode']").css({"color": "black"}); 
 	*/
 	
 	
@@ -67,7 +69,6 @@ $(document).ready(function(){
 			});
 		
 
-		/*
                 //define style of grey area around search options
 		$(".cs-main-sep").hide();  //hide until working
 		$(".cs-main-sep").css({"backgroundColor": "#EEEEEE", "height": "250px",  "margin": "40px 0px 40px 0px", "padding": "15px", "border-style": "solid", "border-width": "1px", "border-radius": "5px", "border-color": "grey"});   
@@ -296,7 +297,7 @@ $(document).ready(function(){
                     '</span></div></div>';   
 
 		 $(".cs-advsrch-srchbtn-cont").css({"float": "right", "margin": "15px 0px 15px 0px"});   
-		*/
+		
         }  //end adv search logic on Browse For Training
         // -------------  End Browse For Training Global Search Options ------------
    	
@@ -319,6 +320,8 @@ $(document).ready(function(){
        $('h2:contains("My Learning")').each(function(){
  	    $(this).html($(this).html().replace('My Learning', fName + '\'s Learning In Progress'));
 	});
+	
+        $smjquery('#main-menu').smartmenus('refresh');
 	
         $("a:has(span:contains('Popular'))").remove();
 	
@@ -514,42 +517,32 @@ function replaceOnlineClass()
 
 /*
  function passSerializedValuesBackToSearchPage(values) {
-
         ResetViewAfterPostback();
         globalSearchManager.onSearchButtonClick(values);
     }
-
     function closeDialog() {
         globalSearchManager.closeAdvanceOptionIFrame();
         globalSearchManager.initMoreSearchOptions();
     }
-
     function HideAdvanceControl() {
         $('.divAdvanceControls').hide();
     }
-
     function ShowAdvanceControl(selectedSearchEngineId) {    
         $('.divAdvanceControls[engineId="' + selectedSearchEngineId + '"]').show();
-
         //Set the search engine to the hidden field on the Advance Optional Control
         $("input[id*='hfCurrentSearchEngine']").val(selectedSearchEngineId);
-
     }
-
     function PopulateAdvanceFields(selectedSearchEngineId, advanceCoptions) {
         $("input[id*='hfCurrentSearchEngine']").val(selectedSearchEngineId);
         $("input[id*='hfAdvanceOptions']").val(advanceCoptions);
         __doPostBack('ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$lkPopulateAdvanceFields','');
     }
-
     function ResetViewAfterPostback(){
         //Set the Advance Control Visible based on the hidden field value
         var selectedSearchEngineId = $("input[id*='hfCurrentSearchEngine']").val();
         ShowAdvanceControl(selectedSearchEngineId);
     }
-
 var globalSearchManager;
-
 	function Initialize() {
 		globalSearchManager = new GlobalSearchManager({
 			searchTextSelector: '.txtsearch',
@@ -562,7 +555,6 @@ var globalSearchManager;
 			queryTipMessage: '#divEmptyQueryMessage',
 			HasMoreResultSelector: 'input[id$="hdHasMoreResult"]',
 		});
-
 		$(window).unload(function () {
 			if (window.history.replaceState) {
 				var obj = {
@@ -572,13 +564,10 @@ var globalSearchManager;
 				window.history.replaceState(obj, "search result", window.location.href);
 			}
 		});
-
 		$(window).hashchange(function () {
 			globalSearchManager.onHashChange();
-
 			UpdateShoppingActivity();
 		});
-
 		$(window).scroll(function () {
 			if ($(window).scrollTop() != 0) {
 				$(".toTop").fadeIn();
@@ -586,24 +575,19 @@ var globalSearchManager;
 			else {
 				$(".toTop").fadeOut();
 			}
-
 			var scrollPercent = ($(window).scrollTop() + $(window).height()) / $(document).height();
 			if (scrollPercent > .80) {
 				globalSearchManager.onPaging();
 			}
 		});
-
 		$(".toTop").click(function () {
 			$('body,html').animate({ scrollTop: 0 }, 800);
 		});
-
 		$(".txtsearch:input").keydown(function (e) {
 			if (e.keyCode == 13) {
 				
 				var enterEvent = new jQuery.Event("enter.ps", { veto: false });
-
 				$(this).trigger(enterEvent);
-
 				if (!enterEvent.veto) {
 					if ($("#btSearch").is(':disabled') == false) {
 						$("#btSearch").click();
@@ -614,18 +598,14 @@ var globalSearchManager;
 				}
 			}
 		});
-
 		$(".cbFilter").click(function () {
 			globalSearchManager.onFilterCheckBoxClick();
 		});
-
 		$(".hlFilter").click(function () {
 			globalSearchManager.onFilterLinkClick(this);
 		});
-
 		$(".hlIcon").click(function () {
 		    $(this).toggleClass("selected");
-
 		    // if you don't do this here, this page will rely on deserializeParam() function, which will take the parameters from the last
 		    // request string rather than what was entered on the UI. Check for isWatermarked and then send an empty string if it is.
 		    if (Sys.Extended.UI.TextBoxWrapper.get_Wrapper($(globalSearchManager.searchTextSelector)[0])._isWatermarked) {
@@ -633,60 +613,43 @@ var globalSearchManager;
 		    } else {
 		        GlobalSearchContext.query = $(globalSearchManager.searchTextSelector).val() || "";
 		    }
-
 			globalSearchManager.onFilterIconClick();
 		});
-
 		$(".ddlSearchEngine").change(function () {
 			var index = $(".ddlSearchEngine").get(0).selectedIndex;
-
 			if ($(".ddlSearchEngine option").size() > 1) {
 				$(".ddlSearchEngine").dropkick('selectedIndex', index); // update dropkick (UI only since the dropdown has already been changed)
 			}
-
 			globalSearchManager.onSearchEngineIndexChanged();
 		});
-
 		$('#lnkShowMoreSearchOptions').click(function () {
 			globalSearchManager.showAdvanceOptionIFrame();
 		});
-
 		$("#btSearch").click(function () {
 			globalSearchManager.onSearchButtonClick();
 		});
-
 		globalSearchManager.onPageLoad();
-
 		//Bind the dropkick event after onPageLoad!!!
 		// if they click the dropkick, hide the options immediately since adv controls are positioned relatively above this control and the styles will break in ie
 		$('.dk_toggle', '.input-cont-outer').click(function () {
 			globalSearchManager.closeAdvanceOptionIFrame();
 		});
-
 		$('.dk_toggle', '.input-cont-outer').blur(function () {
 			globalSearchManager.initMoreSearchOptions();
 		});
-
 	
 		UpdateShoppingActivity();
 	}
-
     function CloseAlertMessage() {
-
         $('[id$="divSearchAlertMessage"]').hide();
     }
-
     function UpdateShoppingActivity() {
         if(!false)
             return;
-
 		var searchParams = globalSearchManager.getQueryString(); // uses hash if present; query params otherwise
-
 		// if s param is set to 1 (training) or nothing (everything) we should save shopping activity
 		var shouldSaveShoppingActivity = false;
-
 		var searchParamArray = searchParams.split("&");
-
 		for (var i = 0; i < searchParamArray.length; i++) {
 			var pair = searchParamArray[i].split("=");
 			if (pair[0] == 's') {
@@ -696,56 +659,44 @@ var globalSearchManager;
 				break;
 			}
 		}
-
 		if (shouldSaveShoppingActivity) {
 			csCommon.updateShoppingActivity('/LMS/WebServices/ExtendedEnterpriseService.asmx/SaveShoppingActivity', window.location.href);
 		}
 	}
-
 	function GetBackQueryString() {
 		var backQueryString = window.location.search;
 		var hashIndex = window.location.href.indexOf("#");
-
 		if (hashIndex != -1) {
 			backQueryString += window.location.href.substring(hashIndex);
 		}
 		return backQueryString;
 	}
-
 	function GetTrainingNavUrl(loId) {
 		var backQueryString = GetBackQueryString();
 		var searchUrl = '/GlobalSearch/Search.aspx' + backQueryString;
 		var url = '/LMS/LoDetails/DetailsLo.aspx?loid=' + loId + '&query=' + encodeURIComponent(backQueryString) + '&back=' + encodeURIComponent(searchUrl);
-
 		window.location = url;
 	}
-
 	function GetCourseReviewNavUrl(loId) {
 		var backQueryString = GetBackQueryString();
 		var url = '/LMS/LoDetails/DetailsLo.aspx?loid=' + loId + '&query=' + encodeURIComponent(backQueryString) + '#t=2';
-
 		window.location = url;
 	}
-
 	function GetPeopleProfileNavUrl(userId) {
 		var backQueryString = GetBackQueryString();
 		var url = '/EPM/PeopleFinder/Profile.aspx?u=' + userId + '&m=1&query=' + encodeURIComponent(backQueryString);
 		window.location = url;
 	}
-
 	function GetVMNavUrl(vmId) {
 		var backQueryString = GetBackQueryString();
 		var url = '/LMS/VMDetails/VMDetails.aspx?vmId=' + vmId + '&query=' + encodeURIComponent(backQueryString);
-
 		window.location = url;
 	}
-
 	function GetCertificationNavUrl(certId) {
 		var backQueryString = GetBackQueryString();
 		var url = '/LMS/Certification/CertificationDetails.aspx?certid=' + certId + '&query=' + encodeURIComponent(backQueryString);
 		window.location = url;
 	}
-
 	function GetConnectPostingNavUrl(postingURL) {
 		var backQueryString = GetBackQueryString();
 		var url = ResolveUrl(postingURL.substring(1)) + '&query=' + encodeURIComponent(backQueryString);
