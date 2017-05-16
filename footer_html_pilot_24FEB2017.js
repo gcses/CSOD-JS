@@ -2,7 +2,7 @@
 
 $(document).ready(function(){
  
-	console.log("Test2");
+	console.log("Test3");
 	
 	//hide the first name field. It is only included to that we can use the name elsewhere
         $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl01_widgetContainer_ctl00_htmlContainer").hide();
@@ -81,6 +81,9 @@ $(document).ready(function(){
 								
 	//$('.cso-input-outer.med.cso-fleft-ie7').css({"background-color": "yellow"}); 
 	
+	
+	
+	/*
 	
 	// -------------  Browse For Training Global Search Options -------------
 	if (document.title.indexOf("Browse for Training") > -1)
@@ -222,6 +225,11 @@ $(document).ready(function(){
 	
 	
 	createAccordionControls();
+	
+	
+	
+	
+	*/
 	
 });  // end $(document).ready(function(){
 
