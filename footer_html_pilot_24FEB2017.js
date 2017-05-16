@@ -2,7 +2,7 @@
 
 $(document).ready(function(){
  
-	console.log("Test1");
+	console.log("Test2");
 	
 	//hide the first name field. It is only included to that we can use the name elsewhere
         $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl01_widgetContainer_ctl00_htmlContainer").hide();
@@ -74,41 +74,11 @@ $(document).ready(function(){
 	
 	//couponSpan.html('<input id="txtCouponCode" type="text" maxlength="16" data-bind="value: couponCode, valueUpdate: \'afterkeydown\', event: {keyup: applyCouponOnEnter}" /></span>');
 	
-	
-	
 	// margin: top, right, bottom, left
 	//$(".cso-input-outer.med.cso-fleft-ie7").css({"width": "105px", "height": "25px", "background-color": "yellow", "margin": "0px 10px 0px 0px", });  
 	
 
 								
-	//valueUpdate: 'afterkeydown'" 
-	/*
-        var obj = {
-          value: "couponCode"
-	};
-	dataBind(couponSpan, obj);
-	*/
-	
-
-	//<span class="cso-input-outer med cso-fleft-ie7">
-          //<label for="txtCouponCode" class="cs-acc-hid-con">Enter coupon code</label>
-          //<input id="txtCouponCode" type="text" maxlength="16" data-bind="value: couponCode, valueUpdate: 'afterkeydown', 
-	//            event: {keyup: applyCouponOnEnter}" </span>  />
-
-
-	
-	/*
-	//swap the label in the shopping reference number with purchase order number
-	$('label:contains("Reference Number")').each(function(){
- 		$(this).html($(this).html().replace('Reference Number','Purchase Order Number'));
-		});
-	
-	//swap the div shopping reference number with purchase order number
-	$('div:contains("Reference Number")').each(function(){
- 		$(this).html($(this).html().replace('Reference Number','Purchase Order Number'));
-		});
-	*/
-	
 	//$('.cso-input-outer.med.cso-fleft-ie7').css({"background-color": "yellow"}); 
 	
 	
@@ -168,7 +138,7 @@ $(document).ready(function(){
 	$("[aria-labelledby=Support]").empty();
 	
         $("[aria-labelledby=Support]").append('<li><a href="https://eim.carefusion.com/Account/ChangePassword" title="Change Password" tabindex="-1">Change Password</a></li><li><a href="/catalog/CustomPage.aspx?id=20000480&amp;tab_page_id=20000480" title="Contact Us" tabindex="-1">Contact Us</a></li><li><a href="/catalog/CustomPage.aspx?id=20000479&amp;tab_page_id=20000479" title="Frequently Asked Questions" tabindex="-1">Frequently Asked Questions</a></li>');
-       // $smjquery('#main-menu').smartmenus('refresh');
+        $smjquery('#main-menu').smartmenus('refresh');
 
 	$('.cso-txt span:contains("Online Class")').each(function(){
  	     $(this).html($(this).html().replace('Online Class','Web-Based Training'));
@@ -354,7 +324,7 @@ function createAccordionControls()
 }
 
 
-
+/*
 function showCheckboxes() {
   var checkboxes = document.getElementById("checkboxes");
   if (!expanded) {
@@ -391,7 +361,7 @@ function dataBind(domElement, obj) {
     domElement[domAttr] = obj[itemAttr]; 
 }
 
-
+*/
 
 function replaceOnlineClass() 
 {
