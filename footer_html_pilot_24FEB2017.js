@@ -291,7 +291,13 @@ function createAccordionControls()
 	
     // font awesome down arrow
 	$(".cs-subjwidg-list li.cat").css({ "background-color": "blue" });  
-	$(".cs-subjwidg-list li.cat a.exp-icon").hide();
+	
+	$('.cs-subjwidg-list li.cat').each(function(){
+ 	    $(this).html($(this).html().append('    Tran'));
+		
+	
+	
+	 
 	
 	$(".cs-subjwidg-list li.cat a.exp-icon:after").css({ "content": " - AAA" });  
     	$(".cs-subjwidg-list li.cat .exp-icon.selected:after").css({   "content": " - AAA" });  
