@@ -1,6 +1,6 @@
 $(document).ready(function(){
  
-	console.log("Test5");
+	console.log("Test7");
 	
 	//hide the first name field. It is only included to that we can use the name elsewhere
         $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl01_widgetContainer_ctl00_htmlContainer").hide();
@@ -90,20 +90,6 @@ $(document).ready(function(){
        });
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
-	
-	
        //remove the close button on the advanced options
        $(".cs-advsrch-close-btn").remove();
 	
@@ -138,7 +124,22 @@ $(document).ready(function(){
 	$(".dot:contains('$0.00')").remove();
 	$(".usr-content:has(div:has(span:contains('$0.00')))").remove();
 
-/*	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
 	
 	$("[aria-labelledby=Support]").empty();
 	
@@ -173,6 +174,7 @@ $(document).ready(function(){
  	$(this).html($(this).html().replace('Manage Employee Learning','Manage My Learners'));
 	});
 
+	
 	$('.item.oc').css({'background':'url("https://placeholdit.imgix.net/~text?txtsize=33&txt=61×61&w=61&h=61")'});
 
 	$('.item.mt').css({'background':'url("https://placeholdit.imgix.net/~text?txtsize=33&txt=61×61&w=61&h=61")'});
@@ -186,6 +188,10 @@ $(document).ready(function(){
 	$('#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl01_widgetContainer_ctl00_pnlSuggestedTraining_title').css({'background-color':'#00B8B0'});
 
 	window.setInterval(replaceOnlineClass, 1000);
+	
+/*	
+	
+	
 	
 	if (document.getElementById("common-messages"))   
 	{
