@@ -165,35 +165,9 @@ $(document).ready(function(){
 
 	$('#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl01_widgetContainer_ctl00_pnlSuggestedTraining_title').css({'background-color':'#00B8B0'});
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	//this setInterval logic breaks Internet Explorer
 	//window.setInterval(replaceOnlineClass, 1000);
-         replaceOnlineClass();
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+        replaceOnlineClass();
 	
 	if (document.getElementById("common-messages"))   
 	{
