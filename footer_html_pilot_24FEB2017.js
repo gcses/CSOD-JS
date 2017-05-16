@@ -1,11 +1,10 @@
 $(document).ready(function(){
  
-	console.log("Test17");
+	console.log("Test18");
 	
 	//hide the various Cornerstone footers
 	$('.df-footer').hide();
 	
-
 	//hide the first name field. It is only included to that we can use the name elsewhere
         $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl01_widgetContainer_ctl00_htmlContainer").hide();
 	$("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl02_widgetContainer_ctl00_htmlContainer").hide();
@@ -20,6 +19,10 @@ $(document).ready(function(){
 	univProfileLi.style.verticalAlign = "middle";
 	
 	
+	
+	
+	
+	
 /*
 	//univProfileLi.style.cssFloat = "right";
 	document.getElementById('header_headerFixed_imgAvatar').src='https://rawgit.com/gcses/CSOD-JS/master/nophoto2.png';
@@ -31,6 +34,8 @@ $(document).ready(function(){
 
 	//var headerTable = document.getElementById('tblTopBar');
 	//headerTable.style.backgroundImage = "url('https://rawgit.com/gcses/CSOD-JS/master/header.JPG')";
+*/	
+	
 	
 	// margin: top, right, bottom, left
 	$("#my-slider").css({"margin": "-90px 0px 0px 0px"});  
@@ -54,8 +59,13 @@ $(document).ready(function(){
 	
 
 	
-*/
 
+
+	
+	
+	
+	
+	
 	
 	
 	
