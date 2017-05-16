@@ -1,6 +1,6 @@
 $(document).ready(function(){
  
-	console.log("Test1");
+	console.log("Test2");
 	
 	//hide the various Cornerstone footers
 	$('.df-footer').hide();
@@ -17,9 +17,6 @@ $(document).ready(function(){
 	univProfileLi.innerHTML += fname + " " + lname; 
 	univProfileLi.style.width = "120px";  
 	univProfileLi.style.verticalAlign = "middle";
-	
-	
-	
 
 
 	//univProfileLi.style.cssFloat = "right";
@@ -42,16 +39,6 @@ $(document).ready(function(){
 	//var headerTable = document.getElementById('tblTopBar');
 	//headerTable.style.backgroundImage = "url('https://rawgit.com/gcses/CSOD-JS/master/header.JPG')";
 
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 	
 	// margin: top, right, bottom, left
