@@ -2,9 +2,7 @@
 
 $(document).ready(function(){
  
-	breaking code here
-	
-	console.log("Test13");
+	console.log("Test1");
 	
 	//hide the first name field. It is only included to that we can use the name elsewhere
         $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl01_widgetContainer_ctl00_htmlContainer").hide();
@@ -121,9 +119,7 @@ $(document).ready(function(){
 		$('h2:contains("Subject")').each(function(){
  			$(this).html($(this).html().replace('Subject','Topic'));
 			});
-		
-
-		
+	
         }  //end Browse For Training
 
    	
@@ -172,7 +168,7 @@ $(document).ready(function(){
 	$("[aria-labelledby=Support]").empty();
 	
         $("[aria-labelledby=Support]").append('<li><a href="https://eim.carefusion.com/Account/ChangePassword" title="Change Password" tabindex="-1">Change Password</a></li><li><a href="/catalog/CustomPage.aspx?id=20000480&amp;tab_page_id=20000480" title="Contact Us" tabindex="-1">Contact Us</a></li><li><a href="/catalog/CustomPage.aspx?id=20000479&amp;tab_page_id=20000479" title="Frequently Asked Questions" tabindex="-1">Frequently Asked Questions</a></li>');
-        $smjquery('#main-menu').smartmenus('refresh');
+       // $smjquery('#main-menu').smartmenus('refresh');
 
 	$('.cso-txt span:contains("Online Class")').each(function(){
  	     $(this).html($(this).html().replace('Online Class','Web-Based Training'));
