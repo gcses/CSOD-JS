@@ -1,6 +1,6 @@
 $(document).ready(function(){
  
-	console.log("Test19");
+	console.log("Test1");
 	
 	//hide the various Cornerstone footers
 	$('.df-footer').hide();
@@ -29,7 +29,7 @@ $(document).ready(function(){
 
 	//univProfileLi.style.cssFloat = "right";
 	document.getElementById('header_headerFixed_imgAvatar').src='https://rawgit.com/gcses/CSOD-JS/master/nophoto2.png';
-	document.getElementById("header_headerFixed_hlAvatar").style.cssFloat = "left";
+	//document.getElementById("header_headerFixed_hlAvatar").style.cssFloat = "left";
 	
 	//load splash image background
 	//<div class="topBarOuter">
@@ -51,7 +51,7 @@ $(document).ready(function(){
 	
 	
 	// margin: top, right, bottom, left
-	$("#my-slider").css({"margin": "-90px 0px 0px 0px"});  
+	//$("#my-slider").css({"margin": "-90px 0px 0px 0px"});  
 	
 	$("#my-slider").css({"width": "100%" }); 
 
