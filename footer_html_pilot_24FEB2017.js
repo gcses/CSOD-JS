@@ -1,6 +1,6 @@
 $(document).ready(function(){
  
-	console.log("Test18");
+	console.log("Test19");
 	
 	//hide the various Cornerstone footers
 	$('.df-footer').hide();
@@ -23,7 +23,10 @@ $(document).ready(function(){
 	
 	
 	
-/*
+	
+	
+	
+
 	//univProfileLi.style.cssFloat = "right";
 	document.getElementById('header_headerFixed_imgAvatar').src='https://rawgit.com/gcses/CSOD-JS/master/nophoto2.png';
 	document.getElementById("header_headerFixed_hlAvatar").style.cssFloat = "left";
@@ -34,7 +37,17 @@ $(document).ready(function(){
 
 	//var headerTable = document.getElementById('tblTopBar');
 	//headerTable.style.backgroundImage = "url('https://rawgit.com/gcses/CSOD-JS/master/header.JPG')";
-*/	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	// margin: top, right, bottom, left
@@ -55,22 +68,6 @@ $(document).ready(function(){
 	
 	//Make the home page clickable and link to the Welcome page / Main page
 	$('a:contains("Home")').attr("href","/LMS/catalog/Main.aspx?tab_page_id=-67");
-
-	
-
-	
-
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 
 	var EnterCoupon = "Enter customer code";	
 
