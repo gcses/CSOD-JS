@@ -1,6 +1,6 @@
 $(document).ready(function(){
  
-	console.log("Test3");
+	console.log("Test4");
 	
 	//hide the various Cornerstone footers
 	$('.df-footer').hide();
@@ -20,20 +20,19 @@ $(document).ready(function(){
 
 	
 	
-	/*
+	
 	//univProfileLi.style.cssFloat = "right";
 	//for welcome page
 	if (document.getElementById('header_headerFixed_imgAvatar') != null)
 	{
-	    document.getElementById('header_headerFixed_imgAvatar').src='https://rawgit.com/gcses/CSOD-JS/master/nophoto2.png';
+	    //document.getElementById('header_headerFixed_imgAvatar').src='https://rawgit.com/gcses/CSOD-JS/master/nophoto2.png';
 	}
 	
-
 	else if (document.getElementById('ctl00_header_headerFixed_imgAvatar') != null)
 	(
-	   document.getElementById('ctl00_header_headerFixed_imgAvatar').src='https://rawgit.com/gcses/CSOD-JS/master/nophoto2.png';
+	  // document.getElementById('ctl00_header_headerFixed_imgAvatar').src='https://rawgit.com/gcses/CSOD-JS/master/nophoto2.png';
 	}
-	*/
+	
 		
 		
 		
