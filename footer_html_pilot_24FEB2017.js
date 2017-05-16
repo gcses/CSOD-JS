@@ -1,6 +1,6 @@
 $(document).ready(function(){
  
-	console.log("Test16");
+	console.log("Test17");
 	
 	//hide the various Cornerstone footers
 	$('.df-footer').hide();
@@ -61,7 +61,7 @@ $(document).ready(function(){
 	
 	
 	
-/*	
+
 	var EnterCoupon = "Enter customer code";	
 
 	//swap the shopping carts coupon code text for customer code
@@ -223,7 +223,7 @@ $(document).ready(function(){
 	
 	
 	createAccordionControls();
-*/
+
 	
 	
 });  // end $(document).ready(function(){
