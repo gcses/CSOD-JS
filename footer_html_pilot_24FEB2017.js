@@ -293,8 +293,7 @@ function createAccordionControls()
 	$(".cs-subjwidg-list li.cat").css({ "background-color": "blue" });  
 	
 	$('.cs-subjwidg-list li.cat').each(function(){
- 	    $(this).html($(this).html().append('    Tran'));
-		
+ 	    $(this).append($("Hello")});	
 	
 	
 	 
