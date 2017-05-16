@@ -1,6 +1,6 @@
 $(document).ready(function(){
  
-	console.log("Test4");
+	console.log("Test5");
 	
 	//hide the various Cornerstone footers
 	$('.df-footer').hide();
@@ -23,21 +23,22 @@ $(document).ready(function(){
 	
 	//univProfileLi.style.cssFloat = "right";
 	//for welcome page
-	if (document.getElementById('header_headerFixed_imgAvatar') != null)
+	var imgLoc = document.getElementById('header_headerFixed_imgAvatar';
+	if (imgLoc != null)
 	{
-	    //document.getElementById('header_headerFixed_imgAvatar').src='https://rawgit.com/gcses/CSOD-JS/master/nophoto2.png';
+	    document.getElementById('header_headerFixed_imgAvatar').src='https://rawgit.com/gcses/CSOD-JS/master/nophoto2.png';
+	}
+	else
+	{
+		imgLoc = document.getElementById('ctl00_header_headerFixed_imgAvatar');
+		if (imgLoc != null)
+	        (
+	  		 document.getElementById('ctl00_header_headerFixed_imgAvatar').src='https://rawgit.com/gcses/CSOD-JS/master/nophoto2.png';
+		}
 	}
 	
-	else if (document.getElementById('ctl00_header_headerFixed_imgAvatar') != null)
-	(
-	  // document.getElementById('ctl00_header_headerFixed_imgAvatar').src='https://rawgit.com/gcses/CSOD-JS/master/nophoto2.png';
-	}
-	
-		
-		
-		
-		
-		
+
+			
 	//document.getElementById("header_headerFixed_hlAvatar").style.cssFloat = "left";
 	
 	//load splash image background
@@ -47,7 +48,6 @@ $(document).ready(function(){
 	//var headerTable = document.getElementById('tblTopBar');
 	//headerTable.style.backgroundImage = "url('https://rawgit.com/gcses/CSOD-JS/master/header.JPG')";
 
-	
 	
 	// margin: top, right, bottom, left
 	//$("#my-slider").css({"margin": "-90px 0px 0px 0px"});  
