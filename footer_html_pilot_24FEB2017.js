@@ -1,7 +1,7 @@
 $(document).ready(function(){
  
-	console.log("Test13");
-	
+	console.log("Test14");
+/*	
 	//hide the first name field. It is only included to that we can use the name elsewhere
         $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl01_widgetContainer_ctl00_htmlContainer").hide();
 	$("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl02_widgetContainer_ctl00_htmlContainer").hide();
@@ -44,10 +44,24 @@ $(document).ready(function(){
 	
 	//Make the home page clickable and link to the Welcome page / Main page
 	$('a:contains("Home")').attr("href","/LMS/catalog/Main.aspx?tab_page_id=-67");
-	    
+*/
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	//hide the various Cornerstone footers
 	$('.df-footer').hide();
 	
+	
+	
+	
+	
+/*	
 	var EnterCoupon = "Enter customer code";	
 
 	//swap the shopping carts coupon code text for customer code
@@ -209,7 +223,7 @@ $(document).ready(function(){
 	
 	
 	createAccordionControls();
-	
+	*/
 });  // end $(document).ready(function(){
 
 
