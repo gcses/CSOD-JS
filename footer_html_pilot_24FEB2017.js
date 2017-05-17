@@ -1,6 +1,6 @@
 $(document).ready(function(){
  
-	console.log("Test4");
+	console.log("Test5");
 	
 	//hide the various Cornerstone footers
 	$('.df-footer').hide();
