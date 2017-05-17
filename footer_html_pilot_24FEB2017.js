@@ -52,18 +52,18 @@ $(document).ready(function(){
 	// margin: top, right, bottom, left
 	//$("#my-slider").css({"margin": "-90px 0px 0px 0px"});  
 	
-	$("#my-slider").css({"width": "110%", "margin": "-70px 0px 0px 0px",  }); 
-	$("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").css({"width": "110%", "margin": "-70px 0px 0px 0px" }); 
-	$("#ctl00_masterPageBody").css({"width": "110%", "margin": "-70px 0px 0px 0px" }); 
-	$("#ctl00_ContentPlaceHolder1_labelError").css({"width": "110%"}); 
-	$("#ctl00_ContentPlaceHolder1_widgetLayout_mainPageDiv").css({"width": "110%"}); 
-	$("#ctl00_ContentPlaceHolder1_widgetLayout_mainDivRenderedWidgets").css({"width": "110%"}); 
-	$("#mainContainer").css({"width": "100%"}); 
-	$("#container0").css({"width": "110%"});  
-	$("#container7").css({"width": "110%"}); 
+	$("#my-slider").css({"width": "110%", "margin": "-65px 0px 0px 0px",  }); 
+	$("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").css({"width": "102%", "margin": "-65px 0px 0px 0px" }); 
+	$("#ctl00_masterPageBody").css({"width": "102%", "margin": "-65px 0px 0px 0px" }); 
+	$("#ctl00_ContentPlaceHolder1_labelError").css({"width": "102%"}); 
+	//$("#ctl00_ContentPlaceHolder1_widgetLayout_mainPageDiv").css({"width": "110%"}); 
+	//$("#ctl00_ContentPlaceHolder1_widgetLayout_mainDivRenderedWidgets").css({"width": "110%"}); 
+	//$("#mainContainer").css({"width": "100%"}); 
+	//$("#container0").css({"width": "110%"});  
+	//$("#container7").css({"width": "110%"}); 
 	
-	$("#my-slider").css('position', 'relative');
-        $("#my-slider").css('z-index', 3000);
+	//$("#my-slider").css('position', 'relative');
+       // $("#my-slider").css('z-index', 3000);
 	
        
 	
