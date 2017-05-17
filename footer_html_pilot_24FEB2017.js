@@ -52,7 +52,7 @@ $(document).ready(function(){
 	// margin: top, right, bottom, left
 	//$("#my-slider").css({"margin": "-90px 0px 0px 0px"});  
 	
-	$("#my-slider").css({"width": "100%" }); 
+	$("#my-slider").css({"width": "130%" }); 
 
        // $('.cso-h1').css("color", "red");	
 	
