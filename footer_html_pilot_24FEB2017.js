@@ -5,24 +5,25 @@ $(document).ready(function(){
 	//hide the various Cornerstone footers
 	$('.df-footer').hide();
 	
-	//hide the first name field. It is only included to that we can use the name elsewhere
-        $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl01_widgetContainer_ctl00_htmlContainer").hide();
-	$("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl02_widgetContainer_ctl00_htmlContainer").hide();
+	if (document.title.indexOf("Welcome - Realize Your Potential") > -1)
+	{
+	   //hide the first name field. It is only included to that we can use the name elsewhere
+           $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl01_widgetContainer_ctl00_htmlContainer").hide();
+	   $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl02_widgetContainer_ctl00_htmlContainer").hide();
 	
-	var fname = $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl01_widgetContainer_ctl00_htmlContainer").text();
-	var lname = $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl02_widgetContainer_ctl00_htmlContainer").text();
+	   var fname = $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl01_widgetContainer_ctl00_htmlContainer").text();
+	   var lname = $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl02_widgetContainer_ctl00_htmlContainer").text();
 
-	var elements = document.getElementsByClassName('avatar');
-        var univProfileLi = elements[0];
-	univProfileLi.innerHTML += fname + " " + lname; 
-	univProfileLi.style.width = "120px";  
-	univProfileLi.style.verticalAlign = "middle";
-
-	
+	   var elements = document.getElementsByClassName('avatar');
+           var univProfileLi = elements[0];
+	   univProfileLi.innerHTML += fname + " " + lname; 
+	   univProfileLi.style.width = "120px";  
+	   univProfileLi.style.verticalAlign = "middle";
+	}
 	
 	
 	//univProfileLi.style.cssFloat = "right";
-	//for welcome page
+        //swap the new profile image (element ID varies by page)
 	var imgLoc = document.getElementById('header_headerFixed_imgAvatar');
 	if (imgLoc != null)
 	{
@@ -48,13 +49,13 @@ $(document).ready(function(){
 	//var headerTable = document.getElementById('tblTopBar');
 	//headerTable.style.backgroundImage = "url('https://rawgit.com/gcses/CSOD-JS/master/header.JPG')";
 
-	
 	// margin: top, right, bottom, left
 	//$("#my-slider").css({"margin": "-90px 0px 0px 0px"});  
 	
 	$("#my-slider").css({"width": "100%" }); 
 
        // $('.cso-h1').css("color", "red");	
+	
 	
 	if (document.title.indexOf("Universal Profile") > -1)
 	{	
