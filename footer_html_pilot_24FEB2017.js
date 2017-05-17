@@ -1,6 +1,6 @@
 $(document).ready(function(){
  
-	console.log("Test8");
+	console.log("Test9");
 	
 	//hide the various Cornerstone footers
 	$('.df-footer').hide();
@@ -38,8 +38,6 @@ $(document).ready(function(){
 		}
 	}
 	
-
-			
 	//document.getElementById("header_headerFixed_hlAvatar").style.cssFloat = "left";
 	
 	//load splash image background
@@ -55,8 +53,9 @@ $(document).ready(function(){
 	$("#my-slider").css({"width": "100%"}); 
 	document.getElementById("my-slider").style.borderRadius = "0px";
 	
+	// margin: top, right, bottom, left
 	$("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").css({"width": "100%", "margin": "-5px 0px 0px 0px"}); 
-	$("#ctl00_masterPageBody").css({"width": "100%", "margin": "-70px 0px 0px 0px" }); 
+	$("#ctl00_masterPageBody").css({"width": "100%", "margin": "-70px -5px 0px -5px" }); 
 	
 	$("#ctl00_ContentPlaceHolder1_labelError").css({"width": "100%"}); 
 	$("#ctl00_ContentPlaceHolder1_widgetLayout_mainPageDiv").css({"width": "100%"}); 
