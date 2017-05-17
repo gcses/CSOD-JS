@@ -1,6 +1,6 @@
 $(document).ready(function(){
  
-	console.log("Test1");
+	console.log("Test2");
 	
 	//hide the various Cornerstone footers
 	$('.df-footer').hide();
@@ -54,7 +54,7 @@ $(document).ready(function(){
 	
 	$("#my-slider").css({"width": "100%"}); 
 	$("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").css({"width": "100%"}); 
-	$("#ctl00_masterPageBody").css({"width": "100%", "margin": "-70px 0px 0px 0px" }); 
+	$("#ctl00_masterPageBody").css({"width": "105%", "margin": "-70px 0px 0px 0px" }); 
 	
 	
 	$("#ctl00_ContentPlaceHolder1_labelError").css({"width": "100%"}); 
