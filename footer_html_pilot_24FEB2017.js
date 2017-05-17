@@ -1,6 +1,6 @@
 $(document).ready(function(){
  
-	console.log("Test7");
+	console.log("Test8");
 	
 	//hide the various Cornerstone footers
 	$('.df-footer').hide();
@@ -64,7 +64,8 @@ $(document).ready(function(){
 	$("#container0").css({"width": "100%" }); 
 	$("#container7").css({"width": "100%" }); 
 	
-
+	
+        $("#panelBreak").css({"background-color": "yellow" });  
 	
 	
 	
