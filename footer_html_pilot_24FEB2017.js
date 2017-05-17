@@ -32,7 +32,7 @@ $(document).ready(function(){
 	{
 		imgLoc = document.getElementById('ctl00_header_headerFixed_imgAvatar');
 		if (imgLoc != null)
-	        (
+		{
 	  	   document.getElementById('ctl00_header_headerFixed_imgAvatar').src='https://rawgit.com/gcses/CSOD-JS/master/nophoto2.png';
 		}
 	}
