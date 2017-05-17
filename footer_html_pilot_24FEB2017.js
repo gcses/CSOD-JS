@@ -19,6 +19,24 @@ $(document).ready(function(){
 	   univProfileLi.innerHTML += fname + " " + lname; 
 	   univProfileLi.style.width = "120px";  
 	   univProfileLi.style.verticalAlign = "middle";
+		
+	   //remove rounded corners from slider
+           $("#my-slider").css({"width": "101%"}); 
+	   document.getElementById("my-slider").style.borderRadius = "0px";
+	
+	   // //Resize and reposition slider - margin: top, right, bottom, left
+	   $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").css({"width": "102%", "margin": "0px 0px 0px -5px"}); 
+	   $("#ctl00_masterPageBody").css({"width": "100.6%", "margin": "-77px 0px 0px -6px" }); 
+	
+	   $("#ctl00_ContentPlaceHolder1_labelError").css({"width": "100%"}); 
+	   $("#ctl00_ContentPlaceHolder1_widgetLayout_mainPageDiv").css({"width": "100%"}); 
+	   $("#ctl00_ContentPlaceHolder1_widgetLayout_mainDivRenderedWidgets").css({"width": "100%"}); 
+	   $("#mainContainer").css({"width": "100%"}); 
+	   $("#container0").css({"width": "100%"});  
+	   $("#container7").css({"width": "100%"}); 
+	
+	   //$("#my-slider").css('position', 'relative');
+           // $("#my-slider").css('z-index', 3000);
 	}
 	
 	
@@ -46,32 +64,6 @@ $(document).ready(function(){
 
 	//var headerTable = document.getElementById('tblTopBar');
 	//headerTable.style.backgroundImage = "url('https://rawgit.com/gcses/CSOD-JS/master/header.JPG')";
-
-	// margin: top, right, bottom, left
-	//$("#my-slider").css({"margin": "-90px 0px 0px 0px"});  
-	
-	$("#my-slider").css({"width": "101%"}); 
-	document.getElementById("my-slider").style.borderRadius = "0px";
-	
-	// margin: top, right, bottom, left
-	$("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").css({"width": "102%", "margin": "0px 0px 0px -5px"}); 
-	$("#ctl00_masterPageBody").css({"width": "100.6%", "margin": "-77px 0px 0px -6px" }); 
-	
-	$("#ctl00_ContentPlaceHolder1_labelError").css({"width": "100%"}); 
-	$("#ctl00_ContentPlaceHolder1_widgetLayout_mainPageDiv").css({"width": "100%"}); 
-	$("#ctl00_ContentPlaceHolder1_widgetLayout_mainDivRenderedWidgets").css({"width": "100%"}); 
-	$("#mainContainer").css({"width": "100%"}); 
-	$("#container0").css({"width": "100%"});  
-	$("#container7").css({"width": "100%"}); 
-	
-	//$("#my-slider").css('position', 'relative');
-       // $("#my-slider").css('z-index', 3000);
-	
-       
-	
-	
-	
-	
 	
        // $('.cso-h1').css("color", "red");	
 	
