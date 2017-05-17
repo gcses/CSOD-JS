@@ -1,6 +1,6 @@
 $(document).ready(function(){
  
-	console.log("Test1");
+	console.log("Test2");
 	
 	//hide the various Cornerstone footers
 	$('.df-footer').hide();
@@ -40,9 +40,9 @@ $(document).ready(function(){
 		
 	   //Cards
 	   //<div class="wrapper"><div class="cso-min-height"><ul><div class="card">
-	    $(".wrapper").css({"width": "50%", "margin": "-77px 0px 0px 0px" }); 
-	    $(".cso-min-height").css({"width": "50%", "margin": "-77px 0px 0px 0px" }); 
-	    $(".card").css({"width": "50%", "margin": "-77px 0px 0px 0px" }); 
+	    $(".wrapper").css({"margin": "-77px 0px 0px 0px" }); 
+	   // $(".cso-min-height").css({"width": "50%", "margin": "-77px 0px 0px 0px" }); 
+	   // $(".card").css({"width": "50%", "margin": "-77px 0px 0px 0px" }); 
 		
 		
 		
