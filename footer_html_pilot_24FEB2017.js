@@ -1,6 +1,6 @@
 $(document).ready(function(){
  
-	console.log("Test3");
+	console.log("Test5");
 	
 	//hide the various Cornerstone footers
 	$('.df-footer').hide();
@@ -28,14 +28,23 @@ $(document).ready(function(){
 	   // //Resize and reposition slider - margin: top, right, bottom, left
 	   $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").css({"width": "102%", "margin": "0px 0px 0px -5px"}); 
 	   $("#ctl00_masterPageBody").css({"width": "100.6%", "margin": "-77px 0px 0px -6px" }); 
-	
 	   $("#ctl00_ContentPlaceHolder1_labelError").css({"width": "100%"}); 
 	   $("#ctl00_ContentPlaceHolder1_widgetLayout_mainPageDiv").css({"width": "100%"}); 
 	   $("#ctl00_ContentPlaceHolder1_widgetLayout_mainDivRenderedWidgets").css({"width": "100%"}); 
 	   $("#mainContainer").css({"width": "100%"}); 
 	   $("#container0").css({"width": "100%"});  
 	   $("#container7").css({"width": "100%"}); 
-	
+		
+		//try to drive slider beneath cards
+		document.getElementById("ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").style.zIndex = "-10000";
+		document.getElementById("ctl00_masterPageBody").style.zIndex = "-10000";
+		document.getElementById("ctl00_ContentPlaceHolder1_labelError").style.zIndex = "-10000";
+		document.getElementById("ctl00_ContentPlaceHolder1_widgetLayout_mainPageDiv").style.zIndex = "-10000";
+		document.getElementById("ctl00_ContentPlaceHolder1_widgetLayout_mainDivRenderedWidgets").style.zIndex = "-10000";
+		document.getElementById("mainContainer").style.zIndex = "-10000";
+		document.getElementById("container0").style.zIndex = "-10000";
+		document.getElementById("container7").style.zIndex = "-10000";
+
 	   //$("#my-slider").css('position', 'relative');
            // $("#my-slider").css('z-index', 3000);
 		
