@@ -1,6 +1,6 @@
 $(document).ready(function(){
  
-	console.log("Test14");
+	console.log("Test15");
 	
 	//hide the various Cornerstone footers
 	$('.df-footer').hide();
@@ -54,8 +54,8 @@ $(document).ready(function(){
 	document.getElementById("my-slider").style.borderRadius = "0px";
 	
 	// margin: top, right, bottom, left
-	$("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").css({"width": "101%", "margin": "0px 0px 0px -5px"}); 
-	$("#ctl00_masterPageBody").css({"width": "100.5%", "margin": "-78px 0px 0px -5px" }); 
+	$("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").css({"width": "101%", "margin": "0px 0px 0px -6px"}); 
+	$("#ctl00_masterPageBody").css({"width": "100.5%", "margin": "-78px 0px 0px -6px" }); 
 	
 	$("#ctl00_ContentPlaceHolder1_labelError").css({"width": "100%"}); 
 	$("#ctl00_ContentPlaceHolder1_widgetLayout_mainPageDiv").css({"width": "100%"}); 
