@@ -58,14 +58,12 @@ $(document).ready(function(){
 	$("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").css({"width": "100%", "margin": "-5px 0px 0px 0px"}); 
 	$("#ctl00_masterPageBody").css({"width": "100%", "margin": "-70px 0px 0px 0px" }); 
 	
-	
-	
 	$("#ctl00_ContentPlaceHolder1_labelError").css({"width": "100%"}); 
 	$("#ctl00_ContentPlaceHolder1_widgetLayout_mainPageDiv").css({"width": "100%"}); 
 	$("#ctl00_ContentPlaceHolder1_widgetLayout_mainDivRenderedWidgets").css({"width": "100%"}); 
-	$("#mainContainer").css({"width": "105%"}); 
-	$("#container0").css({"width": "105%"});  
-	$("#container7").css({"width": "105%"}); 
+	$("#mainContainer").css({"width": "100%"}); 
+	$("#container0").css({"width": "100%"});  
+	$("#container7").css({"width": "100%"}); 
 	
 	//$("#my-slider").css('position', 'relative');
        // $("#my-slider").css('z-index', 3000);
