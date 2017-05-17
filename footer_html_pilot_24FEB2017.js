@@ -1,6 +1,6 @@
 $(document).ready(function(){
  
-	console.log("Test2");
+	console.log("Test3");
 	
 	//hide the various Cornerstone footers
 	$('.df-footer').hide();
@@ -23,6 +23,7 @@ $(document).ready(function(){
 	   //remove rounded corners from slider
            $("#my-slider").css({"width": "101%"}); 
 	   document.getElementById("my-slider").style.borderRadius = "0px";
+	   document.getElementById("my-slider").style.zIndex = "-10000";
 	
 	   // //Resize and reposition slider - margin: top, right, bottom, left
 	   $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").css({"width": "102%", "margin": "0px 0px 0px -5px"}); 
