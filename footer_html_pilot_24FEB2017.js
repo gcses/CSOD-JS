@@ -38,12 +38,12 @@ $(document).ready(function(){
 	   //$("#my-slider").css('position', 'relative');
            // $("#my-slider").css('z-index', 3000);
 		
-	   //Cards
+	   //Cards (z-index cannot be changed in jQuery)
 	   //<div class="wrapper"><div class="cso-min-height"><ul><div class="card">
-	    $(".wrapper").css({"margin": "-77px 0px 0px 0px" }); 
+	    $(".wrapper").css({"margin": "-77px 0px 0px 0px"}); 
 	   // $(".cso-min-height").css({"width": "50%", "margin": "-77px 0px 0px 0px" }); 
 	   // $(".card").css({"width": "50%", "margin": "-77px 0px 0px 0px" }); 
-		
+		//style.zIndex="-1"
 		
 		
 		
