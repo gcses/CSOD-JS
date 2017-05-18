@@ -1,6 +1,6 @@
 $(document).ready(function(){
  
-	console.log("Test1");
+	console.log("Test2");
 	
 	//for each member of each class...
        var elements = document.getElementsByClassName('wrapper');
