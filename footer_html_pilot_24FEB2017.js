@@ -1,7 +1,8 @@
 $(document).ready(function(){
  
-	console.log("Test13");
+	console.log("Test14");
 
+	/*
     var head  = document.getElementsByTagName('body')[0];
     var link  = document.createElement('link');
     link.id   = 'additionalCSS';
@@ -10,11 +11,12 @@ $(document).ready(function(){
    link.href = 'https://rawgit.com/gcses/CSOD-JS/master/additionalStyles.css';
 	
    // link.href = 'https://github.com/gcses/CSOD-JS/blob/master/additonalStyles.css';
-	
-	
-	
     link.media = 'all';
     head.appendChild(link);
+	*/
+	
+	
+	$('head').append( $('<link rel="stylesheet" type="text/css" />').attr('href', 'https://rawgit.com/gcses/CSOD-JS/master/additionalStyles.css') );
 	
 	//hide the various Cornerstone footers
 	$('.df-footer').hide();
