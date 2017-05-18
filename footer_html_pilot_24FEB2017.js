@@ -1,6 +1,6 @@
 $(document).ready(function(){
  
-	console.log("Test15");
+	console.log("Test16");
 
 	/*
     var head  = document.getElementsByTagName('body')[0];
@@ -16,7 +16,7 @@ $(document).ready(function(){
 	*/
 	
 	
-	$('head').append( $('<link rel="stylesheet" type="text/css" />').attr('href', 'https://github.com/gcses/CSOD-JS/blob/master/additonalStyles.css') );
+	$('body').append( $('<link rel="stylesheet" type="text/css" />').attr('href', 'https://github.com/gcses/CSOD-JS/blob/master/additonalStyles.css') );
 	
 	//hide the various Cornerstone footers
 	$('.df-footer').hide();
