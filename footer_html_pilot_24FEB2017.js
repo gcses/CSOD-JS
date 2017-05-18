@@ -1,15 +1,17 @@
 $(document).ready(function(){
  
-	console.log("Test10");
+	console.log("Test11");
 
     var head  = document.getElementsByTagName('head')[0];
     var link  = document.createElement('link');
     link.id   = 'additionalCSS';
     link.rel  = 'stylesheet';
     link.type = 'text/css';
-    link.href = 'https://rawgit.com/gcses/CSOD-JS/master/additionalStyles.css';
+  //  link.href = 'https://rawgit.com/gcses/CSOD-JS/master/additionalStyles.css';
 	
-	//https://github.com/gcses/CSOD-JS/blob/master/additonalStyles.css
+    link.href = 'https://github.com/gcses/CSOD-JS/blob/master/additonalStyles.css';
+	
+	
 	
     link.media = 'all';
     head.appendChild(link);
