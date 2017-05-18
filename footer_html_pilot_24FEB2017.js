@@ -1,8 +1,8 @@
 $(document).ready(function(){
  
-	console.log("Test11");
+	console.log("Test12");
 
-    var head  = document.getElementsByTagName('head')[0];
+    var head  = document.getElementsByTagName('body')[0];
     var link  = document.createElement('link');
     link.id   = 'additionalCSS';
     link.rel  = 'stylesheet';
