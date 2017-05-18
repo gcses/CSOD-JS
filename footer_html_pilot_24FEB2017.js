@@ -36,15 +36,19 @@ $(document).ready(function(){
 	   $("#container7").css({"width": "100%"}); 
 		
 		//try to drive slider beneath cards
-		document.getElementById("ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").style.zIndex = "-10000";
-		document.getElementById("ctl00_masterPageBody").style.zIndex = "-10000";
+		//document.getElementById("ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").style.zIndex = "-10000";
+		//document.getElementById("ctl00_masterPageBody").style.zIndex = "-10000";
 		document.getElementById("ctl00_ContentPlaceHolder1_labelError").style.zIndex = "-10000";
-		document.getElementById("ctl00_ContentPlaceHolder1_widgetLayout_mainPageDiv").style.zIndex = "-10000";
-		document.getElementById("ctl00_ContentPlaceHolder1_widgetLayout_mainDivRenderedWidgets").style.zIndex = "-10000";
-		document.getElementById("mainContainer").style.zIndex = "-10000";
-		document.getElementById("container0").style.zIndex = "-10000";
-		document.getElementById("container7").style.zIndex = "-10000";
+		//document.getElementById("ctl00_ContentPlaceHolder1_widgetLayout_mainPageDiv").style.zIndex = "-10000";
+		//document.getElementById("ctl00_ContentPlaceHolder1_widgetLayout_mainDivRenderedWidgets").style.zIndex = "-10000";
+		//document.getElementById("mainContainer").style.zIndex = "-10000";
+		//document.getElementById("container0").style.zIndex = "-10000";
+		//document.getElementById("container7").style.zIndex = "-10000";
 
+		
+		
+		
+		
 	   //$("#my-slider").css('position', 'relative');
            // $("#my-slider").css('z-index', 3000);
 		
