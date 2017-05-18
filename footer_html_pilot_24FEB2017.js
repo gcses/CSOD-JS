@@ -1,24 +1,24 @@
 $(document).ready(function(){
  
-	console.log("Test2");
+	console.log("Test3");
 	
 	//for each member of each class...
        var elements = document.getElementsByClassName('wrapper');
        for (var i = 0; i < elements.length; i++)
        {
-          elements[i].style.zIndex="3000";
+          elements[i].style.zIndex="2147483644";
  	}
 	
 	var elements = document.getElementsByClassName('cso-min-height');
        for (var i = 0; i < elements.length; i++)
        {
-          elements[i].style.zIndex="3001";
+          elements[i].style.zIndex="2147483645";
  	}
 	
 	var elements = document.getElementsByClassName('card');
        for (var i = 0; i < elements.length; i++)
        {
-          elements[i].style.zIndex="3002";
+          elements[i].style.zIndex="2147483646";
  	}
 	
 	//$(".wrapper").css('z-index', 3000);
@@ -40,7 +40,7 @@ $(document).ready(function(){
 	*/
 	
 	
-	$('body').append( $('<link rel="stylesheet" type="text/css" />').attr('href', 'https://github.com/gcses/CSOD-JS/blob/master/additonalStyles.css') );
+	//$('body').append( $('<link rel="stylesheet" type="text/css" />').attr('href', 'https://github.com/gcses/CSOD-JS/blob/master/additonalStyles.css') );
 	
 	//hide the various Cornerstone footers
 	$('.df-footer').hide();
