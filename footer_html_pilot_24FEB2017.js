@@ -1,6 +1,30 @@
 $(document).ready(function(){
  
 	console.log("Test1");
+	
+	//for each member of each class...
+       var elements = document.getElementsByClassName('wrapper');
+       for (var i = 0; i < elements.length; i++)
+       {
+          elements[i].style.zIndex="3000";
+ 	}
+	
+	var elements = document.getElementsByClassName('cso-min-height');
+       for (var i = 0; i < elements.length; i++)
+       {
+          elements[i].style.zIndex="3001";
+ 	}
+	
+	var elements = document.getElementsByClassName('card');
+       for (var i = 0; i < elements.length; i++)
+       {
+          elements[i].style.zIndex="3002";
+ 	}
+	
+	//$(".wrapper").css('z-index', 3000);
+	//$(".cso-min-height").css('z-index', 3001);
+	//$(".card").css('z-index', 3002);
+	//style.zIndex="-1"
 
 	/*
     var head  = document.getElementsByTagName('body')[0];
@@ -71,9 +95,9 @@ $(document).ready(function(){
 	//Drive Cards to the top of the stack (z-index cannot be changed in jQuery)
 	//<div class="wrapper"><div class="cso-min-height"><ul><div class="card">
 	$(".wrapper").css({"margin": "-77px 0px 0px 0px"});    //move card up over slider
-	$(".wrapper").css('z-index', 3000);
-	$(".cso-min-height").css('z-index', 3001);
-	$(".card").css('z-index', 3002);
+	//$(".wrapper").css('z-index', 3000);
+	//$(".cso-min-height").css('z-index', 3001);
+	//$(".card").css('z-index', 3002);
 	//style.zIndex="-1"
 		
 		
