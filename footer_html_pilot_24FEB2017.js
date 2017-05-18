@@ -1,6 +1,6 @@
 $(document).ready(function(){
  
-	console.log("Test16");
+	console.log("Test1");
 
 	/*
     var head  = document.getElementsByTagName('body')[0];
@@ -51,28 +51,30 @@ $(document).ready(function(){
 	   $("#container0").css({"width": "100%"});  
 	   $("#container7").css({"width": "100%"}); 
 		
+		
+	//*************************************
+	//       Z-Index Area
+	//*************************************
 		//try to drive slider beneath cards
-		//document.getElementById("ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").style.zIndex = "-10000";
-		//document.getElementById("ctl00_masterPageBody").style.zIndex = "-10000";
+ 	//document.getElementById("ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").style.zIndex = "-10000";
+	//document.getElementById("ctl00_masterPageBody").style.zIndex = "-10000";
+	//document.getElementById("ctl00_ContentPlaceHolder1_labelError").style.zIndex = "-10000";
+	//document.getElementById("ctl00_ContentPlaceHolder1_widgetLayout_mainPageDiv").style.zIndex = "-10000";
+	//document.getElementById("ctl00_ContentPlaceHolder1_widgetLayout_mainDivRenderedWidgets").style.zIndex = "-10000";
+	//document.getElementById("mainContainer").style.zIndex = "-10000";
+	//document.getElementById("container0").style.zIndex = "-10000";
+	//document.getElementById("container7").style.zIndex = "-10000";
 		
+	//$("#my-slider").css('position', 'relative');
+        // $("#my-slider").css('z-index', 3000);
 		
-		//document.getElementById("ctl00_ContentPlaceHolder1_labelError").style.zIndex = "-10000";
-		
-		//document.getElementById("ctl00_ContentPlaceHolder1_widgetLayout_mainPageDiv").style.zIndex = "-10000";
-		//document.getElementById("ctl00_ContentPlaceHolder1_widgetLayout_mainDivRenderedWidgets").style.zIndex = "-10000";
-		//document.getElementById("mainContainer").style.zIndex = "-10000";
-		//document.getElementById("container0").style.zIndex = "-10000";
-		//document.getElementById("container7").style.zIndex = "-10000";
-		
-	   //$("#my-slider").css('position', 'relative');
-           // $("#my-slider").css('z-index', 3000);
-		
-	   //Cards (z-index cannot be changed in jQuery)
-	   //<div class="wrapper"><div class="cso-min-height"><ul><div class="card">
-	    $(".wrapper").css({"margin": "-77px 0px 0px 0px"}); 
-	   // $(".cso-min-height").css({"width": "50%", "margin": "-77px 0px 0px 0px" }); 
-	   // $(".card").css({"width": "50%", "margin": "-77px 0px 0px 0px" }); 
-		//style.zIndex="-1"
+	//Drive Cards to the top of the stack (z-index cannot be changed in jQuery)
+	//<div class="wrapper"><div class="cso-min-height"><ul><div class="card">
+	$(".wrapper").css({"margin": "-77px 0px 0px 0px"});    //move card up over slider
+	$(".wrapper").css('z-index', 3000);
+	$(".cso-min-height").css('z-index', 3001);
+	$(".card").css('z-index', 3002);
+	//style.zIndex="-1"
 		
 		
 		
