@@ -38,7 +38,12 @@ $(document).ready(function(){
 		//try to drive slider beneath cards
 		//document.getElementById("ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").style.zIndex = "-10000";
 		//document.getElementById("ctl00_masterPageBody").style.zIndex = "-10000";
-		document.getElementById("ctl00_ContentPlaceHolder1_labelError").style.zIndex = "-10000";
+		
+		
+		
+		// banner warning of planned outages
+		//document.getElementById("ctl00_ContentPlaceHolder1_labelError").style.zIndex = "-10000";
+		
 		//document.getElementById("ctl00_ContentPlaceHolder1_widgetLayout_mainPageDiv").style.zIndex = "-10000";
 		//document.getElementById("ctl00_ContentPlaceHolder1_widgetLayout_mainDivRenderedWidgets").style.zIndex = "-10000";
 		//document.getElementById("mainContainer").style.zIndex = "-10000";
