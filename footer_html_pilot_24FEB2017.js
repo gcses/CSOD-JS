@@ -1,6 +1,6 @@
 $(document).ready(function(){
  
-	console.log("Test6");
+	console.log("Test8");
 	
 	//hide the various Cornerstone footers
 	$('.df-footer').hide();
@@ -23,7 +23,7 @@ $(document).ready(function(){
 	   //remove rounded corners from slider
            $("#my-slider").css({"width": "101%"}); 
 	   document.getElementById("my-slider").style.borderRadius = "0px";
-	   document.getElementById("my-slider").style.zIndex = "-10000";
+	   //document.getElementById("my-slider").style.zIndex = "-10000";  //this may be too deep in the stack
 	
 	   // //Resize and reposition slider - margin: top, right, bottom, left
 	   $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").css({"width": "102%", "margin": "0px 0px 0px -5px"}); 
@@ -40,8 +40,6 @@ $(document).ready(function(){
 		//document.getElementById("ctl00_masterPageBody").style.zIndex = "-10000";
 		
 		
-		
-		// banner warning of planned outages
 		//document.getElementById("ctl00_ContentPlaceHolder1_labelError").style.zIndex = "-10000";
 		
 		//document.getElementById("ctl00_ContentPlaceHolder1_widgetLayout_mainPageDiv").style.zIndex = "-10000";
