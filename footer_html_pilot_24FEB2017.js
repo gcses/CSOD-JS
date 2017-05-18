@@ -1,6 +1,6 @@
 $(document).ready(function(){
  
-	console.log("Test8");
+	console.log("Test9");
 	
 	//hide the various Cornerstone footers
 	$('.df-footer').hide();
@@ -49,7 +49,8 @@ $(document).ready(function(){
 		//document.getElementById("container7").style.zIndex = "-10000";
 
 		
-		
+	    var idx = $("#my-slider").zIndex();
+	    console.log("Index: " + idx);
 		
 		
 	   //$("#my-slider").css('position', 'relative');
