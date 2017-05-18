@@ -1,6 +1,6 @@
 $(document).ready(function(){
  
-	console.log("Test9");
+	console.log("Test10");
 
     var head  = document.getElementsByTagName('head')[0];
     var link  = document.createElement('link');
@@ -8,6 +8,9 @@ $(document).ready(function(){
     link.rel  = 'stylesheet';
     link.type = 'text/css';
     link.href = 'https://rawgit.com/gcses/CSOD-JS/master/additionalStyles.css';
+	
+	//https://github.com/gcses/CSOD-JS/blob/master/additonalStyles.css
+	
     link.media = 'all';
     head.appendChild(link);
 	
