@@ -47,11 +47,6 @@ $(document).ready(function(){
 		//document.getElementById("mainContainer").style.zIndex = "-10000";
 		//document.getElementById("container0").style.zIndex = "-10000";
 		//document.getElementById("container7").style.zIndex = "-10000";
-
-		
-	    var idx = $("#my-slider").zIndex();
-	    console.log("Index: " + idx);
-		
 		
 	   //$("#my-slider").css('position', 'relative');
            // $("#my-slider").css('z-index', 3000);
