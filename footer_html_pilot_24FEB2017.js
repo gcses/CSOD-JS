@@ -1,6 +1,6 @@
 $(document).ready(function(){
  
-	console.log("Test14");
+	console.log("Test15");
 	
 	//defer loading / set time out
 	//long time out
@@ -63,7 +63,7 @@ $(document).ready(function(){
        var elements = document.getElementsByClassName('wrapper');
        for (var i = 0; i < elements.length; i++)
        {
-	  elements[i].style.position = "fixed";
+	  elements[i].style.position = "absolute";
           elements[i].style.zIndex="2147483644";
  	}
 	
@@ -75,7 +75,7 @@ $(document).ready(function(){
 	  elements[i].style.position = "absolute";
           elements[i].style.zIndex="2147483645";
  	}
-	*/
+
 	
 	var elements = document.getElementsByClassName('card');
        for (var i = 0; i < elements.length; i++)
@@ -83,6 +83,7 @@ $(document).ready(function(){
 	  elements[i].style.position = "fixed";
           elements[i].style.zIndex="2147483646";
  	}
+			*/
 		
 	//Drive Cards to the top of the stack (z-index cannot be changed in jQuery)
 	$(".wrapper").css({"margin": "-77px 0px 0px 0px"});    //move card up over slider
