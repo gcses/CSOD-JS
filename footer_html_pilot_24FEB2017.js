@@ -2,6 +2,10 @@ $(document).ready(function(){
  
 	console.log("Test4");
 	
+	//defer loading / set time out
+	//long time out
+	
+	
 	//position:  absolute, fixed, relative
 	
 	//for each member of each class...
