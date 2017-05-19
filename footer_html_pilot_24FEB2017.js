@@ -1,6 +1,6 @@
 $(document).ready(function(){
  
-	console.log("Test12");
+	console.log("Test13");
 	
 	//defer loading / set time out
 	//long time out
@@ -63,21 +63,24 @@ $(document).ready(function(){
        var elements = document.getElementsByClassName('wrapper');
        for (var i = 0; i < elements.length; i++)
        {
-	  elements[i].style.position = "absolute";
+	  elements[i].style.position = "relative";
           elements[i].style.zIndex="2147483644";
  	}
 	
+		
+		/*
 	var elements = document.getElementsByClassName('cso-min-height');
        for (var i = 0; i < elements.length; i++)
        {
 	  elements[i].style.position = "absolute";
           elements[i].style.zIndex="2147483645";
  	}
+	*/
 	
 	var elements = document.getElementsByClassName('card');
        for (var i = 0; i < elements.length; i++)
        {
-	  elements[i].style.position = "absolute";
+	  elements[i].style.position = "relative";
           elements[i].style.zIndex="2147483646";
  	}
 		
