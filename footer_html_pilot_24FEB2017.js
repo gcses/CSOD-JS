@@ -1,6 +1,6 @@
 $(document).ready(function(){
  
-	console.log("Test5");
+	console.log("Test6");
 	
 
 	
@@ -28,22 +28,11 @@ $(document).ready(function(){
 	  elements[i].style.position = "absolute";
           elements[i].style.zIndex="2147483646";
  	}
-	
-        var head  = document.getElementsByTagName('body')[0];
-        var link  = document.createElement('link');
-        link.id   = 'additionalCSS';
-        link.rel  = 'stylesheet';
-        link.type = 'text/css';
-        link.href = 'https://rawgit.com/gcses/CSOD-JS/master/additionalStyles.css';
-	
-       // link.href = 'https://github.com/gcses/CSOD-JS/blob/master/additonalStyles.css';
-       link.media = 'all';
-       head.appendChild(link);
-	
+      
 	//defer loading / set time out
 	//long time out
 	
-	setTimeout(getAdditionalCSS, 2000);
+	setTimeout(getAdditionalCSS, 30000);
 	
 	
 	
