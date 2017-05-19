@@ -1,6 +1,6 @@
 $(document).ready(function(){
  
-	console.log("Test11");
+	console.log("Test12");
 	
 	//defer loading / set time out
 	//long time out
@@ -50,9 +50,11 @@ $(document).ready(function(){
 	    $('.navTabs li.active, .navTabs li:hover').css({"background-color": "transparent !important", "text-shadow": "none"});
 	    $('.navTabs li.active a, .navTabs li:hover a').css({"color": "#000000", "text-decoration": "underline"});
 
-			
-		
-		
+	    $('.#search .cso-top-srch-box ').css({"height": "37px", "border-color": "#dddddd", "box-shadow": "none", "margin": "0 10px 0 0"});
+	    $('#search input').css({"height": "37px"});	     
+	    $('#search .search-lnk:after').css({"content": "\f002", "position": "absolute", "right": "0", "top": "0", "color": "#004593", "width": "26px", "height": "28px", "display": "block", "font": "normal normal normal 14px/1 FontAwesome"});
+
+
 		
 		
 		
