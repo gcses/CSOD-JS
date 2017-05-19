@@ -1,6 +1,6 @@
 $(document).ready(function(){
  
-	console.log("Test9");
+	console.log("Test10");
 	
 	//defer loading / set time out
 	//long time out
@@ -27,9 +27,36 @@ $(document).ready(function(){
 	   univProfileLi.style.width = "120px";  
 	   univProfileLi.style.verticalAlign = "middle";
 	   */
-		
-		
+	
+	   $('*').css({"font-family": "'Source Sans Pro', sans-serif !important", "font-weight": "normal"});
 	   $('body').css({"background": "#f2f2f2", "font-family": "'Source Sans Pro-bottom', sans-serif", "font-weight": "normal", "padding": "0", "margin": "0"}); 
+	   $('#mainContainer').css({"max-width": "1200px", "margin": "0 auto"});
+	
+	  
+           /*Header Top Bar*/     
+           $('.imageLogo').css({"margin-left": "30px"});
+	   $('#tblTopBar').css({"background-color": "#004593"});  /* Mark, please change this in the admin from #ffffff */
+           $('#tblTopBar tr:nth-child(1), #tblTopBar tr:nth-child(3)').css({"height": "0"});
+           $('.user-interaction li ).css({"background": "none !important", "border": "none", "border-radius": "0", "padding-left": "3px", "border-left": "solid 1px #ffffff", "margin-left": "3px"});
+           $('.user-interaction li:first-child').css({"color": "#ffffff", "text-align": "center", "line-height": "32px", "width": "auto !important", "padding": "0 10px 0 24px !important", "border-left": "none"});
+						      
+						      
+
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 	   //remove rounded corners from slider
            $("#my-slider").css({"width": "101%", "margin-bottom": "200px"}); 
