@@ -1,6 +1,6 @@
 $(document).ready(function(){
  
-	console.log("Test10");
+	console.log("Test11");
 	
 	//defer loading / set time out
 	//long time out
@@ -33,7 +33,7 @@ $(document).ready(function(){
 	  //all of this needs testing
 	   $('*').css({"font-family": "'Source Sans Pro', sans-serif !important", "font-weight": "normal"});
 	   $('body').css({"background-color": "#f2f2f2", "font-family": "'Source Sans Pro-bottom', sans-serif", "font-weight": "normal", "padding": "0", "margin": "0"}); 
-	   $('#mainContainer').css({"max-width": "1200px", "margin": "0 auto"});
+	   //$('#mainContainer').css({"max-width": "1200px", "margin": "0 auto"});
 	
 	  
            /*Header Top Bar*/     
