@@ -31,13 +31,8 @@ $(document).ready(function(){
       
 	//defer loading / set time out
 	//long time out
+	//setTimeout(getAdditionalCSS, 30000);
 	
-	setTimeout(getAdditionalCSS, 30000);
-	
-	
-	
-	
-
 	//$('body').append( $('<link rel="stylesheet" type="text/css" />').attr('href', 'https://github.com/gcses/CSOD-JS/blob/master/additonalStyles.css') );
 	
 	//hide the various Cornerstone footers
