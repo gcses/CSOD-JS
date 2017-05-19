@@ -1,6 +1,6 @@
 $(document).ready(function(){
  
-	console.log("Test8");
+	console.log("Test9");
 	
 	//defer loading / set time out
 	//long time out
@@ -27,6 +27,9 @@ $(document).ready(function(){
 	   univProfileLi.style.width = "120px";  
 	   univProfileLi.style.verticalAlign = "middle";
 	   */
+		
+		
+	   $('body').css({"background": "#f2f2f2", "font-family": "'Source Sans Pro-bottom', sans-serif", "font-weight": "normal", "padding": "0", "margin": "0"}); 
 		
 	   //remove rounded corners from slider
            $("#my-slider").css({"width": "101%", "margin-bottom": "200px"}); 
