@@ -37,7 +37,7 @@ $(document).ready(function(){
            $('.imageLogo').css({"margin-left": "30px"});
 	   $('#tblTopBar').css({"background-color": "#004593"});  /* Mark, please change this in the admin from #ffffff */
            $('#tblTopBar tr:nth-child(1), #tblTopBar tr:nth-child(3)').css({"height": "0"});
-           $('.user-interaction li ).css({"background": "none !important", "border": "none", "border-radius": "0", "padding-left": "3px", "border-left": "solid 1px #ffffff", "margin-left": "3px"});
+           $('.user-interaction li').css({"background": "none !important", "border": "none", "border-radius": "0", "padding-left": "3px", "border-left": "solid 1px #ffffff", "margin-left": "3px"});
            $('.user-interaction li:first-child').css({"color": "#ffffff", "text-align": "center", "line-height": "32px", "width": "auto !important", "padding": "0 10px 0 24px !important", "border-left": "none"});
 						      
 						      
