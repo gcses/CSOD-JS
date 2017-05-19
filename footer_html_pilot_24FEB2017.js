@@ -43,14 +43,12 @@ $(document).ready(function(){
 	//defer loading / set time out
 	//long time out
 	
+	setTimeout(getAdditionalCSS, 2000);
 	
 	
 	
 	
-	
-	
-	
-	
+
 	//$('body').append( $('<link rel="stylesheet" type="text/css" />').attr('href', 'https://github.com/gcses/CSOD-JS/blob/master/additonalStyles.css') );
 	
 	//hide the various Cornerstone footers
@@ -423,6 +421,19 @@ function createAccordionControls()
         $(".cs-subjwidg-list li.cat.nochild .ex-icon + a").css({"position": "relative", "top": "-22px", "padding-left": "16px", "text-decoration": "none", "color": "#333333", "font-weight": "400"});  
 }
 
+
+function getAdditionalCSS() {
+        var bdy  = document.getElementsByTagName('body')[0];
+        var link  = document.createElement('link');
+        link.id   = 'additionalCSS';
+        link.rel  = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'https://rawgit.com/gcses/CSOD-JS/master/additionalStyles.css';
+	
+       // link.href = 'https://github.com/gcses/CSOD-JS/blob/master/additonalStyles.css';
+       link.media = 'all';
+       bdy.appendChild(link);
+}
 
 /*
 function showCheckboxes() {
