@@ -1,6 +1,6 @@
 $(document).ready(function(){
  
-	console.log("Test7");
+	console.log("Test1");
 	
 	//defer loading / set time out
 	//long time out
@@ -85,11 +85,11 @@ $(document).ready(function(){
           elements[i].style.zIndex="2147483646";
  	}
 			*/
-		
+		// margin: top, right, bottom, left
 	//Drive Cards to the top of the stack (z-index cannot be changed in jQuery)
-	$(".wrapper").css({"margin": "-370px 0px 0px 0px"});    //move card up over slider
+	$(".wrapper").css({"margin": "-670px 0px 0px 30%"});    //move card up over slider
 
-	}
+      } //end if
 	
 	
 	
