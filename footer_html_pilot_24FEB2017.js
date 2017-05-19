@@ -1,6 +1,6 @@
 $(document).ready(function(){
  
-	console.log("Test9");
+	console.log("Test10");
 	
 	//defer loading / set time out
 	//long time out
@@ -50,10 +50,15 @@ $(document).ready(function(){
 		
 		
 	//CARD Style
-	//border-radius: 0px 10px 0px 0px;
 	$(".card").css({"width": "15%", "box-sizing": "border-box", "padding": "0px", "border-radius": "0px 0px 0px 0px", "border-top": "solid 9px #00a79e", "border-bottom": "none", "border-left": "solid 1px #f2f3f4", "border-right": "none", "margin": "0px 0px 0px 0px" }); 
-	//$("#my-slider").css({"width": "101%"}); 
-	//document.getElementById("my-slider").style.borderRadius = "0px";
+		$(".card:first-child").css({"border-left": "none"});
+		$(".card:nth-child(2)").css({"border-top": "solid 9px #6f2780"});
+		$(".card:nth-child(3)").css({"border-top": "solid 9px #02abd7"});
+		$(".card li").css({"width": "100%", "box-sizing": "border-box"});
+		$(".card img").css({"width": "100%", "height": "100px"});
+		$(".card h2").css({"padding": "20px", "color": "#808080", "font-size": "24px", "margin-top": "0px"});
+		$(".card a:nth-child(2) li").css({"padding": "20px"});
+		$(".card p ").css({"color": "#808080"});
 		
 	//*************************************
 	//   Z-Index Area (float cards over slider
