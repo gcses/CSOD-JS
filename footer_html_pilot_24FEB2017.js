@@ -1,6 +1,6 @@
 $(document).ready(function(){
  
-	console.log("Test6");
+	console.log("Test7");
 	
 	//defer loading / set time out
 	//long time out
@@ -35,7 +35,7 @@ $(document).ready(function(){
 	
 	   // //Resize and reposition slider - margin: top, right, bottom, left
 	   $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").css({"width": "102%", "margin": "0px 0px 0px -5px"}); 
-	   $("#ctl00_masterPageBody").css({"width": "100.6%", "margin": "-77px 0px 0px -6px" }); 
+	   $("#ctl00_masterPageBody").css({"width": "100%", "margin": "-77px 0px 0px -6px" }); 
 	   $("#ctl00_ContentPlaceHolder1_labelError").css({"width": "100%"}); 
 	   $("#ctl00_ContentPlaceHolder1_widgetLayout_mainPageDiv").css({"width": "100%"}); 
 	   $("#ctl00_ContentPlaceHolder1_widgetLayout_mainDivRenderedWidgets").css({"width": "100%"}); 
