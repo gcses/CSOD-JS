@@ -28,8 +28,11 @@ $(document).ready(function(){
 	   univProfileLi.style.verticalAlign = "middle";
 	   */
 	
+		
+		
+	  //all of this needs testing
 	   $('*').css({"font-family": "'Source Sans Pro', sans-serif !important", "font-weight": "normal"});
-	   $('body').css({"background": "#f2f2f2", "font-family": "'Source Sans Pro-bottom', sans-serif", "font-weight": "normal", "padding": "0", "margin": "0"}); 
+	   $('body').css({"background-color": "#f2f2f2", "font-family": "'Source Sans Pro-bottom', sans-serif", "font-weight": "normal", "padding": "0", "margin": "0"}); 
 	   $('#mainContainer').css({"max-width": "1200px", "margin": "0 auto"});
 	
 	  
@@ -37,22 +40,15 @@ $(document).ready(function(){
            $('.imageLogo').css({"margin-left": "30px"});
 	   $('#tblTopBar').css({"background-color": "#004593"});  /* Mark, please change this in the admin from #ffffff */
            $('#tblTopBar tr:nth-child(1), #tblTopBar tr:nth-child(3)').css({"height": "0"});
-           $('.user-interaction li').css({"background": "none !important", "border": "none", "border-radius": "0", "padding-left": "3px", "border-left": "solid 1px #ffffff", "margin-left": "3px"});
+           $('.user-interaction li').css({"background-color": "none !important", "border": "none", "border-radius": "0", "padding-left": "3px", "border-left": "solid 1px #ffffff", "margin-left": "3px"});
            $('.user-interaction li:first-child').css({"color": "#ffffff", "text-align": "center", "line-height": "32px", "width": "auto !important", "padding": "0 10px 0 24px !important", "border-left": "none"});
 						      
-						      
-
-	
+	    $('#main-menu').css({"background-color": "#ffffff"});	 /* Mark, there's still a gradient-looking background though it was turned off in the admin, please investigate */			      
+	    $('.compass-title').css({"font-size": "20px", "line-height": "36px", "margin-left": "30px", "margin-right": "30px", "display": "inline-block"});
+	    $('.navTabs').css({"background-color": "#ffffff"});	
 		
 		
-		
-		
-		
-		
-		
-		
-		
-		
+			
 		
 		
 		
