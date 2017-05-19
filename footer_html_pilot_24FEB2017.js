@@ -1,6 +1,6 @@
 $(document).ready(function(){
  
-	console.log("Test1");
+	console.log("Test2");
 	
 	//defer loading / set time out
 	//long time out
@@ -20,11 +20,13 @@ $(document).ready(function(){
 	   var fname = $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl01_widgetContainer_ctl00_htmlContainer").text();
 	   var lname = $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl02_widgetContainer_ctl00_htmlContainer").text();
 
+		/* hide for screen shot
 	   var elements = document.getElementsByClassName('avatar');
            var univProfileLi = elements[0];
 	   univProfileLi.innerHTML += fname + " " + lname; 
 	   univProfileLi.style.width = "120px";  
 	   univProfileLi.style.verticalAlign = "middle";
+	   */
 		
 	   //remove rounded corners from slider
            $("#my-slider").css({"width": "101%"}); 
@@ -45,9 +47,9 @@ $(document).ready(function(){
 		
 	//CARD Style
 		$(".widgetToMove").css({"box-shadow": "0 1px 6px 0 rgba(0,0,0,0.2)"});
-	     //  $(".card").css({"width": "15%", "box-sizing": "border-box", "padding": "0px", "border-radius": "0px 0px 0px 0px", "border-top": "solid 9px #00a79e", "border-bottom": "none", "border-left": "solid 1px #f2f3f4", "border-right": "none", "margin": "0px 0px 0px 0px" }); 
+	        $(".card").css({"width": "15%", "box-sizing": "border-box", "padding": "0px", "border-radius": "0px 0px 0px 0px", "border-top": "solid 9px #00a79e", "border-bottom": "none", "border-left": "solid 1px #f2f3f4", "border-right": "none", "margin": "0px 0px 0px 0px" }); 
 
-		$(".card").css({"box-sizing": "border-box", "padding": "0px", "border-radius": "0px 0px 0px 0px", "border-top": "solid 9px #00a79e", "border-bottom": "none", "border-left": "solid 1px #f2f3f4", "border-right": "none", "margin": "0px 0px 0px 0px" }); 
+		//$(".card").css({"box-sizing": "border-box", "padding": "0px", "border-radius": "0px 0px 0px 0px", "border-top": "solid 9px #00a79e", "border-bottom": "none", "border-left": "solid 1px #f2f3f4", "border-right": "none", "margin": "0px 0px 0px 0px" }); 
 		$(".card:first-child").css({"border-left": "none"});
 		$(".card:nth-child(2)").css({"border-top": "solid 9px #6f2780"});
 		$(".card:nth-child(3)").css({"border-top": "solid 9px #02abd7"});
@@ -63,8 +65,8 @@ $(document).ready(function(){
          var elements = document.getElementsByClassName('wrapper');
          elements[0].style.position = "absolute";
          elements[0].style.zIndex="2147483644";
-	 elements[0].style.width="60%";
-	
+	// elements[0].style.width="60%";
+	 elements[0].style.marginLeft = "20%";
 		
 		/*
 	var elements = document.getElementsByClassName('cso-min-height');
@@ -86,15 +88,13 @@ $(document).ready(function(){
 	//Drive Cards to the top of the stack (z-index cannot be changed in jQuery)
 	$(".wrapper").css({"margin": "-77px 0px 0px 0px"});    //move card up over slider
 
-		
-		
-		
-		
-		
-		
 	}
 	
 	
+	
+	
+	
+/*  hide for screen shot	
 	//univProfileLi.style.cssFloat = "right";
         //swap the new profile image (element ID varies by page)
 	var imgLoc = document.getElementById('header_headerFixed_imgAvatar');
@@ -110,6 +110,7 @@ $(document).ready(function(){
 	  	   document.getElementById('ctl00_header_headerFixed_imgAvatar').src='https://rawgit.com/gcses/CSOD-JS/master/nophoto2.png';
 		}
 	}
+*/
 	
 	//document.getElementById("header_headerFixed_hlAvatar").style.cssFloat = "left";
 	
