@@ -1,6 +1,6 @@
 $(document).ready(function(){
  
-	console.log("Test16");
+	console.log("Test1");
 	
 	//defer loading / set time out
 	//long time out
@@ -45,7 +45,9 @@ $(document).ready(function(){
 		
 	//CARD Style
 		$(".widgetToMove").css({"box-shadow": "0 1px 6px 0 rgba(0,0,0,0.2)"});
-	        $(".card").css({"width": "15%", "box-sizing": "border-box", "padding": "0px", "border-radius": "0px 0px 0px 0px", "border-top": "solid 9px #00a79e", "border-bottom": "none", "border-left": "solid 1px #f2f3f4", "border-right": "none", "margin": "0px 0px 0px 0px" }); 
+	     //  $(".card").css({"width": "15%", "box-sizing": "border-box", "padding": "0px", "border-radius": "0px 0px 0px 0px", "border-top": "solid 9px #00a79e", "border-bottom": "none", "border-left": "solid 1px #f2f3f4", "border-right": "none", "margin": "0px 0px 0px 0px" }); 
+
+		$(".card").css({"box-sizing": "border-box", "padding": "0px", "border-radius": "0px 0px 0px 0px", "border-top": "solid 9px #00a79e", "border-bottom": "none", "border-left": "solid 1px #f2f3f4", "border-right": "none", "margin": "0px 0px 0px 0px" }); 
 		$(".card:first-child").css({"border-left": "none"});
 		$(".card:nth-child(2)").css({"border-top": "solid 9px #6f2780"});
 		$(".card:nth-child(3)").css({"border-top": "solid 9px #02abd7"});
@@ -56,16 +58,12 @@ $(document).ready(function(){
 		$(".card p ").css({"color": "#808080"});
 		
 	//*************************************
-	//   Z-Index Area (float cards over slider
+	//   Z-Index Area (float cards over slider)
 	//*************************************
-	//position:  absolute, fixed, relative
-	//for each member of each class...
-       var elements = document.getElementsByClassName('wrapper');
-       for (var i = 0; i < elements.length; i++)
-       {
-	  elements[i].style.position = "absolute";
-          elements[i].style.zIndex="2147483644";
- 	}
+         var elements = document.getElementsByClassName('wrapper');
+         elements[0].style.position = "absolute";
+         elements[0].style.zIndex="2147483644";
+	 elements[0].style.width="60%";
 	
 		
 		/*
