@@ -1,6 +1,6 @@
 $(document).ready(function(){
  
-	console.log("Test2");
+	console.log("Test3");
 	
 	//defer loading / set time out
 	//long time out
@@ -29,7 +29,7 @@ $(document).ready(function(){
 	   */
 		
 	   //remove rounded corners from slider
-           $("#my-slider").css({"width": "101%"}); 
+           $("#my-slider").css({"width": "101%", "margin-bottom": "300px"}); 
 	   document.getElementById("my-slider").style.borderRadius = "0px";
 	   //document.getElementById("my-slider").style.zIndex = "-10000";  //this may be too deep in the stack
 	
@@ -46,7 +46,7 @@ $(document).ready(function(){
 		
 		
 	//CARD Style
-		$(".widgetToMove").css({"box-shadow": "0 1px 6px 0 rgba(0,0,0,0.2)"});
+		$(".widgetToMove").css({"box-shadow": "0 1px 6px 0 rgba(0,0,0,0.2)", "margin-left": "10%"});
 	        $(".card").css({"width": "15%", "box-sizing": "border-box", "padding": "0px", "border-radius": "0px 0px 0px 0px", "border-top": "solid 9px #00a79e", "border-bottom": "none", "border-left": "solid 1px #f2f3f4", "border-right": "none", "margin": "0px 0px 0px 0px" }); 
 
 		//$(".card").css({"box-sizing": "border-box", "padding": "0px", "border-radius": "0px 0px 0px 0px", "border-top": "solid 9px #00a79e", "border-bottom": "none", "border-left": "solid 1px #f2f3f4", "border-right": "none", "margin": "0px 0px 0px 0px" }); 
@@ -66,7 +66,7 @@ $(document).ready(function(){
          elements[0].style.position = "absolute";
          elements[0].style.zIndex="2147483644";
 	// elements[0].style.width="60%";
-	 elements[0].style.marginLeft = "20%";
+	// elements[0].style.marginLeft = "20%";
 		
 		/*
 	var elements = document.getElementsByClassName('cso-min-height');
