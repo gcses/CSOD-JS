@@ -35,7 +35,7 @@ $(document).ready(function(){
 	
 	   // //Resize and reposition slider - margin: top, right, bottom, left
 	   $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").css({"width": "102%", "margin": "0px 0px 0px -5px"}); 
-	   $("#ctl00_masterPageBody").css({"width": "100.3%", "margin": "-77px 0px 0px -6px" }); 
+	   $("#ctl00_masterPageBody").css({"width": "100.5%", "margin": "-77px 0px 0px -6px" }); 
 	   $("#ctl00_ContentPlaceHolder1_labelError").css({"width": "100%"}); 
 	   $("#ctl00_ContentPlaceHolder1_widgetLayout_mainPageDiv").css({"width": "100%"}); 
 	   $("#ctl00_ContentPlaceHolder1_widgetLayout_mainDivRenderedWidgets").css({"width": "100%"}); 
@@ -47,7 +47,7 @@ $(document).ready(function(){
 		
 	//CARD Style
 		$(".widgetToMove").css({"box-shadow": "0 1px 6px 0 rgba(0,0,0,0.2)"});
-	        $(".card").css({"width": "15%", "box-sizing": "border-box", "padding": "0px", "border-radius": "0px 0px 0px 0px", "border-top": "solid 9px #00a79e", "border-bottom": "none", "border-left": "solid 1px #f2f3f4", "border-right": "none", "margin": "0px 0px 0px 0px" }); 
+	        $(".card").css({"width": "20%", "box-sizing": "border-box", "padding": "0px", "border-radius": "0px 0px 0px 0px", "border-top": "solid 9px #00a79e", "border-bottom": "none", "border-left": "solid 1px #f2f3f4", "border-right": "none", "margin": "0px 0px 0px 0px" }); 
 
 		//$(".card").css({"box-sizing": "border-box", "padding": "0px", "border-radius": "0px 0px 0px 0px", "border-top": "solid 9px #00a79e", "border-bottom": "none", "border-left": "solid 1px #f2f3f4", "border-right": "none", "margin": "0px 0px 0px 0px" }); 
 		$(".card:first-child").css({"border-left": "none"});
@@ -86,8 +86,8 @@ $(document).ready(function(){
  	}
 			*/
 		// margin: top, right, bottom, left
-	//Drive Cards to the top of the stack (z-index cannot be changed in jQuery)
-	$(".wrapper").css({"margin": "-570px 0px 0px 20%"});    //move card up over slider
+	//Drive Cards to the top of the stack (z-index cannot be changed in jQuery)	
+	$(".wrapper").css({"margin": "-520px 0px 0px 20%"});    //move row of cards up over slider
 
       } //end if
 	
