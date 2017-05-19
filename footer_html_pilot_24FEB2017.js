@@ -1,6 +1,6 @@
 $(document).ready(function(){
  
-	console.log("Test2");
+	console.log("Test3");
 	
 	//defer loading / set time out
 	//long time out
@@ -66,8 +66,7 @@ $(document).ready(function(){
         var elements = document.getElementsByClassName('wrapper');
         elements[0].style.position = "absolute";
         elements[0].style.zIndex="2147483644";
-	// elements[0].style.width="60%";
-	// elements[0].style.marginLeft = "20%";
+
 		
 		/*
 	var elements = document.getElementsByClassName('cso-min-height');
@@ -87,7 +86,7 @@ $(document).ready(function(){
 			*/
 		// margin: top, right, bottom, left
 	//Drive Cards to the top of the stack (z-index cannot be changed in jQuery)	
-	$(".wrapper").css({"margin": "-520px 0px 0px 20%"});    //move row of cards up over slider
+	$(".wrapper").css({"margin": "-470px 0px 0px 15%"});    //move row of cards up over slider
 
       } //end if
 	
