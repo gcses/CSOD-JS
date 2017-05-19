@@ -29,7 +29,7 @@ $(document).ready(function(){
 	   */
 		
 	   //remove rounded corners from slider
-           $("#my-slider").css({"width": "101%", "margin-bottom": "300px"}); 
+           $("#my-slider").css({"width": "101%", "margin-bottom": "400px"}); 
 	   document.getElementById("my-slider").style.borderRadius = "0px";
 	   //document.getElementById("my-slider").style.zIndex = "-10000";  //this may be too deep in the stack
 	
@@ -87,7 +87,7 @@ $(document).ready(function(){
 			*/
 		
 	//Drive Cards to the top of the stack (z-index cannot be changed in jQuery)
-	$(".wrapper").css({"margin": "-250px 0px 0px 0px"});    //move card up over slider
+	$(".wrapper").css({"margin": "-370px 0px 0px 0px"});    //move card up over slider
 
 	}
 	
