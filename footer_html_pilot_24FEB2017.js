@@ -1,6 +1,6 @@
 $(document).ready(function(){
  
-	console.log("Test4");
+	console.log("Test5");
 	
 	//defer loading / set time out
 	//long time out
@@ -29,7 +29,7 @@ $(document).ready(function(){
 	   */
 		
 	   //remove rounded corners from slider
-           $("#my-slider").css({"width": "101%", "margin-bottom": "200px"}); 
+           $("#my-slider").css({"width": "101%", "margin-bottom": "300px"}); 
 	   document.getElementById("my-slider").style.borderRadius = "0px";
 	   //document.getElementById("my-slider").style.zIndex = "-10000";  //this may be too deep in the stack
 	
@@ -87,7 +87,7 @@ $(document).ready(function(){
 			*/
 		
 	//Drive Cards to the top of the stack (z-index cannot be changed in jQuery)
-	$(".wrapper").css({"margin": "-177px 0px 0px 0px"});    //move card up over slider
+	$(".wrapper").css({"margin": "-377px 0px 0px 0px"});    //move card up over slider
 
 	}
 	
