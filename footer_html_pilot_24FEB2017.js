@@ -1,6 +1,6 @@
 $(document).ready(function(){
  
-	console.log("Test11");
+	console.log("Test12");
 	
 	//defer loading / set time out
 	//long time out
@@ -59,8 +59,6 @@ $(document).ready(function(){
 	//   Z-Index Area (float cards over slider
 	//*************************************
 	//position:  absolute, fixed, relative
-	
-		/*
 	//for each member of each class...
        var elements = document.getElementsByClassName('wrapper');
        for (var i = 0; i < elements.length; i++)
@@ -85,7 +83,7 @@ $(document).ready(function(){
 		
 	//Drive Cards to the top of the stack (z-index cannot be changed in jQuery)
 	$(".wrapper").css({"margin": "-77px 0px 0px 0px"});    //move card up over slider
-*/
+
 		
 		
 		
