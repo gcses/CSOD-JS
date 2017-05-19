@@ -1,9 +1,8 @@
 $(document).ready(function(){
  
-	console.log("Test4");
+	console.log("Test5");
 	
-	//defer loading / set time out
-	//long time out
+
 	
 	
 	//position:  absolute, fixed, relative
@@ -30,23 +29,26 @@ $(document).ready(function(){
           elements[i].style.zIndex="2147483646";
  	}
 	
-	//$(".wrapper").css('z-index', 3000);
-	//$(".cso-min-height").css('z-index', 3001);
-	//$(".card").css('z-index', 3002);
-	//style.zIndex="-1"
-
-	/*
-    var head  = document.getElementsByTagName('body')[0];
-    var link  = document.createElement('link');
-    link.id   = 'additionalCSS';
-    link.rel  = 'stylesheet';
-    link.type = 'text/css';
-   link.href = 'https://rawgit.com/gcses/CSOD-JS/master/additionalStyles.css';
+        var head  = document.getElementsByTagName('body')[0];
+        var link  = document.createElement('link');
+        link.id   = 'additionalCSS';
+        link.rel  = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'https://rawgit.com/gcses/CSOD-JS/master/additionalStyles.css';
 	
-   // link.href = 'https://github.com/gcses/CSOD-JS/blob/master/additonalStyles.css';
-    link.media = 'all';
-    head.appendChild(link);
-	*/
+       // link.href = 'https://github.com/gcses/CSOD-JS/blob/master/additonalStyles.css';
+       link.media = 'all';
+       head.appendChild(link);
+	
+	//defer loading / set time out
+	//long time out
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	//$('body').append( $('<link rel="stylesheet" type="text/css" />').attr('href', 'https://github.com/gcses/CSOD-JS/blob/master/additonalStyles.css') );
