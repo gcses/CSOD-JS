@@ -1,6 +1,6 @@
 $(document).ready(function(){
  
-	console.log("Test4");
+	console.log("Test5");
 	
 	//defer loading / set time out
 	//long time out
@@ -29,7 +29,7 @@ $(document).ready(function(){
 	   */
 		
 	   //remove rounded corners from slider
-           $("#my-slider").css({"width": "101%", "margin-bottom": "400px"}); 
+           $("#my-slider").css({"width": "101%", "margin-bottom": "200px"}); 
 	   document.getElementById("my-slider").style.borderRadius = "0px";
 	   //document.getElementById("my-slider").style.zIndex = "-10000";  //this may be too deep in the stack
 	
@@ -55,7 +55,7 @@ $(document).ready(function(){
 		$(".card img").css({"width": "100%", "height": "100px"});
 		$(".card h2").css({"padding": "5px", "color": "#808080", "font-size": "16px", "margin-top": "0px"});
 		$(".card a:nth-child(2) li").css({"padding": "5px"});
-		$(".card p ").css({"color": "#808080"});
+		$(".card p ").css({"color": "#808080", "font-size": "10px"});
 		
 	//*************************************
 	//   Z-Index Area (float cards over slider)
