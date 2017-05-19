@@ -1,6 +1,6 @@
 $(document).ready(function(){
  
-	console.log("Test7");
+	console.log("Test8");
 	
 	//defer loading / set time out
 	//long time out
@@ -53,7 +53,7 @@ $(document).ready(function(){
 		$(".card:nth-child(3)").css({"border-top": "solid 9px #02abd7"});
 		$(".card li").css({"width": "100%", "box-sizing": "border-box"});
 		$(".card img").css({"width": "100%", "height": "100px"});
-		$(".card h2").css({"padding": "5px", "color": "#808080", "font-size": "16px", "margin-top": "0px"});
+		$(".card h2").css({"padding": "5px", "color": "#808080", "font-size": "14px", "margin-top": "0px"});
 		$(".card a:nth-child(2) li").css({"padding": "5px"});
 		$(".card p ").css({"color": "#808080", "font-size": "10px"});
 		
