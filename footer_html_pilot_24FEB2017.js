@@ -1,6 +1,6 @@
 $(document).ready(function(){
  
-	console.log("Test5");
+	console.log("Test6");
 	
 	//defer loading / set time out
 	//long time out
@@ -87,7 +87,7 @@ $(document).ready(function(){
 			*/
 		
 	//Drive Cards to the top of the stack (z-index cannot be changed in jQuery)
-	$(".wrapper").css({"margin": "-377px 0px 0px 0px"});    //move card up over slider
+	$(".wrapper").css({"margin": "-250px 0px 0px 0px"});    //move card up over slider
 
 	}
 	
