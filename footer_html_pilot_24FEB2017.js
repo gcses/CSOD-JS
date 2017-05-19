@@ -1,6 +1,6 @@
 $(document).ready(function(){
  
-	console.log("Test3");
+	console.log("Test4");
 	
 	//defer loading / set time out
 	//long time out
@@ -48,15 +48,13 @@ $(document).ready(function(){
 	//CARD Style
 		$(".widgetToMove").css({"box-shadow": "0 1px 6px 0 rgba(0,0,0,0.2)"});
 	        $(".card").css({"width": "20%", "box-sizing": "border-box", "padding": "0px", "border-radius": "0px 0px 0px 0px", "border-top": "solid 9px #00a79e", "border-bottom": "none", "border-left": "solid 1px #f2f3f4", "border-right": "none", "margin": "0px 0px 0px 0px" }); 
-
-		//$(".card").css({"box-sizing": "border-box", "padding": "0px", "border-radius": "0px 0px 0px 0px", "border-top": "solid 9px #00a79e", "border-bottom": "none", "border-left": "solid 1px #f2f3f4", "border-right": "none", "margin": "0px 0px 0px 0px" }); 
 		$(".card:first-child").css({"border-left": "none"});
 		$(".card:nth-child(2)").css({"border-top": "solid 9px #6f2780"});
 		$(".card:nth-child(3)").css({"border-top": "solid 9px #02abd7"});
 		$(".card li").css({"width": "100%", "box-sizing": "border-box"});
 		$(".card img").css({"width": "100%", "height": "100px"});
-		$(".card h2").css({"padding": "20px", "color": "#808080", "font-size": "24px", "margin-top": "0px"});
-		$(".card a:nth-child(2) li").css({"padding": "20px"});
+		$(".card h2").css({"padding": "5px", "color": "#808080", "font-size": "16px", "margin-top": "0px"});
+		$(".card a:nth-child(2) li").css({"padding": "5px"});
 		$(".card p ").css({"color": "#808080"});
 		
 	//*************************************
