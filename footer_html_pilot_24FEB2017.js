@@ -1,6 +1,6 @@
 $(document).ready(function(){
  
-	console.log("Test8");
+	console.log("Test9");
 	
 	//defer loading / set time out
 	//long time out
@@ -51,7 +51,7 @@ $(document).ready(function(){
 		
 	//CARD Style
 	//border-radius: 0px 10px 0px 0px;
-	$(".card").css({"width": "25%", "box-sizing": "border-box", "padding": "0px", "border-radius": "0px 0px 0px 0px", "border-top": "solid 9px #00a79e", "border-bottom": "none", "border-left": "solid 1px #f2f3f4", "border-right": "none", "margin": "0px 0px 0px 0px" }); 
+	$(".card").css({"width": "15%", "box-sizing": "border-box", "padding": "0px", "border-radius": "0px 0px 0px 0px", "border-top": "solid 9px #00a79e", "border-bottom": "none", "border-left": "solid 1px #f2f3f4", "border-right": "none", "margin": "0px 0px 0px 0px" }); 
 	//$("#my-slider").css({"width": "101%"}); 
 	//document.getElementById("my-slider").style.borderRadius = "0px";
 		
