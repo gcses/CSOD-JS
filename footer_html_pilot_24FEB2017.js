@@ -1,33 +1,11 @@
 $(document).ready(function(){
  
-	console.log("Test6");
+	console.log("Test7");
 	
 
 	
 	
-	//position:  absolute, fixed, relative
 	
-	//for each member of each class...
-       var elements = document.getElementsByClassName('wrapper');
-       for (var i = 0; i < elements.length; i++)
-       {
-	  elements[i].style.position = "absolute";
-          elements[i].style.zIndex="2147483644";
- 	}
-	
-	var elements = document.getElementsByClassName('cso-min-height');
-       for (var i = 0; i < elements.length; i++)
-       {
-	  elements[i].style.position = "absolute";
-          elements[i].style.zIndex="2147483645";
- 	}
-	
-	var elements = document.getElementsByClassName('card');
-       for (var i = 0; i < elements.length; i++)
-       {
-	  elements[i].style.position = "absolute";
-          elements[i].style.zIndex="2147483646";
- 	}
       
 	//defer loading / set time out
 	//long time out
@@ -69,29 +47,50 @@ $(document).ready(function(){
 	   $("#container7").css({"width": "100%"}); 
 		
 		
-	//*************************************
-	//       Z-Index Area
-	//*************************************
-		//try to drive slider beneath cards
- 	//document.getElementById("ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").style.zIndex = "-10000";
-	//document.getElementById("ctl00_masterPageBody").style.zIndex = "-10000";
-	//document.getElementById("ctl00_ContentPlaceHolder1_labelError").style.zIndex = "-10000";
-	//document.getElementById("ctl00_ContentPlaceHolder1_widgetLayout_mainPageDiv").style.zIndex = "-10000";
-	//document.getElementById("ctl00_ContentPlaceHolder1_widgetLayout_mainDivRenderedWidgets").style.zIndex = "-10000";
-	//document.getElementById("mainContainer").style.zIndex = "-10000";
-	//document.getElementById("container0").style.zIndex = "-10000";
-	//document.getElementById("container7").style.zIndex = "-10000";
 		
-	//$("#my-slider").css('position', 'relative');
-        // $("#my-slider").css('z-index', 3000);
+		
+		
+		
+		
+		
+		
+	//CARD Style
+	//border-radius: 0px 10px 0px 0px;
+	$(".card").css({"border-radius": "0px 10px 0px 0px", "border-top", "solid 9px #00a79e", "border-bottom": "none", "border-left", "solid 1px #f2f3f4", "border-right": "none", "width": "25%", "margin": "0px 0px 0px 0px" }); 
+	//$("#my-slider").css({"width": "101%"}); 
+	//document.getElementById("my-slider").style.borderRadius = "0px";
+		
+	//*************************************
+	//   Z-Index Area (float cards over slider
+	//*************************************
+	//position:  absolute, fixed, relative
+	
+		/*
+	//for each member of each class...
+       var elements = document.getElementsByClassName('wrapper');
+       for (var i = 0; i < elements.length; i++)
+       {
+	  elements[i].style.position = "absolute";
+          elements[i].style.zIndex="2147483644";
+ 	}
+	
+	var elements = document.getElementsByClassName('cso-min-height');
+       for (var i = 0; i < elements.length; i++)
+       {
+	  elements[i].style.position = "absolute";
+          elements[i].style.zIndex="2147483645";
+ 	}
+	
+	var elements = document.getElementsByClassName('card');
+       for (var i = 0; i < elements.length; i++)
+       {
+	  elements[i].style.position = "absolute";
+          elements[i].style.zIndex="2147483646";
+ 	}
 		
 	//Drive Cards to the top of the stack (z-index cannot be changed in jQuery)
-	//<div class="wrapper"><div class="cso-min-height"><ul><div class="card">
 	$(".wrapper").css({"margin": "-77px 0px 0px 0px"});    //move card up over slider
-	//$(".wrapper").css('z-index', 3000);
-	//$(".cso-min-height").css('z-index', 3001);
-	//$(".card").css('z-index', 3002);
-	//style.zIndex="-1"
+*/
 		
 		
 		
