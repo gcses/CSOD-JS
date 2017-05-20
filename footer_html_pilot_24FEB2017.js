@@ -54,6 +54,20 @@ $(document).ready(function(){
 	    //$('#search input').css({"height": "37px"});	     
 	    //$('#search .search-lnk:after').css({"content": "\f002", "position": "absolute", "right": "0", "top": "0", "color": "#004593", "width": "26px", "height": "28px", "display": "block", "font": "normal normal normal 14px/1 FontAwesome"});
 
+	    /*Tables*/
+		/*
+            $('.cs-panel-flat, .cs-panel-plain, .cs-panel-gradient').css({"
+ 	    $('.cs-panel-flat .Panel_content').css({"
+	    $('.cs-panel-flat .Panel_title').css({"
+	    $('.Panel_titleMiddle a, .Panel_titleMiddle a:hover').css({"
+	    $('.cs-panel-flat .Panel_titleMiddle div, .cs-panel-plain .Panel_titleMiddle div, .cs-panel-gradient .Panel_titleMiddle div, .cs-panel-flat .Panel_titleMiddle h2, .cs-panel-plain .Panel_titleMiddle h2, .cs-panel-gradient .Panel_titleMiddle h2').css({"
+	    $('.cs-panel-flat').css({"
+            $('table .CsList th').css({"
+	    $('.Panel_contentMiddle td').css({"
+	    $('.Panel_contentMiddle tr:hover, .tablerolloverNewUI,.CsList tbody tr:hover td').css({"
+	    $('.Panel_contentMiddle tr:last-child td').css({"
+		*   
+
 
 		
 		
@@ -171,6 +185,13 @@ $(document).ready(function(){
 		console.log("span found!!");
 	        $(this).html($(this).html().replace('Coupon','Customer'));
 		});
+	
+	
+	
+	
+	
+	
+	
 	
 
         //write to console to confirm attributes
