@@ -1,6 +1,6 @@
 $(document).ready(function(){
  
-	console.log("Test12");
+	console.log("Test13");
 	
 	//defer loading / set time out
 	//long time out
@@ -42,12 +42,12 @@ $(document).ready(function(){
            $('.user-interaction li').css({"background-color": "none !important", "border": "none", "border-radius": "0", "padding-left": "3px", "border-left": "solid 1px #ffffff", "margin-left": "3px"});
            $('.user-interaction li:first-child').css({"color": "#ffffff", "text-align": "center", "line-height": "32px", "width": "auto !important", "padding": "0 10px 0 24px !important", "border-left": "none"});
 						      
-	    $('#main-menu').css({"background-color": "#ffffff"});	 /* Mark, there's still a gradient-looking background though it was turned off in the admin, please investigate */			      
-	    $('.compass-title').css({"font-size": "20px", "line-height": "36px", "margin-left": "30px", "margin-right": "30px", "display": "inline-block"});
-	    $('.navTabs').css({"background-color": "#ffffff"});	
-	    $('.navTabs li a').css({"text-shadow": "none", "color": "#808080", "font-weight": "normal"});
-	    $('.navTabs li.active, .navTabs li:hover').css({"background-color": "transparent !important", "text-shadow": "none"});
-	    $('.navTabs li.active a, .navTabs li:hover a').css({"color": "#000000", "text-decoration": "underline"});
+	    //$('#main-menu').css({"background-color": "#ffffff"});	 /* Mark, there's still a gradient-looking background though it was turned off in the admin, please investigate */			      
+	    //$('.compass-title').css({"font-size": "20px", "line-height": "36px", "margin-left": "30px", "margin-right": "30px", "display": "inline-block"});
+	    //$('.navTabs').css({"background-color": "#ffffff"});	
+	    //$('.navTabs li a').css({"text-shadow": "none", "color": "#808080", "font-weight": "normal"});
+	    //$('.navTabs li.active, .navTabs li:hover').css({"background-color": "transparent !important", "text-shadow": "none"});
+	    //$('.navTabs li.active a, .navTabs li:hover a').css({"color": "#000000", "text-decoration": "underline"});
 
 	   // $('.#search .cso-top-srch-box ').css({"height": "37px", "border-color": "#dddddd", "box-shadow": "none", "margin": "0 10px 0 0"});
 	    //$('#search input').css({"height": "37px"});	     
