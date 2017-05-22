@@ -1,17 +1,22 @@
 $(document).ready(function(){
  
-	console.log("Test23");
+	console.log("Test1");
 	
 	//change the navigation bar to white, remove gradient		
 	$('#main-menu').css({"background-image": "none", "background-color": "#ffffff"});
 	
+	$('#main-menu li:hover').css({"background-image": "none", "background-color": "#red"});
 	
-	$('#main-menu li:hover').css({"background-color": "yellow"});
-	
-	$('#main-menu li a:hover').css({"background-color": "yellow"});
+	$('#main-menu li a:hover').css({"background-image": "none", "background-color": "red"});
 	
 	
-	$('#main-menu li.active').css({"background-color": "yellow"});
+	$('#main-menu li.active').css({"background-color": "#ffffff"}); //white out the active background
+	
+	
+	
+	
+	
+	
 	
 	// $('.navTabs li a:active, .navTabs li a:hover').css({"background-color": "yellow", "text-shadow": "none"});
 	
@@ -27,7 +32,10 @@ $(document).ready(function(){
 	
 	//font is set here for nav bar
 	  //  $('.navTabs').css({"background-color": "#ffffff"});	
-	    $('.navTabs li a').css({"background-image": "none", "text-shadow": "none", "color": "#808080", "font-weight": "normal"});
+	 $('.navTabs li a').css({"background-image": "none", "text-shadow": "none", "color": "#808080", "font-weight": "normal"});
+	
+	
+	
 	  //  $('.navTabs li.active, .navTabs li:hover').css({"background-image": "none", "background-color": "transparent !important", "text-shadow": "none"});
 	 //   $('.navTabs li.active a, .navTabs li:hover a').css({"background-image": "none", "color": "#000000", "text-decoration": "underline"});
 
