@@ -2,6 +2,35 @@ $(document).ready(function(){
  
 	console.log("Test10");
 	
+			
+	   $('#main-menu').css({"background-color": "#ffffff"});			      
+	   $('.compass-title').css({"font-size": "20px", "line-height": "36px", "margin-left": "30px", "margin-right": "30px", "display": "inline-block"});
+	   $('.c-glbl-nav').css({"background-color": "#ffffff"});
+	   $('.smenu sm navTabs').css({"background-color": "#ffffff"});
+		
+	    $('.navTabs').css({"background-color": "#ffffff"});	
+	    $('.navTabs li a').css({"text-shadow": "none", "color": "#808080", "font-weight": "normal"});
+	    $('.navTabs li.active, .navTabs li:hover').css({"background-color": "transparent !important", "text-shadow": "none"});
+	    $('.navTabs li.active a, .navTabs li:hover a').css({"color": "#000000", "text-decoration": "underline"});
+
+	 
+		
+$('.user-interaction li').css({"background-color": "#ffffff", "text-decoration": "none"});
+	    // $('.user-interaction li hover').css({"background-image": "none !important"});	
+	
+
+	
+	
+	
+		
+	
+	
+	
+	
+	
+	
+	
+	
 	//defer loading / set time out / long time out
 	//setTimeout(getAdditionalCSS, 30000);
 	//$('body').append( $('<link rel="stylesheet" type="text/css" />').attr('href', 'https://github.com/gcses/CSOD-JS/blob/master/additonalStyles.css') );
@@ -43,41 +72,9 @@ $(document).ready(function(){
            $('#tblTopBar tr:nth-child(1), #tblTopBar tr:nth-child(3)').css({"height": "0"});
            $('.user-interaction li').css({"background-color": "none !important", "border": "none", "border-radius": "0", "padding-left": "3px", "border-left": "solid 1px #ffffff", "margin-left": "3px"});
            $('.user-interaction li:first-child').css({"color": "#ffffff", "text-align": "center", "line-height": "32px", "width": "auto !important", "padding": "0 10px 0 24px !important", "border-left": "none"});
-						      
-	    $('#main-menu').css({"background-color": "#ffffff"});	 /* Mark, there's still a gradient-looking background though it was turned off in the admin, please investigate */			      
-	   $('.compass-title').css({"font-size": "20px", "line-height": "36px", "margin-left": "30px", "margin-right": "30px", "display": "inline-block"});
-	    $('.navTabs').css({"background-color": "#ffffff"});	
-	
-	   $('#main-menu').css({"background-color": "#ffffff"});
-	   $('.c-glbl-nav').css({"background-color": "#ffffff"});
-	   $('.smenu sm navTabs').css({"background-color": "#ffffff"});
+			
 		
 
-
-		
-		
-		
-	    $('.navTabs li a').css({"text-shadow": "none", "color": "#808080", "font-weight": "normal"});
-	    $('.navTabs li.active, .navTabs li:hover').css({"background-color": "transparent !important", "text-shadow": "none"});
-	    $('.navTabs li.active a, .navTabs li:hover a').css({"color": "#000000", "text-decoration": "underline"});
-
-		
-				//background:linear-gradient(to bottom, #FFFFFF 0%, #FAFAFA 50%, #EEEEEE 100%) repeat scroll 0 0 transparent;
-  // background:#FAFAFA; /* Old browsers */
-		
-$('.user-interaction li').css({"background-color": "#ffffff", "text-decoration": "none"});
-	    // $('.user-interaction li hover').css({"background-image": "none !important"});	
-	
-		/*
-		    .user-interaction li:hover {
-        background-color:#E6E6E6;
-        background-position:0 -15px;
-        background-repeat:repeat-x;
-        filter:none;
-        text-decoration:none;
-        transition:background-position 0.1s linear 0s;
-*/
-		
 	
 		/*
 		Targets: <div role="navigation" aria-label="Main menu">
