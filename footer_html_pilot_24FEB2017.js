@@ -1,6 +1,6 @@
 $(document).ready(function(){
  
-	console.log("Test11");
+	console.log("Test12");
 	
 			
 	   $('#main-menu').css({"background-image": "none", "background-color": "#ffffff"});			      
@@ -8,14 +8,13 @@ $(document).ready(function(){
 	   $('.c-glbl-nav').css({"background-image": "none", "background-color": "#ffffff"});
 	   $('.smenu sm navTabs').css({"background-image": "none", "background-color": "#ffffff"});
 		
-	    $('.navTabs').css({"background-color": "#ffffff"});	
-	    $('.navTabs li a').css({"background-image": "none", "text-shadow": "none", "color": "#808080", "font-weight": "normal"});
-	    $('.navTabs li.active, .navTabs li:hover').css({"background-image": "none", "background-color": "transparent !important", "text-shadow": "none"});
-	    $('.navTabs li.active a, .navTabs li:hover a').css({"background-image": "none", "color": "#000000", "text-decoration": "underline"});
+	   // $('.navTabs').css({"background-color": "#ffffff"});	
+	   // $('.navTabs li a').css({"background-image": "none", "text-shadow": "none", "color": "#808080", "font-weight": "normal"});
+	   // $('.navTabs li.active, .navTabs li:hover').css({"background-image": "none", "background-color": "transparent !important", "text-shadow": "none"});
+	   // $('.navTabs li.active a, .navTabs li:hover a').css({"background-image": "none", "color": "#000000", "text-decoration": "underline"});
 
-		
-$('.user-interaction li').css({"background-image": "none", "background-color": "#ffffff", "text-decoration": "none"});
-	    // $('.user-interaction li hover').css({"background-image": "none !important"});	
+	    $('.user-interaction li').css({"background-image": "none", "background-color": "#ffffff", "text-decoration": "none"});
+
 	
 
 	
