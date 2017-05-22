@@ -1,6 +1,6 @@
 $(document).ready(function(){
  
-	console.log("Test2");
+	console.log("Test3");
 	
 	//defer loading / set time out / long time out
 	//setTimeout(getAdditionalCSS, 30000);
@@ -77,7 +77,12 @@ $(document).ready(function(){
 	
 	   // //Resize and reposition slider - margin: top, right, bottom, left
 	   $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").css({"width": "102%", "margin": "0px 0px 0px -5px"}); 
-	   $("#ctl00_masterPageBody").css({"width": "100.5%", "margin": "-77px 0px 0px -6px" }); 
+	   //$("#ctl00_masterPageBody").css({"width": "100.5%", "margin": "-77px 0px 0px -6px" }); 
+		
+		
+		 $("#ctl00_masterPageBody").css({"width": "100.5%", "margin": "0px 0px 0px -6px" }); 
+		
+		
 	   $("#ctl00_ContentPlaceHolder1_labelError").css({"width": "100%"}); 
 	   $("#ctl00_ContentPlaceHolder1_widgetLayout_mainPageDiv").css({"width": "100%"}); 
 	   $("#ctl00_ContentPlaceHolder1_widgetLayout_mainDivRenderedWidgets").css({"width": "100%"}); 
@@ -108,23 +113,8 @@ $(document).ready(function(){
         elements[0].style.zIndex="2147483644";
 
 		
-		/*
-	var elements = document.getElementsByClassName('cso-min-height');
-       for (var i = 0; i < elements.length; i++)
-       {
-	  elements[i].style.position = "absolute";
-          elements[i].style.zIndex="2147483645";
- 	}
-
 	
-	var elements = document.getElementsByClassName('card');
-       for (var i = 0; i < elements.length; i++)
-       {
-	  elements[i].style.position = "fixed";
-          elements[i].style.zIndex="2147483646";
- 	}
-			*/
-		// margin: top, right, bottom, left
+	// margin: top, right, bottom, left
 	//Drive Cards to the top of the stack (z-index cannot be changed in jQuery)	
 	$(".wrapper").css({"margin": "-260px 0px 0px 15%"});    //move row of cards up over slider
 
