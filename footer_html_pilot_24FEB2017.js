@@ -1,6 +1,6 @@
 $(document).ready(function(){
  
-	console.log("Test15");
+	console.log("Test1");
 	
 	//defer loading / set time out
 	//long time out
