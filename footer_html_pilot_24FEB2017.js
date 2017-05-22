@@ -28,7 +28,7 @@ $(document).ready(function(){
 	   univProfileLi.style.verticalAlign = "middle";
 	   */
 	
-		
+	
 		
 	  //all of this needs testing
 	   $('*').css({"font-family": "'Source Sans Pro', sans-serif !important", "font-weight": "normal"});
@@ -42,9 +42,9 @@ $(document).ready(function(){
            $('.user-interaction li').css({"background-color": "none !important", "border": "none", "border-radius": "0", "padding-left": "3px", "border-left": "solid 1px #ffffff", "margin-left": "3px"});
            $('.user-interaction li:first-child').css({"color": "#ffffff", "text-align": "center", "line-height": "32px", "width": "auto !important", "padding": "0 10px 0 24px !important", "border-left": "none"});
 						      
-	  //  $('#main-menu').css({"background-color": "#ffffff"});	 /* Mark, there's still a gradient-looking background though it was turned off in the admin, please investigate */			      
-	//    $('.compass-title').css({"font-size": "20px", "line-height": "36px", "margin-left": "30px", "margin-right": "30px", "display": "inline-block"});
-	//    $('.navTabs').css({"background-color": "#ffffff"});	
+	    $('#main-menu').css({"background-color": "#ffffff"});	 /* Mark, there's still a gradient-looking background though it was turned off in the admin, please investigate */			      
+	   $('.compass-title').css({"font-size": "20px", "line-height": "36px", "margin-left": "30px", "margin-right": "30px", "display": "inline-block"});
+	    $('.navTabs').css({"background-color": "#ffffff"});	
 		
 	  //  $('.navTabs li a').css({"text-shadow": "none", "color": "#808080", "font-weight": "normal"});
 	  //  $('.navTabs li.active, .navTabs li:hover').css({"background-color": "transparent !important", "text-shadow": "none"});
@@ -66,7 +66,7 @@ $(document).ready(function(){
 	    $('.Panel_contentMiddle td').css({"
 	    $('.Panel_contentMiddle tr:hover, .tablerolloverNewUI,.CsList tbody tr:hover td').css({"
 	    $('.Panel_contentMiddle tr:last-child td').css({"
-		*   
+		*/  
 
 
 		
