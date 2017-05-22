@@ -1,13 +1,16 @@
 $(document).ready(function(){
  
-	console.log("Test12");
+	console.log("Test13");
+	
 	
 			
 	   $('#main-menu').css({"background-image": "none", "background-color": "#ffffff"});			      
-	   $('.compass-title').css({"font-size": "20px", "line-height": "36px", "margin-left": "30px", "margin-right": "30px", "display": "inline-block"});
-	   $('.c-glbl-nav').css({"background-image": "none", "background-color": "#ffffff"});
-	   $('.smenu sm navTabs').css({"background-image": "none", "background-color": "#ffffff"});
+	  // $('.compass-title').css({"font-size": "20px", "line-height": "36px", "margin-left": "30px", "margin-right": "30px", "display": "inline-block"});
+	  // $('.c-glbl-nav').css({"background-image": "none", "background-color": "#ffffff"});
+	 //  $('.smenu sm navTabs').css({"background-image": "none", "background-color": "#ffffff"});
 		
+	
+	//font is set here for nav bar
 	   // $('.navTabs').css({"background-color": "#ffffff"});	
 	   // $('.navTabs li a').css({"background-image": "none", "text-shadow": "none", "color": "#808080", "font-weight": "normal"});
 	   // $('.navTabs li.active, .navTabs li:hover').css({"background-image": "none", "background-color": "transparent !important", "text-shadow": "none"});
