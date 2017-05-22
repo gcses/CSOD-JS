@@ -1,6 +1,6 @@
 $(document).ready(function(){
  
-	console.log("Test4");
+	console.log("Test5");
 	
 	//defer loading / set time out / long time out
 	//setTimeout(getAdditionalCSS, 30000);
@@ -26,6 +26,7 @@ $(document).ready(function(){
 	   univProfileLi.style.verticalAlign = "middle";
 	   */
 	
+		
 	
 		
 	  //all of this needs testing
@@ -43,11 +44,36 @@ $(document).ready(function(){
 	    $('#main-menu').css({"background-color": "#ffffff"});	 /* Mark, there's still a gradient-looking background though it was turned off in the admin, please investigate */			      
 	   $('.compass-title').css({"font-size": "20px", "line-height": "36px", "margin-left": "30px", "margin-right": "30px", "display": "inline-block"});
 	    $('.navTabs').css({"background-color": "#ffffff"});	
+	
+	   $('.c-glbl-nav').css({"background-color": "#ffffff"});
+	   $('.smenu sm navTabs').css({"background-color": "#ffffff"});
+		
+		
+		
 		
 	    $('.navTabs li a').css({"text-shadow": "none", "color": "#808080", "font-weight": "normal"});
 	    $('.navTabs li.active, .navTabs li:hover').css({"background-color": "transparent !important", "text-shadow": "none"});
 	    $('.navTabs li.active a, .navTabs li:hover a').css({"color": "#000000", "text-decoration": "underline"});
 
+	
+		/*
+		Targets: <div role="navigation" aria-label="Main menu">
+    				<div role="application" class="c-glbl-nav">
+        				<ul id="main-menu" class="smenu sm navTabs" aria-label="Main menu">
+
+					 <li class="active">
+*/
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	   // $('.#search .cso-top-srch-box ').css({"height": "37px", "border-color": "#dddddd", "box-shadow": "none", "margin": "0 10px 0 0"});
 	    //$('#search input').css({"height": "37px"});	     
 	    //$('#search .search-lnk:after').css({"content": "\f002", "position": "absolute", "right": "0", "top": "0", "color": "#004593", "width": "26px", "height": "28px", "display": "block", "font": "normal normal normal 14px/1 FontAwesome"});
