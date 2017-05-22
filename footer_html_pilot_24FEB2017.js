@@ -5,9 +5,9 @@ $(document).ready(function(){
 	//change the navigation bar to white, remove gradient		
 	$('#main-menu').css({"background-image": "none", "background-color": "#ffffff"});
 	
-	$('#main-menu li:hover').css({"background-image": "none", "background-color": "#red"});
+	$('#main-menu li:hover').css({"background-image": "none", "background-color": "yellow"});
 	
-	$('#main-menu li a:hover').css({"background-image": "none", "background-color": "red"});
+	$('#main-menu li a:hover').css({"background-image": "none", "background-color": "yellow"});
 	
 	
 	$('#main-menu li.active').css({"background-color": "#ffffff"}); //white out the active background
