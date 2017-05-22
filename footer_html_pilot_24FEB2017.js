@@ -1,6 +1,6 @@
 $(document).ready(function(){
  
-	console.log("Test8");
+	console.log("Test9");
 	
 	//defer loading / set time out / long time out
 	//setTimeout(getAdditionalCSS, 30000);
@@ -58,7 +58,7 @@ $(document).ready(function(){
 	    $('.navTabs li.active a, .navTabs li:hover a').css({"color": "#000000", "text-decoration": "underline"});
 
 		
-	    $('.user-interaction li').css({"background-image": "none !important"});
+	    //$('.user-interaction li').css({"background-image": "none !important"});
 		
 		
 	
