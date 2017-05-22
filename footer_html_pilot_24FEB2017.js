@@ -45,8 +45,10 @@ $(document).ready(function(){
 	   $('.compass-title').css({"font-size": "20px", "line-height": "36px", "margin-left": "30px", "margin-right": "30px", "display": "inline-block"});
 	    $('.navTabs').css({"background-color": "#ffffff"});	
 	
+	    $('#main-menu).css({"background-color": "#ffffff"});
 	   $('.c-glbl-nav').css({"background-color": "#ffffff"});
 	   $('.smenu sm navTabs').css({"background-color": "#ffffff"});
+		
 		
 		
 		
