@@ -1,6 +1,6 @@
 $(document).ready(function(){
  
-	console.log("Test1");
+	console.log("Test2");
 	
 	//change the navigation bar to white, remove gradient		
 	$('#main-menu').css({"background-image": "none", "background-color": "#ffffff"});
