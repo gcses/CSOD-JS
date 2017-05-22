@@ -1,6 +1,6 @@
 $(document).ready(function(){
  
-	console.log("Test7");
+	console.log("Test8");
 	
 	//defer loading / set time out / long time out
 	//setTimeout(getAdditionalCSS, 30000);
