@@ -3,19 +3,18 @@ $(document).ready(function(){
 	console.log("Test10");
 	
 			
-	   $('#main-menu').css({"background-color": "#ffffff"});			      
+	   $('#main-menu').css({"background-image": "none", "background-color": "#ffffff"});			      
 	   $('.compass-title').css({"font-size": "20px", "line-height": "36px", "margin-left": "30px", "margin-right": "30px", "display": "inline-block"});
-	   $('.c-glbl-nav').css({"background-color": "#ffffff"});
-	   $('.smenu sm navTabs').css({"background-color": "#ffffff"});
+	   $('.c-glbl-nav').css({"background-image": "none", "background-color": "#ffffff"});
+	   $('.smenu sm navTabs').css({"background-image": "none", "background-color": "#ffffff"});
 		
 	    $('.navTabs').css({"background-color": "#ffffff"});	
-	    $('.navTabs li a').css({"text-shadow": "none", "color": "#808080", "font-weight": "normal"});
-	    $('.navTabs li.active, .navTabs li:hover').css({"background-color": "transparent !important", "text-shadow": "none"});
-	    $('.navTabs li.active a, .navTabs li:hover a').css({"color": "#000000", "text-decoration": "underline"});
+	    $('.navTabs li a').css({"background-image": "none", "text-shadow": "none", "color": "#808080", "font-weight": "normal"});
+	    $('.navTabs li.active, .navTabs li:hover').css({"background-image": "none", "background-color": "transparent !important", "text-shadow": "none"});
+	    $('.navTabs li.active a, .navTabs li:hover a').css({"background-image": "none", "color": "#000000", "text-decoration": "underline"});
 
-	 
 		
-$('.user-interaction li').css({"background-color": "#ffffff", "text-decoration": "none"});
+$('.user-interaction li').css({"background-image": "none", "background-color": "#ffffff", "text-decoration": "none"});
 	    // $('.user-interaction li hover').css({"background-image": "none !important"});	
 	
 
