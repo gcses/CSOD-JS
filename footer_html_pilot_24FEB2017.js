@@ -58,7 +58,7 @@ $(document).ready(function(){
 	    $('.navTabs li.active a, .navTabs li:hover a').css({"color": "#000000", "text-decoration": "underline"});
 
 		
-	    $('.user-interaction li ').css({"background": "none"});
+	    $('.user-interaction li').css({"background-image": "none !important"});
 		
 		
 	
