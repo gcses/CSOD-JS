@@ -1,11 +1,13 @@
 $(document).ready(function(){
  
-	console.log("Test19");
+	console.log("Test20");
 	
 	//change the navigation bar to white, remove gradient		
 	$('#main-menu').css({"background-image": "none", "background-color": "#ffffff"});
 	
-	$('#main-menu:hover').css({"background-image": "none", "background-color": "#ffffff"});
+	$('#main-menu li:hover').css({"background-image": "none", "background-color": "#ffffff"});
+	
+	$('#main-menu li a:hover').css({"background-image": "none", "background-color": "#ffffff"});
 	
 	 $('.navTabs li a:active, .navTabs li a:hover').css({"background-image": "none", "background-color": "transparent !important", "text-shadow": "none"});
 	
