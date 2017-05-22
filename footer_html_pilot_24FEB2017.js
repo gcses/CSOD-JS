@@ -1,6 +1,6 @@
 $(document).ready(function(){
  
-	console.log("Test9");
+	console.log("Test10");
 	
 	//defer loading / set time out / long time out
 	//setTimeout(getAdditionalCSS, 30000);
@@ -58,8 +58,20 @@ $(document).ready(function(){
 	    $('.navTabs li.active a, .navTabs li:hover a').css({"color": "#000000", "text-decoration": "underline"});
 
 		
-	    //$('.user-interaction li').css({"background-image": "none !important"});
 		
+		
+$('.user-interaction li').css({"background-color": "#ffffff", "background-position": "0 -15px", "background-repeat": "repeat-x", "filter": "none", "text-decoration": "none",  "transition": "background-position 0.1s linear 0s"});
+	    // $('.user-interaction li hover').css({"background-image": "none !important"});	
+	
+		/*
+		    .user-interaction li:hover {
+        background-color:#E6E6E6;
+        background-position:0 -15px;
+        background-repeat:repeat-x;
+        filter:none;
+        text-decoration:none;
+        transition:background-position 0.1s linear 0s;
+*/
 		
 	
 		/*
