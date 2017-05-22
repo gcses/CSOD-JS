@@ -18,6 +18,9 @@ $(document).ready(function(){
 	   var fname = $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl01_widgetContainer_ctl00_htmlContainer").text();
 	   var lname = $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl02_widgetContainer_ctl00_htmlContainer").text();
 
+	   
+		
+		
 		/* hide for screen shot
 	   var elements = document.getElementsByClassName('avatar');
            var univProfileLi = elements[0];
@@ -49,7 +52,8 @@ $(document).ready(function(){
 	   $('.c-glbl-nav').css({"background-color": "#ffffff"});
 	   $('.smenu sm navTabs').css({"background-color": "#ffffff"});
 		
-		
+
+
 		
 		
 		
@@ -58,9 +62,10 @@ $(document).ready(function(){
 	    $('.navTabs li.active a, .navTabs li:hover a').css({"color": "#000000", "text-decoration": "underline"});
 
 		
+				//background:linear-gradient(to bottom, #FFFFFF 0%, #FAFAFA 50%, #EEEEEE 100%) repeat scroll 0 0 transparent;
+  // background:#FAFAFA; /* Old browsers */
 		
-		
-$('.user-interaction li').css({"background-color": "#ffffff", "background-position": "0 -15px", "background-repeat": "repeat-x", "filter": "none", "text-decoration": "none",  "transition": "background-position 0.1s linear 0s"});
+$('.user-interaction li').css({"background-color": "#ffffff", "text-decoration": "none"});
 	    // $('.user-interaction li hover').css({"background-image": "none !important"});	
 	
 		/*
