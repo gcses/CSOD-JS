@@ -80,7 +80,8 @@ $(document).ready(function(){
 	   //$("#ctl00_masterPageBody").css({"width": "100.5%", "margin": "-77px 0px 0px -6px" }); 
 		
 		
-		 $("#ctl00_masterPageBody").css({"width": "100.5%", "margin": "0px 0px 0px -6px" }); 
+		 $("#ctl00_masterPageBody").css({"width": "100.5%", "margin": "-30px 0px 0px -6px" }); 
+		
 		
 		
 	   $("#ctl00_ContentPlaceHolder1_labelError").css({"width": "100%"}); 
