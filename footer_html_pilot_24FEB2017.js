@@ -1,22 +1,19 @@
 $(document).ready(function(){
 
-	console.log("Test3");
+	console.log("Test4");
 	
 	//change the navigation bar to white, remove gradient		
 	$('#main-menu').css({"background-image": "none", "background-color": "#ffffff"});
 	
-	//fail
-	//$('#main-menu li:hover').css({"background-image": "none", "background-color": "yellow"});
-	//$('#main-menu li a:hover').css({"background-image": "none", "background-color": "yellow"});
-       // $('.c-glbl-nav:hover').css({"background-image": "none", "background-color": "yellow"});
-	
 	//handle the navigation bar active tab
 	$('#main-menu li.active').css({"background-color": "#ffffff", "text-decoration": "underline", "font-weight": "bold"}); //white out the active background
-
-	$('#main-menu li:hover').css({"background-color": "#ffffff !important", "text-decoration": "underline", "font-weight": "bold"});
+	//$('#main-menu li:hover').css({"background-color": "#ffffff !important", "text-decoration": "underline", "font-weight": "bold"});
+		//font is set here for nav bar
+         $('.navTabs').css({"background-color": "#ffffff"});	
+	 $('.navTabs li a').css({"background-image": "none", "text-shadow": "none", "color": "#808080", "font-weight": "normal"});
+	// $('.navTabs li.active, .navTabs li:hover').css({"background-image": "none", "background-color": "transparent !important", "text-shadow": "none"});
+	 //$('.navTabs li.active a, .navTabs li:hover a').css({"background-image": "none", "color": "#000000", "text-decoration": "underline"});
 	
-	
-
 	
 	
 	// $('.navTabs li a:active, .navTabs li a:hover').css({"background-color": "yellow", "text-shadow": "none"});
@@ -31,14 +28,7 @@ $(document).ready(function(){
 
 		
 	
-	//font is set here for nav bar
-         $('.navTabs').css({"background-color": "#ffffff"});	
-	 $('.navTabs li a').css({"background-image": "none", "text-shadow": "none", "color": "#808080", "font-weight": "normal"});
-	 $('.navTabs li.active, .navTabs li:hover').css({"background-image": "none", "background-color": "transparent !important", "text-shadow": "none"});
-	 $('.navTabs li.active a, .navTabs li:hover a').css({"background-image": "none", "color": "#000000", "text-decoration": "underline"});
-	
-	
-	 
+
 
 
 
