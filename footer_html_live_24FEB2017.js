@@ -2,7 +2,7 @@ $(document).ready(function(){
 
      //$('.cso-h1').css("color", "red");
 	
-	console.log("Test9");
+	console.log("Test10");
 	
 	$('#main-menu').css({"background-image": "none", "background-color": "#004593"});
 	
@@ -16,7 +16,7 @@ $(document).ready(function(){
 	}
 	
 	//move enlarge slider text / link - margin: top, right, bottom, left
-	 $(".ism-caption .ism-caption-0").css({"width": "501px", "height": "70px", "margin": "-20px, 0px, 0px, -20px"}); 
+	 $(".ism-caption .ism-caption-0").css({"width": "501px", "height": "70px", "margin": "-20px, 0px, 0px, -20px !important"}); 
 	
 	
 	
