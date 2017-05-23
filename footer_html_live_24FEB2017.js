@@ -2,7 +2,7 @@ $(document).ready(function(){
 
      //$('.cso-h1').css("color", "red");
 	
-	console.log("Test7");
+	console.log("Test8");
 	
 	$('#main-menu').css({"background-image": "none", "background-color": "#004593"});
 	
@@ -16,9 +16,9 @@ $(document).ready(function(){
 	}
 	
 	//move enlarge slider text / link - margin: top, right, bottom, left
-	 $(".ism-caption.ism-caption-0").css({"width": "40px", "height": "70px", "margin": "0px, 0px, 0px, 65px !important"}); 
+	// $(".ism-caption.ism-caption-0").css({"width": "40px", "height": "70px", "margin": "0px, 0px, 0px, 65px !important"}); 
 	
-	// $(".ism-caption.ism-caption-0").css({"width": "40px", "height": "70px", "position": "absolute", "margin": "0px, 0px, 0px, 65px"}); 
+	 $(".ism-caption.ism-caption-0").css({"width": "40px", "height": "70px", "position": "absolute", "margin": "0px, 0px, 0px, 65px"}); 
 	
 	
 	
