@@ -1,5 +1,5 @@
 $(document).ready(function(){
- 
+ dfhdgfhgfdhfh
 	console.log("Test4");
 	
 	//change the navigation bar to white, remove gradient		
