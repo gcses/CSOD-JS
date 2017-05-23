@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	console.log("Test1");
+	console.log("Test2");
 	
 	//change the navigation bar to white, remove gradient		
 	$('#main-menu').css({"background-image": "none", "background-color": "#ffffff"});
@@ -15,6 +15,7 @@ $(document).ready(function(){
 
 	$('#main-menu li:hover').css({"background-color": "#ffffff", "text-decoration": "underline", "font-weight": "bold"});
 	
+	$('.smenu .sm .navTabs li:hover ').css({"background-color": "yellow"});
 	
 	
 	// $('.navTabs li a:active, .navTabs li a:hover').css({"background-color": "yellow", "text-shadow": "none"});
@@ -22,7 +23,7 @@ $(document).ready(function(){
 	
 	//$('#main-menu ul li:hover').css({"background-image": "none", "background-color": "#ffffff"});
 	 	
-	//$('.smenu sm navTabs').css({"background-image": "none", "background-color": "#ffffff"});
+
 	//$('.user-interaction li').css({"background-image": "none", "background-color": "#ffffff", "text-decoration": "none"});
 	
 	 $('.compass-title').css({"font-size": "20px", "line-height": "36px", "margin-left": "30px", "margin-right": "30px", "display": "inline-block"});
