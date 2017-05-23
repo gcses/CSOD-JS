@@ -59,6 +59,12 @@ $(document).ready(function(){
  	    $(this).html($(this).html().replace('My Learning', fName + '\'s Learning In Progress'));
 		});
 	}
+	else
+	{
+		$('h2:contains("My Learning")').each(function(){
+ 	    		$(this).html($(this).html().replace('My Learning', 'Learning In Progress'));
+		});
+	}
 
         $smjquery('#main-menu').smartmenus('refresh');
 	
