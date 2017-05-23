@@ -2,7 +2,7 @@ $(document).ready(function(){
 
      //$('.cso-h1').css("color", "red");
 	
-	console.log("Test2");
+	console.log("Test3");
 	
 	$('#main-menu').css({"background-image": "none", "background-color": "#004593"});
 	
