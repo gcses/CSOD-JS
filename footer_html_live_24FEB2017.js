@@ -15,54 +15,16 @@ $(document).ready(function(){
         	$(".nav-transcript  ").attr("title","My Learning");
 	}
 	
+	//move enlarge slider text / link
+	 $(".ism-caption ism-caption-0").css({"width": "301px"}); 
+	
+	
+	
 	//Make the home page clickable and link to the Welcome page / Main page
 	$('a:contains("Home")').attr("href","/LMS/catalog/Main.aspx?tab_page_id=-67");
 	    
 	//hide the various Cornerstone footers
 	$('.df-footer').hide();
-	
-	/*
-	//swap the shopping carts coupon code text for customer code (this swaps but does not update somehow)
-	$('label:contains("coupon")').each(function(){
-		$(this).html("Enter customer code");
-		});
-	
-	//write to console to confirm attributes
-       // var x = $("label[for='txtCouponCode']").text();
-	//console.log("text: " + x);
-	
-	//swap the shopping carts coupon code text for customer code
-	$('span:contains("Coupon Code")').each(function(){
-		console.log("span found!!");
-	        $(this).html($(this).html().replace('Coupon','Customer'));
-		});
-	
-	//swap the label in the shopping reference number with purchase order number
-	$('label:contains("Reference Number")').each(function(){
- 		$(this).html($(this).html().replace('Reference Number','Purchase Order Number'));
-		});
-	
-	//swap the div shopping reference number with purchase order number
-	$('div:contains("Reference Number")').each(function(){
- 		$(this).html($(this).html().replace('Reference Number','Purchase Order Number'));
-		});
-		
-	*/
-	
-	//$('.cso-input-outer.med.cso-fleft-ie7').css({"background-color": "yellow"}); 
-	/*
-	
-	//write to console to confirm attributes
-	console.log("Test");
-        var x = $("label[for='txtCouponCode']").text();
-	console.log("text: " + x);
-	
-	$("label[for='txtCouponCode']").text("Whassup Foo");
-	$("label[for='txtCouponCode']").hide();
-	$("label[for='txtCouponCode']").css({"color": "black"}); 
-	*/
-	
-	
 	
 	// -------------  Browse For Training Global Search Options -------------
 	if (document.title.indexOf("Browse for Training") > -1)
