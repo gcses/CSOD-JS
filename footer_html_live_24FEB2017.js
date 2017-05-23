@@ -16,7 +16,7 @@ $(document).ready(function(){
 	}
 	
 	//move enlarge slider text / link - margin: top, right, bottom, left
-	 $(".ism-caption.ism-caption-0").css({"width": "31px", "height": "70px", "margin": "-20px, 0px, 0px, -20px !important"}); 
+	 $(".ism-caption.ism-caption-0").css({"width": "40px", "height": "70px", "margin": "0px, 0px, 0px, 25px"}); 
 	
 	
 	
