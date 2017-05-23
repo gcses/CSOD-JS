@@ -1,6 +1,8 @@
 $(document).ready(function(){
 
-     //$('.cso-h1').css("color", "red");	
+     //$('.cso-h1').css("color", "red");
+	
+	$('#main-menu').css({"background-image": "none", "background-color": "#004593"});
 	
 	if (document.title.indexOf("Universal Profile") > -1)
 	{	
