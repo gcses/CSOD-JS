@@ -2,6 +2,8 @@ $(document).ready(function(){
 
      //$('.cso-h1').css("color", "red");
 	
+	console.log("Test1");
+	
 	$('#main-menu').css({"background-image": "none", "background-color": "#004593"});
 	
 	if (document.title.indexOf("Universal Profile") > -1)
