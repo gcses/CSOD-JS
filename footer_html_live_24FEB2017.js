@@ -158,6 +158,9 @@ $(document).ready(function(){
  	$(this).html($(this).html().replace('Manage Employee Learning','Manage My Learners'));
 	});
 
+	
+	//remove 61 placeholder images
+	/*
 	$('.item.oc').css({'background':'url("https://placeholdit.imgix.net/~text?txtsize=33&txt=61×61&w=61&h=61")'});
 
 	$('.item.mt').css({'background':'url("https://placeholdit.imgix.net/~text?txtsize=33&txt=61×61&w=61&h=61")'});
@@ -169,6 +172,7 @@ $(document).ready(function(){
 	$('.item.vd').css({'background':'url("https://placeholdit.imgix.net/~text?txtsize=33&txt=61×61&w=61&h=61")'});
 
 	$('#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl01_widgetContainer_ctl00_pnlSuggestedTraining_title').css({'background-color':'#00B8B0'});
+        */
 
 	//setInterval here breaks Internet Explorer
 	//window.setInterval(replaceOnlineClass, 1000);
@@ -215,7 +219,6 @@ $(document).ready(function(){
 	 // console.log("replace() - End");
 	
 });
-
 
 
 function eventFire(element, elementType)
@@ -290,193 +293,3 @@ function replaceOnlineClass()
     } //end outer for
 } //end function	
 		
-
-
-
-/*
- function passSerializedValuesBackToSearchPage(values) {
-        ResetViewAfterPostback();
-        globalSearchManager.onSearchButtonClick(values);
-    }
-    function closeDialog() {
-        globalSearchManager.closeAdvanceOptionIFrame();
-        globalSearchManager.initMoreSearchOptions();
-    }
-    function HideAdvanceControl() {
-        $('.divAdvanceControls').hide();
-    }
-    function ShowAdvanceControl(selectedSearchEngineId) {    
-        $('.divAdvanceControls[engineId="' + selectedSearchEngineId + '"]').show();
-        //Set the search engine to the hidden field on the Advance Optional Control
-        $("input[id*='hfCurrentSearchEngine']").val(selectedSearchEngineId);
-    }
-    function PopulateAdvanceFields(selectedSearchEngineId, advanceCoptions) {
-        $("input[id*='hfCurrentSearchEngine']").val(selectedSearchEngineId);
-        $("input[id*='hfAdvanceOptions']").val(advanceCoptions);
-        __doPostBack('ctl00$ContentPlaceHolder1$ucSearchAdvanceControls$lkPopulateAdvanceFields','');
-    }
-    function ResetViewAfterPostback(){
-        //Set the Advance Control Visible based on the hidden field value
-        var selectedSearchEngineId = $("input[id*='hfCurrentSearchEngine']").val();
-        ShowAdvanceControl(selectedSearchEngineId);
-    }
-var globalSearchManager;
-	function Initialize() {
-		globalSearchManager = new GlobalSearchManager({
-			searchTextSelector: '.txtsearch',
-			searchEngineSelector: ".ddlSearchEngine",
-			advanceOptionsSelector: '#divAdvanceOptions',
-			advanceOptionsLinkSelector: '#lnkShowMoreSearchOptions',
-			loaderSelector: '#loader',
-			resultContainerSelector: '.srch-rslts',
-			searchButtonSelector: '#btSearch',
-			queryTipMessage: '#divEmptyQueryMessage',
-			HasMoreResultSelector: 'input[id$="hdHasMoreResult"]',
-		});
-		$(window).unload(function () {
-			if (window.history.replaceState) {
-				var obj = {
-					html: $('.srch-rslts').html(),
-					hasMoreResult: globalSearchManager._getHasMoreResultFlag()
-				};
-				window.history.replaceState(obj, "search result", window.location.href);
-			}
-		});
-		$(window).hashchange(function () {
-			globalSearchManager.onHashChange();
-			UpdateShoppingActivity();
-		});
-		$(window).scroll(function () {
-			if ($(window).scrollTop() != 0) {
-				$(".toTop").fadeIn();
-			}
-			else {
-				$(".toTop").fadeOut();
-			}
-			var scrollPercent = ($(window).scrollTop() + $(window).height()) / $(document).height();
-			if (scrollPercent > .80) {
-				globalSearchManager.onPaging();
-			}
-		});
-		$(".toTop").click(function () {
-			$('body,html').animate({ scrollTop: 0 }, 800);
-		});
-		$(".txtsearch:input").keydown(function (e) {
-			if (e.keyCode == 13) {
-				
-				var enterEvent = new jQuery.Event("enter.ps", { veto: false });
-				$(this).trigger(enterEvent);
-				if (!enterEvent.veto) {
-					if ($("#btSearch").is(':disabled') == false) {
-						$("#btSearch").click();
-					}
-					else if ($('#divAdvanceOptions').is(':visible') == true) {
-						$('[id$="btSubmit"]', '#divAdvanceOptions').get(0).click();
-					}
-				}
-			}
-		});
-		$(".cbFilter").click(function () {
-			globalSearchManager.onFilterCheckBoxClick();
-		});
-		$(".hlFilter").click(function () {
-			globalSearchManager.onFilterLinkClick(this);
-		});
-		$(".hlIcon").click(function () {
-		    $(this).toggleClass("selected");
-		    // if you don't do this here, this page will rely on deserializeParam() function, which will take the parameters from the last
-		    // request string rather than what was entered on the UI. Check for isWatermarked and then send an empty string if it is.
-		    if (Sys.Extended.UI.TextBoxWrapper.get_Wrapper($(globalSearchManager.searchTextSelector)[0])._isWatermarked) {
-		        GlobalSearchContext.query = "";
-		    } else {
-		        GlobalSearchContext.query = $(globalSearchManager.searchTextSelector).val() || "";
-		    }
-			globalSearchManager.onFilterIconClick();
-		});
-		$(".ddlSearchEngine").change(function () {
-			var index = $(".ddlSearchEngine").get(0).selectedIndex;
-			if ($(".ddlSearchEngine option").size() > 1) {
-				$(".ddlSearchEngine").dropkick('selectedIndex', index); // update dropkick (UI only since the dropdown has already been changed)
-			}
-			globalSearchManager.onSearchEngineIndexChanged();
-		});
-		$('#lnkShowMoreSearchOptions').click(function () {
-			globalSearchManager.showAdvanceOptionIFrame();
-		});
-		$("#btSearch").click(function () {
-			globalSearchManager.onSearchButtonClick();
-		});
-		globalSearchManager.onPageLoad();
-		//Bind the dropkick event after onPageLoad!!!
-		// if they click the dropkick, hide the options immediately since adv controls are positioned relatively above this control and the styles will break in ie
-		$('.dk_toggle', '.input-cont-outer').click(function () {
-			globalSearchManager.closeAdvanceOptionIFrame();
-		});
-		$('.dk_toggle', '.input-cont-outer').blur(function () {
-			globalSearchManager.initMoreSearchOptions();
-		});
-	
-		UpdateShoppingActivity();
-	}
-    function CloseAlertMessage() {
-        $('[id$="divSearchAlertMessage"]').hide();
-    }
-    function UpdateShoppingActivity() {
-        if(!false)
-            return;
-		var searchParams = globalSearchManager.getQueryString(); // uses hash if present; query params otherwise
-		// if s param is set to 1 (training) or nothing (everything) we should save shopping activity
-		var shouldSaveShoppingActivity = false;
-		var searchParamArray = searchParams.split("&");
-		for (var i = 0; i < searchParamArray.length; i++) {
-			var pair = searchParamArray[i].split("=");
-			if (pair[0] == 's') {
-				if (pair[1] == '1' || pair[1].length == 0) {
-					shouldSaveShoppingActivity = true;
-				}
-				break;
-			}
-		}
-		if (shouldSaveShoppingActivity) {
-			csCommon.updateShoppingActivity('/LMS/WebServices/ExtendedEnterpriseService.asmx/SaveShoppingActivity', window.location.href);
-		}
-	}
-	function GetBackQueryString() {
-		var backQueryString = window.location.search;
-		var hashIndex = window.location.href.indexOf("#");
-		if (hashIndex != -1) {
-			backQueryString += window.location.href.substring(hashIndex);
-		}
-		return backQueryString;
-	}
-	function GetTrainingNavUrl(loId) {
-		var backQueryString = GetBackQueryString();
-		var searchUrl = '/GlobalSearch/Search.aspx' + backQueryString;
-		var url = '/LMS/LoDetails/DetailsLo.aspx?loid=' + loId + '&query=' + encodeURIComponent(backQueryString) + '&back=' + encodeURIComponent(searchUrl);
-		window.location = url;
-	}
-	function GetCourseReviewNavUrl(loId) {
-		var backQueryString = GetBackQueryString();
-		var url = '/LMS/LoDetails/DetailsLo.aspx?loid=' + loId + '&query=' + encodeURIComponent(backQueryString) + '#t=2';
-		window.location = url;
-	}
-	function GetPeopleProfileNavUrl(userId) {
-		var backQueryString = GetBackQueryString();
-		var url = '/EPM/PeopleFinder/Profile.aspx?u=' + userId + '&m=1&query=' + encodeURIComponent(backQueryString);
-		window.location = url;
-	}
-	function GetVMNavUrl(vmId) {
-		var backQueryString = GetBackQueryString();
-		var url = '/LMS/VMDetails/VMDetails.aspx?vmId=' + vmId + '&query=' + encodeURIComponent(backQueryString);
-		window.location = url;
-	}
-	function GetCertificationNavUrl(certId) {
-		var backQueryString = GetBackQueryString();
-		var url = '/LMS/Certification/CertificationDetails.aspx?certid=' + certId + '&query=' + encodeURIComponent(backQueryString);
-		window.location = url;
-	}
-	function GetConnectPostingNavUrl(postingURL) {
-		var backQueryString = GetBackQueryString();
-		var url = ResolveUrl(postingURL.substring(1)) + '&query=' + encodeURIComponent(backQueryString);
-		window.location = url;
-*/
