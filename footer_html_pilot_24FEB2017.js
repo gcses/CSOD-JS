@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	console.log("Test18");
+	console.log("Test1");
 	
 	//change the navigation bar to white, remove gradient		
 	$('#main-menu').css({"background-image": "none", "background-color": "#ffffff"});
@@ -13,8 +13,20 @@ $(document).ready(function(){
 	 $("#main-menu > li").hover(function(){ 
 		 $(this).css({"background-color": "#ffffff!important",  "color": "#000000", "text-decoration": "underline", "font-weight": "bold"}); },
 		 function() { $(this).css({"background-color": "#ffffff",  "color": "#808080", "text-decoration": "", "font-weight": ""}); }
-	);
+	); 
 	
+	//Fix the search area and icons - move up - margin: top, right, bottom, left
+	$('#search .cso-top-srch-box ').css({"height": "37px", "border-color": "#dddddd", "box-shadow": "none", "margin": "0 10px 0 0"});
+	$('#search input').css({"height": "37px"});
+	$('div.tools').css({"margin": "-10 0px 0 0"});
+	
+	
+	
+	
+	
+	
+	
+	//$('#search .search-lnk:after').css({"content": "\f002", "position": "absolute", "right": "0", "top": "0", "color": "#004593", "width": "26px", "height": "28px", "display": "block", "font": "normal normal normal 14px/1 FontAwesome"});
 
 	
 	
@@ -116,9 +128,6 @@ $(document).ready(function(){
 		
 
 		
-	    $('#search .cso-top-srch-box ').css({"height": "37px", "border-color": "#dddddd", "box-shadow": "none", "margin": "0 10px 0 0"});
-	    $('#search input').css({"height": "37px"});	     
-	    $('#search .search-lnk:after').css({"content": "\f002", "position": "absolute", "right": "0", "top": "0", "color": "#004593", "width": "26px", "height": "28px", "display": "block", "font": "normal normal normal 14px/1 FontAwesome"});
 
 	    /*Tables*/
 		/*
