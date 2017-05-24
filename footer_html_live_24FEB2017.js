@@ -23,7 +23,7 @@ $(document).ready(function(){
 	if (document.title.indexOf("Welcome - Realize Your Potential") > -1)
 	{
 	    $("#sliderButton").css({"width": "60px", "height": "22px", "appearance": "button", "text-decoration": "none", "backgroundColor": "#004593", "margin": "30px 30px 0px 0px"}); 
-	    var element = document.getElementById("requestButton");
+	    var element = document.getElementById("sliderButton");
             element.style.position = "absolute";
             element.style.zIndex="2147483620";
 	}
