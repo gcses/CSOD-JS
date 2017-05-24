@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	console.log("Test6");
+	console.log("Test7");
 	
 	//change the navigation bar to white, remove gradient		
 	$('#main-menu').css({"background-image": "none", "background-color": "#ffffff"});
@@ -116,14 +116,32 @@ $(document).ready(function(){
 		
 	  $('.tablerolloverNewUI').css({"backgroundColor": "#ffffff!important"});
 		
-		$(".CsList tbody tr").hover(function(){ 
+	  $(".CsList tbody tr").hover(function(){ 
 		    $(this).css({"backgroundColor": "#ffffff!important"}); },
 			function() { $(this).css({"backgroundColor": "yellow!important"}); }
 		); 
 	
-												 									 
-												 
-	    //$('.Panel_contentMiddle tr:last-child td').css({"
+												 									 								 
+	   $('.Panel_contentMiddle tr:last-child td').css({"border-bottom": "none"});
+		
+		 $('.Panel_contentMiddle tr td:first-child').css({"color": "#004593"});
+		
+		 $('.Panel_contentMiddle td a').css({"color": "#ffffff", "font-weight": "normal", "padding": "8px 26px 8px 10px", "backgroundColor": "#004593", "min-width": "122px", "display": "inline-block", "box-sizing": "border-box", "position": "relative"});
+		
+		
+		 $(".Panel_contentMiddle td a").hover(function(){ 
+		      $(this).css({"text-decoration": "none", "backgroundColor": "#003066"}); },
+			function() { $(this).css({"backgroundColor": "#004593"}); }
+		); 
+		
+		 $('.Panel_contentMiddle td a:after').css({"content": "\f054", "position": "absolute", "right": "0", "top: 10px", "color": "#ffffff", "width": "26px", "height": "28px", "isplay": "block", "font": "normal normal normal 14px/1 FontAwesome"});
+		
+		 $('.cs-panel-flat.Panel_footer, .cs-panel-plain.Panel_footer, .cs-panel-gradient.Panel_footer').css({"border": "none"});
+		
+		
+		
+		
+		
 		
 
 		
