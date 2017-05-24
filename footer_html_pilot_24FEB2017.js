@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	console.log("Test3");
+	console.log("Test4");
 	
 	//change the navigation bar to white, remove gradient		
 	$('#main-menu').css({"background-image": "none", "background-color": "#ffffff"});
@@ -10,10 +10,9 @@ $(document).ready(function(){
 	
 	 $('.navTabs li a').css({"background-image": "none", "text-shadow": "none", "color": "#808080", "font-weight": "normal"});
 	
-	 $("#main-menu > li").hover(function(){ 
-		 $(this).css({"backgroundColor": "#ffffff!important",  "color": "#000000", "text-decoration": "underline", "font-weight": "bold"}); },
-		 function() { $(this).css({"backgroundColor": "#ffffff",  "color": "#808080", "text-decoration": "", "font-weight": ""}); }
-	); 
+	
+	
+
 	
 	//Fix the search area and icons - move up - margin: top, right, bottom, left
 	$('#search .cso-top-srch-box').css({"height": "37px", "border-color": "#dddddd", "box-shadow": "none", "margin": "0 10px 0 0"});
@@ -394,7 +393,10 @@ $(document).ready(function(){
 	
 	createAccordionControls();
 
-	
+	 $("#main-menu > li").hover(function(){ 
+		 $(this).css({"backgroundColor": "yellow",  "color": "#000000", "text-decoration": "underline", "font-weight": "bold"}); },
+		 function() { $(this).css({"backgroundColor": "#ffffff",  "color": "#808080", "text-decoration": "", "font-weight": ""}); }
+	); 
 	
 });  // end $(document).ready(function(){
 
@@ -435,9 +437,6 @@ function createAccordionControls()
 	
 	//$('.cs-subjwidg-list li.cat').each(function(){
  	//    $(this).append($("Hello")});	
-	
-	
-	 
 	
 	//$(".cs-subjwidg-list li.cat a.exp-icon:after").css({ "content": " - AAA" });  
     	//$(".cs-subjwidg-list li.cat .exp-icon.selected:after").css({   "content": " - AAA" });  
@@ -510,44 +509,6 @@ function getAdditionalCSS() {
        bdy.appendChild(link);
 }
 
-/*
-function showCheckboxes() {
-  var checkboxes = document.getElementById("checkboxes");
-  if (!expanded) {
-    checkboxes.style.display = "block";
-    expanded = true;
-  } else {
-    checkboxes.style.display = "none";
-    expanded = false;
-  }
-}
-
-
-function dataBind(domElement, obj) {    
-    var bind = domElement.getAttribute("bind").split(":");
-    var domAttr = bind[0].trim(); // the attribute on the DOM element
-    var itemAttr = bind[1].trim(); // the attribute the object
-
-    // when the object changes - update the DOM
-    Object.observe(obj, function (change) {
-        domElement[domAttr] = obj[itemAttr]; 
-    });
-    // when the dom changes - update the object
-    new MutationObserver(updateObj).observe(domElement, { 
-        attributes: true,
-        childList: true,
-        characterData: true
-    });
-    domElement.addEventListener("keyup", updateObj);
-    domElement.addEventListener("click",updateObj);
-    function updateObj(){
-        obj[itemAttr] = domElement[domAttr];   
-    }
-    // start the cycle by taking the attribute from the object and updating it.
-    domElement[domAttr] = obj[itemAttr]; 
-}
-
-*/
 
 function replaceOnlineClass() 
 {
