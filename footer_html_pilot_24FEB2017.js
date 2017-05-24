@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	console.log("Test2");
+	console.log("Test3");
 	
 	//change the navigation bar to white, remove gradient		
 	$('#main-menu').css({"background-image": "none", "background-color": "#ffffff"});
@@ -16,20 +16,16 @@ $(document).ready(function(){
 	 $('.navTabs li:hover').css({"background-image": "none", "background-color": "yellow !important", "text-shadow": "none"});
 	 //$('.navTabs li.active a, .navTabs li:hover a').css({"background-image": "none", "color": "#000000", "text-decoration": "underline"});
 	 
+	$("#main-menu li").hover(function()
+	{
+    	    $(this).css("background-color","yellow");
+  	     },function(){
+    		$(this).css("background","");
+  	});
+	
+	
 	//underlines all sub-categories of active category
 	$('.navTabs li.active a').css({"background-image": "none", "color": "#000000", "text-decoration": "underline"});
-	
-		
-	$('#main-menu li:hover').hover(
-  		function() {
- 		 console.log("Hover Hover");
-  		}
-	);
-	
-	
-	$('#main-menu li:hover').css({"background-image": "none", "background-color": "yellow !important"});
-	
-	
 	
 
 	//$('.user-interaction li').css({"background-image": "none", "background-color": "#ffffff", "text-decoration": "none"});
