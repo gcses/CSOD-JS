@@ -1,33 +1,24 @@
 $(document).ready(function(){
 
-	console.log("Test11");
+	console.log("Test12");
 	
 	//change the navigation bar to white, remove gradient		
 	$('#main-menu').css({"background-image": "none", "background-color": "#ffffff"});
 	
 	//handle the navigation bar active tab, only decorate first descendant or main categories
-	$('#main-menu > li.active').css({"background-color": "#ffffff", "text-decoration": "underline", "font-weight": "bold"}); //white out the active background
-	//$('#main-menu li:hover').css({"background-color": "#ffffff !important", "text-decoration": "underline", "font-weight": "bold"});
-		//font is set here for nav bar
+	$('#main-menu > li.active').css({"background-color": "#ffffff", "text-decoration": "underline", "font-weight": "bold"});
 	
 	 $('.navTabs li a').css({"background-image": "none", "text-shadow": "none", "color": "#808080", "font-weight": "normal"});
 	
 	 $("#main-menu > li").hover(function(){ 
-		 $(this).css({"background-color": "#ffffff", "text-decoration": "underline", "font-weight": "bold"}); },
-		 function() { $(this).css({"background-color": "#ffffff", "text-decoration": "", "font-weight": ""}); }
+		 $(this).css({"background-color": "#ffffff",  "color": "#000000", "text-decoration": "underline", "font-weight": "bold"}); },
+		 function() { $(this).css({"background-color": "#ffffff",  "color": "#808080", "text-decoration": "", "font-weight": ""}); }
 	);
 	
 	
-	
-	// $('.navTabs li:hover').css({"background-image": "none", "background-color": "yellow !important", "text-shadow": "none"});
 	 //$('.navTabs li.active a, .navTabs li:hover a').css({"background-image": "none", "color": "#000000", "text-decoration": "underline"});
 	 
-	
 
-	//$("#main-menu li").hover(function()
-	//        { $(this).css("background-color": "#ffffff", "text-decoration": "underline", "font-weight": "bold"); },
-	//	function() { $(this).css("background-color": "#ffffff", "text-decoration": "none", "font-weight": "normal"); }
-	//);
 	
 	//underlines all sub-categories of active category
 	//$('.navTabs li.active a').css({"background-image": "none", "color": "#000000", "text-decoration": "underline"});
@@ -136,9 +127,6 @@ $(document).ready(function(){
 	    $('.Panel_contentMiddle tr:last-child td').css({"
 		*/  
 
-
-		
-		
 		
 	   //remove rounded corners from slider
            $("#my-slider").css({"width": "101%", "margin-bottom": "200px"}); 
