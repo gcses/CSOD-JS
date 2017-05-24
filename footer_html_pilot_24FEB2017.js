@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	console.log("Test15");
+	console.log("Test17");
 	
 	//change the navigation bar to white, remove gradient		
 	$('#main-menu').css({"background-image": "none", "background-color": "#ffffff"});
@@ -15,10 +15,7 @@ $(document).ready(function(){
 		 function() { $(this).css({"background-color": "#ffffff",  "color": "#808080", "text-decoration": "", "font-weight": ""}); }
 	);
 	
-	 $(".c-glbl-nav").hover(function(){ 
-		 $(this).css({"background-color": "#ffffff!important"}); },
-		 function() { $(this).css({"background-color": "#ffffff"}); }
-	);
+
 	
 	
 	 //$('.navTabs li.active a, .navTabs li:hover a').css({"background-image": "none", "color": "#000000", "text-decoration": "underline"});
@@ -78,17 +75,27 @@ $(document).ready(function(){
 	   univProfileLi.style.verticalAlign = "middle";
 	   */
 	
-		
-	
-		
+
 	  //all of this needs testing
 	   $('*').css({"font-family": "'Source Sans Pro', sans-serif !important", "font-weight": "normal"});
 	   $('body').css({"background-color": "#f2f2f2", "font-family": "'Source Sans Pro-bottom', sans-serif", "font-weight": "normal", "padding": "0", "margin": "0"}); 
 	   //$('#mainContainer').css({"max-width": "1200px", "margin": "0 auto"});
 	
-           /*Header Top Bar - Logo and Header*/     
+		
+		
+		
+		
+		
+		
+		
+           /*Header Top Bar - Logo and Header*/   
+		
+		
+		
+		
            $('.imageLogo').css({"margin-left": "30px"});
-	   $('#tblTopBar').css({"background-color": "#004593"});
+	   $('#tblTopBar').css({"background-color": "#004593", "margin-top": "-10px"});
+		
            $('#tblTopBar tr:nth-child(1), #tblTopBar tr:nth-child(3)').css({"height": "0"});
            $('.user-interaction li').css({"background-color": "none !important", "border": "none", "border-radius": "0", "padding-left": "3px", "border-left": "solid 1px #ffffff", "margin-left": "3px"});
            $('.user-interaction li:first-child').css({"color": "#ffffff", "text-align": "center", "line-height": "32px", "width": "auto !important", "padding": "0 10px 0 24px !important", "border-left": "none"});
@@ -107,12 +114,7 @@ $(document).ready(function(){
 		
 		
 		
-		
-		
-		
-		
-		
-		
+
 		
 	    $('#search .cso-top-srch-box ').css({"height": "37px", "border-color": "#dddddd", "box-shadow": "none", "margin": "0 10px 0 0"});
 	    $('#search input').css({"height": "37px"});	     
@@ -140,13 +142,7 @@ $(document).ready(function(){
 	
 	   // //Resize and reposition slider - margin: top, right, bottom, left
 	   $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").css({"width": "102%", "margin": "0px 0px 0px -5px"}); 
-	   //$("#ctl00_masterPageBody").css({"width": "100.5%", "margin": "-77px 0px 0px -6px" }); 
-		
-		
-		 $("#ctl00_masterPageBody").css({"width": "100.5%", "margin": "-30px 0px 0px -6px" }); 
-		
-		
-		
+	   $("#ctl00_masterPageBody").css({"width": "100.5%", "margin": "-30px 0px 0px -6px" }); 
 	   $("#ctl00_ContentPlaceHolder1_labelError").css({"width": "100%"}); 
 	   $("#ctl00_ContentPlaceHolder1_widgetLayout_mainPageDiv").css({"width": "100%"}); 
 	   $("#ctl00_ContentPlaceHolder1_widgetLayout_mainDivRenderedWidgets").css({"width": "100%"}); 
