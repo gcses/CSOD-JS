@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	console.log("Test7");
+	console.log("Test8");
 	
 	//change the navigation bar to white, remove gradient		
 	$('#main-menu').css({"background-image": "none", "background-color": "#ffffff"});
@@ -11,6 +11,13 @@ $(document).ready(function(){
 		//font is set here for nav bar
 	
 	 $('.navTabs li a').css({"background-image": "none", "text-shadow": "none", "color": "#808080", "font-weight": "normal"});
+	
+	
+	 $("#main-menu > li").hover(function(){ 
+		 $(this).css("background-color": "#ffffff", "text-decoration": "underline", "font-weight": "bold"); },
+		 function() { $(this).css("background-color": "#ffffff", "text-decoration": "none", "font-weight": "normal"); }
+	);
+	
 	
 	
 	// $('.navTabs li:hover').css({"background-image": "none", "background-color": "yellow !important", "text-shadow": "none"});
