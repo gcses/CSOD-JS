@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	console.log("Test8");
+	console.log("Test9");
 	
 	//change the navigation bar to white, remove gradient		
 	$('#main-menu').css({"background-image": "none", "background-color": "#ffffff"});
@@ -14,8 +14,8 @@ $(document).ready(function(){
 	
 	
 	 $("#main-menu > li").hover(function(){ 
-		 $(this).css("background-color": "#ffffff", "text-decoration": "underline", "font-weight": "bold"); },
-		 function() { $(this).css("background-color": "#ffffff", "text-decoration": "none", "font-weight": "normal"); }
+		 $(this).css("background-color": "red"); },
+		 function() { $(this).css("background-color": "#ffffff"); }
 	);
 	
 	
