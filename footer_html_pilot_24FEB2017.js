@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	console.log("Test5");
+	console.log("Test6");
 	
 	//change the navigation bar to white, remove gradient		
 	$('#main-menu').css({"background-image": "none", "background-color": "#ffffff"});
@@ -106,9 +106,23 @@ $(document).ready(function(){
 	    $('.cs-panel-flat').css({"padding": "30px", "box-shadow": "0 0 0 0 rgba(0, 0, 0, 0.2)", "box-sizing": "border-box", "backgroundColor": "#ffffff"});
 				  
 				  
-          //  $('table .CsList th').css({"
-	  //  $('.Panel_contentMiddle td').css({"
-	  //  $('.Panel_contentMiddle tr:hover, .tablerolloverNewUI,.CsList tbody tr:hover td').css({"
+          $('table .CsList th').css({"display": "none"});
+	  $('.Panel_contentMiddle td').css({"padding": "12px", "border-top": "1px solid #f2f3f4"});
+		
+		$(".Panel_contentMiddle tr").hover(function(){ 
+		    $(this).css({"backgroundColor": "#ffffff!important"}); },
+			function() { $(this).css({"backgroundColor": "yellow!important"}); }
+		); 
+		
+	  $('.tablerolloverNewUI').css({"backgroundColor": "#ffffff!important"});
+		
+		$(".CsList tbody tr").hover(function(){ 
+		    $(this).css({"backgroundColor": "#ffffff!important"}); },
+			function() { $(this).css({"backgroundColor": "yellow!important"}); }
+		); 
+	
+												 									 
+												 
 	    //$('.Panel_contentMiddle tr:last-child td').css({"
 		
 
