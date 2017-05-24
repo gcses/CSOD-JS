@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	console.log("Test4");
+	console.log("Test1");
 	
 	//change the navigation bar to white, remove gradient		
 	$('#main-menu').css({"background-image": "none", "background-color": "#ffffff"});
@@ -10,9 +10,10 @@ $(document).ready(function(){
 	
 	 $('.navTabs li a').css({"background-image": "none", "text-shadow": "none", "color": "#808080", "font-weight": "normal"});
 	
-	
-	
-
+	 $("#main-menu > li").hover(function(){ 
+		 $(this).css({"backgroundColor": "yellow",  "color": "#000000", "text-decoration": "underline", "font-weight": "bold"}); },
+		 function() { $(this).css({"backgroundColor": "#ffffff",  "color": "#808080", "text-decoration": "", "font-weight": ""}); }
+	); 
 	
 	//Fix the search area and icons - move up - margin: top, right, bottom, left
 	$('#search .cso-top-srch-box').css({"height": "37px", "border-color": "#dddddd", "box-shadow": "none", "margin": "0 10px 0 0"});
@@ -25,38 +26,14 @@ $(document).ready(function(){
 	
 	
 	//$('#search .search-lnk:after').css({"content": "\f002", "position": "absolute", "right": "0", "top": "0", "color": "#004593", "width": "26px", "height": "28px", "display": "block", "font": "normal normal normal 14px/1 FontAwesome"});
-
+	//$('.navTabs li.active a, .navTabs li:hover a').css({"background-image": "none", "color": "#000000", "text-decoration": "underline"});
 	
-	
-	 //$('.navTabs li.active a, .navTabs li:hover a').css({"background-image": "none", "color": "#000000", "text-decoration": "underline"});
-	 
-
-	
-	//underlines all sub-categories of active category
+	//underlines all sub-categories of active category - do we want to do that?
 	//$('.navTabs li.active a').css({"background-image": "none", "color": "#000000", "text-decoration": "underline"});
 
 	//$('.user-interaction li').css({"background-image": "none", "background-color": "#ffffff", "text-decoration": "none"});
 	 $('.compass-title').css({"font-size": "20px", "line-height": "36px", "margin-left": "30px", "margin-right": "30px", "display": "inline-block"});
 
-		
-	
-
-
-
-
-	
-
-	
-	
-	
-		
-	
-	
-	
-	
-	
-	
-	
 	
 	//defer loading / set time out / long time out
 	//setTimeout(getAdditionalCSS, 30000);
@@ -98,8 +75,6 @@ $(document).ready(function(){
            $('.user-interaction li').css({"background-color": "none !important", "border": "none", "border-radius": "0", "padding-left": "3px", "border-left": "solid 1px #ffffff", "margin-left": "3px"});
            $('.user-interaction li:first-child').css({"color": "#ffffff", "text-align": "center", "line-height": "32px", "width": "auto !important", "padding": "0 10px 0 24px !important", "border-left": "none"});
 			
-		
-
 	
 		/*
 		Targets: <div role="navigation" aria-label="Main menu">
@@ -116,18 +91,19 @@ $(document).ready(function(){
 		
 
 	    /*Tables*/
-		/*
-            $('.cs-panel-flat, .cs-panel-plain, .cs-panel-gradient').css({"
- 	    $('.cs-panel-flat .Panel_content').css({"
-	    $('.cs-panel-flat .Panel_title').css({"
-	    $('.Panel_titleMiddle a, .Panel_titleMiddle a:hover').css({"
-	    $('.cs-panel-flat .Panel_titleMiddle div, .cs-panel-plain .Panel_titleMiddle div, .cs-panel-gradient .Panel_titleMiddle div, .cs-panel-flat .Panel_titleMiddle h2, .cs-panel-plain .Panel_titleMiddle h2, .cs-panel-gradient .Panel_titleMiddle h2').css({"
-	    $('.cs-panel-flat').css({"
-            $('table .CsList th').css({"
-	    $('.Panel_contentMiddle td').css({"
-	    $('.Panel_contentMiddle tr:hover, .tablerolloverNewUI,.CsList tbody tr:hover td').css({"
-	    $('.Panel_contentMiddle tr:last-child td').css({"
-		*/  
+            $('.cs-panel-flat, .cs-panel-plain, .cs-panel-gradient').css({"border-radius": "0"});
+ 	    $('.cs-panel-flat .Panel_content').css({"border-color": "transparent"});
+		
+	    $('.cs-panel-flat .Panel_title').css({"background-color": "#ffffff"});
+	    $('.Panel_titleMiddle a, .Panel_titleMiddle a:hover').css({"color": "#000000"}); 
+		
+	  //  $('.cs-panel-flat .Panel_titleMiddle div, .cs-panel-plain .Panel_titleMiddle div, .cs-panel-gradient .Panel_titleMiddle div, .cs-panel-flat .Panel_titleMiddle h2, .cs-panel-plain .Panel_titleMiddle h2, .cs-panel-gradient .Panel_titleMiddle h2').css({"
+	  //  $('.cs-panel-flat').css({"
+          //  $('table .CsList th').css({"
+	  //  $('.Panel_contentMiddle td').css({"
+	  //  $('.Panel_contentMiddle tr:hover, .tablerolloverNewUI,.CsList tbody tr:hover td').css({"
+	    //$('.Panel_contentMiddle tr:last-child td').css({"
+		
 
 		
 	   //remove rounded corners from slider
@@ -393,10 +369,6 @@ $(document).ready(function(){
 	
 	createAccordionControls();
 
-	 $("#main-menu > li").hover(function(){ 
-		 $(this).css({"backgroundColor": "yellow",  "color": "#000000", "text-decoration": "underline", "font-weight": "bold"}); },
-		 function() { $(this).css({"backgroundColor": "#ffffff",  "color": "#808080", "text-decoration": "", "font-weight": ""}); }
-	); 
 	
 });  // end $(document).ready(function(){
 
