@@ -16,11 +16,13 @@ $(document).ready(function(){
 	// $('.navTabs li:hover').css({"background-image": "none", "background-color": "yellow !important", "text-shadow": "none"});
 	 //$('.navTabs li.active a, .navTabs li:hover a').css({"background-image": "none", "color": "#000000", "text-decoration": "underline"});
 	 
-	$("#main-menu li").hover(
-		function()
+	
+	
+	
+	
+	$("#main-menu li").hover(function()
 	        { $(this).css("background-color": "#ffffff", "text-decoration": "underline", "font-weight": "bold"); },
-		function()
-		{ $(this).css("background-color": "#ffffff", "text-decoration": "none", "font-weight": "normal"); }
+		function() { $(this).css("background-color": "#ffffff", "text-decoration": "none", "font-weight": "normal"); }
 	);
 	
 	//underlines all sub-categories of active category
