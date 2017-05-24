@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	console.log("Test1");
+	console.log("Test2");
 	
 	//change the navigation bar to white, remove gradient		
 	$('#main-menu').css({"background-image": "none", "background-color": "#ffffff"});
@@ -75,9 +75,6 @@ $(document).ready(function(){
 	   var fname = $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl01_widgetContainer_ctl00_htmlContainer").text();
 	   var lname = $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl02_widgetContainer_ctl00_htmlContainer").text();
 
-	   
-		
-		
 		/* hide for screen shot
 	   var elements = document.getElementsByClassName('avatar');
            var univProfileLi = elements[0];
@@ -94,16 +91,7 @@ $(document).ready(function(){
 	
 		
 		
-		
-		
-		
-		
-		
            /*Header Top Bar - Logo and Header*/   
-		
-		
-		
-		
            $('.imageLogo').css({"margin-left": "30px"});
 	   $('#tblTopBar').css({"background-color": "#004593"});
 		
@@ -120,7 +108,7 @@ $(document).ready(function(){
         				<ul id="main-menu" class="smenu sm navTabs" aria-label="Main menu">
 
 					 <li class="active">
-*/
+		*/
 
 		
 		
@@ -144,13 +132,13 @@ $(document).ready(function(){
 
 		
 	   //remove rounded corners from slider
-           $("#my-slider").css({"width": "101%", "margin-bottom": "200px"}); 
+           $("#my-slider").css({"width": "101%", "margin-bottom": "200px"});  
 	   document.getElementById("my-slider").style.borderRadius = "0px";
 	   //document.getElementById("my-slider").style.zIndex = "-10000";  //this may be too deep in the stack
 	
 	   // //Resize and reposition slider - margin: top, right, bottom, left
 	   $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").css({"width": "102%", "margin": "0px 0px 0px -5px"}); 
-	   $("#ctl00_masterPageBody").css({"width": "100.5%", "margin": "-30px 0px 0px -6px" }); 
+	   $("#ctl00_masterPageBody").css({"width": "100.5%", "margin": "-40px 0px 0px -6px" });  //-30
 	   $("#ctl00_ContentPlaceHolder1_labelError").css({"width": "100%"}); 
 	   $("#ctl00_ContentPlaceHolder1_widgetLayout_mainPageDiv").css({"width": "100%"}); 
 	   $("#ctl00_ContentPlaceHolder1_widgetLayout_mainDivRenderedWidgets").css({"width": "100%"}); 
