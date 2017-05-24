@@ -22,7 +22,7 @@ $(document).ready(function(){
 	//add action button to middle of slider area
 	if (document.title.indexOf("Welcome - Realize Your Potential") > -1)
 	{
-	    $("#requestButton").css({"width": "60px", "height": "22px", "appearance": "button", "text-decoration": "none", "backgroundColor": "#004593", "margin": "30px 30px 0px 0px"}); 
+	    $("#sliderButton").css({"width": "60px", "height": "22px", "appearance": "button", "text-decoration": "none", "backgroundColor": "#004593", "margin": "30px 30px 0px 0px"}); 
 	    var element = document.getElementById("requestButton");
             element.style.position = "absolute";
             element.style.zIndex="2147483620";
