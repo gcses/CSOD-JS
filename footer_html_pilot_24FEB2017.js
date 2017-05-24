@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	console.log("Test2");
+	console.log("Test3");
 	
 	//change the navigation bar to white, remove gradient		
 	$('#main-menu').css({"background-image": "none", "background-color": "#ffffff"});
@@ -11,8 +11,8 @@ $(document).ready(function(){
 	 $('.navTabs li a').css({"background-image": "none", "text-shadow": "none", "color": "#808080", "font-weight": "normal"});
 	
 	 $("#main-menu > li").hover(function(){ 
-		 $(this).css({"background-color": "#ffffff!important",  "color": "#000000", "text-decoration": "underline", "font-weight": "bold"}); },
-		 function() { $(this).css({"background-color": "#ffffff",  "color": "#808080", "text-decoration": "", "font-weight": ""}); }
+		 $(this).css({"backgroundColor": "#ffffff!important",  "color": "#000000", "text-decoration": "underline", "font-weight": "bold"}); },
+		 function() { $(this).css({"backgroundColor": "#ffffff",  "color": "#808080", "text-decoration": "", "font-weight": ""}); }
 	); 
 	
 	//Fix the search area and icons - move up - margin: top, right, bottom, left
