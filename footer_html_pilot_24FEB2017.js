@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	console.log("Test1");
+	console.log("Test3");
 	
 	//change the navigation bar to white, remove gradient		
 	$('#main-menu').css({"background-image": "none", "background-color": "#ffffff"});
@@ -16,11 +16,11 @@ $(document).ready(function(){
 	); 
 	
 	//Fix the search area and icons - move up - margin: top, right, bottom, left
-	$('#search .cso-top-srch-box ').css({"height": "37px", "border-color": "#dddddd", "box-shadow": "none", "margin": "0 10px 0 0"});
+	$('#search .cso-top-srch-box').css({"height": "37px", "border-color": "#dddddd", "box-shadow": "none", "margin": "0 10px 0 0"});
 	$('#search input').css({"height": "37px"});
-	$('div.tools').css({"margin": "-10 0px 0 0"});
+	$('div.tools').css({"margin": "-20px 0px 0px 0px"});
 	
-	
+	$('.tools').css({"margin": "-20px 0px 0px 0px"});
 	
 	
 	
