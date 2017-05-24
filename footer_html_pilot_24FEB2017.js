@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	console.log("Test17");
+	console.log("Test18");
 	
 	//change the navigation bar to white, remove gradient		
 	$('#main-menu').css({"background-image": "none", "background-color": "#ffffff"});
@@ -94,7 +94,7 @@ $(document).ready(function(){
 		
 		
            $('.imageLogo').css({"margin-left": "30px"});
-	   $('#tblTopBar').css({"background-color": "#004593", "margin-top": "-10px"});
+	   $('#tblTopBar').css({"background-color": "#004593"});
 		
            $('#tblTopBar tr:nth-child(1), #tblTopBar tr:nth-child(3)').css({"height": "0"});
            $('.user-interaction li').css({"background-color": "none !important", "border": "none", "border-radius": "0", "padding-left": "3px", "border-left": "solid 1px #ffffff", "margin-left": "3px"});
