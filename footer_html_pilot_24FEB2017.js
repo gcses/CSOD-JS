@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	console.log("Test10");
+	console.log("Test11");
 	
 	//change the navigation bar to white, remove gradient		
 	$('#main-menu').css({"background-image": "none", "background-color": "#ffffff"});
@@ -12,9 +12,8 @@ $(document).ready(function(){
 	
 	 $('.navTabs li a').css({"background-image": "none", "text-shadow": "none", "color": "#808080", "font-weight": "normal"});
 	
-	
 	 $("#main-menu > li").hover(function(){ 
-		 $(this).css({"background-color": "#ffffff !important", "text-decoration": "underline", "font-weight": "bold"}); },
+		 $(this).css({"background-color": "#ffffff", "text-decoration": "underline", "font-weight": "bold"}); },
 		 function() { $(this).css({"background-color": "#ffffff", "text-decoration": "", "font-weight": ""}); }
 	);
 	
@@ -31,7 +30,7 @@ $(document).ready(function(){
 	//);
 	
 	//underlines all sub-categories of active category
-	$('.navTabs li.active a').css({"background-image": "none", "color": "#000000", "text-decoration": "underline"});
+	//$('.navTabs li.active a').css({"background-image": "none", "color": "#000000", "text-decoration": "underline"});
 
 	//$('.user-interaction li').css({"background-image": "none", "background-color": "#ffffff", "text-decoration": "none"});
 	 $('.compass-title').css({"font-size": "20px", "line-height": "36px", "margin-left": "30px", "margin-right": "30px", "display": "inline-block"});
@@ -93,7 +92,7 @@ $(document).ready(function(){
 	
            /*Header Top Bar*/     
            $('.imageLogo').css({"margin-left": "30px"});
-	   $('#tblTopBar').css({"background-color": "#004593"});  /* Mark, please change this in the admin from #ffffff */
+	  // $('#tblTopBar').css({"background-color": "#004593"});  /* Mark, please change this in the admin from #ffffff */
            $('#tblTopBar tr:nth-child(1), #tblTopBar tr:nth-child(3)').css({"height": "0"});
            $('.user-interaction li').css({"background-color": "none !important", "border": "none", "border-radius": "0", "padding-left": "3px", "border-left": "solid 1px #ffffff", "margin-left": "3px"});
            $('.user-interaction li:first-child').css({"color": "#ffffff", "text-align": "center", "line-height": "32px", "width": "auto !important", "padding": "0 10px 0 24px !important", "border-left": "none"});
@@ -360,7 +359,10 @@ $(document).ready(function(){
 	$('.item.ev').css({'background':'url("https://placeholdit.imgix.net/~text?txtsize=33&txt=61×61&w=61&h=61")'});
 	$('.item.vd').css({'background':'url("https://placeholdit.imgix.net/~text?txtsize=33&txt=61×61&w=61&h=61")'});
 
-	$('#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl01_widgetContainer_ctl00_pnlSuggestedTraining_title').css({'background-color':'#00B8B0'});
+	//test this
+	//$('#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl01_widgetContainer_ctl00_pnlSuggestedTraining_title').css({'background-color':'#00B8B0'});
+	
+	
 	
 	//this setInterval logic breaks Internet Explorer
 	//window.setInterval(replaceOnlineClass, 1000);
