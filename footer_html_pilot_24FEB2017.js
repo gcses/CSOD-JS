@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	console.log("Test6");
+	console.log("Test7");
 	
 	//change the navigation bar to white, remove gradient		
 	$('#main-menu').css({"background-image": "none", "background-color": "#ffffff"});
@@ -21,9 +21,9 @@ $(document).ready(function(){
 	
 	//$('div.tools').css({"margin": "-20px 0px 0px 0px"});
 	
-	$('.topBarOuter').css({"padding": "0px 0px 20px 0px"});
+	$('.topBarOuter').css({"padding": "0px 0px 20px 0px", "background-color": "yellow" });
 	
-	$('.tools').css({"margin": "-20px 0px 0px 0px"});
+	$('.tools').css({"margin": "-20px 0px 0px 0px", "background-color": "red"});
 	
 	
 	
