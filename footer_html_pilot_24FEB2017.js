@@ -21,7 +21,6 @@ $(document).ready(function(){
 	
 	$('div.tools').css({"margin": "-20px 0px 0px 0px"});
 	
-	
 	$('.topBarOuter').css({"margin": "0px 0px 20px 0px"});
 	
 	//$('.tools').css({"margin": "-20px 0px 0px 0px"});
