@@ -18,9 +18,9 @@ $(document).ready(function(){
 	 
 	$("#main-menu li").hover(
 		function()
-	        { $(this).css("background-color": "#ffffff", "text-decoration": "underline", "font-weight": "bold"); },
+	        { $(this).css("background-color": "#ffffff !important", "text-decoration": "underline", "font-weight": "bold"); },
 		function()
-		{ $(this).css("background-color": "#ffffff", "text-decoration": "none", "font-weight": "normal"); }
+		{ $(this).css("background-color": "#ffffff !important", "text-decoration": "none", "font-weight": "normal"); }
 	);
 	
 	//underlines all sub-categories of active category
