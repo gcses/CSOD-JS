@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	console.log("Test7");
+	console.log("Test1");
 	
 	//change the navigation bar to white, remove gradient		
 	$('#main-menu').css({"background-image": "none", "background-color": "#ffffff"});
@@ -20,6 +20,9 @@ $(document).ready(function(){
 	$('.navTabs li.active a').css({"background-image": "none", "color": "#000000", "text-decoration": "underline"});
 	
 		
+	
+	
+	$('#main-menu li:hover').css({"background-image": "none", "background-color": "yellow !important"});
 	
 	
 	
