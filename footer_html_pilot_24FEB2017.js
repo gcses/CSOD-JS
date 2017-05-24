@@ -1,12 +1,12 @@
 $(document).ready(function(){
 
-	console.log("Test9");
+	console.log("Test10");
 	
 	//change the navigation bar to white, remove gradient		
 	$('#main-menu').css({"background-image": "none", "background-color": "#ffffff"});
 	
-	//handle the navigation bar active tab
-	$('#main-menu li.active').css({"background-color": "#ffffff", "text-decoration": "underline", "font-weight": "bold"}); //white out the active background
+	//handle the navigation bar active tab, only decorate first descendant or main categories
+	$('#main-menu > li.active').css({"background-color": "#ffffff", "text-decoration": "underline", "font-weight": "bold"}); //white out the active background
 	//$('#main-menu li:hover').css({"background-color": "#ffffff !important", "text-decoration": "underline", "font-weight": "bold"});
 		//font is set here for nav bar
 	
@@ -14,7 +14,7 @@ $(document).ready(function(){
 	
 	
 	 $("#main-menu > li").hover(function(){ 
-		 $(this).css({"background-color": "#ffffff", "text-decoration": "underline", "font-weight": "bold"}); },
+		 $(this).css({"background-color": "#ffffff !important", "text-decoration": "underline", "font-weight": "bold"}); },
 		 function() { $(this).css({"background-color": "#ffffff", "text-decoration": "", "font-weight": ""}); }
 	);
 	
