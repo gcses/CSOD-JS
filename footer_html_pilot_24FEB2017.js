@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	console.log("Test5");
+	console.log("Test6");
 	
 	//change the navigation bar to white, remove gradient		
 	$('#main-menu').css({"background-image": "none", "background-color": "#ffffff"});
@@ -20,9 +20,7 @@ $(document).ready(function(){
 		function()
 	        { $(this).css("background-color","yellow"); },
 		function()
-		{ $(this).css("background-color","ffffff"); },
-		function()
-	        { console.log("Hover Hover Hover"); }
+		{ $(this).css("background-color","ffffff"); }
 	);
 	
 	//underlines all sub-categories of active category
