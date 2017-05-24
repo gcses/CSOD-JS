@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	console.log("Test4");
+	console.log("Test5");
 	
 	//change the navigation bar to white, remove gradient		
 	$('#main-menu').css({"background-image": "none", "background-color": "#ffffff"});
@@ -20,13 +20,13 @@ $(document).ready(function(){
 		function()
 	        { $(this).css("background-color","yellow"); },
 		function()
-		{ $(this).css("background-color","ffffff"); }
+		{ $(this).css("background-color","ffffff"); },
+		function()
+	        { console.log("Hover Hover Hover"); }
 	);
-	
 	
 	//underlines all sub-categories of active category
 	$('.navTabs li.active a').css({"background-image": "none", "color": "#000000", "text-decoration": "underline"});
-	
 
 	//$('.user-interaction li').css({"background-image": "none", "background-color": "#ffffff", "text-decoration": "none"});
 	 $('.compass-title').css({"font-size": "20px", "line-height": "36px", "margin-left": "30px", "margin-right": "30px", "display": "inline-block"});
