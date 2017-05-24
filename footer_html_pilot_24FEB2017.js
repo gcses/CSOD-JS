@@ -19,10 +19,8 @@ $(document).ready(function(){
 	$('#search .cso-top-srch-box').css({"height": "37px", "border-color": "#dddddd", "box-shadow": "none", "margin": "0 10px 0 0"});
 	$('#search input').css({"height": "37px"});
 	
-	//$('.topBarOuter').css({"padding": "0px 0px 20px 0px"});
-
-	//$('.tools').css({"margin": "-20px 0px 0px 0px", "background-color": "red"});
-	$('.tools').css({"margin": "-20px 0px 20px 0px", "background-color": "#004593"});
+	//fix the spacing around the header search and icons
+	$('.tools').css({"margin": "-20px 0px 20px 0px", "background-color": "#004593"}); 
 	
 	
 	
