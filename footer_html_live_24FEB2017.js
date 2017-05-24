@@ -2,7 +2,7 @@ $(document).ready(function(){
 
      //$('.cso-h1').css("color", "red");
 	
-	console.log("Test2");
+	console.log("Test3");
 	
 	$('#main-menu').css({"background-image": "none", "background-color": "#004593"});
 	
@@ -12,14 +12,21 @@ $(document).ready(function(){
 		$('span:contains("Transcript")').each(function(){
  			$(this).html($(this).html().replace('Transcript','My Learning'));
 		});
-        	$(".nav-transcript  ").attr("title","My Learning");
+        	$(".nav-transcript").attr("title","My Learning");
 	}
 	
 	//move enlarge slider text / link - margin: top, right, bottom, left
 	 //$(".ism-caption.ism-caption-0").css({"width": "40px", "height": "70px"}); 
 	 $(".myCaptions").css({"margin": "0px 0px 0px 80px"}); 
 	
-	
+	//add action button to middle of slider area
+	if (document.title.indexOf("Welcome - Realize Your Potential") > -1)
+	{
+		
+	    $("#requestButton").css({"width": "60px", "height": "22px", "appearance": "button", "text-decoration": "none", "backgroundColor": "#004593", "margin": "30px 30px 0px 0px"}); 
+		
+		
+	}
 	
 	//Make the home page clickable and link to the Welcome page / Main page
 	$('a:contains("Home")').attr("href","/LMS/catalog/Main.aspx?tab_page_id=-67");
