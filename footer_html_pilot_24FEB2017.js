@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	console.log("Test12");
+	console.log("Test13");
 	
 	//change the navigation bar to white, remove gradient		
 	$('#main-menu').css({"background-image": "none", "background-color": "#ffffff"});
@@ -11,7 +11,7 @@ $(document).ready(function(){
 	 $('.navTabs li a').css({"background-image": "none", "text-shadow": "none", "color": "#808080", "font-weight": "normal"});
 	
 	 $("#main-menu > li").hover(function(){ 
-		 $(this).css({"background-color": "#ffffff",  "color": "#000000", "text-decoration": "underline", "font-weight": "bold"}); },
+		 $(this).css({"background-color": "#ffffff!important",  "color": "#000000", "text-decoration": "underline", "font-weight": "bold"}); },
 		 function() { $(this).css({"background-color": "#ffffff",  "color": "#808080", "text-decoration": "", "font-weight": ""}); }
 	);
 	
@@ -81,9 +81,9 @@ $(document).ready(function(){
 	   $('body').css({"background-color": "#f2f2f2", "font-family": "'Source Sans Pro-bottom', sans-serif", "font-weight": "normal", "padding": "0", "margin": "0"}); 
 	   //$('#mainContainer').css({"max-width": "1200px", "margin": "0 auto"});
 	
-           /*Header Top Bar*/     
+           /*Header Top Bar - Logo and Header*/     
            $('.imageLogo').css({"margin-left": "30px"});
-	  // $('#tblTopBar').css({"background-color": "#004593"});  /* Mark, please change this in the admin from #ffffff */
+	   $('#tblTopBar').css({"background-color": "#004593"});
            $('#tblTopBar tr:nth-child(1), #tblTopBar tr:nth-child(3)').css({"height": "0"});
            $('.user-interaction li').css({"background-color": "none !important", "border": "none", "border-radius": "0", "padding-left": "3px", "border-left": "solid 1px #ffffff", "margin-left": "3px"});
            $('.user-interaction li:first-child').css({"color": "#ffffff", "text-align": "center", "line-height": "32px", "width": "auto !important", "padding": "0 10px 0 24px !important", "border-left": "none"});
