@@ -14,8 +14,8 @@ $(document).ready(function(){
 	
 	
 	 $("#main-menu > li").hover(function(){ 
-		 $(this).css("background-color": "red"); },
-		 function() { $(this).css("background-color": "#ffffff"); }
+		 $(this).css({"background-color": "#ffffff", "text-decoration": "underline", "font-weight": "bold"}); },
+		 function() { $(this).css({"background-color": "#ffffff", "text-decoration": "", "font-weight": ""}); }
 	);
 	
 	
