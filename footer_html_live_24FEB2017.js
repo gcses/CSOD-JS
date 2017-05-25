@@ -23,7 +23,7 @@ $(document).ready(function(){
 	if (document.title.indexOf("Welcome - Realize Your Potential") > -1)
 	{
 	    //add action button to slider
-	    $(".sliderButton").css({"opacity": "0.8", "font-weight": "bold", "padding": "12px", "width": "90px", "height": "15px", "color": "#ffffff", "appearance": "button", "text-decoration": "none", "backgroundColor": "#004593", "margin": "70px 0px 0px 30%"}); 
+	    $(".sliderButton").css({"opacity": "0.8", "font-weight": "bold", "padding": "12px", "width": "90px", "height": "15px", "color": "#ffffff", "appearance": "button", "text-decoration": "none", "backgroundColor": "#004593", "margin": "70px 0px 0px 50%"}); 
 	    var elements = document.getElementsByClassName("sliderButton");
 		console.log("num elements: " + elements.length);
 	    for (var i = 0; i < elements.length; i++) 
@@ -39,8 +39,8 @@ $(document).ready(function(){
 	   	//document.getElementById("my-slider").style.zIndex = "-10000";  //this may be too deep in the stack
 	
 	  	// //Resize and reposition slider - margin: top, right, bottom, left
-	  	$("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").css({"width": "102%", "margin": "0px 0px 0px -5px"}); 
-	   	$("#ctl00_masterPageBody").css({"width": "100.5%", "margin": "-40px 0px 0px -6px" });  //-30
+	  	$("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").css({"width": "72%", "margin": "0px 0px 0px -5px"}); 
+	   	$("#ctl00_masterPageBody").css({"width": "100%", "margin": "-40px 0px 0px -6px" });  //-30
 	   	$("#ctl00_ContentPlaceHolder1_labelError").css({"width": "100%"}); 
 	   	$("#ctl00_ContentPlaceHolder1_widgetLayout_mainPageDiv").css({"width": "100%"}); 
 	   	$("#ctl00_ContentPlaceHolder1_widgetLayout_mainDivRenderedWidgets").css({"width": "100%"}); 
