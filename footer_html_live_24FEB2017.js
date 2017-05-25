@@ -2,7 +2,7 @@ $(document).ready(function(){
 
      //$('.cso-h1').css("color", "red");
 	
-	console.log("Test3");
+	console.log("Test4");
 	
 	$('#main-menu').css({"background-image": "none", "background-color": "#004593"});
 	
@@ -39,8 +39,8 @@ $(document).ready(function(){
 	   	document.getElementById("my-slider").style.borderRadius = "0px";
 	
 	  	// //Resize and reposition slider - margin: top, right, bottom, left
-	  	//$("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").css({"width": "70%", "margin": "0px 00% 0px 0px"}); 
-	   	 $("#ctl00_masterPageBody").css({"width": "70%", "margin": "0px 0px 0px 0px" });  //this is the frame and shadow around slider
+	  	$("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").css({"width": "70%", "margin": "0px 0px 0px 0px"}); 
+	   	// $("#ctl00_masterPageBody").css({"width": "90%", "margin": "0px 0px 0px 0px" });  //this is the entire page width under the navigation bar
 	   	
 		//$("#ctl00_ContentPlaceHolder1_labelError").css({"width": "100%"}); 
 	   	//$("#ctl00_ContentPlaceHolder1_widgetLayout_mainPageDiv").css({"width": "100%"}); 
