@@ -38,8 +38,8 @@ $(document).ready(function(){
 	   	document.getElementById("my-slider").style.borderRadius = "0px";
 	
 	  	// //Resize and reposition slider - margin: top, right, bottom, left
-	  	$("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").css({"width": "70%", "margin": "0px 00% 0px 0px"}); 
-	   	$("#ctl00_masterPageBody").css({"width": "70%", "margin": "0px 0px 0px 0px" });  //this is the frame and shadow around slider
+	  	//$("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").css({"width": "70%", "margin": "0px 00% 0px 0px"}); 
+	   	//$("#ctl00_masterPageBody").css({"width": "70%", "margin": "0px 0px 0px 0px" });  //this is the frame and shadow around slider
 	   	//$("#ctl00_ContentPlaceHolder1_labelError").css({"width": "100%"}); 
 	   	//$("#ctl00_ContentPlaceHolder1_widgetLayout_mainPageDiv").css({"width": "100%"}); 
 	   	//$("#ctl00_ContentPlaceHolder1_widgetLayout_mainDivRenderedWidgets").css({"width": "100%"}); 
@@ -63,14 +63,11 @@ $(document).ready(function(){
 		//*************************************
 		//   Z-Index Area (float cards over slider)
 		//*************************************
-		$(".wrapper").css({"margin-left": "10%"});
-        	var elements = document.getElementsByClassName('wrapper');
-       		elements[0].style.position = "absolute";
-        	elements[0].style.zIndex="2147483644";
-
 		// margin: top, right, bottom, left
-		//Drive Cards to the top of the stack (z-index cannot be changed in jQuery)	
-		$(".wrapper").css({"margin": "-160px 0px 0px 15%"});  //move row of cards up over slider
+		$(".wrapper").css({"margin": "-160px 0px 0px 10%"});
+        	var elements = document.getElementsByClassName('wrapper');
+       		elements[0].style.position = "absolute"
+        	elements[0].style.zIndex="2147483644";
 	}
 	
 	//Make the home page clickable and link to the Welcome page / Main page
