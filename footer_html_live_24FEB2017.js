@@ -23,7 +23,7 @@ $(document).ready(function(){
 	if (document.title.indexOf("Welcome - Realize Your Potential") > -1)
 	{
 	    //add action button to slider
-	    $("#sliderButton").css({"opacity": "0.7", "font-weight": "bold", "padding": "12px", "width": "90px", "height": "15px", "color": "#ffffff", "appearance": "button", "text-decoration": "none", "backgroundColor": "#004593", "margin": "80px 0px 0px 40%"}); 
+	    $("#sliderButton").css({"opacity": "0.8", "font-weight": "bold", "padding": "12px", "width": "90px", "height": "15px", "color": "#ffffff", "appearance": "button", "text-decoration": "none", "backgroundColor": "#004593", "margin": "90px 0px 0px 40%"}); 
 	    var element = document.getElementById("sliderButton");
             element.style.position = "absolute";
             element.style.zIndex="2147483620";
