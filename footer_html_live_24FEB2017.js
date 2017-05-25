@@ -2,7 +2,7 @@ $(document).ready(function(){
 
      //$('.cso-h1').css("color", "red");
 	
-	console.log("Test8");
+	console.log("Test9");
 	
 	$('#main-menu').css({"background-image": "none", "background-color": "#004593"});
 	
@@ -28,8 +28,8 @@ $(document).ready(function(){
 		console.log("num elements: " + elements.length);
 	    for (var i = 0; i < elements.length; i++) 
 	    {
-		// elements[i].style.position = "absolute";
-           	// elements[i].style.zIndex="2147483620";
+		 elements[i].style.position = "absolute";
+           	 elements[i].style.zIndex="2147483620";
 	     }
 	}
 	
