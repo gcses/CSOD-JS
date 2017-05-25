@@ -2,7 +2,7 @@ $(document).ready(function(){
 
      //$('.cso-h1').css("color", "red");
 	
-	console.log("Test2");
+	console.log("Test3");
 	
 	$('#main-menu').css({"background-image": "none", "background-color": "#004593"});
 	
@@ -19,7 +19,7 @@ $(document).ready(function(){
 	 //$(".ism-caption.ism-caption-0").css({"width": "40px", "height": "70px"}); 
 	 $(".myCaptions").css({"margin": "0px 0px 0px 80px"}); 
 	
-	//add action button to middle of slider area
+	// WELCOME PAGE specific changes
 	if (document.title.indexOf("Welcome - Realize Your Potential") > -1)
 	{
 	    //add action button to slider
@@ -31,6 +31,47 @@ $(document).ready(function(){
 		 elements[i].style.position = "absolute";
            	 elements[i].style.zIndex="2147483620";
 	     }
+		
+		
+		//remove rounded corners from slider
+           	$("#my-slider").css({"width": "101%", "margin-bottom": "200px"});  
+	   	document.getElementById("my-slider").style.borderRadius = "0px";
+	   	//document.getElementById("my-slider").style.zIndex = "-10000";  //this may be too deep in the stack
+	
+	  	// //Resize and reposition slider - margin: top, right, bottom, left
+	  	$("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").css({"width": "102%", "margin": "0px 0px 0px -5px"}); 
+	   	$("#ctl00_masterPageBody").css({"width": "100.5%", "margin": "-40px 0px 0px -6px" });  //-30
+	   	$("#ctl00_ContentPlaceHolder1_labelError").css({"width": "100%"}); 
+	   	$("#ctl00_ContentPlaceHolder1_widgetLayout_mainPageDiv").css({"width": "100%"}); 
+	   	$("#ctl00_ContentPlaceHolder1_widgetLayout_mainDivRenderedWidgets").css({"width": "100%"}); 
+	   	$("#mainContainer").css({"width": "100%"}); 
+	   	$("#container0").css({"width": "100%"});  
+	   	$("#container7").css({"width": "100%"}); 
+		
+		
+		//CARD Style
+		$(".widgetToMove").css({"box-shadow": "0 1px 6px 0 rgba(0,0,0,0.2)"});
+	        $(".card").css({"width": "20%", "box-sizing": "border-box", "padding": "0px", "border-radius": "0px 0px 0px 0px", "border-top": "solid 9px #00a79e", "border-bottom": "none", "border-left": "solid 1px #f2f3f4", "border-right": "none", "margin": "0px 0px 0px 0px" }); 
+		$(".card:first-child").css({"border-left": "none"});
+		$(".card:nth-child(2)").css({"border-top": "solid 9px #6f2780"});
+		$(".card:nth-child(3)").css({"border-top": "solid 9px #02abd7"});
+		$(".card li").css({"width": "100%", "box-sizing": "border-box"});
+		$(".card img").css({"width": "100%", "height": "100px"});
+		$(".card h2").css({"padding": "5px", "color": "#808080", "font-size": "14px", "margin-top": "0px"});
+		$(".card a:nth-child(2) li").css({"padding": "5px"});
+		$(".card p ").css({"color": "#808080", "font-size": "10px"});
+		
+		//*************************************
+		//   Z-Index Area (float cards over slider)
+		//*************************************
+		$(".wrapper").css({"margin-left": "10%"});
+        	var elements = document.getElementsByClassName('wrapper');
+       		elements[0].style.position = "absolute";
+        	elements[0].style.zIndex="2147483644";
+
+		// margin: top, right, bottom, left
+		//Drive Cards to the top of the stack (z-index cannot be changed in jQuery)	
+		$(".wrapper").css({"margin": "-260px 0px 0px 15%"});    //move row of cards up over slider
 	}
 	
 	//Make the home page clickable and link to the Welcome page / Main page
