@@ -2,7 +2,7 @@ $(document).ready(function(){
 
      //$('.cso-h1').css("color", "red");
 	
-	console.log("Test2");
+	console.log("Test3");
 	
 	$('#main-menu').css({"background-image": "none", "background-color": "#004593"});
 	
@@ -35,13 +35,14 @@ $(document).ready(function(){
 		
 		//remove rounded corners from slider
            	//$("#my-slider").css({"width": "101%", "margin-bottom": "200px"});  
-		$("#my-slider").css({"width": "70%", "margin-bottom": "180px"}); 
+		$("#my-slider").css({"width": "70%", "margin-bottom": "250px"}); 
 	   	document.getElementById("my-slider").style.borderRadius = "0px";
 	
 	  	// //Resize and reposition slider - margin: top, right, bottom, left
 	  	//$("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").css({"width": "70%", "margin": "0px 00% 0px 0px"}); 
-	   	//$("#ctl00_masterPageBody").css({"width": "70%", "margin": "0px 0px 0px 0px" });  //this is the frame and shadow around slider
-	   	//$("#ctl00_ContentPlaceHolder1_labelError").css({"width": "100%"}); 
+	   	 $("#ctl00_masterPageBody").css({"width": "70%", "margin": "0px 0px 0px 0px" });  //this is the frame and shadow around slider
+	   	
+		//$("#ctl00_ContentPlaceHolder1_labelError").css({"width": "100%"}); 
 	   	//$("#ctl00_ContentPlaceHolder1_widgetLayout_mainPageDiv").css({"width": "100%"}); 
 	   	//$("#ctl00_ContentPlaceHolder1_widgetLayout_mainDivRenderedWidgets").css({"width": "100%"}); 
 	   	//$("#mainContainer").css({"width": "100%"}); 
