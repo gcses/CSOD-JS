@@ -35,7 +35,7 @@ $(document).ready(function(){
 		
 		//remove rounded corners from slider
            	//$("#my-slider").css({"width": "101%", "margin-bottom": "200px"});  
-		$("#my-slider").css({"width": "70%", "margin-bottom": "200px"}); 
+		$("#my-slider").css({"width": "70%", "margin-bottom": "180px"}); 
 	   	document.getElementById("my-slider").style.borderRadius = "0px";
 	
 	  	// //Resize and reposition slider - margin: top, right, bottom, left
@@ -65,7 +65,7 @@ $(document).ready(function(){
 		//   Z-Index Area (float cards over slider)
 		//*************************************
 		// margin: top, right, bottom, left
-		$(".wrapper").css({"margin": "-160px 0px 0px 10%"});
+		$(".wrapper").css({"margin": "-160px 0px 0px 15%"});
         	var elements = document.getElementsByClassName('wrapper');
        		elements[0].style.position = "absolute"
         	elements[0].style.zIndex="2147483644";
