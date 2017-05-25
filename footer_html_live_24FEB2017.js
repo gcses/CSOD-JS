@@ -2,7 +2,7 @@ $(document).ready(function(){
 
      //$('.cso-h1').css("color", "red");
 	
-	console.log("Test4");
+	console.log("Test5");
 	
 	$('#main-menu').css({"background-image": "none", "background-color": "#004593"});
 	
@@ -36,17 +36,16 @@ $(document).ready(function(){
 		//remove rounded corners from slider
            	$("#my-slider").css({"width": "101%", "margin-bottom": "200px"});  
 	   	document.getElementById("my-slider").style.borderRadius = "0px";
-	   	//document.getElementById("my-slider").style.zIndex = "-10000";  //this may be too deep in the stack
 	
 	  	// //Resize and reposition slider - margin: top, right, bottom, left
-	  	$("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").css({"width": "72%", "margin": "0px 10% 0px 0px"}); 
+	  	$("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").css({"width": "70%", "margin": "0px 00% 0px 0px"}); 
 	   	$("#ctl00_masterPageBody").css({"width": "70%", "margin": "0px 0px 0px 0px" });  //this is the frame and shadow around slider
-	   	$("#ctl00_ContentPlaceHolder1_labelError").css({"width": "100%"}); 
-	   	$("#ctl00_ContentPlaceHolder1_widgetLayout_mainPageDiv").css({"width": "100%"}); 
-	   	$("#ctl00_ContentPlaceHolder1_widgetLayout_mainDivRenderedWidgets").css({"width": "100%"}); 
-	   	$("#mainContainer").css({"width": "100%"}); 
-	   	$("#container0").css({"width": "100%"});  
-	   	$("#container7").css({"width": "100%"}); 
+	   	//$("#ctl00_ContentPlaceHolder1_labelError").css({"width": "100%"}); 
+	   	//$("#ctl00_ContentPlaceHolder1_widgetLayout_mainPageDiv").css({"width": "100%"}); 
+	   	//$("#ctl00_ContentPlaceHolder1_widgetLayout_mainDivRenderedWidgets").css({"width": "100%"}); 
+	   	//$("#mainContainer").css({"width": "100%"}); 
+	   	//$("#container0").css({"width": "100%"});  
+	   	//$("#container7").css({"width": "100%"}); 
 		
 		
 		//CARD Style
@@ -71,7 +70,7 @@ $(document).ready(function(){
 
 		// margin: top, right, bottom, left
 		//Drive Cards to the top of the stack (z-index cannot be changed in jQuery)	
-		$(".wrapper").css({"margin": "-260px 0px 0px 15%"});    //move row of cards up over slider
+		$(".wrapper").css({"margin": "-160px 0px 0px 15%"});  //move row of cards up over slider
 	}
 	
 	//Make the home page clickable and link to the Welcome page / Main page
