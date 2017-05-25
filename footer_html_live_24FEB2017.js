@@ -2,7 +2,7 @@ $(document).ready(function(){
 
      //$('.cso-h1').css("color", "red");
 	
-	console.log("Test7");
+	console.log("Test8");
 	
 	$('#main-menu').css({"background-image": "none", "background-color": "#004593"});
 	
@@ -51,8 +51,8 @@ $(document).ready(function(){
 	   	//$("#mainContainer").css({"width": "70%"}); 
 		
 		
-	   	$("#container0").css({"width": "50%"});  
-	   	$("#container7").css({"width": "50%"}); 
+	   	//$("#container0").css({"width": "50%"});  
+	   	//$("#container7").css({"width": "50%"}); 
 		
 		
 		//CARD Style
