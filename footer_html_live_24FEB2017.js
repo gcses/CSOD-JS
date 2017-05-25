@@ -2,7 +2,7 @@ $(document).ready(function(){
 
      //$('.cso-h1').css("color", "red");
 	
-	console.log("Test1");
+	console.log("Test2");
 	
 	$('#main-menu').css({"background-image": "none", "background-color": "#004593"});
 	
@@ -34,7 +34,8 @@ $(document).ready(function(){
 		
 		
 		//remove rounded corners from slider
-           	$("#my-slider").css({"width": "101%", "margin-bottom": "200px"});  
+           	//$("#my-slider").css({"width": "101%", "margin-bottom": "200px"});  
+		$("#my-slider").css({"width": "70%", "margin-bottom": "200px"}); 
 	   	document.getElementById("my-slider").style.borderRadius = "0px";
 	
 	  	// //Resize and reposition slider - margin: top, right, bottom, left
