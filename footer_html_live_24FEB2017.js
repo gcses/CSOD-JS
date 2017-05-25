@@ -2,7 +2,7 @@ $(document).ready(function(){
 
      //$('.cso-h1').css("color", "red");
 	
-	console.log("Test8");
+	console.log("Test9");
 	
 	$('#main-menu').css({"background-image": "none", "background-color": "#004593"});
 	
@@ -22,7 +22,7 @@ $(document).ready(function(){
 	//add action button to middle of slider area
 	if (document.title.indexOf("Welcome - Realize Your Potential") > -1)
 	{
-	    $("#sliderButton").css({"padding": "10px", "width": "150px", "height": "40px", "color": "#ffffff", "appearance": "button", "text-decoration": "none", "backgroundColor": "#004593", "margin": "50px 0px 0px 50px"}); 
+	    $("#sliderButton").css({"font-weight": "bold", "padding": "20px", "width": "120px", "height": "30px", "color": "#ffffff", "appearance": "button", "text-decoration": "none", "backgroundColor": "#004593", "margin": "50px 0px 0px 40%"}); 
 	    
 		
 	    var element = document.getElementById("sliderButton");
