@@ -2,7 +2,7 @@ $(document).ready(function(){
 
      //$('.cso-h1').css("color", "red");
 	
-	console.log("Test4");
+	console.log("Test5");
 	
 	$('#main-menu').css({"background-image": "none", "background-color": "#004593"});
 	
@@ -39,13 +39,14 @@ $(document).ready(function(){
 	   	document.getElementById("my-slider").style.borderRadius = "0px";
 	
 	  	// //Resize and reposition slider - margin: top, right, bottom, left
-	  	$("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").css({"width": "70%", "margin": "0px 0px 0px 0px"}); 
+		//this seems to do nothing
+	  	//$("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").css({"width": "70%", "margin": "0px 0px 0px 0px"}); 
 	   	// $("#ctl00_masterPageBody").css({"width": "90%", "margin": "0px 0px 0px 0px" });  //this is the entire page width under the navigation bar
 	   	
 		//$("#ctl00_ContentPlaceHolder1_labelError").css({"width": "100%"}); 
 	   	//$("#ctl00_ContentPlaceHolder1_widgetLayout_mainPageDiv").css({"width": "100%"}); 
-	   	//$("#ctl00_ContentPlaceHolder1_widgetLayout_mainDivRenderedWidgets").css({"width": "100%"}); 
-	   	//$("#mainContainer").css({"width": "100%"}); 
+	   	$("#ctl00_ContentPlaceHolder1_widgetLayout_mainDivRenderedWidgets").css({"width": "70%"}); 
+	   	$("#mainContainer").css({"width": "70%"}); 
 	   	//$("#container0").css({"width": "100%"});  
 	   	//$("#container7").css({"width": "100%"}); 
 		
@@ -66,7 +67,7 @@ $(document).ready(function(){
 		//   Z-Index Area (float cards over slider)
 		//*************************************
 		// margin: top, right, bottom, left
-		$(".wrapper").css({"margin": "-160px 0px 0px 15%"});
+		$(".wrapper").css({"margin": "-200px 0px 0px 15%"});
         	var elements = document.getElementsByClassName('wrapper');
        		elements[0].style.position = "absolute"
         	elements[0].style.zIndex="2147483644";
