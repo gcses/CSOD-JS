@@ -2,7 +2,7 @@ $(document).ready(function(){
 
      //$('.cso-h1').css("color", "red");
 	
-	console.log("Test5");
+	console.log("Test6");
 	
 	$('#main-menu').css({"background-image": "none", "background-color": "#004593"});
 	
@@ -45,10 +45,14 @@ $(document).ready(function(){
 	   	
 		//$("#ctl00_ContentPlaceHolder1_labelError").css({"width": "100%"}); 
 	   	//$("#ctl00_ContentPlaceHolder1_widgetLayout_mainPageDiv").css({"width": "100%"}); 
+		
+		//shrinks entire page beneath navigation bar also
 	   	$("#ctl00_ContentPlaceHolder1_widgetLayout_mainDivRenderedWidgets").css({"width": "70%"}); 
-	   	$("#mainContainer").css({"width": "70%"}); 
-	   	//$("#container0").css({"width": "100%"});  
-	   	//$("#container7").css({"width": "100%"}); 
+	   	//$("#mainContainer").css({"width": "70%"}); 
+		
+		
+	   	$("#container0").css({"width": "70%"});  
+	   	$("#container7").css({"width": "70%"}); 
 		
 		
 		//CARD Style
