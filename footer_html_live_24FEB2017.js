@@ -23,13 +23,13 @@ $(document).ready(function(){
 	if (document.title.indexOf("Welcome - Realize Your Potential") > -1)
 	{
 	    //add action button to slider
-	    $(".sliderButton").css({"opacity": "0.8", "font-weight": "bold", "padding": "12px", "width": "90px", "height": "15px", "color": "#ffffff", "appearance": "button", "text-decoration": "none", "backgroundColor": "#004593", "margin": "85px 0px 0px 40%"}); 
-	    var elements = document.getElementsByClassName("sliderButton");
-	    for (var i = 0; i < elements.length; i++) 
-	    {
-		 elements[i].style.position = "absolute";
-           	 elements[i].style.zIndex="2147483620";
-	     }
+	   // $(".sliderButton").css({"opacity": "0.8", "font-weight": "bold", "padding": "12px", "width": "90px", "height": "15px", "color": "#ffffff", "appearance": "button", "text-decoration": "none", "backgroundColor": "#004593", "margin": "85px 0px 0px 40%"}); 
+	   // var elements = document.getElementsByClassName("sliderButton");
+	   // for (var i = 0; i < elements.length; i++) 
+	  //  {
+	//	 elements[i].style.position = "absolute";
+           //	 elements[i].style.zIndex="2147483620";
+	   //  }
 	}
 	
 	//Make the home page clickable and link to the Welcome page / Main page
