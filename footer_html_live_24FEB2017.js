@@ -2,7 +2,7 @@ $(document).ready(function(){
 
      //$('.cso-h1').css("color", "red");
 	
-	console.log("Test5");
+	console.log("Test6");
 	
 	$('#main-menu').css({"background-image": "none", "background-color": "#004593"});
 	
@@ -23,7 +23,7 @@ $(document).ready(function(){
 	if (document.title.indexOf("Welcome - Realize Your Potential") > -1)
 	{
 	    //add action button to slider
-	    $(".sliderButton").css({"opacity": "0.8", "font-weight": "bold", "padding": "12px", "width": "90px", "height": "15px", "color": "#ffffff", "appearance": "button", "text-decoration": "none", "backgroundColor": "#004593", "margin": "160px 0px 0px -50px"}); //top, right, bottom, left
+	    $(".sliderButton").css({"opacity": "0.8", "font-weight": "bold", "padding": "12px", "width": "90px", "height": "15px", "color": "#ffffff", "appearance": "button", "text-decoration": "none", "backgroundColor": "#004593", "margin": "160px 0px 0px -55px"}); //top, right, bottom, left
 	    var elements = document.getElementsByClassName("sliderButton");
 		console.log("num elements: " + elements.length);
 	    for (var i = 0; i < elements.length; i++) 
@@ -42,15 +42,15 @@ $(document).ready(function(){
 	  	$("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").css({"backgroundColor": "yellow", "border": "none"}); 
 	   	$("#ctl00_masterPageBody").css({"backgroundColor": "yellow", "border": "none"});  //this is the entire page width under the navigation bar
 	   	
-		$("#ctl00_ContentPlaceHolder1_labelError").css({"backgroundColor": "yellow", "border": "none"}); 
-	   	$("#ctl00_ContentPlaceHolder1_widgetLayout_mainPageDiv").css({"backgroundColor": "yellow", "border": "none"}); 
+		//$("#ctl00_ContentPlaceHolder1_labelError").css({"backgroundColor": "yellow", "border": "none"}); 
+	   	//$("#ctl00_ContentPlaceHolder1_widgetLayout_mainPageDiv").css({"backgroundColor": "yellow", "border": "none"}); 
 		
 		//shrinks entire page beneath navigation bar also
-	   	$("#ctl00_ContentPlaceHolder1_widgetLayout_mainDivRenderedWidgets").css({"backgroundColor": "yellow", "border": "none"}); 
-	   	$("#mainContainer").css({"backgroundColor": "yellow", "border": "none"}); 
+	   	//$("#ctl00_ContentPlaceHolder1_widgetLayout_mainDivRenderedWidgets").css({"backgroundColor": "yellow", "border": "none"}); 
+	   	//$("#mainContainer").css({"backgroundColor": "yellow", "border": "none"}); 
 		
-	   	$("#container0").css({"backgroundColor": "yellow", "border": "none"});  
-	   	$("#container7").css({"backgroundColor": "yellow", "border": "none"}); 
+	   	//$("#container0").css({"backgroundColor": "yellow", "border": "none"});  
+	   	//$("#container7").css({"backgroundColor": "yellow", "border": "none"}); 
 		
 		
 		//CARD Style
