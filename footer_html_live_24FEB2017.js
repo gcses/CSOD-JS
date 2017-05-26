@@ -2,7 +2,7 @@ $(document).ready(function(){
 
      //$('.cso-h1').css("color", "red");
 	
-	console.log("Test2");
+	console.log("Test3");
 	
 	$('#main-menu').css({"background-image": "none", "background-color": "#004593"});
 	
@@ -17,7 +17,7 @@ $(document).ready(function(){
 	
 	//move enlarge slider text / link - margin: top, right, bottom, left
 	 //$(".ism-caption.ism-caption-0").css({"width": "40px", "height": "70px"}); 
-	 $(".myCaptions").css({"margin": "0px 0px 0px 450px"}); 
+	 $(".myCaptions").css({"margin": "0px 0px 0px 300px"}); 
 	
 	// WELCOME PAGE specific changes
 	if (document.title.indexOf("Welcome - Realize Your Potential") > -1)
