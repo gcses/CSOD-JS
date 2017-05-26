@@ -2,7 +2,7 @@ $(document).ready(function(){
 
      //$('.cso-h1').css("color", "red");
 	
-	console.log("Test3");
+	console.log("Test4");
 	
 	$('#main-menu').css({"background-image": "none", "background-color": "#004593"});
 	
@@ -33,12 +33,16 @@ $(document).ready(function(){
 	     }
 		
 		//remove rounded corners from slider
-		$("#my-slider").css({"width": "69%", "margin-bottom": "300px", "border-style": "none", "border": "0px"}); 
-	   	document.getElementById("my-slider").style.borderRadius = "0px";
+		//$("#my-slider").css({"width": "69%", "margin-bottom": "300px", "border-style": "none", "border": "0px"}); 
+	   	//document.getElementById("my-slider").style.borderRadius = "0px";
 	
 	  	// //Resize and reposition slider - margin: top, right, bottom, left
-	  	$("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").css({"border-style": "none", "border": "0px"}); 
-	   	//$("#ctl00_masterPageBody").css({"backgroundColor": "yellow", "border": "none"});  //this is the entire page width under the navigation bar
+	  	//$("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").css({"border-style": "none", "border": "0px"}); 
+	   	
+		
+		
+		
+		//$("#ctl00_masterPageBody").css({"backgroundColor": "yellow", "border": "none"});  //this is the entire page width under the navigation bar
 	   	
 		
 		
