@@ -2,7 +2,7 @@ $(document).ready(function(){
 
      //$('.cso-h1').css("color", "red");
 	
-	console.log("Test9");
+	console.log("Test10");
 	
 	$('#main-menu').css({"background-image": "none", "background-color": "#004593"});
 	
@@ -23,7 +23,7 @@ $(document).ready(function(){
 	if (document.title.indexOf("Welcome - Realize Your Potential") > -1)
 	{
 	    //add action button to slider
-	    $(".sliderButton").css({"opacity": "0.8", "font-weight": "bold", "padding": "12px", "width": "90px", "height": "15px", "color": "#ffffff", "appearance": "button", "text-decoration": "none", "backgroundColor": "#004593", "margin": "140px 0px 0px -55px"}); //top, right, bottom, left
+	    $(".sliderButton").css({"opacity": "0.8", "font-weight": "bold", "padding": "12px", "width": "90px", "height": "15px", "color": "#ffffff", "appearance": "button", "text-decoration": "none", "backgroundColor": "#004593", "margin": "125px 0px 0px -55px"}); //top, right, bottom, left
 	    var elements = document.getElementsByClassName("sliderButton");
 		console.log("num elements: " + elements.length);
 	    for (var i = 0; i < elements.length; i++) 
@@ -39,7 +39,7 @@ $(document).ready(function(){
 	
 	  	// //Resize and reposition slider - margin: top, right, bottom, left
 		//this seems to do nothing
-	  	$("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").css({"backgroundColor": "yellow", "border-style": "none", "border": "0px"}); 
+	  	$("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").css({"border-style": "none", "border": "0px"}); 
 	   	//$("#ctl00_masterPageBody").css({"backgroundColor": "yellow", "border": "none"});  //this is the entire page width under the navigation bar
 	   	
 		
