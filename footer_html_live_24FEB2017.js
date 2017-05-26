@@ -35,7 +35,7 @@ $(document).ready(function(){
 		
 		//remove rounded corners from slider
            	//$("#my-slider").css({"width": "101%", "margin-bottom": "200px"});  
-		$("#my-slider").css({"width": "70%", "margin-bottom": "250px"}); 
+		$("#my-slider").css({"width": "70%", "margin-bottom": "300px"}); 
 	   	document.getElementById("my-slider").style.borderRadius = "0px";
 	
 	  	// //Resize and reposition slider - margin: top, right, bottom, left
