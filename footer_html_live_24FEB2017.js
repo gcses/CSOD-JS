@@ -165,6 +165,14 @@ $(document).ready(function(){
 	
 	//remove 61 placeholder images
 	/*
+	
+	
+	//master icons - learning objects
+	/clientimg/bd/welcome/lo_sprite_lrg.png
+
+	//master icons - general
+        /clientimg/bd/welcome/compass-sprite.png
+	
 	$('.item.oc').css({'background':'url("https://placeholdit.imgix.net/~text?txtsize=33&txt=61×61&w=61&h=61")'});
 
 	$('.item.mt').css({'background':'url("https://placeholdit.imgix.net/~text?txtsize=33&txt=61×61&w=61&h=61")'});
