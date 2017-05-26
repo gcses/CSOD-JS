@@ -33,8 +33,8 @@ $(document).ready(function(){
 	     }
 		
 		//remove rounded corners from slider
-		//$("#my-slider").css({"width": "69%", "margin-bottom": "300px", "border-style": "none", "border": "0px"}); 
-	   	//document.getElementById("my-slider").style.borderRadius = "0px";
+		$("#my-slider").css({"width": "69%", "margin-bottom": "300px", "border-style": "none", "border": "0px"}); 
+	   	document.getElementById("my-slider").style.borderRadius = "0px";
 	
 	  	// //Resize and reposition slider - margin: top, right, bottom, left
 	  	//$("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").css({"border-style": "none", "border": "0px"}); 
