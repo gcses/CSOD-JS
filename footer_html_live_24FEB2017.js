@@ -2,7 +2,7 @@ $(document).ready(function(){
 
      //$('.cso-h1').css("color", "red");
 	
-	console.log("Test5");
+	console.log("Test6");
 	
 	$('#main-menu').css({"background-image": "none", "background-color": "#004593"});
 	
@@ -33,9 +33,11 @@ $(document).ready(function(){
 	     }
 		
 		//remove rounded corners from slider
+		 // <div class="ism-slider" id="my-slider" style="margin: 0px auto; width: 40%;">
 		$("#my-slider").css({"width": "69%", "margin-bottom": "300px", "border-style": "none", "border": "0px"}); 
 	   	document.getElementById("my-slider").style.borderRadius = "0px";
-	        document.getElementById("my-slider").style.borderStyle = "none";
+		$(".ism-slider").css({"width": "69%", "border-style": "none", "border": "0px"}); 
+		
 		
 	  	// //Resize and reposition slider - margin: top, right, bottom, left
 	  	//$("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").css({"border-style": "none", "border": "0px"}); 
