@@ -2,7 +2,7 @@ $(document).ready(function(){
 
      //$('.cso-h1').css("color", "red");
 	
-	console.log("Test3");
+	console.log("Test5");
 	
 	$('#main-menu').css({"background-image": "none", "background-color": "#004593"});
 	
@@ -32,7 +32,6 @@ $(document).ready(function(){
            	 elements[i].style.zIndex="2147483620";
 	     }
 		
-		
 		//remove rounded corners from slider
            	//$("#my-slider").css({"width": "101%", "margin-bottom": "200px"});  
 		$("#my-slider").css({"width": "69%", "margin-bottom": "300px"}); 
@@ -40,19 +39,18 @@ $(document).ready(function(){
 	
 	  	// //Resize and reposition slider - margin: top, right, bottom, left
 		//this seems to do nothing
-	  	//$("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").css({"width": "70%", "margin": "0px 0px 0px 0px"}); 
-	   	// $("#ctl00_masterPageBody").css({"width": "90%", "margin": "0px 0px 0px 0px" });  //this is the entire page width under the navigation bar
+	  	$("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").css({"border": "none"}); 
+	   	$("#ctl00_masterPageBody").css({"border": "none"});  //this is the entire page width under the navigation bar
 	   	
-		//$("#ctl00_ContentPlaceHolder1_labelError").css({"width": "100%"}); 
-	   	//$("#ctl00_ContentPlaceHolder1_widgetLayout_mainPageDiv").css({"width": "100%"}); 
+		$("#ctl00_ContentPlaceHolder1_labelError").css({"border": "none"}); 
+	   	$("#ctl00_ContentPlaceHolder1_widgetLayout_mainPageDiv").css({"border": "none"}); 
 		
 		//shrinks entire page beneath navigation bar also
-	   	//$("#ctl00_ContentPlaceHolder1_widgetLayout_mainDivRenderedWidgets").css({"width": "70%"}); 
-	   	//$("#mainContainer").css({"width": "70%"}); 
+	   	$("#ctl00_ContentPlaceHolder1_widgetLayout_mainDivRenderedWidgets").css({"border": "none"}); 
+	   	$("#mainContainer").css({"border": "none"}); 
 		
-		
-	   	//$("#container0").css({"width": "50%"});  
-	   	//$("#container7").css({"width": "50%"}); 
+	   	$("#container0").css({"border": "none"});  
+	   	$("#container7").css({"border": "none"}); 
 		
 		
 		//CARD Style
@@ -71,7 +69,7 @@ $(document).ready(function(){
 		//   Z-Index Area (float cards over slider)
 		//*************************************
 		// margin: top, right, bottom, left
-		$(".wrapper").css({"margin": "-280px 0px 0px 15%"});
+		$(".wrapper").css({"margin": "-260px 0px 0px 15%"});
         	var elements = document.getElementsByClassName('wrapper');
        		elements[0].style.position = "absolute"
         	elements[0].style.zIndex="2147483644";
