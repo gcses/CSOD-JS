@@ -2,7 +2,7 @@ $(document).ready(function(){
 
      //$('.cso-h1').css("color", "red");
 	
-	console.log("Test1");
+	console.log("Test2");
 	
 	$('#main-menu').css({"background-image": "none", "background-color": "#004593"});
 	
@@ -34,10 +34,11 @@ $(document).ready(function(){
 		
 		//remove rounded corners from slider
 		 // <div class="ism-slider" id="my-slider" style="margin: 0px auto; width: 40%;">
-		//$("#my-slider").css({"width": "69%", "margin-bottom": "300px"}); 
+		$("#my-slider").css({"width": "69%", "margin-bottom": "300px"}); 
 	   	document.getElementById("my-slider").style.borderRadius = "0px";
 		
-/*		
+		
+		
 		//$("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").css({"width": "69%", "margin-bottom": "300px"}); 
 	   	
 	
@@ -56,9 +57,10 @@ $(document).ready(function(){
 	   	//$("#container0").css({"width": "69%"});  
 	   	//$("#container7").css({"width": "69%"}); 
 		
-		
+			
 		//CARD Style
-		$(".widgetToMove").css({"box-shadow": "0 1px 6px 0 rgba(0,0,0,0.2)"});
+		//$(".widgetToMove").css({"box-shadow": "0 1px 6px 0 rgba(0,0,0,0.2)"});
+		
 	        $(".card").css({"width": "20%", "box-sizing": "border-box", "padding": "0px", "border-radius": "0px 0px 0px 0px", "border-top": "solid 9px #00a79e", "border-bottom": "none", "border-left": "solid 1px #f2f3f4", "border-right": "none", "margin": "0px 0px 0px 0px" }); 
 		$(".card:first-child").css({"border-left": "none"});
 		$(".card:nth-child(2)").css({"border-top": "solid 9px #6f2780"});
@@ -68,6 +70,7 @@ $(document).ready(function(){
 		$(".card h2").css({"padding": "5px", "color": "#808080", "font-size": "14px", "margin-top": "0px"});
 		$(".card a:nth-child(2) li").css({"padding": "5px"});
 		$(".card p ").css({"color": "#808080", "font-size": "10px"});
+
 		
 		//*************************************
 		//   Z-Index Area (float cards over slider)
@@ -78,7 +81,11 @@ $(document).ready(function(){
        		elements[0].style.position = "absolute"
         	elements[0].style.zIndex="2147483644";
 		
-*/		
+
+		
+		
+		
+		
 	}
 	
 	//Make the home page clickable and link to the Welcome page / Main page
