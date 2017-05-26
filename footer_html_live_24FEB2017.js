@@ -1,4 +1,4 @@
-2$(document).ready(function(){
+$(document).ready(function(){
 
      //$('.cso-h1').css("color", "red");
 	
