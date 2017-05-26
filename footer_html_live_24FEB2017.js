@@ -2,7 +2,7 @@ $(document).ready(function(){
 
      //$('.cso-h1').css("color", "red");
 	
-	console.log("Test2");
+	console.log("Test3");
 	
 	$('#main-menu').css({"background-image": "none", "background-color": "#004593"});
 	
@@ -42,15 +42,15 @@ $(document).ready(function(){
 	  	$("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").css({"border": "none"}); 
 	   	$("#ctl00_masterPageBody").css({"border": "none"});  //this is the entire page width under the navigation bar
 	   	
-		$("#ctl00_ContentPlaceHolder1_labelError").css({"border": "none"}); 
-	   	$("#ctl00_ContentPlaceHolder1_widgetLayout_mainPageDiv").css({"border": "none"}); 
+		$("#ctl00_ContentPlaceHolder1_labelError").css({"backgroundColor": "yellow", "border": "none"}); 
+	   	$("#ctl00_ContentPlaceHolder1_widgetLayout_mainPageDiv").css({"backgroundColor": "yellow", "border": "none"}); 
 		
 		//shrinks entire page beneath navigation bar also
-	   	$("#ctl00_ContentPlaceHolder1_widgetLayout_mainDivRenderedWidgets").css({"border": "none"}); 
-	   	$("#mainContainer").css({"border": "none"}); 
+	   	$("#ctl00_ContentPlaceHolder1_widgetLayout_mainDivRenderedWidgets").css({"backgroundColor": "yellow", "border": "none"}); 
+	   	$("#mainContainer").css({"backgroundColor": "yellow", "border": "none"}); 
 		
-	   	$("#container0").css({"border": "none"});  
-	   	$("#container7").css({"border": "none"}); 
+	   	$("#container0").css({"backgroundColor": "yellow", "border": "none"});  
+	   	$("#container7").css({"backgroundColor": "yellow", "border": "none"}); 
 		
 		
 		//CARD Style
