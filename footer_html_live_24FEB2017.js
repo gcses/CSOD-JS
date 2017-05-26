@@ -2,7 +2,7 @@ $(document).ready(function(){
 
      //$('.cso-h1').css("color", "red");
 	
-	console.log("Test8");
+	console.log("Test9");
 	
 	$('#main-menu').css({"background-image": "none", "background-color": "#004593"});
 	
@@ -22,6 +22,7 @@ $(document).ready(function(){
 	// WELCOME PAGE specific changes
 	if (document.title.indexOf("Welcome - Realize Your Potential") > -1)
 	{
+/*
 	    //add action button to slider
 	    $(".sliderButton").css({"opacity": "0.8", "font-weight": "bold", "padding": "12px", "width": "90px", "height": "15px", "color": "#ffffff", "appearance": "button", "text-decoration": "none", "backgroundColor": "#004593", "margin": "140px 0px 0px -55px"}); //top, right, bottom, left
 	    var elements = document.getElementsByClassName("sliderButton");
@@ -41,18 +42,10 @@ $(document).ready(function(){
 	   	
 	
 	  	// //Resize and reposition slider - margin: top, right, bottom, left
-	  	//$("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").css({"width": "69%", "margin-bottom": "300px"}); 
-	   	
-		
-		
+	  	//$("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").css({"width": "69%", "margin-bottom": "300px"});
 		
 		//$("#ctl00_masterPageBody").css({"backgroundColor": "yellow", "border": "none"});  //this is the entire page width under the navigation bar
-	   	
-		
-		
-		
-		
-		
+
 		//$("#ctl00_ContentPlaceHolder1_labelError").css({"backgroundColor": "yellow", "border": "none"}); 
 	   	//$("#ctl00_ContentPlaceHolder1_widgetLayout_mainPageDiv").css({"backgroundColor": "yellow", "border": "none"}); 
 		
@@ -84,6 +77,8 @@ $(document).ready(function(){
         	var elements = document.getElementsByClassName('wrapper');
        		elements[0].style.position = "absolute"
         	elements[0].style.zIndex="2147483644";
+		
+*/		
 	}
 	
 	//Make the home page clickable and link to the Welcome page / Main page
