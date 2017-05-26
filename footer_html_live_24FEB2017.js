@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	console.log("Test6");
+	console.log("Test7");
 	
 	$('#main-menu').css({"background-image": "none", "background-color": "#004593"});
 	
@@ -171,15 +171,15 @@ $(document).ready(function(){
 	//master icons - general
         //   /clientimg/bd/welcome/compass-sprite.png
 	
-	$('.item.oc').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px 10px transparent'});
+	$('.item.oc').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px 5px transparent'});
 
-	$('.item.mt').css({'background':'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px 10px transparent'});
+	$('.item.mt').css({'background':'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px 5px transparent'});
 
-	$('.item.ts').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px 10px transparent'});
+	$('.item.ts').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px 5px transparent'});
 
-	$('.item.ev').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px 10px transparent'});
+	$('.item.ev').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px 5px transparent'});
 
-	$('.item.vd').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px 10px transparent'});
+	$('.item.vd').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px 5px transparent'});
 
 	//$('#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl01_widgetContainer_ctl00_pnlSuggestedTraining_title').css({'background-color':'#00B8B0'});
         
