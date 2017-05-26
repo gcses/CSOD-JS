@@ -2,7 +2,7 @@ $(document).ready(function(){
 
      //$('.cso-h1').css("color", "red");
 	
-	console.log("Test7");
+	console.log("Test8");
 	
 	$('#main-menu').css({"background-image": "none", "background-color": "#004593"});
 	
@@ -37,9 +37,11 @@ $(document).ready(function(){
 		//$("#my-slider").css({"width": "69%", "margin-bottom": "300px"}); 
 	   	document.getElementById("my-slider").style.borderRadius = "0px";
 		
+		//$("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").css({"width": "69%", "margin-bottom": "300px"}); 
+	   	
 	
 	  	// //Resize and reposition slider - margin: top, right, bottom, left
-	  	$("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").css({"width": "69%", "margin-bottom": "300px"}); 
+	  	//$("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").css({"width": "69%", "margin-bottom": "300px"}); 
 	   	
 		
 		
@@ -58,8 +60,8 @@ $(document).ready(function(){
 	   	//$("#ctl00_ContentPlaceHolder1_widgetLayout_mainDivRenderedWidgets").css({"backgroundColor": "yellow", "border": "none"}); 
 	   	//$("#mainContainer").css({"backgroundColor": "yellow", "border": "none"}); 
 		
-	   	//$("#container0").css({"backgroundColor": "yellow", "border": "none"});  
-	   	//$("#container7").css({"backgroundColor": "yellow", "border": "none"}); 
+	   	//$("#container0").css({"width": "69%"});  
+	   	//$("#container7").css({"width": "69%"}); 
 		
 		
 		//CARD Style
