@@ -173,7 +173,12 @@ $(document).ready(function(){
 	//master icons - general
         /clientimg/bd/welcome/compass-sprite.png
 	
-	$('.item.oc').css({'background':'url("https://placeholdit.imgix.net/~text?txtsize=33&txt=61×61&w=61&h=61")'});
+	  width: 30px;
+    background: url("../image/compass-sprite.png") no-repeat scroll 10px -277px transparent;
+}
+
+	
+	$('.item.oc').css({'background': 'url(".. /clientimg/bd/welcome/compass-sprite.png") no-repeat scroll 10px -277px transparent'});
 
 	$('.item.mt').css({'background':'url("https://placeholdit.imgix.net/~text?txtsize=33&txt=61×61&w=61&h=61")'});
 
