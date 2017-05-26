@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	console.log("Test3");
+	console.log("Test4");
 	
 	$('#main-menu').css({"background-image": "none", "background-color": "#004593"});
 	
