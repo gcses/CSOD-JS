@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	console.log("Test2");
+	console.log("Test3");
 	
 	$('#main-menu').css({"background-image": "none", "background-color": "#004593"});
 	
@@ -163,33 +163,26 @@ $(document).ready(function(){
 	});
 
 	
-	//remove 61 placeholder images
-	/*
 	
 	
 	//master icons - learning objects
-	/clientimg/bd/welcome/lo_sprite_lrg.png
+	//   /clientimg/bd/welcome/lo_sprite_lrg.png
 
 	//master icons - general
-        /clientimg/bd/welcome/compass-sprite.png
-	
-	  width: 30px;
-    background: url("../image/compass-sprite.png") no-repeat scroll 10px -277px transparent;
-}
-
+        //   /clientimg/bd/welcome/compass-sprite.png
 	
 	$('.item.oc').css({'background': 'url(".. /clientimg/bd/welcome/compass-sprite.png") no-repeat scroll 10px -277px transparent'});
 
-	$('.item.mt').css({'background':'url("https://placeholdit.imgix.net/~text?txtsize=33&txt=61×61&w=61&h=61")'});
+	$('.item.mt').css({'background':'url(".. /clientimg/bd/welcome/compass-sprite.png") no-repeat scroll 10px -277px transparent'});
 
-	$('.item.ts').css({'background':'url("https://placeholdit.imgix.net/~text?txtsize=33&txt=61×61&w=61&h=61")'});
+	$('.item.ts').css({'background': 'url(".. /clientimg/bd/welcome/compass-sprite.png") no-repeat scroll 10px -277px transparent'});
 
-	$('.item.ev').css({'background':'url("https://placeholdit.imgix.net/~text?txtsize=33&txt=61×61&w=61&h=61")'});
+	$('.item.ev').css({'background': 'url(".. /clientimg/bd/welcome/compass-sprite.png") no-repeat scroll 10px -277px transparent'});
 
-	$('.item.vd').css({'background':'url("https://placeholdit.imgix.net/~text?txtsize=33&txt=61×61&w=61&h=61")'});
+	$('.item.vd').css({'background': 'url(".. /clientimg/bd/welcome/compass-sprite.png") no-repeat scroll 10px -277px transparent'});
 
-	$('#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl01_widgetContainer_ctl00_pnlSuggestedTraining_title').css({'background-color':'#00B8B0'});
-        */
+	//$('#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl01_widgetContainer_ctl00_pnlSuggestedTraining_title').css({'background-color':'#00B8B0'});
+        
 
 	//setInterval here breaks Internet Explorer
 	//window.setInterval(replaceOnlineClass, 1000);
