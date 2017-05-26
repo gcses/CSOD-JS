@@ -2,7 +2,7 @@ $(document).ready(function(){
 
      //$('.cso-h1').css("color", "red");
 	
-	console.log("Test9");
+	console.log("Test1");
 	
 	$('#main-menu').css({"background-image": "none", "background-color": "#004593"});
 	
@@ -23,7 +23,7 @@ $(document).ready(function(){
 	if (document.title.indexOf("Welcome - Realize Your Potential") > -1)
 	{
 	    //add action button to slider
-	    $(".sliderButton").css({"opacity": "0.8", "font-weight": "bold", "padding": "12px", "width": "90px", "height": "15px", "color": "#ffffff", "appearance": "button", "text-decoration": "none", "backgroundColor": "#004593", "margin": "90px 0px 0px 0px"}); //top, right, bottom, left
+	    $(".sliderButton").css({"opacity": "0.8", "font-weight": "bold", "padding": "12px", "width": "90px", "height": "15px", "color": "#ffffff", "appearance": "button", "text-decoration": "none", "backgroundColor": "#004593", "margin": "150px 50px 0px 0px"}); //top, right, bottom, left
 	    var elements = document.getElementsByClassName("sliderButton");
 		console.log("num elements: " + elements.length);
 	    for (var i = 0; i < elements.length; i++) 
@@ -69,7 +69,7 @@ $(document).ready(function(){
 		//   Z-Index Area (float cards over slider)
 		//*************************************
 		// margin: top, right, bottom, left
-		$(".wrapper").css({"margin": "-260px 0px 0px 15%"});
+		$(".wrapper").css({"margin": "-270px 0px 0px 15%"});
         	var elements = document.getElementsByClassName('wrapper');
        		elements[0].style.position = "absolute"
         	elements[0].style.zIndex="2147483644";
