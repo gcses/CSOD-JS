@@ -2,7 +2,7 @@ $(document).ready(function(){
 
      //$('.cso-h1').css("color", "red");
 	
-	console.log("Test9");
+	console.log("Test1");
 	
 	$('#main-menu').css({"background-image": "none", "background-color": "#004593"});
 	
@@ -35,7 +35,7 @@ $(document).ready(function(){
 		
 		//remove rounded corners from slider
            	//$("#my-slider").css({"width": "101%", "margin-bottom": "200px"});  
-		$("#my-slider").css({"width": "68%", "margin-bottom": "300px"}); 
+		$("#my-slider").css({"width": "69%", "margin-bottom": "300px"}); 
 	   	document.getElementById("my-slider").style.borderRadius = "0px";
 	
 	  	// //Resize and reposition slider - margin: top, right, bottom, left
@@ -71,7 +71,7 @@ $(document).ready(function(){
 		//   Z-Index Area (float cards over slider)
 		//*************************************
 		// margin: top, right, bottom, left
-		$(".wrapper").css({"margin": "-200px 0px 0px 15%"});
+		$(".wrapper").css({"margin": "-300px 0px 0px 15%"});
         	var elements = document.getElementsByClassName('wrapper');
        		elements[0].style.position = "absolute"
         	elements[0].style.zIndex="2147483644";
