@@ -171,15 +171,15 @@ $(document).ready(function(){
 	//master icons - general
         //   /clientimg/bd/welcome/compass-sprite.png
 	
-	$('.item.oc').css({'background': 'url(".. /clientimg/bd/welcome/compass-sprite.png") no-repeat scroll 10px -277px transparent'});
+	$('.item.oc').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px 5px transparent'});
 
-	$('.item.mt').css({'background':'url(".. /clientimg/bd/welcome/compass-sprite.png") no-repeat scroll 10px -277px transparent'});
+	$('.item.mt').css({'background':'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px 10px transparent'});
 
-	$('.item.ts').css({'background': 'url(".. /clientimg/bd/welcome/compass-sprite.png") no-repeat scroll 10px -277px transparent'});
+	$('.item.ts').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px 15px transparent'});
 
-	$('.item.ev').css({'background': 'url(".. /clientimg/bd/welcome/compass-sprite.png") no-repeat scroll 10px -277px transparent'});
+	$('.item.ev').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px 20px transparent'});
 
-	$('.item.vd').css({'background': 'url(".. /clientimg/bd/welcome/compass-sprite.png") no-repeat scroll 10px -277px transparent'});
+	$('.item.vd').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 5px 25px transparent'});
 
 	//$('#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl01_widgetContainer_ctl00_pnlSuggestedTraining_title').css({'background-color':'#00B8B0'});
         
