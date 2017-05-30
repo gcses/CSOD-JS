@@ -1,12 +1,19 @@
 $(document).ready(function(){
 
-	console.log("Test12");
+	console.log("Test13");
 	
 	//profile icon replacement
 	$("#header_headerFixed_imgAvatar").attr({'src': 'https://bd.csod.com/clientimg/bd/welcome/profile.png'});
-	$('#header_headerFixed_imgAvatar').css({'width': '5px', 'height': '5px'});
 	
-	$('.cart').css({'background': 'url("https://bd.csod.com/clientimg/bd/welcome/shoppingCart.png")', 'width': '40px'});
+	$('#header_headerFixed_imgAvatar').attr({'width': '5px', 'height': '5px'});
+	
+
+	    var sps = document.getElementsByClassName(".cart span");
+	    sps[0].css({'background': 'url("https://bd.csod.com/clientimg/bd/welcome/shoppingCart.png")'});
+
+	
+	
+	//$('.cart span: ').css({'background': 'url("https://bd.csod.com/clientimg/bd/welcome/shoppingCart.png")', 'width': '40px'});
 	$('#settingscontainer').css({'background': 'url("https://bd.csod.com/clientimg/bd/welcome/cog.png")'});
 	
 	
@@ -34,7 +41,7 @@ $(document).ready(function(){
 	    //add action button to slider
 	    $(".sliderButton").css({"opacity": "0.8", "font-weight": "bold", "padding": "12px", "width": "90px", "height": "15px", "color": "#ffffff", "appearance": "button", "text-decoration": "none", "backgroundColor": "#004593", "margin": "140px 0px 0px -55px"}); //top, right, bottom, left
 	    var elements = document.getElementsByClassName("sliderButton");
-		console.log("num elements: " + elements.length);
+		//console.log("num elements: " + elements.length);
 	    for (var i = 0; i < elements.length; i++) 
 	    {
 		 elements[i].style.position = "absolute";
