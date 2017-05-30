@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	console.log("Test1");
+	console.log("Test2");
 	
 	//  /clientimg/bd/welcome/lo_sprite_lrg.png
 	// Assessments: A+  0px 5px
