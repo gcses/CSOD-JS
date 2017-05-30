@@ -2,32 +2,51 @@ $(document).ready(function(){
 
 	console.log("Test2");
 	
+	        /*
+		oc: LoTypeId == LoType.OnlineClass,
+		ev: LoTypeId == LoType.Event,
+		qc: LoTypeId == LoType.QuickCourse,
+		cr: LoTypeId == LoType.Curriculum,
+		ts: LoTypeId == LoType.Test,
+		lb: LoTypeId == LoType.Library,
+		mt: LoTypeId == LoType.Material,
+		po: LoTypeId == LoType.Posting,
+		vd: LoTypeId == LoType.Video,
+                sl: LoTypeId == LoType.Program,
+		selected: ($root.selectedLoType() & LoTypeId) > 0
+		*/
+
 	//  /clientimg/bd/welcome/lo_sprite_lrg.png
-	// Assessments: A+  0px 5px    position 1
-	// Curriculum:  Book           position 2
-	// Events: man with quote      position 4
-	// Materials: paperclip        position 16
-	// Video: triangle in circle   position 6
-	// Notes: folded page          position 24
-	// Web-Based Training: laptop  position 15
+	// Assessments: A+  0px 5px    position 1   ts
+	// Curriculum:  Book           position 2   cr
+	// Events: man with quote      position 4   ev
+	// Materials: paperclip        position 16  mt
+	// Video: triangle in circle   position 6   vd
+	// Notes: folded page          position 24  ?? lb??
+	// Web-Based Training: laptop  position 15  oc
 	
 	//Learning Objects
 	
-/*
-	$('.item.oc').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px 5px transparent'});
-	
-	// Materials: paperclip
-	$('.item.mt').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px 5px transparent'});
-	
-	//transcript?
+        // Assessments: A+  0px 5px    position 1
 	$('.item.ts').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px 5px transparent'});
 	
-	// Events: man with quote
+	// Curriculum:  Book  position 2
+	$('.item.cr').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px 25px transparent'});
+	
+	// Events: man with quote      position 4
 	$('.item.ev').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px 5px transparent'});
 	
-	// Video: triangle in circle 
+	// Materials: paperclip        position 16
+	$('.item.mt').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px 5px transparent'});
+	
+	// Video: triangle in circle   position 6
 	$('.item.vd').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px 5px transparent'});
-*/	
+
+        // Notes: folded page          position 24 
+	$('.item.lb').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px 5px transparent'});
+
+	// Web-Based Training: laptop  position 15
+	$('.item.oc').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px 5px transparent'});
 
 	
 
