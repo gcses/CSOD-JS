@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	console.log("Test2");
+	console.log("Test3");
 	
 	//Alternative Header Icons
 	 $('.avatar a').css({'background': 'url("/clientimg/bd/welcome/compass_sprite.png") no-repeat scroll 12px 4px transparent'});
