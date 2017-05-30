@@ -1,9 +1,9 @@
 $(document).ready(function(){
 
-	console.log("Test2");
+	console.log("Test3");
 	
 	//profile icon replacement
-	$("#header_headerFixed_imgAvatar").css({'src': 'https://bd.csod.com/clientimg/bd/welcome/profile.png'});
+	$("#header_headerFixed_imgAvatar").attr({'src': 'https://bd.csod.com/clientimg/bd/welcome/profile.png'});
 	
 	
 	$('#main-menu').css({"background-image": "none", "background-color": "#004593"});
