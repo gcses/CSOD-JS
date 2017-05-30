@@ -13,7 +13,7 @@ $(document).ready(function(){
 	
 	//Learning Objects
 	
-	
+/*
 	$('.item.oc').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px 5px transparent'});
 	
 	// Materials: paperclip
@@ -27,7 +27,7 @@ $(document).ready(function(){
 	
 	// Video: triangle in circle 
 	$('.item.vd').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px 5px transparent'});
-	
+*/	
 
 	
 
