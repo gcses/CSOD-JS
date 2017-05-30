@@ -1,12 +1,16 @@
 $(document).ready(function(){
 
-	console.log("Test4");
+	console.log("Test5");
 	
 	//profile icon replacement
 	$("#header_headerFixed_imgAvatar").attr({'src': 'https://bd.csod.com/clientimg/bd/welcome/profile.png'});
-	$('.cart').css({'background': 'url("https://bd.csod.com/clientimg/bd/welcome/profile.png") no-repeat scroll 5px -35px transparent', 'width': '40px'});
-	$('.settings').css({'background': 'url("https://bd.csod.com/clientimg/bd/welcome/profile.png") no-repeat scroll 0px -80px transparent'});
+	$('#header_headerFixed_imgAvatar').css({'padding': '5px'});
 	
+	
+	$('.cart').css({'background': 'url("https://bd.csod.com/clientimg/bd/welcome/profile.png") no-repeat scroll 5px -35px transparent !important', 'width': '40px'});
+	
+	$('.settings item').css({'background': 'url("https://bd.csod.com/clientimg/bd/welcome/profile.png") no-repeat scroll 0px -80px transparent'});
+	$("#settingscontainer").attr({'src': 'https://bd.csod.com/clientimg/bd/welcome/profile.png'});
 	
 	$('#main-menu').css({"background-image": "none", "background-color": "#004593"});
 	
