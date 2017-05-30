@@ -1,17 +1,18 @@
 $(document).ready(function(){
 
-	console.log("Test15");
+	console.log("Test16");
 	
 	//profile icon replacement
 	$("#header_headerFixed_imgAvatar").attr({'src': 'https://bd.csod.com/clientimg/bd/welcome/profile.png'});
 	$('#header_headerFixed_imgAvatar').attr({'width': '5px', 'height': '5px'});
 	
 
-	var sps = document.getElementsByClassName(".cart a span");
-	sps[0].css({'background': 'url("https://bd.csod.com/clientimg/bd/welcome/shoppingCart.png")',  'backgroundColor': 'yellow'});
+	//var sps = document.getElementsByClassName(".cart a span");
+	//sps[0].css({'background': 'url("https://bd.csod.com/clientimg/bd/welcome/shoppingCart.png")',  'backgroundColor': 'yellow'});
 
-	
 	$('#settingscontainer').css({'background': 'url("https://bd.csod.com/clientimg/bd/welcome/cog.png")', 'backgroundColor': 'yellow'});
+	
+	
 	
 	
 	
