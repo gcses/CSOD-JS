@@ -2,11 +2,30 @@ $(document).ready(function(){
 
 	console.log("Test1");
 	
+	//  /clientimg/bd/welcome/lo_sprite_lrg.png
+	// Assessments: A+  0px 5px
+	// Curriculum:  Book 
+	// Events: man with quote
+	// Materials: paperclip
+	// Video: triangle in circle 
+	// Notes: folded page
+	// Web-Based Training: laptop
+	
 	//Learning Objects
+	
+	
 	$('.item.oc').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px 5px transparent'});
+	
+	// Materials: paperclip
 	$('.item.mt').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px 5px transparent'});
+	
+	//transcript?
 	$('.item.ts').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px 5px transparent'});
+	
+	// Events: man with quote
 	$('.item.ev').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px 5px transparent'});
+	
+	// Video: triangle in circle 
 	$('.item.vd').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px 5px transparent'});
 	
 
