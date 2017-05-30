@@ -1,11 +1,15 @@
 $(document).ready(function(){
 
-	console.log("Test7");
+	console.log("Test8");
 	
 	//Alternative Header Icons
+	 $('.avatar').css({'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite.png") no-repeat scroll 12px 4px transparent'});
+	 $('.cart').css({'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite.png") no-repeat scroll 5px -35px transparent', 'width': '40px'});
+	 $('.settings').css({'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite.png") no-repeat scroll 0px -80px transparent'});
 	
-	 $('.cart a').css({'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite.png") no-repeat scroll 5px -35px transparent', 'width': '40px'});
-	 $('.settings a').css({'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite.png") no-repeat scroll 0px -80px transparent'});
+	//$('.item.oc').css
+	
+	/*
 	
 	var avatarImg = document.getElementById('header_headerFixed_imgAvatar');
 	if (avatarImg != null)
@@ -13,14 +17,13 @@ $(document).ready(function(){
 	    //avatarImg.src='https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite.png';
 	    //avatarImg.style.backgroundPosition = "12px 4px";
 	   // $('.avatar a').css({'background': 'no-repeat scroll 12px 4px transparent'});
-		
 	   //drawImage( image, x, y, width, height );
 	   var avtImg = document.createElement('Image');
 	   avtImg.src = "https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite.png";
            avatarImg.drawImage( avtImg, 12, 4, 8, 8 );
 	}
 	
-	
+	*/
 	
 
 
