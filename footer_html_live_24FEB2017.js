@@ -1,18 +1,27 @@
 $(document).ready(function(){
 
-	console.log("Test5");
+	console.log("Test6");
 	
 	//profile icon replacement
 	$("#header_headerFixed_imgAvatar").attr({'src': 'https://bd.csod.com/clientimg/bd/welcome/profile.png'});
-	$('#header_headerFixed_imgAvatar').css({'padding': '5px'});
+	$('#header_headerFixed_imgAvatar').css({'margin': '4px'});
 	
 	
 	$('.cart').css({'background': 'url("https://bd.csod.com/clientimg/bd/welcome/profile.png") no-repeat scroll 5px -35px transparent !important', 'width': '40px'});
 	
-	$('.settings item').css({'background': 'url("https://bd.csod.com/clientimg/bd/welcome/profile.png") no-repeat scroll 0px -80px transparent'});
-	$("#settingscontainer").attr({'src': 'https://bd.csod.com/clientimg/bd/welcome/profile.png'});
+	
+	//$('.settings item').css({'background': 'url("https://bd.csod.com/clientimg/bd/welcome/profile.png") no-repeat scroll 0px -80px transparent'});
+
+
+	$('#settingscontainer').css({'background': 'url("https://bd.csod.com/clientimg/bd/welcome/profile.png") no-repeat scroll 0px -80px transparent'});
+	
+	
+	
+	
+	
 	
 	$('#main-menu').css({"background-image": "none", "background-color": "#004593"});
+	
 	
 	if (document.title.indexOf("Universal Profile") > -1)
 	{	
