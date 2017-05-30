@@ -3,14 +3,14 @@ $(document).ready(function(){
 	console.log("Test16");
 	
 	//profile icon replacement
-	$("#header_headerFixed_imgAvatar").attr({'src': 'https://bd.csod.com/clientimg/bd/welcome/profile.png'});
+	//$("#header_headerFixed_imgAvatar").attr({'src': 'https://bd.csod.com/clientimg/bd/welcome/profile.png'});
 	//$('#header_headerFixed_imgAvatar').attr({'width': '5px', 'height': '5px'});
 	
 
 	//var sps = document.getElementsByClassName(".cart a span");
 	//sps[0].css({'background': 'url("https://bd.csod.com/clientimg/bd/welcome/shoppingCart.png")',  'backgroundColor': 'yellow'});
 
-	$('#settingscontainer').css({'background': 'url("https://bd.csod.com/clientimg/bd/welcome/cog.png")', 'backgroundColor': 'yellow'});
+	//$('#settingscontainer').css({'background': 'url("https://bd.csod.com/clientimg/bd/welcome/cog.png")', 'backgroundColor': 'yellow'});
 	
 	
 	
@@ -186,7 +186,7 @@ $(document).ready(function(){
 
 	//master icons - general
         //   /clientimg/bd/welcome/compass-sprite.png
-	
+/*
 	$('.item.oc').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px 5px transparent'});
 
 	$('.item.mt').css({'background':'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px 5px transparent'});
@@ -196,7 +196,7 @@ $(document).ready(function(){
 	$('.item.ev').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px 5px transparent'});
 
 	$('.item.vd').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px 5px transparent'});
-
+*/
 	//$('#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl01_widgetContainer_ctl00_pnlSuggestedTraining_title').css({'background-color':'#00B8B0'});
         
 
