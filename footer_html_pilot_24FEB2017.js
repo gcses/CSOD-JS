@@ -2,14 +2,54 @@ $(document).ready(function(){
 
 	console.log("Test8");
 	
+	
+	// ICONS
+		
+	
+/*  hide for screen shot	
+	//univProfileLi.style.cssFloat = "right";
+        //swap the new profile image (element ID varies by page)
+	var imgLoc = document.getElementById('header_headerFixed_imgAvatar');
+	if (imgLoc != null)
+	{
+	    document.getElementById('header_headerFixed_imgAvatar').src='https://rawgit.com/gcses/CSOD-JS/master/nophoto2.png';
+	}
+	else
+	{
+		imgLoc = document.getElementById('ctl00_header_headerFixed_imgAvatar');
+		if (imgLoc != null)
+		{
+	  	   document.getElementById('ctl00_header_headerFixed_imgAvatar').src='https://rawgit.com/gcses/CSOD-JS/master/nophoto2.png';
+		}
+	}
+*/
+	
+	//document.getElementById("header_headerFixed_hlAvatar").style.cssFloat = "left";
+	
+	//load splash image background
+	//<div class="topBarOuter">
+	//$(".topBarOuter").css({"background-color": "yellow" });  
+
+	//var headerTable = document.getElementById('tblTopBar');
+	//headerTable.style.backgroundImage = "url('https://rawgit.com/gcses/CSOD-JS/master/header.JPG')";
+	
+       // $('.cso-h1').css("color", "red");
+	
+	
+	
+	
+	
+	
 	//change the navigation bar to white, remove gradient		
 	$('#main-menu').css({"background-image": "none", "background-color": "#ffffff"});
 	
 	//handle the navigation bar active tab, only decorate first descendant or main categories
 	$('#main-menu > li.active').css({"background-color": "#ffffff", "text-decoration": "underline", "font-weight": "bold"});
 	
+	// navigation bar changes
 	 $('.navTabs li a').css({"background-image": "none", "text-shadow": "none", "color": "#808080", "font-weight": "normal"});
 	
+	 //navigation bar hover - active hover is being blocked somewhere else (the hover is always blue or theme color)
 	 $("#main-menu > li").hover(function(){ 
 		 $(this).css({"backgroundColor": "yellow",  "color": "#000000", "text-decoration": "underline", "font-weight": "bold"}); },
 		 function() { $(this).css({"backgroundColor": "#ffffff",  "color": "#808080", "text-decoration": "", "font-weight": ""}); }
@@ -22,9 +62,6 @@ $(document).ready(function(){
 	//fix the spacing around the header search and icons
 	$('.tools').css({"margin": "-20px 0px 20px 0px", "background-color": "#004593"}); 
 	
-	
-	
-	
 	//$('#search .search-lnk:after').css({"content": "\f002", "position": "absolute", "right": "0", "top": "0", "color": "#004593", "width": "26px", "height": "28px", "display": "block", "font": "normal normal normal 14px/1 FontAwesome"});
 	//$('.navTabs li.active a, .navTabs li:hover a').css({"background-image": "none", "color": "#000000", "text-decoration": "underline"});
 	
@@ -34,11 +71,6 @@ $(document).ready(function(){
 	//$('.user-interaction li').css({"background-image": "none", "background-color": "#ffffff", "text-decoration": "none"});
 	 $('.compass-title').css({"font-size": "20px", "line-height": "36px", "margin-left": "30px", "margin-right": "30px", "display": "inline-block"});
 
-	
-	//defer loading / set time out / long time out
-	//setTimeout(getAdditionalCSS, 30000);
-	//$('body').append( $('<link rel="stylesheet" type="text/css" />').attr('href', 'https://github.com/gcses/CSOD-JS/blob/master/additonalStyles.css') );
-	
 	//hide the various Cornerstone footers
 	$('.df-footer').hide();
 	
@@ -65,8 +97,6 @@ $(document).ready(function(){
 	   $('body').css({"background-color": "#f2f2f2", "font-family": "'Source Sans Pro-bottom', sans-serif", "font-weight": "normal", "padding": "0", "margin": "0"}); 
 	   //$('#mainContainer').css({"max-width": "1200px", "margin": "0 auto"});
 	
-		
-		
            /*Header Top Bar - Logo and Header*/   
            $('.imageLogo').css({"margin-left": "30px"});
 	   $('#tblTopBar').css({"background-color": "#004593"});
@@ -124,9 +154,9 @@ $(document).ready(function(){
 												 									 								 
 	   $('.Panel_contentMiddle tr:last-child td').css({"border-bottom": "none"});
 		
-		 $('.Panel_contentMiddle tr td:first-child').css({"color": "#004593"});
+	   $('.Panel_contentMiddle tr td:first-child').css({"color": "#004593"});
 		
-		 $('.Panel_contentMiddle td a').css({"color": "#ffffff", "font-weight": "normal", "padding": "8px 26px 8px 10px", "backgroundColor": "#004593", "min-width": "122px", "display": "inline-block", "box-sizing": "border-box", "position": "relative"});
+	   $('.Panel_contentMiddle td a').css({"color": "#ffffff", "font-weight": "normal", "padding": "8px 26px 8px 10px", "backgroundColor": "#004593", "min-width": "122px", "display": "inline-block", "box-sizing": "border-box", "position": "relative"});
 		
 		
 		// $(".Panel_contentMiddle td a").hover(function(){ 
@@ -193,35 +223,6 @@ $(document).ready(function(){
 	
 	
 	
-	
-/*  hide for screen shot	
-	//univProfileLi.style.cssFloat = "right";
-        //swap the new profile image (element ID varies by page)
-	var imgLoc = document.getElementById('header_headerFixed_imgAvatar');
-	if (imgLoc != null)
-	{
-	    document.getElementById('header_headerFixed_imgAvatar').src='https://rawgit.com/gcses/CSOD-JS/master/nophoto2.png';
-	}
-	else
-	{
-		imgLoc = document.getElementById('ctl00_header_headerFixed_imgAvatar');
-		if (imgLoc != null)
-		{
-	  	   document.getElementById('ctl00_header_headerFixed_imgAvatar').src='https://rawgit.com/gcses/CSOD-JS/master/nophoto2.png';
-		}
-	}
-*/
-	
-	//document.getElementById("header_headerFixed_hlAvatar").style.cssFloat = "left";
-	
-	//load splash image background
-	//<div class="topBarOuter">
-	//$(".topBarOuter").css({"background-color": "yellow" });  
-
-	//var headerTable = document.getElementById('tblTopBar');
-	//headerTable.style.backgroundImage = "url('https://rawgit.com/gcses/CSOD-JS/master/header.JPG')";
-	
-       // $('.cso-h1').css("color", "red");	
 	
 	
 	if (document.title.indexOf("Universal Profile") > -1)
