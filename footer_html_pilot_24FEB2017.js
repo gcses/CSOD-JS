@@ -1,9 +1,9 @@
 $(document).ready(function(){
 
-	console.log("Test5");
+	console.log("Test6");
 	
 	//Alternative Header Icons
-	// $('.avatar a').css({'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite.png") no-repeat scroll 12px 4px transparent'});
+	
 	 $('.cart a').css({'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite.png") no-repeat scroll 5px -35px transparent', 'width': '40px'});
 	 $('.settings a').css({'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite.png") no-repeat scroll 0px -80px transparent'});
 	
@@ -11,7 +11,11 @@ $(document).ready(function(){
 	if (avatarImg != null)
 	{
 	    avatarImg.src='https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite.png';
-	    avatarImg.style.backgroundPosition = "12px 4px";
+	    //avatarImg.style.backgroundPosition = "12px 4px";
+		
+	    $('.avatar a').css({'background': 'no-repeat scroll 12px 4px transparent'});
+
+
 	}
 	
 	
