@@ -1,12 +1,17 @@
 $(document).ready(function(){
 
-	console.log("Test1");
+	console.log("Test2");
+	
+	//Alternative Header Icons
+	 $('.avatar a').css({'background': 'url("/clientimg/bd/welcome/compass_sprite.png") no-repeat scroll 12px 4px transparent'});
+	 $('.cart a').css({'background': 'url("/clientimg/bd/welcome/compass_sprite.png") no-repeat scroll 5px -35px transparent', 'width': '40px'});
+	 $('.settings a').css({'background': 'url("/clientimg/bd/welcome/compass_sprite.png") no-repeat scroll 0px -80px transparent'});
 	
 	
-	// ICONS
-        $('#header_headerFixed_imgAvatar').css({'background': 'url("/clientimg/bd/welcome/compass_sprite.png") no-repeat scroll 0px 5px transparent'});
 	
-	
+
+
+
 	
 	
 /*  hide for screen shot	
