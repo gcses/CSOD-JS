@@ -1,6 +1,10 @@
 $(document).ready(function(){
 
-	console.log("Test7");
+	console.log("Test1");
+	
+	
+	$("#header_headerFixed_imgAvatar").css({'src': 'https://bd-pilot.csod.com/clientimg/bd/welcome/profile.png'});
+	
 	
 	$('#main-menu').css({"background-image": "none", "background-color": "#004593"});
 	
