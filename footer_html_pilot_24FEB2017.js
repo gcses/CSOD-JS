@@ -3,13 +3,13 @@ $(document).ready(function(){
 	console.log("Test2");
 	
 	//  /clientimg/bd/welcome/lo_sprite_lrg.png
-	// Assessments: A+  0px 5px
-	// Curriculum:  Book 
-	// Events: man with quote
-	// Materials: paperclip
-	// Video: triangle in circle 
-	// Notes: folded page
-	// Web-Based Training: laptop
+	// Assessments: A+  0px 5px    position 1
+	// Curriculum:  Book           position 2
+	// Events: man with quote      position 4
+	// Materials: paperclip        position 16
+	// Video: triangle in circle   position 6
+	// Notes: folded page          position 24
+	// Web-Based Training: laptop  position 15
 	
 	//Learning Objects
 	
