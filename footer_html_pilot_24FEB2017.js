@@ -1,11 +1,16 @@
 $(document).ready(function(){
 
-	console.log("Test8");
+	console.log("Test9");
 	
 	//Alternative Header Icons
-	 $('.avatar').css({'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite.png") no-repeat scroll 12px 4px transparent'});
+	 //$('.avatar').css({'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite.png") no-repeat scroll 12px 4px transparent'});
 	 $('.cart').css({'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite.png") no-repeat scroll 5px -35px transparent', 'width': '40px'});
 	 $('.settings').css({'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite.png") no-repeat scroll 0px -80px transparent'});
+	
+	
+	$("#header_headerFixed_imgAvatar").attr("src", "https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite.png")
+	
+	
 	
 	//$('.item.oc').css
 	
