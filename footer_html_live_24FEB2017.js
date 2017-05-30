@@ -1,9 +1,9 @@
 $(document).ready(function(){
 
-	console.log("Test1");
+	console.log("Test2");
 	
-	
-	$("#header_headerFixed_imgAvatar").css({'src': 'https://bd-pilot.csod.com/clientimg/bd/welcome/profile.png'});
+	//profile icon replacement
+	$("#header_headerFixed_imgAvatar").css({'src': 'https://bd.csod.com/clientimg/bd/welcome/profile.png'});
 	
 	
 	$('#main-menu').css({"background-image": "none", "background-color": "#004593"});
