@@ -1,19 +1,16 @@
 $(document).ready(function(){
 
-	console.log("Test13");
+	console.log("Test14");
 	
 	//profile icon replacement
 	$("#header_headerFixed_imgAvatar").attr({'src': 'https://bd.csod.com/clientimg/bd/welcome/profile.png'});
-	
 	$('#header_headerFixed_imgAvatar').attr({'width': '5px', 'height': '5px'});
 	
 
-	    var sps = document.getElementsByClassName(".cart span");
-	    sps[0].css({'background': 'url("https://bd.csod.com/clientimg/bd/welcome/shoppingCart.png")'});
+	var sps = document.getElementsByClassName(".cart");
+	sps[0].css({'background': 'url("https://bd.csod.com/clientimg/bd/welcome/shoppingCart.png")'});
 
 	
-	
-	//$('.cart span: ').css({'background': 'url("https://bd.csod.com/clientimg/bd/welcome/shoppingCart.png")', 'width': '40px'});
 	$('#settingscontainer').css({'background': 'url("https://bd.csod.com/clientimg/bd/welcome/cog.png")'});
 	
 	
