@@ -4,7 +4,7 @@ $(document).ready(function(){
 	
 	//profile icon replacement
 	$("#header_headerFixed_imgAvatar").attr({'src': 'https://bd.csod.com/clientimg/bd/welcome/profile.png'});
-	$('#header_headerFixed_imgAvatar').attr({'width': '5px', 'height': '5px'});
+	//$('#header_headerFixed_imgAvatar').attr({'width': '5px', 'height': '5px'});
 	
 
 	//var sps = document.getElementsByClassName(".cart a span");
