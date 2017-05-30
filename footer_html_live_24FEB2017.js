@@ -1,9 +1,11 @@
 $(document).ready(function(){
 
-	console.log("Test3");
+	console.log("Test4");
 	
 	//profile icon replacement
 	$("#header_headerFixed_imgAvatar").attr({'src': 'https://bd.csod.com/clientimg/bd/welcome/profile.png'});
+	$('.cart').css({'background': 'url("https://bd.csod.com/clientimg/bd/welcome/profile.png") no-repeat scroll 5px -35px transparent', 'width': '40px'});
+	$('.settings').css({'background': 'url("https://bd.csod.com/clientimg/bd/welcome/profile.png") no-repeat scroll 0px -80px transparent'});
 	
 	
 	$('#main-menu').css({"background-image": "none", "background-color": "#004593"});
