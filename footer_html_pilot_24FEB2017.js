@@ -1,10 +1,13 @@
 $(document).ready(function(){
 
-	console.log("Test8");
+	console.log("Test1");
 	
 	
 	// ICONS
-		
+        $('#header_headerFixed_imgAvatar').css({'background': 'url("/clientimg/bd/welcome/compass_sprite.png") no-repeat scroll 0px 5px transparent'});
+	
+	
+	
 	
 /*  hide for screen shot	
 	//univProfileLi.style.cssFloat = "right";
