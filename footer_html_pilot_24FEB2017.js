@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	console.log("Test1");
+	console.log("Test2");
 	
 	//Alternative Header Icons
 	 //$('.avatar').css({'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite.png") no-repeat scroll 12px 4px transparent'});
@@ -8,8 +8,12 @@ $(document).ready(function(){
 	 $('.settings').css({'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite.png") no-repeat scroll 0px -80px transparent'});
 	
 	
-	//$("#header_headerFixed_imgAvatar").attr("src", "https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite.png");
-	$("#header_headerFixed_imgAvatar").css({'src': 'https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite.png no-repeat scroll 12px 4px transparent'});
+	$("#header_headerFixed_imgAvatar").css({'src': 'https://bd-pilot.csod.com/clientimg/bd/welcome/profile.png'});
+	
+	
+	
+	
+	
 	
 	
 	
