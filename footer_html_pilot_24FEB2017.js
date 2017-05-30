@@ -10,17 +10,14 @@ $(document).ready(function(){
 	var avatarImg = document.getElementById('header_headerFixed_imgAvatar');
 	if (avatarImg != null)
 	{
-	    
 	    //avatarImg.src='https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite.png';
 	    //avatarImg.style.backgroundPosition = "12px 4px";
-		
 	   // $('.avatar a').css({'background': 'no-repeat scroll 12px 4px transparent'});
 		
 	   //drawImage( image, x, y, width, height );
-           var avtImg = new Image();
+	   var avtImg = document.createElement('Image');
 	   avtImg.src = "https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite.png";
            avatarImg.drawImage( avtImg, 12, 4, 8, 8 );
-
 	}
 	
 	
