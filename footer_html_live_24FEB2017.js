@@ -1,13 +1,13 @@
 $(document).ready(function(){
 
-	console.log("Test10");
+	console.log("Test12");
 	
 	//profile icon replacement
 	$("#header_headerFixed_imgAvatar").attr({'src': 'https://bd.csod.com/clientimg/bd/welcome/profile.png'});
-	$('#header_headerFixed_imgAvatar').css({'width': '60%', 'height': '60%'});
+	$('#header_headerFixed_imgAvatar').css({'width': '5px', 'height': '5px'});
 	
-	$('.cart').css({'background': 'url("https://bd.csod.com/clientimg/bd/welcome/profile.png") no-repeat scroll 5px -35px transparent', 'width': '40px'});
-	$('#settingscontainer').css({'background': 'url("https://bd.csod.com/clientimg/bd/welcome/profile.png") no-repeat scroll 0px -80px transparent !important'});
+	$('.cart').css({'background': 'url("https://bd.csod.com/clientimg/bd/welcome/shoppingCart.png")', 'width': '40px'});
+	$('#settingscontainer').css({'background': 'url("https://bd.csod.com/clientimg/bd/welcome/cog.png")'});
 	
 	
 	
