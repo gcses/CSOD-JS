@@ -37,7 +37,7 @@ $(window).scroll(function() {
 
 $(document).ready(function(){
 	
-       console.log("Test3");
+       console.log("Test4");
 	
       // $('a:contains("Welcome")').each(function(){
  	//	$(this).remove();
@@ -47,8 +47,8 @@ $(document).ready(function(){
 	
 	//data-tag='Welcome'>
 	var welcomeTab = document.querySelector("[data-tag='Welcome']");
-	//welcomeTab.parentNode.removeChild(welcomeTab);
-	welcomeTab.style.visibility = "hidden";
+	welcomeTab.parentNode.removeChild(welcomeTab);
+	//welcomeTab.style.visibility = "hidden";
 	
 	
 	//Alternative Header Icons
