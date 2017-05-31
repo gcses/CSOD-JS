@@ -1,6 +1,15 @@
+
+$(document).onreadystatechange = function() {
+    if ($(document).readyState == 'loaded')//ERROR LOADING
+        console.log("Loaded");
+    else if($(document).readyState == 'complete')//loaded
+        console.log("Complete");
+};
+
+
 $(document).ready(function(){
 	
-	console.log("Test1");
+	console.log("Test2");
 	
 	//Alternative Header Icons
 	 //$('.avatar').css({'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite.png") no-repeat scroll 12px 4px transparent'});
