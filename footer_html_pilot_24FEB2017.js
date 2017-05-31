@@ -1,95 +1,13 @@
 $(document).ready(function(){
-
-	console.log("Test5");
 	
-	loTypesData = [
-			{ LoTypeId: 1, Tooltip: "Online Class2", Description: "Online Classes2" },
-		{ LoTypeId: 2, Tooltip: "Event", Description: "Events" },
-		{ LoTypeId: 4, Tooltip: "Quick Course", Description: "Quick Courses" },
-		{ LoTypeId: 8, Tooltip: "Curriculum", Description: "Curriculums" },
-		{ LoTypeId: 64, Tooltip: "Test", Description: "Tests" },
-		{ LoTypeId: 16384, Tooltip: "Library", Description: "Libraries" },
-		{ LoTypeId: 524288, Tooltip: "Material", Description: "Materials" },
-		{ LoTypeId: 4263984, Tooltip: "Posting", Description: "Postings" },
-		{ LoTypeId: 67108864, Tooltip: "Video", Description: "Videos" },
-		{ LoTypeId: 134217728, Tooltip: "Program", Description: "Programs" }
-	];
-
+	console.log("Test1");
 	
-	
-	        /*
-		oc: LoTypeId == LoType.OnlineClass,
-		ev: LoTypeId == LoType.Event,
-		qc: LoTypeId == LoType.QuickCourse,
-		cr: LoTypeId == LoType.Curriculum,
-		ts: LoTypeId == LoType.Test,
-		lb: LoTypeId == LoType.Library,
-		mt: LoTypeId == LoType.Material,
-		po: LoTypeId == LoType.Posting,
-		vd: LoTypeId == LoType.Video,
-                sl: LoTypeId == LoType.Program,
-		selected: ($root.selectedLoType() & LoTypeId) > 0
-		*/
-
-	//  /clientimg/bd/welcome/lo_sprite_lrg.png
-	// Assessments: A+  0px 5px    position 1   ts
-	// Curriculum:  Book           position 2   cr
-	// Events: man with quote      position 4   ev
-	// Materials: paperclip        position 16  mt
-	// Video: triangle in circle   position 6   vd
-	// Notes: folded page          position 24  ?? lb??
-	// Web-Based Training: laptop  position 15  oc
-	
-	//Learning Objects
-	/*
-	$(this).css({
-    background-image:url('image.gif'),
-    background-repeat:no-repeat,
-    background-attachment:fixed,
-    background-position:center, 
-    top: 100,
-    left: 100
-});
-*/
-	
-        // Assessments: A+  0px 0px    position 1
-	$('.item.ts').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px 0px transparent'});
-	
-	// Curriculum:  Book 0px -57px  position 2
-	$('.item.cr').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px -57px transparent'});
-	
-	// Events: man with quote 0px -182px position 4
-	$('.item.ev').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px -182px transparent'});
-	
-	// Materials: paperclip        position 16
-	$('.item.mt').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px -900px transparent'});
-	
-	// Video: triangle in circle   position 6
-	$('.item.vd').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px -300px transparent'});
-
-	
-        // Notes: folded page     1380     position 24 - 
-	$('.item.lb').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px -1380px transparent'});
-
-	// Web-Based Training: laptop  position 15
-	$('.item.oc').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px -840px transparent'});
-
-	
-
 	//Alternative Header Icons
 	 //$('.avatar').css({'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite.png") no-repeat scroll 12px 4px transparent'});
 	 $('.cart').css({'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite.png") no-repeat scroll 5px -35px transparent', 'width': '40px'});
 	 $('.settings').css({'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite.png") no-repeat scroll 0px -80px transparent'});
 	
-	
 	//$("#header_headerFixed_imgAvatar").css({'src': 'https://bd-pilot.csod.com/clientimg/bd/welcome/profile.png'});
-	
-	
-	
-	
-	
-	
-	
 	
 	//var avtImg = document.createElement('Image');
 	//avtImg.src = "https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite.png";
@@ -565,7 +483,7 @@ function createAccordionControls()
     $(".cs-subjwidg-list li.cat.nochild .ex-icon").css({"display": "block", "width": "100%", "height": "40px", "border": "1px solid #CCCCCC", "position": "relative", "text-index": "0px"});  
 
 	
-    // font awesome down arrow
+    // font awesome down arrow - see css that is already linked in
 	//$(".cs-subjwidg-list li.cat").css({ "background-color": "blue" });  
 	
 	//$('.cs-subjwidg-list li.cat').each(function(){
@@ -642,10 +560,49 @@ function getAdditionalCSS() {
        bdy.appendChild(link);
 }
 
-
+//this needs to be called for every 'lazy load' of additional data
 function replaceOnlineClass() 
 {
     //	console.log("replace() - Start");
+	
+	/*
+		oc: LoTypeId == LoType.OnlineClass,
+		ev: LoTypeId == LoType.Event,
+		qc: LoTypeId == LoType.QuickCourse,
+		cr: LoTypeId == LoType.Curriculum,
+		ts: LoTypeId == LoType.Test,
+		lb: LoTypeId == LoType.Library,
+		mt: LoTypeId == LoType.Material,
+		po: LoTypeId == LoType.Posting,
+		vd: LoTypeId == LoType.Video,
+                sl: LoTypeId == LoType.Program,
+		*/
+	
+	//Learning Objects
+        // Assessments: A+  0px 0px    position 1
+	$('.item.ts').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px 0px transparent'});
+	
+	// Curriculum:  Book 0px -57px  position 2
+	$('.item.cr').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px -57px transparent'});
+	
+	// Events: man with quote 0px -182px position 4
+	$('.item.ev').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px -182px transparent'});
+	
+	// Materials: paperclip        position 16
+	$('.item.mt').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px -900px transparent'});
+	
+	// Video: triangle in circle   position 6
+	$('.item.vd').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px -300px transparent'});
+	
+        // Notes: folded page     1380     position 24 - 
+	$('.item.lb').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px -1380px transparent'});
+
+	// Web-Based Training: laptop  position 15
+	$('.item.oc').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px -840px transparent'});
+
+	
+	
+	
 		
     var elements=document.getElementsByTagName("*"), count=elements.length, elementChildNodes=[], subCount=0, i=0, sub=0, elementHeight=0;
     
