@@ -8,9 +8,42 @@ $(document).onreadystatechange = function() {
 };
 */
 
+/*
+        $('.item.ts').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px 0px transparent'});
+	
+	// Curriculum:  Book 0px -57px  position 2
+	$('.item.cr').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px -57px transparent'});
+	
+	// Events: man with quote 0px -182px position 4
+	$('.item.ev').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px -182px transparent'});
+	
+	// Materials: paperclip        position 16
+	$('.item.mt').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px -900px transparent'});
+	
+	// Video: triangle in circle   position 6
+	$('.item.vd').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px -300px transparent'});
+	
+        // Notes: folded page     1380     position 24 - 
+	$('.item.lb').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px -1380px transparent'});
+
+	// Web-Based Training: laptop  position 15
+	$('.item.oc').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px -840px transparent'});
+
+	
+	
+	
+		
+
+
+*/
 
 
 
+
+
+
+
+/*
 var iScrollPos = 0;
 $(window).scroll(function() {
     if (document.title.indexOf("Browse for Training") > -1)
@@ -24,7 +57,7 @@ $(window).scroll(function() {
        iScrollPos = iCurScrollPos;
     }
 });
-	    
+*/	    
 	    /*
           if ($(window).scrollTop() != 0)
           // if($(window).scrollTop() + $(window).height() == $(document).height() - 200)
@@ -37,7 +70,17 @@ $(window).scroll(function() {
 
 $(document).ready(function(){
 	
-       console.log("Test4");
+       console.log("Test5");
+	
+	
+$('.item.oc').on('load',function(){
+    if (document.title.indexOf("Browse for Training") > -1)
+    {
+   	replaceOnlineClass();
+    }
+});
+	
+	
 	
       // $('a:contains("Welcome")').each(function(){
  	//	$(this).remove();
