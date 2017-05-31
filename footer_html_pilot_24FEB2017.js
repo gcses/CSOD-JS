@@ -1,6 +1,21 @@
 $(document).ready(function(){
 
-	console.log("Test4");
+	console.log("Test5");
+	
+	loTypesData = [
+			{ LoTypeId: 1, Tooltip: "Online Class2", Description: "Online Classes2" },
+		{ LoTypeId: 2, Tooltip: "Event", Description: "Events" },
+		{ LoTypeId: 4, Tooltip: "Quick Course", Description: "Quick Courses" },
+		{ LoTypeId: 8, Tooltip: "Curriculum", Description: "Curriculums" },
+		{ LoTypeId: 64, Tooltip: "Test", Description: "Tests" },
+		{ LoTypeId: 16384, Tooltip: "Library", Description: "Libraries" },
+		{ LoTypeId: 524288, Tooltip: "Material", Description: "Materials" },
+		{ LoTypeId: 4263984, Tooltip: "Posting", Description: "Postings" },
+		{ LoTypeId: 67108864, Tooltip: "Video", Description: "Videos" },
+		{ LoTypeId: 134217728, Tooltip: "Program", Description: "Programs" }
+	];
+
+	
 	
 	        /*
 		oc: LoTypeId == LoType.OnlineClass,
@@ -424,12 +439,23 @@ $(document).ready(function(){
         $("[aria-labelledby=Support]").append('<li><a href="https://eim.carefusion.com/Account/ChangePassword" title="Change Password" tabindex="-1">Change Password</a></li><li><a href="/catalog/CustomPage.aspx?id=20000480&amp;tab_page_id=20000480" title="Contact Us" tabindex="-1">Contact Us</a></li><li><a href="/catalog/CustomPage.aspx?id=20000479&amp;tab_page_id=20000479" title="Frequently Asked Questions" tabindex="-1">Frequently Asked Questions</a></li>');
         $smjquery('#main-menu').smartmenus('refresh');
 
+	
+	
+	
+	
+	
 	$('.cso-txt span:contains("Online Class")').each(function(){
  	     $(this).html($(this).html().replace('Online Class','Web-Based Training'));
 	    });
 
 	$('[data-original-title="Online Class"]').attr('data-original-title', 'Web-Based Training');
         //  $('.tooltip-cso').tooltip();
+	
+	
+	
+	
+	
+	
 	
 	
 	$('.cso-brdcrm-cont a:contains("Browse for Training")').each(function(){
