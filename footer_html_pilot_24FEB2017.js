@@ -10,19 +10,22 @@ $(document).onreadystatechange = function() {
 
 
 $(window).scroll(function() {
-  if ($(window).scrollTop() != 0)
-  // if($(window).scrollTop() + $(window).height() == $(document).height() - 200)
-   {
-        alert("bottom!");
-        console.log("Bottom!");
-	//replaceOnlineClass();
-   }
+    if (document.title.indexOf("Browse for Training") > -1)
+    {
+          if ($(window).scrollTop() != 0)
+          // if($(window).scrollTop() + $(window).height() == $(document).height() - 200)
+           {
+              // alert("bottom!");
+             //  console.log("Bottom!");
+	      replaceOnlineClass();
+	   }
+    }
 });
 
 
 $(document).ready(function(){
 	
-	console.log("Test5");
+	console.log("Test6");
 	
 	//Alternative Header Icons
 	 //$('.avatar').css({'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite.png") no-repeat scroll 12px 4px transparent'});
