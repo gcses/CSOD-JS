@@ -8,8 +8,10 @@ $(document).onreadystatechange = function() {
 };
 */
 
+
 $(window).scroll(function() {
-   if($(window).scrollTop() + $(window).height() == $(document).height() - 200)
+  if ($(window).scrollTop() != 0)
+  // if($(window).scrollTop() + $(window).height() == $(document).height() - 200)
    {
         alert("bottom!");
         console.log("Bottom!");
@@ -20,7 +22,7 @@ $(window).scroll(function() {
 
 $(document).ready(function(){
 	
-	console.log("Test4");
+	console.log("Test5");
 	
 	//Alternative Header Icons
 	 //$('.avatar').css({'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite.png") no-repeat scroll 12px 4px transparent'});
