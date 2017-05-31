@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	console.log("Test2");
+	console.log("Test3");
 	
 	        /*
 		oc: LoTypeId == LoType.OnlineClass,
@@ -26,12 +26,22 @@ $(document).ready(function(){
 	// Web-Based Training: laptop  position 15  oc
 	
 	//Learning Objects
+	/*
+	$(this).css({
+    background-image:url('image.gif'),
+    background-repeat:no-repeat,
+    background-attachment:fixed,
+    background-position:center, 
+    top: 100,
+    left: 100
+});
+*/
 	
         // Assessments: A+  0px 5px    position 1
 	$('.item.ts').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px 5px transparent'});
 	
 	// Curriculum:  Book  position 2
-	$('.item.cr').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px 25px transparent'});
+	$('.item.cr').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px 5px transparent'});
 	
 	// Events: man with quote      position 4
 	$('.item.ev').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px 5px transparent'});
