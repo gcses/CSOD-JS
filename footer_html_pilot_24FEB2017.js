@@ -8,6 +8,9 @@ $(document).onreadystatechange = function() {
 };
 */
 
+
+
+
 var iScrollPos = 0;
 $(window).scroll(function() {
     if (document.title.indexOf("Browse for Training") > -1)
@@ -34,7 +37,14 @@ $(window).scroll(function() {
 
 $(document).ready(function(){
 	
-	console.log("Test7");
+       console.log("Test1");
+	
+       $('a:contains("Welcome")').each(function(){
+ 		$(this).remove();
+	});
+	
+	
+	
 	
 	//Alternative Header Icons
 	 //$('.avatar').css({'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite.png") no-repeat scroll 12px 4px transparent'});
