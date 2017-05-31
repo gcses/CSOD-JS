@@ -37,14 +37,16 @@ $(window).scroll(function() {
 
 $(document).ready(function(){
 	
-       console.log("Test2");
+       console.log("Test3");
 	
       // $('a:contains("Welcome")').each(function(){
  	//	$(this).remove();
 	//});
 	
+	//var element = document.querySelector('[tokenid="14"]');
+	
 	//data-tag='Welcome'>
-	var welcomeTab = document.querySelectorAll("[data-tag='Welcome']");
+	var welcomeTab = document.querySelector("[data-tag='Welcome']");
 	//welcomeTab.parentNode.removeChild(welcomeTab);
 	welcomeTab.style.visibility = "hidden";
 	
