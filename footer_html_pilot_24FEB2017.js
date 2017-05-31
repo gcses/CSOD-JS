@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	console.log("Test2");
+	console.log("Test3");
 	
 	        /*
 		oc: LoTypeId == LoType.OnlineClass,
@@ -38,25 +38,29 @@ $(document).ready(function(){
 */
 	
         // Assessments: A+  0px 0px    position 1
-	$('.item.ts').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px -1311px transparent'});
+	$('.item.ts').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px -1370px transparent'});
 	
 	// Curriculum:  Book 0px -57px  position 2
-	$('.item.cr').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px -1311px transparent'});
+	$('.item.cr').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px -1370px transparent'});
 	
 	// Events: man with quote 0px -182px position 4
-	$('.item.ev').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px -1311px transparent'});
+	$('.item.ev').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px -1370px transparent'});
 	
 	// Materials: paperclip        position 16
-	$('.item.mt').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px -1311px transparent'});
+	$('.item.mt').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px -1370px transparent'});
 	
 	// Video: triangle in circle   position 6
-	$('.item.vd').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px -1311px transparent'});
+	$('.item.vd').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px -1370px transparent'});
 
+	
+	
+	
+	
         // Notes: folded page     1311     position 24 - 
-	$('.item.lb').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px -1311px transparent'});
+	$('.item.lb').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px -1370px transparent'});
 
 	// Web-Based Training: laptop  position 15
-	$('.item.oc').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px -1311px transparent'});
+	$('.item.oc').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px -1370px transparent'});
 
 	
 
