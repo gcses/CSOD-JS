@@ -37,13 +37,16 @@ $(window).scroll(function() {
 
 $(document).ready(function(){
 	
-       console.log("Test1");
+       console.log("Test2");
 	
-       $('a:contains("Welcome")').each(function(){
- 		$(this).remove();
-	});
+      // $('a:contains("Welcome")').each(function(){
+ 	//	$(this).remove();
+	//});
 	
-	
+	//data-tag='Welcome'>
+	var welcomeTab = document.querySelectorAll("[data-tag='Welcome']");
+	//welcomeTab.parentNode.removeChild(welcomeTab);
+	welcomeTab.style.visibility = "hidden";
 	
 	
 	//Alternative Header Icons
