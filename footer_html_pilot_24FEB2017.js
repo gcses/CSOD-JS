@@ -1,29 +1,24 @@
-
-/*
-$(document).onreadystatechange = function() {
-    if ($(document).readyState == 'loaded')//ERROR LOADING
-        console.log("Loaded");
-    else if($(document).readyState == 'complete')//loaded
-        console.log("Complete");
-};
-*/
-
-
 var iScrollPos = 0;
 $(window).scroll(function() {
     if (document.title.indexOf("Browse for Training") > -1)
     {
    	var iCurScrollPos = $(this).scrollTop();
+	var windowHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+	var bottomOfWindow = windowHeight * 0.9;
+	    
 	if (iCurScrollPos > iScrollPos)
 	{
+	   console.log("pos: " + iCurScrollPos);
+	   	
            //Scrolling Down
-	   	    replaceOnlineClass();
+	   replaceOnlineClass();
 	    
-	    var delayMillis = 50; //milliseconds
+	    var delayMillis = 100; 
 	    setTimeout(function() {
  		 replaceOnlineClass();
 		}, delayMillis);
 	} 
+	    
        iScrollPos = iCurScrollPos;
     }
 });
@@ -31,7 +26,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 	
-console.log("Test11");
+console.log("Test22");
 
        //this handles initial load at the Browse Learning Page - replaces initial icons and wording
         Sys.WebForms.PageRequestManager.getInstance().add_pageLoaded(function () { replaceOnlineClass(); });
