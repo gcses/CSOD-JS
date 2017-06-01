@@ -19,7 +19,7 @@ $(window).scroll(function() {
            //Scrolling Down
 	   	    replaceOnlineClass();
 	    
-	    var delayMillis = 250; //milliseconds
+	    var delayMillis = 50; //milliseconds
 	    setTimeout(function() {
  		 replaceOnlineClass();
 		}, delayMillis);
@@ -31,7 +31,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 	
-console.log("Test9");
+console.log("Test10");
 
        //this handles initial load at the Browse Learning Page - replaces initial icons and wording
         Sys.WebForms.PageRequestManager.getInstance().add_pageLoaded(function () { replaceOnlineClass(); });
