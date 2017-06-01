@@ -4,9 +4,9 @@ $(window).scroll(function() {
     {
    	var iCurScrollPos = $(this).scrollTop();
 	var windowHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
-	var bottomOfWindow = windowHeight * 0.9;
+	var bottomOfWindow = windowHeight * 0.85;
 	    
-	if (iCurScrollPos > iScrollPos)
+	if (iCurScrollPos > iScrollPos && iCurScrollPos > bottomOfWindow)
 	{
 	   console.log("pos: " + iCurScrollPos);
 	   	
@@ -26,7 +26,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 	
-console.log("Test22");
+console.log("Test23");
 
        //this handles initial load at the Browse Learning Page - replaces initial icons and wording
         Sys.WebForms.PageRequestManager.getInstance().add_pageLoaded(function () { replaceOnlineClass(); });
