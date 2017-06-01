@@ -37,9 +37,9 @@ if ($(window).scrollTop() != 0)
 
 $(document).ready(function() {
 	
-console.log("Test8");
+console.log("Test9");
 
-Sys.WebForms.PageRequestManager.getInstance().add_pageLoaded(function () { replaceOnlineClass(); });
+//Sys.WebForms.PageRequestManager.getInstance().add_pageLoaded(function () { replaceOnlineClass(); });
 	
 $('.item.oc').on('load',function(){
     if (document.title.indexOf("Browse for Training") > -1)
