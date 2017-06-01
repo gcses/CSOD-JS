@@ -1,6 +1,6 @@
 //var iScrollPos = 0;
 $(window).scroll(function() {
-    if ( (document.title.indexOf("Browse for Training") > -1) || (document.title.indexOf("Universal Profile") > -1) )
+    if (document.title.indexOf("Browse for Training") > -1)
     {
    	var iCurScrollPos = $(this).scrollTop();
 	var windowHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
@@ -13,9 +13,7 @@ $(window).scroll(function() {
 	   replaceOnlineClass();
 	    
 	    var delayMillis = 100; 
-	    setTimeout(function() {
- 		 replaceOnlineClass();
-		}, delayMillis);
+	    setTimeout(function() { replaceOnlineClass(); }, delayMillis);
 	} 
 	    
       // iScrollPos = iCurScrollPos;
