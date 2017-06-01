@@ -14,6 +14,7 @@ $(window).scroll(function() {
     if (document.title.indexOf("Browse for Training") > -1)
     {
 	    replaceOnlineClass();
+	    
 	    /*
    	var iCurScrollPos = $(this).scrollTop();
 	if (iCurScrollPos > iScrollPos)
@@ -40,12 +41,11 @@ if ($(window).scrollTop() != 0)
 
 $(document).ready(function() {
 	
-console.log("Test5");
+console.log("Test6");
 
        //this handles initial load at the Browse Learning Page - replaces initial icons and wording
         Sys.WebForms.PageRequestManager.getInstance().add_pageLoaded(function () { replaceOnlineClass(); });
-	
-	//Sys.WebForms.PageRequestManager.getInstance().add_endRequest(function () { replaceOnlineClass(); });
+	Sys.WebForms.PageRequestManager.getInstance().add_endRequest(function () { replaceOnlineClass(); });
 
 	
         // $('a:contains("Welcome")').each(function(){
