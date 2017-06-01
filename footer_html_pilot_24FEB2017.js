@@ -1,4 +1,4 @@
-var iScrollPos = 0;
+//var iScrollPos = 0;
 $(window).scroll(function() {
     if (document.title.indexOf("Browse for Training") > -1)
     {
@@ -6,10 +6,9 @@ $(window).scroll(function() {
 	var windowHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
 	var bottomOfWindow = windowHeight * 0.85;
 	    
-	if (iCurScrollPos > iScrollPos && iCurScrollPos > bottomOfWindow)
+	//if (iCurScrollPos > iScrollPos && iCurScrollPos > bottomOfWindow)
+	if (iCurScrollPos > bottomOfWindow)
 	{
-	   console.log("pos: " + iCurScrollPos);
-	   	
            //Scrolling Down
 	   replaceOnlineClass();
 	    
@@ -19,14 +18,14 @@ $(window).scroll(function() {
 		}, delayMillis);
 	} 
 	    
-       iScrollPos = iCurScrollPos;
+      // iScrollPos = iCurScrollPos;
     }
 });
 	   
 
 $(document).ready(function() {
 	
-console.log("Test23");
+console.log("Test24");
 
        //this handles initial load at the Browse Learning Page - replaces initial icons and wording
         Sys.WebForms.PageRequestManager.getInstance().add_pageLoaded(function () { replaceOnlineClass(); });
