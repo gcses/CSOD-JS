@@ -18,8 +18,6 @@ $(window).scroll(function() {
 	{
            //Scrolling Down
 	   replaceOnlineClass();
-		
-	   //window.setInterval(replaceOnlineClass(), 1000);
 	} 
        iScrollPos = iCurScrollPos;
     }
@@ -39,7 +37,7 @@ if ($(window).scrollTop() != 0)
 
 $(document).ready(function() {
 	
-console.log("Test3");
+console.log("Test4");
 
        //this handles initial load at the Browse Learning Page - replaces initial icons and wording
         Sys.WebForms.PageRequestManager.getInstance().add_pageLoaded(function () { replaceOnlineClass(); });
