@@ -37,7 +37,7 @@ Sys.WebForms.PageRequestManager.getInstance().add_pageLoaded(function () { repla
 
 $(document).ready(function() {
 	
-console.log("Test6");
+console.log("Test7");
 	
 $('.item.oc').on('load',function(){
     if (document.title.indexOf("Browse for Training") > -1)
