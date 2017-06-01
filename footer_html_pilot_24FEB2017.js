@@ -8,7 +8,7 @@ $(document).onreadystatechange = function() {
 };
 */
 
-/*
+
 var iScrollPos = 0;
 $(window).scroll(function() {
     if (document.title.indexOf("Browse for Training") > -1)
@@ -18,11 +18,13 @@ $(window).scroll(function() {
 	{
            //Scrolling Down
 	   replaceOnlineClass();
+		
+	   window.setInterval(replaceOnlineClass(), 1000);
 	} 
        iScrollPos = iCurScrollPos;
     }
 });
-*/	   
+	   
 
 /*
 if ($(window).scrollTop() != 0)
@@ -37,19 +39,13 @@ if ($(window).scrollTop() != 0)
 
 $(document).ready(function() {
 	
-console.log("Test1");
+console.log("Test2");
 
        //this handles initial load at the Browse Learning Page - replaces initial icons and wording
         Sys.WebForms.PageRequestManager.getInstance().add_pageLoaded(function () { replaceOnlineClass(); });
 	
 	//Sys.WebForms.PageRequestManager.getInstance().add_endRequest(function () { replaceOnlineClass(); });
-         var prm = Sys.WebForms.PageRequestManager.getInstance();
-	 prm.add_endRequest(function (s, e) {
-    		alert("post back");  
-		replaceOnlineClass();
-	 });
-	
-	
+
 	
         // $('a:contains("Welcome")').each(function(){
  	//	$(this).remove();
@@ -449,7 +445,7 @@ console.log("Test1");
 	
 	//this setInterval logic breaks Internet Explorer
 	//window.setInterval(replaceOnlineClass, 1000);
-        replaceOnlineClass();
+        //replaceOnlineClass();
 	
 	if (document.getElementById("common-messages"))   
 	{
@@ -609,7 +605,7 @@ function replaceOnlineClass()
 {
     //	console.log("replace() - Start");
 	
-	/*
+		/*
 		oc: LoTypeId == LoType.OnlineClass,
 		ev: LoTypeId == LoType.Event,
 		qc: LoTypeId == LoType.QuickCourse,
