@@ -37,11 +37,12 @@ if ($(window).scrollTop() != 0)
 
 $(document).ready(function() {
 	
-console.log("Test10");
+console.log("Test11");
 
        //this handles initial load at the Browse Learning Page - replaces initial icons and wording
         Sys.WebForms.PageRequestManager.getInstance().add_pageLoaded(function () { replaceOnlineClass(); });
-	Sys.WebForms.PageRequestManager.getInstance().add_endRequest((function () { replaceOnlineClass(); });
+	
+	Sys.WebForms.PageRequestManager.getInstance().add_endRequest(function () { replaceOnlineClass(); });
 
 	
         // $('a:contains("Welcome")').each(function(){
