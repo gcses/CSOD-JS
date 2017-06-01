@@ -37,13 +37,19 @@ if ($(window).scrollTop() != 0)
 
 $(document).ready(function() {
 	
-console.log("Test11");
+console.log("Test1");
 
        //this handles initial load at the Browse Learning Page - replaces initial icons and wording
         Sys.WebForms.PageRequestManager.getInstance().add_pageLoaded(function () { replaceOnlineClass(); });
 	
-	Sys.WebForms.PageRequestManager.getInstance().add_endRequest(function () { replaceOnlineClass(); });
-
+	//Sys.WebForms.PageRequestManager.getInstance().add_endRequest(function () { replaceOnlineClass(); });
+         var prm = Sys.WebForms.PageRequestManager.getInstance();
+	 prm.add_endRequest(function (s, e) {
+    		alert("post back");  
+		replaceOnlineClass();
+	 });
+	
+	
 	
         // $('a:contains("Welcome")').each(function(){
  	//	$(this).remove();
