@@ -31,7 +31,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 	
-console.log("Test10");
+console.log("Test11");
 
        //this handles initial load at the Browse Learning Page - replaces initial icons and wording
         Sys.WebForms.PageRequestManager.getInstance().add_pageLoaded(function () { replaceOnlineClass(); });
