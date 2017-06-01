@@ -37,16 +37,12 @@ if ($(window).scrollTop() != 0)
 
 $(document).ready(function() {
 	
-console.log("Test9");
+console.log("Test10");
 
-//Sys.WebForms.PageRequestManager.getInstance().add_pageLoaded(function () { replaceOnlineClass(); });
-	
-$('.item.oc').on('load',function(){
-    if (document.title.indexOf("Browse for Training") > -1)
-    {
-   	replaceOnlineClass();
-    }
-});
+       //this handles initial load at the Browse Learning Page - replaces initial icons and wording
+        Sys.WebForms.PageRequestManager.getInstance().add_pageLoaded(function () { replaceOnlineClass(); });
+	Sys.WebForms.PageRequestManager.getInstance().add_endRequest((function () { replaceOnlineClass(); });
+
 	
         // $('a:contains("Welcome")').each(function(){
  	//	$(this).remove();
