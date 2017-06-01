@@ -9,41 +9,6 @@ $(document).onreadystatechange = function() {
 */
 
 /*
-        $('.item.ts').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px 0px transparent'});
-	
-	// Curriculum:  Book 0px -57px  position 2
-	$('.item.cr').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px -57px transparent'});
-	
-	// Events: man with quote 0px -182px position 4
-	$('.item.ev').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px -182px transparent'});
-	
-	// Materials: paperclip        position 16
-	$('.item.mt').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px -900px transparent'});
-	
-	// Video: triangle in circle   position 6
-	$('.item.vd').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px -300px transparent'});
-	
-        // Notes: folded page     1380     position 24 - 
-	$('.item.lb').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px -1380px transparent'});
-
-	// Web-Based Training: laptop  position 15
-	$('.item.oc').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px -840px transparent'});
-
-	
-	
-	
-		
-
-
-*/
-
-
-
-
-
-
-
-/*
 var iScrollPos = 0;
 $(window).scroll(function() {
     if (document.title.indexOf("Browse for Training") > -1)
@@ -57,21 +22,21 @@ $(window).scroll(function() {
        iScrollPos = iCurScrollPos;
     }
 });
-*/	    
-	    /*
-          if ($(window).scrollTop() != 0)
-          // if($(window).scrollTop() + $(window).height() == $(document).height() - 200)
-           {
-              // alert("bottom!");
-             //  console.log("Bottom!");
-	      replaceOnlineClass();
-	   }
+*/	   
+
+/*
+if ($(window).scrollTop() != 0)
+// if($(window).scrollTop() + $(window).height() == $(document).height() - 200)
+{
+   replaceOnlineClass();
+}
 */
 
-$(document).ready(function(){
+
+
+$(document).ready(function() {
 	
-       console.log("Test5");
-	
+console.log("Test6");
 	
 $('.item.oc').on('load',function(){
     if (document.title.indexOf("Browse for Training") > -1)
@@ -80,19 +45,13 @@ $('.item.oc').on('load',function(){
     }
 });
 	
-	
-	
-      // $('a:contains("Welcome")').each(function(){
+        // $('a:contains("Welcome")').each(function(){
  	//	$(this).remove();
 	//});
 	
-	//var element = document.querySelector('[tokenid="14"]');
-	
-	//data-tag='Welcome'>
-	var welcomeTab = document.querySelector("[data-tag='Welcome']");
-	welcomeTab.parentNode.removeChild(welcomeTab);
-	//welcomeTab.style.visibility = "hidden";
-	
+	// Remove Welcome Tab 
+	//var welcomeTab = document.querySelector("[data-tag='Welcome']");
+	//welcomeTab.parentNode.removeChild(welcomeTab);
 	
 	//Alternative Header Icons
 	 //$('.avatar').css({'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite.png") no-repeat scroll 12px 4px transparent'});
@@ -103,14 +62,11 @@ $('.item.oc').on('load',function(){
 	
 	//var avtImg = document.createElement('Image');
 	//avtImg.src = "https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite.png";
-	
         //avatarImg.drawImage( avtImg, 12, 4, 8, 8 );
-	
-	
 	//$('.item.oc').css
 	
-	/*
 	
+	/*
 	var avatarImg = document.getElementById('header_headerFixed_imgAvatar');
 	if (avatarImg != null)
 	{
@@ -122,14 +78,10 @@ $('.item.oc').on('load',function(){
 	   avtImg.src = "https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite.png";
            avatarImg.drawImage( avtImg, 12, 4, 8, 8 );
 	}
-	
 	*/
 	
 
 
-
-	
-	
 /*  hide for screen shot	
 	//univProfileLi.style.cssFloat = "right";
         //swap the new profile image (element ID varies by page)
@@ -152,14 +104,8 @@ $('.item.oc').on('load',function(){
 	
 	//load splash image background
 	//<div class="topBarOuter">
-	//$(".topBarOuter").css({"background-color": "yellow" });  
-
 	//var headerTable = document.getElementById('tblTopBar');
 	//headerTable.style.backgroundImage = "url('https://rawgit.com/gcses/CSOD-JS/master/header.JPG')";
-	
-       // $('.cso-h1').css("color", "red");
-	
-	
 	
 	
 	
