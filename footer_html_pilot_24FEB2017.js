@@ -1,6 +1,6 @@
 //var iScrollPos = 0;
 $(window).scroll(function() {
-    if (document.title.indexOf("Browse for Training") > -1)
+    if ( (document.title.indexOf("Browse for Training") > -1) || (document.title.indexOf("Universal Profile") > -1) )
     {
    	var iCurScrollPos = $(this).scrollTop();
 	var windowHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
@@ -25,9 +25,9 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 	
-console.log("Test24");
+console.log("Test25");
 
-       //this handles initial load at the Browse Learning Page - replaces initial icons and wording
+       //this handles initial load at the Browse Learning Page - replaces initial icons and wording, both needed?
         Sys.WebForms.PageRequestManager.getInstance().add_pageLoaded(function () { replaceOnlineClass(); });
 	Sys.WebForms.PageRequestManager.getInstance().add_endRequest(function () { replaceOnlineClass(); });
 
