@@ -32,6 +32,7 @@ if ($(window).scrollTop() != 0)
 }
 */
 
+Sys.WebForms.PageRequestManager.getInstance().add_pageLoaded(function () { replaceOnlineClass(); });
 
 
 $(document).ready(function() {
