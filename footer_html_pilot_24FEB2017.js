@@ -32,12 +32,14 @@ if ($(window).scrollTop() != 0)
 }
 */
 
-Sys.WebForms.PageRequestManager.getInstance().add_pageLoaded(function () { replaceOnlineClass(); });
+
 
 
 $(document).ready(function() {
 	
-console.log("Test7");
+console.log("Test8");
+
+Sys.WebForms.PageRequestManager.getInstance().add_pageLoaded(function () { replaceOnlineClass(); });
 	
 $('.item.oc').on('load',function(){
     if (document.title.indexOf("Browse for Training") > -1)
