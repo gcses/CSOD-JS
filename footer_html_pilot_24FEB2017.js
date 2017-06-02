@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 	
-	console.log("Test1");
+	console.log("Test2");
 	
 	//var newFooterArea = document.getElementById("#ctl00_footer_pnlCustomFooter"); 
 	$('#ctl00_footer_pnlCustomFooter').css({"backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});
@@ -34,9 +34,8 @@ $(document).ready(function() {
 	        $(this).html('<img src="https://bd-pilot.csod.com/clientimg/bd/welcome/angle.png" id="slopedFooterImage" /><table class="footerTable"><tr><td></td><td></td><td></td><td></td></tr></table>');
 		});
 	
-	 $('#slopedFooterImage').css({"width": "100%", "position": "absolute", "bottom": "80px"});
-	
-	 $('.footerTable').css({"margin": "0px", "backgroundColor": "#004593", "width": "100%", "height": "200px"});
+	 $('#slopedFooterImage').css({"width": "100%"});
+	 $('.footerTable').css({"margin": "0px", "backgroundColor": "#004593", "width": "100%", "height": "80px"});
 	
 	//hide the various Cornerstone footers
 	//$('.df-footer').hide();
