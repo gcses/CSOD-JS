@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 	
-	console.log("Test8");
+	console.log("Test9");
 	
 	$('#ctl00_footer_pnlCustomFooter').css({"margin-bottom": "-15px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});
 	$('.df-footer').css({"margin": "0px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});					
@@ -48,9 +48,9 @@ $(document).ready(function() {
 
 	$('.footer-links li').css({"display": "inline-block", "line-height": "16px", "padding-right": "5px", "padding-left": "5px", "border-left": "1px solid #EEEEEE"});
 	
-	$('.footer-links li:first-child').css({"border-left": "none"});
+	//$('.footer-links li:first-child').css({"border-left": "none"});
 	
-	$('.footer-links a').css({"color": "#FFFFFF", "font-weight": "400", "text-decoration": "none", "font-size": "10px"});
+	//$('.footer-links a').css({"color": "#FFFFFF", "font-weight": "400", "text-decoration": "none", "font-size": "10px"});
 	
 
 
