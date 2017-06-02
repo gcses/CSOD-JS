@@ -23,13 +23,28 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 	
-console.log("Test25");
+	console.log("Test1");
+	
+	
+	
+	
+	//hide the various Cornerstone footers
+	$('.df-footer').hide();
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
        //this handles initial load at the Browse Learning Page - replaces initial icons and wording, both needed?
         Sys.WebForms.PageRequestManager.getInstance().add_pageLoaded(function () { replaceOnlineClass(); });
 	Sys.WebForms.PageRequestManager.getInstance().add_endRequest(function () { replaceOnlineClass(); });
 
-	
         // $('a:contains("Welcome")').each(function(){
  	//	$(this).remove();
 	//});
@@ -64,8 +79,6 @@ console.log("Test25");
            avatarImg.drawImage( avtImg, 12, 4, 8, 8 );
 	}
 	*/
-	
-
 
 /*  hide for screen shot	
 	//univProfileLi.style.cssFloat = "right";
@@ -86,7 +99,6 @@ console.log("Test25");
 */
 	
 	//document.getElementById("header_headerFixed_hlAvatar").style.cssFloat = "left";
-	
 	//load splash image background
 	//<div class="topBarOuter">
 	//var headerTable = document.getElementById('tblTopBar');
@@ -126,9 +138,6 @@ console.log("Test25");
 	//$('.user-interaction li').css({"background-image": "none", "background-color": "#ffffff", "text-decoration": "none"});
 	 $('.compass-title').css({"font-size": "20px", "line-height": "36px", "margin-left": "30px", "margin-right": "30px", "display": "inline-block"});
 
-	//hide the various Cornerstone footers
-	$('.df-footer').hide();
-	
 	if (document.title.indexOf("Welcome - Realize Your Potential") > -1)
 	{
 	   //hide the first name field. It is only included to that we can use the name elsewhere
