@@ -24,17 +24,17 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 	
-	console.log("Test5");
+	console.log("Test6");
 	
 	//var newFooterArea = document.getElementById("#ctl00_footer_pnlCustomFooter"); 
 	
 	$('.df-footer').each(function(){
-	        $(this).html('<img src="/clientimg/bd/welcome/angle.png" class="slopedFooterImage"/><table class="footerTable"><tr><td></td><td></td><td></td><td></td></tr></table>');
+	        $(this).html('<table class="footerTable"><tr><td></td><td></td><td></td><td></td></tr></table>');
 		});
 	
 
-	 $('.slopedFooterImage').css({"width": "100%", "position": "absolute", "bottom": "80px"});
-	 $('.footerTable').css({"position": "absolute", "bottom": "0px", "width": "100%", "backgroundColor": "#004593", "height": "80px"});
+	 //$('.slopedFooterImage').css({"width": "100%", "position": "absolute", "bottom": "80px"});
+	 //$('.footerTable').css({"position": "absolute", "bottom": "0px", "width": "100%", "backgroundColor": "#004593", "height": "80px"});
 	
 	//hide the various Cornerstone footers
 	//$('.df-footer').hide();
