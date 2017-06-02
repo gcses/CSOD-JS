@@ -20,14 +20,81 @@ $(window).scroll(function() {
     }
 });
 	   
+<!DOCTYPE html>
+<html>
+<head>
+<title>Test</title>
+
+</head>
+
+<body id="bodyByID">
+
+
+<center>
+
+<img id="slopedFooterImage"/>
+<table id="footerTable">
+
+
+<tr>
+   <td></td>
+   <td></td>
+   <td></td>
+   <td></td>
+</tr>
+</table>
+</center>
+
+
+</body>
+</html>
+
+
+<style>
+#slopedFooterImage
+{
+  position: absolute;
+  bottom: 0px;
+  src: angle.png
+  width: 100%;
+}
+
+#footerTable
+{
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  background-color: #004593;
+  height: 150px;
+}
+
+
+</style>
+
+<script type="text/javascript">
+function getUserName()
+{
+  //alert(fName);
+  //return name;
+}
+</script>
+
 
 $(document).ready(function() {
 	
 	console.log("Test1");
 	
+	//('#ctl00_footer_pnlCustomFooter')
+	var newFooterArea = document.getElementById("#ctl00_footer_pnlCustomFooter"); 
+		
+	newFooterArea.innerHTML += '<div id="footerTable" /> <div id="footerTable" />';
+		
 	
 	
 	
+	
+	
+			
 	//hide the various Cornerstone footers
 	$('.df-footer').hide();
 	
