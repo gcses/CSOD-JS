@@ -24,10 +24,13 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 	
-	console.log("Test8");
+	console.log("Test10");
+	
 	
 	//var newFooterArea = document.getElementById("#ctl00_footer_pnlCustomFooter"); 
-	
+	$('#ctl00_footer_pnlCustomFooter').css({"backgroundColor": "yellow"});
+	$('.df-footer').css({"backgroundColor": "red"});					
+						
 	$('.df-footer').each(function(){
 	        $(this).html('<table class="footerTable"><tr><td></td><td></td><td></td><td></td></tr></table>');
 		});
