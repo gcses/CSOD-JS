@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 	
-	console.log("Test7");
+	console.log("Test8");
 	
 	//var newFooterArea = document.getElementById("#ctl00_footer_pnlCustomFooter"); 
 	
@@ -34,7 +34,7 @@ $(document).ready(function() {
 	
 
 	 //$('.slopedFooterImage').css({"width": "100%", "position": "absolute", "bottom": "80px"});
-	 $('.footerTable').css({"backgroundColor": "#004593", "height": "200px"});
+	 $('.footerTable').css({"backgroundColor": "#004593", "width": "100%", "height": "200px"});
 	
 	//hide the various Cornerstone footers
 	//$('.df-footer').hide();
