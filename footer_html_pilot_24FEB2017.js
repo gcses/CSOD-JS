@@ -46,11 +46,11 @@ $(document).ready(function() {
 	
 	$('.footer-links').css({"padding-left": "0", "float": "right", "padding-right": "15px", "margin-top": "8px"});
 
-	$('.footer-links li')css({"display": "inline-block", "line-height": "16px", "padding-right": "5px", "padding-left": "5px", "border-left": "1px solid #EEEEEE"});
+	$('.footer-links li').css({"display": "inline-block", "line-height": "16px", "padding-right": "5px", "padding-left": "5px", "border-left": "1px solid #EEEEEE"});
 	
-	$('.footer-links li:first-child')css({"border-left": "none"});
+	$('.footer-links li:first-child').css({"border-left": "none"});
 	
-	$('.footer-links a')css({"color": "#FFFFFF", "font-weight": "400", "text-decoration": "none", "font-size": "10px"});
+	$('.footer-links a').css({"color": "#FFFFFF", "font-weight": "400", "text-decoration": "none", "font-size": "10px"});
 	
 
 
