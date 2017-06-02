@@ -24,12 +24,12 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 	
-	console.log("Test10");
+	console.log("Test11");
 	
 	
 	//var newFooterArea = document.getElementById("#ctl00_footer_pnlCustomFooter"); 
-	$('#ctl00_footer_pnlCustomFooter').css({"backgroundColor": "yellow"});
-	$('.df-footer').css({"backgroundColor": "red"});					
+	$('#ctl00_footer_pnlCustomFooter').css({"backgroundColor": "yellow", "width": "100%"});
+	$('.df-footer').css({"backgroundColor": "red", "width": "100%"});					
 						
 	$('.df-footer').each(function(){
 	        $(this).html('<table class="footerTable"><tr><td></td><td></td><td></td><td></td></tr></table>');
