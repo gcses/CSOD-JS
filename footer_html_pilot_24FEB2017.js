@@ -24,19 +24,24 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 	
-	console.log("Test5");
+	console.log("Test7");
 	
 	$('#ctl00_footer_pnlCustomFooter').css({"margin-bottom": "-20px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});
-	
 	$('.df-footer').css({"margin": "0px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});					
 						
 	$('.df-footer').each(function(){
-	        $(this).html('<img src="https://bd-pilot.csod.com/clientimg/bd/welcome/angle.png" id="slopedFooterImage" /><table class="footerTable"><tr><td></td><td></td><td></td><td></td></tr></table>');
+	        $(this).html('<img src="https://bd-pilot.csod.com/clientimg/bd/welcome/angle.png" id="slopedFooterImage" /><table class="footerTable"><tr><td id="footerTD1"></td><td id="footerTD2"></td><td id="footerTD3" ></td><td id="footerTD4" ></td></tr></table>');
 		});
 	
-	 $('#slopedFooterImage').css({"width": "100%", "padding-bottom": "0px", "margin-bottom": "0px"});
+	 $('#slopedFooterImage').css({"width": "100%", "padding-bottom": "0px", "margin-bottom": "-7px"});
 	
-	 $('.footerTable').css({"margin": "0px", "padding-top": "0px", "backgroundColor": "#004593", "width": "100%", "height": "80px"});
+	 $('.footerTable').css({"margin": "0px", "padding-top": "0px", "backgroundColor": "#004593", "width": "100%", "height": "40px"});
+	
+	 $('#footerTD1').css({"backgroundColor": "red"});
+	 $('#footerTD2').css({"backgroundColor": "orange"});
+	 $('#footerTD3').css({"backgroundColor": "yellow"});
+	 $('#footerTD4').css({"backgroundColor": "green"});
+	
 	
 	//hide the various Cornerstone footers
 	//$('.df-footer').hide();
