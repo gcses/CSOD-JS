@@ -24,9 +24,9 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 	
-	console.log("Test8");
+	console.log("Test0");
 	
-	$('#ctl00_footer_pnlCustomFooter').css({"margin-bottom": "-10px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});
+	$('#ctl00_footer_pnlCustomFooter').css({"margin-bottom": "-15px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});
 	$('.df-footer').css({"margin": "0px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});					
 						
 	$('.df-footer').each(function(){
@@ -37,7 +37,7 @@ $(document).ready(function() {
 	
 	 $('.footerTable').css({"margin": "0px", "padding-top": "0px", "backgroundColor": "#004593", "width": "100%", "height": "40px"});
 	
-	 $('#footerTD1').css({"backgroundColor": "red"});
+	 $('#footerTD1').css({'backgroundColor': 'red', 'width': '60px', 'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/logo.png")'});
 	 $('#footerTD2').css({"backgroundColor": "orange"});
 	 $('#footerTD3').css({"backgroundColor": "yellow"});
 	 $('#footerTD4').css({"backgroundColor": "green"});
