@@ -24,13 +24,18 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 	
-	console.log("Test3");
+	console.log("Test4");
 	
 	//var newFooterArea = document.getElementById("#ctl00_footer_pnlCustomFooter"); 
 	
 	$('.df-footer').each(function(){
-	        $(this).html($(this).html('<img src="/clientimg/bd/welcome/angle.png" id="slopedFooterImage"/><table id="footerTable"><tr><td></td><td></td><td></td><td></td></tr></table>'));
+	        $(this).html('<img src="/clientimg/bd/welcome/angle.png" id="slopedFooterImage"/><table id="footerTable"><tr><td></td><td></td><td></td><td></td></tr></table>');
 		});
+	
+	
+	
+	//$("#regTitle").html("Hello World");
+	
 	
 	//newFooterArea.innerHTML += '<img src="/clientimg/bd/welcome/angle.png" id="slopedFooterImage"/><table id="footerTable"><tr><td></td><td></td><td></td><td></td></tr></table>';
 
