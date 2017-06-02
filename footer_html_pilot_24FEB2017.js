@@ -24,17 +24,16 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 	
-	console.log("Test12");
+	console.log("Test13");
 	
 	//var newFooterArea = document.getElementById("#ctl00_footer_pnlCustomFooter"); 
-	$('#ctl00_footer_pnlCustomFooter').css({"backgroundColor": "yellow", "width": "100%"});
-	$('.df-footer').css({"backgroundColor": "red", "width": "100%", "padding": "0px"});					
+	$('#ctl00_footer_pnlCustomFooter').css({"backgroundColor": "yellow", "width": "100%", "padding": "0px"});
+	$('.df-footer').css({"margin": "0px", "backgroundColor": "red", "width": "100%", "padding": "0px"});					
 						
 	$('.df-footer').each(function(){
 	        $(this).html('<table class="footerTable"><tr><td></td><td></td><td></td><td></td></tr></table>');
 		});
 	
-
 	 //$('.slopedFooterImage').css({"width": "100%", "position": "absolute", "bottom": "80px"});
 	 $('.footerTable').css({"margin": "0px", "backgroundColor": "#004593", "width": "100%", "height": "200px"});
 	
