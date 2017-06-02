@@ -44,6 +44,10 @@ $(document).ready(function() {
         			'</ul></td> </tr></table>')
 		});
 	
+	
+	
+	 $('.footer-links li').css({"display": "inline", "color": "#ffffff"});
+
 	 $('#slopedFooterImage').css({"width": "100%", "padding-bottom": "0px", "margin-bottom": "-5px"});
 	
 	 // margin: top, right, bottom, left
