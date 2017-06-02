@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 	
-	console.log("Test1");
+	console.log("Test2");
 	
 	$('#ctl00_footer_pnlCustomFooter').css({"margin-bottom": "-15px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});
 	$('.df-footer').css({"margin": "0px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});					
@@ -37,15 +37,15 @@ $(document).ready(function() {
 	
 	 $('.footerTable').css({"margin": "0px", "padding-top": "0px", "backgroundColor": "#004593", "width": "100%", "height": "40px"});
 	
-	 $('#footerTD1').css({'width': '120px', 'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/logo.png")'});
+	 $('#footerTD1').css({'padding': '20px', 'width': '120px', 'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/logo.png") no-repeat scroll 0px 0px transparent'});
 	 $('#footerTD2').css({'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite.png") no-repeat scroll 0px -80px transparent'});
 	
 	
 	 $('#footerTD3').css({"backgroundColor": "yellow"});
 	 $('#footerTD4').css({"backgroundColor": "green"});
-	 $('#footerTD5').css({"backgroundColor": "green"});
+	 $('#footerTD5').css({"backgroundColor": "yellow"});
 	 $('#footerTD6').css({"backgroundColor": "green"});
-	 $('#footerTD7').css({"backgroundColor": "green"});
+	 $('#footerTD7').css({"backgroundColor": "yellow"});
 	
 	
 	//hide the various Cornerstone footers
