@@ -45,9 +45,9 @@ $(document).ready(function() {
 	//  <td id="footerTD3" ></td>  <td id="footerTD4"></td> 
 	//<td id="footerTD5"> <p class="copy">&copy; 2017 BD. All rights reserved. Unless otherwise noted, BD, the BD Logo and all other trademarks are property of Becton, Dickinson and Company.</p></td>    <td id="footerTD6"></td>  <td id="footerTD7"></td>   <td id="footerTD8"></td> </tr></table>');
 	
-	 $('.copy').css({'font-size': '50%'});	
+	 $('.copy').css({'font-size': '70%'});	
 	
-	 $('#footerTD1').css({'backgroundColor': 'green', 'padding': '20px', 'width': '120px'});
+	 $('#footerTD1').css({'width': '120px'});
 	
 	//footerLogo
 	 $('#footerTD2').css({'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite.png") no-repeat scroll 0px -80px transparent'});
