@@ -54,22 +54,19 @@ $(document).ready(function() {
 	$('.footer-links li:first-child').css({"border-left": "none"});
 	$('.footer-links a').css({"color": "#FFFFFF", "font-weight": "400", "text-decoration": "none", "font-size": "10px"});
 	
-	
 	 $('#slopedFooterImage').css({"width": "100%", "padding-bottom": "0px", "margin-bottom": "-5px"});
 	
 	 // margin: top, right, bottom, left
-	 $('.footerTable').css({"margin": "0px 0px 0px 10px", "padding-top": "0px", "backgroundColor": "#004593", "width": "100%", "height": "75px"});
-	
+	 $('.footerTable').css({"margin": "0px 0px 0px 0px", "padding-top": "0px", "backgroundColor": "#004593", "width": "100%", "height": "75px"});
 
-	
 	 $('.copy').css({'font-size': '70%'});	
-	
+	 $('#footerLogo').css({'margin-left': '10px'});
 	
 	//footerLogo
 	 $('#footerTD1').css({'padding-left': '0x', 'width': '120px'});
 	 $('#footerTD2').css({'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite.png") no-repeat scroll 0px 0px transparent'});
-	 $('#footerTD3').css({"width": "15%", "backgroundColor": "yellow"});
-	 $('#footerTD4').css({"width": "15%", "backgroundColor": "green"});
+	 $('#footerTD3').css({"width": "35%", "backgroundColor": "yellow"});
+	 $('#footerTD4').css({"width": "25%", "backgroundColor": "green"});
 	
 	
 	
