@@ -68,7 +68,7 @@ $(document).ready(function() {
 	
 	//footerLogo
 	 $('#footerTD1').css({'padding-left': '0x', 'width': '120px'});
-	 $('#footerTD2').css({"width": "16%"'});
+	 $('#footerTD2').css({"width": "16%"});
 	// $('#footerTD2').css({"width": "16%", 'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite.png") no-repeat scroll 0px 0px transparent'});
 
 	
