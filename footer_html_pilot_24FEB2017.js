@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 	
-	console.log("Test8");
+	console.log("Test9");
 	
 	$('#ctl00_footer_pnlCustomFooter').css({"margin-top": "15px", "margin-bottom": "-15px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});
 	$('.df-footer').css({"margin": "0px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});					
@@ -33,14 +33,12 @@ $(document).ready(function() {
 	        $(this).html('<img src="https://bd-pilot.csod.com/clientimg/bd/welcome/angle.png" id="slopedFooterImage" />' +
 			     '<table class="footerTable"><tr>'+
 			     '<td id="footerTD1"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/logo.png" id="footerLogo"></td>' +
-			     '<td id="footerTD2"><ul class="social-media-links">'+
-            			'<li><a href="#"><img id="sm1"/></a></li>'+
-           			 '<li><a href="#"><img id="sm2"/></a></li>'+
-            			'<li><a href="#"><img id="sm3"/></a></li>'+
-            			'<li><a href="#"><img id="sm4"/></a></li>'+
-        			'</ul></td>'+
-			     '<td id="footerTD3"><p class="copy">&copy; 2017 BD. All rights reserved. Unless otherwise noted, BD, the BD Logo and all other trademarks are property of Becton, Dickinson and Company.</p></td>'+
-			     '<td id="footerTD4"><ul class="footer-links">'+
+			     '<td id="footerTD2"/>'+
+			     '<td id="footerTD3"/>'+
+			     '<td id="footerTD4"/>'+
+			     '<td id="footerTD5"/>'+
+			     '<td id="footerTD6"><p class="copy">&copy; 2017 BD. All rights reserved. Unless otherwise noted, BD, the BD Logo and all other trademarks are property of Becton, Dickinson and Company.</p></td>'+
+			     '<td id="footerTD7"><ul class="footer-links">'+
             			'<li><a href="#">BD Worldwide</a></li>'+
            			 '<li><a href="#">Contact BD</a></li>'+
             			'<li><a href="#">Privacy Policy</a></li>'+
@@ -70,11 +68,12 @@ $(document).ready(function() {
 	
 	//footerLogo
 	 $('#footerTD1').css({'padding-left': '0x', 'width': '120px'});
-	 $('#footerTD2').css({"width": "16%"});
-	// $('#footerTD2').css({"width": "16%", 'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite.png") no-repeat scroll 0px 0px transparent'});
 
-	
-	
+	 $('#footerTD2').css({"width": "10px", 'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite2.png") no-repeat scroll 0px 0px transparent'});
+	 $('#footerTD3').css({"width": "10px", 'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite2.png") no-repeat scroll 0px 0px transparent'});
+	 $('#footerTD4').css({"width": "10px", 'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite2.png") no-repeat scroll 0px 0px transparent'});
+	 $('#footerTD5').css({"width": "10px", 'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite2.png") no-repeat scroll 0px 0px transparent'});
+
 	 $('#footerTD3').css({"width": "45%", "color": "#ffffff", "backgroundColor": "green"});
 	 $('#footerTD4').css({"width": "30%"});
 	
