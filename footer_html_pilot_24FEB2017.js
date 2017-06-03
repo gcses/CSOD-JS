@@ -24,18 +24,23 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 	
-	console.log("Test3");
+	console.log("Test5");
 	
 	$('#ctl00_footer_pnlCustomFooter').css({"margin-bottom": "-15px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});
 	$('.df-footer').css({"margin": "0px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});					
 						
 	$('.df-footer').each(function(){
 	        $(this).html('<img src="https://bd-pilot.csod.com/clientimg/bd/welcome/angle.png" id="slopedFooterImage" />' +
-			     '<table class="footerTable"><tr><td id="footerTD1"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/logo.png" id="footerLogo"></td>' +
-			     '<td id="footerTD2"></td>  <td id="footerTD3" ></td>  <td id="footerTD4"></td>' +
-			     '<td id="footerTD5"> <p class="copy">&copy; 2017 BD. All rights reserved. Unless otherwise noted, BD, the BD Logo and all other trademarks are property of Becton, Dickinson and Company.</p></td>'+
-			     '<td id="footerTD6"></td>  <td id="footerTD7"></td>'+
-			     '<td id="footerTD8"><ul class="footer-links">'+
+			     '<table class="footerTable"><tr>'+
+			     '<td id="footerTD1"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/logo.png" id="footerLogo"></td>' +
+			     '<td id="footerTD2"><ul class="social-media-links">'+
+            			'<li><a href="#"><img id="sm1"/></a></li>'+
+           			 '<li><a href="#"><img id="sm2"/></a></li>'+
+            			'<li><a href="#"><img id="sm3"/></a></li>'+
+            			'<li><a href="#"><img id="sm4"/></a></li>'+
+        			'</ul></td>'+
+			     '<td id="footerTD3"><p class="copy">&copy; 2017 BD. All rights reserved. Unless otherwise noted, BD, the BD Logo and all other trademarks are property of Becton, Dickinson and Company.</p></td>'+
+			     '<td id="footerTD4"><ul class="footer-links">'+
             			'<li><a href="#">BD Worldwide</a></li>'+
            			 '<li><a href="#">Contact BD</a></li>'+
             			'<li><a href="#">Privacy Policy</a></li>'+
@@ -49,11 +54,7 @@ $(document).ready(function() {
 	$('.footer-links li:first-child').css({"border-left": "none"});
 	$('.footer-links a').css({"color": "#FFFFFF", "font-weight": "400", "text-decoration": "none", "font-size": "10px"});
 	
-
 	
-	// $('.footer-links').css({"color": "#ffffff"});
-	// $('.footer-links li').css({"display": "inline", "color": "#ffffff"});
-
 	 $('#slopedFooterImage').css({"width": "100%", "padding-bottom": "0px", "margin-bottom": "-5px"});
 	
 	 // margin: top, right, bottom, left
@@ -66,23 +67,9 @@ $(document).ready(function() {
 	
 	//footerLogo
 	 $('#footerTD1').css({'padding-left': '0x', 'width': '120px'});
-	
 	 $('#footerTD2').css({'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite.png") no-repeat scroll 0px 0px transparent'});
 	 $('#footerTD3').css({"backgroundColor": "yellow"});
 	 $('#footerTD4').css({"backgroundColor": "green"});
-	 $('#footerTD5').css({"backgroundColor": "yellow"});
-	 $('#footerTD6').css({"backgroundColor": "green"});
-	 $('#footerTD7').css({"backgroundColor": "yellow"});
-	
-	
-	//hide the various Cornerstone footers
-	//$('.df-footer').hide();
-	
-	
-	
-	
-	
-	
 	
 	
 	
