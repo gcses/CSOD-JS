@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 	
-	console.log("Test7");
+	console.log("Test8");
 	
 	$('#ctl00_footer_pnlCustomFooter').css({"margin-top": "15px", "margin-bottom": "-15px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});
 	$('.df-footer').css({"margin": "0px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});					
@@ -57,6 +57,8 @@ $(document).ready(function() {
 	$('.social-media-links').css({"padding-left": "0", "float": "right", "padding-right": "15px", "margin-top": "8px"});
 	$('.social-media-links li').css({"backgroundColor": "red", "display": "inline-block", "line-height": "16px", "padding-right": "5px", "padding-left": "0px", "border": "none"});
 	$('.social-media-links a').css({"text-decoration": "none"});
+
+	 $('#sm1').attr('src', 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite.png") no-repeat scroll 0px 0px transparent');
 	
 	 $('#slopedFooterImage').css({"width": "100%", "padding-bottom": "0px", "margin-bottom": "-5px"});
 	
@@ -73,7 +75,7 @@ $(document).ready(function() {
 
 	
 	
-	$('#footerTD3').css({"width": "35%", "color": "#ffffff", "backgroundColor": "green"});
+	 $('#footerTD3').css({"width": "45%", "color": "#ffffff", "backgroundColor": "green"});
 	 $('#footerTD4').css({"width": "30%"});
 	
 	
