@@ -65,7 +65,7 @@ $(document).ready(function() {
 	 // margin: top, right, bottom, left
 	 $('.footerTable').css({"margin": "0px 0px 0px 0px", "padding-top": "0px", "backgroundColor": "#004593", "width": "100%", "height": "75px"});
 
-	 $('.copy').css({'font-size': '70%'});	
+	 $('.copy').css({'font-size': '80%', 'text-align': 'center'});	
 	 $('#footerLogo').css({'margin-left': '10px'});
 	
 	//footerLogo
