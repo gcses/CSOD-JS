@@ -67,15 +67,15 @@ $(document).ready(function() {
 	 $('#footerLogo').css({'margin-left': '10px'});
 	
 	//footerLogo
-	 $('#footerTD1').css({'padding-left': '0x', 'width': '120px'});
+	 $('#footerTD1').css({'padding-left': '0px', 'width': '120px'});
 
-	 $('#footerTD2').css({"width": "10px", 'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite2.png") no-repeat scroll 0px 0px transparent'});
-	 $('#footerTD3').css({"width": "10px", 'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite2.png") no-repeat scroll 0px 0px transparent'});
-	 $('#footerTD4').css({"width": "10px", 'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite2.png") no-repeat scroll 0px 0px transparent'});
-	 $('#footerTD5').css({"width": "10px", 'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite2.png") no-repeat scroll 0px 0px transparent'});
+	 $('#footerTD2').css({'width': '10px', 'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite2.png") no-repeat scroll 0px 0px transparent'});
+	 $('#footerTD3').css({'width': '10px', 'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite2.png") no-repeat scroll 0px 0px transparent'});
+	 $('#footerTD4').css({'width': '10px', 'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite2.png") no-repeat scroll 0px 0px transparent'});
+	 $('#footerTD5').css({'width': '10px', 'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite2.png") no-repeat scroll 0px 0px transparent'});
 
-	 $('#footerTD3').css({"width": "45%", "color": "#ffffff", "backgroundColor": "green"});
-	 $('#footerTD4').css({"width": "30%"});
+	 $('#footerTD6').css({"width": "45%", "color": "#ffffff", "backgroundColor": "green"});
+	 $('#footerTD7').css({"width": "30%"});
 	
 	
 	
