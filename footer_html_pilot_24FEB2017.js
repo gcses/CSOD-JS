@@ -70,9 +70,9 @@ $(document).ready(function() {
 	
 	//footerLogo
 	 $('#footerTD1').css({'padding-left': '0x', 'width': '120px'});
-	 $('#footerTD2').css({"width": "20%", 'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite.png") no-repeat scroll 0px 0px transparent'});
-	 $('#footerTD3').css({"width": "35%", "backgroundColor": "yellow"});
-	 $('#footerTD4').css({"width": "25%", "backgroundColor": "green"});
+	 $('#footerTD2').css({"width": "6%", 'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite.png") no-repeat scroll 0px 0px transparent'});
+	 $('#footerTD3').css({"width": "55%", "color": "#ffffff"});
+	 $('#footerTD4').css({"width": "35%"});
 	
 	
 	
