@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 	
-	console.log("Test5");
+	console.log("Test6");
 	
 	$('#ctl00_footer_pnlCustomFooter').css({"margin-bottom": "-15px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});
 	$('.df-footer').css({"margin": "0px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});					
@@ -54,6 +54,12 @@ $(document).ready(function() {
 	$('.footer-links li:first-child').css({"border-left": "none"});
 	$('.footer-links a').css({"color": "#FFFFFF", "font-weight": "400", "text-decoration": "none", "font-size": "10px"});
 	
+	
+	$('.social-media-links').css({"padding-left": "0", "float": "right", "padding-right": "15px", "margin-top": "8px"});
+	$('.social-media-links li').css({"display": "inline-block", "line-height": "16px", "padding-right": "5px", "padding-left": "0px", "border": "none"});
+	$('.social-media-links a').css({"text-decoration": "none"});
+	
+	
 	 $('#slopedFooterImage').css({"width": "100%", "padding-bottom": "0px", "margin-bottom": "-5px"});
 	
 	 // margin: top, right, bottom, left
@@ -64,7 +70,7 @@ $(document).ready(function() {
 	
 	//footerLogo
 	 $('#footerTD1').css({'padding-left': '0x', 'width': '120px'});
-	 $('#footerTD2').css({'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite.png") no-repeat scroll 0px 0px transparent'});
+	 $('#footerTD2').css({"width": "20%", 'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite.png") no-repeat scroll 0px 0px transparent'});
 	 $('#footerTD3').css({"width": "35%", "backgroundColor": "yellow"});
 	 $('#footerTD4').css({"width": "25%", "backgroundColor": "green"});
 	
