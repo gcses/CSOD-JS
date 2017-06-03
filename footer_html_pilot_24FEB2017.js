@@ -52,11 +52,11 @@ $(document).ready(function() {
 	$('.footer-links li:first-child').css({"border-left": "none"});
 	$('.footer-links a').css({"color": "#FFFFFF", "font-weight": "400", "text-decoration": "none", "font-size": "10px"});
 	
-	$('.social-media-links').css({"padding-left": "0", "float": "right", "padding-right": "15px", "margin-top": "8px"});
-	$('.social-media-links li').css({"backgroundColor": "red", "display": "inline-block", "line-height": "16px", "padding-right": "5px", "padding-left": "0px", "border": "none"});
-	$('.social-media-links a').css({"text-decoration": "none"});
+	//$('.social-media-links').css({"padding-left": "0", "float": "right", "padding-right": "15px", "margin-top": "8px"});
+	//$('.social-media-links li').css({"backgroundColor": "red", "display": "inline-block", "line-height": "16px", "padding-right": "5px", "padding-left": "0px", "border": "none"});
+	//$('.social-media-links a').css({"text-decoration": "none"});
 
-	 $('#sm1').attr('src', 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite.png") no-repeat scroll 0px 0px transparent');
+	 //$('#sm1').attr('src', 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite.png") no-repeat scroll 0px 0px transparent');
 	
 	 $('#slopedFooterImage').css({"width": "100%", "padding-bottom": "0px", "margin-bottom": "-5px"});
 	
