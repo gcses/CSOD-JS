@@ -84,10 +84,10 @@ $(document).ready(function() {
 
 	
 	
-	 $('#footerTD2').css({'width': '20px', 'backgroundColor': 'red', 'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite2.png") no-repeat scroll 0px -255px transparent'});
-	 $('#footerTD3').css({'width': '20px', 'backgroundColor': 'blue', 'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite2.png") no-repeat scroll 0px -255px transparent'});
-	 $('#footerTD4').css({'width': '20px', 'backgroundColor': 'red', 'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite2.png") no-repeat scroll 0px -255px transparent'});
-	 $('#footerTD5').css({'width': '20px', 'backgroundColor': 'blue', 'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite2.png") no-repeat scroll 0px -255px transparent'});
+	 $('#footerTD2').css({'width': '20px', 'backgroundColor': 'red'});
+	 $('#footerTD3').css({'width': '20px', 'backgroundColor': 'blue'});
+	 $('#footerTD4').css({'width': '20px', 'backgroundColor': 'red'});
+	 $('#footerTD5').css({'width': '20px', 'backgroundColor': 'blue'});
 
 	 $('#footerTD6').css({"width": "30%", "color": "#ffffff", "backgroundColor": "green"});
 	 $('#footerTD7').css({"width": "30%"});
