@@ -72,10 +72,10 @@ $(document).ready(function() {
 	 $('.footerTable').css({"margin": "0px 0px 0px 0px", "padding-top": "0px", "backgroundColor": "#004593", "width": "100%", "height": "75px"});
 
 	 $('.copy').css({'font-size': '80%', 'text-align': 'center'});	
-	 $('#footerLogo').css({'margin-left': '20px'});
+	 $('#footerLogo').css({'margin-left': '20px', 'margin-right': '20px'});
 	
 	//footerLogo
-	 $('#footerTD1').css({'padding-left': '0px', 'width': '80px'});
+	 $('#footerTD1').css({'padding-left': '0px', 'width': '120px'});
 
          //$('#footerTD2').css({'width': '20px', 'backgroundColor': 'red', 'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite2.png") no-repeat scroll 0px -255px transparent'});
 	 //$('#footerTD3').css({'width': '20px', 'backgroundColor': 'blue', 'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite2.png") no-repeat scroll -40px -255px transparent'});
