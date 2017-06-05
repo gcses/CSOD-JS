@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 	
-	console.log("Test4");
+	console.log("Test5");
 	
 	$('#ctl00_footer_pnlCustomFooter').css({"margin-bottom": "-15px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});
 	
@@ -62,7 +62,7 @@ $(document).ready(function() {
 		});
 	
 	$('.footer-links').css({"padding-left": "0", "float": "right", "padding-right": "15px", "margin-top": "8px"});
-	$('.footer-links li').css({"display": "inline-block", "line-height": "16px", "padding-right": "5px", "padding-left": "0px", "border-left": "1px solid #EEEEEE"});
+	$('.footer-links li').css({"display": "inline-block", "line-height": "16px", "padding-right": "5px", "padding-left": "5px", "border-left": "1px solid #EEEEEE"});
 	$('.footer-links li:first-child').css({"border-left": "none"});
 	$('.footer-links a').css({"color": "#FFFFFF", "font-weight": "400", "text-decoration": "none", "font-size": "10px"});
 	
@@ -82,7 +82,7 @@ $(document).ready(function() {
 	 $('#footerTD4').css({'width': '20px', 'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite2.png") no-repeat scroll -80px -255px transparent'});
 	 $('#footerTD5').css({'width': '20px', 'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite2.png") no-repeat scroll -120px -255px transparent'});
 
-	 $('#footerTD6').css({"width": "45%", "color": "#ffffff"});
+	 $('#footerTD6').css({"width": "30%", "color": "#ffffff", "backgroundColor": "green"});
 	 $('#footerTD7').css({"width": "30%"});
 	
 	
