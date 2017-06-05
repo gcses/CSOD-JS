@@ -26,7 +26,7 @@ $(document).ready(function() {
 	
 	console.log("Test1");
 	
-	$('#ctl00_footer_pnlCustomFooter').css({"margin-top": "65px", "margin-bottom": "-15px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});
+	$('#ctl00_footer_pnlCustomFooter').css({"margin-top": "0px", "margin-bottom": "-15px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});
 	
 	// margin: top, right, bottom, left
 	$('.df-footer').css({"margin": "0px 0px 0px 0px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});					
@@ -45,10 +45,10 @@ $(document).ready(function() {
 	        $(this).html('<img src="https://bd-pilot.csod.com/clientimg/bd/welcome/angle.png" id="slopedFooterImage" />' +
 			     '<table class="footerTable"><tr>'+
 			     '<td id="footerTD1"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/logo.png" id="footerLogo"></td>' +
-			     '<td id="footerTD2"><a href="#">&nbsp</a></td>'+
-			     '<td id="footerTD3"><a href="#">&nbsp</a></td>'+
-			     '<td id="footerTD4"><a href="#">&nbsp</a></td>'+
-			     '<td id="footerTD5"><a href="#">&nbsp</a></td>'+
+			     '<td id="footerTD2"><a href="#" class="smLink">&nbsp</a></td>'+
+			     '<td id="footerTD3"><a href="#" class="smLink">&nbsp</a></td>'+
+			     '<td id="footerTD4"><a href="#" class="smLink">&nbsp</a></td>'+
+			     '<td id="footerTD5"><a href="#" class="smLink">&nbsp</a></td>'+
 			     '<td id="footerTD6"><p class="copy">&copy; 2017 BD. All rights reserved. Unless otherwise noted, BD, the BD Logo and all other trademarks are property of Becton, Dickinson and Company.</p></td>'+
 			     '<td id="footerTD7"><ul class="footer-links">'+
             			'<li><a href="#">BD Worldwide</a></li>'+
