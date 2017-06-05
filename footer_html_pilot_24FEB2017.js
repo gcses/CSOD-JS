@@ -49,7 +49,7 @@ $(document).ready(function() {
 			     '<td id="footerTD1"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/logo.png" id="footerLogo"></td>' +
 			     '<td id="footerTD2"></td>'+
 			     '<td id="footerTD3"></td>'+
-			     '<td id="footerTD4></td>'+
+			     '<td id="footerTD4"></td>'+
 			     '<td id="footerTD5"></td>'+
 			     '<td id="footerTD6"><p class="copy">&copy; 2017 BD. All rights reserved. Unless otherwise noted, BD, the BD Logo and all other trademarks are property of Becton, Dickinson and Company.</p></td>'+
 			     '<td id="footerTD7"><ul class="footer-links">'+
@@ -86,8 +86,8 @@ $(document).ready(function() {
 	
 	 $('#footerTD2').css({'width': '20px', 'backgroundColor': 'red'});
 	 $('#footerTD3').css({'width': '20px', 'backgroundColor': 'blue'});
-	 $('#footerTD4').css({'width': '20px', 'backgroundColor': 'red'});
-	 $('#footerTD5').css({'width': '20px', 'backgroundColor': 'blue'});
+	 $('#footerTD4').css({'width': '20px', 'backgroundColor': 'yellow'});
+	 $('#footerTD5').css({'width': '20px', 'backgroundColor': 'orange'});
 
 	 $('#footerTD6').css({"width": "30%", "color": "#ffffff", "backgroundColor": "green"});
 	 $('#footerTD7').css({"width": "30%"});
