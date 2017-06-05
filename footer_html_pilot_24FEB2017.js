@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 	
-	console.log("Test8");
+	console.log("Test9");
 	
 	$('#ctl00_footer_pnlCustomFooter').css({"margin-bottom": "-15px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});
 	
@@ -91,7 +91,7 @@ $(document).ready(function() {
 	 $('#footerTD4').css({'width': '20px', 'backgroundColor': 'yellow'});
 	 $('#footerTD5').css({'width': '20px', 'backgroundColor': 'orange'});
 
-	 $('#footerTD6').css({"width": "30%", "color": "#ffffff", "backgroundColor": "green"});
+	 $('#footerTD6').css({"width": "45%", "color": "#ffffff", "backgroundColor": "green"});
 	 $('#footerTD7').css({"width": "30%"});
 	
 	
