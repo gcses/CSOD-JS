@@ -272,9 +272,8 @@ $(document).ready(function() {
 	
 		
 		
-		 $('.Panel_contentMiddle td').each(function(){
- 			$(this).html($(this).html().append('<img src="https://bd-pilot.csod.com/clientimg/bd/welcome/logo.png" id="chevrons1">')
-			)};
+$('.Panel_contentMiddle td').each(function(){
+ 			$(this).html().append('<img src="https://bd-pilot.csod.com/clientimg/bd/welcome/logo.png" id="chevrons1"/>')});
 		
 
 		
