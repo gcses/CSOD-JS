@@ -263,11 +263,13 @@ $(document).ready(function() {
 	   											 									 								 
 	   $('.Panel_contentMiddle tr:last-child td').css({"border-bottom": "none"});
 		
-	   // $('.Panel_contentMiddle tr td:first-child').css({"color": "#004593"});
-	   $('.Panel_contentMiddle tr td:first-child').css({"color": "green"});
+	    // left side wording link - in blue text
+	    $('.Panel_contentMiddle tr td:first-child').css({"color": "#004593"});
+	
 		
-	   $('.Panel_contentMiddle td a').css({"color": "#ffffff", "font-weight": "normal", "padding": "8px 26px 8px 10px", "backgroundColor": "#004593", "min-width": "122px", "display": "inline-block", "box-sizing": "border-box", "position": "relative"});
-		
+	   //$('.Panel_contentMiddle td a').css({"color": "#ffffff", "font-weight": "normal", "padding": "8px 26px 8px 10px", "backgroundColor": "#004593", "min-width": "122px", "display": "inline-block", "box-sizing": "border-box", "position": "relative"});
+		   $('.Panel_contentMiddle td a').css({"color": "#ffffff", "font-weight": "normal", "padding": "8px 26px 8px 10px", "backgroundColor": "green", "min-width": "122px", "display": "inline-block", "box-sizing": "border-box", "position": "relative"});
+	
 		
 		// $(".Panel_contentMiddle td a").hover(function(){ 
 		//      $(this).css({"text-decoration": "none", "backgroundColor": "#003066"}); },
