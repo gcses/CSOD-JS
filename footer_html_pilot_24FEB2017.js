@@ -41,11 +41,11 @@ $(document).ready(function() {
 			     '<td id="footerTD5"><a href="http://youtube.com/carefusion" class="smLink">&nbsp</a></td>'+
 			     '<td id="footerTD6"><p class="copy">&copy; 2017 BD. All rights reserved. Unless otherwise noted, BD, the BD Logo and all other trademarks are property of Becton, Dickinson and Company.</p></td>'+
 			     '<td id="footerTD7"><ul class="footer-links">'+
-            			'<li><a href="#">BD Worldwide</a></li>'+
-           			 '<li><a href="#">Contact BD</a></li>'+
-            			'<li><a href="#">Privacy Policy</a></li>'+
-            			'<li><a href="#">Terms of Use</a></li>'+
-           			 '<li><a href="#">Permission Request</a></li>'+
+            			'<li><a href="http://www.bd.com/">BD Worldwide</a></li>'+
+           			 '<li><a href="http://www.bd.com/support/contact/">Contact BD</a></li>'+
+            			'<li><a href="http://www.bd.com/legal/privacy_policy/">Privacy Policy</a></li>'+
+            			'<li><a href="http://www.bd.com/legal/terms/">Terms of Use</a></li>'+
+           			 '<li><a href="https://forms.bd.com/BDPERM/index.sp">Permission Request</a></li>'+
         			'</ul></td> </tr></table>')
 		});
 	
