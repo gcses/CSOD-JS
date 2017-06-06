@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 	
-	console.log("Test1");
+	console.log("Test2");
 	
 	$('#ctl00_footer_pnlCustomFooter').css({"margin-top": "0px", "margin-bottom": "-15px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});
 	
@@ -178,7 +178,8 @@ $(document).ready(function() {
 	$('.tools').css({"margin": "-20px 0px 20px 0px", "background-color": "#004593"}); 
 	
 	$('.topBarOuter').css({"margin": "0px 0px 0px 0px", "background-color": "#004593"}); 
-	
+	$('#ctl00_header_headerFixed_aHeaderLogoLink').css({"background-color": "#004593"}); 
+	$('#tblTopBar').css({"background-color": "#004593"}); 
 	
 	
 	
