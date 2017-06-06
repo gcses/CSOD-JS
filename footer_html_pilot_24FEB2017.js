@@ -161,12 +161,35 @@ $(document).ready(function() {
 		 function() { $(this).css({"backgroundColor": "#ffffff",  "color": "#808080", "text-decoration": "", "font-weight": ""}); }
 	); 
 	
-	//Fix the search area and icons - move up - margin: top, right, bottom, left
+	$('#main-menu > li.active').hover(function(){ 
+		 $(this).css({"backgroundColor": "yellow",  "color": "#000000", "text-decoration": "underline", "font-weight": "bold"}); },
+		 function() { $(this).css({"background-color": "#ffffff", "text-decoration": "underline", "font-weight": "bold"}); }
+	); 
+	
+	
+	
+	
+	
+       	//Fix the search area and icons - move up - margin: top, right, bottom, left
 	$('#search .cso-top-srch-box').css({"height": "37px", "border-color": "#dddddd", "box-shadow": "none", "margin": "0 10px 0 0"});
 	$('#search input').css({"height": "37px"});
 	
 	//fix the spacing around the header search and icons
 	$('.tools').css({"margin": "-20px 0px 20px 0px", "background-color": "#004593"}); 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	//$('#search .search-lnk:after').css({"content": "\f002", "position": "absolute", "right": "0", "top": "0", "color": "#004593", "width": "26px", "height": "28px", "display": "block", "font": "normal normal normal 14px/1 FontAwesome"});
 	//$('.navTabs li.active a, .navTabs li:hover a').css({"background-image": "none", "color": "#000000", "text-decoration": "underline"});
