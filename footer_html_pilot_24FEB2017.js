@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 	
-	console.log("Test9");
+	console.log("Test1");
 	
 	$('#ctl00_footer_pnlCustomFooter').css({"margin-top": "0px", "margin-bottom": "-15px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});
 	
@@ -175,7 +175,9 @@ $(document).ready(function() {
 	$('#search input').css({"height": "37px"});
 	
 	//fix the spacing around the header search and icons
-	$('.tools').css({"margin": "-40px 0px 20px 0px", "background-color": "#004593"}); 
+	$('.tools').css({"margin": "-20px 0px 20px 0px", "background-color": "#004593"}); 
+	
+	$('.topBarOuter').css({"margin": "0px 0px 0px 0px", "background-color": "#004593"}); 
 	
 	
 	
