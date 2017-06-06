@@ -166,10 +166,6 @@ $(document).ready(function() {
 		 function() { $(this).css({"background-color": "#ffffff", "text-decoration": "underline", "font-weight": "bold"}); }
 	); 
 	
-	
-	
-	
-	
        	//Fix the search area and icons - move up - margin: top, right, bottom, left
 	$('#search .cso-top-srch-box').css({"height": "37px", "border-color": "#dddddd", "box-shadow": "none", "margin": "0 10px 0 0"});
 	$('#search input').css({"height": "37px"});
@@ -177,19 +173,14 @@ $(document).ready(function() {
 	//fix the spacing around the header search and icons
 	$('.tools').css({"margin": "-20px 0px 20px 0px", "background-color": "#004593"}); 
 	
+	// fix the header coloring. It needs help on screens such as Browse For Learning
 	$('.topBarOuter').css({"margin": "0px 0px 0px 0px", "background-color": "#004593"}); 
 	$('#ctl00_header_headerFixed_aHeaderLogoLink').css({"background-color": "#004593"}); 
 	$('#tblTopBar').css({"background-color": "#004593"}); 
 	
 	
 	
-	
-	
-	
-	
-	
-	
-	
+
 	
 	
 	
