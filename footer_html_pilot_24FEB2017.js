@@ -69,17 +69,19 @@ $(document).ready(function() {
 	$('.footer-links li:first-child').css({"border-left": "none"});
 	$('.footer-links a').css({"color": "#FFFFFF", "font-weight": "400", "text-decoration": "none", "font-size": "10px"});
 	
-	 $('#slopedFooterImage').css({"width": "100%", "padding-bottom": "0px", "margin-top": "65px", "margin-bottom": "-5px"});
+	
+	// sloped image with top margin
+	 $('#slopedFooterImage').css({"width": "100%", "padding-bottom": "0px", "margin-top": "35px", "margin-bottom": "-5px"});
 	
 	 // margin: top, right, bottom, left
 	 $('.footerTable').css({"margin": "0px 0px 0px 0px", "padding-top": "0px", "backgroundColor": "#004593", "width": "100%", "height": "75px"});
 
+	  // copywrite info
 	 $('.copy').css({'font-size': '80%', 'padding-left': '40px', 'text-align': 'center'});	
-	 $('#footerLogo').css({'margin-left': '20px', 'margin-right': '20px'});
 	
-	//footerLogo
+	//footer logo
+	 $('#footerLogo').css({'margin-left': '20px', 'margin-right': '20px'});
 	 $('#footerTD1').css({'padding-left': '0px', 'width': '40px'});
-
 
          $('#footerTD2').css({'width': '10px', 'padding': '5px', 'backgroundColor': 'red', 'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite-4.png") no-repeat scroll 0px -255px transparent'});
 	 $('#footerTD3').css({'padding-left': '5px', 'width': '10px', 'padding': '5px', 'backgroundColor': 'blue', 'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite-4.png") no-repeat scroll -40px -255px transparent'});
