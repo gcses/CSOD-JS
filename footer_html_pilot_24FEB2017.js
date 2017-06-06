@@ -272,7 +272,7 @@ $(document).ready(function() {
 	
 		
 		
-        $('.Panel_contentMiddle td').each(function(){$(this).html().append('<img id="chevrons1"/>')});
+       // $('.Panel_contentMiddle td').each(function(){$(this).html().append('<img id="chevrons1"/>')});
 		
 
 		
