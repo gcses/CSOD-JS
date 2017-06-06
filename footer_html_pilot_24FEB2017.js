@@ -175,7 +175,7 @@ $(document).ready(function() {
 	$('#search input').css({"height": "37px"});
 	
 	//fix the spacing around the header search and icons
-	//$('.tools').css({"margin": "-20px 0px 20px 0px", "background-color": "#004593"}); 
+	$('.tools').css({"margin": "-20px 0px 40px 0px", "background-color": "#004593"}); 
 	
 	
 	
