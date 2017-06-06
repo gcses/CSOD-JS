@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 	
-	console.log("Test5");
+	console.log("Test8");
 	
 	$('#ctl00_footer_pnlCustomFooter').css({"margin-top": "0px", "margin-bottom": "-15px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});
 	
@@ -272,8 +272,7 @@ $(document).ready(function() {
 	
 		
 		
-$('.Panel_contentMiddle td').each(function(){
- 			$(this).html().append('<img id="chevrons1"/>')});
+        $('.Panel_contentMiddle td').each(function(){$(this).html().append('<img id="chevrons1"/>')});
 		
 
 		
