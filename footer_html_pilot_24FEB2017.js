@@ -175,7 +175,7 @@ $(document).ready(function() {
 	$('#search input').css({"height": "37px"});
 	
 	//fix the spacing around the header search and icons
-	$('.tools').css({"margin": "-20px 0px 20px 0px", "background-color": "#004593"}); 
+	//$('.tools').css({"margin": "-20px 0px 20px 0px", "background-color": "#004593"}); 
 	
 	
 	
@@ -284,13 +284,16 @@ $(document).ready(function() {
 		
 		
 	   											 									 								 
-	   $('.Panel_contentMiddle tr:last-child td').css({"border-bottom": "none"});
+	    $('.Panel_contentMiddle tr:last-child td').css({"border-bottom": "none"});
 		
 	    // left side wording link - in blue text
 	    $('.Panel_contentMiddle tr td:first-child').css({"color": "#004593"});
 	
-		//boxed in link on right side of Learning In Progress
-	       $('.Panel_contentMiddle td a').css({"color": "#ffffff", "font-weight": "normal", "padding": "8px 26px 8px 10px", "backgroundColor": "#004593", "min-width": "122px", "display": "inline-block", "box-sizing": "border-box", "position": "relative"});
+	     //boxed in link on right side of Learning In Progress
+	    $('.Panel_contentMiddle td a').css({"color": "#ffffff", "font-weight": "normal", "padding": "8px 26px 8px 10px", "backgroundColor": "#004593", "min-width": "122px", "display": "inline-block", "box-sizing": "border-box", "position": "relative"});
+		
+		
+		
 		
 		
 		// $('.Panel_contentMiddle').
