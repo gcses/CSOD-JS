@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 	
-	console.log("Test4");
+	console.log("Test5");
 	
 	$('#ctl00_footer_pnlCustomFooter').css({"margin-top": "0px", "margin-bottom": "-15px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});
 	
@@ -78,15 +78,12 @@ $(document).ready(function() {
 
 	 $('#footerTD6').css({"width": "45%", "color": "#ffffff"});
 	 $('#footerTD7').css({"width": "30%"});
-	
-	
-	
-	
 
        //this handles initial load at the Browse Learning Page - replaces initial icons and wording, both needed?
         Sys.WebForms.PageRequestManager.getInstance().add_pageLoaded(function () { replaceOnlineClass(); });
 	Sys.WebForms.PageRequestManager.getInstance().add_endRequest(function () { replaceOnlineClass(); });
 
+	// Remove Welcome sub-tab
         // $('a:contains("Welcome")').each(function(){
  	//	$(this).remove();
 	//});
@@ -257,10 +254,17 @@ $(document).ready(function() {
 			function() { $(this).css({"backgroundColor": "yellow!important"}); }
 		); 
 	
-												 									 								 
+		
+		
+		
+		
+		
+		
+	   											 									 								 
 	   $('.Panel_contentMiddle tr:last-child td').css({"border-bottom": "none"});
 		
-	   $('.Panel_contentMiddle tr td:first-child').css({"color": "#004593"});
+	   // $('.Panel_contentMiddle tr td:first-child').css({"color": "#004593"});
+	   $('.Panel_contentMiddle tr td:first-child').css({"color": "green"});
 		
 	   $('.Panel_contentMiddle td a').css({"color": "#ffffff", "font-weight": "normal", "padding": "8px 26px 8px 10px", "backgroundColor": "#004593", "min-width": "122px", "display": "inline-block", "box-sizing": "border-box", "position": "relative"});
 		
