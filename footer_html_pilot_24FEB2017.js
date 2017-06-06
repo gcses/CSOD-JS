@@ -31,16 +31,6 @@ $(document).ready(function() {
 	// margin: top, right, bottom, left
 	$('.df-footer').css({"margin": "0px 0px 0px 0px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});					
 				
-	
-	
-	/*
-				     '<td id="footerTD2"><a href="https://www.facebook.com/">&nbsp;</a></td>'+
-			     '<td id="footerTD3"><a href="https://www.twitter.com/">&nbsp;</a></td>'+
-			     '<td id="footerTD4><a href="https://www.instagram.com/">&nbsp;</a></td>'+
-			     '<td id="footerTD5"><a href="https://www.youtube.com/">&nbsp;</a></td>'+
-			     */
-	
-
 	$('.df-footer').each(function(){
 	        $(this).html('<img src="https://bd-pilot.csod.com/clientimg/bd/welcome/angle.png" id="slopedFooterImage" />' +
 			     '<table class="footerTable"><tr>'+
@@ -59,10 +49,8 @@ $(document).ready(function() {
         			'</ul></td> </tr></table>')
 		});
 	
+	//enlarge the link area for the social media links
 	$('.smLink').css({'font-size': '400%'});
-	
-	
-	
 	
 	$('.footer-links').css({"padding-left": "0", "float": "right", "padding-right": "15px", "margin-top": "8px"});
 	$('.footer-links li').css({"display": "inline-block", "line-height": "16px", "padding-right": "5px", "padding-left": "5px", "border-left": "1px solid #EEEEEE"});
