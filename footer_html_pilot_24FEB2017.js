@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 	
-	console.log("Test4");
+	console.log("Test5");
 	
 	$('#ctl00_footer_pnlCustomFooter').css({"margin-top": "0px", "margin-bottom": "-15px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});
 	
@@ -294,14 +294,8 @@ $(document).ready(function() {
 	    
 	    
 	    var cartImg = $('<img id="chevron1">'); //Equivalent: $(document.createElement('img'))
-	    cartImg.attr('src', 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite-4.png") no-repeat scroll -120px -255px transparent');
+	    cartImg.attr('src', 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite-4.png") -120px -255px transparent');
             cartImg.appendTo('.Panel_contentMiddle td a');
-		
-		
-		
-		
-		
-       // $('.Panel_contentMiddle td').each(function(){$(this).html().append('<img id="chevrons1"/>')});
 		
 
 		
