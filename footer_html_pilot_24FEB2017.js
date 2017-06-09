@@ -52,7 +52,7 @@ $(document).ready(function() {
 	$('.footer-links').css({"padding-left": "0", "float": "right", "padding-right": "15px", "margin-top": "8px"});
 	$('.footer-links li').css({"display": "inline-block", "line-height": "16px", "padding-right": "5px", "padding-left": "5px", "border-left": "1px solid #EEEEEE"});
 	$('.footer-links li:first-child').css({"border-left": "none"});
-	$('.footer-links a').css({"color": "#FFFFFF", "font-weight": "400", "text-decoration": "none", "font-size": "12px", "font-weight": "bold"});
+	$('.footer-links a').css({"color": "#FFFFFF", "font-weight": "400", "text-decoration": "none", "font-size": "11px", "font-weight": "bold"});
 	
 	
 	// sloped image with top margin
@@ -64,7 +64,7 @@ $(document).ready(function() {
 	 $('.footerTable').css({"margin": "0px 0px 0px 0px", "padding-top": "0px", "backgroundColor": "#004593", "width": "100%", "height": "100px"});
 
 	  // copywrite info
-	 $('.copy').css({'font-size': '12px', 'padding-left': '40px', 'text-align': 'center', "font-weight": "bold"});	
+	 $('.copy').css({'font-size': '11px', 'padding-left': '40px', 'text-align': 'center', "font-weight": "bold"});	
 	
 	//footer logo
 	 $('#footerLogo').css({'height': '30px', 'margin-left': '20px', 'margin-right': '20px'});
@@ -75,8 +75,8 @@ $(document).ready(function() {
 	 $('#footerTD4').css({'width': '10px', 'height': '12px', 'padding': '5px', 'backgroundColor': 'red', 'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite-4.png") no-repeat scroll -80px -255px transparent'});
 	 $('#footerTD5').css({'width': '10px', 'height': '12px', 'padding': '5px', 'backgroundColor': 'blue', 'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite-4.png") no-repeat scroll -120px -255px transparent'});
 
-	 $('#footerTD6').css({"width": "45%", "color": "#ffffff"});
-	 $('#footerTD7').css({"width": "30%"});
+	 $('#footerTD6').css({"width": "55%", "color": "#ffffff", "backgroundColor": "green"});
+	 $('#footerTD7').css({"width": "20%"});
 
        //this handles initial load at the Browse Learning Page - replaces initial icons and wording, both needed?
         Sys.WebForms.PageRequestManager.getInstance().add_pageLoaded(function () { replaceOnlineClass(); });
