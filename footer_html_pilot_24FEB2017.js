@@ -75,8 +75,8 @@ $(document).ready(function() {
 	 $('#footerTD4').css({'width': '10px', 'height': '12px', 'padding': '5px', 'backgroundColor': 'red', 'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite-4.png") no-repeat scroll -80px -255px transparent'});
 	 $('#footerTD5').css({'width': '10px', 'height': '12px', 'padding': '5px', 'backgroundColor': 'blue', 'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite-4.png") no-repeat scroll -120px -255px transparent'});
 
-	 $('#footerTD6').css({"width": "55%", "color": "#ffffff", "backgroundColor": "green"});
-	 $('#footerTD7').css({"width": "20%"});
+	 $('#footerTD6').css({"width": "60%", "color": "#ffffff", "backgroundColor": "green"});
+	 $('#footerTD7').css({"width": "25%"});
 
        //this handles initial load at the Browse Learning Page - replaces initial icons and wording, both needed?
         Sys.WebForms.PageRequestManager.getInstance().add_pageLoaded(function () { replaceOnlineClass(); });
