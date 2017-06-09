@@ -52,7 +52,7 @@ $(document).ready(function() {
 	$('.footer-links').css({"padding-left": "0", "float": "right", "padding-right": "15px", "margin-top": "8px"});
 	$('.footer-links li').css({"display": "inline-block", "line-height": "16px", "padding-right": "5px", "padding-left": "5px", "border-left": "1px solid #EEEEEE"});
 	$('.footer-links li:first-child').css({"border-left": "none"});
-	$('.footer-links a').css({"color": "#FFFFFF", "font-weight": "400", "text-decoration": "none", "font-size": "10px", "font-weight": "bold"});
+	$('.footer-links a').css({"color": "#FFFFFF", "font-weight": "400", "text-decoration": "none", "font-size": "12px", "font-weight": "bold"});
 	
 	
 	// sloped image with top margin
@@ -60,17 +60,11 @@ $(document).ready(function() {
 	
 	
 	
-	
-	
-	
-	
-	
-	
 	 // margin: top, right, bottom, left
 	 $('.footerTable').css({"margin": "0px 0px 0px 0px", "padding-top": "0px", "backgroundColor": "#004593", "width": "100%", "height": "100px"});
 
 	  // copywrite info
-	 $('.copy').css({'font-size': '80%', 'padding-left': '40px', 'text-align': 'center', "font-weight": "bold"});	
+	 $('.copy').css({'font-size': '12px', 'padding-left': '40px', 'text-align': 'center', "font-weight": "bold"});	
 	
 	//footer logo
 	 $('#footerLogo').css({'height': '30px', 'margin-left': '20px', 'margin-right': '20px'});
