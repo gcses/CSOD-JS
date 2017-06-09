@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 	
-	console.log("Test3");
+	console.log("Test4");
 	
 	$('#ctl00_footer_pnlCustomFooter').css({"margin-top": "0px", "margin-bottom": "-15px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});
 	
@@ -71,11 +71,10 @@ $(document).ready(function() {
 	 $('#footerTD1').css({'padding-left': '0px'});
 
 	 //top, right, bottom, left
-         $('#footerTD2').css({'width': '8x', 'height': '8px', 'padding': '0px 10px 0px 10px',  'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite-4.png") no-repeat scroll 0px -255px transparent'});
-	 $('#footerTD3').css({'width': '10px', 'height': '12px', 'padding': '0px 10px 0px 10px',  'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite-4.png") no-repeat scroll -40px -255px transparent'});
-	 $('#footerTD4').css({'width': '10px', 'height': '12px', 'padding': '0px 10px 0px 10px',  'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite-4.png") no-repeat scroll -80px -255px transparent'});
-	 $('#footerTD5').css({'width': '10px', 'height': '12px', 'padding': '0px 10px 0px 10px',  'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite-4.png") no-repeat scroll -120px -255px transparent'});
-
+         $('#footerTD2').css({'width': '10x', 'height': '12px', 'margin': '0px 10px 0px 10px',  'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite-4.png") no-repeat scroll 0px -255px transparent'});
+	 $('#footerTD3').css({'width': '10px', 'height': '12px', 'margin': '0px 10px 0px 10px',  'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite-4.png") no-repeat scroll -40px -255px transparent'});
+	 $('#footerTD4').css({'width': '10px', 'height': '12px', 'margin': '0px 10px 0px 10px',  'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite-4.png") no-repeat scroll -80px -255px transparent'});
+	 $('#footerTD5').css({'width': '8px', 'height': '12px', 'margin': '0px 10px 0px 10px',  'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite-4.png") no-repeat scroll -120px -255px transparent'});
 	 $('#footerTD6').css({"width": "50%", "color": "#ffffff", "backgroundColor": "green"});
 	 $('#footerTD7').css({"width": "25%"});
 
