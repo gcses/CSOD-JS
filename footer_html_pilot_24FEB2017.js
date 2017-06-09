@@ -62,7 +62,7 @@ $(document).ready(function() {
 	 $('#slopedFooterImage').css({"width": "100%", "padding-bottom": "0px", "margin-top": "35px", "margin-bottom": "-5px"});
 	
 	 // margin: top, right, bottom, left
-	 $('.footerTable').css({"margin": "0px 0px 0px 0px", "padding-top": "0px", "backgroundColor": "#004593", "width": "100%", "height": "75px"});
+	 $('.footerTable').css({"margin": "0px 0px 0px 0px", "padding-top": "0px", "backgroundColor": "#004593", "width": "100%", "height": "155px"});
 
 	  // copywrite info
 	 $('.copy').css({'font-size': '80%', 'padding-left': '40px', 'text-align': 'center'});	
