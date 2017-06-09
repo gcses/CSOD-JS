@@ -295,7 +295,7 @@ $(document).ready(function() {
 	    
 	    var cartImg = $('<img id="chevron1">'); //Equivalent: $(document.createElement('img'))
 	    cartImg.attr('src', 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite-4.png") no-repeat scroll -120px -255px transparent');
-            cartImg.appendTo('.Panel_contentMiddle td');
+            cartImg.appendTo('.Panel_contentMiddle td a');
 		
 		
 		
