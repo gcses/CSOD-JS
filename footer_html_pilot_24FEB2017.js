@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 	
-	console.log("Test2");
+	console.log("Test3");
 	
 	$('#ctl00_footer_pnlCustomFooter').css({"margin-top": "0px", "margin-bottom": "-15px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});
 	
@@ -67,8 +67,8 @@ $(document).ready(function() {
 	 $('.copy').css({'font-size': '11px', 'padding-left': '40px', 'text-align': 'center', "font-weight": "bold"});	
 	
 	//footer logo
-	 $('#footerLogo').css({'height': '30px', 'margin-left': '20px', 'padding-bottom': '10px'});
-	 $('#footerTD1').css({'padding': '0px', 'width': '75px', 'backgroundColor': 'yellow'});
+	 $('#footerLogo').css({'height': '30px', 'margin-left': '20px', 'padding-bottom': '15px'});
+	 $('#footerTD1').css({'padding': '0px', 'width': '60px', 'backgroundColor': 'yellow'});
 
 	 //top, right, bottom, left
          $('#footerTD2').css({'width': '5px', 'height': '7px', 'margin': '0px 10px 0px 10px',  'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite-4.png") no-repeat scroll 0px -255px transparent'});
