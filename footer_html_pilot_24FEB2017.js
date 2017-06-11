@@ -68,7 +68,7 @@ $(document).ready(function() {
 	
 	//footer logo
 	 $('#footerLogo').css({'height': '30px', 'margin-left': '20px', 'padding-bottom': '15px'});
-	 $('#footerTD1').css({'padding': '0px', 'backgroundColor': 'yellow'}); //'width': '40px',
+	 $('#footerTD1').css({'width': '40px', 'padding': '0px', 'backgroundColor': 'yellow'}); 
 
 	 //top, right, bottom, left
          $('#footerTD2').css({'width': '5px', 'height': '7px', 'margin': '0px 10px 0px 30px',  'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite-4.png") no-repeat scroll 0px -255px transparent'});
