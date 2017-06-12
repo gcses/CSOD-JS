@@ -72,12 +72,12 @@ $(document).ready(function() {
 	 $('#footerTD1').css({'width': '10px', 'padding': '0px', 'backgroundColor': 'yellow'}); 
 
 	 //top, right, bottom, left
-         $('#footerTD2').css({'width': '5px', 'height': '7px', 'margin': '10px 0px 0px 0px',  'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite-4.png") no-repeat scroll 5px -255px transparent'});
-	 $('#footerTD3').css({'width': '5px', 'height': '7px', 'margin': '10px 0px 0px 40px',  'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite-4.png") no-repeat scroll -35px -255px transparent'});
-	 $('#footerTD4').css({'width': '5px', 'height': '7px', 'margin': '10px 0px 0px 40px',  'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite-4.png") no-repeat scroll -75px -255px transparent'});
-	 $('#footerTD5').css({'width': '5px', 'height': '7px', 'margin': '10px 0px 0px 40px',  'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite-4.png") no-repeat scroll -115px -255px transparent'});
-	
-	 $('#footerTDspace').css({'width': '5px'});
+         $('#footerTD2').css({'width': '5px', 'height': '7px', 'margin': '0px 0px -10px 0px',  'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite-4.png") no-repeat scroll 5px -255px transparent'});
+	 $('#footerTD3').css({'width': '5px', 'height': '7px', 'margin': '0px 0px -10px 40px',  'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite-4.png") no-repeat scroll -35px -255px transparent'});
+	 $('#footerTD4').css({'width': '5px', 'height': '7px', 'margin': '0px 0px -10px 40px',  'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite-4.png") no-repeat scroll -75px -255px transparent'});
+	 $('#footerTD5').css({'width': '5px', 'height': '7px', 'margin': '0px 0px -10px 40px',  'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite-4.png") no-repeat scroll -115px -255px transparent'});
+
+	 $('#footerTDspace').css({'width': '15px'});
 	
 	
 	 $('#footerTD6').css({"width": "50%", "color": "#ffffff", "backgroundColor": "green"});
