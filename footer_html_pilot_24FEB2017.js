@@ -68,7 +68,7 @@ $(document).ready(function() {
 	 $('.copy').css({'font-size': '11px', 'padding-left': '40px', 'text-align': 'center', "font-weight": "bold"});	
 	
 	//footer logo
-	 $('#footerLogo').css({'height': '30px', 'margin-left': '20px', 'padding-bottom': '0px'});
+	 $('#footerLogo').css({'height': '30px', 'margin-left': '20px', 'padding-bottom': '20px'});
 	 $('#footerTD1').css({'width': '100px', 'padding': '0px'}); 
 
 	 //top, right, bottom, left: 50-55,
