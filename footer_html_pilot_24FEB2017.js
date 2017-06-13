@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test8");
+	console.log("Test9");
 	
 	$('#ctl00_footer_pnlCustomFooter').css({"margin-top": "0px", "margin-bottom": "-15px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});
 	
@@ -297,8 +297,10 @@ $(document).ready(function() {
 	    var chevImg = $('<img id="chevron1">'); //Equivalent: $(document.createElement('img'))
 	    chevImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/rightArrowIcon.png');
 	    chevImg.attr('height','22px');
+		
+	    //chevImg.attr('','22px');
             chevImg.appendTo('.Panel_contentMiddle td a');
-	    $('#chevron1').css({'margin': '10px -20px 0px 10px'});
+	    $('#chevron1').css({'position': 'absolute', 'top': '50%', 'left': '50%'});
            
 		
 	// $('#footerTD5').css({'padding-left': '5px', 'width': '10px', 'padding': '5px', 'backgroundColor': 'blue', 'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite-4.png") no-repeat scroll -120px -255px transparent'});
