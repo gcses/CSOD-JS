@@ -36,10 +36,10 @@ $(document).ready(function() {
 			     '<table class="footerTable"><tr>'+
 			     '<td id="footerTD1"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/logo.png" id="footerLogo"></td>' +
 			    
-			      '<td id="footerTD2"><a href="http://www.facebook.com/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/facebookIcon.png"></a></td>' +
-			      '<td id="footerTD3"><a href="http://twitter.com/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/twitterIcon.jpg"></a></td>' +
-			      '<td id="footerTD4"><a href="http://www.linkedin.com/company/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/linkedInIcon.jpg"></a></td>' +
-			      '<td id="footerTD5"><a href="http://youtube.com/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/youTubeIcon.jpg"></a></td>' +
+			      '<td id="footerTD2"><a href="http://www.facebook.com/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/facebookIcon.png" id="sm1"></a></td>' +
+			      '<td id="footerTD3"><a href="http://twitter.com/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/twitterIcon.jpg" id="sm2"></a></td>' +
+			      '<td id="footerTD4"><a href="http://www.linkedin.com/company/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/linkedInIcon.jpg" id="sm3"></a></td>' +
+			      '<td id="footerTD5"><a href="http://youtube.com/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/youTubeIcon.jpg" id="sm4"></a></td>' +
 			     
 			      '<td id="footerTDspace">&nbsp</td>'+
 			     
@@ -49,6 +49,12 @@ $(document).ready(function() {
             			'<li><a href="http://www.bd.com/legal/terms/">Terms of Use</a></li>'+
         			'</ul></td> </tr></table>')
 		});
+	
+	
+	$('#sm1').css({'height': '20px'})
+	$('#sm2').css({'height': '20px'})
+	$('#sm3').css({'height': '20px'})
+	$('#sm4').css({'height': '20px'})
 	
 	//enlarge the link area for the social media links
 	$('.smLink').css({'font-size': '400%'});
@@ -310,8 +316,9 @@ $(document).ready(function() {
 	    // margin: top, right, bottom, left
 	    var chevImg = $('<img id="chevron1">'); //Equivalent: $(document.createElement('img'))
 	    chevImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/rightArrowIcon.png');
+	    chevImg.attr('height','10px');
             chevImg.appendTo('.Panel_contentMiddle td a');
-	    $('#chevron1').css({'height': '10px', "margin": "0px 0px 0px 0px"});
+	    //$('#chevron1').css({'height': '10px', "margin": "0px 0px 0px 0px"});
            
 		
 	// $('#footerTD5').css({'padding-left': '5px', 'width': '10px', 'padding': '5px', 'backgroundColor': 'blue', 'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite-4.png") no-repeat scroll -120px -255px transparent'});
