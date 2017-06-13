@@ -23,13 +23,8 @@ $(window).scroll(function() {
 
 
 $(document).ready(function() {
-	
-	agfadsgfdsagdagdsafgfdhgfdhgfsjhgfdjhgfd
-	
-	
-	
-	
-	console.log("Test5");
+
+	console.log("Test1");
 	
 	$('#ctl00_footer_pnlCustomFooter').css({"margin-top": "0px", "margin-bottom": "-15px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});
 	
@@ -41,10 +36,10 @@ $(document).ready(function() {
 			     '<table class="footerTable"><tr>'+
 			     '<td id="footerTD1"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/logo.png" id="footerLogo"></td>' +
 			    
-			      '<td id="footerTD2"><a href="http://www.facebook.com/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/facebook.jpg"></a></td>' +
-			      '<td id="footerTD3"><a href="http://twitter.com/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/twitter.jpg"></a></td>' +
-			      '<td id="footerTD4"><a href="http://www.linkedin.com/company/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/linkedIn.jpg"></a></td>' +
-			      '<td id="footerTD5"><a href="http://youtube.com/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/youTube.jpg"></a></td>' +
+			      '<td id="footerTD2"><a href="http://www.facebook.com/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/facebookIcon.png"></a></td>' +
+			      '<td id="footerTD3"><a href="http://twitter.com/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/twitterIcon.jpg"></a></td>' +
+			      '<td id="footerTD4"><a href="http://www.linkedin.com/company/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/linkedInIcon.jpg"></a></td>' +
+			      '<td id="footerTD5"><a href="http://youtube.com/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/youTubeIcon.jpg"></a></td>' +
 			     
 			     
 			    // '<td id="footerTD2"><a href="http://www.facebook.com/carefusion" class="smLink">&nbsp</a></td>'+
@@ -84,11 +79,18 @@ $(document).ready(function() {
 	 $('#footerTD1').css({'width': '100px', 'padding': '0px'}); 
 
 	 //top, right, bottom, left: 50-55,
-         $('#footerTD2').css({'padding-top': '0px', 'width': '0px', 'height': '0px', 'margin': '0px 0px 0px 30px', 'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite-4.png") no-repeat scroll 30px -255px transparent'});
-	 $('#footerTD3').css({'padding-top': '0px', 'width': '0px', 'height': '0px', 'margin': '0px 0px 0px 0px',  'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite-4.png") no-repeat scroll -15px -255px transparent'});
-	 $('#footerTD4').css({'padding-top': '0px', 'width': '0px', 'height': '0px', 'margin': '0px 0px 0px 0px',  'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite-4.png") no-repeat scroll -65px -255px transparent'});
-	 $('#footerTD5').css({'padding-top': '0px', 'width': '0px', 'height': '0px', 'margin': '0px 0px 0px 0px',  'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite-4.png") no-repeat scroll -110px -255px transparent'});
+        // $('#footerTD2').css({'padding-top': '0px', 'width': '0px', 'height': '0px', 'margin': '0px 0px 0px 30px', 'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite-4.png") no-repeat scroll 30px -255px transparent'});
+	// $('#footerTD3').css({'padding-top': '0px', 'width': '0px', 'height': '0px', 'margin': '0px 0px 0px 0px',  'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite-4.png") no-repeat scroll -15px -255px transparent'});
+	// $('#footerTD4').css({'padding-top': '0px', 'width': '0px', 'height': '0px', 'margin': '0px 0px 0px 0px',  'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite-4.png") no-repeat scroll -65px -255px transparent'});
+	// $('#footerTD5').css({'padding-top': '0px', 'width': '0px', 'height': '0px', 'margin': '0px 0px 0px 0px',  'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite-4.png") no-repeat scroll -110px -255px transparent'});
 
+	// $('#footerTD2').css({'padding-top': '0px', 'width': '0px', 'height': '0px', 'margin': '0px 0px 0px 30px'});
+	// $('#footerTD3').css({'padding-top': '0px', 'width': '0px', 'height': '0px', 'margin': '0px 0px 0px 0px',  'rite-4.png") no-repeat scroll -15px -255px transparent'});
+	// $('#footerTD4').css({'padding-top': '0px', 'width': '0px', 'height': '0px', 'margin': '0px 0px 0px 0px',  'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite-4.png") no-repeat scroll -65px -255px transparent'});
+	// $('#footerTD5').css({'padding-top': '0px', 'width': '0px', 'height': '0px', 'margin': '0px 0px 0px 0px',  'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite-4.png") no-repeat scroll -110px -255px transparent'});
+
+	
+	
 	 $('#footerTDspace').css({'width': '15px'});
 	
 	
@@ -315,7 +317,7 @@ $(document).ready(function() {
 	    
 	    
 	    var cartImg = $('<img id="chevron1">'); //Equivalent: $(document.createElement('img'))
-	    cartImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/rightArrow.png');
+	    cartImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/rightArrowIcon.png');
             cartImg.appendTo('.Panel_contentMiddle td a');
 		
 		// margin: top, right, bottom, left
