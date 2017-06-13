@@ -290,23 +290,17 @@ $(document).ready(function() {
 	    $('.Panel_contentMiddle tr td:first-child').css({"color": "#004593"});
 	
 	     //boxed in link on right side of Learning In Progress
-	    $('.Panel_contentMiddle td a').css({"width": "170px", "color": "#ffffff", "font-weight": "normal", "padding": "10px 0px 10px 0px", "backgroundColor": "#004593", "display": "inline-block", "box-sizing": "border-box", "position": "relative"});
+	    $('.Panel_contentMiddle td a').css({"width": "150px", "color": "#ffffff", "font-weight": "normal", "padding": "10px 0px 10px 0px", "backgroundColor": "#004593", "display": "inline-block", "box-sizing": "border-box", "position": "relative"});
 		
 		
 	    // margin: top, right, bottom, left
 	    var chevImg = $('<img class="chevron1">'); //Equivalent: $(document.createElement('img'))
 	    chevImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/rightArrowIcon.png');
 	    chevImg.attr('height','22px');
-		
-	    //chevImg.attr('','22px');
             chevImg.appendTo('.Panel_contentMiddle td a');
 	    $('.chevron1').css({'position': 'absolute', 'top': '10%', 'left': '83%', 'margin-left': '5px'});
            
-		
-	// $('#footerTD5').css({'padding-left': '5px', 'width': '10px', 'padding': '5px', 'backgroundColor': 'blue', 'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite-4.png") no-repeat scroll -120px -255px transparent'});
 
-
-		
 		
 		// $(".Panel_contentMiddle td a").hover(function(){ 
 		//      $(this).css({"text-decoration": "none", "backgroundColor": "#003066"}); },
