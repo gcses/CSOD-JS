@@ -49,10 +49,10 @@ $(document).ready(function() {
         			'</ul></td> </tr></table>')
 		});
 	
-	$('#sm1').css({'height': '40px', 'padding-bottom': '20px'})
-	$('#sm2').css({'height': '30px', 'padding-bottom': '20px'})
-	$('#sm3').css({'height': '40px', 'padding-bottom': '20px'})
-	$('#sm4').css({'height': '55px', 'padding-bottom': '20px'})
+	$('#sm1').css({'height': '30px', 'padding-bottom': '20px'})
+	$('#sm2').css({'height': '55px', 'padding-bottom': '20px'})
+	$('#sm3').css({'height': '30px', 'padding-bottom': '20px'})
+	$('#sm4').css({'height': '75px', 'padding-bottom': '20px'})
 	
 	
 	//enlarge the link area for the social media links
@@ -62,7 +62,6 @@ $(document).ready(function() {
 	$('.footer-links li').css({"display": "inline-block", "line-height": "16px", "padding-right": "5px", "padding-left": "5px", "border-left": "1px solid #EEEEEE"});
 	$('.footer-links li:first-child').css({"border-left": "none"});
 	$('.footer-links a').css({"color": "#FFFFFF", "font-weight": "400", "text-decoration": "none", "font-size": "11px", "font-weight": "bold"});
-	
 	
 	// sloped image with top margin
 	 $('#slopedFooterImage').css({"width": "100%", "padding-bottom": "0px", "margin-top": "35px", "margin-bottom": "-5px"});
