@@ -52,7 +52,7 @@ $(document).ready(function() {
 	
 	$('#sm1').css({'height': '30px', 'padding-bottom': '20px'})
 	$('#sm2').css({'height': '40px', 'padding-bottom': '20px'})
-	$('#sm3').css({'height': '40px', 'padding-bottom': '20px'})
+	$('#sm3').css({'height': '55px', 'padding-bottom': '20px'})
 	$('#sm4').css({'height': '40px', 'padding-bottom': '20px'})
 	
 	//enlarge the link area for the social media links
@@ -290,15 +290,15 @@ $(document).ready(function() {
 	    $('.Panel_contentMiddle tr td:first-child').css({"color": "#004593"});
 	
 	     //boxed in link on right side of Learning In Progress
-	    $('.Panel_contentMiddle td a').css({"margin-bottom": "5px", "color": "#ffffff", "font-weight": "normal", "padding": "8px 26px 8px 10px", "backgroundColor": "#004593", "min-width": "122px", "display": "inline-block", "box-sizing": "border-box", "position": "relative"});
+	    $('.Panel_contentMiddle td a').css({"padding-bottom": "5px", "color": "#ffffff", "font-weight": "normal", "padding": "8px 26px 8px 10px", "backgroundColor": "#004593", "width": "150px", "display": "inline-block", "box-sizing": "border-box", "position": "relative"});
 		
 		
 	    // margin: top, right, bottom, left
 	    var chevImg = $('<img id="chevron1">'); //Equivalent: $(document.createElement('img'))
 	    chevImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/rightArrowIcon.png');
-	    chevImg.attr('height','30px');
+	    chevImg.attr('height','22px');
             chevImg.appendTo('.Panel_contentMiddle td a');
-	    $('#chevron1').css({'float': 'right', 'margin-right': '0px'});
+	    $('#chevron1').css({'padding-right': '0px', 'margin-right': '0px'});
            
 		
 	// $('#footerTD5').css({'padding-left': '5px', 'width': '10px', 'padding': '5px', 'backgroundColor': 'blue', 'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite-4.png") no-repeat scroll -120px -255px transparent'});
