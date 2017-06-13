@@ -72,10 +72,10 @@ $(document).ready(function() {
 	 $('#footerTD1').css({'width': '100px', 'padding': '0px'}); 
 
 	 //top, right, bottom, left: 50-55,
-         $('#footerTD2').css({'padding-top': '0px', 'width': '0px', 'height': '0px', 'margin': '0px 0px 0px 30px', 'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite-4.png") no-repeat scroll 40px -255px transparent'});
-	 $('#footerTD3').css({'padding-top': '0px', 'width': '0px', 'height': '0px', 'margin': '0px 0px 0px 0px',  'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite-4.png") no-repeat scroll -20px -255px transparent'});
-	 $('#footerTD4').css({'padding-top': '0px', 'width': '0px', 'height': '0px', 'margin': '0px 0px 0px 0px',  'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite-4.png") no-repeat scroll -80px -255px transparent'});
-	 $('#footerTD5').css({'padding-top': '0px', 'width': '0px', 'height': '0px', 'margin': '0px 0px 0px 0px',  'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite-4.png") no-repeat scroll -120px -255px transparent'});
+         $('#footerTD2').css({'padding-top': '0px', 'width': '0px', 'height': '0px', 'margin': '0px 0px 0px 30px', 'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite-4.png") no-repeat scroll 30px -255px transparent'});
+	 $('#footerTD3').css({'padding-top': '0px', 'width': '0px', 'height': '0px', 'margin': '0px 0px 0px 0px',  'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite-4.png") no-repeat scroll -15px -255px transparent'});
+	 $('#footerTD4').css({'padding-top': '0px', 'width': '0px', 'height': '0px', 'margin': '0px 0px 0px 0px',  'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite-4.png") no-repeat scroll -65px -255px transparent'});
+	 $('#footerTD5').css({'padding-top': '0px', 'width': '0px', 'height': '0px', 'margin': '0px 0px 0px 0px',  'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite-4.png") no-repeat scroll -110px -255px transparent'});
 
 	 $('#footerTDspace').css({'width': '15px'});
 	
