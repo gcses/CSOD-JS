@@ -41,13 +41,7 @@ $(document).ready(function() {
 			      '<td id="footerTD4"><a href="http://www.linkedin.com/company/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/linkedInIcon.jpg"></a></td>' +
 			      '<td id="footerTD5"><a href="http://youtube.com/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/youTubeIcon.jpg"></a></td>' +
 			     
-			     
-			    // '<td id="footerTD2"><a href="http://www.facebook.com/carefusion" class="smLink">&nbsp</a></td>'+
-			   //  '<td id="footerTD3"><a href="http://twitter.com/carefusion" class="smLink">&nbsp</a></td>'+
-			   //  '<td id="footerTD4"><a href="http://www.linkedin.com/company/carefusion" class="smLink">&nbsp</a></td>'+
-			   //  '<td id="footerTD5"><a href="http://youtube.com/carefusion" class="smLink">&nbsp</a></td>'+
-			     '<td id="footerTDspace">&nbsp</td>'+
-			     
+			      '<td id="footerTDspace">&nbsp</td>'+
 			     
 			     '<td id="footerTD6"><p class="copy">&copy; 2017 BD. All rights reserved. Unless otherwise noted, BD, the BD Logo and all other trademarks are property of Becton, Dickinson and Company.</p></td>'+
 			     '<td id="footerTD7"><ul class="footer-links">'+
@@ -313,15 +307,11 @@ $(document).ready(function() {
 	    $('.Panel_contentMiddle td a').css({"color": "#ffffff", "font-weight": "normal", "padding": "8px 26px 8px 10px", "backgroundColor": "#004593", "min-width": "122px", "display": "inline-block", "box-sizing": "border-box", "position": "relative"});
 		
 		
-
-	    
-	    
-	    var cartImg = $('<img id="chevron1">'); //Equivalent: $(document.createElement('img'))
-	    cartImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/rightArrowIcon.png');
-            cartImg.appendTo('.Panel_contentMiddle td a');
-		
-		// margin: top, right, bottom, left
-	 $('#chevron1').css({"margin": "3px 0px 0px 5px"});
+	    // margin: top, right, bottom, left
+	    var chevImg = $('<img id="chevron1">'); //Equivalent: $(document.createElement('img'))
+	    chevImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/rightArrowIcon.png');
+            chevImg.appendTo('.Panel_contentMiddle td a');
+	    $('#chevron1').css({'height': '10px', "margin": "0px 0px 0px 0px"});
            
 		
 	// $('#footerTD5').css({'padding-left': '5px', 'width': '10px', 'padding': '5px', 'backgroundColor': 'blue', 'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite-4.png") no-repeat scroll -120px -255px transparent'});
