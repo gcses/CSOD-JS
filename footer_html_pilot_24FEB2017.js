@@ -37,10 +37,10 @@ $(document).ready(function() {
 			     '<td id="footerTD1"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/logo.png" id="footerLogo"></td>' +
 			    
 			      '<td id="footerTD2"><a href="http://www.facebook.com/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/facebookIcon.png" id="sm1"></a></td>' +
-			      '<td id="footerTD3"><a href="http://twitter.com/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/twitterIcon.jpg" id="sm2"></a></td>' +
-			      '<td id="footerTD4"><a href="http://www.linkedin.com/company/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/linkedInIcon.jpg" id="sm3"></a></td>' +
-			      '<td id="footerTD5"><a href="http://youtube.com/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/youTubeIcon.jpg" id="sm4"></a></td>' +
-			      '<td id="footerTDspace">&nbsp</td>'+
+			      '<td id="footerTD3"><a href="http://www.linkedin.com/company/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/linkedInIcon.jpg" id="sm3"></a></td>' +
+			      '<td id="footerTD4"><a href="http://youtube.com/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/youTubeIcon.jpg" id="sm4"></a></td>' +
+			      '<td id="footerTD5"><a href="http://twitter.com/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/twitterIcon.jpg" id="sm2"></a></td>' +
+			     '<td id="footerTDspace">&nbsp</td>'+
 			     
 			     '<td id="footerTD6"><p class="copy">&copy; 2017 BD. All rights reserved. Unless otherwise noted, BD, the BD Logo and all other trademarks are property of Becton, Dickinson and Company.</p></td>'+
 			     '<td id="footerTD7"><ul class="footer-links">'+
@@ -49,11 +49,11 @@ $(document).ready(function() {
         			'</ul></td> </tr></table>')
 		});
 	
+	$('#sm1').css({'height': '40px', 'padding-bottom': '20px'})
+	$('#sm2').css({'height': '30px', 'padding-bottom': '20px'})
+	$('#sm3').css({'height': '40px', 'padding-bottom': '20px'})
+	$('#sm4').css({'height': '55px', 'padding-bottom': '20px'})
 	
-	$('#sm1').css({'height': '30px', 'padding-bottom': '20px'})
-	$('#sm2').css({'height': '40px', 'padding-bottom': '20px', 'padding-left': '5px'})
-	$('#sm3').css({'height': '55px', 'padding-bottom': '20px'})
-	$('#sm4').css({'height': '40px', 'padding-bottom': '20px'})
 	
 	//enlarge the link area for the social media links
 	$('.smLink').css({'font-size': '400%'});
