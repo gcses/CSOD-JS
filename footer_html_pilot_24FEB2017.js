@@ -290,7 +290,7 @@ $(document).ready(function() {
 	    $('.Panel_contentMiddle tr td:first-child').css({"color": "#004593"});
 	
 	     //boxed in link on right side of Learning In Progress
-	    $('.Panel_contentMiddle td a').css({"width": "150px", "height": "50px", "color": "#ffffff", "font-weight": "normal", "padding": "0px 0px 10px 10px", "backgroundColor": "#004593", "display": "inline-block", "box-sizing": "border-box", "position": "relative"});
+	    $('.Panel_contentMiddle td a').css({"width": "150px", "color": "#ffffff", "font-weight": "normal", "padding": "10px 0px 10px 10px", "backgroundColor": "#004593", "display": "inline-block", "box-sizing": "border-box", "position": "relative"});
 		
 		
 	    // margin: top, right, bottom, left
