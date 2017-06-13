@@ -90,17 +90,7 @@ $(document).ready(function() {
 	// $('#footerTD5').css({'padding-top': '0px', 'width': '0px', 'height': '0px', 'margin': '0px 0px 0px 0px',  'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite-4.png") no-repeat scroll -110px -255px transparent'});
 
 	
-	
 	 $('#footerTDspace').css({'width': '15px'});
-	
-	
-	    var cartImg = $('<img id="chevron1">'); //Equivalent: $(document.createElement('img'))
-	    cartImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/rightArrow.png');
-            cartImg.appendTo('.Panel_contentMiddle td a');
-	
-	
-	
-	
 	
 	 $('#footerTD6').css({"width": "50%", "color": "#ffffff"});
 	 $('#footerTD7').css({"width": "20%"});
@@ -316,7 +306,7 @@ $(document).ready(function() {
 	    // margin: top, right, bottom, left
 	    var chevImg = $('<img id="chevron1">'); //Equivalent: $(document.createElement('img'))
 	    chevImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/rightArrowIcon.png');
-	    chevImg.attr('height','10px');
+	    chevImg.attr('height','20px');
             chevImg.appendTo('.Panel_contentMiddle td a');
 	    //$('#chevron1').css({'height': '10px', "margin": "0px 0px 0px 0px"});
            
