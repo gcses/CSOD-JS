@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test3");
+	console.log("Test5");
 	
 	$('#ctl00_footer_pnlCustomFooter').css({"margin-top": "0px", "margin-bottom": "-15px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});
 	
@@ -51,7 +51,7 @@ $(document).ready(function() {
 	
 	
 	$('#sm1').css({'height': '30px', 'padding-bottom': '20px'})
-	$('#sm2').css({'height': '40px', 'padding-bottom': '20px'})
+	$('#sm2').css({'height': '40px', 'padding-bottom': '20px', 'padding-left': '5px'})
 	$('#sm3').css({'height': '55px', 'padding-bottom': '20px'})
 	$('#sm4').css({'height': '40px', 'padding-bottom': '20px'})
 	
@@ -290,7 +290,7 @@ $(document).ready(function() {
 	    $('.Panel_contentMiddle tr td:first-child').css({"color": "#004593"});
 	
 	     //boxed in link on right side of Learning In Progress
-	    $('.Panel_contentMiddle td a').css({"padding-bottom": "15px", "color": "#ffffff", "font-weight": "normal", "padding": "8px 26px 8px 10px", "backgroundColor": "#004593", "width": "150px", "display": "inline-block", "box-sizing": "border-box", "position": "relative"});
+	    $('.Panel_contentMiddle td a').css({"color": "#ffffff", "font-weight": "normal", "padding": "0px 0px 10px 10px", "backgroundColor": "#004593", "width": "150px", "display": "inline-block", "box-sizing": "border-box", "position": "relative"});
 		
 		
 	    // margin: top, right, bottom, left
@@ -298,16 +298,12 @@ $(document).ready(function() {
 	    chevImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/rightArrowIcon.png');
 	    chevImg.attr('height','22px');
             chevImg.appendTo('.Panel_contentMiddle td a');
-	    $('#chevron1').css({'position': 'absolute', 'float': 'right'});
+	    $('#chevron1').css({'margin-right': '0px', 'padding-right': '0px'});
            
 		
 	// $('#footerTD5').css({'padding-left': '5px', 'width': '10px', 'padding': '5px', 'backgroundColor': 'blue', 'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite-4.png") no-repeat scroll -120px -255px transparent'});
 
-		
-		
-		
-		
-		
+
 		
 		
 		// $(".Panel_contentMiddle td a").hover(function(){ 
