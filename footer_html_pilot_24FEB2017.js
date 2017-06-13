@@ -24,6 +24,11 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 	
+	agfadsgfdsagdagdsafgfdhgfdhgfsjhgfdjhgfd
+	
+	
+	
+	
 	console.log("Test5");
 	
 	$('#ctl00_footer_pnlCustomFooter').css({"margin-top": "0px", "margin-bottom": "-15px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});
