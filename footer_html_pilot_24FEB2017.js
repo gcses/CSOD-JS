@@ -300,7 +300,7 @@ $(document).ready(function() {
 		
 	    //chevImg.attr('','22px');
             chevImg.appendTo('.Panel_contentMiddle td a');
-	    $('.chevron1').css({'position': 'absolute', 'left': '90%'});
+	    $('.chevron1').css({'position': 'absolute', 'top': '50%', 'left': '80%'});
            
 		
 	// $('#footerTD5').css({'padding-left': '5px', 'width': '10px', 'padding': '5px', 'backgroundColor': 'blue', 'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite-4.png") no-repeat scroll -120px -255px transparent'});
