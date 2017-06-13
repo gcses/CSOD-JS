@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 	
-	console.log("Test4");
+	console.log("Test5");
 	
 	$('#ctl00_footer_pnlCustomFooter').css({"margin-top": "0px", "margin-bottom": "-15px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});
 	
@@ -35,10 +35,17 @@ $(document).ready(function() {
 	        $(this).html('<img src="https://bd-pilot.csod.com/clientimg/bd/welcome/angle.png" id="slopedFooterImage" />' +
 			     '<table class="footerTable"><tr>'+
 			     '<td id="footerTD1"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/logo.png" id="footerLogo"></td>' +
-			     '<td id="footerTD2"><a href="http://www.facebook.com/carefusion" class="smLink">&nbsp</a></td>'+
-			     '<td id="footerTD3"><a href="http://twitter.com/carefusion" class="smLink">&nbsp</a></td>'+
-			     '<td id="footerTD4"><a href="http://www.linkedin.com/company/carefusion" class="smLink">&nbsp</a></td>'+
-			     '<td id="footerTD5"><a href="http://youtube.com/carefusion" class="smLink">&nbsp</a></td>'+
+			    
+			      '<td id="footerTD2"><a href="http://www.facebook.com/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/facebook.jpg"></a></td>' +
+			      '<td id="footerTD3"><a href="http://twitter.com/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/twitter.jpg"></a></td>' +
+			      '<td id="footerTD4"><a href="http://www.linkedin.com/company/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/linkedIn.jpg"></a></td>' +
+			      '<td id="footerTD5"><a href="http://youtube.com/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/youTube.jpg"></a></td>' +
+			     
+			     
+			    // '<td id="footerTD2"><a href="http://www.facebook.com/carefusion" class="smLink">&nbsp</a></td>'+
+			   //  '<td id="footerTD3"><a href="http://twitter.com/carefusion" class="smLink">&nbsp</a></td>'+
+			   //  '<td id="footerTD4"><a href="http://www.linkedin.com/company/carefusion" class="smLink">&nbsp</a></td>'+
+			   //  '<td id="footerTD5"><a href="http://youtube.com/carefusion" class="smLink">&nbsp</a></td>'+
 			     '<td id="footerTDspace">&nbsp</td>'+
 			     
 			     
@@ -78,6 +85,14 @@ $(document).ready(function() {
 	 $('#footerTD5').css({'padding-top': '0px', 'width': '0px', 'height': '0px', 'margin': '0px 0px 0px 0px',  'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite-4.png") no-repeat scroll -110px -255px transparent'});
 
 	 $('#footerTDspace').css({'width': '15px'});
+	
+	
+	    var cartImg = $('<img id="chevron1">'); //Equivalent: $(document.createElement('img'))
+	    cartImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/rightArrow.png');
+            cartImg.appendTo('.Panel_contentMiddle td a');
+	
+	
+	
 	
 	
 	 $('#footerTD6').css({"width": "50%", "color": "#ffffff"});
@@ -295,7 +310,7 @@ $(document).ready(function() {
 	    
 	    
 	    var cartImg = $('<img id="chevron1">'); //Equivalent: $(document.createElement('img'))
-	    cartImg.attr('src', 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite-4.png") -120px -255px');
+	    cartImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/rightArrow.png');
             cartImg.appendTo('.Panel_contentMiddle td a');
 		
 		// margin: top, right, bottom, left
