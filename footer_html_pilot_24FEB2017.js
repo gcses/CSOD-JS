@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test9");
+	console.log("Test1");
 	
 	$('#ctl00_footer_pnlCustomFooter').css({"margin-top": "0px", "margin-bottom": "-15px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});
 	
@@ -599,12 +599,12 @@ function createAccordionControls()
 			   
     //remove pluses from the accordion items
    // $('.cs-subjwidg-list li.cat a.exp-icon').css({"background-image": "none"});
-   // $('.cs-subjwidg-list li.cat.nochild .exp-icon').css({"background-image": "none", "background-color": "#ffffff"});
+    $('.cs-subjwidg-list li.cat.nochild .exp-icon').css({"background-image": "none", "background-color": "#ffffff"});
    // $('#dir-rtl .cs-subjwidg-list li.cat .exp-icon').css({"background-image": "none", "background-color": "#ffffff"});
 		
     //replace plus with down arrow 
     $('.cs-subjwidg-list li.cat a.exp-icon').css({'background-image': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/downArrow3.jpg")'});
-    $('.cs-subjwidg-list li.cat.nochild .exp-icon').css({'background-image': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/downArrow3.jpg")'});
+   // $('.cs-subjwidg-list li.cat.nochild .exp-icon').css({'background-image': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/downArrow3.jpg")'});
     $('#dir-rtl .cs-subjwidg-list li.cat .exp-icon').css({'background-image': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/downArrow3.jpg")'});
 	
      //replace minus with up arrow
