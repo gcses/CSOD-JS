@@ -55,7 +55,13 @@ $(document).ready(function() {
 	$('#sm4').css({'height': '37px', 'padding-bottom': '20px'});
 	
 	$('#footerTD2').css({"border-style": "solid", "border-color": "FFFFFF", "border-width": "1px", });
-	$('#footerTD3').css({"border-style": "solid", "border-color": "FFFFFF", "border-width": "1px", });
+	
+	
+	
+	
+	
+	
+	$('#footerTD3').css({"width": "20px", "border-style": "solid", "border-color": "FFFFFF", "border-width": "1px", });
 	$('#footerTD4').css({"border-style": "solid", "border-color": "FFFFFF", "border-width": "1px", });
 	$('#footerTD5').css({"border-style": "solid", "border-color": "FFFFFF", "border-width": "1px", });
 	
