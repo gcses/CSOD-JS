@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test10");
+	console.log("Test11");
 	
 	$('#ctl00_footer_pnlCustomFooter').css({"margin-top": "0px", "margin-bottom": "-15px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});
 	
@@ -621,9 +621,19 @@ function createAccordionControls()
 		"content": "AAA", "position": "absolute", "right": "-13px", "top": "12px", "color": "CCCCCC", "width": "40px", "height": "40px", "display": "block"});  
 	*/
 	
+	//.cs-subjwidg-list li.cat a.exp-icon{
+        //.cs-subjwidg-list li.cat.nochild .exp-icon{
+       // #dir-rtl .cs-subjwidg-list li.cat .exp-icon{
 	
 	
-	//<i class="fa fa-car">
+	$('.cs-subjwidg-list li.cat a.exp-icon').css({"background-image": "none", "background-color": "#ffffff"});
+	$('.cs-subjwidg-list li.cat.nochild .exp-icon').css({"background-image": "none", "background-color": "#ffffff"});
+	$('#dir-rtl .cs-subjwidg-list li.cat .exp-icon').css({"background-image": "none", "background-color": "#ffffff"});
+		
+		
+	
+	
+
 	
 		/*
         var accordionItem = document.getElementById("checkboxes");
@@ -656,7 +666,7 @@ function createAccordionControls()
 	$("#dir-rtl .cs-subjwidg-list li.cat.nochild .exp-icon:after").css({"content": ''});  
 
 	$(".cs-subjwidg-list li.cat a.exp-icon + a").css({"position": "relative", "top": "-22px", "padding-left": "16px", "text-decoration": "none", "color": "#333333", "font-weight": "400"});  
-        $(".cs-subjwidg-list li.cat.nochild .ex-icon + a").css({"position": "relative", "top": "-22px", "padding-left": "16px", "text-decoration": "none", "color": "#333333", "font-weight": "400"});  
+        $(".cs-subjwidg-list li.cat.nochild .exp-icon + a").css({"position": "relative", "top": "-22px", "padding-left": "16px", "text-decoration": "none", "color": "#333333", "font-weight": "400"});  
 }
 
 
