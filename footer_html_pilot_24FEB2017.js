@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test2");
+	console.log("Test3");
 	
 	$('#ctl00_footer_pnlCustomFooter').css({"margin-top": "0px", "margin-bottom": "-15px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});
 	
@@ -72,10 +72,12 @@ $(document).ready(function() {
 	
 	
 	
-	
+	$(this).css({"border-color": "#C1E0FF", 
+             "border-width":"1px", 
+             "border-style":"solid"});
 	
 	 // margin: top, right, bottom, left
-	 $('.footerTable').css({"border": "1px", "margin": "0px 0px 0px 0px", "padding-top": "0px", "backgroundColor": "#004593", "width": "100%", "height": "100px"});
+	 $('.footerTable').css({"border-style": "solid", "border-color": "FFFFFF", "border-width": "1px", "margin": "0px 0px 0px 0px", "padding-top": "0px", "backgroundColor": "#004593", "width": "100%", "height": "100px"});
 
 	  // copywrite info
 	 $('.copy').css({'font-size': '11px', 'padding-left': '40px', 'text-align': 'center', "font-weight": "bold"});	
