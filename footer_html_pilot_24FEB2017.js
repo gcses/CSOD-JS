@@ -597,20 +597,20 @@ function createAccordionControls()
 
 			    // margin: top, right, bottom, left
 			   
-    
-	
-	//remove pluses from the accordion items
-	$('.cs-subjwidg-list li.cat a.exp-icon').css({"background-image": "none", "background-color": "#ffffff"});
-	$('.cs-subjwidg-list li.cat.nochild .exp-icon').css({"background-image": "none", "background-color": "#ffffff"});
-	$('#dir-rtl .cs-subjwidg-list li.cat .exp-icon').css({"background-image": "none", "background-color": "#ffffff"});
+    //remove pluses from the accordion items
+    $('.cs-subjwidg-list li.cat a.exp-icon').css({"background-image": "none", "background-color": "#ffffff"});
+    $('.cs-subjwidg-list li.cat.nochild .exp-icon').css({"background-image": "none", "background-color": "#ffffff"});
+    $('#dir-rtl .cs-subjwidg-list li.cat .exp-icon').css({"background-image": "none", "background-color": "#ffffff"});
 		
-	//add up and down arrows to the main accordion items
+    //add up and down arrows to the main accordion items
 
-	    var upArrowImg = $('<img class="upArrowIcon">'); //Equivalent: $(document.createElement('img'))
+	    var upArrowImg = $('<img class="upArrowIcon">');     //Equivalent: $(document.createElement('img'))
 	    chevImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/rightArrowIcon.png');
-	    chevImg.attr('height','22px');
+	    chevImg.attr('height','12px');
             chevImg.appendTo('.cs-subjwidg-list li.cat a');
-	    $('.chevron1').css({'position': 'absolute', 'top': '13%', 'left': '81%', 'margin-left': '5px'});
+	
+	
+	   // $('.chevron1').css({'position': 'absolute', 'top': '13%', 'left': '81%', 'margin-left': '5px'});
 	
 	
 
