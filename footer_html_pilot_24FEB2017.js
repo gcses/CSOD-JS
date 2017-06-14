@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test2");
+	console.log("Test3");
 	
 	$('#ctl00_footer_pnlCustomFooter').css({"margin-top": "0px", "margin-bottom": "-15px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});
 	
@@ -49,10 +49,10 @@ $(document).ready(function() {
         			'</ul></td> </tr></table>')
 		});
 	
-	$('#sm1').css({'height': '30px', 'padding-bottom': '20px'})
-	$('#sm2').css({'height': '55px', 'padding-bottom': '20px'})
-	$('#sm3').css({'height': '30px', 'padding-bottom': '20px'})
-	$('#sm4').css({'height': '75px', 'padding-bottom': '20px'})
+	$('#sm1').css({'height': '45px', 'padding-bottom': '20px'})
+	$('#sm2').css({'height': '45px', 'padding-bottom': '20px'})
+	$('#sm3').css({'height': '45px', 'padding-bottom': '20px'})
+	$('#sm4').css({'height': '45px', 'padding-bottom': '20px'})
 	
 	
 	//enlarge the link area for the social media links
