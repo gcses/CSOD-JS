@@ -80,7 +80,7 @@ $(document).ready(function() {
 	
 	//footer logo
 	 $('#footerLogo').css({'height': '40px', 'margin-left': '20px', 'margin-right': '30px','padding-bottom': '20px'});
-	 $('#footerTD1').css({'width': '100px', 'padding': '0px'}); 
+	 $('#footerTD1').css({'width': '60px', 'padding': '0px'}); 
 
 	 $('#footerTDspace').css({'width': '15px'});
 	
