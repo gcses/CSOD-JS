@@ -50,9 +50,9 @@ $(document).ready(function() {
 		});
 	
 	$('#sm1').css({'height': '30px', 'padding-bottom': '20px'});
-	$('#sm2').css({'height': '45px', 'padding-bottom': '20px'});
+	$('#sm2').css({'height': '45px', 'padding-bottom': '18px'});
 	$('#sm3').css({'height': '37px', 'padding-bottom': '20px'});
-	$('#sm4').css({'height': '37px', 'padding-bottom': '20px'});
+	$('#sm4').css({'height': '37px', 'padding-bottom': '18px'});
 	
 	$('#footerTD2').css({"border-style": "solid", "border-color": "FFFFFF", "border-width": "1px", });
 	
@@ -60,10 +60,10 @@ $(document).ready(function() {
 	
 	
 	
-	$('#footerTD2').css({"width": "40px", "border-style": "solid", "border-color": "FFFFFF", "border-width": "1px", });
-	$('#footerTD3').css({"width": "40px", "border-style": "solid", "border-color": "FFFFFF", "border-width": "1px", });
-	$('#footerTD4').css({"width": "40px", "border-style": "solid", "border-color": "FFFFFF", "border-width": "1px", });
-	$('#footerTD5').css({"width": "40px", "border-style": "solid", "border-color": "FFFFFF", "border-width": "1px", });
+	$('#footerTD2').css({"width": "40px"});
+	$('#footerTD3').css({"width": "40px"});
+	$('#footerTD4').css({"width": "40px"});
+	$('#footerTD5').css({"width": "40px"});
 	
 	
 	
