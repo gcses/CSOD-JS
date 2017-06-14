@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test4");
+	console.log("Test5");
 	
 	$('#ctl00_footer_pnlCustomFooter').css({"margin-top": "0px", "margin-bottom": "-15px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});
 	
@@ -73,12 +73,9 @@ $(document).ready(function() {
 	 $('.copy').css({'font-size': '11px', 'padding-left': '40px', 'text-align': 'center', "font-weight": "bold"});	
 	
 	//footer logo
-	 $('#footerLogo').css({'height': '30px', 'margin-left': '20px', 'margin-right': '30px','padding-bottom': '20px'});
+	 $('#footerLogo').css({'height': '40px', 'margin-left': '20px', 'margin-right': '30px','padding-bottom': '20px'});
 	 $('#footerTD1').css({'width': '100px', 'padding': '0px'}); 
 
-	 //top, right, bottom, left
-
-	
 	 $('#footerTDspace').css({'width': '15px'});
 	
 	 $('#footerTD6').css({"width": "50%", "color": "#ffffff"});
