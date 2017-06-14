@@ -598,10 +598,21 @@ function createAccordionControls()
 			    // margin: top, right, bottom, left
 			   
     //remove pluses from the accordion items
-    $('.cs-subjwidg-list li.cat a.exp-icon').css({"background-image": "none", "background-color": "#ffffff"});
-    $('.cs-subjwidg-list li.cat.nochild .exp-icon').css({"background-image": "none", "background-color": "#ffffff"});
-    $('#dir-rtl .cs-subjwidg-list li.cat .exp-icon').css({"background-image": "none", "background-color": "#ffffff"});
+   // $('.cs-subjwidg-list li.cat a.exp-icon').css({"background-image": "none"});
+   // $('.cs-subjwidg-list li.cat.nochild .exp-icon').css({"background-image": "none", "background-color": "#ffffff"});
+   // $('#dir-rtl .cs-subjwidg-list li.cat .exp-icon').css({"background-image": "none", "background-color": "#ffffff"});
 		
+    //replace plus with down arrow 
+    $('.cs-subjwidg-list li.cat a.exp-icon').css({'background-image': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/downArrow3.jpg")'});
+    $('.cs-subjwidg-list li.cat.nochild .exp-icon').css({'background-image': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/downArrow3.jpg")'});
+    $('#dir-rtl .cs-subjwidg-list li.cat .exp-icon').css({'background-image': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/downArrow3.jpg")'});
+	
+     //replace minus with up arrow
+     $('#dir-rtl .cs-subjwidg-list li.cat .exp-icon.selected').css({'background-image': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/upArrow3.jpg")'});
+	
+	
+	
+	/*
     //add up and down arrows to the main accordion items
 	    var upArrowImg = $('<img class="upArrowIcon">');     //Equivalent: $(document.createElement('img'))
 	    upArrowImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/upArrow3.jpg');
@@ -615,7 +626,7 @@ function createAccordionControls()
 	   downArrowImg.attr('height','12px');
            downArrowImg.appendTo('#dir-rtl .cs-subjwidg-list li.cat .exp-icon.selected');
 	
-	
+	*/
 	
 	
 	
