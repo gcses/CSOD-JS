@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test9");
+	console.log("Test10");
 	
 	$('#ctl00_footer_pnlCustomFooter').css({"margin-top": "0px", "margin-bottom": "-15px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});
 	
@@ -300,7 +300,7 @@ $(document).ready(function() {
 	    chevImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/rightArrowIcon.png');
 	    chevImg.attr('height','22px');
             chevImg.appendTo('.Panel_contentMiddle td a');
-	    $('.chevron1').css({'position': 'absolute', 'top': '10%', 'left': '81%', 'margin-left': '5px'});
+	    $('.chevron1').css({'position': 'absolute', 'top': '13%', 'left': '81%', 'margin-left': '5px'});
            
 
 		
