@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test6");
+	console.log("Test7");
 	
 	$('#ctl00_footer_pnlCustomFooter').css({"margin-top": "0px", "margin-bottom": "-15px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});
 	
@@ -603,20 +603,21 @@ function createAccordionControls()
     $('#dir-rtl .cs-subjwidg-list li.cat .exp-icon').css({"background-image": "none", "background-color": "#ffffff"});
 		
     //add up and down arrows to the main accordion items
-
 	    var upArrowImg = $('<img class="upArrowIcon">');     //Equivalent: $(document.createElement('img'))
 	    upArrowImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/upArrow3.jpg');
 	    upArrowImg.attr('height','12px');
-            upArrowImg.appendTo('.cs-subjwidg-list li.cat a');
+            upArrowImg.appendTo('.cs-subjwidg-list li.cat a.exp-icon');
 	
 	   var downArrowImg = $('<img class="downArrowIcon">');     //Equivalent: $(document.createElement('img'))
 	   downArrowImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/downArrow3.jpg');
 	   downArrowImg.attr('height','12px');
-           // downArrowImg.appendTo('.cs-subjwidg-list li.cat a');
+           downArrowImg.appendTo('#dir-rtl .cs-subjwidg-list li.cat .exp-icon.selected');
 	
 	
 	   // $('.chevron1').css({'position': 'absolute', 'top': '13%', 'left': '81%', 'margin-left': '5px'});
 	
+	//minus
+	//#dir-rtl .cs-subjwidg-list li.cat .exp-icon.selected
 	
 
 	
