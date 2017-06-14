@@ -595,42 +595,22 @@ function createAccordionControls()
     $(".cs-subjwidg-list li.cat a.exp-icon").css({"display": "block", "width": "100%", "height": "40px", "border": "1px solid #CCCCCC", "position": "relative", "text-index": "0px"});  
     $(".cs-subjwidg-list li.cat.nochild .ex-icon").css({"display": "block", "width": "100%", "height": "40px", "border": "1px solid #CCCCCC", "position": "relative", "text-index": "0px"});  
 
+			    // margin: top, right, bottom, left
+			   
+    
 	
-    // font awesome down arrow - see css that is already linked in
-	//$(".cs-subjwidg-list li.cat").css({ "background-color": "blue" });  
-	
-	//$('.cs-subjwidg-list li.cat').each(function(){
- 	//    $(this).append($("Hello")});	
-	
-	//$(".cs-subjwidg-list li.cat a.exp-icon:after").css({ "content": " - AAA" });  
-    	//$(".cs-subjwidg-list li.cat .exp-icon.selected:after").css({   "content": " - AAA" });  
-	//$("#dir-rtl .cs-subjwidg-list li.cat .exp-icon.selected:after").css({ "content": " - AAA" });  
-	//$(".cs-subjwidg-list li.cat.nochild .exp-icon:after").css({  "content": " - AAA" });  
-	//$("#dir-rtl .cs-subjwidg-list li.cat.nochild .exp-icon:after").css({ "content": " - AAA" });  
-	
-	/*
-	$(".cs-subjwidg-list li.cat.nochild .exp-icon:after").css({
-		"content": "AAA", "position": "absolute", "right": "-13px", "top": "12px", "color": "CCCCCC", "width": "40px", "height": "40px", "display": "block"});  
-    	$(".cs-subjwidg-list li.cat .exp-icon.selected:after").css({  
-		"content": "AAA", "position": "absolute", "right": "-13px", "top": "12px", "color": "CCCCCC", "width": "40px", "height": "40px", "display": "block"});  
-    	$("#dir-rtl .cs-subjwidg-list li.cat .exp-icon.selected:after").css({
-		"content": "AAA", "position": "absolute", "right": "-13px", "top": "12px", "color": "CCCCCC", "width": "40px", "height": "40px", "display": "block"});  
-    	$(".cs-subjwidg-list li.cat.nochild .exp-icon:after").css({ 
-		"content": "AAA", "position": "absolute", "right": "-13px", "top": "12px", "color": "CCCCCC", "width": "40px", "height": "40px", "display": "block"});  
-    	$("#dir-rtl .cs-subjwidg-list li.cat.nochild .exp-icon:after").css({
-		"content": "AAA", "position": "absolute", "right": "-13px", "top": "12px", "color": "CCCCCC", "width": "40px", "height": "40px", "display": "block"});  
-	*/
-	
-	//.cs-subjwidg-list li.cat a.exp-icon{
-        //.cs-subjwidg-list li.cat.nochild .exp-icon{
-       // #dir-rtl .cs-subjwidg-list li.cat .exp-icon{
-	
-	
+	//remove pluses from the accordion items
 	$('.cs-subjwidg-list li.cat a.exp-icon').css({"background-image": "none", "background-color": "#ffffff"});
 	$('.cs-subjwidg-list li.cat.nochild .exp-icon').css({"background-image": "none", "background-color": "#ffffff"});
 	$('#dir-rtl .cs-subjwidg-list li.cat .exp-icon').css({"background-image": "none", "background-color": "#ffffff"});
 		
-		
+	//add up and down arrows to the main accordion items
+
+	    var upArrowImg = $('<img class="upArrowIcon">'); //Equivalent: $(document.createElement('img'))
+	    chevImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/rightArrowIcon.png');
+	    chevImg.attr('height','22px');
+            chevImg.appendTo('.cs-subjwidg-list li.cat a');
+	    $('.chevron1').css({'position': 'absolute', 'top': '13%', 'left': '81%', 'margin-left': '5px'});
 	
 	
 
@@ -655,7 +635,6 @@ function createAccordionControls()
 	$(".cs-subjwidg-list li.cat .exp-icons.selected").css({"background-color": "#EEEEEE"});  
 	$("#dir-rtl .cs-subjwidg-list li.cat .exp-icon.selected").css({"background-color": "#EEEEEE"});  
 	
-     // font awesome up arrow
         $(".cs-subjwidg-list li.cat .exp-icons.selected:after").css({"content": "\f077"});  
 	$("#dir-rtl .cs-subjwidg-list li.cat .exp-icon.selected:after").css({"content": "\f077"});  
 	
