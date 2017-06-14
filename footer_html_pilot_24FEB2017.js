@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test7");
+	console.log("Test8");
 	
 	$('#ctl00_footer_pnlCustomFooter').css({"margin-top": "0px", "margin-bottom": "-15px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});
 	
@@ -53,8 +53,6 @@ $(document).ready(function() {
 	$('#sm2').css({'height': '45px', 'padding-bottom': '18px'});
 	$('#sm3').css({'height': '37px', 'padding-bottom': '20px'});
 	$('#sm4').css({'height': '37px', 'padding-bottom': '18px'});
-	
-	$('#footerTD2').css({"border-style": "solid", "border-color": "FFFFFF", "border-width": "1px", });
 	
 	$('#footerTD2').css({"width": "40px"});
 	$('#footerTD3').css({"width": "40px"});
