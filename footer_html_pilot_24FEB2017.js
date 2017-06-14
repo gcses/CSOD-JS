@@ -49,7 +49,7 @@ $(document).ready(function() {
         			'</ul></td> </tr></table>')
 		});
 	
-	$('#sm1').css({'height': '45px', 'padding-bottom': '20px'})
+	$('#sm1').css({'height': '30px', 'padding-bottom': '20px'})
 	$('#sm2').css({'height': '45px', 'padding-bottom': '20px'})
 	$('#sm3').css({'height': '45px', 'padding-bottom': '20px'})
 	$('#sm4').css({'height': '45px', 'padding-bottom': '20px'})
