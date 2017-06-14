@@ -607,14 +607,11 @@ function createAccordionControls()
    // $('.cs-subjwidg-list li.cat.nochild .exp-icon').css({'background-image': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/downArrow3.jpg")'});
    // $('#dir-rtl .cs-subjwidg-list li.cat .exp-icon').css({'background-image': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/downArrow3.jpg")'});
 	
-	$(".cs-subjwidg-list li.cat a.exp-icon:after").css({'background-image': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/downArrow3.jpg") "position": "absolute", "right": "-13px", "top": "12px", "width": "40px", "height": "40px", "display": "block"});  
-    	$(".cs-subjwidg-list li.cat.nochild .exp-icon:after").css({"background-image": "none"});  
-    
-	
-	
-	
+    $(".cs-subjwidg-list li.cat a.exp-icon:after").css({'background-image': 'https://bd-pilot.csod.com/clientimg/bd/welcome/downArrow3.jpg'});  
+    $(".cs-subjwidg-list li.cat.nochild .exp-icon:after").css({"background-image": "none"});  
+   
      //replace minus with up arrow
-     $('#dir-rtl .cs-subjwidg-list li.cat .exp-icon.selected').css({'background-image': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/upArrow3.jpg")'});
+     $('#dir-rtl .cs-subjwidg-list li.cat .exp-icon.selected').css({'background-image': 'https://bd-pilot.csod.com/clientimg/bd/welcome/upArrow3.jpg'});
 	
 	
 	
