@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test3");
+	console.log("Test4");
 	
 	$('#ctl00_footer_pnlCustomFooter').css({"margin-top": "0px", "margin-bottom": "-15px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});
 	
@@ -54,7 +54,10 @@ $(document).ready(function() {
 	$('#sm3').css({'height': '37px', 'padding-bottom': '20px'});
 	$('#sm4').css({'height': '37px', 'padding-bottom': '20px'});
 	
-	//$('#footerTD2').css({'width': ''});
+	$('#footerTD2').css({"border-style": "solid", "border-color": "FFFFFF", "border-width": "1px", });
+	$('#footerTD3').css({"border-style": "solid", "border-color": "FFFFFF", "border-width": "1px", });
+	$('#footerTD4').css({"border-style": "solid", "border-color": "FFFFFF", "border-width": "1px", });
+	$('#footerTD5').css({"border-style": "solid", "border-color": "FFFFFF", "border-width": "1px", });
 	
 	
 	
@@ -77,7 +80,7 @@ $(document).ready(function() {
              "border-style":"solid"});
 	
 	 // margin: top, right, bottom, left
-	 $('.footerTable').css({"border-style": "solid", "border-color": "FFFFFF", "border-width": "1px", "margin": "0px 0px 0px 0px", "padding-top": "0px", "backgroundColor": "#004593", "width": "100%", "height": "100px"});
+	 $('.footerTable').css({"margin": "0px 0px 0px 0px", "padding-top": "0px", "backgroundColor": "#004593", "width": "100%", "height": "100px"});
 
 	  // copywrite info
 	 $('.copy').css({'font-size': '11px', 'padding-left': '40px', 'text-align': 'center', "font-weight": "bold"});	
