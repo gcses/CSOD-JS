@@ -620,7 +620,7 @@ function createAccordionControls()
     $( ".cs-subjwidg-list li.cat:selected" ).each(function()
     {
      	 $('.cs-subjwidg-list li.cat a.exp-icon').css({'background-image': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/upArrow3small.jpg")'});
-    };
+    });
 	
 	
 	
