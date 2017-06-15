@@ -594,7 +594,7 @@ function createAccordionControls()
     $(".cs-subjwidg-list li.cat a.exp-icon").css({"display": "block", "width": "100%", "height": "40px", "border": "1px solid #CCCCCC", "position": "relative", "text-index": "0px"});  
     $(".cs-subjwidg-list li.cat.nochild .ex-icon").css({"display": "block", "width": "100%", "height": "40px", "border": "1px solid #CCCCCC", "position": "relative", "text-index": "0px"});  
 
-    // margin: top, right, bottom, left 
+    
 	
     //remove pluses from the accordion items
     $('.cs-subjwidg-list li.cat.nochild .exp-icon').css({"background-image": "none"});
@@ -618,8 +618,8 @@ function createAccordionControls()
     downArrowImg.attr('height','12px');
     downArrowImg.appendTo('.cs-subjwidg-list li');
  
-	
-    $('.ArrowIcon').css({'position': 'relative', 'top': '13%', 'left': '81%');
+     // margin: top, right, bottom, left 
+    $('.ArrowIcon').css({'float': 'top', 'margin': '0px 0px 0px 0px'});
 	
 			 
 			 
