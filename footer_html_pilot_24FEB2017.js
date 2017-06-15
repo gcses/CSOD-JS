@@ -619,8 +619,12 @@ function createAccordionControls()
     downArrowImg.appendTo('.cs-subjwidg-list li');
  
 	
-    $('.ArrowIcon').css({'position': 'absolute', 'top': '13%', 'left': '81%', 'margin-left': '5px'});
+    $('.ArrowIcon').css({'position': 'relative', 'top': '13%', 'left': '81%');
 	
+			 
+			 
+			 
+			 
     // remove the down arrow icon from list items with no children
     $('.cs-subjwidg-list li.cat.nochild img').remove();
 	
