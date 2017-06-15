@@ -618,9 +618,15 @@ function createAccordionControls()
     downArrowImg.attr('height','12px');
     downArrowImg.appendTo('.cs-subjwidg-list li');
  
-     // margin: top, right, bottom, left 
-    $('.ArrowIcon').css({'float': 'top', 'margin': '0px 0px 0px 0px'});
+    
 	
+    var p = $( ".cs-subjwidg-list li:first" );
+    var position = p.position();
+    $( "p:last" ).text( "left: " + position.left + ", top: " + position.top );
+			 
+    // margin: top, right, bottom, left  //'margin': '0px 0px 0px 0px'
+    $('.ArrowIcon').css({'position': 'absolute', 'top': 'position.top', 'left': 'position.left'}); 
+			 
 			 
 			 
 			 
