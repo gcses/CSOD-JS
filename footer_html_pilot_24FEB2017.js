@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test3");
+	console.log("Test5");
 	
 	$('#ctl00_footer_pnlCustomFooter').css({"margin-top": "0px", "margin-bottom": "-15px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});
 	
@@ -615,12 +615,18 @@ function createAccordionControls()
 
      //replace minus with up arrow
      $('#dir-rtl .cs-subjwidg-list li.cat .exp-icon.selected').css({'background-image': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/upArrow3small.jpg")'});
+     $('.cs-subjwidg-list li.cat a.exp-icon.selected').css({'background-image': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/upArrow3small.jpg")'});
+   
 	
+    // $(".cs-subjwidg-list li").click(function() { 
+//	        $('.cs-subjwidg-list li.cat a.exp-icon').css({'background-image': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/upArrow3small.jpg")'});
+  //  		$('#dir-rtl .cs-subjwidg-list li.cat .exp-icon').css({'background-image': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/upArrow3small.jpg")'});
+//	});
 	
-    $( ".cs-subjwidg-list li.cat:selected" ).each(function()
-    {
-     	 $('.cs-subjwidg-list li.cat a.exp-icon').css({'background-image': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/upArrow3small.jpg")'});
-    });
+   // $( ".cs-subjwidg-list li.cat:selected" ).each(function()
+    //{
+    // 	 $('.cs-subjwidg-list li.cat a.exp-icon').css({'background-image': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/upArrow3small.jpg")'});
+    //});
 	
 	
 	
@@ -655,10 +661,7 @@ function createAccordionControls()
 	
 	
    
-   //  $(".cs-subjwidg-list li").click(function() { 
-//		 $('.cs-subjwidg-list li.cat a.exp-icon').css({'background-image': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/downArrow3small.jpg")'});
-		//$(".ArrowIcon").attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/upArrow3.jpg');
-	//});
+
 	
 	  // var downArrowImg = $('<img class="downArrowIcon">');     //Equivalent: $(document.createElement('img'))
 	  // downArrowImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/downArrow3.jpg');
