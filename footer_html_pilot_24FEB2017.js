@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test2");
+	console.log("Test4");
 	
 	$('#ctl00_footer_pnlCustomFooter').css({"margin-top": "0px", "margin-bottom": "-15px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});
 	
@@ -58,7 +58,6 @@ $(document).ready(function() {
 	$('#footerTD3').css({"width": "40px"});
 	$('#footerTD4').css({"width": "40px"});
 	$('#footerTD5').css({"width": "40px"});
-	
 	
 	
 	//enlarge the link area for the social media links
@@ -595,15 +594,15 @@ function createAccordionControls()
     $(".cs-subjwidg-list li.cat a.exp-icon").css({"display": "block", "width": "100%", "height": "40px", "border": "1px solid #CCCCCC", "position": "relative", "text-index": "0px"});  
     $(".cs-subjwidg-list li.cat.nochild .ex-icon").css({"display": "block", "width": "100%", "height": "40px", "border": "1px solid #CCCCCC", "position": "relative", "text-index": "0px"});  
 
-			    // margin: top, right, bottom, left
-			   
+    // margin: top, right, bottom, left 
     //remove pluses from the accordion items
-   // $('.cs-subjwidg-list li.cat a.exp-icon').css({"background-image": "none"});
-   $('.cs-subjwidg-list li.cat.nochild .exp-icon').css({"background-image": "none", "background-color": "#ffffff"});
-   // $('#dir-rtl .cs-subjwidg-list li.cat .exp-icon').css({"background-image": "none", "background-color": "#ffffff"});
+    $('.cs-subjwidg-list li.cat.nochild .exp-icon').css({"background-image": "none", "background-color": "#ffffff"});
+    $('#dir-rtl .cs-subjwidg-list li.cat .exp-icon').css({"background-image": "none", "background-color": "#ffffff"});
+   // $('.cs-subjwidg-list li.cat .sub').css({"background-image": "none"});
+ 
 		
     //replace plus with down arrow 
-   $('.cs-subjwidg-list li.cat a.exp-icon').css({'background-image': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/downArrow3.jpg")'});
+  // $('.cs-subjwidg-list li.cat a.exp-icon').css({'background-image': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/downArrow3.jpg")'});
   //  $('.cs-subjwidg-list li.cat.nochild .exp-icon').css({'background-image': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/downArrow3.jpg")'});
     //$('#dir-rtl .cs-subjwidg-list li.cat .exp-icon').css({'background-image': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/downArrow3.jpg")'});
 	
@@ -612,25 +611,30 @@ function createAccordionControls()
    // $(".cs-subjwidg-list li.cat.nochild .exp-icon:after").css({"background-image": "none"});  
    
      //replace minus with up arrow
-     $('#dir-rtl .cs-subjwidg-list li.cat .exp-icon.selected').css({'background-image': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/upArrow3.jpg")'});
+     //$('#dir-rtl .cs-subjwidg-list li.cat .exp-icon.selected').css({'background-image': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/upArrow3.jpg")'});
 	
 	
 	
-	/*
+    
+	
+	
     //add up and down arrows to the main accordion items
 	    var upArrowImg = $('<img class="upArrowIcon">');     //Equivalent: $(document.createElement('img'))
 	    upArrowImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/upArrow3.jpg');
 	    upArrowImg.attr('height','12px');
             upArrowImg.appendTo('#dir-rtl .cs-subjwidg-list li.cat .exp-icon');
 	
+	 $("#dir-rtl .cs-subjwidg-list li.cat").click(function() {  
+		$("upArrowIcon").attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/downArrow3.jpg');
+                console.log('testing');
+	});
+	
+	  // var downArrowImg = $('<img class="downArrowIcon">');     //Equivalent: $(document.createElement('img'))
+	  // downArrowImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/downArrow3.jpg');
+	  // downArrowImg.attr('height','12px');
+          // downArrowImg.appendTo('#dir-rtl .cs-subjwidg-list li.cat .exp-icon.selected');
 	
 	
-	   var downArrowImg = $('<img class="downArrowIcon">');     //Equivalent: $(document.createElement('img'))
-	   downArrowImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/downArrow3.jpg');
-	   downArrowImg.attr('height','12px');
-           downArrowImg.appendTo('#dir-rtl .cs-subjwidg-list li.cat .exp-icon.selected');
-	
-	*/
 	
 	
 	
@@ -642,29 +646,11 @@ function createAccordionControls()
 	//#dir-rtl .cs-subjwidg-list li.cat .exp-icon.selected
 	
 
-	
-		/*
-        var accordionItem = document.getElementById("checkboxes");
-	var elements = document.getElementsByClassName('avatar');
-        var univProfileLi = elements[0];
-	univProfileLi.innerHTML += fname + " " + lname; 
-	univProfileLi.style.width = "120px";  
-	
-    	$(".cs-subjwidg-list li.cat a.exp-icon:after").css({"content": "\f078", "position": "absolute", "right": "-13px", "top": "12px", "color": "CCCCCC", "width": "40px", "height": "40px", "display": "block", "font": "normal normal normal 14px/1 FontAwesome"});  
-    	$(".cs-subjwidg-list li.cat.nochild .exp-icon:after").css({"content": "\f078", "position": "absolute", "right": "-13px", "top": "12px", "color": "CCCCCC", "width": "40px", "height": "40px", "display": "block", "font": "normal normal normal 14px/1 FontAwesome"});  
-    	$(".cs-subjwidg-list li.cat .exp-icon.selected:after").css({"content": "\f078", "position": "absolute", "right": "-13px", "top": "12px", "color": "CCCCCC", "width": "40px", "height": "40px", "display": "block", "font": "normal normal normal 14px/1 FontAwesome"});  
-    	$("#dir-rtl .cs-subjwidg-list li.cat .exp-icon.selected:after").css({"content": "\f078", "position": "absolute", "right": "-13px", "top": "12px", "color": "CCCCCC", "width": "40px", "height": "40px", "display": "block", "font": "normal normal normal 14px/1 FontAwesome"});  
-    	$(".cs-subjwidg-list li.cat.nochild .exp-icon:after").css({"content": "\f078", "position": "absolute", "right": "-13px", "top": "12px", "color": "CCCCCC", "width": "40px", "height": "40px", "display": "block", "font": "normal normal normal 14px/1 FontAwesome"});  
-    	$("#dir-rtl .cs-subjwidg-list li.cat.nochild .exp-icon:after").css({"content": "\f078", "position": "absolute", "right": "-13px", "top": "12px", "color": "CCCCCC", "width": "40px", "height": "40px", "display": "block", "font": "normal normal normal 14px/1 FontAwesome"});  
-*/
-
-
-
 	$(".cs-subjwidg-list li.cat .exp-icons.selected").css({"background-color": "#EEEEEE"});  
 	$("#dir-rtl .cs-subjwidg-list li.cat .exp-icon.selected").css({"background-color": "#EEEEEE"});  
 	
-        $(".cs-subjwidg-list li.cat .exp-icons.selected:after").css({"content": "\f077"});  
-	$("#dir-rtl .cs-subjwidg-list li.cat .exp-icon.selected:after").css({"content": "\f077"});  
+       // $(".cs-subjwidg-list li.cat .exp-icons.selected:after").css({"content": "\f077"});  
+	//$("#dir-rtl .cs-subjwidg-list li.cat .exp-icon.selected:after").css({"content": "\f077"});  
 	
 	$(".cs-subjwidg-list li.cat.nochild .exp-icon").css({"border": "none"});  
 	$("#dir-rtl .cs-subjwidg-list li.cat.nochild .exp-icon").css({"border": "none"});  
