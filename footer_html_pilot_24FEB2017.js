@@ -599,7 +599,10 @@ function createAccordionControls()
     //remove pluses from the accordion items
     $('.cs-subjwidg-list li.cat.nochild .exp-icon').css({"background-image": "none"});
     $('#dir-rtl .cs-subjwidg-list li.cat .exp-icon').css({"background-image": "none"});
-    //$('.cs-subjwidg-list li.cat .sub').css({"background-image": "none"});
+    $('.cs-subjwidg-list li.cat .exp-icon').css({'background-image': "none"});
+   
+console.log("still here");
+	//$('.cs-subjwidg-list li.cat .sub').css({"background-image": "none"});
  
 		
     //replace plus with down arrow 
