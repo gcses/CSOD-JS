@@ -622,10 +622,10 @@ function createAccordionControls()
 	
     var p = $( ".cs-subjwidg-list li:first" );
     var position = p.position();
-    $( "p:last" ).text( "left: " + position.left + ", top: " + position.top );
+	console.log(position);
 			 
     // margin: top, right, bottom, left  //'margin': '0px 0px 0px 0px'
-    $('.ArrowIcon').css({'position': 'absolute', 'top': 'position.top', 'left': 'position.left'}); 
+    $('.ArrowIcon').css({'position': 'absolute', 'top': 'position.top - 10px', 'left': 'position.left'}); 
 			 
 			 
 			 
