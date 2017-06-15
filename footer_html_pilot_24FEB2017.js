@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test5");
+	console.log("Test1");
 	
 	$('#ctl00_footer_pnlCustomFooter').css({"margin-top": "0px", "margin-bottom": "-15px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});
 	
@@ -596,9 +596,9 @@ function createAccordionControls()
 
     // margin: top, right, bottom, left 
     //remove pluses from the accordion items
-    $('.cs-subjwidg-list li.cat.nochild .exp-icon').css({"background-image": "none", "background-color": "#ffffff"});
-    $('#dir-rtl .cs-subjwidg-list li.cat .exp-icon').css({"background-image": "none", "background-color": "#ffffff"});
-   // $('.cs-subjwidg-list li.cat .sub').css({"background-image": "none"});
+    $('.cs-subjwidg-list li.cat.nochild .exp-icon').css({"background-image": "none"});
+    $('#dir-rtl .cs-subjwidg-list li.cat .exp-icon').css({"background-image": "none"});
+    $('.cs-subjwidg-list li.cat .sub').css({"background-image": "none"});
  
 		
     //replace plus with down arrow 
@@ -614,18 +614,14 @@ function createAccordionControls()
      //$('#dir-rtl .cs-subjwidg-list li.cat .exp-icon.selected').css({'background-image': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/upArrow3.jpg")'});
 	
 	
-	
-    
-	
-	
     //add up and down arrows to the main accordion items
-	    var upArrowImg = $('<img class="upArrowIcon">');     //Equivalent: $(document.createElement('img'))
+	    var upArrowImg = $('<img class="upArrowIcon">'); 
 	    upArrowImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/upArrow3.jpg');
 	    upArrowImg.attr('height','12px');
             upArrowImg.appendTo('#dir-rtl .cs-subjwidg-list li.cat .exp-icon');
 	
 	 $("#dir-rtl .cs-subjwidg-list li.cat").click(function() {  
-		$("upArrowIcon").attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/downArrow3.jpg');
+		$(".upArrowIcon").attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/downArrow3.jpg');
                 console.log('testing');
 	});
 	
