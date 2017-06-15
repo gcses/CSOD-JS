@@ -616,23 +616,24 @@ function createAccordionControls()
     var downArrowImg = $('<img class="ArrowIcon">'); 
     downArrowImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/downArrow3.jpg');
     downArrowImg.attr('height','12px');
+	downArrowImg.attr('position','absolute');
     downArrowImg.appendTo('.cs-subjwidg-list li');
- 
-    
+ 		 
+			 
+    // remove the down arrow icon from list items with no children
+    $('.cs-subjwidg-list li.cat.nochild img').remove();
 	
+	/*	
     var p = $( ".cs-subjwidg-list li:first" );
     var position = p.position();
 	console.log(position);
 			 
     // margin: top, right, bottom, left  //'margin': '0px 0px 0px 0px'
     $('.ArrowIcon').css({'position': 'absolute', 'top': 'position.top - 10px', 'left': 'position.left'}); 
-			 
-			 
-			 
-			 
-			 
-    // remove the down arrow icon from list items with no children
-    $('.cs-subjwidg-list li.cat.nochild img').remove();
+	*/
+	
+	
+	
 	
    
      $(".cs-subjwidg-list li").click(function() {  
