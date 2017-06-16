@@ -623,11 +623,15 @@ function createAccordionControls()
 	   // var imgsrc = $('this:first-child').attr('src'); 
 	    
 	    //var imgsrc = $(this).children('img').first().html();
-	    var bg = $("this").css("background-image");
-            bg = bg.replace(/.*\s?url\([\'\"]?/, '').replace(/[\'\"]?\).*/, '');
+	   // var bg = $("this").css("background-image");
+           // bg = bg.replace(/.*\s?url\([\'\"]?/, '').replace(/[\'\"]?\).*/, '');
+	    
+	    
+	    var code = $("this").html();
+	    
 	    
 	  //var imgsrc=$(this).attr('src'); 
-	  console.log(bg);
+	  console.log(code);
 	    
 	  $(this).css({'background-image': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/upArrow3small.jpg")'});
 
