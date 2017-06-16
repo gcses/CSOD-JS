@@ -154,12 +154,11 @@ $(document).ready(function() {
 	
 	
 	//add words 'Learning Compass'
-	// margin: top, right, bottom, left
 	var $LClabel = $("<H1>").text('Learning Compass');
-	$LClabel.css({'display': 'inline', 'float': 'left', 'backgroundColor': '#ffffff', 'margin': '10px 20px 0px 20px', 'padding': '0px 0px 0px 0px'});
+	// margin: top, right, bottom, left
+	$LClabel.css({'display': 'inline', 'float': 'left', 'backgroundColor': '#ffffff', 'margin': '5px 30px 0px 30px', 'padding': '0px 0px 0px 0px'});
 	$('.c-glbl-nav').prepend($LClabel);
-	//$('.c-glbl-nav').css({'display': 'inline'});
-	//$('#main-menu').css({'display': 'inline'});
+
 	
 	
 	
