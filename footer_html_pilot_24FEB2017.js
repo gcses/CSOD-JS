@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test1");
+	console.log("Test2");
 	
 	$('#ctl00_footer_pnlCustomFooter').css({"margin-top": "0px", "margin-bottom": "-15px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});
 	
@@ -620,8 +620,9 @@ function createAccordionControls()
     	  e.preventDefault();
 	   
 	    //get child image and src
-	    var imgsrc = $('this:first-child').attr('src'); 
+	   // var imgsrc = $('this:first-child').attr('src'); 
 	    
+	     var imgsrc = $(this).children('img').first().html())
 	    
 	    
 	  //var imgsrc=$(this).attr('src'); 
