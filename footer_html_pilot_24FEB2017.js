@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test1");
+	console.log("Test2");
 	
 	$('#ctl00_footer_pnlCustomFooter').css({"margin-top": "0px", "margin-bottom": "-15px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});
 	
@@ -595,12 +595,12 @@ function createAccordionControls()
     $(".cs-subjwidg-list li.cat.nochild .ex-icon").css({"display": "block", "width": "100%", "height": "40px", "border": "1px solid #CCCCCC", "position": "relative", "text-index": "0px"});  
 	
     //move plus to the far right and vertically center
-    $('.cs-subjwidg-list li.cat a.exp-icon').css({'backgroundPosition': '95% 13px'});
-    $('#dir-rtl .cs-subjwidg-list li.cat .exp-icon').css({'backgroundPosition': '95% 13px'});
+    $('.cs-subjwidg-list li.cat a.exp-icon').css({'backgroundPosition': '98% 12px'});
+    $('#dir-rtl .cs-subjwidg-list li.cat .exp-icon').css({'backgroundPosition': '98% 12px'});
 
     //replace plus with down arrow 
-    $('.cs-subjwidg-list li.cat a.exp-icon').css({'background-image': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/downArrow3small.jpg")'});
-    $('#dir-rtl .cs-subjwidg-list li.cat .exp-icon').css({'background-image': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/downArrow3small.jpg")'});
+    $('.cs-subjwidg-list li.cat a.exp-icon').css({'background-image': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/downArrowSmall.jpg")'});
+    $('#dir-rtl .cs-subjwidg-list li.cat .exp-icon').css({'background-image': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/downArrowSmall.jpg")'});
     $('.cs-subjwidg-list li.cat.nochild .exp-icon').css({"background-image": "none"});
 	
     $('.cs-subjwidg-list li.cat a.exp-icon').click(function(e) {
@@ -609,11 +609,11 @@ function createAccordionControls()
 	    var code = $(this).css('background-image');
 	    if (code.indexOf("down") > -1)
             {
-         	  $(this).css({'background-image': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/upArrow3small.jpg")'});
+         	  $(this).css({'background-image': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/upArrowSmall.jpg")'});
 	    }
 	    else if (code.indexOf("up") > -1)
             {
-         	  $(this).css({'background-image': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/downArrow3small.jpg")'});
+         	  $(this).css({'background-image': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/downArrowSmall.jpg")'});
 	    }
 	});
 
