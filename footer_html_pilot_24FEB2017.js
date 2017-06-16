@@ -619,8 +619,8 @@ function createAccordionControls()
 	
     var $thumbs = $('.cs-subjwidg-list li.cat a.exp-icon').click(function(e) {
     	e.preventDefault();
-	  $(this).css({'background-image': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/downArrow3small.jpg")'});
-	  $thumbs.css({'background-image': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/downArrow3small.jpg")'});
+	  $(this).css({'background-image': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/upArrow3small.jpg")'});
+	  $thumbs.css({'background-image': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/upArrow3small.jpg")'});
 });
 	
 	
