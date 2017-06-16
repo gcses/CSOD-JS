@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test6");
+	console.log("Test7");
 	
 	$('#ctl00_footer_pnlCustomFooter').css({"margin-top": "0px", "margin-bottom": "-15px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});
 	
@@ -593,22 +593,22 @@ function createAccordionControls()
     $(".cs-subjwidg-list li.cat .sub").css({"margin": "0px 0px 0px 10px"});  
     $(".cs-subjwidg-list li.cat a.exp-icon").css({"display": "block", "width": "100%", "height": "40px", "border": "1px solid #CCCCCC", "position": "relative", "text-index": "0px"});  
     $(".cs-subjwidg-list li.cat.nochild .ex-icon").css({"display": "block", "width": "100%", "height": "40px", "border": "1px solid #CCCCCC", "position": "relative", "text-index": "0px"});  
-
-
-    //remove pluses from the accordion items
-   // $('.cs-subjwidg-list li.cat.nochild .exp-icon').css({"background-image": "none"});
-   // $('#dir-rtl .cs-subjwidg-list li.cat .exp-icon').css({"background-image": "none"});
-   // $('.cs-subjwidg-list li.cat .exp-icon').css({'background-image': "none"});
-   
-	//$('.cs-subjwidg-list li.cat .sub').css({"background-image": "none"});
- 
 	
-		
+	
+	
+	
+	
+	
+	
+	
+    //move plus to the far right
+    $('.cs-subjwidg-list li.cat a.exp-icon').css({'float': 'right'});
+    $('#dir-rtl .cs-subjwidg-list li.cat .exp-icon').css('float': 'right'});
+   
+	
     //replace plus with down arrow 
     $('.cs-subjwidg-list li.cat a.exp-icon').css({'background-image': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/downArrow3small.jpg")'});
-   // $('.cs-subjwidg-list li.cat.nochild .exp-icon').css({'background-image': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/downArrow3small.jpg")'});
     $('#dir-rtl .cs-subjwidg-list li.cat .exp-icon').css({'background-image': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/downArrow3small.jpg")'});
-	
     $('.cs-subjwidg-list li.cat.nochild .exp-icon').css({"background-image": "none"});
 	
     $('.cs-subjwidg-list li.cat a.exp-icon').click(function(e) {
