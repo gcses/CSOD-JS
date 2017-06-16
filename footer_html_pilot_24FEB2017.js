@@ -628,13 +628,12 @@ function createAccordionControls()
 	    
 	     //$('#content').css('background-image').
 	    
-	    var code = $(this).css({'background-image'});
-	  //var imgsrc=$(this).attr('src'); 
+	    var code = $(this).css('background-image');
 	  console.log(code);
 	    
 	  $(this).css({'background-image': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/upArrow3small.jpg")'});
 	    
-	     var code = $(this).css({'background-image'});
+	     var code = $(this).css('background-image');
 	     console.log(code);
 
 });
