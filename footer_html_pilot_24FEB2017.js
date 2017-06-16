@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test5");
+	console.log("Test6");
 	
 	$('#ctl00_footer_pnlCustomFooter').css({"margin-top": "0px", "margin-bottom": "-15px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});
 	
@@ -156,10 +156,12 @@ $(document).ready(function() {
 	//add words 'Learning Compass'
 	var $LClabel = $("<H1>").text('Learning Compass');
 	$LClabel.css({'display': 'inline'});
+	$('.c-glbl-nav').prepend($LClabel);
 	
-
 	
-	$('#main-menu').prepend($LClabel);
+	
+	
+	
 	
 	//change the navigation bar to white, remove gradient		
 	$('#main-menu').css({"background-image": "none", "background-color": "#ffffff"});
