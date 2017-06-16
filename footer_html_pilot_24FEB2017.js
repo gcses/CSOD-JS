@@ -602,8 +602,8 @@ function createAccordionControls()
 	
 	
     //move plus to the far right
-    $('.cs-subjwidg-list li.cat a.exp-icon').css({'float': 'right', 'backgroundPosition': '20px 20px'});
-    $('#dir-rtl .cs-subjwidg-list li.cat .exp-icon').css({'float': 'right', 'backgroundPosition': '20px 20px'});
+    $('.cs-subjwidg-list li.cat a.exp-icon').css({'backgroundPosition': '20px 200px'});
+    $('#dir-rtl .cs-subjwidg-list li.cat .exp-icon').css({'backgroundPosition': '20px 200px'});
 
 	
 	
