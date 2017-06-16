@@ -594,21 +594,10 @@ function createAccordionControls()
     $(".cs-subjwidg-list li.cat a.exp-icon").css({"display": "block", "width": "100%", "height": "40px", "border": "1px solid #CCCCCC", "position": "relative", "text-index": "0px"});  
     $(".cs-subjwidg-list li.cat.nochild .ex-icon").css({"display": "block", "width": "100%", "height": "40px", "border": "1px solid #CCCCCC", "position": "relative", "text-index": "0px"});  
 	
-	
-	
-	
-	  
-	
-	
-	
-    //move plus to the far right
-    $('.cs-subjwidg-list li.cat a.exp-icon').css({'backgroundPosition': '80% 13px'});
-    $('#dir-rtl .cs-subjwidg-list li.cat .exp-icon').css({'backgroundPosition': '80% 13px'});
+    //move plus to the far right and vertically center
+    $('.cs-subjwidg-list li.cat a.exp-icon').css({'backgroundPosition': '95% 13px'});
+    $('#dir-rtl .cs-subjwidg-list li.cat .exp-icon').css({'backgroundPosition': '95% 13px'});
 
-	
-	
-	
-	
     //replace plus with down arrow 
     $('.cs-subjwidg-list li.cat a.exp-icon').css({'background-image': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/downArrow3small.jpg")'});
     $('#dir-rtl .cs-subjwidg-list li.cat .exp-icon').css({'background-image': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/downArrow3small.jpg")'});
@@ -627,73 +616,6 @@ function createAccordionControls()
          	  $(this).css({'background-image': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/downArrow3small.jpg")'});
 	    }
 	});
-	
-	
-	
-	
-	
-	
-	
-	
-
-     //replace minus with up arrow
-    // $('#dir-rtl .cs-subjwidg-list li.cat .exp-icon.selected').css({'background-image': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/upArrow3small.jpg")'});
-     // $('.cs-subjwidg-list li.cat a.exp-icon.selected').css({'background-image': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/upArrow3small.jpg")'});
-   
-   //  $('a.exp-icon.selected').css({'background-image': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/upArrow3small.jpg")'});
-  // $('.exp-icon.selected').css({'background-image': 'none'});
-//	 $('img.selected').css({'background-image': 'none'});
-   
-	
-    // $(".cs-subjwidg-list li").click(function() { 
-//	        $('.cs-subjwidg-list li.cat a.exp-icon').css({'background-image': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/upArrow3small.jpg")'});
-  //  		$('#dir-rtl .cs-subjwidg-list li.cat .exp-icon').css({'background-image': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/upArrow3small.jpg")'});
-//	});
-	
-   // $( ".cs-subjwidg-list li.cat:selected" ).each(function()
-    //{
-    // 	 $('.cs-subjwidg-list li.cat a.exp-icon').css({'background-image': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/upArrow3small.jpg")'});
-    //});
-	
-	
-	
-    //add up and down arrows to the main accordion items
-    //var downArrowImg = $('<img class="ArrowIcon">'); 
-   // downArrowImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/downArrow3.jpg');
-   // downArrowImg.attr('height','12px');
-   // downArrowImg.attr('position','absolute');
-   // downArrowImg.appendTo('.cs-subjwidg-list li');
-	
-    //var listItems = document.getElementsByClassName('.cs-subjwidg-list li');
-   // for(i=0; i<listItems.length; i++)
-   // {
-//	elementChildNodes = listItems[i].childNodes;
-	
-   // downArrowImg.prepend('.cs-subjwidg-list li');
- 
-			 
-    // remove the down arrow icon from list items with no children
-    //$('.cs-subjwidg-list li.cat.nochild img').remove();
-	
-	/*	
-    var p = $( ".cs-subjwidg-list li:first" );
-    var position = p.position();
-	console.log(position);
-			 
-    // margin: top, right, bottom, left  //'margin': '0px 0px 0px 0px'
-    $('.ArrowIcon').css({'position': 'absolute', 'top': 'position.top - 10px', 'left': 'position.left'}); 
-	*/
-
-	  // var downArrowImg = $('<img class="downArrowIcon">');     //Equivalent: $(document.createElement('img'))
-	  // downArrowImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/downArrow3.jpg');
-	  // downArrowImg.attr('height','12px');
-          // downArrowImg.appendTo('#dir-rtl .cs-subjwidg-list li.cat .exp-icon.selected');
-	
-	   // $('.chevron1').css({'position': 'absolute', 'top': '13%', 'left': '81%', 'margin-left': '5px'});
-	
-	//minus
-	//#dir-rtl .cs-subjwidg-list li.cat .exp-icon.selected
-	
 
 	$(".cs-subjwidg-list li.cat .exp-icons.selected").css({"background-color": "#EEEEEE"});  
 	$("#dir-rtl .cs-subjwidg-list li.cat .exp-icon.selected").css({"background-color": "#EEEEEE"});  
