@@ -603,7 +603,7 @@ function createAccordionControls()
 	
     //move plus to the far right
     $('.cs-subjwidg-list li.cat a.exp-icon').css({'float': 'right'});
-    $('#dir-rtl .cs-subjwidg-list li.cat .exp-icon').css('float': 'right'});
+    $('#dir-rtl .cs-subjwidg-list li.cat .exp-icon').css({'float': 'right'});
    
 	
     //replace plus with down arrow 
