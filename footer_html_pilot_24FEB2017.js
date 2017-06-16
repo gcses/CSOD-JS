@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test4");
+	console.log("Test1");
 	
 	$('#ctl00_footer_pnlCustomFooter').css({"margin-top": "0px", "margin-bottom": "-15px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});
 	
@@ -618,7 +618,13 @@ function createAccordionControls()
 	
     $('.cs-subjwidg-list li.cat a.exp-icon').click(function(e) {
     	  e.preventDefault();
-	  var imgsrc=$(this).attr('src'); 
+	   
+	    //get child image and src
+	    var imgsrc = $('this:first-child').attr('src'); 
+	    
+	    
+	    
+	  //var imgsrc=$(this).attr('src'); 
 	  console.log(imgsrc);
 	    
 	  $(this).css({'background-image': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/upArrow3small.jpg")'});
