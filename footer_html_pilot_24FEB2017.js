@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test11");
+	console.log("Test13");
 	
 	$('#ctl00_footer_pnlCustomFooter').css({"margin-top": "0px", "margin-bottom": "-15px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});
 	
@@ -604,6 +604,10 @@ function createAccordionControls()
    
 	//$('.cs-subjwidg-list li.cat .sub').css({"background-image": "none"});
  
+	
+	
+	
+	
 		
     //replace plus with down arrow 
     $('.cs-subjwidg-list li.cat a.exp-icon').css({'background-image': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/downArrow3small.jpg")'});
@@ -612,14 +616,28 @@ function createAccordionControls()
 	
     $('.cs-subjwidg-list li.cat.nochild .exp-icon').css({"background-image": "none"});
 	
+	
+    var $thumbs = $('.cs-subjwidg-list li.cat a.exp-icon').click(function(e) {
+    	e.preventDefault();
+	  $(this).css({'background-image': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/downArrow3small.jpg")'});
+	  $thumbs.css({'background-image': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/downArrow3small.jpg")'});
+});
+	
+	
+	
+	
+	
+	
+	
+	
 
      //replace minus with up arrow
     // $('#dir-rtl .cs-subjwidg-list li.cat .exp-icon.selected').css({'background-image': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/upArrow3small.jpg")'});
      // $('.cs-subjwidg-list li.cat a.exp-icon.selected').css({'background-image': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/upArrow3small.jpg")'});
    
    //  $('a.exp-icon.selected').css({'background-image': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/upArrow3small.jpg")'});
-   $('.exp-icon.selected').css({'background-image': 'none'});
-	 $('img.selected').css({'background-image': 'none'});
+  // $('.exp-icon.selected').css({'background-image': 'none'});
+//	 $('img.selected').css({'background-image': 'none'});
    
 	
     // $(".cs-subjwidg-list li").click(function() { 
