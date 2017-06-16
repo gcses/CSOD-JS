@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test7");
+	console.log("Test9");
 	
 	$('#ctl00_footer_pnlCustomFooter').css({"margin-top": "0px", "margin-bottom": "-15px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});
 	
@@ -602,9 +602,12 @@ function createAccordionControls()
 	
 	
     //move plus to the far right
-    $('.cs-subjwidg-list li.cat a.exp-icon').css({'float': 'right'});
-    $('#dir-rtl .cs-subjwidg-list li.cat .exp-icon').css({'float': 'right'});
-   
+    $('.cs-subjwidg-list li.cat a.exp-icon').css({'float': 'right', 'backgroundPosition', '20px 20px'});
+    $('#dir-rtl .cs-subjwidg-list li.cat .exp-icon').css({'float': 'right', 'backgroundPosition', '20px 20px'});
+
+	
+	
+	
 	
     //replace plus with down arrow 
     $('.cs-subjwidg-list li.cat a.exp-icon').css({'background-image': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/downArrow3small.jpg")'});
