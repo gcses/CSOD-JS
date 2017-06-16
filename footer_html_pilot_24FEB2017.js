@@ -597,13 +597,13 @@ function createAccordionControls()
 	
 	
 	
-	
+	  
 	
 	
 	
     //move plus to the far right
-    $('.cs-subjwidg-list li.cat a.exp-icon').css({'backgroundPosition': '80px 10px'});
-    $('#dir-rtl .cs-subjwidg-list li.cat .exp-icon').css({'backgroundPosition': '80px 10px'});
+    $('.cs-subjwidg-list li.cat a.exp-icon').css({'backgroundPosition': '80% 13px'});
+    $('#dir-rtl .cs-subjwidg-list li.cat .exp-icon').css({'backgroundPosition': '80% 13px'});
 
 	
 	
