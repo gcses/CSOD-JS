@@ -70,10 +70,10 @@ $(document).ready(function() {
 
 	
 	
-	 var cogImg = $('<img class="cog1">'); //Equivalent: $(document.createElement('img'))
-	 chevImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/cog.png');
-	 chevImg.attr('height','20px');
-         chevImg.appendTo('optionsbtn');
+	 var cogImg = $('<img class="cog1">');
+	 cogImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/cog.png');
+	 cogImg.attr('height','20px');
+         cogImg.appendTo('optionsbtn');
 	//$('.cog1').css({'position': 'absolute', 'top': '13%', 'left': '81%', 'margin-left': '5px'});
 	
 	
