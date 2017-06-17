@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test9");
+	console.log("Test2");
 
 	
 	//Alternative Header Icons
@@ -33,11 +33,22 @@ $(document).ready(function() {
 	$('#header_headerFixed_hlAvatar').css({"backgroundColor": "#004593"});
 	$('#header_headerFixed_hlAvatar span').css({"backgroundColor": "#004593"});
 
-	 var cogImg = $('<img class="cog1">');
-	 cogImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/cog.png');
+	// var cogImg = $('<img class="cog1">');
+	// cogImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/cog.png');
+	
+	
+	//document.getElementById("header_headerFixed_hlAvatar").style.cssFloat = "left";
+	//load splash image background
+	//<div class="topBarOuter">
+	
+	var cogItem = document.getElementById('optionsbtn');
+	cogItem.style.backgroundImage = "url('https://bd-pilot.csod.com/clientimg/bd/welcome/cog.png')";
+	
+	
+	
 	// cogImg.attr('height','20px');
         // cogImg.appendTo('optionsbtn');
-	 cogImg.appendTo('#settingscontainer');
+	 //cogImg.appendTo('#settingscontainer');
 	
 	
         // Profile  
