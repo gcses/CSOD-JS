@@ -24,9 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test3");
-	
-	
+	console.log("Test4");
 	
 //img id="header_headerFixed_imgAvatar
 	
@@ -65,7 +63,10 @@ $(document).ready(function() {
 	}
 	*/
 
+	$('.user-interaction').css({"backgroundColor": "#004593"});
+	$('.avatar').css({"backgroundColor": "#004593"});
 
+	
 	
         //swap the new profile image (element ID varies by page)
 	var imgLoc = document.getElementById('header_headerFixed_imgAvatar');
