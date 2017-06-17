@@ -60,6 +60,9 @@ $(document).ready(function() {
 	$('.cog1').css({'height': '20px', 'position': 'absolute'});
 	
 	//'top': '13%', 'left': '81%', 'margin-left': '5px'
+       // elements[0].style.position = "absolute";
+       // elements[0].style.zIndex="2147483644";
+	
 	
         // Profile  
 	var imgLoc = document.getElementById('header_headerFixed_imgAvatar');
