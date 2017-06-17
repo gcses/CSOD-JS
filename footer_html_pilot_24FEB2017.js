@@ -24,30 +24,26 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test8");
+	console.log("Test9");
 
 	
 	//Alternative Header Icons
-
 	$('.user-interaction').css({"backgroundColor": "#004593"});
 	$('.avatar').css({"backgroundColor": "#004593"});
 	$('#header_headerFixed_hlAvatar').css({"backgroundColor": "#004593"});
 	$('#header_headerFixed_hlAvatar span').css({"backgroundColor": "#004593"});
 
-	
-	
 	 var cogImg = $('<img class="cog1">');
 	 cogImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/cog.png');
-	 cogImg.attr('height','20px');
-         cogImg.appendTo('optionsbtn');
-	 $('.cog1').css({'width': '35px'});
+	// cogImg.attr('height','20px');
+        // cogImg.appendTo('optionsbtn');
+	 cogImg.appendTo('#settingscontainer');
 	
 	
-	
-	
-	
-        //swap the new profile image (element ID varies by page)
+        // Profile  
 	var imgLoc = document.getElementById('header_headerFixed_imgAvatar');
+	 $('#header_headerFixed_imgAvatar').css({'width': '35px'});
+	
 	if (imgLoc != null)
 	{
 	    document.getElementById('header_headerFixed_imgAvatar').src='https://bd-pilot.csod.com/clientimg/bd/welcome/profile.png';
