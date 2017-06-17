@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test6");
+	console.log("Test7");
 
 	//Alternative Header Icons
 	$('.user-interaction').css({"backgroundColor": "#004593"});
@@ -60,14 +60,14 @@ $(document).ready(function() {
 	
 	if (imgLoc != null)
 	{
-	    document.getElementById('header_headerFixed_imgAvatar').src='https://bd-pilot.csod.com/clientimg/bd/welcome/profile.png';
+	    document.getElementById('header_headerFixed_imgAvatar').src='https://bd-pilot.csod.com/clientimg/bd/welcome/profile2.png';
 	}
 	else
 	{
 		imgLoc = document.getElementById('ctl00_header_headerFixed_imgAvatar');
 		if (imgLoc != null)
 		{
-	  	   document.getElementById('ctl00_header_headerFixed_imgAvatar').src='https://bd-pilot.csod.com/clientimg/bd/welcome/profile.png';
+	  	   document.getElementById('ctl00_header_headerFixed_imgAvatar').src='https://bd-pilot.csod.com/clientimg/bd/welcome/profile2.png';
 		}
 	}
 
