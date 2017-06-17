@@ -24,15 +24,16 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test3");
+	console.log("Test5");
 
-	
 	//Alternative Header Icons
 	$('.user-interaction').css({"backgroundColor": "#004593"});
 	$('.avatar').css({"backgroundColor": "#004593"});
 	$('#header_headerFixed_hlAvatar').css({"backgroundColor": "#004593"});
 	$('#header_headerFixed_hlAvatar span').css({"backgroundColor": "#004593"});
-
+	$('.user-interaction').css({"backgroundColor": "#004593"});
+	
+	
 	// var cogImg = $('<img class="cog1">');
 	// cogImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/cog.png');
 	
@@ -41,14 +42,12 @@ $(document).ready(function() {
 	//load splash image background
 	//<div class="topBarOuter">
 	
-	var cogItem = document.getElementById('optionsbtn');
-	cogItem.style.backgroundColor = "yellow";
+	//var cogItem = document.getElementById('optionsbtn');
+	//cogItem.style.backgroundColor = "yellow";
 	 $('#optionsbtn').css({'backgroundColor': 'yellow'});
 	
 	//cogItem.style.backgroundImage = "url('https://bd-pilot.csod.com/clientimg/bd/welcome/cog.png')";
-	
-	
-	
+
 	// cogImg.attr('height','20px');
         // cogImg.appendTo('optionsbtn');
 	 //cogImg.appendTo('#settingscontainer');
