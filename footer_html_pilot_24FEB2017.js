@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test10");
+	console.log("Test11");
 
 	//Alternative Header Icons
 	//$('.user-interaction').css({"backgroundColor": "#004593"});
@@ -37,7 +37,7 @@ $(document).ready(function() {
 	var cogImg = $('<img class="cog1">');
 	cogImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/cog.png');
 	cogImg.appendTo('#optionsbtn');
-	$('.cog1').css({'height': '40px', 'position': 'absolute', 'top': '15%', 'left': '15%' });
+	$('.cog1').css({'height': '30px', 'position': 'absolute', 'top': '10%', 'left': '15%' });
 	$('#optionsbtn').css({'backgroundColor': '#004593'});
 	
 	
