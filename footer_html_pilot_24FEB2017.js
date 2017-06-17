@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test2");
+	console.log("Test3");
 
 	
 	//Alternative Header Icons
@@ -42,7 +42,10 @@ $(document).ready(function() {
 	//<div class="topBarOuter">
 	
 	var cogItem = document.getElementById('optionsbtn');
-	cogItem.style.backgroundImage = "url('https://bd-pilot.csod.com/clientimg/bd/welcome/cog.png')";
+	cogItem.style.backgroundColor = "yellow";
+	 $('#optionsbtn').css({'backgroundColor': 'yellow'});
+	
+	//cogItem.style.backgroundImage = "url('https://bd-pilot.csod.com/clientimg/bd/welcome/cog.png')";
 	
 	
 	
