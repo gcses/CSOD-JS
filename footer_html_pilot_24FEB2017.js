@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test4");
+	console.log("Test5");
 	
 //img id="header_headerFixed_imgAvatar
 	
@@ -65,6 +65,7 @@ $(document).ready(function() {
 
 	$('.user-interaction').css({"backgroundColor": "#004593"});
 	$('.avatar').css({"backgroundColor": "#004593"});
+	$('#header_headerFixed_hlAvatar').css({"backgroundColor": "#004593"});
 
 	
 	
