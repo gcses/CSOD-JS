@@ -24,14 +24,14 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test7");
+	console.log("Test8");
 
 	//Alternative Header Icons
-	$('.user-interaction').css({"backgroundColor": "#004593"});
-	$('.avatar').css({"backgroundColor": "#004593"});
-	$('#header_headerFixed_hlAvatar').css({"backgroundColor": "#004593"});
-	$('#header_headerFixed_hlAvatar span').css({"backgroundColor": "#004593"});
-	$('.user-interaction').css({"backgroundColor": "#004593"});
+	//$('.user-interaction').css({"backgroundColor": "#004593"});
+	//$('.avatar').css({"backgroundColor": "#004593"});
+	//$('#header_headerFixed_hlAvatar').css({"backgroundColor": "#004593"});
+	//$('#header_headerFixed_hlAvatar span').css({"backgroundColor": "#004593"});
+	//$('.user-interaction').css({"backgroundColor": "#004593"});
 
 	//overlay a new image to cover up settings cog image
 	var cogImg = $('<img class="cog1">');
