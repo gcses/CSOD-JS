@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test8");
+	console.log("Test10");
 
 	//Alternative Header Icons
 	//$('.user-interaction').css({"backgroundColor": "#004593"});
@@ -37,7 +37,7 @@ $(document).ready(function() {
 	var cogImg = $('<img class="cog1">');
 	cogImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/cog.png');
 	cogImg.appendTo('#optionsbtn');
-	$('.cog1').css({'height': '20px', 'position': 'absolute', 'top': '15%', 'left': '15%' });
+	$('.cog1').css({'height': '40px', 'position': 'absolute', 'top': '15%', 'left': '15%' });
 	$('#optionsbtn').css({'backgroundColor': '#004593'});
 	
 	
@@ -59,18 +59,8 @@ $(document).ready(function() {
 	}
 
 	
-	//document.getElementById("header_headerFixed_hlAvatar").style.cssFloat = "left";
-	//load splash image background
-	//<div class="topBarOuter">
-	//var headerTable = document.getElementById('tblTopBar');
-	//headerTable.style.backgroundImage = "url('https://rawgit.com/gcses/CSOD-JS/master/header.JPG')";
 	
-	
-	
-	
-	
-	
-	
+
 	
 	
 	$('#ctl00_footer_pnlCustomFooter').css({"margin-top": "0px", "margin-bottom": "-15px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});
