@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test10");
+	console.log("Test12");
 
 	//Alternative Header Icons
 	$('.user-interaction').css({"backgroundColor": "#004593"});
@@ -35,15 +35,16 @@ $(document).ready(function() {
 	
 	//replace existing background image or overlay a new image on it
 	
+	
 	//var cogItemImg = document.getElementById('optionsbtn img');
 	//cogItemImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/cog.png');
 	
 	//$('#optionsbtn img').attr("src", "https://bd-pilot.csod.com/clientimg/bd/welcome/cog.png");
-	$('#optionsbtn img').css("background-image", "url('https://bd-pilot.csod.com/clientimg/bd/welcome/cog.png')");
 	
 	
-	  
-	 $('#optionsbtn').css({'backgroundColor': 'yellow'});
+	//set background image - yellow works, but image replacing does not seem to
+	//$('#optionsbtn img').css("background-image", "url('https://bd-pilot.csod.com/clientimg/bd/welcome/cog.png')");
+	//$('#optionsbtn').css({'backgroundColor': 'yellow'});
 	//cogItemImg.style.backgroundImage = "url('https://bd-pilot.csod.com/clientimg/bd/welcome/cog.png')";
 
 	
@@ -52,10 +53,11 @@ $(document).ready(function() {
 	// $('#optionsbtn').css({'backgroundColor': 'yellow'});
 	//cogItem.style.backgroundImage = "url('https://bd-pilot.csod.com/clientimg/bd/welcome/cog.png')";
 
-	//var cogImg = $('<img class="cog1">');
-	//cogImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/cog.png');
-	//cogImg.appendTo('#optionsbtn');
-	
+	//overlay a new image to cover up settings cog image
+	var cogImg = $('<img class="cog1">');
+	cogImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/cog.png');
+	cogImg.appendTo('#optionsbtn');
+	$('.cog1').css({'height': '20px'});
 	
 	
         // Profile  
