@@ -24,44 +24,10 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test6");
-	
-//img id="header_headerFixed_imgAvatar
-	
-	 //<ul id="settingsDd" class="cso-hdr-dd" onmouseout="HideDropdown('settingsDd');" onmouseover="showDDLPopup(this);" aria-expanded="false" aria-hidden="true" aria-labelledby="optionsbtn">
-                                
-                             //       <li class="item">
+	console.log("Test8");
 
 	
-	
-			/* hide for screen shot
-	   var elements = document.getElementsByClassName('avatar');
-           var univProfileLi = elements[0];
-	   univProfileLi.innerHTML += fname + " " + lname; 
-	   univProfileLi.style.width = "120px";  
-	   univProfileLi.style.verticalAlign = "middle";
-	   */
-	
 	//Alternative Header Icons
-	
-	//var avtImg = document.createElement('Image');
-	//avtImg.src = "https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite.png";
-        //avatarImg.drawImage( avtImg, 12, 4, 8, 8 );
-	//$('.item.oc').css
-	
-	/*
-	var avatarImg = document.getElementById('header_headerFixed_imgAvatar');
-	if (avatarImg != null)
-	{
-	    //avatarImg.src='https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite.png';
-	    //avatarImg.style.backgroundPosition = "12px 4px";
-	   // $('.avatar a').css({'background': 'no-repeat scroll 12px 4px transparent'});
-	   //drawImage( image, x, y, width, height );
-	   var avtImg = document.createElement('Image');
-	   avtImg.src = "https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite.png";
-           avatarImg.drawImage( avtImg, 12, 4, 8, 8 );
-	}
-	*/
 
 	$('.user-interaction').css({"backgroundColor": "#004593"});
 	$('.avatar').css({"backgroundColor": "#004593"});
@@ -74,7 +40,7 @@ $(document).ready(function() {
 	 cogImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/cog.png');
 	 cogImg.attr('height','20px');
          cogImg.appendTo('optionsbtn');
-	//$('.cog1').css({'position': 'absolute', 'top': '13%', 'left': '81%', 'margin-left': '5px'});
+	 $('.cog1').css({'width': '35px'});
 	
 	
 	
