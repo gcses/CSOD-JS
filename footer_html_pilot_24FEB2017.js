@@ -26,6 +26,77 @@ $(document).ready(function() {
 
 	console.log("Test3");
 	
+	
+	
+//img id="header_headerFixed_imgAvatar
+	
+	 //<ul id="settingsDd" class="cso-hdr-dd" onmouseout="HideDropdown('settingsDd');" onmouseover="showDDLPopup(this);" aria-expanded="false" aria-hidden="true" aria-labelledby="optionsbtn">
+                                
+                             //       <li class="item">
+
+	
+	
+			/* hide for screen shot
+	   var elements = document.getElementsByClassName('avatar');
+           var univProfileLi = elements[0];
+	   univProfileLi.innerHTML += fname + " " + lname; 
+	   univProfileLi.style.width = "120px";  
+	   univProfileLi.style.verticalAlign = "middle";
+	   */
+	
+	//Alternative Header Icons
+	
+	//var avtImg = document.createElement('Image');
+	//avtImg.src = "https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite.png";
+        //avatarImg.drawImage( avtImg, 12, 4, 8, 8 );
+	//$('.item.oc').css
+	
+	/*
+	var avatarImg = document.getElementById('header_headerFixed_imgAvatar');
+	if (avatarImg != null)
+	{
+	    //avatarImg.src='https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite.png';
+	    //avatarImg.style.backgroundPosition = "12px 4px";
+	   // $('.avatar a').css({'background': 'no-repeat scroll 12px 4px transparent'});
+	   //drawImage( image, x, y, width, height );
+	   var avtImg = document.createElement('Image');
+	   avtImg.src = "https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite.png";
+           avatarImg.drawImage( avtImg, 12, 4, 8, 8 );
+	}
+	*/
+
+
+	
+        //swap the new profile image (element ID varies by page)
+	var imgLoc = document.getElementById('header_headerFixed_imgAvatar');
+	if (imgLoc != null)
+	{
+	    document.getElementById('header_headerFixed_imgAvatar').src='https://bd-pilot.csod.com/clientimg/bd/welcome/profile.png';
+	}
+	else
+	{
+		imgLoc = document.getElementById('ctl00_header_headerFixed_imgAvatar');
+		if (imgLoc != null)
+		{
+	  	   document.getElementById('ctl00_header_headerFixed_imgAvatar').src='https://bd-pilot.csod.com/clientimg/bd/welcome/profile.png';
+		}
+	}
+
+	
+	//document.getElementById("header_headerFixed_hlAvatar").style.cssFloat = "left";
+	//load splash image background
+	//<div class="topBarOuter">
+	//var headerTable = document.getElementById('tblTopBar');
+	//headerTable.style.backgroundImage = "url('https://rawgit.com/gcses/CSOD-JS/master/header.JPG')";
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	$('#ctl00_footer_pnlCustomFooter').css({"margin-top": "0px", "margin-bottom": "-15px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});
 	
 	// margin: top, right, bottom, left
@@ -99,59 +170,7 @@ $(document).ready(function() {
 	//var welcomeTab = document.querySelector("[data-tag='Welcome']");
 	//welcomeTab.parentNode.removeChild(welcomeTab);
 	
-	//Alternative Header Icons
-	 //$('.avatar').css({'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite.png") no-repeat scroll 12px 4px transparent'});
-	 $('.cart').css({'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite.png") no-repeat scroll 5px -35px transparent', 'width': '40px'});
-	 $('.settings').css({'background': 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite.png") no-repeat scroll 0px -80px transparent'});
-	
-	//$("#header_headerFixed_imgAvatar").css({'src': 'https://bd-pilot.csod.com/clientimg/bd/welcome/profile.png'});
-	
-	//var avtImg = document.createElement('Image');
-	//avtImg.src = "https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite.png";
-        //avatarImg.drawImage( avtImg, 12, 4, 8, 8 );
-	//$('.item.oc').css
-	
-	
-	/*
-	var avatarImg = document.getElementById('header_headerFixed_imgAvatar');
-	if (avatarImg != null)
-	{
-	    //avatarImg.src='https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite.png';
-	    //avatarImg.style.backgroundPosition = "12px 4px";
-	   // $('.avatar a').css({'background': 'no-repeat scroll 12px 4px transparent'});
-	   //drawImage( image, x, y, width, height );
-	   var avtImg = document.createElement('Image');
-	   avtImg.src = "https://bd-pilot.csod.com/clientimg/bd/welcome/compass-sprite.png";
-           avatarImg.drawImage( avtImg, 12, 4, 8, 8 );
-	}
-	*/
 
-/*  hide for screen shot	
-	//univProfileLi.style.cssFloat = "right";
-        //swap the new profile image (element ID varies by page)
-	var imgLoc = document.getElementById('header_headerFixed_imgAvatar');
-	if (imgLoc != null)
-	{
-	    document.getElementById('header_headerFixed_imgAvatar').src='https://rawgit.com/gcses/CSOD-JS/master/nophoto2.png';
-	}
-	else
-	{
-		imgLoc = document.getElementById('ctl00_header_headerFixed_imgAvatar');
-		if (imgLoc != null)
-		{
-	  	   document.getElementById('ctl00_header_headerFixed_imgAvatar').src='https://rawgit.com/gcses/CSOD-JS/master/nophoto2.png';
-		}
-	}
-*/
-	
-	//document.getElementById("header_headerFixed_hlAvatar").style.cssFloat = "left";
-	//load splash image background
-	//<div class="topBarOuter">
-	//var headerTable = document.getElementById('tblTopBar');
-	//headerTable.style.backgroundImage = "url('https://rawgit.com/gcses/CSOD-JS/master/header.JPG')";
-	
-	
-	
 	
 	//add words 'Learning Compass'
 	var $LClabel = $("<H1>").text('Learning Compass');
@@ -159,10 +178,6 @@ $(document).ready(function() {
 	$LClabel.css({'display': 'inline', 'float': 'left', 'backgroundColor': '#ffffff', 'margin': '5px 30px 0px 30px', 'padding': '0px 0px 0px 0px'});
 	$('.c-glbl-nav').prepend($LClabel);
 
-	
-	
-	
-	
 	//change the navigation bar to white, remove gradient		
 	$('#main-menu').css({"background-image": "none", "background-color": "#ffffff"});
 	
@@ -195,20 +210,9 @@ $(document).ready(function() {
 	$('#ctl00_header_headerFixed_aHeaderLogoLink').css({"background-color": "#004593"}); 
 	$('#tblTopBar').css({"background-color": "#004593"}); 
 	
-	
-	
-
-	
-	
-	
-	
-	//$('#search .search-lnk:after').css({"content": "\f002", "position": "absolute", "right": "0", "top": "0", "color": "#004593", "width": "26px", "height": "28px", "display": "block", "font": "normal normal normal 14px/1 FontAwesome"});
-	//$('.navTabs li.active a, .navTabs li:hover a').css({"background-image": "none", "color": "#000000", "text-decoration": "underline"});
-	
 	//underlines all sub-categories of active category - do we want to do that?
 	//$('.navTabs li.active a').css({"background-image": "none", "color": "#000000", "text-decoration": "underline"});
 
-	//$('.user-interaction li').css({"background-image": "none", "background-color": "#ffffff", "text-decoration": "none"});
 	 $('.compass-title').css({"font-size": "20px", "line-height": "36px", "margin-left": "30px", "margin-right": "30px", "display": "inline-block"});
 
 	if (document.title.indexOf("Welcome - Realize Your Potential") > -1)
@@ -220,19 +224,9 @@ $(document).ready(function() {
 	   var fname = $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl01_widgetContainer_ctl00_htmlContainer").text();
 	   var lname = $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl02_widgetContainer_ctl00_htmlContainer").text();
 
-		/* hide for screen shot
-	   var elements = document.getElementsByClassName('avatar');
-           var univProfileLi = elements[0];
-	   univProfileLi.innerHTML += fname + " " + lname; 
-	   univProfileLi.style.width = "120px";  
-	   univProfileLi.style.verticalAlign = "middle";
-	   */
-	
-
 	  //all of this needs testing
 	   $('*').css({"font-family": "'Source Sans Pro', sans-serif !important", "font-weight": "normal"});
 	   $('body').css({"background-color": "#f2f2f2", "font-family": "'Source Sans Pro-bottom', sans-serif", "font-weight": "normal", "padding": "0", "margin": "0"}); 
-	   //$('#mainContainer').css({"max-width": "1200px", "margin": "0 auto"});
 	
            /*Header Top Bar - Logo and Header*/   
            $('.imageLogo').css({"margin-left": "30px"});
@@ -242,7 +236,6 @@ $(document).ready(function() {
            $('.user-interaction li').css({"background-color": "none !important", "border": "none", "border-radius": "0", "padding-left": "3px", "border-left": "solid 1px #ffffff", "margin-left": "3px"});
            $('.user-interaction li:first-child').css({"color": "#ffffff", "text-align": "center", "line-height": "32px", "width": "auto !important", "padding": "0 10px 0 24px !important", "border-left": "none"});
 			
-	
 		/*
 		Targets: <div role="navigation" aria-label="Main menu">
     				<div role="application" class="c-glbl-nav">
@@ -250,12 +243,6 @@ $(document).ready(function() {
 
 					 <li class="active">
 		*/
-
-		
-		
-		
-
-		
 
 	    /*Tables*/
             $('.cs-panel-flat, .cs-panel-plain, .cs-panel-gradient').css({"border-radius": "0"});
