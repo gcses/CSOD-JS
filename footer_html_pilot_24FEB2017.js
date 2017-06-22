@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test3");
+	console.log("Test4");
 
 	//Alternative Header Icons
 	//$('.user-interaction').css({"backgroundColor": "#004593"});
@@ -39,11 +39,14 @@ $(document).ready(function() {
 	cogImg.appendTo('#optionsbtn');
 	$('.cog1').css({'height': '30px', 'position': 'absolute', 'top': '5%', 'left': '5%' });
 	$('#optionsbtn').css({'backgroundColor': '#004593'});
+	
+	$('.settings').css({'backgroundColor': '#004593',  'border-left': '1px solid yellow'});
 
 	//$('.avatar').css({"padding-left": "0", "float": "right", "padding-right": "15px", "margin-top": "8px"});
-	//$('.settings').css({"padding-left": "0", "float": "right", "padding-right": "15px", "margin-top": "8px"});
 	
-	//$('.footer-links li').css({"display": "inline-block", "line-height": "16px", "padding-right": "5px", "padding-left": "5px", "border-left": "1px solid #EEEEEE"});
+	
+	//$('.footer-links li').css({"display": "inline-block", "line-height": "16px", "padding-right": "5px",
+	//"padding-left": "5px", "border-left": "1px solid #EEEEEE"});
 	//$('.footer-links li:first-child').css({"border-left": "none"});
 	//$('.footer-links a').css({"color": "#FFFFFF", "font-weight": "400", "text-decoration": "none", "font-size": "11px", "font-weight": "bold"});
 	
