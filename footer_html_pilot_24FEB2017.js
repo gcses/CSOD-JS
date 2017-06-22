@@ -40,6 +40,13 @@ $(document).ready(function() {
 	$('.cog1').css({'height': '30px', 'position': 'absolute', 'top': '5%', 'left': '5%' });
 	$('#optionsbtn').css({'backgroundColor': '#004593'});
 	
+	//$('.footer-links').css({"padding-left": "0", "float": "right", "padding-right": "15px", "margin-top": "8px"});
+	//$('.footer-links li').css({"display": "inline-block", "line-height": "16px", "padding-right": "5px", "padding-left": "5px", "border-left": "1px solid #EEEEEE"});
+	//$('.footer-links li:first-child').css({"border-left": "none"});
+	//$('.footer-links a').css({"color": "#FFFFFF", "font-weight": "400", "text-decoration": "none", "font-size": "11px", "font-weight": "bold"});
+	
+	
+	
 	
         // Profile  
 	var imgLoc = document.getElementById('header_headerFixed_imgAvatar');
