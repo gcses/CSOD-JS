@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test1");
+	console.log("Test2");
 
 	//Alternative Header Icons
 	$('.user-interaction').css({"backgroundColor": "#004593"});
@@ -43,8 +43,7 @@ $(document).ready(function() {
 	
         // Profile  
 	var imgLoc = document.getElementById('header_headerFixed_imgAvatar');
-	
-	
+	imgLoc.attr('height', '10px');
 	if (imgLoc != null)
 	{
 	    document.getElementById('header_headerFixed_imgAvatar').src='https://bd-pilot.csod.com/clientimg/bd/welcome/profile.jpg';
