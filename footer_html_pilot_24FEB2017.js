@@ -24,14 +24,14 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test2");
+	console.log("Test3");
 
 	//Alternative Header Icons
-	$('.user-interaction').css({"backgroundColor": "#004593"});
-	$('.avatar').css({"backgroundColor": "#004593"});
-	$('#header_headerFixed_hlAvatar').css({"backgroundColor": "#004593"});
-	$('#header_headerFixed_hlAvatar span').css({"backgroundColor": "#004593"});
-	$('.user-interaction').css({"backgroundColor": "#004593"});
+	//$('.user-interaction').css({"backgroundColor": "#004593"});
+	//$('.avatar').css({"backgroundColor": "#004593"});
+	//$('#header_headerFixed_hlAvatar').css({"backgroundColor": "#004593"});
+	//$('#header_headerFixed_hlAvatar span').css({"backgroundColor": "#004593"});
+	//$('.user-interaction').css({"backgroundColor": "#004593"});
 
 	//overlay a new image to cover up settings cog image
 	var cogImg = $('<img class="cog1">');
@@ -39,8 +39,10 @@ $(document).ready(function() {
 	cogImg.appendTo('#optionsbtn');
 	$('.cog1').css({'height': '30px', 'position': 'absolute', 'top': '5%', 'left': '5%' });
 	$('#optionsbtn').css({'backgroundColor': '#004593'});
+
+	//$('.avatar').css({"padding-left": "0", "float": "right", "padding-right": "15px", "margin-top": "8px"});
+	//$('.settings').css({"padding-left": "0", "float": "right", "padding-right": "15px", "margin-top": "8px"});
 	
-	//$('.footer-links').css({"padding-left": "0", "float": "right", "padding-right": "15px", "margin-top": "8px"});
 	//$('.footer-links li').css({"display": "inline-block", "line-height": "16px", "padding-right": "5px", "padding-left": "5px", "border-left": "1px solid #EEEEEE"});
 	//$('.footer-links li:first-child').css({"border-left": "none"});
 	//$('.footer-links a').css({"color": "#FFFFFF", "font-weight": "400", "text-decoration": "none", "font-size": "11px", "font-weight": "bold"});
@@ -50,7 +52,7 @@ $(document).ready(function() {
 	
         // Profile  
 	var imgLoc = document.getElementById('header_headerFixed_imgAvatar');
-	imgLoc.attr('height', '10px');
+
 	if (imgLoc != null)
 	{
 	    document.getElementById('header_headerFixed_imgAvatar').src='https://bd-pilot.csod.com/clientimg/bd/welcome/profile.jpg';
