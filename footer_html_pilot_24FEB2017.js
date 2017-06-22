@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test4");
+	console.log("Test5");
 
 	//Alternative Header Icons
 	//$('.user-interaction').css({"backgroundColor": "#004593"});
@@ -40,9 +40,9 @@ $(document).ready(function() {
 	$('.cog1').css({'height': '30px', 'position': 'absolute', 'top': '5%', 'left': '5%' });
 	$('#optionsbtn').css({'backgroundColor': '#004593'});
 	
-	$('.settings').css({'backgroundColor': '#004593',  'border-left': '1px solid yellow'});
+	$('.settings').css({'backgroundColor': '#004593',  'border': '3px solid yellow'});
 
-	//$('.avatar').css({"padding-left": "0", "float": "right", "padding-right": "15px", "margin-top": "8px"});
+	$('.avatar').css({'backgroundColor': '#004593',  'border': '3px solid yellow'});
 	
 	
 	//$('.footer-links li').css({"display": "inline-block", "line-height": "16px", "padding-right": "5px",
