@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test1");
+	console.log("Test2");
 
 	//Alternative Header Icons
 	
@@ -75,7 +75,9 @@ $(document).ready(function() {
             elementAvatar.style.zIndex="2147483644";
 		
 	    // margin: top, right, bottom, left
-	    $('#header_headerFixed_imgAvatar').css({'width': '35px', 'margin': '-5px 0px 0px -20px'});
+	    $('#header_headerFixed_imgAvatar').css({'width': '35px', 'margin': '-5px 0px 0px -20px', 'border': '6px'});
+		
+			
 		
 
 
