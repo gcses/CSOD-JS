@@ -38,11 +38,11 @@ $(document).ready(function() {
         //cogImg.style.zIndex="2147483644";
 	
 	
-	$('.cog1').css({'height': '30px', 'position': 'absolute', 'top': '5%', 'left': '5%', 'border': '6px solid yellow', "zindex", "2147483644"});
+	$('.cog1').css({'height': '30px', 'position': 'absolute', 'top': '5%', 'left': '5%', 'border': '6px solid yellow', "zindex": "2147483644"});
 	
 
 
-	$('.user-interaction').css({'backgroundColor': '#004593', 'border': '6px solid yellow', "zindex","2147483644"});
+	$('.user-interaction').css({'backgroundColor': '#004593', 'border': '6px solid yellow', "zindex": "2147483644"});
 	
 	$('.user-interaction span').css({'backgroundColor': '#004593', 'border': '6px solid yellow'});
 	
@@ -51,7 +51,7 @@ $(document).ready(function() {
 
 	
 	
-	$('#optionsbtn').css({'backgroundColor': '#004593', 'border': '6px solid yellow', "zindex","2147483644"});
+	$('#optionsbtn').css({'backgroundColor': '#004593', 'border': '6px solid yellow', "zindex": "2147483644"});
 	
 
         //var elementsBtn = document.getElementById('optionsbtn');
