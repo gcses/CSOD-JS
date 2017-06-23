@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test7");
+	console.log("Test9");
 
 	//Alternative Header Icons
 	//$('.user-interaction').css({"backgroundColor": "#004593"});
@@ -46,6 +46,13 @@ $(document).ready(function() {
 	
 	
 	$('.user-interaction').css({'backgroundColor': '#004593', 'border': '3px solid yellow'});
+	
+	$('.user-interaction span').css({'backgroundColor': '#004593', 'border': '3px solid yellow'});
+	
+	$('.settings span').css({'backgroundColor': '#004593', 'border': '3px solid yellow'});
+	
+
+	
 	
 	$('#optionsbtn').css({'backgroundColor': '#004593', 'border': '3px solid yellow'});
 	
