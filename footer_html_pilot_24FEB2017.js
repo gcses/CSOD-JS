@@ -37,20 +37,17 @@ $(document).ready(function() {
 	$('.cog1').css({'height': '30px', 'position': 'absolute', 'top': '5%', 'left': '5%', 'border': '6px', "zindex": "2147483644"});
 	$('#optionsbtn').css({'backgroundColor': '#004593', 'border': '6px', "zindex": "2147483644"});
 	
-	$('.user-interaction').css({'backgroundColor': '#004593'});
-	$('.user-interaction span').css({'backgroundColor': '#004593'});
+
 	//$('.settings span').css({'backgroundColor': '#004593'});
 	//$('.settings').css({'backgroundColor': '#004593',  'border': '6px solid yellow'});
 	//$('.item').css({'backgroundColor': '#004593',  'border': '6px solid yellow'});
 	//$('.cso-hdr-dd').css({'backgroundColor': '#004593',  'border': '6px solid yellow'});
-	$('#header_headerFixed_hlAvatar').css({'backgroundColor': '#004593',  'border': '6px solid yellow'});
 	//$('#header_headerFixed_imgAvatar').css({'backgroundColor': '#004593',  'border': '6px solid yellow'});
 	
 	
-
-	
-	
-	
+	//$('.user-interaction').css({'backgroundColor': '#004593'});
+	//$('.user-interaction span').css({'backgroundColor': '#004593'});
+	$('#header_headerFixed_hlAvatar').css({'backgroundColor': '#004593',  'border': '6px solid yellow'});
 	$('.avatar').css({'backgroundColor': '#004593',  'border': '6px solid'});
 	
 	
@@ -66,7 +63,7 @@ $(document).ready(function() {
             elementAvatar.style.zIndex="2147483644";
 		
 	    // margin: top, right, bottom, left
-	    $('#header_headerFixed_imgAvatar').css({'width': '35px', 'margin': '0px 0px 0px -15px', 'border-left': '6px ' , 'border-right': '6px', 'padding-left': '10px', 'padding-right': '10px'});
+	    $('#header_headerFixed_imgAvatar').css({'width': '35px', 'margin': '-5px 0px 0px -20px', 'border-left': '6px ' , 'border-right': '6px', 'padding-left': '10px', 'padding-right': '10px'});
 		
 			
 		
