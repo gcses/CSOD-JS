@@ -64,7 +64,7 @@ $(document).ready(function() {
 	
 	
 	
-	$('.avatar').css({'backgroundColor': '#004593',  'border': '6px solid '#004593''});
+	$('.avatar').css({'backgroundColor': '#004593',  'border': '6px solid'});
 	
 	
 	
