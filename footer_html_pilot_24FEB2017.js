@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test6");
+	console.log("Test7");
 
 	//Alternative Header Icons
 	//$('.user-interaction').css({"backgroundColor": "#004593"});
