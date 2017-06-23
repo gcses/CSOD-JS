@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test6");
+	console.log("Test8");
 
 	//Alternative Header Icons
 	
@@ -43,14 +43,11 @@ $(document).ready(function() {
 
 
 	$('.user-interaction').css({'backgroundColor': '#004593', 'border': '6px solid yellow', "zindex": "2147483644"});
-	
 	$('.user-interaction span').css({'backgroundColor': '#004593', 'border': '6px solid yellow'});
-	
 	$('.settings span').css({'backgroundColor': '#004593', 'border': '6px solid yellow'});
 	
 
-	
-	
+
 	$('#optionsbtn').css({'backgroundColor': '#004593', 'border': '6px solid yellow', "zindex": "2147483644"});
 	
 
@@ -58,28 +55,15 @@ $(document).ready(function() {
         //elementBtn.style.position = "absolute";
         //elementBtn.style.zIndex="2147483644";
 	
-	
-	
 	$('.settings').css({'backgroundColor': '#004593',  'border': '6px solid yellow'});
-
 	$('.avatar').css({'backgroundColor': '#004593',  'border': '6px solid yellow'});
-	
 	$('.item').css({'backgroundColor': '#004593',  'border': '6px solid yellow'});
-	
 	$('.cso-hdr-dd').css({'backgroundColor': '#004593',  'border': '6px solid yellow'});
-	
 	$('#header_headerFixed_hlAvatar').css({'backgroundColor': '#004593',  'border': '6px solid yellow'});
-	
 	$('#header_headerFixed_imgAvatar').css({'backgroundColor': '#004593',  'border': '6px solid yellow'});
 	
 	
-	
-        //$(".wrapper").css({"margin-left": "10%"});
-        //var elements = document.getElementsByClassName('wrapper');
-        //elements[0].style.position = "absolute";
-        //elements[0].style.zIndex="2147483644";
 
-		
 	
 	
 	
@@ -89,13 +73,14 @@ $(document).ready(function() {
 	if (imgLoc != null)
 	{
 	    document.getElementById('header_headerFixed_imgAvatar').src='https://bd-pilot.csod.com/clientimg/bd/welcome/profile.jpg';
-	    //var imgLoc = document.getElementById('header_headerFixed_imgAvatar');
-		
-	    $('#header_headerFixed_imgAvatar').css({'width': '35px'});
-		
-	    var elementAvatar = document.getElementById('header_headerFixed_imgAvatar');
+            var elementAvatar = document.getElementById('header_headerFixed_imgAvatar');
             elementAvatar.style.position = "absolute";
             elementAvatar.style.zIndex="2147483644";
+		
+	    // margin: top, right, bottom, left
+	    $('#header_headerFixed_imgAvatar').css({'width': '35px', 'margin': '-5px 0px 0px -20px'});
+		
+
 
 	}
 	else
