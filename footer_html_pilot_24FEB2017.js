@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test8");
+	console.log("Test1");
 
 	//Alternative Header Icons
 	
@@ -33,35 +33,32 @@ $(document).ready(function() {
 	var cogImg = $('<img class="cog1">');
 	cogImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/cog.png');
 	cogImg.appendTo('#optionsbtn');
-	
-	//cogImg.style.position = "absolute";
-        //cogImg.style.zIndex="2147483644";
-	
-	
-	$('.cog1').css({'height': '30px', 'position': 'absolute', 'top': '5%', 'left': '5%', 'border': '6px solid yellow', "zindex": "2147483644"});
+
+	$('.cog1').css({'height': '30px', 'position': 'absolute', 'top': '5%', 'left': '5%', 'border': '6px', "zindex": "2147483644"});
 	
 
 
-	$('.user-interaction').css({'backgroundColor': '#004593', 'border': '6px solid yellow', "zindex": "2147483644"});
-	$('.user-interaction span').css({'backgroundColor': '#004593', 'border': '6px solid yellow'});
-	$('.settings span').css({'backgroundColor': '#004593', 'border': '6px solid yellow'});
+	//$('.user-interaction').css({'backgroundColor': '#004593', 'border': '6px solid yellow', "zindex": "2147483644"});
+	//$('.user-interaction span').css({'backgroundColor': '#004593', 'border': '6px solid yellow'});
+	//$('.settings span').css({'backgroundColor': '#004593', 'border': '6px solid yellow'});
 	
 
 
-	$('#optionsbtn').css({'backgroundColor': '#004593', 'border': '6px solid yellow', "zindex": "2147483644"});
+	$('#optionsbtn').css({'backgroundColor': '#004593', 'border': '6px', "zindex": "2147483644"});
 	
 
         //var elementsBtn = document.getElementById('optionsbtn');
         //elementBtn.style.position = "absolute";
         //elementBtn.style.zIndex="2147483644";
 	
+	/*
 	$('.settings').css({'backgroundColor': '#004593',  'border': '6px solid yellow'});
 	$('.avatar').css({'backgroundColor': '#004593',  'border': '6px solid yellow'});
 	$('.item').css({'backgroundColor': '#004593',  'border': '6px solid yellow'});
 	$('.cso-hdr-dd').css({'backgroundColor': '#004593',  'border': '6px solid yellow'});
 	$('#header_headerFixed_hlAvatar').css({'backgroundColor': '#004593',  'border': '6px solid yellow'});
 	$('#header_headerFixed_imgAvatar').css({'backgroundColor': '#004593',  'border': '6px solid yellow'});
-	
+	*/
 	
 
 	
@@ -89,8 +86,12 @@ $(document).ready(function() {
 		if (imgLoc != null)
 		{
 	  	   document.getElementById('ctl00_header_headerFixed_imgAvatar').src='https://bd-pilot.csod.com/clientimg/bd/welcome/profile.jpg';
-		   //var imgLoc = document.getElementById('ctl00_header_headerFixed_imgAvatar');
-	           //$('#header_headerFixed_imgAvatar').css({'width': '35px'});
+		   var elementAvatar = document.getElementById('ctl00_header_headerFixed_imgAvatar');
+                   elementAvatar.style.position = "absolute";
+                   elementAvatar.style.zIndex="2147483644";
+		
+	          // margin: top, right, bottom, left
+	          $('#ctl00_header_headerFixed_imgAvatar').css({'width': '35px', 'margin': '-5px 0px 0px -20px'});
 		}
 	}
 
