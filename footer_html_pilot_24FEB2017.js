@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test4");
+	console.log("Test6");
 
 	//Alternative Header Icons
 	
@@ -90,7 +90,13 @@ $(document).ready(function() {
 	{
 	    document.getElementById('header_headerFixed_imgAvatar').src='https://bd-pilot.csod.com/clientimg/bd/welcome/profile.jpg';
 	    //var imgLoc = document.getElementById('header_headerFixed_imgAvatar');
-	    //$('#header_headerFixed_imgAvatar').css({'width': '35px'});
+		
+	    $('#header_headerFixed_imgAvatar').css({'width': '35px'});
+		
+	    var elementAvatar = document.getElementById('header_headerFixed_imgAvatar');
+            elementAvatar.style.position = "absolute";
+            elementAvatar.style.zIndex="2147483644";
+
 	}
 	else
 	{
