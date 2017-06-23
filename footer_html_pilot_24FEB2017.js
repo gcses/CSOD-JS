@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test9");
+	console.log("Test10");
 
 	//Alternative Header Icons
 	
@@ -35,18 +35,16 @@ $(document).ready(function() {
 	cogImg.appendTo('#optionsbtn');
 
 	$('.cog1').css({'height': '30px', 'position': 'absolute', 'top': '5%', 'left': '5%', 'border': '6px', "zindex": "2147483644"});
-	
 	$('#optionsbtn').css({'backgroundColor': '#004593', 'border': '6px', "zindex": "2147483644"});
-	
 	
 	$('.user-interaction').css({'backgroundColor': '#004593'});
 	$('.user-interaction span').css({'backgroundColor': '#004593'});
-	$('.settings span').css({'backgroundColor': '#004593'});
-	$('.settings').css({'backgroundColor': '#004593',  'border': '6px solid yellow'});
-	$('.item').css({'backgroundColor': '#004593',  'border': '6px solid yellow'});
-	$('.cso-hdr-dd').css({'backgroundColor': '#004593',  'border': '6px solid yellow'});
+	//$('.settings span').css({'backgroundColor': '#004593'});
+	//$('.settings').css({'backgroundColor': '#004593',  'border': '6px solid yellow'});
+	//$('.item').css({'backgroundColor': '#004593',  'border': '6px solid yellow'});
+	//$('.cso-hdr-dd').css({'backgroundColor': '#004593',  'border': '6px solid yellow'});
 	$('#header_headerFixed_hlAvatar').css({'backgroundColor': '#004593',  'border': '6px solid yellow'});
-	$('#header_headerFixed_imgAvatar').css({'backgroundColor': '#004593',  'border': '6px solid yellow'});
+	//$('#header_headerFixed_imgAvatar').css({'backgroundColor': '#004593',  'border': '6px solid yellow'});
 	
 	
 
