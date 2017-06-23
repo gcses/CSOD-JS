@@ -34,15 +34,15 @@ $(document).ready(function() {
 	cogImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/cog.png');
 	cogImg.appendTo('#optionsbtn');
 	
-	cogImg.style.position = "absolute";
-        cogImg.style.zIndex="2147483644";
+	//cogImg.style.position = "absolute";
+        //cogImg.style.zIndex="2147483644";
 	
 	
-	$('.cog1').css({'height': '30px', 'position': 'absolute', 'top': '5%', 'left': '5%', 'border': '6px solid yellow'});
-	
+	$('.cog1').css({'height': '30px', 'position': 'absolute', 'top': '5%', 'left': '5%', 'border': '6px solid yellow', "zindex", "2147483644"});
 	
 
-	$('.user-interaction').css({'backgroundColor': '#004593', 'border': '6px solid yellow'});
+
+	$('.user-interaction').css({'backgroundColor': '#004593', 'border': '6px solid yellow', "zindex","2147483644"});
 	
 	$('.user-interaction span').css({'backgroundColor': '#004593', 'border': '6px solid yellow'});
 	
@@ -51,12 +51,12 @@ $(document).ready(function() {
 
 	
 	
-	$('#optionsbtn').css({'backgroundColor': '#004593', 'border': '6px solid yellow'});
+	$('#optionsbtn').css({'backgroundColor': '#004593', 'border': '6px solid yellow', "zindex","2147483644"});
 	
 
-        var elementsBtn = document.getElementById('optionsbtn');
-        elementBtn.style.position = "absolute";
-        elementBtn.style.zIndex="2147483644";
+        //var elementsBtn = document.getElementById('optionsbtn');
+        //elementBtn.style.position = "absolute";
+        //elementBtn.style.zIndex="2147483644";
 	
 	
 	
