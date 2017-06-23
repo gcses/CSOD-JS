@@ -24,17 +24,9 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test1");
+	console.log("Test3");
 
 	//Alternative Header Icons
-	//$('.user-interaction').css({"backgroundColor": "#004593"});
-	//$('.avatar').css({"backgroundColor": "#004593"});
-	//$('#header_headerFixed_hlAvatar').css({"backgroundColor": "#004593"});
-	//$('#header_headerFixed_hlAvatar span').css({"backgroundColor": "#004593"});
-	//$('.user-interaction').css({"backgroundColor": "#004593"});
-	
-	
-	
 	
 
 	//overlay a new image to cover up settings cog image
@@ -42,10 +34,14 @@ $(document).ready(function() {
 	cogImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/cog.png');
 	cogImg.appendTo('#optionsbtn');
 	
+	cogImg.style.position = "absolute";
+        cogImg.style.zIndex="2147483644";
+	
+	
 	$('.cog1').css({'height': '30px', 'position': 'absolute', 'top': '5%', 'left': '5%', 'border': '6px solid yellow'});
 	
 	
-	
+
 	$('.user-interaction').css({'backgroundColor': '#004593', 'border': '6px solid yellow'});
 	
 	$('.user-interaction span').css({'backgroundColor': '#004593', 'border': '6px solid yellow'});
@@ -56,6 +52,13 @@ $(document).ready(function() {
 	
 	
 	$('#optionsbtn').css({'backgroundColor': '#004593', 'border': '6px solid yellow'});
+	
+
+        var elementsBtn = document.getElementById('optionsbtn');
+        elementBtn.style.position = "absolute";
+        elementBtn.style.zIndex="2147483644";
+	
+	
 	
 	$('.settings').css({'backgroundColor': '#004593',  'border': '6px solid yellow'});
 
@@ -71,11 +74,12 @@ $(document).ready(function() {
 	
 	
 	
-	//$('.footer-links li').css({"display": "inline-block", "line-height": "16px", "padding-right": "5px",
-	//"padding-left": "5px", "border-left": "1px solid #EEEEEE"});
-	//$('.footer-links li:first-child').css({"border-left": "none"});
-	//$('.footer-links a').css({"color": "#FFFFFF", "font-weight": "400", "text-decoration": "none", "font-size": "11px", "font-weight": "bold"});
-	
+        //$(".wrapper").css({"margin-left": "10%"});
+        //var elements = document.getElementsByClassName('wrapper');
+        //elements[0].style.position = "absolute";
+        //elements[0].style.zIndex="2147483644";
+
+		
 	
 	
 	
