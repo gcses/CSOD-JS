@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test7");
+	console.log("Test8");
 
 	//Alternative Header Icons
 	
@@ -79,7 +79,7 @@ $(document).ready(function() {
             elementAvatar.style.zIndex="2147483644";
 		
 	    // margin: top, right, bottom, left
-	    $('#header_headerFixed_imgAvatar').css({'width': '35px', 'margin': '0px 0px 0px -15px', 'border': '6px'});
+	    $('#header_headerFixed_imgAvatar').css({'width': '35px', 'margin': '0px 0px 0px -15px', 'border-left': '6px', 'border-right': '6px', 'padding-left': '10px', 'padding-right': '10px'});
 		
 			
 		
