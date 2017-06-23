@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test4");
+	console.log("Test5");
 
 	//Alternative Header Icons
 	
@@ -53,7 +53,7 @@ $(document).ready(function() {
 	
 	/*
 	$('.settings').css({'backgroundColor': '#004593',  'border': '6px solid yellow'});
-	$('.avatar').css({'backgroundColor': '#004593',  'border': '6px solid yellow'});
+	
 	$('.item').css({'backgroundColor': '#004593',  'border': '6px solid yellow'});
 	$('.cso-hdr-dd').css({'backgroundColor': '#004593',  'border': '6px solid yellow'});
 	$('#header_headerFixed_hlAvatar').css({'backgroundColor': '#004593',  'border': '6px solid yellow'});
@@ -61,6 +61,10 @@ $(document).ready(function() {
 	*/
 	
 
+	
+	
+	
+	$('.avatar').css({'backgroundColor': '#004593',  'border': '6px solid '#004593''});
 	
 	
 	
@@ -75,7 +79,7 @@ $(document).ready(function() {
             elementAvatar.style.zIndex="2147483644";
 		
 	    // margin: top, right, bottom, left
-	    $('#header_headerFixed_imgAvatar').css({'width': '35px', 'margin': '5px 0px 0px -10px', 'border': '6px'});
+	    $('#header_headerFixed_imgAvatar').css({'width': '35px', 'margin': '0px 0px 0px 0px', 'border': '6px'});
 		
 			
 		
