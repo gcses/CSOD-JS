@@ -53,6 +53,15 @@ $(document).ready(function() {
 
 	$('.avatar').css({'backgroundColor': '#004593',  'border': '3px solid yellow'});
 	
+	$('.item').css({'backgroundColor': '#004593',  'border': '3px solid yellow'});
+	
+	$('.cso-hdr-dd').css({'backgroundColor': '#004593',  'border': '3px solid yellow'});
+	
+	$('#header_headerFixed_hlAvatar').css({'backgroundColor': '#004593',  'border': '3px solid yellow'});
+	
+	$('#header_headerFixed_imgAvatar').css({'backgroundColor': '#004593',  'border': '3px solid yellow'});
+	
+	
 	
 	//$('.footer-links li').css({"display": "inline-block", "line-height": "16px", "padding-right": "5px",
 	//"padding-left": "5px", "border-left": "1px solid #EEEEEE"});
