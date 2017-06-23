@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test9");
+	console.log("Test1");
 
 	//Alternative Header Icons
 	//$('.user-interaction').css({"backgroundColor": "#004593"});
@@ -41,32 +41,33 @@ $(document).ready(function() {
 	var cogImg = $('<img class="cog1">');
 	cogImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/cog.png');
 	cogImg.appendTo('#optionsbtn');
-	$('.cog1').css({'height': '30px', 'position': 'absolute', 'top': '5%', 'left': '5%' });
+	
+	$('.cog1').css({'height': '30px', 'position': 'absolute', 'top': '5%', 'left': '5%', 'border': '6px solid yellow'});
 	
 	
 	
-	$('.user-interaction').css({'backgroundColor': '#004593', 'border': '3px solid yellow'});
+	$('.user-interaction').css({'backgroundColor': '#004593', 'border': '6px solid yellow'});
 	
-	$('.user-interaction span').css({'backgroundColor': '#004593', 'border': '3px solid yellow'});
+	$('.user-interaction span').css({'backgroundColor': '#004593', 'border': '6px solid yellow'});
 	
-	$('.settings span').css({'backgroundColor': '#004593', 'border': '3px solid yellow'});
+	$('.settings span').css({'backgroundColor': '#004593', 'border': '6px solid yellow'});
 	
 
 	
 	
-	$('#optionsbtn').css({'backgroundColor': '#004593', 'border': '3px solid yellow'});
+	$('#optionsbtn').css({'backgroundColor': '#004593', 'border': '6px solid yellow'});
 	
-	$('.settings').css({'backgroundColor': '#004593',  'border': '3px solid yellow'});
+	$('.settings').css({'backgroundColor': '#004593',  'border': '6px solid yellow'});
 
-	$('.avatar').css({'backgroundColor': '#004593',  'border': '3px solid yellow'});
+	$('.avatar').css({'backgroundColor': '#004593',  'border': '6px solid yellow'});
 	
-	$('.item').css({'backgroundColor': '#004593',  'border': '3px solid yellow'});
+	$('.item').css({'backgroundColor': '#004593',  'border': '6px solid yellow'});
 	
-	$('.cso-hdr-dd').css({'backgroundColor': '#004593',  'border': '3px solid yellow'});
+	$('.cso-hdr-dd').css({'backgroundColor': '#004593',  'border': '6px solid yellow'});
 	
-	$('#header_headerFixed_hlAvatar').css({'backgroundColor': '#004593',  'border': '3px solid yellow'});
+	$('#header_headerFixed_hlAvatar').css({'backgroundColor': '#004593',  'border': '6px solid yellow'});
 	
-	$('#header_headerFixed_imgAvatar').css({'backgroundColor': '#004593',  'border': '3px solid yellow'});
+	$('#header_headerFixed_imgAvatar').css({'backgroundColor': '#004593',  'border': '6px solid yellow'});
 	
 	
 	
