@@ -34,14 +34,14 @@ $(document).ready(function() {
 	cogImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/cog.png');
 	cogImg.appendTo('#optionsbtn');
 
-	
+	// 
 	$('.cog1').css({'height': '30px', 'position': 'absolute', 'top': '5%', 'left': '5%', 'border-radius': '0', 'border': '6px', "zindex": "2147483644"});
 	$('#optionsbtn').css({'backgroundColor': '#004593', 'border': '6px', "zindex": "2147483644"});
 	$('#header_headerFixed_hlAvatar').css({'backgroundColor': '#004593',  'border': '6px solid #004593'});  //yellow border
-	$('.avatar').css({'backgroundColor': '#004593', 'border-radius': '0', 'border': '6px solid'});
+	$('.avatar').css({'backgroundColor': '#004593', 'border-radius': '0', 'border': '8px solid green'});
 	
 	
-        // Profile  
+        // Profile   
 	var imgLoc = document.getElementById('header_headerFixed_imgAvatar');
 
 	if (imgLoc != null)
