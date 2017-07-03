@@ -24,10 +24,9 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test14");
+	console.log("Test15");
 
 	//Alternative Header Icons
-	
 
 	//overlay a new image to cover up settings cog image
 	var cogImg = $('<img class="cog1">');
@@ -39,7 +38,7 @@ $(document).ready(function() {
 	$('#optionsbtn').css({'backgroundColor': '#004593', 'border': '6px', "zindex": "2147483644"});
 	$('#header_headerFixed_hlAvatar').css({'backgroundColor': '#004593',  'border': '6px solid #004593'});  //yellow border
 	$('.avatar').css({'backgroundColor': '#004593', 'border-radius': '0', 'border': '8px solid green'});
-	$('.avatar a .img').css({'backgroundColor': '#004593', 'border-radius': '0', 'border': '8px solid green'});
+	$('.avatar a .img').css({'backgroundColor': '#004593', 'border-radius': '0', 'border': '8px solid yellow'});
 	
         // Profile   
 	var imgLoc = document.getElementById('header_headerFixed_imgAvatar');
