@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test16");
+	console.log("Test1");
 
 	//Alternative Header Icons
 
@@ -34,12 +34,21 @@ $(document).ready(function() {
 	cogImg.appendTo('#optionsbtn');
 
 	
-	$('.cog1').css({'height': '30px', 'position': 'absolute', 'top': '5%', 'left': '5%', 'border-radius': '0', 'border': '6px', "zindex": "2147483644"});
-	$('#optionsbtn').css({'backgroundColor': '#004593', 'border': '6px', "zindex": "2147483644"});
-	$('#header_headerFixed_hlAvatar').css({'backgroundColor': '#004593',  'border': '6px solid #004593'});  //yellow border
-	$('.avatar').css({'backgroundColor': '#004593', 'border-radius': '0', 'border': '8px solid green'});
-	$('.avatar a .img').css({'backgroundColor': '#004593', 'border-radius': '0', 'border': '8px solid yellow'});
-	$('.avatar a').css({'backgroundColor': '#004593', 'border-radius': '0', 'border': '8px solid orange'});
+	//$('.cog1').css({'height': '30px', 'position': 'absolute', 'top': '5%', 'left': '5%', 'border-radius': '0', 'border': '6px', "zindex": "2147483644"});
+	//$('#optionsbtn').css({'backgroundColor': '#004593', 'border': '6px', "zindex": "2147483644"});
+	//$('#header_headerFixed_hlAvatar').css({'backgroundColor': '#004593',  'border': '6px solid #004593'});  //yellow border
+	//$('.avatar').css({'backgroundColor': '#004593', 'border-radius': '0', 'border': '8px solid green'});
+	//$('.avatar a .img').css({'backgroundColor': '#004593', 'border-radius': '0', 'border': '8px solid yellow'});
+	//$('.avatar a').css({'backgroundColor': '#004593', 'border-radius': '0', 'border': '8px solid orange'});
+	
+	$('.cog1').css({'height': '30px', 'position': 'absolute', 'top': '5%', 'left': '5%', 'border-radius': '0', 'border': '0px', "zindex": "2147483644"});
+	$('#optionsbtn').css({'backgroundColor': '#004593', 'border': '0px', "zindex": "2147483644"});
+	$('#header_headerFixed_hlAvatar').css({'backgroundColor': '#004593',  'border': '0px solid #004593'});  //yellow border
+	$('.avatar').css({'backgroundColor': '#004593', 'border-radius': '0', 'border': '0px solid #004593'});
+	$('.avatar a .img').css({'backgroundColor': '#004593', 'border-radius': '0', 'border': '0px solid #004593'});
+	$('.avatar a').css({'backgroundColor': '#004593', 'border-radius': '0', 'border': '0px solid #004593'});
+	
+	
 	
 	
 	//var el = document.getElementById('test'),
