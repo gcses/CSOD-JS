@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test15");
+	console.log("Test16");
 
 	//Alternative Header Icons
 
@@ -39,6 +39,7 @@ $(document).ready(function() {
 	$('#header_headerFixed_hlAvatar').css({'backgroundColor': '#004593',  'border': '6px solid #004593'});  //yellow border
 	$('.avatar').css({'backgroundColor': '#004593', 'border-radius': '0', 'border': '8px solid green'});
 	$('.avatar a .img').css({'backgroundColor': '#004593', 'border-radius': '0', 'border': '8px solid yellow'});
+	$('.avatar a').css({'backgroundColor': '#004593', 'border-radius': '0', 'border': '8px solid orange'});
 	
         // Profile   
 	var imgLoc = document.getElementById('header_headerFixed_imgAvatar');
