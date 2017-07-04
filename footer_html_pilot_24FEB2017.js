@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test4");
+	console.log("Test6");
 
 	//Alternative Header Icons
 
@@ -45,10 +45,10 @@ $(document).ready(function() {
 	$('#optionsbtn').css({'backgroundColor': '#004593', 'border': '0px', "zindex": "2147483644"});
 	
 	
-	$('#header_headerFixed_hlAvatar').css({'backgroundColor': '#004593',  'top': '5%',  'border': '0px solid #004593'});  //yellow border
-	$('.avatar').css({'backgroundColor': '#004593', 'border-radius': '0', 'border': '0px solid #004593'});
-	$('.avatar a .img').css({'backgroundColor': '#004593', 'border-radius': '0', 'border': '0px solid #004593'});
-	$('.avatar a').css({'backgroundColor': '#004593', 'border-radius': '0', 'border': '0px solid #004593'});
+	$('#header_headerFixed_hlAvatar').css({'backgroundColor': '#004593',  'margin-top': '5px',  'border': '0px solid #004593'});  //yellow border
+	$('.avatar').css({'backgroundColor': '#004593', 'border-radius': '0', 'margin-top': '5px', 'border': '0px solid #004593'});
+	$('.avatar a .img').css({'backgroundColor': '#004593', 'border-radius': '0', 'margin-top': '5px', 'border': '0px solid #004593'});
+	$('.avatar a').css({'backgroundColor': '#004593', 'border-radius': '0',  'margin-top': '5px', 'border': '0px solid #004593'});
 	
 	//var el = document.getElementById('test'),
         //parent = el.parentElement || el.parentNode,
