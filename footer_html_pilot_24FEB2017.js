@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test8");
+	console.log("Test1");
 
 	//Alternative Header Icons
 
@@ -34,7 +34,6 @@ $(document).ready(function() {
 	cogImg.appendTo('#optionsbtn');
 	$('.cog1').css({'height': '30px', 'position': 'absolute', 'top': '5%', 'left': '5%', 'border-radius': '0', 'border': '0px', "zindex": "2147483644"});
 	$('#optionsbtn').css({'backgroundColor': '#004593', 'border': '0px', "zindex": "2147483644"});
-	
 	
 	$('#header_headerFixed_hlAvatar').css({'backgroundColor': '#004593',  'margin-top': '5px', 'margin-left': '5px', 'border': '0px solid #004593'});  //yellow border
 	$('.avatar').css({'backgroundColor': '#004593', 'border-radius': '0', 'margin-top': '5px', 'margin-left': '5px', 'border': '0px solid #004593'});
@@ -200,17 +199,13 @@ $(document).ready(function() {
 	if (document.title.indexOf("Welcome - Realize Your Potential") > -1)
 	{
 		
-	      $('#header_headerFixed_hlAvatar').css({'backgroundColor': '#004593',  'margin-top': '5px',  'border': '0px solid #004593'});  //yellow border
-	      $('.avatar').css({'backgroundColor': '#004593', 'border-radius': '0', 'margin-top': '5px', 'border': '0px solid #004593'});
-	      $('.avatar a .img').css({'backgroundColor': '#004593', 'border-radius': '0', 'margin-top': '5px', 'border': '0px solid #004593'});
-	      $('.avatar a').css({'backgroundColor': '#004593', 'border-radius': '0',  'margin-top': '5px', 'border': '0px solid #004593'});
+	      $('#header_headerFixed_hlAvatar').css({'backgroundColor': '#004593',  'margin-top': '5px', 'margin-left': '5px', 'border': '0px solid #004593'});  //yellow border
+	      $('.avatar').css({'backgroundColor': '#004593', 'border-radius': '0', 'margin-top': '5px', 'margin-left': '5px', 'border': '0px solid #004593'});
+	      $('.avatar a .img').css({'backgroundColor': '#004593', 'border-radius': '0', 'margin-top': '5px', 'margin-left': '5px', 'border': '0px solid #004593'});
+	      $('.avatar a').css({'backgroundColor': '#004593', 'border-radius': '0',  'margin-top': '5px', 'margin-left': '5px', 'border': '0px solid #004593'});
 	      $('.user-interaction').css({'backgroundColor': '#004593', 'border-radius': '0', 'border': '0px solid #004593'});
 
 	
-		
-		
-		
-		
 		
 		
 	   //hide the first name field. It is only included to that we can use the name elsewhere
