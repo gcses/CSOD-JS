@@ -48,13 +48,10 @@ $(document).ready(function() {
 	$('.avatar a .img').css({'backgroundColor': '#004593', 'border-radius': '0', 'border': '0px solid #004593'});
 	$('.avatar a').css({'backgroundColor': '#004593', 'border-radius': '0', 'border': '0px solid #004593'});
 	
-	
-	
-	
 	//var el = document.getElementById('test'),
         //parent = el.parentElement || el.parentNode,
 	
-	$('.user-interaction').css({'backgroundColor': '#004593', 'border-radius': '0', 'border': '8px solid black'});
+	$('.user-interaction').css({'backgroundColor': '#004593', 'border-radius': '0', 'border': '0px solid #004593'});
 	
 	
         // Profile   
