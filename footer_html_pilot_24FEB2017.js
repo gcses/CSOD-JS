@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test1");
+	console.log("Test2");
 
 	//Alternative Header Icons
 
@@ -41,7 +41,7 @@ $(document).ready(function() {
 	//$('.avatar a .img').css({'backgroundColor': '#004593', 'border-radius': '0', 'border': '8px solid yellow'});
 	//$('.avatar a').css({'backgroundColor': '#004593', 'border-radius': '0', 'border': '8px solid orange'});
 	
-	$('.cog1').css({'height': '30px', 'position': 'absolute', 'top': '5%', 'left': '5%', 'border-radius': '0', 'border': '0px', "zindex": "2147483644"});
+	$('.cog1').css({'height': '30px', 'position': 'absolute', 'top': '6%', 'left': '5%', 'border-radius': '0', 'border': '0px', "zindex": "2147483644"});
 	$('#optionsbtn').css({'backgroundColor': '#004593', 'border': '0px', "zindex": "2147483644"});
 	$('#header_headerFixed_hlAvatar').css({'backgroundColor': '#004593',  'border': '0px solid #004593'});  //yellow border
 	$('.avatar').css({'backgroundColor': '#004593', 'border-radius': '0', 'border': '0px solid #004593'});
