@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test6");
+	console.log("Test8");
 
 	//Alternative Header Icons
 
@@ -32,28 +32,18 @@ $(document).ready(function() {
 	var cogImg = $('<img class="cog1">');
 	cogImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/cog.png');
 	cogImg.appendTo('#optionsbtn');
-
-	
-	//$('.cog1').css({'height': '30px', 'position': 'absolute', 'top': '5%', 'left': '5%', 'border-radius': '0', 'border': '6px', "zindex": "2147483644"});
-	//$('#optionsbtn').css({'backgroundColor': '#004593', 'border': '6px', "zindex": "2147483644"});
-	//$('#header_headerFixed_hlAvatar').css({'backgroundColor': '#004593',  'border': '6px solid #004593'});  //yellow border
-	//$('.avatar').css({'backgroundColor': '#004593', 'border-radius': '0', 'border': '8px solid green'});
-	//$('.avatar a .img').css({'backgroundColor': '#004593', 'border-radius': '0', 'border': '8px solid yellow'});
-	//$('.avatar a').css({'backgroundColor': '#004593', 'border-radius': '0', 'border': '8px solid orange'});
-	
 	$('.cog1').css({'height': '30px', 'position': 'absolute', 'top': '5%', 'left': '5%', 'border-radius': '0', 'border': '0px', "zindex": "2147483644"});
 	$('#optionsbtn').css({'backgroundColor': '#004593', 'border': '0px', "zindex": "2147483644"});
 	
 	
-	$('#header_headerFixed_hlAvatar').css({'backgroundColor': '#004593',  'margin-top': '5px',  'border': '0px solid #004593'});  //yellow border
-	$('.avatar').css({'backgroundColor': '#004593', 'border-radius': '0', 'margin-top': '5px', 'border': '0px solid #004593'});
-	$('.avatar a .img').css({'backgroundColor': '#004593', 'border-radius': '0', 'margin-top': '5px', 'border': '0px solid #004593'});
-	$('.avatar a').css({'backgroundColor': '#004593', 'border-radius': '0',  'margin-top': '5px', 'border': '0px solid #004593'});
-	
-	//var el = document.getElementById('test'),
-        //parent = el.parentElement || el.parentNode,
-	
+	$('#header_headerFixed_hlAvatar').css({'backgroundColor': '#004593',  'margin-top': '5px', 'margin-left': '5px', 'border': '0px solid #004593'});  //yellow border
+	$('.avatar').css({'backgroundColor': '#004593', 'border-radius': '0', 'margin-top': '5px', 'margin-left': '5px', 'border': '0px solid #004593'});
+	$('.avatar a .img').css({'backgroundColor': '#004593', 'border-radius': '0', 'margin-top': '5px', 'margin-left': '5px', 'border': '0px solid #004593'});
+	$('.avatar a').css({'backgroundColor': '#004593', 'border-radius': '0',  'margin-top': '5px', 'margin-left': '5px', 'border': '0px solid #004593'});
 	$('.user-interaction').css({'backgroundColor': '#004593', 'border-radius': '0', 'border': '0px solid #004593'});
+
+	
+	
 	
 	
         // Profile   
@@ -209,6 +199,20 @@ $(document).ready(function() {
 
 	if (document.title.indexOf("Welcome - Realize Your Potential") > -1)
 	{
+		
+	      $('#header_headerFixed_hlAvatar').css({'backgroundColor': '#004593',  'margin-top': '5px',  'border': '0px solid #004593'});  //yellow border
+	      $('.avatar').css({'backgroundColor': '#004593', 'border-radius': '0', 'margin-top': '5px', 'border': '0px solid #004593'});
+	      $('.avatar a .img').css({'backgroundColor': '#004593', 'border-radius': '0', 'margin-top': '5px', 'border': '0px solid #004593'});
+	      $('.avatar a').css({'backgroundColor': '#004593', 'border-radius': '0',  'margin-top': '5px', 'border': '0px solid #004593'});
+	      $('.user-interaction').css({'backgroundColor': '#004593', 'border-radius': '0', 'border': '0px solid #004593'});
+
+	
+		
+		
+		
+		
+		
+		
 	   //hide the first name field. It is only included to that we can use the name elsewhere
            $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl01_widgetContainer_ctl00_htmlContainer").hide();
 	   $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl02_widgetContainer_ctl00_htmlContainer").hide();
