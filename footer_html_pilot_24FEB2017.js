@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test7");
+	console.log("Test8");
 
 	//Alternative Header Icons
 
@@ -32,7 +32,7 @@ $(document).ready(function() {
 	var cogImg = $('<img class="cog1">');
 	cogImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/cog.png');
 	cogImg.appendTo('#optionsbtn');
-	$('.cog1').css({'height': '30px', 'position': 'absolute', 'top': '4%', 'left': '5%', 'margin-left': '5px', 'margin-right': '5px', 'border-radius': '0', 'border': '0px', "zindex": "2147483644"});
+	$('.cog1').css({'height': '30px', 'position': 'absolute', 'top': '5%', 'left': '0%', 'margin-left': '0px', 'margin-right': '0px', 'border-radius': '0', 'border': '0px', "zindex": "2147483644"});
 	$('#optionsbtn').css({'backgroundColor': '#004593', 'border': '0px', "zindex": "2147483644"});
 	
 	$('#header_headerFixed_hlAvatar').css({'backgroundColor': '#004593',  'margin-top': '0px', 'margin-right': '0px', 'border': '0px solid #004593'});  //yellow border
