@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test6");
+	console.log("Test7");
 
 	//Alternative Header Icons
 
@@ -327,6 +327,13 @@ $(document).ready(function() {
 	  // $("#container0").css({"width": "100%"});  
 	  // $("#container7").css({"width": "100%"}); 
 		  
+		
+           $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").css({"border": "none"}); 
+	   $("#ctl00_masterPageBody").css({"border": "none"}); 
+	   $("#ctl00_ContentPlaceHolder1_labelError").css({"border": "none"}); 
+	   $("#ctl00_ContentPlaceHolder1_widgetLayout_mainPageDiv").css({"border": "none"}); 
+		
+		
 	   $("#ctl00_ContentPlaceHolder1_widgetLayout_mainDivRenderedWidgets").css({"border": "none", "height": "500px", "margin-top": "0px", "padding-top": "0px"}); 
 	   $("#mainContainer").css({"border": "none", "height": "500x", "margin-top": "0px", "padding-top": "0px"}); 
 	   $("#container0").css({"border": "none", "height": "500px", "margin-top": "0px", "padding-top": "0px"});  
