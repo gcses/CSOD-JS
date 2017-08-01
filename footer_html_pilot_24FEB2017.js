@@ -323,14 +323,14 @@ $(document).ready(function() {
 	  // $("#container0").css({"width": "100%"});  
 	  // $("#container7").css({"width": "100%"}); 
 		
-	   $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").css({"height": "30px"}); 
-	   $("#ctl00_masterPageBody").css({"height": "30px" });  //-30
-	   $("#ctl00_ContentPlaceHolder1_labelError").css({"height": "30px"}); 
-	   $("#ctl00_ContentPlaceHolder1_widgetLayout_mainPageDiv").css({"height": "30px"}); 
-	   $("#ctl00_ContentPlaceHolder1_widgetLayout_mainDivRenderedWidgets").css({"height": "30px"}); 
-	   $("#mainContainer").css({"height": "30px"}); 
-	   $("#container0").css({"height": "30px"});  
-	   $("#container7").css({"height": "30px"}); 
+	   $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").css({"height": "255px"}); 
+	   $("#ctl00_masterPageBody").css({"height": "255x" });  //-30
+	   $("#ctl00_ContentPlaceHolder1_labelError").css({"height": "255px"}); 
+	   $("#ctl00_ContentPlaceHolder1_widgetLayout_mainPageDiv").css({"height": "255px"}); 
+	   $("#ctl00_ContentPlaceHolder1_widgetLayout_mainDivRenderedWidgets").css({"height": "255px"}); 
+	   $("#mainContainer").css({"height": "255x"}); 
+	   $("#container0").css({"height": "255px"});  
+	   $("#container7").css({"height": "255px"}); 
 		
 		
 		
