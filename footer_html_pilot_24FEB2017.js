@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test4");
+	console.log("Test1");
 
 	//Alternative Header Icons
 
@@ -307,7 +307,7 @@ $(document).ready(function() {
 		
      //adjust slider size
         //$("#my-slider").css({"width": "101%", "margin-bottom": "200px"}); 
-	$("#my-slider").css({"width": "101%", "margin-bottom": "0px", "margin-top": "0px", "padding-bottom": "0px", "padding-top": "0px"}); 
+	$("#my-slider").css({"width": "100%", "margin-bottom": "0px", "margin-top": "0px", "padding-bottom": "0px", "padding-top": "0px"}); 
 		
       //remove rounded corners from slider
 	   document.getElementById("my-slider").style.borderRadius = "0px";
@@ -323,10 +323,10 @@ $(document).ready(function() {
 	  // $("#container0").css({"width": "100%"});  
 	  // $("#container7").css({"width": "100%"}); 
 		  
-	   $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").css({"height": "500px"}); 
-	   $("#ctl00_masterPageBody").css({"height": "500x" });  //-30
-	   $("#ctl00_ContentPlaceHolder1_labelError").css({"height": "500px"}); 
-	   $("#ctl00_ContentPlaceHolder1_widgetLayout_mainPageDiv").css({"height": "500px"}); 
+	  // $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").css({"height": "500px"}); 
+	  // $("#ctl00_masterPageBody").css({"height": "500x" });  //-30
+	  // $("#ctl00_ContentPlaceHolder1_labelError").css({"height": "500px"}); 
+	  // $("#ctl00_ContentPlaceHolder1_widgetLayout_mainPageDiv").css({"height": "500px"}); 
 	   $("#ctl00_ContentPlaceHolder1_widgetLayout_mainDivRenderedWidgets").css({"height": "500px"}); 
 	   $("#mainContainer").css({"height": "500x"}); 
 	   $("#container0").css({"height": "500px"});  
