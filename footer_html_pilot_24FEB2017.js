@@ -323,14 +323,10 @@ $(document).ready(function() {
 	  // $("#container0").css({"width": "100%"});  
 	  // $("#container7").css({"width": "100%"}); 
 		  
-	  // $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").css({"height": "500px"}); 
-	  // $("#ctl00_masterPageBody").css({"height": "500x" });  //-30
-	  // $("#ctl00_ContentPlaceHolder1_labelError").css({"height": "500px"}); 
-	  // $("#ctl00_ContentPlaceHolder1_widgetLayout_mainPageDiv").css({"height": "500px"}); 
-	   $("#ctl00_ContentPlaceHolder1_widgetLayout_mainDivRenderedWidgets").css({"height": "500px"}); 
-	   $("#mainContainer").css({"height": "500x"}); 
-	   $("#container0").css({"height": "500px"});  
-	   $("#container7").css({"height": "500px"}); 
+	   $("#ctl00_ContentPlaceHolder1_widgetLayout_mainDivRenderedWidgets").css({"height": "500px", "margin-top": "0px", "padding-top": "0px"}); 
+	   $("#mainContainer").css({"height": "500x", "margin-top": "0px", "padding-top": "0px"}); 
+	   $("#container0").css({"height": "500px", "margin-top": "0px", "padding-top": "0px"});  
+	   $("#container7").css({"height": "500px", "margin-top": "0px", "padding-top": "0px"}); 
 		
 		
 		
