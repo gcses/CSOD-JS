@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test2");
+	console.log("Test3");
 
 	//Alternative Header Icons
 
@@ -307,7 +307,7 @@ $(document).ready(function() {
 		
      //adjust slider size
         //$("#my-slider").css({"width": "101%", "margin-bottom": "200px"}); 
-	$("#my-slider").css({"width": "101%"}); 
+	$("#my-slider").css({"width": "101%", "margin-bottom": "0px", "margin-top": "0px"}); 
 		
       //remove rounded corners from slider
 	   document.getElementById("my-slider").style.borderRadius = "0px";
