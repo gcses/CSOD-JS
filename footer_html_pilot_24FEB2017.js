@@ -309,6 +309,9 @@ $(document).ready(function() {
         //$("#my-slider").css({"width": "101%", "margin-bottom": "200//px"}); 
 //#f2f2f2
 	$("#my-slider").css({"width": "100%", "backgroundColor": "blue", "margin-bottom": "0px", "margin-top": "0px", "padding-bottom": "0px", "padding-top": "0px"}); 
+	
+		
+		
 		
       //remove rounded corners from slider
 	   document.getElementById("my-slider").style.borderRadius = "0px";
