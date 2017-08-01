@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test4");
+	console.log("Test5");
 
 	//Alternative Header Icons
 
@@ -308,14 +308,14 @@ $(document).ready(function() {
      //adjust slider size
         //$("#my-slider").css({"width": "101%", "margin-bottom": "200//px"}); 
 //#f2f2f2
-	$("#my-slider").css({"width": "100%", "margin-bottom": "0px", "margin-top": "0px", "padding-bottom": "0px", "padding-top": "0px"}); 
+	$("#my-slider").css({"border": "none", "width": "100%", "margin-bottom": "0px", "margin-top": "0px", "padding-bottom": "0px", "padding-top": "0px"}); 
 	
 		
 		
 		
       //remove rounded corners from slider
 	   document.getElementById("my-slider").style.borderRadius = "0px";
-	  
+	   document.getElementById("my-slider").style.border = "none";
 	
       //Resize and reposition slider - margin: top, right, bottom, left
 	  // $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").css({"width": "102%", "margin": "0px 0px 0px -5px"}); 
