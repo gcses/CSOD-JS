@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test1");
+	console.log("Test2");
 
 	//Alternative Header Icons
 
@@ -307,10 +307,12 @@ $(document).ready(function() {
 		
      //adjust slider size
         //$("#my-slider").css({"width": "101%", "margin-bottom": "200//px"}); 
-	$("#my-slider").css({"border": "none", "width": "100%", "margin-bottom": "60px", "margin-top": "0px", "padding-bottom": "0px", "padding-top": "0px"}); 
+       // margin bottom pushes down the Cards
+	$("#my-slider").css({"border": "none", "width": "100%", "margin-bottom": "30px", "margin-top": "0px", "padding-bottom": "0px", "padding-top": "0px"}); 
 	
+		
+	//push down the My Learninig box	
         $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl04_widgetContainer_ctl00_pnlMyTraining").css({"margin-top": "150px"}); 
-
 		
 		
       //remove rounded corners from slider
