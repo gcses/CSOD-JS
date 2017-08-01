@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test4");
+	console.log("Test5");
 
 	//Alternative Header Icons
 
@@ -307,9 +307,9 @@ $(document).ready(function() {
 		
      //adjust slider size
         //$("#my-slider").css({"width": "101%", "margin-bottom": "200//px"}); 
-	$("#my-slider").css({"border": "none", "width": "100%", "margin-bottom": "60px", "margin-top": "-30px", "padding-bottom": "0px", "padding-top": "0px"}); 
+	$("#my-slider").css({"border": "none", "width": "100%", "margin-bottom": "60px", "margin-top": "-70px", "padding-bottom": "0px", "padding-top": "0px"}); 
 	
-        $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl04_widgetContainer_ctl00_pnlMyTraining").css({"margin-top": "180px"}); 
+        $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl04_widgetContainer_ctl00_pnlMyTraining").css({"margin-top": "150px"}); 
 
 		
 		
