@@ -308,15 +308,16 @@ $(document).ready(function() {
      //adjust slider size
         //$("#my-slider").css({"width": "101%", "margin-bottom": "200//px"}); 
        // margin bottom pushes down the Cards
-	$("#my-slider").css({"border": "none", "width": "100%", "margin-bottom": "30px", "margin-top": "0px", "padding-bottom": "0px", "padding-top": "0px"}); 
+	$("#my-slider").css({"border": "none", "width": "100%", "margin-bottom": "10px", "margin-top": "0px", "padding-bottom": "0px", "padding-top": "0px"}); 
 	
-		
 	//push down the My Learninig box	
         $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl04_widgetContainer_ctl00_pnlMyTraining").css({"margin-top": "150px"}); 
 		
-		
       //remove rounded corners from slider
 	   document.getElementById("my-slider").style.borderRadius = "0px";
+		
+      //bring entire slider and body in general up to be flush with the warning banner under the nav bar
+       $("#ctl00_masterPageBody").css({ "margin": "-40px 0px 0px 0px"}); 
 	
       //Resize and reposition slider - margin: top, right, bottom, left
 	  //$("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").css({"width": "102%", "margin": "0px 0px 0px -5px"}); 
@@ -330,7 +331,7 @@ $(document).ready(function() {
 		  
 		
           // $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").css({"border": "none"}); 
-	  $("#ctl00_masterPageBody").css({ "margin": "-40px 0px 0px 0px"}); 
+	 
 	  // $("#ctl00_ContentPlaceHolder1_labelError").css({"border": "none"}); 
 	  // $("#ctl00_ContentPlaceHolder1_widgetLayout_mainPageDiv").css({"border": "none"}); 
 		
