@@ -308,7 +308,7 @@ $(document).ready(function() {
      //adjust slider size
         //$("#my-slider").css({"width": "101%", "margin-bottom": "200//px"}); 
 //#f2f2f2
-	$("#my-slider").css({"width": "100%", "backgroundColor": "blue", "margin-bottom": "0px", "margin-top": "0px", "padding-bottom": "0px", "padding-top": "0px"}); 
+	$("#my-slider").css({"width": "100%", "margin-bottom": "0px", "margin-top": "0px", "padding-bottom": "0px", "padding-top": "0px"}); 
 	
 		
 		
@@ -327,11 +327,10 @@ $(document).ready(function() {
 	  // $("#container0").css({"width": "100%"});  
 	  // $("#container7").css({"width": "100%"}); 
 		  
-	   $("#ctl00_ContentPlaceHolder1_widgetLayout_mainDivRenderedWidgets").css({"height": "500px", "backgroundColor": "yellow", "margin-top": "0px", "padding-top": "0px"}); 
-	   $("#mainContainer").css({"height": "500x", "backgroundColor": "red", "margin-top": "0px", "padding-top": "0px"}); 
-	   $("#container0").css({"height": "500px", "backgroundColor": "green", "margin-top": "0px", "padding-top": "0px"});  
-	   $("#container7").css({"height": "500px", "backgroundColor": "white", "margin-top": "0px", "padding-top": "0px"}); 
-		
+	   $("#ctl00_ContentPlaceHolder1_widgetLayout_mainDivRenderedWidgets").css({"height": "500px", "margin-top": "0px", "padding-top": "0px"}); 
+	   $("#mainContainer").css({"height": "500x", "margin-top": "0px", "padding-top": "0px"}); 
+	   $("#container0").css({"height": "500px", "margin-top": "0px", "padding-top": "0px"});  
+	   $("#container7").css({"height": "500px", "margin-top": "0px", "padding-top": "0px"}); 
 		
 		
 	//CARD Style
