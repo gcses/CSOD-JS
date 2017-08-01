@@ -323,7 +323,7 @@ $(document).ready(function() {
 	  // $("#container0").css({"width": "100%"});  
 	  // $("#container7").css({"width": "100%"}); 
 		  
-	   $("#ctl00_ContentPlaceHolder1_widgetLayout_mainDivRenderedWidgets").css({"height": "500px", "backgroundColor": "#f2f2f2", margin-top": "0px", "padding-top": "0px"}); 
+	   $("#ctl00_ContentPlaceHolder1_widgetLayout_mainDivRenderedWidgets").css({"height": "500px", "backgroundColor": "#f2f2f2", "margin-top": "0px", "padding-top": "0px"}); 
 	   $("#mainContainer").css({"height": "500x", "backgroundColor": "#f2f2f2", "margin-top": "0px", "padding-top": "0px"}); 
 	   $("#container0").css({"height": "500px", "backgroundColor": "#f2f2f2", "margin-top": "0px", "padding-top": "0px"});  
 	   $("#container7").css({"height": "500px", "backgroundColor": "#f2f2f2", "margin-top": "0px", "padding-top": "0px"}); 
