@@ -307,7 +307,7 @@ $(document).ready(function() {
 		
      //adjust slider size
         //$("#my-slider").css({"width": "101%", "margin-bottom": "200//px"}); 
-	$("#my-slider").css({"border": "none", "width": "100%", "margin-bottom": "0px", "margin-top": "0px", "padding-bottom": "0px", "padding-top": "0px"}); 
+	$("#my-slider").css({"border": "none", "width": "100%", "margin-bottom": "100px", "margin-top": "0px", "padding-bottom": "0px", "padding-top": "0px"}); 
 	
 		
       //remove rounded corners from slider
@@ -329,6 +329,8 @@ $(document).ready(function() {
 	  // $("#ctl00_ContentPlaceHolder1_labelError").css({"border": "none"}); 
 	  // $("#ctl00_ContentPlaceHolder1_widgetLayout_mainPageDiv").css({"border": "none"}); 
 		
+		
+		//ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl04_widgetContainer_ctl00_pnlMyTraining_content
 		
 	   $("#ctl00_ContentPlaceHolder1_widgetLayout_mainDivRenderedWidgets").css({"border": "none", "height": "500px", "margin-top": "0px", "padding-top": "0px"}); 
 	   $("#mainContainer").css({"border": "none", "height": "500x", "margin-top": "0px", "padding-top": "0px"}); 
