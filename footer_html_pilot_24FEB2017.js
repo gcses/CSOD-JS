@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test6");
+	console.log("Test7");
 
 	//Alternative Header Icons
 
@@ -172,8 +172,8 @@ $(document).ready(function() {
 	 $('.navTabs li a').css({"background-image": "none", "text-shadow": "none", "color": "#808080", "fontSize": "18px", "font-weight": "normal"});
 	
 	//underlines all sub-categories of active category - do we want to do that?
-	$('.navTabs li.active a').css({"background-image": "none", "color": "#000000", "text-decoration": "underline"});
-	
+	$('.navTabs li.active a').css({"background-image": "none", "color": "#000000", "fontSize": "18px"});
+	$('.navTabs li a').css({"background-image": "none", "color": "#000000", "fontSize": "18px"});
 	
 	
 	//$('.navTabs li.active a').css({"background-image": "none", "color": "#000000", "fontSize": "18px"});
