@@ -42,9 +42,6 @@ $(document).ready(function() {
 	$('.user-interaction').css({'backgroundColor': '#004593', 'border-radius': '0', 'border': '0px solid #004593'});
 
 	
-	
-	
-	
         // Profile   
 	var imgLoc = document.getElementById('header_headerFixed_imgAvatar');
 
@@ -158,6 +155,8 @@ $(document).ready(function() {
 	// margin: top, right, bottom, left
 	$LClabel.css({'display': 'inline', 'float': 'left', 'backgroundColor': '#ffffff', 'margin': '5px 30px 0px 30px', 'padding': '0px 0px 0px 0px'});
 	$('.c-glbl-nav').prepend($LClabel);
+	
+	
 
 	//change the navigation bar to white, remove gradient		
 	$('#main-menu').css({"background-image": "none", "background-color": "#ffffff"});
@@ -167,6 +166,15 @@ $(document).ready(function() {
 	
 	// navigation bar changes
 	 $('.navTabs li a').css({"background-image": "none", "text-shadow": "none", "color": "#808080", "font-weight": "normal"});
+	
+	
+	
+	
+	
+	
+	
+	
+	$('.navTabs li a').css({"fontSize": "15px"});
 	
 	 //navigation bar hover - active hover is being blocked somewhere else (the hover is always blue or theme color)
 	 $("#main-menu > li").hover(function(){ 
@@ -266,11 +274,6 @@ $(document).ready(function() {
 			function() { $(this).css({"backgroundColor": "yellow!important"}); }
 		); 
 	
-		
-		
-		
-		
-		
 		
 	   											 									 								 
 	    $('.Panel_contentMiddle tr:last-child td').css({"border-bottom": "none"});
