@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test1");
+	console.log("Test2");
 
 	//Alternative Header Icons
 
@@ -191,6 +191,21 @@ $(document).ready(function() {
 		 function() { $(this).css({"backgroundColor": "#ffffff",  "color": "#808080", "text-decoration": "", "font-weight": "", "fontSize": "18px"}); }
 	); 
 	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	$("#main-menu li a").css({"fontSize": "18px"});
+	
+	 $("#main-menu > li > ul > li").hover(function(){ 
+		 $(this).css({"backgroundColor": "yellow",  "color": "#000000", "text-decoration": "underline", "font-weight": "bold", "fontSize": "18px"}); },
+		 function() { $(this).css({"backgroundColor": "#ffffff",  "color": "#808080", "text-decoration": "", "font-weight": "", "fontSize": "18px"}); }
+	); 
 	
 	
 
