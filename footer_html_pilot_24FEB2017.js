@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test2");
+	console.log("Test3");
 
 	//Alternative Header Icons
 
@@ -162,7 +162,7 @@ $(document).ready(function() {
 	$('#main-menu').css({"background-image": "none", "background-color": "#ffffff"});
 	
 	//handle the navigation bar active tab, only decorate first descendant or main categories
-	$('#main-menu > li.active').css({"background-color": "#ffffff", "text-decoration": "underline", "font-weight": "bold"});
+	$('#main-menu > li.active').css({"background-color": "#ffffff", "text-decoration": "underline", "font-weight": "bold", "fontSize": "18px"});
 	
 	
 	
@@ -172,17 +172,13 @@ $(document).ready(function() {
 	 $('.navTabs li a').css({"background-image": "none", "text-shadow": "none", "color": "#808080", "fontSize": "18px", "font-weight": "normal"});
 	
 	//underlines all sub-categories of active category - do we want to do that?
-	$('.navTabs li.active a').css({"background-image": "none", "color": "#000000", "fontSize": "16px"});
+	$('.navTabs li.active a').css({"background-image": "none", "color": "#000000", "fontSize": "18px"});
 	
-	
-	
-	
-
 	
 	 //navigation bar hover - active hover is being blocked somewhere else (the hover is always blue or theme color)
 	 $("#main-menu > li").hover(function(){ 
-		 $(this).css({"backgroundColor": "yellow",  "color": "#000000", "text-decoration": "underline", "font-weight": "bold"}); },
-		 function() { $(this).css({"backgroundColor": "#ffffff",  "color": "#808080", "text-decoration": "", "font-weight": ""}); }
+		 $(this).css({"backgroundColor": "yellow",  "color": "#000000", "text-decoration": "underline", "font-weight": "bold", "fontSize": "18px"}); },
+		 function() { $(this).css({"backgroundColor": "#ffffff",  "color": "#808080", "text-decoration": "", "font-weight": "", "fontSize": "18px"}); }
 	); 
 	
 	
