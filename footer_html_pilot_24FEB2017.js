@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test3");
+	console.log("Test1");
 
 	//Alternative Header Icons
 
@@ -174,7 +174,7 @@ $(document).ready(function() {
 	
 	
 	
-	$('.navTabs li a').css({"fontSize": "15px"});
+	$('.navTabs li a').css({"fontSize": "18px"});
 	
 	 //navigation bar hover - active hover is being blocked somewhere else (the hover is always blue or theme color)
 	 $("#main-menu > li").hover(function(){ 
