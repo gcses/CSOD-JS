@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test9");
+	console.log("Test1");
 
 	//Alternative Header Icons
 
@@ -236,8 +236,8 @@ $(document).ready(function() {
 	   var lname = $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl02_widgetContainer_ctl00_htmlContainer").text();
 
 	  //all of this needs testing
-	   $('*').css({"font-family": "'Source Sans Pro', sans-serif !important", "font-weight": "normal", "fontSize": "18px"});
-	   $('body').css({"background-color": "#f2f2f2", "font-family": "'Source Sans Pro-bottom', sans-serif", "font-weight": "normal", "padding": "0", "margin": "0"}); 
+	   $('*').css({"font-family": "'Source Sans Pro', sans-serif !important", "font-weight": "normal", "fontSize": "16px"});
+	   $('body').css({"background-color": "#f2f2f2", "font-family": "'Source Sans Pro-bottom', sans-serif", "font-weight": "normal", "padding": "0", "margin": "0", "fontSize": "16px"}); 
 	
            /*Header Top Bar - Logo and Header*/   
            $('.imageLogo').css({"margin-left": "30px"});
