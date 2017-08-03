@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test7");
+	console.log("Test8");
 
 	//Alternative Header Icons
 
@@ -165,6 +165,10 @@ $(document).ready(function() {
 	$('#main-menu > li.active').css({"background-color": "#ffffff", "text-decoration": "underline", "font-weight": "bold", "fontSize": "18px"});
 	
 	
+	$('#main-menu > li').css({"background-color": "#ffffff", "text-decoration": "underline", "font-weight": "bold", "fontSize": "18px"});
+	$('.navTabs li').css({"background-image": "none", "text-shadow": "none", "color": "#808080", "fontSize": "18px", "font-weight": "normal"});
+	
+	
 	
 	
 	
@@ -172,8 +176,8 @@ $(document).ready(function() {
 	 $('.navTabs li a').css({"background-image": "none", "text-shadow": "none", "color": "#808080", "fontSize": "18px", "font-weight": "normal"});
 	
 	//underlines all sub-categories of active category - do we want to do that?
-	$('.navTabs li.active a').css({"background-image": "none", "color": "#000000", "fontSize": "18px"});
-	$('.navTabs li a').css({"background-image": "none", "color": "#000000", "fontSize": "18px"});
+	//$('.navTabs li.active a').css({"background-image": "none", "color": "#000000", "fontSize": "18px"});
+	//$('.navTabs li a').css({"background-image": "none", "color": "#000000", "fontSize": "18px"});
 	
 	
 	//$('.navTabs li.active a').css({"background-image": "none", "color": "#000000", "fontSize": "18px"});
