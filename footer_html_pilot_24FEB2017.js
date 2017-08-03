@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test5");
+	console.log("Test6");
 
 	//Alternative Header Icons
 
@@ -172,9 +172,13 @@ $(document).ready(function() {
 	 $('.navTabs li a').css({"background-image": "none", "text-shadow": "none", "color": "#808080", "fontSize": "18px", "font-weight": "normal"});
 	
 	//underlines all sub-categories of active category - do we want to do that?
-	$('.navTabs li.active a').css({"background-image": "none", "color": "#000000", "fontSize": "18px"});
+	$('.navTabs li.active a').css({"background-image": "none", "color": "#000000", "text-decoration": "underline"});
 	
-	$('.navTabs li.active li').css({"background-image": "none", "color": "yellow", "fontSize": "18px"});
+	
+	
+	//$('.navTabs li.active a').css({"background-image": "none", "color": "#000000", "fontSize": "18px"});
+	
+	//$('.navTabs li.active li').css({"background-image": "none", "color": "yellow", "fontSize": "18px"});
 	
 	
 	 //navigation bar hover - active hover is being blocked somewhere else (the hover is always blue or theme color)
