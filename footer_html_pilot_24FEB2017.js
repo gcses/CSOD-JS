@@ -153,7 +153,7 @@ $(document).ready(function() {
 	//add words 'Learning Compass'
 	var $LClabel = $("<H1>").text('Learning Compass');
 	// margin: top, right, bottom, left
-	$LClabel.css({'display': 'inline', 'float': 'left', 'backgroundColor': '#ffffff', 'margin': '5px 30px 0px 30px', 'padding': '0px 0px 0px 0px'});
+	$LClabel.css({'fontSize': '18px', 'display': 'inline', 'float': 'left', 'backgroundColor': '#ffffff', 'margin': '5px 30px 0px 30px', 'padding': '0px 0px 0px 0px'});
 	$('.c-glbl-nav').prepend($LClabel);
 	
 	
@@ -236,8 +236,8 @@ $(document).ready(function() {
 	   var lname = $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl02_widgetContainer_ctl00_htmlContainer").text();
 
 	  //all of this needs testing
-	   $('*').css({"font-family": "'Source Sans Pro', sans-serif !important", "font-weight": "normal", "fontSize": "16px"});
-	   $('body').css({"background-color": "#f2f2f2", "font-family": "'Source Sans Pro-bottom', sans-serif", "font-weight": "normal", "padding": "0", "margin": "0", "fontSize": "16px"}); 
+	   $('*').css({"font-family": "'Source Sans Pro', sans-serif !important", "font-weight": "normal", "fontSize": "14px"});
+	   $('body').css({"background-color": "#f2f2f2", "font-family": "'Source Sans Pro-bottom', sans-serif", "font-weight": "normal", "padding": "0", "margin": "0", "fontSize": "14px"}); 
 	
            /*Header Top Bar - Logo and Header*/   
            $('.imageLogo').css({"margin-left": "30px"});
