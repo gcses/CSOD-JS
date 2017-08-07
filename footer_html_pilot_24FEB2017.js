@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("TestG");
+	console.log("TestA");
 
 	//Alternative Header Icons
 
@@ -345,7 +345,7 @@ $(document).ready(function() {
      //adjust slider size
         //$("#my-slider").css({"width": "101%", "margin-bottom": "200//px"}); 
        // margin bottom pushes down the Cards
-	$("#my-slider").css({"border": "none", "width": "100%", "margin-bottom": "10px", "margin-top": "0px", "padding-bottom": "0px", "padding-top": "0px"}); 
+	$("#my-slider").css({"border": "none", "width": "100%", "margin-bottom": "10px", "margin-top": "200px", "padding-bottom": "0px", "padding-top": "0px"}); 
 	
 	//push down the My Learninig box	
         $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl04_widgetContainer_ctl00_pnlMyTraining").css({"margin-top": "150px"}); 
@@ -380,7 +380,7 @@ $(document).ready(function() {
 		
 	//CARD Style
 		$(".widgetToMove").css({"box-shadow": "0 1px 6px 0 rgba(0,0,0,0.2)"});
-	        $(".card").css({"width": "20%", "box-sizing": "border-box", "padding": "0px", "border-radius": "0px 0px 0px 0px", "border-top": "solid 9px #00a79e", "border-bottom": "none", "border-left": "solid 1px #f2f3f4", "border-right": "none", "margin": "0px 0px 0px 0px" }); 
+	        $(".card").css({"width": "20%", "box-sizing": "border-box", "padding": "0px", "border-radius": "0px 0px 0px 0px", "border-top": "solid 9px #00a79e", "border-bottom": "none", "border-left": "solid 1px #f2f3f4", "border-right": "none", "margin": "200px 0px 0px 0px" }); 
 		$(".card:first-child").css({"border-left": "none"});
 		$(".card:nth-child(2)").css({"border-top": "solid 9px #6f2780"});
 		$(".card:nth-child(3)").css({"border-top": "solid 9px #02abd7"});
