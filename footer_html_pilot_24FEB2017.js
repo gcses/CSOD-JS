@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test3");
+	console.log("TestA");
 
 	//Alternative Header Icons
 
@@ -157,7 +157,9 @@ $(document).ready(function() {
 	
 	
 	// margin: top, right, bottom, left
-	$LClabel.css({'font-size': '28px', 'display': 'inline', 'float': 'left', 'backgroundColor': '#ffffff', 'margin': '5px 20px 0px 20px', 'padding': '0px 0px 0px 0px'});
+	
+	$LClabel.css({'font-size': '150%', 'display': 'inline', 'float': 'left', 'backgroundColor': '#ffffff', 'margin': '5px 20px 0px 20px', 'padding': '0px 0px 0px 0px'});
+	
 	$('.c-glbl-nav').prepend($LClabel);
 	
 	
