@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("TestE");
+	console.log("TestF");
 
 	//Alternative Header Icons
 
@@ -156,7 +156,7 @@ $(document).ready(function() {
 	var $LClabel = $("<H1>").text('Learning Compass');
 	
 	// margin: top, right, bottom, left
-	$LClabel.css({'color': 'black', 'font-size': '4px', 'display': 'inline', 'float': 'left', 'backgroundColor': '#ffffff', 'margin': '15px 20px 0px 20px', 'padding': '0px 0px 0px 0px'});
+	$LClabel.css({'color': 'black', 'fontSize': '24px', 'display': 'inline', 'float': 'left', 'backgroundColor': '#ffffff', 'margin': '11px 20px 0px 20px', 'padding': '0px 0px 0px 0px'});
 	
 	
 	$('.c-glbl-nav').prepend($LClabel);
