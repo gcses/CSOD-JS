@@ -35,8 +35,6 @@ $(document).ready(function() {
 	$('.cog1').css({'height': '30px', 'position': 'absolute', 'top': '5%', 'left': '0%', 'margin-left': '0px', 'margin-right': '0px', 'border-radius': '0', 'border': '0px', "zindex": "2147483644"});
 	$('#optionsbtn').css({'padding-left': '5px', 'margin-right': '8px', 'backgroundColor': 'yellow', 'border': '0px', "zindex": "2147483644"});
 	
-	
-	
 	$('#header_headerFixed_hlAvatar').css({'backgroundColor': '#004593',  'margin-top': '0px', 'margin-right': '10px', 'border': '0px solid #004593'});  //yellow border
 	$('.avatar').css({'backgroundColor': '#004593', 'border-radius': '0', 'margin-top': '7px', 'margin-left': '-10px', 'margin-right': '10px', 'border': '0px solid #004593'});
 	$('.avatar a .img').css({'backgroundColor': '#004593', 'border-radius': '0', 'margin-top': '7px', 'margin-left': '-10px', 'border': '0px solid #004593'});
@@ -345,7 +343,7 @@ $(document).ready(function() {
      //adjust slider size
         //$("#my-slider").css({"width": "101%", "margin-bottom": "200//px"}); 
        // margin bottom pushes down the Cards
-	$("#my-slider").css({"border": "none", "width": "100%", "margin-bottom": "10px", "margin-top": "0px",
+	$("#my-slider").css({"border": "none", "width": "100%", "margin-bottom": "10px", "margin-top": "200px",
 			     "padding-bottom": "0px", "padding-top": "0px"}); 
 	
 	//push down the My Learninig box	
@@ -361,7 +359,7 @@ $(document).ready(function() {
 		
 		
       //bring entire slider and body in general up to be flush with the warning banner under the nav bar
-       $("#ctl00_masterPageBody").css({ "margin": "400px 0px 0px 0px"}); 
+       $("#ctl00_masterPageBody").css({ "margin": "200px 0px 0px 0px"}); 
 		
 
       //Resize and reposition slider - margin: top, right, bottom, left
@@ -387,10 +385,10 @@ $(document).ready(function() {
 		
 		
 	//CARD Style
-		$(".widgetToMove").css({"box-shadow": "0 1px 6px 0 rgba(0,0,0,0.2)", "margin": "250px 0px 0px 0px"});
+		$(".widgetToMove").css({"box-shadow": "0 1px 6px 0 rgba(0,0,0,0.2)", "margin": "200px 0px 0px 0px"});
 	        $(".card").css({"width": "20%", "box-sizing": "border-box", "padding": "0px", "border-radius": "0px 0px 0px 0px",
 				"border-top": "solid 9px #00a79e", "border-bottom": "none", "border-left": "solid 1px #f2f3f4", 
-				"border-right": "none", "margin": "0px 0px 0px 0px" }); 
+				"border-right": "none", "margin": "200px 0px 0px 0px" }); 
 		
 		$(".card:first-child").css({"border-left": "none"});
 		$(".card:nth-child(2)").css({"border-top": "solid 9px #6f2780"});
@@ -412,7 +410,7 @@ $(document).ready(function() {
 		
 	// margin: top, right, bottom, left
 	//Drive Cards to the top of the stack (z-index cannot be changed in jQuery)	
-	$(".wrapper").css({"margin": "0px 0px 0px 15%"});    //move row of cards up over slider
+	$(".wrapper").css({"margin": "200px 0px 0px 15%"});    //move row of cards up over slider
 
       } //end if
 	
