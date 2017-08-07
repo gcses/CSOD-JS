@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test3");
+	console.log("Test4");
 
 	//Alternative Header Icons
 
@@ -33,7 +33,9 @@ $(document).ready(function() {
 	cogImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/cog.png');
 	cogImg.appendTo('#optionsbtn');
 	$('.cog1').css({'height': '30px', 'position': 'absolute', 'top': '5%', 'left': '0%', 'margin-left': '0px', 'margin-right': '0px', 'border-radius': '0', 'border': '0px', "zindex": "2147483644"});
-	$('#optionsbtn').css({'width': '40px', 'backgroundColor': '#004593', 'border': '0px', "zindex": "2147483644"});
+	$('#optionsbtn').css({'margin-left': '5px', 'margin-right': '0px', 'backgroundColor': 'yellow', 'border': '0px', "zindex": "2147483644"});
+	
+	
 	
 	$('#header_headerFixed_hlAvatar').css({'backgroundColor': '#004593',  'margin-top': '0px', 'margin-right': '10px', 'border': '0px solid #004593'});  //yellow border
 	$('.avatar').css({'backgroundColor': '#004593', 'border-radius': '0', 'margin-top': '7px', 'margin-left': '-10px', 'margin-right': '10px', 'border': '0px solid #004593'});
@@ -152,9 +154,14 @@ $(document).ready(function() {
 	
 	//add words 'Learning Compass'
 	var $LClabel = $("<H1>").text('Learning Compass');
+	
+	
 	// margin: top, right, bottom, left
-	$LClabel.css({'display': 'inline', 'float': 'left', 'backgroundColor': '#ffffff', 'margin': '5px 30px 0px 30px', 'padding': '0px 0px 0px 0px'});
+	$LClabel.css({'fontSize': '22px', 'font-weight': 'bold', 'display': 'inline', 'float': 'left', 'backgroundColor': '#ffffff', 'margin': '5px 30px 0px 30px', 'padding': '0px 0px 0px 0px'});
 	$('.c-glbl-nav').prepend($LClabel);
+	
+	
+	
 	
 	
 
@@ -665,7 +672,7 @@ function createAccordionControls()
         $(".cs-subjwidg-list li.cat.nochild .exp-icon + a").css({"position": "relative", "top": "-22px", "padding-left": "16px", "text-decoration": "none", "color": "#333333", "font-weight": "400"});  
 }
 
-
+//this does not work
 function getAdditionalCSS() {
         var bdy  = document.getElementsByTagName('body')[0];
         var link  = document.createElement('link');
