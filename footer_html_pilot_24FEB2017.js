@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("TestA");
+	console.log("TestC");
 
 	//Alternative Header Icons
 
@@ -155,10 +155,9 @@ $(document).ready(function() {
 	//add words 'Learning Compass'
 	var $LClabel = $("<H1>").text('Learning Compass');
 	
-	
 	// margin: top, right, bottom, left
+	$LClabel.css({'color': 'red', 'font-size': '20px', 'display': 'inline', 'float': 'left', 'backgroundColor': '#ffffff', 'margin': '5px 20px 0px 20px', 'padding': '0px 0px 0px 0px'});
 	
-	$LClabel.css({'font-size': '150%', 'display': 'inline', 'float': 'left', 'backgroundColor': '#ffffff', 'margin': '5px 20px 0px 20px', 'padding': '0px 0px 0px 0px'});
 	
 	$('.c-glbl-nav').prepend($LClabel);
 	
@@ -212,8 +211,8 @@ $(document).ready(function() {
 	//$("#main-menu li a").css({"font-size": "18px"});
 	
 	 $("#main-menu > li > ul > li").hover(function(){ 
-		 $(this).css({"backgroundColor": "yellow",  "color": "#000000", "text-decoration": "underline", "font-weight": "bold", "fontSize": "18px"}); },
-		 function() { $(this).css({"backgroundColor": "#ffffff",  "color": "#808080", "text-decoration": "", "font-weight": "", "fontSize": "18px"}); }
+		 $(this).css({"backgroundColor": "yellow",  "color": "#000000", "text-decoration": "underline", "font-weight": "bold", "font-size": "18px"}); },
+		 function() { $(this).css({"backgroundColor": "#ffffff",  "color": "#808080", "text-decoration": "", "font-weight": "", "font-size": "18px"}); }
 	); 
 	
 	
@@ -238,7 +237,7 @@ $(document).ready(function() {
 	//underlines all sub-categories of active category - do we want to do that?
 	//$('.navTabs li.active a').css({"background-image": "none", "color": "#000000", "text-decoration": "underline"});
 
-	 $('.compass-title').css({"font-size": "20px", "line-height": "36px", "margin-left": "30px", "margin-right": "30px", "display": "inline-block"});
+	 $('.compass-title').css({"color": "green", "font-size": "20px", "line-height": "36px", "margin-left": "30px", "margin-right": "30px", "display": "inline-block"});
 
 	if (document.title.indexOf("Welcome - Realize Your Potential") > -1)
 	{
