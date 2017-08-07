@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test5");
+	console.log("Test1");
 
 	//Alternative Header Icons
 
@@ -33,7 +33,7 @@ $(document).ready(function() {
 	cogImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/cog.png');
 	cogImg.appendTo('#optionsbtn');
 	$('.cog1').css({'height': '30px', 'position': 'absolute', 'top': '5%', 'left': '0%', 'margin-left': '0px', 'margin-right': '0px', 'border-radius': '0', 'border': '0px', "zindex": "2147483644"});
-	$('#optionsbtn').css({'margin-left': '0px', 'margin-right': '8px', 'backgroundColor': 'yellow', 'border': '0px', "zindex": "2147483644"});
+	$('#optionsbtn').css({'margin-left': '0px', 'margin-right': '18px', 'backgroundColor': 'yellow', 'border': '0px', "zindex": "2147483644"});
 	
 	
 	
@@ -157,7 +157,7 @@ $(document).ready(function() {
 	
 	
 	// margin: top, right, bottom, left
-	$LClabel.css({'fontSize': '22px', 'font-weight': 'bold', 'display': 'inline', 'float': 'left', 'backgroundColor': '#ffffff', 'margin': '0px 0px 0px 0px', 'padding': '0px 0px 0px 0px'});
+	$LClabel.css({'font-size': '22px', 'font-weight': 'bold', 'display': 'inline', 'float': 'left', 'backgroundColor': '#ffffff', 'margin': '0px 0px 0px 0px', 'padding': '0px 0px 0px 0px'});
 	$('.c-glbl-nav').prepend($LClabel);
 	
 	
@@ -169,7 +169,7 @@ $(document).ready(function() {
 	$('#main-menu').css({"background-image": "none", "background-color": "#ffffff"});
 	
 	//handle the navigation bar active tab, only decorate first descendant or main categories
-	$('#main-menu > li.active').css({"background-color": "#ffffff", "text-decoration": "underline", "font-weight": "bold", "fontSize": "18px"});
+	$('#main-menu > li.active').css({"background-color": "#ffffff", "text-decoration": "underline", "font-weight": "bold", "font-size": "18px"});
 	
 	
 	//$('#main-menu > li').css({"background-color": "#ffffff", "text-decoration": "underline", "font-weight": "bold", "fontSize": "18px"});
@@ -180,7 +180,7 @@ $(document).ready(function() {
 	
 	
 	// navigation bar changes (font color and size here)
-	 $('.navTabs li a').css({"background-image": "none", "text-shadow": "none", "color": "#808080", "fontSize": "18px", "font-weight": "normal"});
+	 $('.navTabs li a').css({"background-image": "none", "text-shadow": "none", "color": "#808080", "font-size": "18px", "font-weight": "normal"});
 	
 	//underlines all sub-categories of active category - do we want to do that?
 	//$('.navTabs li.active a').css({"background-image": "none", "color": "#000000", "fontSize": "18px"});
@@ -207,7 +207,7 @@ $(document).ready(function() {
 	
 	
 	
-	$("#main-menu li a").css({"fontSize": "18px"});
+	$("#main-menu li a").css({"font-size": "18px"});
 	
 	 $("#main-menu > li > ul > li").hover(function(){ 
 		 $(this).css({"backgroundColor": "yellow",  "color": "#000000", "text-decoration": "underline", "font-weight": "bold", "fontSize": "18px"}); },
@@ -258,7 +258,7 @@ $(document).ready(function() {
 	   var lname = $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl02_widgetContainer_ctl00_htmlContainer").text();
 
 	  //all of this needs testing
-	   $('*').css({"font-family": "'Source Sans Pro', sans-serif !important", "font-weight": "normal", "fontSize": "14px"});
+	   $('*').css({"font-family": "'Source Sans Pro', sans-serif !important", "font-weight": "normal", "font-size": "14px"});
 	   $('body').css({"background-color": "#f2f2f2", "font-family": "'Source Sans Pro-bottom', sans-serif", "font-weight": "normal", "padding": "0", "margin": "0", "fontSize": "14px"}); 
 	
            /*Header Top Bar - Logo and Header*/   
