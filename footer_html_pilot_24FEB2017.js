@@ -33,7 +33,7 @@ $(document).ready(function() {
 	cogImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/cog.png');
 	cogImg.appendTo('#optionsbtn');
 	$('.cog1').css({'height': '30px', 'position': 'absolute', 'top': '5%', 'left': '0%', 'margin-left': '0px', 'margin-right': '0px', 'border-radius': '0', 'border': '0px', "zindex": "2147483644"});
-	$('#optionsbtn').css({'backgroundColor': '#004593', 'border': '0px', "zindex": "2147483644"});
+	$('#optionsbtn').css({'width': '40px', 'backgroundColor': '#004593', 'border': '0px', "zindex": "2147483644"});
 	
 	$('#header_headerFixed_hlAvatar').css({'backgroundColor': '#004593',  'margin-top': '0px', 'margin-right': '10px', 'border': '0px solid #004593'});  //yellow border
 	$('.avatar').css({'backgroundColor': '#004593', 'border-radius': '0', 'margin-top': '7px', 'margin-left': '-10px', 'margin-right': '10px', 'border': '0px solid #004593'});
@@ -153,7 +153,7 @@ $(document).ready(function() {
 	//add words 'Learning Compass'
 	var $LClabel = $("<H1>").text('Learning Compass');
 	// margin: top, right, bottom, left
-	$LClabel.css({'fontSize': '18px', 'display': 'inline', 'float': 'left', 'backgroundColor': '#ffffff', 'margin': '5px 30px 0px 30px', 'padding': '0px 0px 0px 0px'});
+	$LClabel.css({'display': 'inline', 'float': 'left', 'backgroundColor': '#ffffff', 'margin': '5px 30px 0px 30px', 'padding': '0px 0px 0px 0px'});
 	$('.c-glbl-nav').prepend($LClabel);
 	
 	
@@ -309,7 +309,7 @@ $(document).ready(function() {
 	    $('.Panel_contentMiddle tr td:first-child').css({"color": "#004593"});
 	
 	     //boxed in link on right side of Learning In Progress
-	    $('.Panel_contentMiddle td a').css({"width": "150px", "color": "#ffffff", "font-weight": "normal", "padding": "10px 0px 10px 0px", "backgroundColor": "#004593", "display": "inline-block", "box-sizing": "border-box", "position": "relative"});
+	    $('.Panel_contentMiddle td a').css({"width": "170px", "color": "#ffffff", "font-weight": "normal", "padding": "10px 0px 10px 0px", "backgroundColor": "#004593", "display": "inline-block", "box-sizing": "border-box", "position": "relative"});
 		
 		
 	    // margin: top, right, bottom, left
