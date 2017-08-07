@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test4");
+	console.log("Test5");
 
 	//Alternative Header Icons
 
@@ -33,7 +33,7 @@ $(document).ready(function() {
 	cogImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/cog.png');
 	cogImg.appendTo('#optionsbtn');
 	$('.cog1').css({'height': '30px', 'position': 'absolute', 'top': '5%', 'left': '0%', 'margin-left': '0px', 'margin-right': '0px', 'border-radius': '0', 'border': '0px', "zindex": "2147483644"});
-	$('#optionsbtn').css({'margin-left': '5px', 'margin-right': '0px', 'backgroundColor': 'yellow', 'border': '0px', "zindex": "2147483644"});
+	$('#optionsbtn').css({'margin-left': '0px', 'margin-right': '8px', 'backgroundColor': 'yellow', 'border': '0px', "zindex": "2147483644"});
 	
 	
 	
@@ -157,7 +157,7 @@ $(document).ready(function() {
 	
 	
 	// margin: top, right, bottom, left
-	$LClabel.css({'fontSize': '22px', 'font-weight': 'bold', 'display': 'inline', 'float': 'left', 'backgroundColor': '#ffffff', 'margin': '5px 30px 0px 30px', 'padding': '0px 0px 0px 0px'});
+	$LClabel.css({'fontSize': '22px', 'font-weight': 'bold', 'display': 'inline', 'float': 'left', 'backgroundColor': '#ffffff', 'margin': '0px 0px 0px 0px', 'padding': '0px 0px 0px 0px'});
 	$('.c-glbl-nav').prepend($LClabel);
 	
 	
