@@ -343,7 +343,7 @@ $(document).ready(function() {
      //adjust slider size
         //$("#my-slider").css({"width": "101%", "margin-bottom": "200//px"}); 
        // margin bottom pushes down the Cards
-	$("#my-slider").css({"border": "none", "width": "100%", "margin-bottom": "0px", "margin-top": "200px",
+	$("#my-slider").css({"border": "none", "width": "100%", "margin-bottom": "0px", "margin-top": "0px",
 			     "padding-bottom": "0px", "padding-top": "0px"}); 
 	
 	//push down the My Learninig box	
