@@ -155,13 +155,10 @@ $(document).ready(function() {
 	
 	// margin: top, right, bottom, left
 	$LClabel.css({'color': 'black', 'display': 'inline', 'float': 'left', 'backgroundColor': '#ffffff', 'margin': '11px 20px 0px 20px', 'padding': '0px 0px 0px 0px'});
-	
 	$('.c-glbl-nav').prepend($LClabel);
 	
 	
-	
-	
-	
+
 
 	//change the navigation bar to white, remove gradient		
 	$('#main-menu').css({"background-image": "none", "background-color": "#ffffff"});
@@ -385,7 +382,7 @@ $(document).ready(function() {
 		
 		
 	//CARD Style  #00a79e
-		$(".widgetToMove").css({"box-shadow": "0 1px 6px 0 rgba(0,0,0,0.2)", "margin": "50px 0px 0px 0px"});
+		$(".widgetToMove").css({"box-shadow": "0 1px 6px 0 rgba(0,0,0,0.2)", "margin": "0px 0px 0px 0px"});
 	        $(".card").css({"width": "20%", "box-sizing": "border-box", "padding": "0px", "border-radius": "0px 0px 0px 0px",
 				"border-bottom": "solid 12px #00a79e", "border-top": "none", "border-left": "solid 1px #f2f3f4", 
 				"border-right": "none", "margin": "0px 0px 0px 0px" }); 
@@ -410,7 +407,7 @@ $(document).ready(function() {
 		
 	// margin: top, right, bottom, left
 	//Drive Cards to the top of the stack (z-index cannot be changed in jQuery)	
-	$(".wrapper").css({"margin": "50px 0px 0px 15%"});    //move row of cards up over slider
+	$(".wrapper").css({"margin": "-50px 0px 0px 15%"});    //move row of cards up over slider
 
       } //end if
 	
