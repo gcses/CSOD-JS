@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("TestD");
+	console.log("Test1");
 
 	//Alternative Header Icons
 
@@ -174,9 +174,9 @@ $(document).ready(function() {
         //************************************************
 	//   Z-Index Area (float navigation over cards)
 	//************************************************
-       // var element = document.getElementByID('#main-menu');
-        //element.style.position = "absolute";
-        //element.style.zIndex="2147483645";
+        var element = document.getElementById('#main-menu');
+        element.style.position = "absolute";
+        element.style.zIndex="2147483645";
 	
 	
 	
