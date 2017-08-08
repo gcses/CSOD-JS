@@ -171,6 +171,13 @@ $(document).ready(function() {
 	//$('.navTabs li').css({"background-image": "none", "text-shadow": "none", "color": "#808080", "fontSize": "18px", "font-weight": "normal"});
 	
 	
+        //************************************************
+	//   Z-Index Area (float navigation over cards)
+	//************************************************
+        var elements = document.getElementsByClassName('#main-menu');
+        elements[0].style.position = "absolute";
+        elements[0].style.zIndex="2147483645";
+	
 	
 	
 	
