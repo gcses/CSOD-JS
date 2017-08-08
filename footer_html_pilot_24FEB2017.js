@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test2");
+	console.log("Test3");
 
 	//Alternative Header Icons
 
@@ -180,7 +180,7 @@ $(document).ready(function() {
 	
         var elements = document.getElementsByClassName('.navTabs');
         //elements[0].style.position = "absolute";
-        //elements[0].style.zIndex="2147483645";
+        elements[0].style.zIndex="21474836";
 	
 	
 	
