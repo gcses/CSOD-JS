@@ -180,7 +180,7 @@ $(document).ready(function() {
 	
         var elements = document.getElementsByClassName('.navTabs');
         //elements[0].style.position = "absolute";
-        elements[0].style.zIndex="21474836";
+        elements.style.zIndex="21474836";
 	
 	
 	
