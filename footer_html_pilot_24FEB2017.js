@@ -178,7 +178,7 @@ $(document).ready(function() {
         // element.style.position = "absolute";
         //mainMenuElement.style.zIndex="2147483645";
 	
-        //var elements = document.getElementsByClassName('.navTabs');
+        var elements = document.getElementsByClassName('.navTabs');
         //elements[0].style.position = "absolute";
         //elements[0].style.zIndex="2147483645";
 	
