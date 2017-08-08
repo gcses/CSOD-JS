@@ -174,9 +174,9 @@ $(document).ready(function() {
         //************************************************
 	//   Z-Index Area (float navigation over cards)
 	//************************************************
-        var element = document.getElementById('#main-menu');
-        element.style.position = "absolute";
-        element.style.zIndex="2147483645";
+        var mainMenuElement = document.getElementById("#main-menu");
+        // element.style.position = "absolute";
+        mainMenuElement.style.zIndex="2147483645";
 	
 	
 	
