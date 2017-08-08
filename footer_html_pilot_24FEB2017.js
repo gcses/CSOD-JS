@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test1");
+	console.log("Test2");
 
 	//Alternative Header Icons
 
@@ -176,7 +176,7 @@ $(document).ready(function() {
 	//************************************************
         var mainMenuElement = document.getElementById("#main-menu");
         // element.style.position = "absolute";
-        mainMenuElement.style.zIndex="2147483645";
+        //mainMenuElement.style.zIndex="2147483645";
 	
 	
 	
