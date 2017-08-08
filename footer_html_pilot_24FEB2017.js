@@ -384,15 +384,15 @@ $(document).ready(function() {
 	   $("#container7").css({"border": "none", "height": "500px", "margin-top": "0px", "padding-top": "0px"}); 
 		
 		
-	//CARD Style
+	//CARD Style  #00a79e
 		$(".widgetToMove").css({"box-shadow": "0 1px 6px 0 rgba(0,0,0,0.2)", "margin": "50px 0px 0px 0px"});
 	        $(".card").css({"width": "20%", "box-sizing": "border-box", "padding": "0px", "border-radius": "0px 0px 0px 0px",
-				"border-top": "solid 9px #00a79e", "border-bottom": "none", "border-left": "solid 1px #f2f3f4", 
+				"border-bottom": "solid 9px #00a79e", "border-top": "none", "border-left": "solid 1px #f2f3f4", 
 				"border-right": "none", "margin": "0px 0px 0px 0px" }); 
 		
 		$(".card:first-child").css({"border-left": "none"});
-		$(".card:nth-child(2)").css({"border-top": "solid 9px #6f2780"});
-		$(".card:nth-child(3)").css({"border-top": "solid 9px #02abd7"});
+		$(".card:nth-child(2)").css({"border-bottom": "solid 9px #6f2780"});
+		$(".card:nth-child(3)").css({"border-bottom": "solid 9px #02abd7"});
 		$(".card li").css({"width": "100%", "box-sizing": "border-box"});
 		$(".card img").css({"width": "100%", "height": "100px"});
 		$(".card h2").css({"padding": "5px", "color": "#808080", "font-size": "14px", "margin-top": "0px"});
