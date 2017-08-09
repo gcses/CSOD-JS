@@ -351,7 +351,7 @@ $(document).ready(function() {
 		
 	var elements = document.getElementsByClassName('cs-panel-flat');
        // elements[0].style.position = "absolute";
-        elements[0].style.zIndex="1000";
+      //  elements[0].style.zIndex="1000";
 		
         //var elem = document.getElementById('ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl04_widgetContainer_ctl00_pnlMyTraining');
         //elem.style.position = "absolute";
