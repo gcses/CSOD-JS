@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test3");
+	console.log("Test4");
 
 	//Alternative Header Icons
 
@@ -169,19 +169,6 @@ $(document).ready(function() {
 	
 	//$('#main-menu > li').css({"background-color": "#ffffff", "text-decoration": "underline", "font-weight": "bold", "fontSize": "18px"});
 	//$('.navTabs li').css({"background-image": "none", "text-shadow": "none", "color": "#808080", "fontSize": "18px", "font-weight": "normal"});
-	
-	
-        //************************************************
-	//   Z-Index Area (float navigation over cards)
-	//************************************************
-        //var mainMenuElement = document.getElementById("#main-menu");
-        // element.style.position = "absolute";
-        //mainMenuElement.style.zIndex="2147483645";
-	
-       // var elements = document.getElementsByClassName('.navTabs');
-        //elements[0].style.position = "absolute";
-       // elements.style.zIndex="21474836";
-	
 	
 	
 	// navigation bar changes (font color and size here)
@@ -345,18 +332,14 @@ $(document).ready(function() {
 	
 		
      //adjust slider size
-        //$("#my-slider").css({"width": "101%", "margin-bottom": "200//px"}); 
        // margin bottom pushes down the Cards
 	$("#my-slider").css({"border": "none", "width": "100%", "margin-bottom": "0px", "margin-top": "0px",
 			     "padding-bottom": "0px", "padding-top": "0px"}); 
+			
 		
-	// var elements = document.getElementsByClassName('.navTabs');
-	//var elem = document.getElementById('#my-slider');
-        //elem.style.position = "absolute";
-        //elem.style.zIndex="0";  //1 is a conflict with cards
-	
+		
 	//push down the My Learninig box	
-        $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl04_widgetContainer_ctl00_pnlMyTraining").css({"margin-top": "150px"}); 
+        $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl04_widgetContainer_ctl00_pnlMyTraining").css({"margin-top": "0px"}); 
 		
       //remove rounded corners from slider
 	   document.getElementById("my-slider").style.borderRadius = "0px";
@@ -414,7 +397,7 @@ $(document).ready(function() {
 	$(".wrapper").css({"margin-left": "10%"});
         var elements = document.getElementsByClassName('wrapper');
         elements[0].style.position = "absolute";
-        elements[0].style.zIndex="10";  //"2147483644"
+        elements[0].style.zIndex="10";
 
 		
 	// margin: top, right, bottom, left
