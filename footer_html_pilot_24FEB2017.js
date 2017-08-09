@@ -349,7 +349,7 @@ $(document).ready(function() {
 		
 	
 		
-	var elements = document.getElementsByClassName('Panel');
+	var elements = document.getElementsByClassName('cs-panel-flat');
         elements[0].style.position = "absolute";
         elements[0].style.zIndex="1000";
 		
