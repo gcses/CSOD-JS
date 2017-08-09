@@ -330,17 +330,18 @@ $(document).ready(function() {
 		
      //adjust slider size
        // margin bottom pushes down the Cards      top, right, bottom, left
-       $("#my-slider").css({"border": "none", "width": "100%", "margin": "0px 0px 0px 0%", "padding": "0px 0px 0px 0px"}); 
+       $("#my-slider").css({"border": "none", "width": "100%", "margin": "200px 0px 0px 0%", "padding": "0px 0px 0px 0px"}); 
 			
       var elem = document.getElementById('my-slider');      
       elem.style.position = "absolute";
       elem.style.zIndex="-10";
 		
-		
-	//$("#container1.containedInHSplit.adjustHeight).css({"height": "px"}); 
+		//$("#container1.containedInHSplit.adjustHeight).css({"height": "px"}); 
       var elem2 = document.getElementById('container7');      
       elem2.style.position = "absolute";
       elem2.style.zIndex="-14";
+		
+	
 		
 		
      //push down the My Learninig box	
@@ -352,7 +353,7 @@ $(document).ready(function() {
 		
 		
       //bring entire slider and body in general up to be flush with the warning banner under the nav bar
-       $("#ctl00_masterPageBody").css({ "margin": "100px 0px 0px 0px"}); 
+       $("#ctl00_masterPageBody").css({ "margin": "700px 0px 0px 0px"}); 
 		
 
       //Resize and reposition slider - margin: top, right, bottom, left
