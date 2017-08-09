@@ -335,6 +335,12 @@ $(document).ready(function() {
 	$("#my-slider").css({"border": "none", "width": "100%", "margin-bottom": "0px", "margin-top": "0px",
 			     "padding-bottom": "0px", "padding-top": "0px"}); 
 			
+      var elem = document.getElementById('my-slider');
+      //elem.style.position = "absolute";
+      elem.style.zIndex="0";
+		
+		
+		
 		
 		
 	//push down the My Learninig box	
@@ -349,7 +355,7 @@ $(document).ready(function() {
 		
 	
 		
-	var elements = document.getElementsByClassName('cs-panel-flat');
+	//var elements = document.getElementsByClassName('cs-panel-flat');
        // elements[0].style.position = "absolute";
       //  elements[0].style.zIndex="1000";
 		
