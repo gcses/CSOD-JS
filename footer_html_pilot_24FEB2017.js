@@ -330,7 +330,7 @@ $(document).ready(function() {
 		
      //adjust slider size
        // margin bottom pushes down the Cards      top, right, bottom, left
-       $("#my-slider").css({"float": "left", "border": "none", "width": "100%", "margin": "0px 0px 0px 0%", "padding": "0px 0px 0px 0px"}); 
+       $("#my-slider").css({"border": "none", "width": "100%", "margin": "0px 0px 0px -1%", "padding": "0px 0px 0px 0px"}); 
 			
       var elem = document.getElementById('my-slider');      
       elem.style.position = "absolute";
@@ -365,7 +365,8 @@ $(document).ready(function() {
 	  // $("#ctl00_ContentPlaceHolder1_labelError").css({"border": "none"}); 
 	  // $("#ctl00_ContentPlaceHolder1_widgetLayout_mainPageDiv").css({"border": "none"}); 
 		
-	   $("#ctl00_ContentPlaceHolder1_widgetLayout_mainDivRenderedWidgets").css({"border": "none", "height": "100px", "margin-top": "0px", "padding-top": "0px"}); 
+	   $("#ctl00_ContentPlaceHolder1_widgetLayout_mainDivRenderedWidgets").css({"border": "none", "height": "100px",
+										    "margin-top": "0px", "padding-top": "0px"}); 
 	   $("#mainContainer").css({"border": "none", "height": "500x", "margin-top": "0px", "padding-top": "0px"}); 
 	   $("#container0").css({"border": "none", "height": "500px", "margin-top": "0px", "padding-top": "0px"});  
 	   $("#container7").css({"border": "none", "height": "500px", "margin-top": "0px", "padding-top": "0px"}); 
