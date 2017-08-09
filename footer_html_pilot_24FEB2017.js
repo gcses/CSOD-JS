@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test1");
+	console.log("Test2");
 
 	//Alternative Header Icons
 
@@ -336,8 +336,8 @@ $(document).ready(function() {
 			     "padding-bottom": "0px", "padding-top": "0px"}); 
 			
       var elem = document.getElementById('my-slider');
-      //elem.style.position = "absolute";
-      elem.style.zIndex="0";
+      elem.style.position = "absolute";
+      elem.style.zIndex="-10;
 		
 		
 		
