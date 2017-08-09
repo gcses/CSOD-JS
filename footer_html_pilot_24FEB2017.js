@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test1");
+	console.log("Test2");
 
 	//Alternative Header Icons
 
@@ -330,11 +330,17 @@ $(document).ready(function() {
 		
      //adjust slider size
        // margin bottom pushes down the Cards      top, right, bottom, left
-       $("#my-slider").css({"border": "none", "width": "100%", "margin": "0px 0px 0px -1%", "padding": "0px 0px 0px 0px"}); 
+       $("#my-slider").css({"border": "none", "width": "100%", "margin": "0px 0px 0px 0%", "padding": "0px 0px 0px 0px"}); 
 			
       var elem = document.getElementById('my-slider');      
       elem.style.position = "absolute";
       elem.style.zIndex="-10";
+		
+		
+	//$("#container1.containedInHSplit.adjustHeight).css({"height": "px"}); 
+      var elem2 = document.getElementById('container7');      
+      elem2.style.position = "absolute";
+      elem2.style.zIndex="-14";
 		
 		
      //push down the My Learninig box	
