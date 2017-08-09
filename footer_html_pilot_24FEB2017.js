@@ -339,7 +339,7 @@ $(document).ready(function() {
 		
 		
 	//push down the My Learninig box	
-        $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl04_widgetContainer_ctl00_pnlMyTraining").css({"margin-top": "0px"}); 
+        $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl04_widgetContainer_ctl00_pnlMyTraining").css({"margin-top": "-80px"}); 
 		
       //remove rounded corners from slider
 	   document.getElementById("my-slider").style.borderRadius = "0px";
@@ -399,7 +399,6 @@ $(document).ready(function() {
         elements[0].style.position = "absolute";
         elements[0].style.zIndex="10";
 
-		
 	// margin: top, right, bottom, left
 	//Drive Cards to the top of the stack (z-index cannot be changed in jQuery)	
 	$(".wrapper").css({"margin": "-140px 0px 0px 15%"});    //move row of cards up over slider
