@@ -245,7 +245,7 @@ $(document).ready(function() {
 	   var fname = $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl02_widgetContainer_ctl00_htmlContainer").text();
 	   var lname = $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl01_widgetContainer_ctl00_htmlContainer").text();
 
-	  //all of this needs testing
+	  //global settings
 	   $('*').css({"font-family": "'Source Sans Pro', sans-serif !important", "font-weight": "normal", "font-size": "14px"});
 	   $('body').css({"background-color": "#f2f2f2", "font-family": "'Source Sans Pro-bottom', sans-serif", "font-weight": "normal", "padding": "0", "margin": "0", "fontSize": "14px"}); 
 	
@@ -329,46 +329,20 @@ $(document).ready(function() {
 		
 		
      //adjust slider size
-       // margin bottom pushes down the Cards
-       $("#my-slider").css({"border": "none", "width": "100%", "margin": "0px 0px 0px 0px", "padding": "0px 0px 0px 0px"}); 
+       // margin bottom pushes down the Cards      top, right, bottom, left
+       $("#my-slider").css({"border": "none", "width": "100%", "margin": "0px 0px 0px -10%", "padding": "0px 0px 0px 0px"}); 
 			
       var elem = document.getElementById('my-slider');      
       elem.style.position = "absolute";
       elem.style.zIndex="-10";
 		
 		
-	//push down the My Learninig box	
+     //push down the My Learninig box	
         $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl04_widgetContainer_ctl00_pnlMyTraining").css({"margin-top": "-80px"}); 
-		
-	
-	//var elements = document.getElementsByClassName('Panel cs-panel-flat');
-        //elements[0].style.position = "absolute";
-        //elements[0].style.zIndex="10";
-		
-		//Panel cs-panel-flat
-		
-	
-		
-	//var elements = document.getElementsByClassName('cs-panel-flat');
-       // elements[0].style.position = "absolute";
-      //  elements[0].style.zIndex="1000";
-		
-        //var elem = document.getElementById('ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl04_widgetContainer_ctl00_pnlMyTraining');
-        //elem.style.position = "absolute";
-        //elem.style.zIndex="2";
-		
-		
-		
-		
-		
 		
       //remove rounded corners from slider
 	   document.getElementById("my-slider").style.borderRadius = "0px";
 
-		
-		
-		
-		
 		
 		
       //bring entire slider and body in general up to be flush with the warning banner under the nav bar
@@ -415,7 +389,6 @@ $(document).ready(function() {
 	//*************************************
 	//   Z-Index Area (float cards over slider)
 	//*************************************
-	$(".wrapper").css({"margin-left": "10%"});
         var elements = document.getElementsByClassName('wrapper');
         elements[0].style.position = "absolute";
         elements[0].style.zIndex="10";
