@@ -251,16 +251,13 @@ $(document).ready(function() {
 	      $('.avatar a .img').css({'backgroundColor': '#004593', 'border-radius': '0', 'margin-top': '5px', 'margin-left': '5px', 'border': '0px solid #004593'});
 	      $('.avatar a').css({'backgroundColor': '#004593', 'border-radius': '0',  'margin-top': '5px', 'margin-left': '5px', 'border': '0px solid #004593'});
 	      $('.user-interaction').css({'backgroundColor': '#004593', 'border-radius': '0', 'border': '0px solid #004593'});
-
-	
-		
 		
 	   //hide the first name field. It is only included to that we can use the name elsewhere
            $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl01_widgetContainer_ctl00_htmlContainer").hide();
 	   $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl02_widgetContainer_ctl00_htmlContainer").hide();
 	
-	   var fname = $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl01_widgetContainer_ctl00_htmlContainer").text();
-	   var lname = $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl02_widgetContainer_ctl00_htmlContainer").text();
+	   var fname = $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl02_widgetContainer_ctl00_htmlContainer").text();
+	   var lname = $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl01_widgetContainer_ctl00_htmlContainer").text();
 
 	  //all of this needs testing
 	   $('*').css({"font-family": "'Source Sans Pro', sans-serif !important", "font-weight": "normal", "font-size": "14px"});
