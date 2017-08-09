@@ -345,10 +345,17 @@ $(document).ready(function() {
         //elements[0].style.position = "absolute";
         //elements[0].style.zIndex="10";
 		
+		//Panel cs-panel-flat
 		
-        var elem = document.getElementById('ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl04_widgetContainer_ctl00_pnlMyTraining');
-       // elem.style.position = "absolute";
-        elem.style.zIndex="2147483644";
+	
+		
+	var elements = document.getElementsByClassName('Panel');
+        elements[0].style.position = "absolute";
+        elements[0].style.zIndex="1000";
+		
+        //var elem = document.getElementById('ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl04_widgetContainer_ctl00_pnlMyTraining');
+        //elem.style.position = "absolute";
+        //elem.style.zIndex="2";
 		
 		
 		
