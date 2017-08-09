@@ -207,7 +207,6 @@ $(document).ready(function() {
 	); 
 	
 	
-
 	$('#main-menu > li.active').hover(function(){ 
 		 $(this).css({"backgroundColor": "yellow",  "color": "#000000", "text-decoration": "underline", "font-weight": "bold"}); },
 		 function() { $(this).css({"background-color": "#ffffff", "text-decoration": "underline", "font-weight": "bold"}); }
@@ -341,7 +340,13 @@ $(document).ready(function() {
 	//push down the My Learninig box	
         $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl04_widgetContainer_ctl00_pnlMyTraining").css({"margin-top": "-80px"}); 
 		
-        var elem = document.getElementById('#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl04_widgetContainer_ctl00_pnlMyTraining');
+	
+	//var elements = document.getElementsByClassName('Panel cs-panel-flat');
+        //elements[0].style.position = "absolute";
+        //elements[0].style.zIndex="10";
+		
+		
+        var elem = document.getElementById('ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl04_widgetContainer_ctl00_pnlMyTraining');
        // elem.style.position = "absolute";
         elem.style.zIndex="20";
 		
