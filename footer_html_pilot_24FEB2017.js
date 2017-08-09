@@ -337,7 +337,7 @@ $(document).ready(function() {
 			
       var elem = document.getElementById('my-slider');
       elem.style.position = "absolute";
-      elem.style.zIndex="-10;
+      elem.style.zIndex="-10";
 		
 		
 		
