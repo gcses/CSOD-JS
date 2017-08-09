@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test1");
+	console.log("Test2");
 
 	//Alternative Header Icons
 
@@ -353,7 +353,7 @@ $(document).ready(function() {
 	// var elements = document.getElementsByClassName('.navTabs');
 	var elem = document.getElementById('#my-slider');
         //elem.style.position = "absolute";
-        elem.style.zIndex="1";
+        elem.style.zIndex="0";  //1 is a conflict with cards
 	
 	//push down the My Learninig box	
         $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl04_widgetContainer_ctl00_pnlMyTraining").css({"margin-top": "150px"}); 
@@ -414,7 +414,7 @@ $(document).ready(function() {
 	$(".wrapper").css({"margin-left": "10%"});
         var elements = document.getElementsByClassName('wrapper');
         elements[0].style.position = "absolute";
-        elements[0].style.zIndex="2";  //"2147483644"
+        elements[0].style.zIndex="1";  //"2147483644"
 
 		
 	// margin: top, right, bottom, left
