@@ -414,7 +414,7 @@ $(document).ready(function() {
 	$(".wrapper").css({"margin-left": "10%"});
         var elements = document.getElementsByClassName('wrapper');
         elements[0].style.position = "absolute";
-        elements[0].style.zIndex="2147483644";  //"2147483644"
+        elements[0].style.zIndex="10";  //"2147483644"
 
 		
 	// margin: top, right, bottom, left
