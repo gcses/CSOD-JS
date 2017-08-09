@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test2");
+	console.log("Test3");
 
 	//Alternative Header Icons
 
@@ -402,7 +402,8 @@ $(document).ready(function() {
 
 	// margin: top, right, bottom, left
 	//Drive Cards to the top of the stack (z-index cannot be changed in jQuery)	
-	$(".wrapper").css({"margin": "-140px 0px 0px 15%"});    //move row of cards up over slider
+	$(".wrapper").css({"margin": "0px 0px 0px 15%"});    //move row of cards up over slider
+	//$(".wrapper").css({"margin": "-140px 0px 0px 15%"});    //move row of cards up over slider
 
       } //end if
 	
