@@ -328,11 +328,9 @@ $(document).ready(function() {
 		
 		
 		
-	
-		
      //adjust slider size
        // margin bottom pushes down the Cards
-	$("#my-slider").css({"border": "none", "width": "100%", "margin-bottom": "0px", "margin-top": "0px",
+	$("#my-slider").css({"border": "none", "width": "70%", "margin-bottom": "0px", "margin-top": "0px",
 			     "padding-bottom": "0px", "padding-top": "0px"}); 
 			
       var elem = document.getElementById('my-slider');
