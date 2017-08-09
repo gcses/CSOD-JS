@@ -345,7 +345,7 @@ $(document).ready(function() {
 		
 		
      //push down the My Learninig box	
-        $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl04_widgetContainer_ctl00_pnlMyTraining").css({"margin-top": "-80px"}); 
+        $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl04_widgetContainer_ctl00_pnlMyTraining").css({"margin-top": "0px"}); 
 		
       //remove rounded corners from slider
 	   document.getElementById("my-slider").style.borderRadius = "0px";
