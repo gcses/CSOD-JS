@@ -341,6 +341,15 @@ $(document).ready(function() {
 	//push down the My Learninig box	
         $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl04_widgetContainer_ctl00_pnlMyTraining").css({"margin-top": "-80px"}); 
 		
+        var elem = document.getElementById('#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl04_widgetContainer_ctl00_pnlMyTraining');
+       // elem.style.position = "absolute";
+        elem.style.zIndex="20";
+		
+		
+		
+		
+		
+		
       //remove rounded corners from slider
 	   document.getElementById("my-slider").style.borderRadius = "0px";
 
