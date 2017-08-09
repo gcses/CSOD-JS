@@ -330,7 +330,7 @@ $(document).ready(function() {
 		
      //adjust slider size
        // margin bottom pushes down the Cards      top, right, bottom, left
-       $("#my-slider").css({"border": "none", "height": "255px", "margin": "0px 0px 0px 0%", "padding": "0px 0px 0px 0px"}); 
+       $("#my-slider").css({"float": "left", "border": "none", "width": "100%", "margin": "0px 0px 0px 0%", "padding": "0px 0px 0px 0px"}); 
 			
       var elem = document.getElementById('my-slider');      
       elem.style.position = "absolute";
