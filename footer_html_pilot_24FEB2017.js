@@ -394,7 +394,7 @@ $(document).ready(function() {
 				"border-bottom": "none", "border-top": "none", "border-left": "solid 1px #f2f3f4", 
 				"border-right": "none", "margin": "0px 0px 0px 0px" }); 
 		
-		$(".card li h2").css({"border-top": "solid 18px #00a79e});
+		//$(".card li h2").css({"border-top": "solid 18px #00a79e});
 		
 		
 		$(".card:first-child").css({"border-left": "none"});
