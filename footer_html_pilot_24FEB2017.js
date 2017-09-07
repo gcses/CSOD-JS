@@ -383,7 +383,7 @@ $(document).ready(function() {
 		$(".widgetToMove").css({"box-shadow": "0 1px 6px 0 rgba(0,0,0,0.2)", "margin": "0px 0px 0px 0px"});
 	        $(".card").css({"width": "20%", "box-sizing": "border-box", "padding": "0px", "border-radius": "0px 0px 0px 0px",
 				"border-bottom": "solid 18px #00a79e", "border-top": "none", "border-left": "solid 1px #f2f3f4", 
-				"border-right": "none", "margin": "0px 0px 0px 0px" }); 
+				"border-right": "none", "margin": "-30px 0px 0px 0px" }); 
 		
 		$(".card:first-child").css({"border-left": "none"});
 		$(".card:nth-child(2)").css({"border-bottom": "solid 18px #6f2780"});
@@ -403,7 +403,7 @@ $(document).ready(function() {
 
 	// margin: top, right, bottom, left
 	//Drive Cards to the top of the stack (z-index cannot be changed in jQuery)	
-	$(".wrapper").css({"margin": "200px 0px 0px 15%"});    //move row of cards up over slider
+	$(".wrapper").css({"margin": "250px 0px 0px 15%"});    //move row of cards up over slider
 	//$(".wrapper").css({"margin": "-140px 0px 0px 15%"});    //move row of cards up over slider
 
       } //end if
