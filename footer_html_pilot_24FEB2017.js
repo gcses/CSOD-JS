@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test4");
+	console.log("Test5");
 
 	//Alternative Header Icons
 
@@ -386,11 +386,15 @@ $(document).ready(function() {
 				"border-bottom": "solid 18px #00a79e", "border-top": "none", "border-left": "solid 1px #f2f3f4", 
 				"border-right": "none", "margin": "0px 0px 0px 0px" }); 
 		
-		$(".card:first-child").css({"border-left": "none"});
-		$(".card:nth-child(2)").css({"border-bottom": "solid 18px #6f2780"});
-		$(".card:nth-child(3)").css({"border-bottom": "solid 18px #02abd7"});
+		//$(".card:first-child").css({"border-left": "none"});
+		//$(".card:nth-child(2)").css({"border-bottom": "solid 18px #6f2780"});
+		//$(".card:nth-child(3)").css({"border-bottom": "solid 18px #02abd7"});
 		
-		$(".card li:nth-child(2)").css({"border-bottom": "solid 18px #02abd7"});
+		$(".card:first-child").css({"border-left": "none"});
+		$(".card:nth-child(2) li:first-child").css({"border-bottom": "solid 18px #6f2780"});
+		$(".card:nth-child(3) li:first-child").css({"border-bottom": "solid 18px #02abd7"});
+		
+		
 		
 		$(".card li").css({"width": "100%", "box-sizing": "border-box"});
 		$(".card img").css({"width": "100%", "height": "100px"});
