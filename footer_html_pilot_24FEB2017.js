@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test2");
+	console.log("Test4");
 
 	//Alternative Header Icons
 
@@ -381,13 +381,17 @@ $(document).ready(function() {
 		
 	//CARD Style  #00a79e
 		$(".widgetToMove").css({"box-shadow": "0 1px 6px 0 rgba(0,0,0,0.2)", "margin": "0px 0px 0px 0px"});
+		
 	        $(".card").css({"width": "20%", "box-sizing": "border-box", "padding": "0px", "border-radius": "0px 0px 0px 0px",
 				"border-bottom": "solid 18px #00a79e", "border-top": "none", "border-left": "solid 1px #f2f3f4", 
-				"border-right": "none", "margin": "-30px 0px 0px 0px" }); 
+				"border-right": "none", "margin": "0px 0px 0px 0px" }); 
 		
 		$(".card:first-child").css({"border-left": "none"});
 		$(".card:nth-child(2)").css({"border-bottom": "solid 18px #6f2780"});
 		$(".card:nth-child(3)").css({"border-bottom": "solid 18px #02abd7"});
+		
+		$(".card li:nth-child(2)").css({"border-bottom": "solid 18px #02abd7"});
+		
 		$(".card li").css({"width": "100%", "box-sizing": "border-box"});
 		$(".card img").css({"width": "100%", "height": "100px"});
 		$(".card h2").css({"padding": "5px", "color": "#808080", "font-size": "14px", "margin-top": "0px"});
