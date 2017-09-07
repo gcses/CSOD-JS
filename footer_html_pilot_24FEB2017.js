@@ -330,7 +330,7 @@ $(document).ready(function() {
 		
      //adjust slider size
        // margin bottom pushes down the Cards      top, right, bottom, left
-       $("#my-slider").css({"border": "none", "width": "110%", "margin": "-30px 0px 0px 0%", "padding": "0px 0px 0px 0px"}); 
+       $("#my-slider").css({"border": "none", "width": "110%", "margin": "-50px 0px 0px 0%", "padding": "0px 0px 0px 0px"}); 
 			
       //var elem = document.getElementById('my-slider');      
       //elem.style.position = "absolute";
@@ -403,7 +403,7 @@ $(document).ready(function() {
 
 	// margin: top, right, bottom, left
 	//Drive Cards to the top of the stack (z-index cannot be changed in jQuery)	
-	$(".wrapper").css({"margin": "100px 0px 0px 15%"});    //move row of cards up over slider
+	$(".wrapper").css({"margin": "200px 0px 0px 15%"});    //move row of cards up over slider
 	//$(".wrapper").css({"margin": "-140px 0px 0px 15%"});    //move row of cards up over slider
 
       } //end if
