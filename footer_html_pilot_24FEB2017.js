@@ -323,7 +323,7 @@ $(document).ready(function() {
 		
 		
 		
-		
+		//'font-size': '400%'}
 		
 		
 		
@@ -426,6 +426,14 @@ $(document).ready(function() {
 		$(".card h2").css({"padding": "5px", "color": "#808080", "font-size": "14px", "margin-top": "0px"});
 		$(".card a:nth-child(2) li").css({"padding": "5px"});
 		$(".card p ").css({"color": "#808080", "font-size": "10px"});
+		
+		$(".card h2").css({"width": "100%", "box-sizing": "border-box"});
+		
+		
+	     // <li>
+            //<h2>Pyxis™ Learning</h2>
+            //<p>Pyxis™ courses are available for dispensing and supply technologies. Includes MedStation, Anesthesia System, ES Platform, SupplyStation™ and C<sup>II</sup>Safe.</p>
+             //</li>
 		
 	//*************************************
 	//   Z-Index Area (float cards over slider)
