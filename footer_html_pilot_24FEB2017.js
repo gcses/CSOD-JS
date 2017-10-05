@@ -323,7 +323,6 @@ $(document).ready(function() {
 		
 		
 		
-		//'font-size': '400%'}
 		
 		
 		
@@ -427,7 +426,7 @@ $(document).ready(function() {
 		$(".card a:nth-child(2) li").css({"padding": "5px"});
 		$(".card p ").css({"color": "#808080", "font-size": "10px"});
 		
-		$(".card h2").css({"width": "100%", "box-sizing": "border-box"});
+		$(".card h2").css({"font-size": "300%", "font-weight": "bold", "color": "black"});
 		
 		
 	     // <li>
