@@ -426,8 +426,8 @@ $(document).ready(function() {
 		$(".card a:nth-child(2) li").css({"padding": "5px"});
 		$(".card p ").css({"color": "#808080", "font-size": "10px"});
 		
-		$(".card h2").css({"font-size": "100%", "font-weight": "bold", "color": "black"});
-		$(".card p").css({"font-size": "100%"});
+		$(".card h2").css({"font-size": "150%", "font-weight": "bold", "color": "black"});
+		$(".card p").css({"font-size": "80%"});
 		
 		
 	     // <li>
