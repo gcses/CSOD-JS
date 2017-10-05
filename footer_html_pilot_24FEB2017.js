@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test2");
+	console.log("Test3");
 
 	//Alternative Header Icons
 
@@ -365,8 +365,10 @@ $(document).ready(function() {
 	   $("#ctl00_masterPageBody").css({"width": "100.5%", "margin": "-40px 0px 0px -6px" });  //-30
 	  $("#ctl00_ContentPlaceHolder1_labelError").css({"width": "100%"}); 
 	   $("#ctl00_ContentPlaceHolder1_widgetLayout_mainPageDiv").css({"width": "100%"}); 
+	   
+	   
 	   $("#ctl00_ContentPlaceHolder1_widgetLayout_mainDivRenderedWidgets").css({"width": "100%"}); 
-	  $("#mainContainer").css({"width": "100%"}); 
+	   $("#mainContainer").css({"width": "100%"}); 
 	   $("#container0").css({"width": "100%"});  
 	   $("#container7").css({"width": "100%"}); 
 		  
@@ -403,18 +405,10 @@ $(document).ready(function() {
 		
 	//CARD Style  #00a79e
 		$(".widgetToMove").css({"box-shadow": "0 1px 6px 0 rgba(0,0,0,0.2)", "margin": "0px 0px 0px 0px"});
-		
-	       // $(".card").css({"width": "20%", "box-sizing": "border-box", "padding": "0px", "border-radius": "0px 0px 0px 0px",
-		//		"border-bottom": "solid 18px #00a79e", "border-top": "none", "border-left": "solid 1px #f2f3f4", 
-		//		"border-right": "none", "margin": "0px 0px 0px 0px" }); 
-		
-		//$(".card:first-child").css({"border-left": "none"});
-		//$(".card:nth-child(2)").css({"border-bottom": "solid 18px #6f2780"});
-		//$(".card:nth-child(3)").css({"border-bottom": "solid 18px #02abd7"});
-		
+			
 		 $(".card").css({"width": "20%", "box-sizing": "border-box", "padding": "0px", "border-radius": "0px 0px 0px 0px",
 				"border-bottom": "none", "border-top": "none", "border-left": "solid 1px #f2f3f4", 
-				"border-right": "none", "margin": "0px 0px 0px 0px" }); 
+				"border-right": "none", "margin": "0px 0px 0px 0px", "height": "150px"}); 
 		
 		//$(".card li h2").css({"border-top": "solid 18px #00a79e});
 		
