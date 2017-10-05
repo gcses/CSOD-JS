@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test3");
+	console.log("Test1");
 
 	//Alternative Header Icons
 
@@ -398,7 +398,9 @@ $(document).ready(function() {
 		
 		$(".card:first-child").css({"border-left": "none"});
 		
-		$(".card:first-child  li:nth-child(0)").css({"border-bottom": "solid 18px #6f2780"});
+		$(".card:first-child li").first().css({"border-bottom": "solid 18px #6f2780"});
+		//$(".card:first-child  li:nth-child(0)").css({"border-bottom": "solid 18px #6f2780"});
+		
 		$(".card:nth-child(2) li:first-child").css({"border-bottom": "solid 18px #6f2780"});
 		$(".card:nth-child(3) li:first-child").css({"border-bottom": "solid 18px #02abd7"});
 		$(".card:nth-child(4) li:first-child").css({"border-bottom": "solid 18px #02abd7"});
