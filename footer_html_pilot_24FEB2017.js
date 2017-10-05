@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test4");
+	console.log("Test5");
 
 	//Alternative Header Icons
 
@@ -427,7 +427,7 @@ $(document).ready(function() {
 		$(".card p ").css({"color": "#808080", "font-size": "10px"});
 		
 		$(".card h2").css({"font-size": "150%", "font-weight": "bold", "color": "black"});
-		$(".card p").css({"font-size": "80%", "padding-left": "20px", "padding-right": "20px", "text-align": "left"});
+		$(".card p").css({"font-size": "100%", "padding-left": "40px", "padding-right": "40px", "text-align": "left"});
 		
 		
 	     // <li>
