@@ -410,15 +410,12 @@ $(document).ready(function() {
 				"border-bottom": "none", "border-top": "none", "border-left": "solid 1px #f2f3f4", 
 				"border-right": "none", "margin": "0px 0px 0px 0px", "height": "300px"}); 
 		
-		//$(".card li h2").css({"border-top": "solid 18px #00a79e});
-		
 		$(".card:first-child").css({"border-left": "none"});
 		
 		$(".card:first-child li").first().css({"border-bottom": "solid 18px #6f2780"});
 		$(".card:nth-child(2) li").first().css({"border-bottom": "solid 18px #02abd7"});
 		$(".card:nth-child(3) li").first().css({"border-bottom": "solid 18px #00a79e"});
 		$(".card:nth-child(4) li").first().css({"border-bottom": "solid 18px #06578b"});
-		
 		
 		$(".card li").css({"width": "100%", "box-sizing": "border-box"});
 		$(".card img").css({"width": "100%", "height": "100px"});
@@ -429,11 +426,7 @@ $(document).ready(function() {
 		$(".card h2").css({"font-size": "150%", "font-weight": "bold", "color": "black"});
 		$(".card p").css({"font-size": "100%", "padding-left": "30px", "padding-right": "20px", "text-align": "left"});
 		
-		
-	     // <li>
-            //<h2>Pyxis™ Learning</h2>
-            //<p>Pyxis™ courses are available for dispensing and supply technologies. Includes MedStation, Anesthesia System, ES Platform, SupplyStation™ and C<sup>II</sup>Safe.</p>
-             //</li>
+
 		
 	//*************************************
 	//   Z-Index Area (float cards over slider)
