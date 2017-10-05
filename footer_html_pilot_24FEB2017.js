@@ -195,10 +195,6 @@ $(document).ready(function() {
 	
 	
 	
-	
-	
-	
-	
 	//$("#main-menu li a").css({"font-size": "18px"});
 	
 	 $("#main-menu > li > ul > li").hover(function(){ 
@@ -328,15 +324,20 @@ $(document).ready(function() {
 		
 		
 		
+		
+		
+		
+		
      //adjust slider size
        // margin bottom pushes down the Cards      top, right, bottom, left
        $("#my-slider").css({"border": "none", "width": "110%", "margin": "-50px 0px 0px 0%", "padding": "0px 0px 0px 0px"}); 
-			
+	
+		
       //var elem = document.getElementById('my-slider');      
       //elem.style.position = "absolute";
       //elem.style.zIndex="-10";
 		
-		//$("#container1.containedInHSplit.adjustHeight).css({"height": "px"}); 
+      //$("#container1.containedInHSplit.adjustHeight).css({"height": "px"}); 
      // var elem2 = document.getElementById('container7');      
       //elem2.style.position = "absolute";
       //elem2.style.zIndex="-14";
@@ -356,27 +357,46 @@ $(document).ready(function() {
        $("#ctl00_masterPageBody").css({ "margin": "0px 0px 0px 0px"}); 
 		
 
+		
       //Resize and reposition slider - margin: top, right, bottom, left
-	  //$("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").css({"width": "102%", "margin": "0px 0px 0px -5px"}); 
-	   //$("#ctl00_masterPageBody").css({"width": "100.5%", "margin": "-40px 0px 0px -6px" });  //-30
-	  //$("#ctl00_ContentPlaceHolder1_labelError").css({"width": "100%"}); 
-	   //$("#ctl00_ContentPlaceHolder1_widgetLayout_mainPageDiv").css({"width": "100%"}); 
-	  // $("#ctl00_ContentPlaceHolder1_widgetLayout_mainDivRenderedWidgets").css({"width": "100%"}); 
-	  // $("#mainContainer").css({"width": "100%"}); 
-	  // $("#container0").css({"width": "100%"});  
-	  // $("#container7").css({"width": "100%"}); 
+	  $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").css({"width": "102%", "margin": "0px 0px 0px -5px"}); 
+	   $("#ctl00_masterPageBody").css({"width": "100.5%", "margin": "-40px 0px 0px -6px" });  //-30
+	  $("#ctl00_ContentPlaceHolder1_labelError").css({"width": "100%"}); 
+	   $("#ctl00_ContentPlaceHolder1_widgetLayout_mainPageDiv").css({"width": "100%"}); 
+	   $("#ctl00_ContentPlaceHolder1_widgetLayout_mainDivRenderedWidgets").css({"width": "100%"}); 
+	  $("#mainContainer").css({"width": "100%"}); 
+	   $("#container0").css({"width": "100%"});  
+	   $("#container7").css({"width": "100%"}); 
 		  
 		
-          // $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").css({"border": "none"}); 
+           $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").css({"border": "none"}); 
 	 
-	  // $("#ctl00_ContentPlaceHolder1_labelError").css({"border": "none"}); 
-	  // $("#ctl00_ContentPlaceHolder1_widgetLayout_mainPageDiv").css({"border": "none"}); 
+	   $("#ctl00_ContentPlaceHolder1_labelError").css({"border": "none"}); 
+	   $("#ctl00_ContentPlaceHolder1_widgetLayout_mainPageDiv").css({"border": "none"}); 
+		
+		
+		
 		
 	   $("#ctl00_ContentPlaceHolder1_widgetLayout_mainDivRenderedWidgets").css({"border": "none", "height": "100px",
 										    "margin-top": "0px", "padding-top": "0px"}); 
+		
 	   $("#mainContainer").css({"border": "none", "height": "500x", "margin-top": "0px", "padding-top": "0px"}); 
 	   $("#container0").css({"border": "none", "height": "500px", "margin-top": "0px", "padding-top": "0px"});  
 	   $("#container7").css({"border": "none", "height": "500px", "margin-top": "0px", "padding-top": "0px"}); 
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 	//CARD Style  #00a79e
