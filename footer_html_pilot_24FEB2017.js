@@ -400,7 +400,7 @@ $(document).ready(function() {
 		$(".card:first-child li:first-child").css({"border-bottom": "solid 18px #6f2780"});
 		$(".card:nth-child(2) li:first-child").css({"border-bottom": "solid 18px #6f2780"});
 		$(".card:nth-child(3) li:first-child").css({"border-bottom": "solid 18px #02abd7"});
-		
+		$(".card:nth-child(4) li:first-child").css({"border-bottom": "solid 18px #02abd7"});
 		
 		
 		$(".card li").css({"width": "100%", "box-sizing": "border-box"});
