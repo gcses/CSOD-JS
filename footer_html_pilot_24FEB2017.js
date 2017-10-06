@@ -388,14 +388,19 @@ $(document).ready(function() {
 	   $("#container7").css({"border": "none", "height": "300px", "margin-top": "0px", "padding-top": "0px"}); 
 		
 		
-	  //suggested learning title
-	  // $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl06_widgetContainer_ctl00_TrainingListNew_ctl01_TitleLink").css({"color": "black"});
+	  //undo boxed format around suggested learning title
+	  $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl06_widgetContainer_ctl00_TrainingListNew_ctl01_TitleLink").css({"background": "none", "width": "400px" });
+		
+		
+		   //boxed in link on right side of Learning In Progress
+	    //$('.Panel_contentMiddle td a').css({"width": "170px", "color": "#ffffff", "font-weight": "normal",
+						//"padding": "10px 0px 10px 0px", "backgroundColor": "#004593", "display": "inline-block", "box-sizing": "border-box", "position": "relative"});
 		
 		
 		
 		//test
-		$("Panel_contentLeft").css({"backgroundColor": "green"});
-		$("Panel_contentMiddle").css({"backgroundColor": "yellow"});
+		//$("Panel_contentLeft").css({"backgroundColor": "green"});
+		//$("Panel_contentMiddle").css({"backgroundColor": "yellow"});
 		
 		
 		
