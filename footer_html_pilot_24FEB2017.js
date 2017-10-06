@@ -389,11 +389,13 @@ $(document).ready(function() {
 		
 		
 	  //suggested learning title
-	   $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl06_widgetContainer_ctl00_TrainingListNew_ctl01_TitleLink").css({"color": "black"});
+	  // $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl06_widgetContainer_ctl00_TrainingListNew_ctl01_TitleLink").css({"color": "black"});
 		
 		
 		
-		
+		//test
+		$("Panel_contentLeft").css({"backgroundColor": "green"});
+		$("Panel_contentMiddle").css({"backgroundColor": "yellow"});
 		
 		
 		
