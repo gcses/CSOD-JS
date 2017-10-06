@@ -388,8 +388,8 @@ $(document).ready(function() {
 	   $("#container7").css({"border": "none", "height": "300px", "margin-top": "0px", "padding-top": "0px"}); 
 		
 		
-		
-		
+	  //suggested learning title
+	   $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl06_widgetContainer_ctl00_TrainingListNew_ctl01_TitleLink").css({"color": "black"});
 		
 		
 		
