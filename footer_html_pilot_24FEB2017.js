@@ -380,12 +380,12 @@ $(document).ready(function() {
 		
 		
 		
-	   $("#ctl00_ContentPlaceHolder1_widgetLayout_mainDivRenderedWidgets").css({"border": "none", "height": "100px",
+	   $("#ctl00_ContentPlaceHolder1_widgetLayout_mainDivRenderedWidgets").css({"border": "none", "height": "300px",
 										    "margin-top": "0px", "padding-top": "0px"}); 
 		
-	   $("#mainContainer").css({"border": "none", "height": "500x", "margin-top": "0px", "padding-top": "0px"}); 
-	   $("#container0").css({"border": "none", "height": "500px", "margin-top": "0px", "padding-top": "0px"});  
-	   $("#container7").css({"border": "none", "height": "500px", "margin-top": "0px", "padding-top": "0px"}); 
+	   $("#mainContainer").css({"border": "none", "height": "300x", "margin-top": "0px", "padding-top": "0px"}); 
+	   $("#container0").css({"border": "none", "height": "300px", "margin-top": "0px", "padding-top": "0px"});  
+	   $("#container7").css({"border": "none", "height": "300px", "margin-top": "0px", "padding-top": "0px"}); 
 		
 		
 		
