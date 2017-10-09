@@ -423,9 +423,9 @@ $(document).ready(function() {
 		$(".widgetToMove").css({"box-shadow": "0 1px 6px 0 rgba(0,0,0,0.2)", "margin": "-100px 0px 0px 0px"});
 			
 		//"width": "20%", 
-		 $(".card").css({"box-sizing": "border-box", "padding": "0px", "border-radius": "0px 0px 0px 0px",
+		$(".card").css({"box-sizing": "border-box", "padding": "0px", "border-radius": "0px 0px 0px 0px",
 				"border-bottom": "none", "border-top": "none", "border-left": "solid 1px #f2f3f4", 
-				"border-right": "none", "margin": "0px 0px 0px 0px", "height": "300px"}); 
+				"border-right": "none", "margin": "0px 0px 0px 0px", "height": "300px", "width": "20%"}); 
 		
 		$(".card:first-child").css({"border-left": "none"});
 		
