@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test1");
+	console.log("Test2");
 
 	//Alternative Header Icons
 
@@ -354,7 +354,7 @@ $(document).ready(function() {
 		
 		
       //bring entire slider and body in general up to be flush with the warning banner under the nav bar
-       $("#ctl00_masterPageBody").css({ "margin": "200px 0px 0px 0px"}); 
+       $("#ctl00_masterPageBody").css({ "margin": "0px 0px 0px 0px"}); 
 		
 
 		
@@ -391,7 +391,10 @@ $(document).ready(function() {
 		
 		
 	  //undo boxed format around suggested learning title
-	  $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl06_widgetContainer_ctl00_TrainingListNew_ctl01_TitleLink").css({"background": "none", "width": "400px" });
+	 // $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl06_widgetContainer_ctl00_TrainingListNew_ctl01_TitleLink").css({"background": "none", "width": "400px" });
+		
+	 $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl06_widgetContainer_ctl00_pnlSuggestedTraining_title").css({ "margin": "100px 0px 0px 0px" });
+			
 		
 		
 		   //boxed in link on right side of Learning In Progress
