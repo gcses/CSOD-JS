@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test3");
+	console.log("Test4");
 
 	//Alternative Header Icons
 
@@ -71,10 +71,7 @@ $(document).ready(function() {
 	}
 
 	
-	
 
-	
-	
 	$('#ctl00_footer_pnlCustomFooter').css({"margin-top": "0px", "margin-bottom": "-15px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});
 	
 	// margin: top, right, bottom, left
@@ -143,7 +140,7 @@ $(document).ready(function() {
 	var $LClabel = $("<H3>").text('Learning Compass');
 	
 	// Formate Learning Compass Title; margin: top, right, bottom, left
-	$LClabel.css({'font-size': '100%', 'color': 'black', 'display': 'inline', 'float': 'left', 'backgroundColor': '#ffffff', 'margin': '11px 20px 0px 20px', 'padding': '0px 0px 0px 0px'});
+	$LClabel.css({'font-size': '150%', 'color': 'black', 'display': 'inline', 'float': 'left', 'backgroundColor': '#ffffff', 'margin': '11px 20px 0px 20px', 'padding': '0px 0px 0px 0px'});
 	$('.c-glbl-nav').prepend($LClabel);
 	
 	
@@ -166,9 +163,6 @@ $(document).ready(function() {
 	//underlines all sub-categories of active category - do we want to do that?
 	//$('.navTabs li.active a').css({"background-image": "none", "color": "#000000", "fontSize": "18px"});
 	//$('.navTabs li a').css({"background-image": "none", "color": "#000000", "fontSize": "18px"});
-	
-	
-	//$('.navTabs li.active a').css({"background-image": "none", "color": "#000000", "fontSize": "18px"});
 	
 	//$('.navTabs li.active li').css({"background-image": "none", "color": "yellow", "fontSize": "18px"});
 	
@@ -214,6 +208,10 @@ $(document).ready(function() {
 
 	// $('.compass-title').css({"color": "green", "font-size": "20px", "line-height": "36px", "margin-left": "30px", "margin-right": "30px", "display": "inline-block"});
 
+	
+	//************************************************************************
+	//                            WELCOME PAGE
+	//************************************************************************
 	if (document.title.indexOf("Welcome - Realize Your Potential") > -1)
 	{
 		
@@ -255,12 +253,6 @@ $(document).ready(function() {
  	    $('.cs-panel-flat .Panel_content').css({"border-color": "transparent"});
 	    $('.cs-panel-flat .Panel_title').css({"background-color": "#ffffff"});
 	    $('.Panel_titleMiddle a').css({"color": "#000000"}); 
-		
-		//what do we want this hover to do?
-	   // $(".Panel_titleMiddle a").hover(function(){ 
-	//	 $(this).css({"color": "#000000"}); },
-		// function() { $(this).css({"color": ""}); }
-	//	); 
 		
 	    $('.cs-panel-flat.Panel_titleMiddle div, .cs-panel-plain.Panel_titleMiddle div, .cs-panel-gradient.Panel_titleMiddle div, .cs-panel-flat.Panel_titleMiddle h2, .cs-panel-plain.Panel_titleMiddle h2, .cs-panel-gradient.Panel_titleMiddle h2').css({"font-size": "20px!important", "font-weight": "lighter"});
 	    $('.cs-panel-flat').css({"padding": "30px", "box-shadow": "0 0 0 0 rgba(0, 0, 0, 0.2)", "box-sizing": "border-box", "backgroundColor": "#ffffff"});
@@ -333,7 +325,7 @@ $(document).ready(function() {
 	
 		
      //push down the My Learninig box	
-        $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl04_widgetContainer_ctl00_pnlMyTraining").css({"margin-top": "300px"}); 
+     //   $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl04_widgetContainer_ctl00_pnlMyTraining").css({"margin-top": "300px"}); 
 		
 		
 		
