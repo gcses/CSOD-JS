@@ -425,7 +425,7 @@ $(document).ready(function() {
 		//"width": "20%", 
 		$(".card").css({"box-sizing": "border-box", "padding": "0px", "border-radius": "0px 0px 0px 0px",
 				"border-bottom": "none", "border-top": "none", "border-left": "solid 1px #f2f3f4", 
-				"border-right": "none", "margin": "0px 0px 0px 0px", "height": "300px", "width": "20%"}); 
+				"border-right": "none", "margin": "0px 0px 0px 0px", "height": "300px"}); 
 		
 		$(".card:first-child").css({"border-left": "none"});
 		
@@ -449,13 +449,12 @@ $(document).ready(function() {
 	//   Z-Index Area (float cards over slider)
 	//*************************************
         var elements = document.getElementsByClassName('wrapper');
-        //elements[0].style.position = "absolute";
-		elements[0].style.position = "relative";
+        elements[0].style.position = "absolute";
         elements[0].style.zIndex="10";
 
 	// margin: top, right, bottom, left
 	//Drive Cards to the top of the stack (z-index cannot be changed in jQuery)	
-	$(".wrapper").css({"margin": "20% 0px 0px 15%"});    //move row of cards up over slider
+	$(".wrapper").css({"margin": "200px 0px 0px 15%"});    //move row of cards up over slider
 		
       } //end if
 	
