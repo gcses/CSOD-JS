@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test4");
+	console.log("Test5");
 
 	//Alternative Header Icons
 
@@ -324,9 +324,12 @@ $(document).ready(function() {
 		
 	
 		
-     //push down the My Learninig box	
-     //   $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl04_widgetContainer_ctl00_pnlMyTraining").css({"margin-top": "300px"}); 
 		
+     //push down the My Learninig box - away from the top
+        $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl04_widgetContainer_ctl00_pnlMyTraining").css({"margin-top": "300px"}); 
+		
+     //bring entire slider and body in general up to be flush with the warning banner under the nav bar
+       $("#ctl00_masterPageBody").css({ "margin": "0px 0px 0px 0px"}); 
 		
 		
       //remove rounded corners from slider
@@ -334,15 +337,13 @@ $(document).ready(function() {
 
 		
 		
-      //bring entire slider and body in general up to be flush with the warning banner under the nav bar
-       $("#ctl00_masterPageBody").css({ "margin": "0px 0px 0px 0px"}); 
+
 		
 
 		
 		
       //Resize and reposition slider - margin: top, right, bottom, left
 /*
-		
 	  $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").css({"width": "102%", "margin": "0px 0px 0px -5px"}); 
 	   $("#ctl00_masterPageBody").css({"width": "100.5%", "margin": "-40px 0px 0px -6px" });  //-30
 	  $("#ctl00_ContentPlaceHolder1_labelError").css({"width": "100%"}); 
@@ -453,9 +454,8 @@ $(document).ready(function() {
 
 	// margin: top, right, bottom, left
 	//Drive Cards to the top of the stack (z-index cannot be changed in jQuery)	
-	$(".wrapper").css({"margin": "20% 10% 0px 0%"});    //move row of cards up over slider
-	//$(".wrapper").css({"margin": "-140px 0px 0px 15%"});    //move row of cards up over slider
-
+	$(".wrapper").css({"margin": "20% 0px 0px 15%"});    //move row of cards up over slider
+		
       } //end if
 	
 	
