@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test2");
+	console.log("Test3");
 
 	//Alternative Header Icons
 
@@ -399,12 +399,22 @@ $(document).ready(function() {
        //  $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl06_widgetContainer_ctl00_pnlSuggestedTraining_title").css({ "margin": "100px 0px 0px 0px" });
 	
 	//left middle right
-		 $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl06_widgetContainer_ctl00_pnlSuggestedTraining_titleLeft").css({ "margin": "2000px 0px 0px 0px" });
+		// $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl06_widgetContainer_ctl00_pnlSuggestedTraining_titleLeft").css({ "margin": "2000px 0px 0px 0px" });
 	
-		 $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl06_widgetContainer_ctl00_pnlSuggestedTraining_titleMiddle").css({ "margin": "100px 0px 0px 0px" });
+//		 $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl06_widgetContainer_ctl00_pnlSuggestedTraining_titleMiddle").css({ "margin": "100px 0px 0px 0px" });
+
+//		 $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl06_widgetContainer_ctl00_pnlSuggestedTraining_titleRight").css({ "margin": "300px 0px 0px 0px" });
 	
-		 $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl06_widgetContainer_ctl00_pnlSuggestedTraining_titleRight").css({ "margin": "300px 0px 0px 0px" });
+		
+		
+		
+		 $("#container3").css({ "margin": "300px 0px 0px 0px" });
 	
+		
+		
+		
+		
+		
 		
 		   //boxed in link on right side of Learning In Progress
 	    //$('.Panel_contentMiddle td a').css({"width": "170px", "color": "#ffffff", "font-weight": "normal",
