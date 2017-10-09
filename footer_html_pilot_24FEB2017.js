@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test4");
+	console.log("Test5");
 
 	//Alternative Header Icons
 
@@ -413,7 +413,7 @@ $(document).ready(function() {
 		//shift all lower area boxes down
 		 $("#container3").css({ "margin": "300px 0px 0px 0px" });
 		
-		 $(".Panel_titleLeft").css({ "margin": "200px 0px 0px 0px" });
+		 $(".containedInVSplit").css({ "margin": "200px 0px 0px 0px" });
 		
 		
 		
