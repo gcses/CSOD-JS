@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test2");
+	console.log("Test3");
 
 	//Alternative Header Icons
 
@@ -139,22 +139,11 @@ $(document).ready(function() {
         Sys.WebForms.PageRequestManager.getInstance().add_pageLoaded(function () { replaceOnlineClass(); });
 	Sys.WebForms.PageRequestManager.getInstance().add_endRequest(function () { replaceOnlineClass(); });
 
-	// Remove Welcome sub-tab
-        // $('a:contains("Welcome")').each(function(){
- 	//	$(this).remove();
-	//});
-	
-	// Remove Welcome Tab 
-	//var welcomeTab = document.querySelector("[data-tag='Welcome']");
-	//welcomeTab.parentNode.removeChild(welcomeTab);
-	
-
-	
 	//add words 'Learning Compass'
 	var $LClabel = $("<H3>").text('Learning Compass');
 	
-	// margin: top, right, bottom, left
-	$LClabel.css({'color': 'black', 'display': 'inline', 'float': 'left', 'backgroundColor': '#ffffff', 'margin': '11px 20px 0px 20px', 'padding': '0px 0px 0px 0px'});
+	// Formate Learning Compass Title; margin: top, right, bottom, left
+	$LClabel.css({'font-size': '100%', 'color': 'black', 'display': 'inline', 'float': 'left', 'backgroundColor': '#ffffff', 'margin': '11px 20px 0px 20px', 'padding': '0px 0px 0px 0px'});
 	$('.c-glbl-nav').prepend($LClabel);
 	
 	
