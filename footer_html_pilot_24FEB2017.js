@@ -393,9 +393,18 @@ $(document).ready(function() {
 	  //undo boxed format around suggested learning title
 	 // $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl06_widgetContainer_ctl00_TrainingListNew_ctl01_TitleLink").css({"background": "none", "width": "400px" });
 		
+         //lower the Suggested Learning area
 	 $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl06_widgetContainer_ctl00_pnlSuggestedTraining_title").css({ "margin": "100px 0px 0px 0px" });
-			
 		
+       //  $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl06_widgetContainer_ctl00_pnlSuggestedTraining_title").css({ "margin": "100px 0px 0px 0px" });
+	
+	//left middle right
+		 $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl06_widgetContainer_ctl00_pnlSuggestedTraining_titleLeft").css({ "margin": "2000px 0px 0px 0px" });
+	
+		 $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl06_widgetContainer_ctl00_pnlSuggestedTraining_titleMiddle").css({ "margin": "100px 0px 0px 0px" });
+	
+		 $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl06_widgetContainer_ctl00_pnlSuggestedTraining_titleRight").css({ "margin": "300px 0px 0px 0px" });
+	
 		
 		   //boxed in link on right side of Learning In Progress
 	    //$('.Panel_contentMiddle td a').css({"width": "170px", "color": "#ffffff", "font-weight": "normal",
