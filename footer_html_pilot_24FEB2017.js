@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test3");
+	console.log("Test4");
 
 	//Alternative Header Icons
 
@@ -393,6 +393,9 @@ $(document).ready(function() {
 	  //undo boxed format around suggested learning title
 	 // $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl06_widgetContainer_ctl00_TrainingListNew_ctl01_TitleLink").css({"background": "none", "width": "400px" });
 		
+		
+
+		
          //lower the Suggested Learning area
 	 $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl06_widgetContainer_ctl00_pnlSuggestedTraining_title").css({ "margin": "100px 0px 0px 0px" });
 		
@@ -407,9 +410,10 @@ $(document).ready(function() {
 	
 		
 		
-		
+		//shift all lower area boxes down
 		 $("#container3").css({ "margin": "300px 0px 0px 0px" });
-	
+		
+		 $(".Panel_titleLeft").css({ "margin": "200px 0px 0px 0px" });
 		
 		
 		
