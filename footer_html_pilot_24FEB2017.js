@@ -449,7 +449,8 @@ $(document).ready(function() {
 	//   Z-Index Area (float cards over slider)
 	//*************************************
         var elements = document.getElementsByClassName('wrapper');
-        elements[0].style.position = "absolute";
+        //elements[0].style.position = "absolute";
+		elements[0].style.position = "relative";
         elements[0].style.zIndex="10";
 
 	// margin: top, right, bottom, left
