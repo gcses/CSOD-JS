@@ -343,9 +343,10 @@ $(document).ready(function() {
 		
 	
 		
-		
      //push down the My Learninig box	
-        $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl04_widgetContainer_ctl00_pnlMyTraining").css({"margin-top": "350px"}); 
+        $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl04_widgetContainer_ctl00_pnlMyTraining").css({"margin-top": "300px"}); 
+		
+		
 		
       //remove rounded corners from slider
 	   document.getElementById("my-slider").style.borderRadius = "0px";
@@ -353,9 +354,10 @@ $(document).ready(function() {
 		
 		
       //bring entire slider and body in general up to be flush with the warning banner under the nav bar
-       $("#ctl00_masterPageBody").css({ "margin": "0px 0px 0px 0px"}); 
+       $("#ctl00_masterPageBody").css({ "margin": "200px 0px 0px 0px"}); 
 		
 
+		
 		
       //Resize and reposition slider - margin: top, right, bottom, left
 /*
