@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test4");
+	console.log("Test7");
 
 	//Alternative Header Icons
 
@@ -216,7 +216,7 @@ $(document).ready(function() {
 	{
 	      //change slider's slide title text
 	      $('.ism-caption.ism-caption-0').css({'height': '75px', 'background': 'none', 'color': 'white', 'font-size': '300%'});
-	      $('#my-slider li').css({'height': '75px', 'font-size': '300%'});
+	      $('#my-slider li').css({'font-size': '300%'});
 		
 		
 	      $('#header_headerFixed_hlAvatar').css({'backgroundColor': '#004593',  'margin-top': '5px', 'margin-left': '5px', 'border': '0px solid #004593'});  //yellow border
