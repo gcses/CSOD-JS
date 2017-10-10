@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test2");
+	console.log("Test3);
 
 	//Alternative Header Icons
 
@@ -248,6 +248,7 @@ $(document).ready(function() {
 					 <li class="active">
 		*/
 
+		
 	    /*Tables*/
             $('.cs-panel-flat, .cs-panel-plain, .cs-panel-gradient').css({"border-radius": "0"});
  	    $('.cs-panel-flat .Panel_content').css({"border-color": "transparent"});
@@ -451,6 +452,14 @@ $(document).ready(function() {
        //use the name field to alter the My Learning header
        $('h2:contains("My Learning")').each(function(){
  	    $(this).html($(this).html().replace('My Learning', fname + '\'s Learning In Progress'));
+	});
+	
+	
+	
+	
+	
+	$('h2:contains("My Learning")').each(function(){
+ 	    $(this).css('font-size': '22px');
 	});
 	
         $("a:has(span:contains('Popular'))").remove();
