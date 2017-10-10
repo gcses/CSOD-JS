@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test6");
+	console.log("Test1");
 
 	//Alternative Header Icons
 
@@ -292,25 +292,8 @@ $(document).ready(function() {
 	    $('.chevron1').css({'position': 'absolute', 'top': '13%', 'left': '81%', 'margin-left': '5px'});
            
 
-		
-		
-            // $(".Panel_contentMiddle").css({"height": "110px", "margin": "200px 0px 0px 0%"}); 
-		 $(".Panel_contentMiddle").css({"margin": "200px 0px 0px 0%"}); 
-		
-		
-		// $(".Panel_contentMiddle td a").hover(function(){ 
-		//      $(this).css({"text-decoration": "none", "backgroundColor": "#003066"}); },
-		//	function() { $(this).css({"backgroundColor": "#004593"}); }
-		//); 
-		
-		 //$('.Panel_contentMiddle td a:after').css({"content": "\f054", "position": "absolute", "right": "0", "top: 10px", "color": "#ffffff", "width": "26px", "height": "28px", "isplay": "block", "font": "normal normal normal 14px/1 FontAwesome"});
-		
-		 $('.cs-panel-flat.Panel_footer, .cs-panel-plain.Panel_footer, .cs-panel-gradient.Panel_footer').css({"border": "none"});
-		
-		
-		
-		
-		
+            $(".Panel_contentMiddle").css({"margin": "200px 0px 0px 0%"}); 
+            $('.cs-panel-flat.Panel_footer, .cs-panel-plain.Panel_footer, .cs-panel-gradient.Panel_footer').css({"border": "none"});
 		
 		
      //adjust slider size
@@ -331,7 +314,7 @@ $(document).ready(function() {
 		
 		
      //push down the My Learninig box - away from the top
-        $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl04_widgetContainer_ctl00_pnlMyTraining").css({"margin-top": "300px"}); 
+     //   $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl04_widgetContainer_ctl00_pnlMyTraining").css({"margin-top": "300px"}); 
 		
      //bring entire slider and body in general up to be flush with the warning banner under the nav bar
        $("#ctl00_masterPageBody").css({ "margin": "0px 0px 0px 0px"}); 
