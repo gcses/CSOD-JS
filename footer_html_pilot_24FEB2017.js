@@ -454,14 +454,6 @@ $(document).ready(function() {
  	    $(this).html($(this).html().replace('My Learning', fname + '\'s Learning In Progress'));
 	});
 	
-	
-	
-	
-	
-	$('h2:contains("My Learning")').each(function(){
- 	    $(this).css('font-size': '22px');
-	});
-	
         $("a:has(span:contains('Popular'))").remove();
 	
         $('h2:contains("Browse for Training")').each(function(){
