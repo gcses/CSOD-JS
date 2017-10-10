@@ -283,7 +283,7 @@ $(document).ready(function() {
 	     //boxed in link on right side of Learning In Progress
 	    $('.Panel_contentMiddle td a').css({"width": "170px", "color": "#ffffff", "font-weight": "normal", "padding": "10px 0px 10px 0px", "backgroundColor": "#004593", "display": "inline-block", "box-sizing": "border-box", "position": "relative"});
 		
-		
+	    // Add Chevron image to Browse Learning
 	    // margin: top, right, bottom, left
 	    var chevImg = $('<img class="chevron1">'); //Equivalent: $(document.createElement('img'))
 	    chevImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/rightArrowIcon.png');
@@ -292,6 +292,11 @@ $(document).ready(function() {
 	    $('.chevron1').css({'position': 'absolute', 'top': '13%', 'left': '81%', 'margin-left': '5px'});
            
 
+		
+		
+            // $(".Panel_contentMiddle").css({"height": "110px", "margin": "200px 0px 0px 0%"}); 
+		 $(".Panel_contentMiddle").css({"margin": "200px 0px 0px 0%"}); 
+		
 		
 		// $(".Panel_contentMiddle td a").hover(function(){ 
 		//      $(this).css({"text-decoration": "none", "backgroundColor": "#003066"}); },
