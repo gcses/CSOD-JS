@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test1");
+	console.log("Test2");
 
 	//Alternative Header Icons
 
@@ -367,7 +367,7 @@ $(document).ready(function() {
 
 		
          //lower the Suggested Learning area
-	 $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl06_widgetContainer_ctl00_pnlSuggestedTraining_title").css({ "margin": "100px 0px 0px 0px" });
+	// $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl06_widgetContainer_ctl00_pnlSuggestedTraining_title").css({ "margin": "100px 0px 0px 0px" });
 		
        //  $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl06_widgetContainer_ctl00_pnlSuggestedTraining_title").css({ "margin": "100px 0px 0px 0px" });
 	
