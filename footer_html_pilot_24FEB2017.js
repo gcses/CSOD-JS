@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test3");
+	console.log("Test4");
 
 	//Alternative Header Icons
 
@@ -317,9 +317,9 @@ $(document).ready(function() {
 		//"line-height": "16px"
      $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl06_widgetContainer_ctl00_pnlSuggestedTraining_titleMiddle h2").css({"visibility": "visible", "line-height": "16px", "color": "blue"}); 
  
-     $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl05_widgetContainer_ctl00_pnlBrowse_titleMiddle h2").css({"visibility": "visible", "font-size": "200%", "color": "blue"}); 
+     $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl05_widgetContainer_ctl00_pnlBrowse_titleMiddle h2").css({"height": "80px", "visibility": "visible", "font-size": "20px", "color": "blue"}); 
     
-     $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl04_widgetContainer_ctl00_pnlMyTraining_titleMiddle h2").css({"visibility": "visible", "font-size": "200%", "color": "blue"}); 
+     $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl04_widgetContainer_ctl00_pnlMyTraining_titleMiddle h2").css({"height": "80px", "visibility": "visible", "font-size": "200%", "color": "blue"}); 
 
 		
 		
