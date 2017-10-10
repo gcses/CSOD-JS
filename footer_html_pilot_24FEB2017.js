@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test8);
+	console.log("Test8");
 
 	//Alternative Header Icons
 
