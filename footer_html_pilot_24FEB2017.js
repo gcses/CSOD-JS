@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test3");
+	console.log("Test4");
 
 	//Alternative Header Icons
 
@@ -312,6 +312,7 @@ $(document).ready(function() {
 		
 	
 		
+     $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl06_widgetContainer_ctl00_pnlSuggestedTraining_state h2").css({ "color": "black"}); 
 		
      //push down the 'X's Learning in Progress' - away from the top
      $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl04_widgetContainer_ctl00_pnlMyTraining").css({"margin-top": "200px"}); 
