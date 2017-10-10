@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test1");
+	console.log("Test2");
 
 	//Alternative Header Icons
 
@@ -251,7 +251,7 @@ $(document).ready(function() {
 	    /*Tables*/
             $('.cs-panel-flat, .cs-panel-plain, .cs-panel-gradient').css({"border-radius": "0"});
  	    $('.cs-panel-flat .Panel_content').css({"border-color": "transparent"});
-	    $('.cs-panel-flat .Panel_title').css({"background-color": "#ffffff"});
+	    $('.cs-panel-flat .Panel_title').css({"font-size": "22px", "background-color": "#ffffff"});
 	    $('.Panel_titleMiddle a').css({"color": "#000000"}); 
 		
 	    $('.cs-panel-flat.Panel_titleMiddle div, .cs-panel-plain.Panel_titleMiddle div, .cs-panel-gradient.Panel_titleMiddle div, .cs-panel-flat.Panel_titleMiddle h2, .cs-panel-plain.Panel_titleMiddle h2, .cs-panel-gradient.Panel_titleMiddle h2').css({"font-size": "20px!important", "font-weight": "lighter"});
@@ -332,77 +332,15 @@ $(document).ready(function() {
 		
 		
 
-		
 
 		
-		
       //Resize and reposition slider - margin: top, right, bottom, left
-/*
-	  $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").css({"width": "102%", "margin": "0px 0px 0px -5px"}); 
-	   $("#ctl00_masterPageBody").css({"width": "100.5%", "margin": "-40px 0px 0px -6px" });  //-30
-	  $("#ctl00_ContentPlaceHolder1_labelError").css({"width": "100%"}); 
-	   $("#ctl00_ContentPlaceHolder1_widgetLayout_mainPageDiv").css({"width": "100%"}); 
-	   
-	   
-	   $("#ctl00_ContentPlaceHolder1_widgetLayout_mainDivRenderedWidgets").css({"width": "100%"}); 
-	   $("#mainContainer").css({"width": "100%"}); 
-	   $("#container0").css({"width": "100%"});  
-	   $("#container7").css({"width": "100%"}); 
-		  
-		
-           $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl00_widgetContainer_ctl00_htmlContainer").css({"border": "none"}); 
-	 
-	   $("#ctl00_ContentPlaceHolder1_labelError").css({"border": "none"}); 
-	   $("#ctl00_ContentPlaceHolder1_widgetLayout_mainPageDiv").css({"border": "none"}); 
-*/	
-		
-		
-		
 	   $("#ctl00_ContentPlaceHolder1_widgetLayout_mainDivRenderedWidgets").css({"border": "none", "height": "331px",
 										    "margin-top": "0px", "padding-top": "0px"}); 
 		
 	   $("#mainContainer").css({"border": "none", "height": "331x", "margin-top": "0px", "padding-top": "0px"}); 
 	   $("#container0").css({"border": "none", "height": "331px", "margin-top": "0px", "padding-top": "0px"});  
 	   $("#container7").css({"border": "none", "height": "331px", "margin-top": "0px", "padding-top": "0px"}); 
-		
-		
-	  //undo boxed format around suggested learning title
-	 // $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl06_widgetContainer_ctl00_TrainingListNew_ctl01_TitleLink").css({"background": "none", "width": "400px" });
-		
-		
-
-		
-         //lower the Suggested Learning area
-	// $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl06_widgetContainer_ctl00_pnlSuggestedTraining_title").css({ "margin": "100px 0px 0px 0px" });
-		
-       //  $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl06_widgetContainer_ctl00_pnlSuggestedTraining_title").css({ "margin": "100px 0px 0px 0px" });
-	
-	//left middle right
-		// $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl06_widgetContainer_ctl00_pnlSuggestedTraining_titleLeft").css({ "margin": "2000px 0px 0px 0px" });
-	
-//		 $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl06_widgetContainer_ctl00_pnlSuggestedTraining_titleMiddle").css({ "margin": "100px 0px 0px 0px" });
-
-//		 $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl06_widgetContainer_ctl00_pnlSuggestedTraining_titleRight").css({ "margin": "300px 0px 0px 0px" });
-	
-		
-		
-		//shift all lower area boxes down
-		// $("#container3").css({ "margin": "331px 0px 0px 0px" });
-		
-	       // $(".containedInVSplit").css({ "margin": "200px 0px 0px 0px" });
-		
-
-		   //boxed in link on right side of Learning In Progress
-	    //$('.Panel_contentMiddle td a').css({"width": "170px", "color": "#ffffff", "font-weight": "normal",
-						//"padding": "10px 0px 10px 0px", "backgroundColor": "#004593", "display": "inline-block", "box-sizing": "border-box", "position": "relative"});
-		
-		
-		
-		
-		
-		
-		
-		
 		
 		
 	//CARD Style  #00a79e;   top, right, bottom, left
