@@ -352,12 +352,12 @@ $(document).ready(function() {
 		
 		
 		
-	   $("#ctl00_ContentPlaceHolder1_widgetLayout_mainDivRenderedWidgets").css({"border": "none", "height": "300px",
+	   $("#ctl00_ContentPlaceHolder1_widgetLayout_mainDivRenderedWidgets").css({"border": "none", "height": "330px",
 										    "margin-top": "0px", "padding-top": "0px"}); 
 		
-	   $("#mainContainer").css({"border": "none", "height": "300x", "margin-top": "0px", "padding-top": "0px"}); 
-	   $("#container0").css({"border": "none", "height": "300px", "margin-top": "0px", "padding-top": "0px"});  
-	   $("#container7").css({"border": "none", "height": "300px", "margin-top": "0px", "padding-top": "0px"}); 
+	   $("#mainContainer").css({"border": "none", "height": "330x", "margin-top": "0px", "padding-top": "0px"}); 
+	   $("#container0").css({"border": "none", "height": "330px", "margin-top": "0px", "padding-top": "0px"});  
+	   $("#container7").css({"border": "none", "height": "330px", "margin-top": "0px", "padding-top": "0px"}); 
 		
 		
 	  //undo boxed format around suggested learning title
@@ -381,9 +381,9 @@ $(document).ready(function() {
 		
 		
 		//shift all lower area boxes down
-		 $("#container3").css({ "margin": "300px 0px 0px 0px" });
+		 $("#container3").css({ "margin": "330px 0px 0px 0px" });
 		
-		 $(".containedInVSplit").css({ "margin": "200px 0px 0px 0px" });
+		// $(".containedInVSplit").css({ "margin": "200px 0px 0px 0px" });
 		
 		
 		
