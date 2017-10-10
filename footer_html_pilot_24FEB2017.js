@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test6");
+	console.log("Test7");
 
 	//Alternative Header Icons
 
@@ -317,14 +317,11 @@ $(document).ready(function() {
 		//"line-height": "16px"
      $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl06_widgetContainer_ctl00_pnlSuggestedTraining_titleMiddle h2").css({"visibility": "visible", "color": "black", "font-weight": "bold"}); 
  
-     $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl05_widgetContainer_ctl00_pnlBrowse_titleMiddle h2").css({"visibility": "visible", "fontSize": "22px", "color": "black"}); 
+     $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl05_widgetContainer_ctl00_pnlBrowse_titleMiddle h2").css({"visibility": "visible", "fontSize": "22px", "color": "black", "font-weight": "bold"}); 
     
-     $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl04_widgetContainer_ctl00_pnlMyTraining_titleMiddle h2").css({"visibility": "visible", "font-size": "24px", "color": "black"}); 
+     $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl04_widgetContainer_ctl00_pnlMyTraining_titleMiddle h2").css({"visibility": "visible", "font-size": "24px !important", "color": "black", "font-weight": "bold"}); 
 
-		
-		//Panel_titleMiddle
-
-		
+	
 
      //push down the 'X's Learning in Progress' - away from the top
      $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl04_widgetContainer_ctl00_pnlMyTraining").css({"margin-top": "200px"}); 
