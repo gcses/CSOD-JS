@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test1");
+	console.log("Test2");
 
 	//Alternative Header Icons
 
@@ -217,7 +217,7 @@ $(document).ready(function() {
 		//change slider's slide title text
 		//my-slider
 		//ism-caption ism-caption-0
-		  $('.ism-caption').css({'background': 'none', 'color': 'white', 'font-size': '35px'});
+		  $('.ism-caption').css({'height': '75px', 'background': 'none', 'color': 'white', 'font-size': '300%'});
 	     
 		
 		
