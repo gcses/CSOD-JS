@@ -313,8 +313,8 @@ $(document).ready(function() {
 	
 		
 		
-     //push down the My Learninig box - away from the top
-     //   $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl04_widgetContainer_ctl00_pnlMyTraining").css({"margin-top": "300px"}); 
+     //push down the 'X's Learning in Progress' - away from the top
+     $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl04_widgetContainer_ctl00_pnlMyTraining").css({"margin-top": "300px"}); 
 		
      //bring entire slider and body in general up to be flush with the warning banner under the nav bar
        $("#ctl00_masterPageBody").css({ "margin": "0px 0px 0px 0px"}); 
@@ -352,12 +352,12 @@ $(document).ready(function() {
 		
 		
 		
-	   $("#ctl00_ContentPlaceHolder1_widgetLayout_mainDivRenderedWidgets").css({"border": "none", "height": "330px",
+	   $("#ctl00_ContentPlaceHolder1_widgetLayout_mainDivRenderedWidgets").css({"border": "none", "height": "331px",
 										    "margin-top": "0px", "padding-top": "0px"}); 
 		
-	   $("#mainContainer").css({"border": "none", "height": "330x", "margin-top": "0px", "padding-top": "0px"}); 
-	   $("#container0").css({"border": "none", "height": "330px", "margin-top": "0px", "padding-top": "0px"});  
-	   $("#container7").css({"border": "none", "height": "330px", "margin-top": "0px", "padding-top": "0px"}); 
+	   $("#mainContainer").css({"border": "none", "height": "331x", "margin-top": "0px", "padding-top": "0px"}); 
+	   $("#container0").css({"border": "none", "height": "331px", "margin-top": "0px", "padding-top": "0px"});  
+	   $("#container7").css({"border": "none", "height": "331px", "margin-top": "0px", "padding-top": "0px"}); 
 		
 		
 	  //undo boxed format around suggested learning title
@@ -381,9 +381,9 @@ $(document).ready(function() {
 		
 		
 		//shift all lower area boxes down
-		 $("#container3").css({ "margin": "330px 0px 0px 0px" });
+		 $("#container3").css({ "margin": "331px 0px 0px 0px" });
 		
-		// $(".containedInVSplit").css({ "margin": "200px 0px 0px 0px" });
+	       // $(".containedInVSplit").css({ "margin": "200px 0px 0px 0px" });
 		
 		
 		
