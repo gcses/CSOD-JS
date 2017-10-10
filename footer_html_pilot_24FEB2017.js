@@ -296,37 +296,16 @@ $(document).ready(function() {
             chevImg.appendTo('.Panel_contentMiddle td a');
 	    $('.chevron1').css({'position': 'absolute', 'top': '13%', 'left': '81%', 'margin-left': '5px'});
            
-
             $(".Panel_contentMiddle").css({"margin": "200px 0px 0px 0%"}); 
             $('.cs-panel-flat.Panel_footer, .cs-panel-plain.Panel_footer, .cs-panel-gradient.Panel_footer').css({"border": "none"});
 		
 		
-     //adjust slider size
-       // margin bottom pushes down the Cards      top, right, bottom, left
-       $("#my-slider").css({"border": "none", "width": "110%", "margin": "-50px 0px 0px 0%", "padding": "0px 0px 0px 0px"}); 
-	
-		
-      //var elem = document.getElementById('my-slider');      
-      //elem.style.position = "absolute";
-      //elem.style.zIndex="-10";
-		
-      //$("#container1.containedInHSplit.adjustHeight).css({"height": "px"}); 
-     // var elem2 = document.getElementById('container7');      
-      //elem2.style.position = "absolute";
-      //elem2.style.zIndex="-14";
-		
-	
-		
-		
-		//"line-height": "16px"
+     // adjust each section / box title to be large, bold, black font
      $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl06_widgetContainer_ctl00_pnlSuggestedTraining_titleMiddle h2").css({"visibility": "visible", "color": "black", "font-weight": "bold"}); 
- 
      $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl05_widgetContainer_ctl00_pnlBrowse_titleMiddle h2").css({"visibility": "visible", "fontSize": "22px", "color": "black", "font-weight": "bold"}); 
-    
      $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl04_widgetContainer_ctl00_pnlMyTraining_titleMiddle h2").css({"visibility": "visible", "font-size": "24px !important", "color": "black", "font-weight": "bold"}); 
 
 	
-
      //push down the 'X's Learning in Progress' - away from the top
      $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl04_widgetContainer_ctl00_pnlMyTraining").css({"margin-top": "200px"}); 
 		
@@ -335,12 +314,13 @@ $(document).ready(function() {
 		
 		
       //remove rounded corners from slider
-	   document.getElementById("my-slider").style.borderRadius = "0px";
-
-		
-		
+	  document.getElementById("my-slider").style.borderRadius = "0px";
 
 
+       //adjust slider size
+       // margin bottom pushes down the Cards      top, right, bottom, left
+      // $("#my-slider").css({"border": "none", "width": "110%", "margin": "-50px 0px 0px 0%", "padding": "0px 0px 0px 0px"}); 
+	       $("#my-slider").css({"border": "none", "width": "110%", "margin": "0px 0px 0px 0%", "padding": "0px 0px 0px 0px"}); 
 		
       //Resize and reposition slider - margin: top, right, bottom, left
 	   $("#ctl00_ContentPlaceHolder1_widgetLayout_mainDivRenderedWidgets").css({"border": "none", "height": "331px",
