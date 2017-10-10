@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test4");
+	console.log("Test5");
 
 	//Alternative Header Icons
 
@@ -255,7 +255,7 @@ $(document).ready(function() {
 	    $('.cs-panel-flat .Panel_title').css({"background-color": "#ffffff"});
 	    $('.Panel_titleMiddle a').css({"color": "#000000"}); 
 		
-	    $('.cs-panel-flat.Panel_titleMiddle div, .cs-panel-plain.Panel_titleMiddle div, .cs-panel-gradient.Panel_titleMiddle div, .cs-panel-flat.Panel_titleMiddle h2, .cs-panel-plain.Panel_titleMiddle h2, .cs-panel-gradient.Panel_titleMiddle h2').css({"font-size": "20px!important", "font-weight": "lighter"});
+	    $('.cs-panel-flat.Panel_titleMiddle div, .cs-panel-plain.Panel_titleMiddle div, .cs-panel-gradient.Panel_titleMiddle div, .cs-panel-flat.Panel_titleMiddle h2, .cs-panel-plain.Panel_titleMiddle h2, .cs-panel-gradient.Panel_titleMiddle h2').css({"font-size": "26px!important", "font-weight": "lighter"});
 	    $('.cs-panel-flat').css({"padding": "30px", "box-shadow": "0 0 0 0 rgba(0, 0, 0, 0.2)", "box-sizing": "border-box", "backgroundColor": "#ffffff"});
 				  
 				  
@@ -322,7 +322,7 @@ $(document).ready(function() {
      $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl04_widgetContainer_ctl00_pnlMyTraining_titleMiddle h2").css({"height": "80px", "visibility": "visible", "font-size": "200%", "color": "blue"}); 
 
 		
-		
+		//Panel_titleMiddle
 
 		
 
