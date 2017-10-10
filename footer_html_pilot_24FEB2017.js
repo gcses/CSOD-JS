@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test2");
+	console.log("Test3");
 
 	//Alternative Header Icons
 
@@ -314,7 +314,7 @@ $(document).ready(function() {
 		
 		
      //push down the 'X's Learning in Progress' - away from the top
-     $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl04_widgetContainer_ctl00_pnlMyTraining").css({"margin-top": "300px"}); 
+     $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl04_widgetContainer_ctl00_pnlMyTraining").css({"margin-top": "200px"}); 
 		
      //bring entire slider and body in general up to be flush with the warning banner under the nav bar
        $("#ctl00_masterPageBody").css({ "margin": "0px 0px 0px 0px"}); 
@@ -381,24 +381,16 @@ $(document).ready(function() {
 		
 		
 		//shift all lower area boxes down
-		 $("#container3").css({ "margin": "331px 0px 0px 0px" });
+		// $("#container3").css({ "margin": "331px 0px 0px 0px" });
 		
 	       // $(".containedInVSplit").css({ "margin": "200px 0px 0px 0px" });
 		
-		
-		
-		
-		
-		
+
 		   //boxed in link on right side of Learning In Progress
 	    //$('.Panel_contentMiddle td a').css({"width": "170px", "color": "#ffffff", "font-weight": "normal",
 						//"padding": "10px 0px 10px 0px", "backgroundColor": "#004593", "display": "inline-block", "box-sizing": "border-box", "position": "relative"});
 		
 		
-		
-		//test
-		//$("Panel_contentLeft").css({"backgroundColor": "green"});
-		//$("Panel_contentMiddle").css({"backgroundColor": "yellow"});
 		
 		
 		
