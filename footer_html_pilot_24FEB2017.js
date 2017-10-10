@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test2");
+	console.log("Test3");
 
 	//Alternative Header Icons
 
@@ -314,7 +314,7 @@ $(document).ready(function() {
 		
 		
 		
-     $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl06_widgetContainer_ctl00_pnlSuggestedTraining_state h2").css({"visibility": "visible", "color": "#808080", "font-size": "14px"}); 
+     $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl06_widgetContainer_ctl00_pnlSuggestedTraining_titleMiddle h2").css({"visibility": "visible", "color": "#808080", "font-size": "14px"}); 
 		
 		
 		
