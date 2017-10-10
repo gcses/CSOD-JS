@@ -252,7 +252,7 @@ $(document).ready(function() {
 	    /*Tables*/
             $('.cs-panel-flat, .cs-panel-plain, .cs-panel-gradient').css({"border-radius": "0"});
  	    $('.cs-panel-flat .Panel_content').css({"border-color": "transparent"});
-	    $('.cs-panel-flat .Panel_title').css({"font-size": "22px", "background-color": "#ffffff"});
+	    $('.cs-panel-flat .Panel_title').css({"background-color": "#ffffff"});
 	    $('.Panel_titleMiddle a').css({"color": "#000000"}); 
 		
 	    $('.cs-panel-flat.Panel_titleMiddle div, .cs-panel-plain.Panel_titleMiddle div, .cs-panel-gradient.Panel_titleMiddle div, .cs-panel-flat.Panel_titleMiddle h2, .cs-panel-plain.Panel_titleMiddle h2, .cs-panel-gradient.Panel_titleMiddle h2').css({"font-size": "20px!important", "font-weight": "lighter"});
@@ -315,8 +315,13 @@ $(document).ready(function() {
 		
 		
 		
-     $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl06_widgetContainer_ctl00_pnlSuggestedTraining_titleMiddle h2").css({"visibility": "visible", "font-size": "14px", "color": "black"}); 
-		
+     $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl06_widgetContainer_ctl00_pnlSuggestedTraining_titleMiddle h2").css({"visibility": "visible", "font-size": "22px", "color": "black"}); 
+ 
+     $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl05_widgetContainer_ctl00_pnlBrowse_titleMiddle h2").css({"visibility": "visible", "font-size": "22px", "color": "black"}); 
+  
+
+		//$("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl06_widgetContainer_ctl00_pnlSuggestedTraining_titleMiddle h2").css({"visibility": "visible", "font-size": "14px", "color": "black"}); 
+	
 		
 		
 
