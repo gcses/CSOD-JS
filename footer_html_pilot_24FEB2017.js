@@ -216,8 +216,7 @@ $(document).ready(function() {
 	{
 	      //change slider's slide title text
 	      $('.ism-caption.ism-caption-0').css({'margin': '0px 0px 0px 30%', 'height': '75px', 'backgroundColor': 'yellow', 'color': 'white', 'font-size': '300%'});
-	      $('#my-slider li').css({'font-size': '300%', 'backgroundColor': 'yellow'});
-		
+	      $('.imgCaption').css({'font-size': '300%', 'backgroundColor': 'yellow'});
 		
 		
 		
