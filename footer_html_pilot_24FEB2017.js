@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test2");
+	console.log("Test3");
 
 	//Alternative Header Icons
 
@@ -219,7 +219,7 @@ $(document).ready(function() {
 	      $('#my-slider li').css({'font-size': '300%'});
 		
 		// margin: top, right, bottom, left
-	      $('#my-slider img').css({'padding': '0px 0px 0px 0px', 'margin': '-60px 0px 0px 0px', 'float': 'top'});
+	      $('#my-slider img').css({'padding': '0px 0px 0px 0px', 'margin': '-100px 0px 0px 0px', 'float': 'top'});
 		
 		
 		
