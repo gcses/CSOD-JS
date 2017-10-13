@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test1");
+	console.log("Test3");
 
 	//Alternative Header Icons
 
@@ -220,7 +220,7 @@ $(document).ready(function() {
 		
 		
 		
-		// move slider images up to cover grey area;   margin: top, right, bottom, left
+	      // move slider images up to cover grey area;   margin: top, right, bottom, left
 	      $('#my-slider img').css({'padding': '0px 0px 0px 0px', 'margin': '-100px 0px 0px 0px', 'float': 'top'});
 		
 		
