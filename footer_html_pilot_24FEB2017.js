@@ -215,8 +215,9 @@ $(document).ready(function() {
 	if (document.title.indexOf("Welcome - Realize Your Potential") > -1)
 	{
 	      //change slider's slide title text
-	      $('.ism-caption.ism-caption-0').css({'margin': '0px 0px 0px 30%', 'height': '75px', 'backgroundColor': 'yellow', 'color': 'white', 'font-size': '300%'});
+	      $('.ism-caption.ism-caption-0').css({'margin': '0px 0px 0px 30%', 'height': '75px', 'backgroundColor': '#f2f2f2', 'color': 'white', 'font-size': '300%'});
 	      $('.imgCaption').css({'font-size': '300%', 'backgroundColor': 'yellow'});
+		
 		
 		
 		
