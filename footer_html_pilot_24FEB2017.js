@@ -24,7 +24,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test1");
+	console.log("Test2");
 
 	//Alternative Header Icons
 
@@ -218,7 +218,8 @@ $(document).ready(function() {
 	      $('.ism-caption.ism-caption-0').css({'height': '75px', 'background': 'none', 'color': 'white', 'font-size': '300%'});
 	      $('#my-slider li').css({'font-size': '300%'});
 		
-	      $('#my-slider img').css({'padding': '0px 0px 0px 0px', 'margin': '0px 0px 0px 0px', 'float': 'top'});
+		// margin: top, right, bottom, left
+	      $('#my-slider img').css({'padding': '0px 0px 0px 0px', 'margin': '-60px 0px 0px 0px', 'float': 'top'});
 		
 		
 		
