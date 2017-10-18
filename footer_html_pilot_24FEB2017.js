@@ -26,7 +26,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test2");
+	console.log("Test3");
 
 	//Alternative Header Icons
 
@@ -193,8 +193,8 @@ $(document).ready(function() {
 	if (document.title.indexOf("Welcome - Realize Your Potential") > -1)
 	{
 	      //change slider's slide title text
-	      $('.ism-caption.ism-caption-0').css({'margin': '0px 0px 0px 30%', 'height': '75px', 'backgroundColor': '#f2f2f2', 'color': 'white', 'font-size': '300%'});
-	      $('.imgCaption').css({'height': '175px', 'width': '375px', 'font-size': '50px', 'backgroundColor': 'black'});
+	     // $('.ism-caption.ism-caption-0').css({'margin': '0px 0px 0px 30%', 'height': '75px', 'backgroundColor': '#f2f2f2', 'color': 'white', 'font-size': '300%'})
+	     $('h1.imgCaption').css({'color': 'white', 'font-size': '70px', 'background': 'none'});
 		
 		
 		
