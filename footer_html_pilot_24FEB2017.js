@@ -73,20 +73,8 @@ $(document).ready(function() {
 	}
 
 	
-
-	
-	
-	//ctl00_footer_pnlCustomFooter
-	
-	
-	
-	
 	
 	$('#ctl00_footer_pnlCustomFooter').css({"margin-top": "0px", "margin-bottom": "-15px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});
-	
-	
-	//$('.df-footer').css({"margin": "0px 0px 0px 0px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});					
-	//$('.df-footer').each(function(){
 	
 	// margin: top, right, bottom, left
 	$('#ctl00_footer_pnlCustomFooter').css({"margin": "0px 0px 0px 0px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});					
@@ -231,6 +219,24 @@ $(document).ready(function() {
 	      $('.imgCaption').css({'font-size': '30px', 'backgroundColor': 'black'});
 		
 		
+	    //add action button to slider
+	     $(".sliderButton").css({"opacity": "0.8", "font-weight": "bold", "padding": "12px", "width": "90px", "height": "15px", "color": "#ffffff", "appearance": "button", "text-decoration": "none", "backgroundColor": "#004593", "margin": "140px 0px 0px -55px"}); //top, right, bottom, left
+	    var elements = document.getElementsByClassName("sliderButton");
+		//console.log("num elements: " + elements.length);
+	    for (var i = 0; i < elements.length; i++) 
+	    {
+		 elements[i].style.position = "absolute";
+           	 elements[i].style.zIndex="2147483620";
+	     }
+		
+		//remove rounded corners from slider
+		$("#my-slider").css({"width": "69%", "margin-bottom": "300px"}); 
+	   	document.getElementById("my-slider").style.borderRadius = "0px";
+		
+		//move enlarge slider text / link - margin: top, right, bottom, left 
+	         $(".myCaptions").css({"margin": "0px 0px 0px 300px"}); 
+		
+		
 		
 		
 	      // move slider images up to cover grey area;   margin: top, right, bottom, left
@@ -330,10 +336,7 @@ $(document).ready(function() {
      //bring entire slider and body in general up to be flush with the warning banner under the nav bar
        $("#ctl00_masterPageBody").css({ "margin": "0px 0px 0px 0px"}); 
 		
-		
-      //remove rounded corners from slider
-	  document.getElementById("my-slider").style.borderRadius = "0px";
-
+	
 
        //adjust slider size
        // margin bottom pushes down the Cards      top, right, bottom, left
