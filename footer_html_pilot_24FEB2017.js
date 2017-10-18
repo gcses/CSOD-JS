@@ -1,4 +1,6 @@
 //var iScrollPos = 0;
+// Replace Learning Objects on Scroll event
+/*
 $(window).scroll(function() {
     if (document.title.indexOf("Browse for Training") > -1)
     {
@@ -19,7 +21,7 @@ $(window).scroll(function() {
       // iScrollPos = iCurScrollPos;
     }
 });
-	   
+*/	   
 
 
 $(document).ready(function() {
@@ -84,7 +86,6 @@ $(document).ready(function() {
 	
 	
 	//$('.df-footer').css({"margin": "0px 0px 0px 0px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});					
-				
 	//$('.df-footer').each(function(){
 	
 	// margin: top, right, bottom, left
@@ -146,8 +147,8 @@ $(document).ready(function() {
 	 $('#footerTD7').css({"width": "20%"});
 
        //this handles initial load at the Browse Learning Page - replaces initial icons and wording, both needed?
-        Sys.WebForms.PageRequestManager.getInstance().add_pageLoaded(function () { replaceOnlineClass(); });
-	Sys.WebForms.PageRequestManager.getInstance().add_endRequest(function () { replaceOnlineClass(); });
+      //   Sys.WebForms.PageRequestManager.getInstance().add_pageLoaded(function () { replaceOnlineClass(); });
+      //   Sys.WebForms.PageRequestManager.getInstance().add_endRequest(function () { replaceOnlineClass(); });
 
 	//add words 'Learning Compass'
 	var $LClabel = $("<H3>").text('Learning Compass');
@@ -157,8 +158,6 @@ $(document).ready(function() {
 	$('.c-glbl-nav').prepend($LClabel);
 	
 	
-
-
 	//change the navigation bar to white, remove gradient		
 	$('#main-menu').css({"background-image": "none", "background-color": "#ffffff"});
 	
@@ -236,11 +235,6 @@ $(document).ready(function() {
 		
 	      // move slider images up to cover grey area;   margin: top, right, bottom, left
 	      $('#my-slider img').css({'padding': '0px 0px 0px 0px', 'margin': '-100px 0px 0px 0px', 'float': 'top'});
-		
-		
-		
-		
-		
 		
 		
 	      $('#header_headerFixed_hlAvatar').css({'backgroundColor': '#004593',  'margin-top': '5px', 'margin-left': '5px', 'border': '0px solid #004593'});  //yellow border
@@ -660,19 +654,6 @@ function createAccordionControls()
         $(".cs-subjwidg-list li.cat.nochild .exp-icon + a").css({"position": "relative", "top": "-22px", "padding-left": "16px", "text-decoration": "none", "color": "#333333", "font-weight": "400"});  
 }
 
-//this does not work
-function getAdditionalCSS() {
-        var bdy  = document.getElementsByTagName('body')[0];
-        var link  = document.createElement('link');
-        link.id   = 'additionalCSS';
-        link.rel  = 'stylesheet';
-        link.type = 'text/css';
-        link.href = 'https://rawgit.com/gcses/CSOD-JS/master/additionalStyles.css';
-	
-       // link.href = 'https://github.com/gcses/CSOD-JS/blob/master/additonalStyles.css';
-       link.media = 'all';
-       bdy.appendChild(link);
-}
 
 //this needs to be called for every 'lazy load' of additional data
 function replaceOnlineClass() 
@@ -714,10 +695,6 @@ function replaceOnlineClass()
 	// Web-Based Training: laptop  position 15
 	$('.item.oc').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px -840px transparent'});
 
-	
-	
-	
-		
     var elements=document.getElementsByTagName("*"), count=elements.length, elementChildNodes=[], subCount=0, i=0, sub=0, elementHeight=0;
     
     for(i=0; i<count; i++)
