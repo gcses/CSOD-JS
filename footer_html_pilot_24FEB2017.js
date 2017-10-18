@@ -72,12 +72,25 @@ $(document).ready(function() {
 
 	
 
+	
+	
+	//ctl00_footer_pnlCustomFooter
+	
+	
+	
+	
+	
 	$('#ctl00_footer_pnlCustomFooter').css({"margin-top": "0px", "margin-bottom": "-15px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});
 	
-	// margin: top, right, bottom, left
-	$('.df-footer').css({"margin": "0px 0px 0px 0px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});					
+	
+	//$('.df-footer').css({"margin": "0px 0px 0px 0px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});					
 				
-	$('.df-footer').each(function(){
+	//$('.df-footer').each(function(){
+	
+	// margin: top, right, bottom, left
+	$('ctl00_footer_pnlCustomFooter').css({"margin": "0px 0px 0px 0px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});					
+				
+	$('ctl00_footer_pnlCustomFooter').each(function(){
 	        $(this).html('<img src="https://bd-pilot.csod.com/clientimg/bd/welcome/angle.png" id="slopedFooterImage" />' +
 			     '<table class="footerTable"><tr>'+
 			     '<td id="footerTD1"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/logo.png" id="footerLogo"></td>' +
