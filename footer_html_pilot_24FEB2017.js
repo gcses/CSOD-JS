@@ -26,7 +26,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test3");
+	console.log("Test5");
 
 	//Alternative Header Icons
 
@@ -194,19 +194,25 @@ $(document).ready(function() {
 	{
 	      //change slider's slide title text
 	     // $('.ism-caption.ism-caption-0').css({'margin': '0px 0px 0px 30%', 'height': '75px', 'backgroundColor': '#f2f2f2', 'color': 'white', 'font-size': '300%'})
-	     $('h1.imgCaption').css({'color': 'white', 'font-size': '70px', 'background': 'none'});
-		
-		
+	    $('h1.imgCaption').css({'color': 'white'});
 		
 	    //add action button to slider
 	     $(".sliderButton").css({"opacity": "0.8", "font-weight": "bold", "padding": "12px", "width": "90px", "height": "15px", "color": "#ffffff", "appearance": "button", "text-decoration": "none", "backgroundColor": "#004593", "margin": "140px 0px 0px -55px"}); //top, right, bottom, left
 	    var elements = document.getElementsByClassName("sliderButton");
-		//console.log("num elements: " + elements.length);
 	    for (var i = 0; i < elements.length; i++) 
 	    {
 		 elements[i].style.position = "absolute";
            	 elements[i].style.zIndex="2147483620";
 	     }
+		
+	    //move up the captions in z-space	
+	    var elements2 = document.getElementsByClassName("imgCaption");
+	    for (var i = 0; i < elements2.length; i++) 
+	    {
+		 elements2[i].style.position = "absolute";
+           	 elements2[i].style.zIndex="2147483620";
+	     }
+		
 		
 		//remove rounded corners from slider
 		$("#my-slider").css({"width": "69%", "margin-bottom": "300px"}); 
