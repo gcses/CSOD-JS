@@ -211,7 +211,7 @@ $(document).ready(function() {
 	    {
 		 elements2[i].style.position = "absolute";
            	 elements2[i].style.zIndex="2147483620";
-		 elements2[i].style.fontSize="100px";
+		 elements2[i].style.fontSize="300%";
 	     }
 		
 		
