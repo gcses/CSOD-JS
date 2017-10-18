@@ -194,10 +194,10 @@ $(document).ready(function() {
 	{
 	      //change slider's slide title text
 	     // $('.ism-caption.ism-caption-0').css({'margin': '0px 0px 0px 30%', 'height': '75px', 'backgroundColor': '#f2f2f2', 'color': 'white', 'font-size': '300%'})
-	    $('h1.imgCaption').css({'color': 'white', 'font-weight': 'bold', 'font-size': '300%', "margin": "40px 0px 0px 55px"});
+	    $('h1.imgCaption').css({'color': 'white', 'font-weight': 'bold', 'font-size': '300px', "margin": "115px 0px 0px 300px"});
 		
 	    //add action button to slider
-	     $(".sliderButton").css({"opacity": "0.8", "font-weight": "bold", "padding": "12px", "width": "90px", "height": "15px", "color": "#ffffff", "appearance": "button", "text-decoration": "none", "backgroundColor": "#004593", "margin": "140px 0px 0px -55px"}); //top, right, bottom, left
+	     $(".sliderButton").css({"opacity": "0.8", "font-weight": "bold", "padding": "12px", "width": "90px", "height": "15px", "color": "#ffffff", "appearance": "button", "text-decoration": "none", "backgroundColor": "#004593", "margin": "110px 0px 0px -55px"}); //top, right, bottom, left
 	    var elements = document.getElementsByClassName("sliderButton");
 	    for (var i = 0; i < elements.length; i++) 
 	    {
