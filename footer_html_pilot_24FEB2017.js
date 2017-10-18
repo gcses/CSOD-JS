@@ -26,7 +26,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 
-	console.log("Test1");
+	console.log("Test2");
 
 	//Alternative Header Icons
 
@@ -152,20 +152,9 @@ $(document).ready(function() {
 	//handle the navigation bar active tab, only decorate first descendant or main categories
 	$('#main-menu > li.active').css({"background-color": "#ffffff", "text-decoration": "underline", "font-weight": "bold"});
 	
-	
-	//$('#main-menu > li').css({"background-color": "#ffffff", "text-decoration": "underline", "font-weight": "bold", "": fontSize"18px"});
-	//$('.navTabs li').css({"background-image": "none", "text-shadow": "none", "color": "#808080", "fontSize": "18px", "font-weight": "normal"});
-	
-	
 	// navigation bar changes (font color and size here)
 	 $('.navTabs li a').css({"background-image": "none", "text-shadow": "none", "color": "#808080", "font-weight": "normal"});
-	
-	//underlines all sub-categories of active category - do we want to do that?
-	//$('.navTabs li.active a').css({"background-image": "none", "color": "#000000", "fontSize": "18px"});
-	//$('.navTabs li a').css({"background-image": "none", "color": "#000000", "fontSize": "18px"});
-	
-	//$('.navTabs li.active li').css({"background-image": "none", "color": "yellow", "fontSize": "18px"});
-	
+
 	
 	 //navigation bar hover - active hover is being blocked somewhere else (the hover is always blue or theme color)
 	 $("#main-menu > li").hover(function(){ 
@@ -173,12 +162,6 @@ $(document).ready(function() {
 		 function() { $(this).css({"backgroundColor": "#ffffff",  "color": "#808080", "text-decoration": "", "font-weight": "", "fontSize": "18px"}); }
 	); 
 	
-	
-	
-	
-	
-	
-	//$("#main-menu li a").css({"font-size": "18px"});
 	
 	 $("#main-menu > li > ul > li").hover(function(){ 
 		 $(this).css({"backgroundColor": "yellow",  "color": "#000000", "text-decoration": "underline", "font-weight": "bold", "font-size": "18px"}); },
@@ -203,11 +186,6 @@ $(document).ready(function() {
 	$('#ctl00_header_headerFixed_aHeaderLogoLink').css({"background-color": "#004593"}); 
 	$('#tblTopBar').css({"background-color": "#004593"}); 
 	
-	//underlines all sub-categories of active category - do we want to do that?
-	//$('.navTabs li.active a').css({"background-image": "none", "color": "#000000", "text-decoration": "underline"});
-
-	// $('.compass-title').css({"color": "green", "font-size": "20px", "line-height": "36px", "margin-left": "30px", "margin-right": "30px", "display": "inline-block"});
-
 	
 	//************************************************************************
 	//                            WELCOME PAGE
@@ -216,7 +194,8 @@ $(document).ready(function() {
 	{
 	      //change slider's slide title text
 	      $('.ism-caption.ism-caption-0').css({'margin': '0px 0px 0px 30%', 'height': '75px', 'backgroundColor': '#f2f2f2', 'color': 'white', 'font-size': '300%'});
-	      $('.imgCaption').css({'font-size': '30px', 'backgroundColor': 'black'});
+	      $('.imgCaption').css({'height': '175px', 'width': '375px', 'font-size': '50px', 'backgroundColor': 'black'});
+		
 		
 		
 	    //add action button to slider
