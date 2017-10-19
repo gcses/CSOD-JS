@@ -197,7 +197,7 @@ $(document).ready(function() {
 	    //$('h1.imgCaption').css({'color': 'white', 'font-size': '300%', 'font-weight': 'bold', 'margin': '15px 0px 0px 300px'});
 			
 	    //add action button to slider
-	     $(".sliderButton").css({"opacity": "0.8", "font-weight": "bold", "padding": "12px", "width": "90px", "height": "15px", "color": "#ffffff", "appearance": "button", "text-decoration": "none", "backgroundColor": "#004593", "margin": "110px 0px 0px -55px"}); //top, right, bottom, left
+	    $(".sliderButton").css({"opacity": "0.8", "font-weight": "bold", "padding": "12px", "width": "90px", "height": "15px", "color": "#ffffff", "appearance": "button", "text-decoration": "none", "backgroundColor": "#004593", "margin": "110px 0px 0px -55px"}); //top, right, bottom, left
 	    var elements = document.getElementsByClassName("sliderButton");
 	    for (var i = 0; i < elements.length; i++) 
 	    {
@@ -218,14 +218,8 @@ $(document).ready(function() {
 	     $('h1.imgCaption').css({'color': 'white', 'font-size': '300%', 'font-weight': 'bold', 'margin': '125px 0px 0px 40%'});
 		
 		
-		
-		//remove rounded corners from slider
-		//$("#my-slider").css({"width": "69%", "margin-bottom": "300px"}); 
-	   	//document.getElementById("my-slider").style.borderRadius = "0px";
-		
-		//move enlarge slider text / link - margin: top, right, bottom, left 
-		 $(".firstCaption").css({"margin": "0px 0px 0px 45%"}); 
-	         $(".myCaptions").css({"margin": "0px 0px 0px 300px"}); 
+	     //move enlarge slider text / link - margin: top, right, bottom, left 
+	      $(".myCaptions").css({"margin": "75px 0px 0px 300px"}); 
 		
 		
 		
