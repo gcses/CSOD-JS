@@ -214,7 +214,8 @@ $(document).ready(function() {
 		 //elements2[i].style.fontSize="300%";
 	     }
 		
-	     $('h1.imgCaption').css({'color': 'white', 'font-size': '300%', 'font-weight': 'bold', 'margin': '15px 0px 0px 300px'});
+	     // top, right, bottom, left
+	     $('h1.imgCaption').css({'color': 'white', 'font-size': '300%', 'font-weight': 'bold', 'margin': '125px 0px 0px 40%'});
 		
 		
 		
