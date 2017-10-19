@@ -196,6 +196,7 @@ $(document).ready(function() {
 	     // $('.ism-caption.ism-caption-0').css({'margin': '0px 0px 0px 30%', 'height': '75px', 'backgroundColor': '#f2f2f2', 'color': 'white', 'font-size': '300%'})
 	    $('h1.imgCaption').css({'color': 'white', 'font-size': '300%', 'font-weight': 'bold', 'margin': '15px 0px 0px 300px'});
 		
+	$("div.myCaptions.ism-caption").css({"visibility": "hidden"}); 
 		
 		
 	    //add action button to slider
