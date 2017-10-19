@@ -214,6 +214,9 @@ $(document).ready(function() {
 		 //elements2[i].style.fontSize="300%";
 	     }
 		
+	     $('h1.imgCaption').css({'color': 'white', 'font-size': '300%', 'font-weight': 'bold', 'margin': '15px 0px 0px 300px'});
+		
+		
 		
 		//remove rounded corners from slider
 		//$("#my-slider").css({"width": "69%", "margin-bottom": "300px"}); 
