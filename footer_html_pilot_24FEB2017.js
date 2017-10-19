@@ -194,7 +194,7 @@ $(document).ready(function() {
 	{
 	      //change slider's slide title text
 	     // $('.ism-caption.ism-caption-0').css({'margin': '0px 0px 0px 30%', 'height': '75px', 'backgroundColor': '#f2f2f2', 'color': 'white', 'font-size': '300%'})
-	    $('h1.imgCaption').css({'color': 'white', 'font-size': '400%', 'font-weight': 'bold', 'margin': '15px 0px 0px 300px'});
+	    $('h1.imgCaption').css({'color': 'white', 'font-size': '300%', 'font-weight': 'bold', 'margin': '15px 0px 0px 300px'});
 		
 		
 		
@@ -218,10 +218,11 @@ $(document).ready(function() {
 		
 		
 		//remove rounded corners from slider
-		$("#my-slider").css({"width": "69%", "margin-bottom": "300px"}); 
-	   	document.getElementById("my-slider").style.borderRadius = "0px";
+		//$("#my-slider").css({"width": "69%", "margin-bottom": "300px"}); 
+	   	//document.getElementById("my-slider").style.borderRadius = "0px";
 		
 		//move enlarge slider text / link - margin: top, right, bottom, left 
+		 $(".firstCaption").css({"margin": "0px 0px 0px 45%"}); 
 	         $(".myCaptions").css({"margin": "0px 0px 0px 300px"}); 
 		
 		
