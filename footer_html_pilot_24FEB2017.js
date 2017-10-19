@@ -215,7 +215,7 @@ $(document).ready(function() {
 	     }
 		
 	     // top, right, bottom, left
-	     $('h1.imgCaption').css({'color': 'white', 'font-size': '300%', 'font-weight': 'bold', 'margin': '125px 0px 0px 40%'});
+	     $('h1.imgCaption').css({'color': 'white', 'font-size': 'large', 'font-weight': 'bold', 'margin': '125px 0px 0px 42%'});
 		
 		
 	     //move enlarge slider text / link - margin: top, right, bottom, left 
