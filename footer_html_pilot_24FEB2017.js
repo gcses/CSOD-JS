@@ -214,12 +214,12 @@ $(document).ready(function() {
 		 //elements2[i].style.fontSize="300%";
 	     }
 		
-	     // top, right, bottom, left
-	     $('h1.imgCaption').css({'color': 'white', 'font-size': 'large', 'font-weight': 'bold', 'margin': '125px 0px 0px 42%'});
+	     // first slider image.  top, right, bottom, left
+	     $('h1.imgCaption').css({'color': 'white', 'font-size': 'large', 'font-weight': 'bold', 'margin': '125px 0px 0px 44%'});
 		
 		
-	     //move enlarge slider text / link - margin: top, right, bottom, left 
-	      $(".myCaptions").css({"margin": "75px 0px 0px 300px"}); 
+	     // other slider image captions
+	      $(".myCaptions").css({"margin": "55px 0px 0px 300px"}); 
 		
 		
 		
