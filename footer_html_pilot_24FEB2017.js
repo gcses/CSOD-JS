@@ -215,11 +215,11 @@ $(document).ready(function() {
 	     }
 		
 	     // first slider image.  top, right, bottom, left
-	     $('h1.imgCaption').css({'color': 'white', 'font-size': 'large', 'font-weight': 'bold', 'margin': '125px 0px 0px 44%'});
+	     $('h1.imgCaption').css({'color': 'white', 'font-size': 'large', 'font-weight': 'bold', 'margin': '125px 0px 0px 39%'});
 		
 		
 	     // other slider image captions
-	      $(".myCaptions").css({"margin": "55px 0px 0px 300px"}); 
+	      $(".myCaptions").css({"margin": "42px 0px 0px 300px"}); 
 		
 		
 		
