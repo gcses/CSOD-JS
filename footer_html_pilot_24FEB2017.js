@@ -21,11 +21,20 @@ $(window).scroll(function() {
       // iScrollPos = iCurScrollPos;
     }
 });
-*/	   
+*/	
+
+
+
+var jq=jQuery.noConflict();
+
+//jq(document).ready(function(){  
+//  alert("Hi this will not conflict now");
+  //jq('selector').show();
+});
 
 //$(document).ready(function() {
 
-jQuery(document).ready(function($){
+jq(document).ready(function(){
 	
 	console.log("Test2");
 
