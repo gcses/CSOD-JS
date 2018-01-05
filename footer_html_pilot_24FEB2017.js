@@ -22,7 +22,10 @@ $(window).scroll(function() {
     }
 });
 */	   
-
+jQuery.noConflict();
+(function( $ ) {
+  $(function() {
+    // More code using $ as alias to jQuery
 
 $(document).ready(function() {
 
@@ -723,5 +726,6 @@ function replaceOnlineClass()
     } //end outer for
 } //end function	
 		
-
+  });
+})(jQuery);
 
