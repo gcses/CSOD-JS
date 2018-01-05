@@ -30,7 +30,7 @@ var jq=jQuery.noConflict();
 //jq(document).ready(function(){  
 //  alert("Hi this will not conflict now");
   //jq('selector').show();
-});
+//});
 
 //$(document).ready(function() {
 
