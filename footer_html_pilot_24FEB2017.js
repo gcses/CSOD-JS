@@ -23,8 +23,10 @@ $(window).scroll(function() {
 });
 */	   
 
-$(document).ready(function() {
+//$(document).ready(function() {
 
+jQuery(document).ready(function($){
+	
 	console.log("Test2");
 
 	//Alternative Header Icons
