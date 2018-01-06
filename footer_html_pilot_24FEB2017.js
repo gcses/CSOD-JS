@@ -25,7 +25,7 @@ $(window).scroll(function() {
 
 
 // jQuery is null here
-var jq=jQuery.noConflict();
+//var jq=jQuery.noConflict();
 
 //jq(document).ready(function(){  
 //  alert("Hi this will not conflict now");
