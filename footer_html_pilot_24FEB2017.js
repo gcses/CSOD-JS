@@ -24,7 +24,7 @@ $(window).scroll(function() {
 */	
 
 
-
+// jQuery is null here
 var jq=jQuery.noConflict();
 
 //jq(document).ready(function(){  
@@ -32,27 +32,26 @@ var jq=jQuery.noConflict();
   //jq('selector').show();
 //});
 
-//$(document).ready(function() {
+$(document).ready(function() {
 
-jq(document).ready(function(){
+//jq(document).ready(function(){
 	
 	console.log("Test4");
 
 	//Alternative Header Icons
 
-/*
 	//overlay a new image to cover up settings cog image
-	var cogImg = jq('<img class="cog1">');
+	var cogImg = $('<img class="cog1">');
 	cogImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/cog.png');
 	cogImg.appendTo('#optionsbtn');
-	jq('.cog1').css({'height': '30px', 'position': 'absolute', 'top': '0', 'left': '-1px', 'margin-left': '0px', 'margin-right': '0px', 'border-radius': '0', 'border': '0px', "zindex": "2147483644"});
-	jq('#optionsbtn').css({'padding-left': '5px', 'margin-right': '8px', 'backgroundColor': 'yellow', 'border': '0px', "zindex": "2147483644"});
+	$('.cog1').css({'height': '30px', 'position': 'absolute', 'top': '0', 'left': '-1px', 'margin-left': '0px', 'margin-right': '0px', 'border-radius': '0', 'border': '0px', "zindex": "2147483644"});
+	$('#optionsbtn').css({'padding-left': '5px', 'margin-right': '8px', 'backgroundColor': 'yellow', 'border': '0px', "zindex": "2147483644"});
 	
-	jq('#header_headerFixed_hlAvatar').css({'backgroundColor': '#004593',  'margin-top': '0px', 'margin-right': '10px', 'border': '0px solid #004593'});  //yellow border
-	jq('.avatar').css({'backgroundColor': '#004593', 'border-radius': '0', 'margin-top': '7px', 'margin-left': '-10px', 'margin-right': '10px', 'border': '0px solid #004593' , 'padding-left': '0'});
-	jq('.avatar a .img').css({'backgroundColor': '#004593', 'border-radius': '0', 'margin-top': '7px', 'margin-left': '-10px', 'border': '0px solid #004593'});
-	jq('.avatar a').css({'backgroundColor': '#004593', 'border-radius': '0',  'margin-top': '0px', 'margin-right': '10px', 'border': '0px solid #004593'});
-	jq('.user-interaction').css({'backgroundColor': '#004593', 'border-radius': '0', 'border': '0px solid #004593'});
+	$('#header_headerFixed_hlAvatar').css({'backgroundColor': '#004593',  'margin-top': '0px', 'margin-right': '10px', 'border': '0px solid #004593'});  //yellow border
+	$('.avatar').css({'backgroundColor': '#004593', 'border-radius': '0', 'margin-top': '7px', 'margin-left': '-10px', 'margin-right': '10px', 'border': '0px solid #004593' , 'padding-left': '0'});
+	$('.avatar a .img').css({'backgroundColor': '#004593', 'border-radius': '0', 'margin-top': '7px', 'margin-left': '-10px', 'border': '0px solid #004593'});
+	$('.avatar a').css({'backgroundColor': '#004593', 'border-radius': '0',  'margin-top': '0px', 'margin-right': '10px', 'border': '0px solid #004593'});
+	$('.user-interaction').css({'backgroundColor': '#004593', 'border-radius': '0', 'border': '0px solid #004593'});
 
 	
         // Profile   
@@ -66,7 +65,7 @@ jq(document).ready(function(){
             elementAvatar.style.zIndex="2147483644";
 		
 	    // margin: top, right, bottom, left
-	    jq('#header_headerFixed_imgAvatar').css({'width': '35px', 'margin': '-5px 0px 0px -30px',  'border-radius': '0', 'border-left': '6px ' , 'border-right': '6px', 'padding-left': '10px', 'padding-right': '10px'});
+	    $('#header_headerFixed_imgAvatar').css({'width': '35px', 'margin': '-5px 0px 0px -30px',  'border-radius': '0', 'border-left': '6px ' , 'border-right': '6px', 'padding-left': '10px', 'padding-right': '10px'});
 	}
 	else
 	{
@@ -79,10 +78,10 @@ jq(document).ready(function(){
                    elementAvatar.style.zIndex="2147483644";
 		
 	          // margin: top, right, bottom, left
-	          jq('#ctl00_header_headerFixed_imgAvatar').css({'width': '35px', 'margin': '-5px 0px 0px -20px'});
+	          $('#ctl00_header_headerFixed_imgAvatar').css({'width': '35px', 'margin': '-5px 0px 0px -20px'});
 		}
 	}
-*/
+
 	
 	
 	$('#ctl00_footer_pnlCustomFooter').css({"margin-top": "0px", "margin-bottom": "-15px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});
