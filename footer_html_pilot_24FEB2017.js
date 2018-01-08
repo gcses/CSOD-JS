@@ -731,6 +731,5 @@ function replaceOnlineClass()
 				  
 	} //end inner for
     } //end outer for
-} //end function	
-)(jQuery);
+})(jQuery);
 
