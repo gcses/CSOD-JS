@@ -35,11 +35,11 @@ $(window).scroll(function() {
 
 //console.log("Test before");
 
-
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script> 
 
 //(function($) {
 
-document.ready() {
+$(document).ready(function(){
 	
 	console.log("Test1");
 
