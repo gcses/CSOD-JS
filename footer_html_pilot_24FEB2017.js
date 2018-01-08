@@ -32,11 +32,11 @@ $(window).scroll(function() {
   //jq('selector').show();
 //});
 
-jquery(document).ready(function($) {
+jQuery(document).ready(function($) {
 
 //jq(document).ready(function(){
 	
-	console.log("Test5");
+	console.log("Test1");
 
 	//Alternative Header Icons
 
