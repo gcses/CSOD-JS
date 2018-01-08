@@ -32,7 +32,7 @@ $(window).scroll(function() {
   //jq('selector').show();
 //});
 
-jQuery(document).ready(function($) {
+(function($) {
 
 //jq(document).ready(function(){
 	
@@ -732,5 +732,5 @@ function replaceOnlineClass()
 	} //end inner for
     } //end outer for
 } //end function	
-
+)(jQuery);
 
