@@ -32,6 +32,11 @@ $(window).scroll(function() {
   //jq('selector').show();
 //});
 
+
+console.log("Test before");
+
+
+
 (function($) {
 
 //jq(document).ready(function(){
