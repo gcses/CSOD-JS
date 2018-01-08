@@ -42,10 +42,9 @@ script.type = 'text/javascript';
 document.getElementsByTagName('head')[0].appendChild(script);
 
 
+$bdjquery = jQuery.noConflict(true);
 
-//(function($) {
-
-$(document).ready(function(){
+$bdjquery(function($){
 	
 	console.log("Test2");
 
