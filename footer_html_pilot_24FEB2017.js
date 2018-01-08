@@ -37,7 +37,7 @@ $(window).scroll(function() {
 
 var script = document.createElement('script');
 //script.src = 'http://code.jquery.com/jquery-1.11.0.min.js';
-script.src = 'https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js';
+script.src = 'https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js';
 script.type = 'text/javascript';
 document.getElementsByTagName('head')[0].appendChild(script);
 
@@ -47,7 +47,7 @@ document.getElementsByTagName('head')[0].appendChild(script);
 
 $(document).ready(function(){
 	
-	console.log("Test1");
+	console.log("Test2");
 
 	//Alternative Header Icons
 
