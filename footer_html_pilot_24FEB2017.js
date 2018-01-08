@@ -33,13 +33,13 @@ $(window).scroll(function() {
 //});
 
 
-console.log("Test before");
+//console.log("Test before");
 
 
 
-(function($) {
+//(function($) {
 
-//jq(document).ready(function(){
+document.ready() {
 	
 	console.log("Test1");
 
@@ -736,5 +736,5 @@ function replaceOnlineClass()
 				  
 	} //end inner for
     } //end outer for
-})(jQuery);
+}    //)(jQuery);
 
