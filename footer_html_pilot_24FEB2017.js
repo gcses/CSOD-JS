@@ -69,7 +69,7 @@ $(document).ready(function(){
 	$('.cog1').css({'height': '30px', 'position': 'absolute', 'top': '0', 'left': '-1px', 'margin-left': '0px', 'margin-right': '0px', 'border-radius': '0', 'border': '0px', "zindex": "2147483644"});
 	$('#optionsbtn').css({'padding-left': '5px', 'margin-right': '8px', 'backgroundColor': 'yellow', 'border': '0px', "zindex": "2147483644"});
 	
-	$('.topBarOuter').css({'backgroundColor': '#004593',  'margin-top': '0px', 'margin-right': '10px', 'border': '0px solid #004593'});  //yellow border
+	$('.topBar').css({'backgroundColor': '#004593',  'margin-top': '0px', 'margin-right': '10px', 'border': '0px solid #004593'});  //yellow border
 	$('.avatar').css({'backgroundColor': '#004593', 'border-radius': '0', 'margin-top': '7px', 'margin-left': '-10px', 'margin-right': '10px', 'border': '0px solid #004593' , 'padding-left': '0'});
 	$('.avatar a .img').css({'backgroundColor': '#004593', 'border-radius': '0', 'margin-top': '7px', 'margin-left': '-10px', 'border': '0px solid #004593'});
 	$('.avatar a').css({'backgroundColor': '#004593', 'border-radius': '0',  'margin-top': '0px', 'margin-right': '10px', 'border': '0px solid #004593'});
@@ -87,20 +87,20 @@ $(document).ready(function(){
             elementAvatar.style.zIndex="2147483644";
 		
 	    // margin: top, right, bottom, left
-	    $('#header_headerFixed_imgAvatar').css({'width': '35px', 'margin': '-5px 0px 0px -30px',  'border-radius': '0', 'border-left': '6px ' , 'border-right': '6px', 'padding-left': '10px', 'padding-right': '10px'});
+	    $('.topBar').css({'width': '35px', 'margin': '-5px 0px 0px -30px',  'border-radius': '0', 'border-left': '6px ' , 'border-right': '6px', 'padding-left': '10px', 'padding-right': '10px'});
 	}
 	else
 	{
 		imgLoc = document.getElementById('ctl00_header_headerFixed_imgAvatar');
 		if (imgLoc != null)
 		{
-	  	   document.getElementById('ctl00_header_headerFixed_imgAvatar').src='https://bd-pilot.csod.com/clientimg/bd/welcome/profile.jpg';
-		   var elementAvatar = document.getElementById('ctl00_header_headerFixed_imgAvatar');
+	  	   document.getElementById('header_headerFixed_imgAvatar').src='https://bd-pilot.csod.com/clientimg/bd/welcome/profile.jpg';
+		   var elementAvatar = document.getElementById('header_headerFixed_imgAvatar');
                    elementAvatar.style.position = "absolute";
                    elementAvatar.style.zIndex="2147483644";
 		
 	          // margin: top, right, bottom, left
-	          $('#ctl00_header_headerFixed_imgAvatar').css({'width': '35px', 'margin': '-5px 0px 0px -20px'});
+	          $('#header_headerFixed_imgAvatar').css({'width': '35px', 'margin': '-5px 0px 0px -20px'});
 		}
 	}
 
