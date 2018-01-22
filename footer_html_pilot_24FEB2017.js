@@ -36,6 +36,7 @@
     }
 }());
 
-$(window).load(function() {
+jQuery(window).load(function() {
  console.log("Conflict Free jQuery goes here");
+	jQuery(".p-prerenderplaceholder").hide();
 }); 
