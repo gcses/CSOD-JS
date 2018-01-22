@@ -7,7 +7,10 @@
         document.getElementsByTagName('head')[0].appendChild(script);
         console.log("Injected Jquery to Head");
     }
- jQuery(document).ready(function(){
-     console.log('logs after ready');
-   });
+    $.noConflict();
+    jQuery( document ).ready(function( $ ) {
+      console.log("Conflict Free jQuery goes here");
+    });
+
+</script>
 })(jQuery);
