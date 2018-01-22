@@ -17,9 +17,14 @@
     }); */
     
 
-( function($) {
+/*( function($) {
 		<!-- Here "$" is a jQuery reference -->
 		$(document).ready(function() {
 			console.log("Conflict Free jQuery goes here");
 		});
-	} ) ( jQuery );
+	} ) ( jQuery );*/
+
+
+jQuery(document).ready(function(){
+ console.log("Conflict Free jQuery goes here");
+}); 
