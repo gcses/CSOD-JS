@@ -54,7 +54,7 @@ $(window).scroll(function() {
 //console.log("Test before");
 
 
-//(function($) {
+(function($) {
 
 $(document).ready(function(){
 	
@@ -752,7 +752,8 @@ function replaceOnlineClass()
 				  
 	} //end inner for
     } //end outer for
-}    //)(jQuery);
+}    
+)();
 
 © 2018 GitHub, Inc.
 Terms
