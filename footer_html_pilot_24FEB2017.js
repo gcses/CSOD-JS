@@ -7,7 +7,7 @@
         document.getElementsByTagName('head')[0].appendChild(script);
         console.log("Injected Jquery to Head");
     }
- $(document).ready(function(){
+ jQuery(document).ready(function(){
      console.log('logs after ready');
    });
 })(jQuery);
