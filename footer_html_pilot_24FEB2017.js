@@ -1,9 +1,3 @@
-jQuery(function($) {
-
-$(function() { // shorthand for document.ready
-	
-	console.log("Test2");
-
-})  
- 
-})();
+(function($) {
+    console.log("Hello World");
+})(jQuery);
