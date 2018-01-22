@@ -36,16 +36,12 @@
     }
 	var noConflictScript = document.createElement('script');
         noConflictScript.type = "text/javascript";
-        noConflictScript.innerHTML = "Hello Sango";
-
+        noConflictScript.innerHTML = "$bdjquery = jQuery.noConflict(true)";
         document.getElementsByTagName('head')[0].appendChild(noConflictScript);
 	
 }());
 
-$bdjquery = jQuery.noConflict(true);
-
-
-$bdjquery(document).ready(function() {
+$smquery(document).ready(function() {
  	console.log("Conflict Free jQuery goes here");
-	 $bdjquery('.topBar').css({'backgroundColor': '#004593',  'margin-top': '0px', 'margin-right': '10px', 'border': '0px solid #004593'});  
+	 $smjquery('.topBar').css({'backgroundColor': '#004593',  'margin-top': '0px', 'margin-right': '10px', 'border': '0px solid #004593'});  
 }); 
