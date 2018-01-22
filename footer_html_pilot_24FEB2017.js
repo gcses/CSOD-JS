@@ -1,4 +1,4 @@
-(function($) {
+/*(function($) {
     console.log("Hello World 2");
     if (typeof jQuery == 'undefined') {
         var script = document.createElement('script');
@@ -13,7 +13,14 @@
            jQuery('.topBar').css({'backgroundColor': '#004593',  'margin-top': '0px', 'margin-right': '10px', 'border': '0px solid #004593'});  
     });
 
-})(jQuery);
+})(jQuery);*/
 
 
 
+$.noConflict();
+
+jQuery(function ($) {
+   console.log($); 
+});
+
+console.log($);
