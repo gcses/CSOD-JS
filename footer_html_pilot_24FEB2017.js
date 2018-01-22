@@ -34,9 +34,15 @@
         
         console.log("Injected Jquery to Head");
     }
+	var noConflictScript = document.createElement('script');
+        noConflictScript.type = "text/javascript";
+        noConflictScript.innerHTML = "$bdjquery = jQuery.noConflict(true)";
+
+        document.getElementsByTagName('head')[0].appendChild(noConflictScript);
+	
 }());
 
-$smjquery(document).ready(function() {
+$bdjquery(document).ready(function() {
  	console.log("Conflict Free jQuery goes here");
-	 $smjquery('.topBar').css({'backgroundColor': '#004593',  'margin-top': '0px', 'margin-right': '10px', 'border': '0px solid #004593'});  
+	 $bdjquery('.topBar').css({'backgroundColor': '#004593',  'margin-top': '0px', 'margin-right': '10px', 'border': '0px solid #004593'});  
 }); 
