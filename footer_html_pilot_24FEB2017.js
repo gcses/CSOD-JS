@@ -1,4 +1,4 @@
-(function($) {
+(function($, undefined) {
     console.log("Hello World 2");
     if (typeof jQuery == 'undefined') {
         var script = document.createElement('script');
