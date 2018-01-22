@@ -7,7 +7,7 @@
         document.getElementsByTagName('head')[0].appendChild(script);
         console.log("Injected Jquery to Head");
     }
-    $.noConflict();
+    jQuery.noConflict();
     jQuery( document ).ready(function( $ ) {
       console.log("Conflict Free jQuery goes here");
     });
