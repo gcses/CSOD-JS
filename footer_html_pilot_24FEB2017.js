@@ -36,6 +36,6 @@
     }
 }());
 
-jQuery(document).ready(function(){
+$(window).load(function() {
  console.log("Conflict Free jQuery goes here");
 }); 
