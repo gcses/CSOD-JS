@@ -8,9 +8,9 @@
         console.log("Injected Jquery to Head");
     }
 
-    $( document ).ready(function() {
+    jQuery(document).ready(function() {
         console.log( "ready!" );
-           $('.topBar').css({'backgroundColor': '#004593',  'margin-top': '0px', 'margin-right': '10px', 'border': '0px solid #004593'});  
+           jQuery('.topBar').css({'backgroundColor': '#004593',  'margin-top': '0px', 'margin-right': '10px', 'border': '0px solid #004593'});  
     });
 
 })(jQuery);
