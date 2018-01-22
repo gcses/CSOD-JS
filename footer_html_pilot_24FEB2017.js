@@ -11,6 +11,4 @@
     jQuery( document ).ready(function( $ ) {
       console.log("Conflict Free jQuery goes here");
     });
-
-</script>
 })(jQuery);
