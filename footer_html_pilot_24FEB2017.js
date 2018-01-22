@@ -36,7 +36,7 @@
     }
 	var noConflictScript = document.createElement('script');
         noConflictScript.type = "text/javascript";
-        noConflictScript.innerHTML = "$bdjquery = jQuery.noConflict(true)";
+        noConflictScript.innerHTML = "Hello Sango";
 
         document.getElementsByTagName('head')[0].appendChild(noConflictScript);
 	
