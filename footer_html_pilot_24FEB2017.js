@@ -1,4 +1,4 @@
-jQuery(function($) {
+(function($) {
     console.log("Hello World 2");
     if (typeof jQuery == 'undefined') {
         var script = document.createElement('script');
@@ -8,9 +8,8 @@ jQuery(function($) {
         console.log("Injected Jquery to Head");
     }
 
-    $(document).ready(function() {
-        console.log( "ready!" );
+  
            $('.topBar').css({'backgroundColor': '#004593',  'margin-top': '0px', 'margin-right': '10px', 'border': '0px solid #004593'});  
-    });
+  
 
-});
+})(jQuery);
