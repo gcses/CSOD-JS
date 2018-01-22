@@ -41,7 +41,7 @@
 	
 }());
 
-$smquery(document).ready(function() {
+$smjquery(document).ready(function() {
  	console.log("Conflict Free jQuery goes here");
 	 $smjquery('.topBar').css({'backgroundColor': '#004593',  'margin-top': '0px', 'margin-right': '10px', 'border': '0px solid #004593'}); 
 
