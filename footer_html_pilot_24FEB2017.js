@@ -16,7 +16,7 @@
 		$smjquery('.topBar').css({'backgroundColor': '#004593',  'margin-top': '0px', 'margin-right': '10px', 'border': '0px solid #004593'});  //yellow border
 		
 		/***** BEGIN : Header Tools *****/
-		$smjquery('.topBarOuter .tools').css({'padding': '10px'});
+		$smjquery('.topBarOuter .tools').css({'padding': '10px', 'height' : '40px'});
 		
 		
 		/*****BEGIN: Search Bar Customization *****/
