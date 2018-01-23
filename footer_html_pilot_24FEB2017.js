@@ -47,8 +47,9 @@ $smjquery(document).ready(function() {
 }); 
 */
 
+$j = $.noConflict();
 
-(function(window, $) {
+(function($) {
    console.log("Hello World 2");
     if (typeof jQuery == 'undefined') {
         var script = document.createElement('script');
@@ -57,14 +58,9 @@ $smjquery(document).ready(function() {
         document.getElementsByTagName('head')[0].appendChild(script);
         console.log("Injected Jquery to Head");
     }
-	jQuery(document).ready(function($) {
- 		console.log("Conflict Free jQuery goes here");
-	 	$('.topBar').css({'backgroundColor': '#004593',  'margin-top': '0px', 'margin-right': '10px', 'border': '0px solid #004593'}); 
-	}); 	
 
 	
-}(window, jQuery));
-
+}(jQuery));
 
 
 
