@@ -47,8 +47,10 @@ $smjquery(document).ready(function() {
 }); 
 */
 
+/*
 document.querySelector('head').innerHTML += '<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>';
-document.querySelector('head').innerHTML += ' var $bdjq = $.noConflict(true);';
+document.querySelector('head').innerHTML += 'var $bdjq = $.noConflict(true);';
+*/
 
 /*(function($) {
   
