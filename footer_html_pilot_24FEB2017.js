@@ -31,6 +31,7 @@
 		$smjquery('.navTabs').css({'background': '#fff' });
 		$smjquery('.navTabs li a').css({'color':'#999', 'text-shadow' : 'none'});
 		$smjquery('.navTabs li.active').css({'text-decoration' : 'underline', 'color' : '#004593', 'background-color' : 'transparent' , 'border' : '1px solid #ccc'});
+		$smjquery('.navTabs li:hover').css({'background-color' : 'transparent'});
 		
 		/***** END - Navigation *****/
 		
