@@ -48,7 +48,7 @@ $smjquery(document).ready(function() {
 */
 
 
-(function($) {
+(function(window, $) {
    console.log("Hello World 2");
     if (typeof jQuery == 'undefined') {
         var script = document.createElement('script');
@@ -58,13 +58,13 @@ $smjquery(document).ready(function() {
         console.log("Injected Jquery to Head");
     }
 	
+
+	
+}(window, jQuery));
+
 	$(document).ready(function() {
  		console.log("Conflict Free jQuery goes here");
 	 	$('.topBar').css({'backgroundColor': '#004593',  'margin-top': '0px', 'margin-right': '10px', 'border': '0px solid #004593'}); 
 	}); 
-	
-}(jQuery));
-
-
 
 
