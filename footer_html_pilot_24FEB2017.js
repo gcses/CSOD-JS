@@ -27,6 +27,9 @@
 		$smjquery('.avatar a img').css({ 'height' : '40px' , 'width' : '40px'});
 		/******* END : AVATAR Image *****/ 
 		
+		/************ BEGIN : COG ***********/
+		$smjquery('.user-interaction a span').css({'background-image' : 'https://bd-pilot.csod.com/clientimg/bd/welcome/gear.png' , 'width' : '40px' , 'height' : '40px' });
+		
 		/***** BEGIN - Navigation *****/
 		
 		$smjquery('.navTabs').css({'background': '#fff' });
