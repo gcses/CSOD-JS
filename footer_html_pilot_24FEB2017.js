@@ -24,7 +24,7 @@
 		//$smjquery('.avatar a img').css({ 'display' : 'none'});
 		var avatargImg = $smjquery(document.getElementById('ctl00_header_headerFixed_imgAvatar'));
 		avatargImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/avatar.png');
-		$smjquery('.avatar a img').css({ 'height' : '30px' , 'width' : '30px'});
+		$smjquery('.avatar a img').css({ 'height' : '40px' , 'width' : '40px'});
 		/******* END : AVATAR Image *****/ 
 		
 		/***** BEGIN - Navigation *****/
