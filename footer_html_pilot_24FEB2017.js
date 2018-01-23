@@ -25,6 +25,14 @@
 		
 		/*****END: Search Bar Customization *****/
 		
+		/***** BEGIN - Navigation *****/
+		
+		$smjquery('.navTabs').css({'background': '#fff' });
+		$smjquery('.navTabs li a').css({'color':'#999'});
+		$smjquery('.navTabs li.active').css({'text-decoration' : 'underline', 'color' : '#004593'});
+		
+		/***** END - Navigation *****/
+		
 		$smjquery('.avatar').css({'backgroundColor': '#004593', 'border-radius': '0', 'margin-top': '7px', 'margin-left': '-10px', 'margin-right': '10px', 'border': '0px solid #004593' , 'padding-left': '0'});
 		$smjquery('.avatar a .img').css({'backgroundColor': '#004593', 'border-radius': '0', 'margin-top': '7px', 'margin-left': '-10px', 'border': '0px solid #004593'});
 		$smjquery('.avatar a').css({'backgroundColor': '#004593', 'border-radius': '0',  'margin-top': '0px', 'margin-right': '10px', 'border': '0px solid #004593'});
