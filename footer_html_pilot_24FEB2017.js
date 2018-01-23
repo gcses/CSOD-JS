@@ -47,7 +47,7 @@ $smjquery(document).ready(function() {
 }); 
 */
 
-$j = $.noConflict();
+
 
 (function($) {
    console.log("Hello World 2");
@@ -58,7 +58,7 @@ $j = $.noConflict();
         document.getElementsByTagName('head')[0].appendChild(script);
         console.log("Injected Jquery to Head");
     }
-
+$j = $.noConflict();
 	
 }(jQuery));
 
