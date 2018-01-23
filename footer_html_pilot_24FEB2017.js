@@ -23,7 +23,7 @@
 		/***** BEGIN : AVATAR IMAGE **********/
 		$smjquery('.avatar a img').css({ 'display' : 'none'});
 		var avatargImg = $smjquery('<img class=".avatar a img">');
-		cogImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/avatar.png');
+		avatargImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/avatar.png');
 		$smjquery('.avatar a img').css({ 'height' : '30px' , 'width' : '30px'});
 		/******* END : AVATAR Image *****/ 
 		
