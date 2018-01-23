@@ -17,6 +17,7 @@
 		
 		/***** BEGIN : Header Tools *****/
 		$smjquery('.topBarOuter .tools').css({'padding': '10px', 'height' : '40px'});
+		$smjquery('.topBarOuter .tools span').css({'margin-right': '15px'});
 		
 		
 		/*****BEGIN: Search Bar Customization *****/
