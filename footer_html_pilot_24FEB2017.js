@@ -22,7 +22,7 @@
 		
 		// FOOTER 
 		$smjquery('.df-footer').css({"display": "none"}); // hide the csod default footer
-		
+	});
 
 }(jQuery));
 
