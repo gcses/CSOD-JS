@@ -24,7 +24,7 @@
 		});
 	} ) ( jQuery );*/
 
-(function() {
+/*(function() {
     console.log("Hello World 2");
     if (typeof jQuery == 'undefined') {
         var script = document.createElement('script');
@@ -44,28 +44,14 @@
 $smjquery(document).ready(function() {
  	console.log("Conflict Free jQuery goes here");
 	 $smjquery('.topBar').css({'backgroundColor': '#004593',  'margin-top': '0px', 'margin-right': '10px', 'border': '0px solid #004593'}); 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }); 
+*/
+
+
+(function(window, $) {
+   console.log("Hi there");
+})(window, jQuery);
+
+
+
+
