@@ -45,7 +45,11 @@
 			  $smjquery('#header_headerFixed_imgAvatar').css({'width': '35px', 'margin': '-5px 0px 0px -20px'});
 			}
 		}
-$smjquery('#ctl00_footer_pnlCustomFooter').css({"display": "none";});
+		$smjquery('.df-footer').css({"display": "none"}); // hide the csod default footer
+		
+		
+		
+		
 		$smjquery('#ctl00_footer_pnlCustomFooter').css({"margin-top": "0px", "margin-bottom": "-15px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});
 
 		// margin: top, right, bottom, left
