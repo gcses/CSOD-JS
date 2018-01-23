@@ -21,7 +21,7 @@
 		/*****END: Search Bar Customization *****/
 		
 		/***** BEGIN : AVATAR IMAGE **********/
-		$smjquery('.avatar a img').css({ 'display' : 'none'});
+		//$smjquery('.avatar a img').css({ 'display' : 'none'});
 		var avatargImg = $smjquery('<img class=".avatar a img">');
 		avatargImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/avatar.png');
 		$smjquery('.avatar a img').css({ 'height' : '30px' , 'width' : '30px'});
