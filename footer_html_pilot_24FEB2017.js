@@ -1,4 +1,4 @@
-(function($) {
+/*(function($) {
 
         var script = document.createElement('script');
         script.type = "text/javascript";
@@ -45,7 +45,7 @@
 		$smjquery('.df-footer').css({"display": "none"}); // hide the csod default footer
 	});
 
-}(jQuery));
+}(jQuery)); */
 
 
 
