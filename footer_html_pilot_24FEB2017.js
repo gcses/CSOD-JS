@@ -38,9 +38,8 @@
 		
 		$smjquery('.user-interaction').css({'backgroundcolor': '#004593', 'border-radius': '0', 'border': '0px solid #004593'});
 		$smjquery('.user-interaction li').css({'background' : 'none !important' , 'border' : 'none'});
-	
-		
-		
+		$smjquery('.user-interaction li').css({'-moz-linear-gradient' : 'none' , '-webkit-linear-gradient' : 'none' , '-o-linear-gradient' : 'none' , '-ms-linear-gradient' : 'none' , 'linear-gradient' : 'none' });
+
 		
 		/***** BEGIN - Navigation *****/
 		
