@@ -35,7 +35,7 @@
 		/************ BEGIN : COG ***********/
 		$smjquery('.user-interaction a span').css({'background-image' : 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/gear1.png")'});
 		
-		$smjquery('.user-interaction').css({'backgroundcolor': '#004593', 'border-radius': '0', 'border': 'none'});
+		$smjquery('.user-interaction').css({'backgroundcolor': 'none', 'border-radius': '0', 'border': 'none'});
 		$smjquery('.user-interaction li').css({'background-image' : 'none !important' , 'background-color' : 'red' , 'border' : 'none'});
 		
 		/***** BEGIN - Navigation *****/
