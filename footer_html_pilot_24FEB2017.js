@@ -37,10 +37,8 @@
 		$smjquery('.user-interaction a span').css({'background-image' : 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/gear.png")'});
 		
 		$smjquery('.user-interaction').css({'backgroundcolor': '#004593', 'border-radius': '0', 'border': '0px solid #004593'});
-		$smjquery('.user-interaction li').css({'backgroundcolor' : '#004593' , 'border' : 'none'});
+		$smjquery('.user-interaction li').css({'background' : 'none !important' , 'border' : 'none'});
 	
-		
-		
 		
 		
 		
