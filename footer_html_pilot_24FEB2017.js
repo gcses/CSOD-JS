@@ -31,7 +31,7 @@
 		/******* END : AVATAR Image *****/ 
 		
 		/************ BEGIN : COG ***********/
-		$smjquery('.settings li a span:first-child').css({'background-image' : 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/gear1.png")'});
+		$smjquery('.user-interaction a span').css({'background-image' : 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/gear1.png")'});
 		$smjquery('.user-interaction').css({'backgroundcolor': 'none', 'border-radius': '0', 'border': 'none'});
 
 		
