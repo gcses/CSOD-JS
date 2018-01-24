@@ -14,7 +14,6 @@
 		$smjquery('.topBarOuter .tools').css({'padding': '10px', 'height' : '40px'});
 		$smjquery('.topBarOuter .tools span').css({'margin-right': '15px'});
 		
-		
 		/*****BEGIN: Search Bar Customization *****/
 		$smjquery('#search .cso-top-srch-box').css({'backgroundColor': '#fff', 'border-radius': '4px', 'margin-top': '7px', 'margin-left': '-10px', 'margin-right': '10px', 'border': '0px solid #004593' , 'padding-left': '0'});
 		$smjquery('#search input').css({'color':'#ccc'});
