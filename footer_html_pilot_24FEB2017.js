@@ -31,7 +31,7 @@
 		/******* END : AVATAR Image *****/ 
 		
 		/************ BEGIN : COG ***********/
-		$smjquery('.user-interaction a span').css({'background-image' : 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/gear1.png")' , 'height' : '40px' , 'width' : '40px' });
+		$smjquery('.user-interaction a span').css({'background-image' : 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/gear2.png")' , 'height' : '40px' , 'width' : '40px' });
 		$smjquery('.user-interaction').css({'backgroundcolor': 'none', 'border-radius': '0', 'border': 'none'});
 		$smjquery('.cso-hdr-dd .item a span').css({'background-image' : 'none' });
 
