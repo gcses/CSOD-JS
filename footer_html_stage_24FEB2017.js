@@ -3,7 +3,7 @@
    
 	$smjquery(document).ready(function() {
 		
-		console.log("Test6");
+		console.log("Test7");
 		
 		$smjquery('.topBar').css({'backgroundColor': '#004593',  'margin-top': '0px', 'margin-right': '10px', 'border': '0px solid #004593'});  //yellow border
 		
@@ -55,7 +55,7 @@
                 footerImg.appendTo('#ctl00_footer_pnlCustomFooter');
 		
 		//add table
-		var footerImg = $(
+		var footerTable = $(
 		'<table class="footerTable"><tr>'+
 			     '<td id="footerTD1"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/logo.png" id="footerLogo"></td>' +
 			    
@@ -71,6 +71,7 @@
             			'<li><a href="http://www.bd.com/legal/terms/">Terms of Use</a></li>'+
         			'</ul></td> </tr></table>');
 		
+		footerTable.appendTo('#ctl00_footer_pnlCustomFooter');
 		
 		$smjquery('#sm1').css({'height': '30px', 'padding-bottom': '20px'});
 	$smjquery('#sm2').css({'height': '45px', 'padding-bottom': '18px'});
