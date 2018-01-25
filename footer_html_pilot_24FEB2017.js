@@ -34,7 +34,7 @@
 		$smjquery('.user-interaction').css({'backgroundcolor': 'none', 'border-radius': '0', 'border': 'none'});
 		//$smjquery('.user-interaction li').css({'border-radius': '0', 'border': 'none'});
 		$smjquery('.cso-hdr-dd .item a span').css({'background-image' : 'none' });
-		$smjquery('.settings a span').css({'background-position' : '0 0' });
+		$smjquery('.settings a span').css({'background-position' : '0 0' , 'height' : '40px' , 'width' : '40px' });
 		$smjquery('.cso-hdr-dd .item a span').css({'height' : 'auto' , 'width' : 'auto' });
  
 
