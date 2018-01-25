@@ -6,10 +6,7 @@
 	
 	$smjquery(document).ready(function() {
 		
-		console.log("Test3");
-		
-		
-		dvadsfasfasdfasfasfa
+		console.log("Test4");
 		
 		$smjquery('.topBar').css({'backgroundColor': '#004593',  'margin-top': '0px', 'margin-right': '10px', 'border': '0px solid #004593'});  //yellow border
 		
@@ -46,7 +43,7 @@
 		
 		/***** END - Navigation *****/
 			
-		// FOOTER 
+		// FOOTER (this doesn't appear necessary)
 		//$smjquery('.df-footer').css({"display": "none"}); // hide the csod default footer
 		
 			
@@ -54,6 +51,8 @@
 		
 	$smjquery('#ctl00_footer_pnlCustomFooter').css({"margin-top": "0px", "margin-bottom": "-15px", "backgroundColor": "yellow", "height": "200px", "width": "100%", "padding": "0px"});
 	
+        // margin: top, right, bottom, left
+	$smjquery('.df-footer').css({"margin": "0px 0px 0px 0px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});	
 		
 /*		
 	// margin: top, right, bottom, left
