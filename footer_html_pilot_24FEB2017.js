@@ -32,7 +32,8 @@
 		
 		/************ BEGIN : COG ***********/
 		$smjquery('.user-interaction a span').css({'background-image' : 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/gear2.png")' , 'height' : '40px' , 'width' : '40px' });
-		$smjquery('.user-interaction li').css({'backgroundcolor': 'none', 'border-radius': '0', 'border': 'none'});
+		$smjquery('.user-interaction').css({'backgroundcolor': 'none', 'border-radius': '0', 'border': 'none'});
+		$smjquery('.user-interaction li').css({'border-radius': '0', 'border': 'none'});
 		$smjquery('.cso-hdr-dd .item a span').css({'background-image' : 'none' });
 
 		/***** BEGIN - Navigation *****/
@@ -40,7 +41,7 @@
 		$smjquery('.navTabs li a').css({'color':'#5f6062', 'text-shadow' : 'none' , 'border-top' : '1px solid #ccc'});
 		$smjquery('.navTabs li a:hover').css({'color':'#fff', 'text-shadow' : 'none' , 'border-top' : '1px solid #ccc'});
 		$smjquery('.navTabs li.active').css({'text-decoration' : 'underline', 'color' : '#fff', 'border-top' : '1px solid #ccc'});
-		
+		$smjquery('.c-glbl-nav').css({'border-bottom' : '1px solid #004593' });
 		/***** END - Navigation *****/
 			
 		// FOOTER 
