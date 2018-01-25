@@ -3,7 +3,7 @@
    
 	$smjquery(document).ready(function() {
 		
-		console.log("Test4");
+		console.log("Test5");
 		
 		$smjquery('.topBar').css({'backgroundColor': '#004593',  'margin-top': '0px', 'margin-right': '10px', 'border': '0px solid #004593'});  //yellow border
 		
@@ -49,12 +49,27 @@
 		//#004593   grey bcknd
 		$smjquery('#ctl00_footer_pnlCustomFooter').css({"backgroundColor": "#f2f2f2"});
 		
-		
-		
+		//add sloped image
 		var footerImg = $('<img>'); //Equivalent: $(document.createElement('img'))
 	        footerImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/angle.png');
-	       // footerImg.attr('height','22px');
-               footerImg.appendTo('#ctl00_footer_pnlCustomFooter');
+                footerImg.appendTo('#ctl00_footer_pnlCustomFooter');
+		
+		//add table
+		var footerImg = $(
+		'<table class="footerTable"><tr>'+
+			     '<td id="footerTD1"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/logo.png" id="footerLogo"></td>' +
+			    
+			      '<td id="footerTD2"><a href="http://www.facebook.com/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/facebookIcon.png" id="sm1"></a></td>' +
+			      '<td id="footerTD3"><a href="http://www.linkedin.com/company/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/linkedInIcon.jpg" id="sm2"></a></td>' +
+			      '<td id="footerTD4"><a href="http://youtube.com/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/youTubeIcon.jpg" id="sm3"></a></td>' +
+			      '<td id="footerTD5"><a href="http://twitter.com/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/twitterIcon.jpg" id="sm4"></a></td>' +
+			     '<td id="footerTDspace">&nbsp</td>'+
+			     
+			     '<td id="footerTD6"><p class="copy">&copy; 2017 BD. All rights reserved. Unless otherwise noted, BD, the BD Logo and all other trademarks are property of Becton, Dickinson and Company.</p></td>'+
+			     '<td id="footerTD7"><ul class="footer-links">'+
+            			'<li><a href="http://www.bd.com/legal/privacy_policy/">Privacy Policy</a></li>'+
+            			'<li><a href="http://www.bd.com/legal/terms/">Terms of Use</a></li>'+
+        			'</ul></td> </tr></table>');
 		
 	  //  $('.chevron1').css({'position': 'absolute', 'top': '13%', 'left': '81%', 'margin-left': '5px'});
 		
