@@ -49,8 +49,10 @@
 		
 		
 		
-	$smjquery('#ctl00_footer_pnlCustomFooter').css({"margin-top": "0px", "margin-bottom": "-15px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});
+	$smjquery('#ctl00_footer_pnlCustomFooter').css({"margin-top": "0px", "margin-bottom": "-15px", "backgroundColor": "yellow", "height": "200px", "width": "100%", "padding": "0px"});
 	
+		
+/*		
 	// margin: top, right, bottom, left
 	$smjquery('.df-footer').css({"margin": "0px 0px 0px 0px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});					
 				
@@ -108,7 +110,7 @@
 	
 	 $smjquery('#footerTD6').css({"width": "50%", "color": "#ffffff"});
 	 $smjquery('#footerTD7').css({"width": "20%"});
-
+*/
 		
 		
 	});
