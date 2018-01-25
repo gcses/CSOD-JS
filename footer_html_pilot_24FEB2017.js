@@ -22,7 +22,7 @@
 		/***** BEGIN : AVATAR IMAGE **********/
 		//$smjquery('.avatar a img').css({ 'display' : 'none'});
 		var avatargImg = $smjquery(document.getElementById('ctl00_header_headerFixed_imgAvatar'));
-		avatargImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/avatar.png');
+		avatargImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/avatar1.png');
 		$smjquery('.user-interaction .avatar a img').css({ 'height' : '40px !important' , 'width' : '40px !important'});
 		
 		$smjquery('.avatar').css({'backgroundColor': '#004593', 'border-radius': '0', 'margin-top': '7px', 'margin-left': '-10px', 'margin-right': '10px', 'border': '0px solid #004593' , 'padding-left': '0'});
