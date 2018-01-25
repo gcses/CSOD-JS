@@ -46,12 +46,15 @@
 		// FOOTER (this doesn't appear necessary)
 		//$smjquery('.df-footer').css({"display": "none"}); // hide the csod default footer
 		
-		$smjquery('#ctl00_footer_pnlCustomFooter').css({"backgroundColor": "#004593"});
+		//#004593   grey bcknd
+		$smjquery('#ctl00_footer_pnlCustomFooter').css({"backgroundColor": "#f2f2f2"});
 		
-		//var footerImg = $('<img>'); //Equivalent: $(document.createElement('img'))
-	      //  footerImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/angle.png');
+		
+		
+		var footerImg = $('<img>'); //Equivalent: $(document.createElement('img'))
+	        footerImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/angle.png');
 	       // footerImg.attr('height','22px');
-              //  footerImg.appendTo('#ctl00_footer_pnlCustomFooter');
+               footerImg.appendTo('#ctl00_footer_pnlCustomFooter');
 		
 	  //  $('.chevron1').css({'position': 'absolute', 'top': '13%', 'left': '81%', 'margin-left': '5px'});
 		
