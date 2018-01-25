@@ -39,15 +39,10 @@
 		/***** END - Navigation *****/
 			
 		// FOOTER 
-		$smjquery('.df-footer').css({"display": "none"}); // hide the csod default footer
+		//$smjquery('.df-footer').css({"display": "none"}); // hide the csod default footer
 		
 			
-	
-		
-		
-		
-		
-		
+
 		
 	$smjquery('#ctl00_footer_pnlCustomFooter').css({"margin-top": "0px", "margin-bottom": "-15px", "backgroundColor": "yellow", "height": "200px", "width": "100%", "padding": "0px"});
 	
