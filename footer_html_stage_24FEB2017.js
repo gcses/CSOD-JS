@@ -1,9 +1,15 @@
 
 (function($) {
    
+	
+	
+	
 	$smjquery(document).ready(function() {
 		
-		console.log("Test2");
+		console.log("Test3");
+		
+		
+		dvadsfasfasdfasfasfa
 		
 		$smjquery('.topBar').css({'backgroundColor': '#004593',  'margin-top': '0px', 'margin-right': '10px', 'border': '0px solid #004593'});  //yellow border
 		
