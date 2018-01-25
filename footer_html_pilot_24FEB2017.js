@@ -35,7 +35,6 @@
 		$smjquery('.cso-hdr-dd .item a span').css({'background-image' : 'none' });
 		$smjquery('.settings a span').css({'background-position' : '0 0' , 'height' : '40px' , 'width' : '40px' });
 		$smjquery('.cso-hdr-dd .item a span').css({'height' : 'auto' , 'width' : 'auto' });
- 
 
 		/***** BEGIN - Navigation *****/
 		$smjquery('.navTabs').css({'background': '#fff' });
@@ -45,6 +44,15 @@
 		$smjquery('.c-glbl-nav').css({'border-bottom' : '1px solid #004593' });
 		/***** END - Navigation *****/
 			
+		/********BEGIN - Featured Cards Component **********/
+		
+		var $featuredCardsDiv = $('div.p-contentslider').eq(0); 
+		
+		$featuredCardsDiv.after('<div class="cardscontainer">4 columns go here<div class="col-1-card">1</div></div>');
+	
+		
+		/********BEGIN - Featured Cards Component **********/
+		
 		// FOOTER 
 		$smjquery('.df-footer').css({"display": "none"}); // hide the csod default footer
 	});
