@@ -40,7 +40,7 @@
 		/***** BEGIN - Navigation *****/
 		$smjquery('.navTabs').css({'background': '#fff' });
 		$smjquery('.navTabs li a').css({'color':'#5f6062', 'text-shadow' : 'none' , 'border-top' : '1px solid #ccc'});
-		$smjquery('.navTabs li a:hover').css({'color':'#fff', 'text-shadow' : 'none' , 'border-top' : '1px solid #ccc'});
+		$smjquery('.navTabs li a:hover').css({'color':'#fff !important', 'text-shadow' : 'none' , 'border-top' : '1px solid #ccc'});
 		$smjquery('.navTabs li.active').css({'text-decoration' : 'underline', 'color' : '#fff', 'border-top' : '1px solid #ccc'});
 		$smjquery('.c-glbl-nav').css({'border-bottom' : '1px solid #004593' });
 		/***** END - Navigation *****/
