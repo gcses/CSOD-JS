@@ -6,7 +6,7 @@
 	
 	$smjquery(document).ready(function() {
 		
-		console.log("Test5");
+		console.log("Test6");
 		
 		$smjquery('.topBar').css({'backgroundColor': '#004593',  'margin-top': '0px', 'margin-right': '10px', 'border': '0px solid #004593'});  //yellow border
 		
@@ -53,7 +53,7 @@
 		//width: 100%;"> 
 		
 		
-	$smjquery('#ctl00_footer_pnlCustomFooter').css({"margin-bottom": "15px", "backgroundColor": "black", "height": "100px", "width": "100%", "padding": "0px"});
+	$smjquery('#ctl00_footer_pnlCustomFooter').css({"margin-top": "-500px", "backgroundColor": "black", "height": "100px", "width": "100%", "padding": "0px"});
 	
         // margin: top, right, bottom, left
 	//$smjquery('.df-footer').css({"margin": "0px 0px 0px 0px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});	
