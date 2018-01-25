@@ -6,7 +6,7 @@
 	
 	$smjquery(document).ready(function() {
 		
-		console.log("Test6");
+		console.log("Test7");
 		
 		$smjquery('.topBar').css({'backgroundColor': '#004593',  'margin-top': '0px', 'margin-right': '10px', 'border': '0px solid #004593'});  //yellow border
 		
@@ -56,11 +56,9 @@
 	$smjquery('#ctl00_footer_pnlCustomFooter').css({"margin-top": "-500px", "backgroundColor": "black", "height": "100px", "width": "100%", "padding": "0px"});
 	
         // margin: top, right, bottom, left
-	//$smjquery('.df-footer').css({"margin": "0px 0px 0px 0px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});	
+	$smjquery('.df-footer').css({"margin": "0px 0px 0px 0px", "height": "100px", "backgroundColor": "yellow", "width": "100%", "padding": "0px"});	
 		
-/*		
-	// margin: top, right, bottom, left
-	$smjquery('.df-footer').css({"margin": "0px 0px 0px 0px", "backgroundColor": "#f2f2f2", "width": "100%", "padding": "0px"});					
+/*							
 				
 	$smjquery('.df-footer').each(function(){
 	        $smjquery(this).html('<img src="https://bd-pilot.csod.com/clientimg/bd/welcome/angle.png" id="slopedFooterImage" />' +
