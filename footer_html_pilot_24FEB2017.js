@@ -39,8 +39,8 @@
 		/***** BEGIN - Navigation *****/
 		$smjquery('.navTabs').css({'background': '#023970' });
 		$smjquery('.navTabs li a').css({'color':'#fff', 'text-shadow' : 'none'});
-		$smjquery('.navTabs li a:hover').css({'color':'#fff !important', 'text-shadow' : 'none'});
-		$smjquery('.navTabs li.active').css({'text-decoration' : 'underline', 'color' : '#fff'});
+		$smjquery('.navTabs li a:hover').css({'text-decoration' : 'underline', 'text-shadow' : 'none'});
+		$smjquery('.navTabs li.active').css({'font-weight' : 'bold' , 'color' : '#fff'});
 		$smjquery('.c-glbl-nav').css({'border-bottom' : '1px solid #004593' ,  'border-top' : '1px solid #fff'});
 		/***** END - Navigation *****/
 			
