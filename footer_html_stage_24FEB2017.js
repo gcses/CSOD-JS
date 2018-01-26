@@ -3,7 +3,7 @@
    
 	$smjquery(document).ready(function() {
 		
-		console.log("Test1");
+		console.log("Test2");
 		
 		$smjquery('.topBar').css({'backgroundColor': '#004593',  'margin-top': '0px', 'margin-right': '10px', 'border': '0px solid #004593'});  //yellow border
 		
@@ -45,9 +45,10 @@
 		/***** BEGIN - Cards *****/
 		
 		
+		$smjquery('.p-prerenderplaceholder div:first-child').css({"backgroundcolor": "black", "height": "90px"});
 		
-		
-		
+		//var cardsTable = $('<table id="cardsTable">');
+		//$smjquery('.p-prerenderplaceholder).prepend(cardsTable);
 		
 		
 		
@@ -55,10 +56,7 @@
 		
 		
 
-//<div class="p-prerenderplaceholder">
-//  - build out first child div
-		
-		$('.p-prerenderplaceholder div:first-child').css({"backgroundcolor": "black", "height": "90px"});
+
 		
 		
 		/***** BEGIN - Footer *****/
