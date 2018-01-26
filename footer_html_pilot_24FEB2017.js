@@ -42,7 +42,7 @@
 		$smjquery('.navTabs li a:hover').css({'color':'#fff !important', 'text-shadow' : 'none' , 'border-top' : '1px solid #ccc'});
 		$smjquery('.navTabs li.active').css({'text-decoration' : 'underline', 'color' : '#fff', 'border-top' : '1px solid #ccc'});
 		$smjquery('.c-glbl-nav').css({'border-bottom' : '1px solid #004593' });
-		$smjquery('#nav-learning .highlighted:hover').css({'color' : '#fff' });
+		$smjquery('#nav-learning .highlighted:hover').css({'color' : '#fff !important' });
 		/***** END - Navigation *****/
 			
 		/********BEGIN - Featured Cards Component **********/
