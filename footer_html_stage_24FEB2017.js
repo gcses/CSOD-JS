@@ -1,6 +1,6 @@
 (function($) {
 	
-	console.log("testA");
+	console.log("testB");
    
 	$smjquery(document).ready(function() {
 		//overlay a new image to cover up settings cog image
@@ -72,7 +72,7 @@
 		
 		//$smjquery("div").find("[data-tag='ContinueLearning']").css({"backgroundColor": "black", 'margin-top': '100px'});
 		
-		$smjquery(".p-panel.p-p-t-md").css({"backgroundColor": "black"});
+		$smjquery(".p-panel.p-p-t-md.p-mediaquerycontainer").css({"backgroundColor": "black"});
 		
 		
 		//$smjquery('.p-p-t-md').css({"backgroundColor": "black"});
