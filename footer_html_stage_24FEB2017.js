@@ -1,6 +1,6 @@
 (function($) {
 	
-	console.log("testC");
+	console.log("testD");
    
 	$smjquery(document).ready(function() {
 		//overlay a new image to cover up settings cog image
@@ -52,11 +52,11 @@
 	
 		
 		
-		$smjquery('.p-f-sz-2x').css({ 'font-size' : '1.3rem'});
+		//$smjquery('.p-f-sz-2x').css({ 'font-size' : '1.3rem'});
 	
 		
 		
-		$smjquery('p.content-slider-header:first-child').css({'border' : '2px solid red'});
+		//$smjquery('p.content-slider-header:first-child').css({'border' : '2px solid red'});
 		
 		
 		
@@ -78,9 +78,8 @@
 		//$smjquery(".p-panel.p-p-t-md").css({"backgroundColor": "black"});
 		
 		
-		$smjquery(".p-prerenderplaceholder").css({"backgroundColor": "black"});
-		
-
+		//$smjquery(".p-prerenderplaceholder").css({"backgroundColor": "black"});
+		 $smjquery(".p-panel.p-p-t-lg").css({"backgroundColor": "black"});
 		
 		
 
