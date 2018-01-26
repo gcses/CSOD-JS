@@ -63,7 +63,7 @@
 		
 		
 		/***** BEGIN - Footer *****/
-		
+		$smjquery('.df-footer').css({"display": "none"}); // hide the csod default footer
 		//create grey background and add sloped image
 		$smjquery('#ctl00_footer_pnlCustomFooter').css({"backgroundColor": "#f2f2f2"});
 		var footerImg = $('<img id="slopedFooterImage">');
