@@ -54,9 +54,9 @@
 	
 		
 		
-		$('.p-contentslider').after($('<div class="cardscontainer">4 columns go here<div class="col-1-card">1</div></div>'));
+		$smjquery('.p-contentslider').after($smjquery('<div class="cardscontainer">4 columns go here<div class="col-1-card">1</div></div>'));
 		
-		$('div.p-contentslider').after('<div id="space">testtesttest</div>');
+		$smjquery('div.p-contentslider').after('<div id="space">testtesttest</div>');
 		/********BEGIN - Featured Cards Component **********/
 		
 		// FOOTER 
