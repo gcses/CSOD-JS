@@ -51,13 +51,10 @@
 		
 		
 		$smjquery('.p-f-sz-2x').css({ 'font-size' : '1.3rem'});
-		$("<div>mydiv</div>").insertBefore('.mobile-sub .s2_error');
+	
 		
-			var $featuredCardsDiv = $('.p-contentslider').eq(0); 
 		
-		$featuredCardsDiv.insertAfter('<div class="cardscontainer">4 columns go here<div class="col-1-card">1</div></div>');
-		$featuredCardsDiv.after('<div class="cardscontainer">4 columns go here<div class="col-1-card">1</div></div>');
-		$featuredCardsDiv.append('<div class="cardscontainer">4 columns go here<div class="col-1-card">1</div></div>');
+		$('.p-contentslider').after($('<div class="cardscontainer">4 columns go here<div class="col-1-card">1</div></div>'));
 		
 		$('div.p-contentslider').after('<div id="space">testtesttest</div>');
 		/********BEGIN - Featured Cards Component **********/
