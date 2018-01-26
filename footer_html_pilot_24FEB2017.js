@@ -54,7 +54,7 @@
 	
 		
 		
-		$smjquery('.slick-slider').after('<div class="cardscontainer">4 columns go here<div class="col-1-card">1</div></div>');
+		$smjquery('.slick-slider').css({'border' : '2px solid red'}):
 		
 
 		/********BEGIN - Featured Cards Component **********/
