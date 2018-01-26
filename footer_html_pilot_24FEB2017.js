@@ -37,13 +37,11 @@
 		$smjquery('.cso-hdr-dd .item a span').css({'height' : 'auto' , 'width' : 'auto' });
 
 		/***** BEGIN - Navigation *****/
-		//$smjquery('.navTabs').css({'background': '#fff' });
-		$smjquery('.navTabs li a').css({'color':'#5f6062', 'text-shadow' : 'none'});
+		$smjquery('.navTabs').css({'background': '#023970' });
+		$smjquery('.navTabs li a').css({'color':'#fff', 'text-shadow' : 'none'});
 		$smjquery('.navTabs li a:hover').css({'color':'#fff !important', 'text-shadow' : 'none'});
 		$smjquery('.navTabs li.active').css({'text-decoration' : 'underline', 'color' : '#fff'});
 		$smjquery('.c-glbl-nav').css({'border-bottom' : '1px solid #004593' ,  'border-top' : '1px solid #fff'});
-		$smjquery('.c-glbl-nav .highlighted:hover').css({'color' : '#fff !important' });
-		$smjquery( ".c-glbl-nav ul li a" ).removeClass(".highlighted");
 		/***** END - Navigation *****/
 			
 		/********BEGIN - Featured Cards Component **********/
