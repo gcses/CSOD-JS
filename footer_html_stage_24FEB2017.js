@@ -3,7 +3,7 @@
    
 	$smjquery(document).ready(function() {
 		
-		console.log("Test5");
+		console.log("Test6");
 		
 		$smjquery('.topBar').css({'backgroundColor': '#004593',  'margin-top': '0px', 'margin-right': '10px', 'border': '0px solid #004593'});  //yellow border
 		
@@ -49,13 +49,13 @@
 		//var cardsTable = $('<H3>TEST!</H3>');
 		//cardsTable.attr('backgroundcolor', 'red');
 		
-		var testImg = $('<img id="slopedFooterImage">');
-	        testImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/angle.png');
+		//var testImg = $('<img id="slopedFooterImage">');
+	        //testImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/angle.png');
 		
 		//var cardsTable = $('<table id="cardsTable">');
-		$smjquery('div .p-p-t-md').prepend(testImg);
+		//$smjquery('div .p-p-t-md').prepend(testImg);
 		
-		$smjquery('div .p-p-t-md').css({"backgroundColor": "black"});
+		$smjquery('.p-p-t-md').css({"backgroundColor": "black"});
 		
 		/***** END - Cards ****/
 		
