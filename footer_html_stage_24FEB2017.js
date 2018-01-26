@@ -3,7 +3,7 @@
    
 	$smjquery(document).ready(function() {
 		
-		console.log("Test7");
+		console.log("Test1");
 		
 		$smjquery('.topBar').css({'backgroundColor': '#004593',  'margin-top': '0px', 'margin-right': '10px', 'border': '0px solid #004593'});  //yellow border
 		
@@ -40,6 +40,26 @@
 		
 		/***** END - Navigation *****/
 			
+		
+		
+		/***** BEGIN - Cards *****/
+		
+		
+		
+		
+		
+		
+		
+		
+		/***** END - Cards ****/
+		
+		
+
+//<div class="p-prerenderplaceholder">
+//  - build out first child div
+		
+		$('.p-prerenderplaceholder div:first-child').css({"backgroundcolor": "black", "height": "90px"});
+		
 		
 		/***** BEGIN - Footer *****/
 		
