@@ -3,7 +3,7 @@
    
 	$smjquery(document).ready(function() {
 		
-		console.log("Test6");
+		console.log("Test7");
 		
 		$smjquery('.topBar').css({'backgroundColor': '#004593',  'margin-top': '0px', 'margin-right': '10px', 'border': '0px solid #004593'});  //yellow border
 		
@@ -55,7 +55,9 @@
 		//var cardsTable = $('<table id="cardsTable">');
 		//$smjquery('div .p-p-t-md').prepend(testImg);
 		
-		$smjquery('.p-p-t-md').css({"backgroundColor": "black"});
+		$smjquery( "input[value='ContinueLearning']" ).css({"backgroundColor": "black", 'margin-top': '100px'});
+		
+		//$smjquery('.p-p-t-md').css({"backgroundColor": "black"});
 		
 		/***** END - Cards ****/
 		
