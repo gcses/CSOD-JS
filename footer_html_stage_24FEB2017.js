@@ -1,6 +1,6 @@
 (function($) {
 	
-	console.log("test");
+	console.log("testA");
    
 	$smjquery(document).ready(function() {
 		//overlay a new image to cover up settings cog image
