@@ -53,7 +53,7 @@
 	
 		
 		
-		$smjquery('p.content-slider-header:first-child').css({'border' : '2px solid red'});
+		$smjquery('div.p-content-slider-header:first-child').css({'border' : '2px solid red'});
 		
 
 		/********BEGIN - Featured Cards Component **********/
