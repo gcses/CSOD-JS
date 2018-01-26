@@ -3,7 +3,7 @@
    
 	$smjquery(document).ready(function() {
 		
-		console.log("Test3");
+		console.log("Test4");
 		
 		$smjquery('.topBar').css({'backgroundColor': '#004593',  'margin-top': '0px', 'margin-right': '10px', 'border': '0px solid #004593'});  //yellow border
 		
@@ -53,7 +53,7 @@
 	        //testImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/angle.png');
 		
 		//var cardsTable = $('<table id="cardsTable">');
-		$smjquery('.p-prerenderplaceholder).prepend(cardsTable);
+		$smjquery('.p-prerenderplaceholder').prepend(cardsTable);
 		
 		
 		
