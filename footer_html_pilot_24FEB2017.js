@@ -47,13 +47,13 @@
 		/********BEGIN - Featured Cards Component **********/
 		
 	
-		
+		$smjquery('.p-panel p-p-t-lg').css({'border' : '2px solid red' });
 		
 		$smjquery('.p-f-sz-2x').css({ 'font-size' : '1.3rem'});
 	
 		
 		
-		$smjquery('div.p-content-slider-header:first-child').css({'border' : '2px solid red'});
+		$smjquery('div.p-content-slider-header').css({'border' : '2px solid red'});
 		
 
 		/********BEGIN - Featured Cards Component **********/
