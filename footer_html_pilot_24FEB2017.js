@@ -50,6 +50,8 @@
 		var $featuredCardsDiv = $('div.p-contentslider').eq(0); 
 		
 		$featuredCardsDiv.after('<div class="cardscontainer">4 columns go here<div class="col-1-card">1</div></div>');
+		
+		$('div.p-contentslider').after('<div id="space">testtesttest</div>');
 		$smjquery('.p-f-sz-2x').css({ 'font-size' : '1.3rem'});
 		
 		/********BEGIN - Featured Cards Component **********/
