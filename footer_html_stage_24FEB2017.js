@@ -3,7 +3,7 @@
    
 	$smjquery(document).ready(function() {
 		
-		console.log("Test1");
+		console.log("Test2");
 		
 		$smjquery('.topBar').css({'backgroundColor': '#004593',  'margin-top': '0px', 'margin-right': '10px', 'border': '0px solid #004593'});  //yellow border
 		
@@ -57,7 +57,7 @@
 		
 		//$smjquery("div").find("[data-tag='ContinueLearning']").css({"backgroundColor": "black", 'margin-top': '100px'});
 		
-		$smjquery("div").css({"backgroundColor": "black"});
+		$smjquery("div .p-panel").css({"backgroundColor": "black"});
 		
 		
 		//$smjquery('.p-p-t-md').css({"backgroundColor": "black"});
