@@ -1,6 +1,6 @@
 (function($) {
 	
-	console.log("test2");
+	console.log("test3");
    
 	$smjquery(document).ready(function() {
 		//overlay a new image to cover up settings cog image
@@ -72,12 +72,11 @@
 		
 		//$smjquery("div").find("[data-tag='ContinueLearning']").css({"backgroundColor": "black", 'margin-top': '100px'});
 		
-		//$smjquery(".p-panel.p-p-t-md").css({"backgroundColor": "black"});
 		//$( "ul li:nth-child(2)" ).append( "<span> - 2nd!</span>" );
-		
-		// $smjquery(".p-panel.p-p-t-lg").css({"backgroundColor": "black"});
-		
 		//$smjquery(".p-prerenderplaceholder:nth-child(2)").css({"backgroundColor": "black"});
+		
+		$smjquery(".p-panel.p-p-t-md").css({"backgroundColor": "black"});
+		$smjquery(".p-panel.p-p-t-lg").css({"backgroundColor": "black"});
 		
 		$smjquery(".p-prerenderplaceholder").css({"backgroundColor": "black"});
 		
