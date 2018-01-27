@@ -1,6 +1,6 @@
 (function($) {
 	
-	console.log("test7");
+	console.log("test1");
    
 	$smjquery(document).ready(function() {
 		//overlay a new image to cover up settings cog image
@@ -80,7 +80,8 @@
 		
 		//$smjquery(".p-prerenderplaceholder").css({"backgroundColor": "black"});
 		
-		$smjquery("div.p-p-t-lg").css({"backgroundColor": "black"});
+		$smjquery("div .p-prerenderplaceholder").css({"backgroundColor": "black"});
+		$smjquery("div .p-p-t-lg").css({"backgroundColor": "black"});
 		
 		
 		
