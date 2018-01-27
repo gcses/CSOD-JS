@@ -78,11 +78,16 @@
 		//$smjquery(".p-panel.p-p-t-md").css({"backgroundColor": "black"});
 		//$( "ul li:nth-child(2)" ).append( "<span> - 2nd!</span>" );
 		
-		$smjquery(".p-prerenderplaceholder:nth-child(2)").css({"backgroundColor": "black"});
 		// $smjquery(".p-panel.p-p-t-lg").css({"backgroundColor": "black"});
 		
 		
-
+		//$smjquery(".p-prerenderplaceholder:nth-child(2)").css({"backgroundColor": "black"});
+		$smjquery(".p-prerenderplaceholder").css({"backgroundColor": "black"});
+		
+		
+		
+		
+		
 		/********BEGIN - Featured Cards Component **********/
 			
 
