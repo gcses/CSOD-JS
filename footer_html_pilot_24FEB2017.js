@@ -43,7 +43,7 @@
 		/********BEGIN - Featured Cards Component **********/
 		
 		
-		$smjquery('#cs-root > [data-reactroot]').addClass({"contentContainer"});
+		$smjquery('#cs-root > [data-reactroot]').addClass("contentContainer");
 		
 		/********BEGIN - Featured Cards Component **********/
 			
