@@ -54,7 +54,7 @@
 		$smjquery('.p-view-usersummary').append('<div>the new left div</div>');
 		
 		
-
+$smjquery('div').css({'border' : '2px solid pink'});
 		/********BEGIN - Featured Cards Component **********/
 			
 
