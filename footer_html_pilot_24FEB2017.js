@@ -41,23 +41,10 @@
 		/***** END - Navigation *****/
 			
 		/********BEGIN - Featured Cards Component **********/
-		$smjquery('.p-autoplay-controls').css({'border' : '2px solid #ccc' });
-		$smjquery('.p-f-sz-2x').css({ 'font-size' : '1.3rem'});
-		$smjquery('.p-content-slider-header').css({'border' : '2px solid red'});
-		$smjquery('.p-content-slider-title').css({'border' : '2px solid blue'});
-		$smjquery('.slick-slider').css({'border' : '2px solid #000' });
-		$smjquery('.p-contentslider').css({'border' : '2px solid green'});
-		
-		$smjquery('.p-mediaquerycontainer').css({'border' : '2px solid yellow'});
-		$smjquery('.p-gridcol div').css({'border' : '2px solid pink'});
-		$smjquery('.p-mediaquerycontainer').append('<div>the new div</div>');
-		$smjquery('.p-view-usersummary').append('<div>the new left div</div>');
 		
 		
-$smjquery('div').css({'border' : '2px solid pink'});
-		$smjquery('body div.p-panel').css({'border' : '2px solid orange'});
+		$smjquery('#cs-root > [data-reactroot]').addClass({"contentContainer"});
 		
-		$smjquery('#cs-root > [data-reactroot]').css({'border' : '2px solid red'});
 		/********BEGIN - Featured Cards Component **********/
 			
 
@@ -129,13 +116,6 @@ $smjquery('div').css({'border' : '2px solid pink'});
 		
 		/***** END - Footer *****/
 	});
-	
-	(function(){
-   		function addCards(){
-      		var ppanelcount = $smjquery("#ct100_masterPageBody .p-mediaquerycontainer").length;
-		console.log(ppanelcount);
-   		};
-   		window.setTimeout( addCards, 5000 ); // 5 seconds
-	})();
+
 
 }($smjquery)); 
