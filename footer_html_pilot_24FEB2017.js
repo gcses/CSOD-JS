@@ -52,8 +52,7 @@
 		$smjquery('.p-mediaquerycontainer').append('<div>the new div</div>');
 		$smjquery('.p-view-usersummary').append('<div>the new left div</div>');
 		
-		var ppanelcount = $smjquery("#ct100_masterPageBod#ct100_masterPageBody .p-mediaquerycontainer").length;
-		console.log("#ct100_masterPageBody .mediaquerycontainer :"ppanelcount);
+		
 
 		/********BEGIN - Featured Cards Component **********/
 			
@@ -126,5 +125,12 @@
 		
 		/***** END - Footer *****/
 	});
+	$(window).load(function(){
+   		function addCards(){
+      		var ppanelcount = $smjquery("#ct100_masterPageBod#ct100_masterPageBody .p-mediaquerycontainer").length;
+		console.log("#ct100_masterPageBody .mediaquerycontainer :"ppanelcount);
+   		};
+   		window.setTimeout( addCards, 5000 ); // 5 seconds
+	})
 
 }($smjquery)); 
