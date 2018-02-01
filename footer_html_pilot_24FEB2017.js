@@ -59,61 +59,29 @@
 	        footerImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/angle.png');
                 footerImg.appendTo('#ctl00_footer_pnlCustomFooter');
 		
-		//add table and populate it
-		var footerTable = $(
-		'<table class="footerTable"><tr>'+
-			     '<td id="footerTD1"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/logo.png" id="footerLogo"></td>' +
-			    
-			      '<td id="footerTD2"><a href="http://www.facebook.com/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/facebookIcon.png" id="sm1"></a></td>' +
-			      '<td id="footerTD3"><a href="http://www.linkedin.com/company/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/linkedInIcon.jpg" id="sm2"></a></td>' +
-			      '<td id="footerTD4"><a href="http://youtube.com/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/youTubeIcon.jpg" id="sm3"></a></td>' +
-			      '<td id="footerTD5"><a href="http://twitter.com/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/twitterIcon.jpg" id="sm4"></a></td>' +
-			     '<td id="footerTDspace">&nbsp</td>'+
-			     
-			     '<td id="footerTD6"><p class="copy">&copy; 2017 BD. All rights reserved. Unless otherwise noted, BD, the BD Logo and all other trademarks are property of Becton, Dickinson and Company.</p></td>'+
-			     '<td id="footerTD7"><ul class="footer-links">'+
-            			'<li><a href="http://www.bd.com/legal/privacy_policy/">Privacy Policy</a></li>'+
-            			'<li><a href="http://www.bd.com/legal/terms/">Terms of Use</a></li>'+
-        			'</ul></td> </tr></table>');
+		var footerContents = $(
+			<div class="footerContetsRow">
+			    <div class="col"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/logo.png" id="footerLogo"></div>
+			    <div class="col"><a href="http://www.facebook.com/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/facebookIcon.png" id="sm1"></a></div>
+			    <div class="col"><a href="http://www.linkedin.com/company/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/linkedInIcon.jpg" id="sm2"></a></div>
+			    <div class="col"><a href="http://youtube.com/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/youTubeIcon.jpg" id="sm3"></a></div>
+			    <div class="col"><a href="http://twitter.com/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/twitterIcon.jpg" id="sm4"></a> </div>
+			    <div class="col"><p class="copy">&copy; 2017 BD. All rights reserved. Unless otherwise noted, BD, the BD Logo and all other trademarks are property of Becton, Dickinson and Company.</p></div>
+			    <div class="col"><a href="http://www.bd.com/legal/privacy_policy/">Privacy Policy</a></div>
+			    <div class="col"><a href="http://www.bd.com/legal/terms/">Terms of Use</a></div>
+			    <div class="last" />
+			</div>
+		);
 		
-		footerTable.appendTo('#ctl00_footer_pnlCustomFooter');
-		 
+		footerContent.appendTo('#ctl00_footer_pnlCustomFooter');
+		 $smjquery('.footerContetsRow div.col').css({'float' : 'left', 'display' : 'inline-block', 'width' : 'auto' , 'padding' : '20px' });
+		$smjquery('
 		// now style the footer elements
 		$smjquery('#sm1').css({'height': '30px', 'padding-bottom': '20px'});
 		$smjquery('#sm2').css({'height': '45px', 'padding-bottom': '18px'});
 		$smjquery('#sm3').css({'height': '37px', 'padding-bottom': '20px'});
 		$smjquery('#sm4').css({'height': '37px', 'padding-bottom': '18px'});
 
-		$smjquery('#footerTD2').css({"width": "40px"});
-		$smjquery('#footerTD3').css({"width": "40px"});
-		$smjquery('#footerTD4').css({"width": "40px"});
-		$smjquery('#footerTD5').css({"width": "40px"});
-
-		//enlarge the link area for the social media links
-		$smjquery('.smLink').css({'font-size': '400%'});
-
-		$smjquery('.footer-links').css({"padding-left": "0", "float": "right", "padding-right": "15px", "margin-top": "8px"});
-		$smjquery('.footer-links li').css({"display": "inline-block", "line-height": "16px", "padding-right": "5px", "padding-left": "5px", "border-left": "1px solid #EEEEEE"});
-		$smjquery('.footer-links li:first-child').css({"border-left": "none"});
-		$smjquery('.footer-links a').css({"color": "#FFFFFF", "font-weight": "400", "text-decoration": "none", "font-size": "11px", "font-weight": "bold"});
-
-		// sloped image with top margin
-		 $smjquery('#slopedFooterImage').css({"width": "100%", "padding-bottom": "0px", "margin-top": "35px", "margin-bottom": "-5px"});
-
-		 // margin: top, right, bottom, left
-		 $smjquery('.footerTable').css({"margin": "0px 0px 0px 0px", "padding-top": "0px", "backgroundColor": "#004593", "width": "100%", "height": "100px"});
-
-		  // copywrite info
-		 $smjquery('.copy').css({'font-size': '11px', 'padding-left': '40px', 'text-align': 'center', "font-weight": "bold"});	
-
-		//footer logo
-		 $smjquery('#footerLogo').css({'height': '40px', 'margin-left': '20px', 'margin-right': '30px','padding-bottom': '20px'});
-		 $smjquery('#footerTD1').css({'width': '60px', 'padding': '0px'}); 
-
-		 $smjquery('#footerTDspace').css({'width': '15px'});
-
-		 $smjquery('#footerTD6').css({"width": "50%", "color": "#ffffff"});
-		 $smjquery('#footerTD7').css({"width": "20%"});
 		
 		/***** END - Footer *****/
 	});
