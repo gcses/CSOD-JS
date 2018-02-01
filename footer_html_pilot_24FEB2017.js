@@ -44,7 +44,7 @@
 		$smjquery('.p-f-sz-2x').css({ 'font-size' : '1.3rem'});
 		$smjquery('.p-content-slider-header').css({'border' : '2px solid red'});
 		$smjquery('.p-content-slider-title').css({'border' : '2px solid blue'});
-		$smjquery('div.slick-initializer.slick-slider').css({'border' : '2px solid #000' });
+		$smjquery('.slick-slider').css({'border' : '2px solid #000' });
 		$smjquery('.p-contentslider').css({'border' : '2px solid green'});
 		$smjquery('.p-panel').css({'border' : '2px solid green'});
 		
