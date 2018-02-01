@@ -60,7 +60,7 @@
                 footerImg.appendTo('#ctl00_footer_pnlCustomFooter');
 		
 		var footerContents = $(
-			<div class="footerContetsRow">
+			'<div class="footerContetsRow">
 			    <div class="col"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/logo.png" id="footerLogo"></div>
 			    <div class="col"><a href="http://www.facebook.com/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/facebookIcon.png" id="sm1"></a></div>
 			    <div class="col"><a href="http://www.linkedin.com/company/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/linkedInIcon.jpg" id="sm2"></a></div>
@@ -69,8 +69,7 @@
 			    <div class="col"><p class="copy">&copy; 2017 BD. All rights reserved. Unless otherwise noted, BD, the BD Logo and all other trademarks are property of Becton, Dickinson and Company.</p></div>
 			    <div class="col"><a href="http://www.bd.com/legal/privacy_policy/">Privacy Policy</a></div>
 			    <div class="col"><a href="http://www.bd.com/legal/terms/">Terms of Use</a></div>
-			    <div class="last" />
-			</div>
+			</div>'
 		);
 		
 		footerContent.appendTo('#ctl00_footer_pnlCustomFooter');
