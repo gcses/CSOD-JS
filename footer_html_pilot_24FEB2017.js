@@ -51,8 +51,8 @@
 		$smjquery('.p-mediaquerycontainer').append('<div>the new div</div>');
 		$smjquery('.p-view-usersummary').append('<div>the new left div</div>');
 		
-		var ppanelcount = $smjquery(".p-panel .p-mediaquerycontainer").length;
-		console.log(ppanelcount);
+		var ppanelcount = $smjquery(".p-mediaquerycontainer").length;
+		console.log("mediaquerycontainer :"ppanelcount);
 
 		/********BEGIN - Featured Cards Component **********/
 			
