@@ -57,7 +57,7 @@
 $smjquery('div').css({'border' : '2px solid pink'});
 		$smjquery('body div.p-panel').css({'border' : '2px solid orange'});
 		
-		$smjquery(''#cs-root > [data-reactroot]').css({'border' : '2px solid red'});
+		$smjquery('#cs-root > [data-reactroot]').css({'border' : '2px solid red'});
 		/********BEGIN - Featured Cards Component **********/
 			
 
