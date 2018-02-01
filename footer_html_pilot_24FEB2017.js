@@ -61,7 +61,7 @@
 			    '<div class="col"><a href="http://www.bd.com/legal/terms/">Terms of Use</a></div>' +
 			'</div>');
 		
-		footerContent.appendTo('#ctl00_footer_pnlCustomFooter');
+		footerContents.appendTo('#ctl00_footer_pnlCustomFooter');
 		 $smjquery('.footerContetsRow div.col').css({'float' : 'left', 'display' : 'inline-block', 'width' : 'auto' , 'padding' : '20px' });
 		// now style the footer elements
 		$smjquery('#sm1').css({'height': '30px', 'padding-bottom': '20px'});
