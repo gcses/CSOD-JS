@@ -50,6 +50,9 @@
 		$smjquery('.p-mediaquerycontainer').css({'border' : '2px solid yellow'});
 		$smjquery('.p-mediaquerycontainer').append('<div>the new div</div>');
 		$smjquery('.p-view-usersummary').append('<div>the new left div</div>');
+		
+		var ppanelcount = $smjquery(".p-panel .p-mediaquerycontainer").length;
+		console.log(ppanelcount);
 
 		/********BEGIN - Featured Cards Component **********/
 			
