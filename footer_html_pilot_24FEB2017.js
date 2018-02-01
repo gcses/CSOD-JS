@@ -48,7 +48,8 @@
 		$smjquery('.p-contentslider').css({'border' : '2px solid green'});
 		$smjquery('.p-panel').css({'border' : '2px solid orange'});
 		$smjquery('.p-mediaquerycontainer').css({'border' : '2px solid yellow'});
-		
+		$smjquery('.p-mediaquerycontainer').append('<div>the new div</div>');
+		$smjquery('.p-view-usersummary').append('<div>the new left div</div>');
 
 		/********BEGIN - Featured Cards Component **********/
 			
