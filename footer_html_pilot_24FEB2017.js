@@ -40,7 +40,7 @@
 		/***** END - Navigation *****/
 			
 		/********BEGIN - Featured Cards Component **********/
-		$smjquery('.p-autoplay-controls').css({'border' : '2px solid red' });
+		$smjquery('.p-autoplay-controls').css({'border' : '2px solid #ccc' });
 		$smjquery('.p-f-sz-2x').css({ 'font-size' : '1.3rem'});
 		$smjquery('div.p-content-slider-header').css({'border' : '2px solid red'});
 		
