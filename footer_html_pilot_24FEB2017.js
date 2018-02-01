@@ -1,17 +1,10 @@
 (function($) {
    
 	$smjquery(document).ready(function() {
-		//overlay a new image to cover up settings cog image
-		//var cogImg = $smjquery('<img class="cog1">');
-		//cogImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/cog.png'); /clientimg/bd/welcome/avatar.png
-		//cogImg.appendTo('#optionsbtn');
-		//$smjquery('.cog1').css({'height': '30px', 'position': 'absolute', 'top': '0', 'left': '-1px', 'margin-left': '0px', 'margin-right': '0px', 'border-radius': '0', 'border': '0px', "zindex": "2147483644"});
-		//$smjquery('#optionsbtn').css({'padding-left': '5px', 'margin-right': '8px', 'backgroundColor': 'yellow', 'border': '0px', "zindex": "2147483644"});
-
-		$smjquery('.topBar').css({'backgroundColor': '#023970',  'margin-top': '0px', 'margin-right': '10px', 'border': '0px solid #004593'});  //yellow border
-		
+	
 		/***** BEGIN : Header Tools *****/
 		$smjquery('.topBarOuter .tools').css({'padding': '10px', 'height' : '40px' , 'margin-right' : '20px'});
+		$smjquery('.topBar').css({'backgroundColor': '#023970',  'margin-top': '0px', 'margin-right': '10px', 'border': 'none'}); 
 		
 		/*****BEGIN: Search Bar Customization *****/
 		$smjquery('#search .cso-top-srch-box').css({'backgroundColor': '#fff', 'border-radius': '4px', 'margin-top': '7px', 'margin-left': '-10px', 'margin-right': '30px', 'border': '0px solid #004593' , 'padding-left': '0'});
@@ -39,20 +32,14 @@
 		/***** BEGIN - Navigation *****/
 		$smjquery('.navTabs').css({'background': '#023970' });
 		$smjquery('.navTabs li a').css({'color':'#fff', 'text-shadow' : 'none'});
-		$smjquery('.navTabs li a:hover').css({'text-decoration' : 'underline', 'text-shadow' : 'none'});
+		$smjquery('.navTabs li a:hover').css({'text-decoration' : 'underline', 'text-shadow' : 'none', 'opacity' : '0.7'});
 		$smjquery('.navTabs li.active').css({'text-decoration' : 'underline' , 'font-weight' : 'bold'});
-		$smjquery('.c-glbl-nav').css({'border-bottom' : '1px solid #004593' ,  'border-top' : '1px solid #fff'});
+		$smjquery('.c-glbl-nav').css({'border-top' : '1px solid #e4e7ec'});
 		/***** END - Navigation *****/
 			
 		/********BEGIN - Featured Cards Component **********/
-		
-	
 		$smjquery('.p-panel p-p-t-lg').css({'border' : '2px solid red' });
-		
 		$smjquery('.p-f-sz-2x').css({ 'font-size' : '1.3rem'});
-	
-		
-		
 		$smjquery('div.p-content-slider-header').css({'border' : '2px solid red'});
 		
 
