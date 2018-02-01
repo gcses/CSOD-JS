@@ -128,9 +128,9 @@
 	$(window).load(function(){
    		function addCards(){
       		var ppanelcount = $smjquery("#ct100_masterPageBod#ct100_masterPageBody .p-mediaquerycontainer").length;
-		console.log("#ct100_masterPageBody .mediaquerycontainer :"ppanelcount);
+		console.log(ppanelcount);
    		};
    		window.setTimeout( addCards, 5000 ); // 5 seconds
-	})
+	});
 
 }($smjquery)); 
