@@ -41,9 +41,10 @@
 		/***** END - Navigation *****/
 			
 		/********BEGIN - Featured Cards Component **********/
-		
-		
-		$smjquery('#cs-root > [data-reactroot]').addClass("contentContainer");
+			$smjquery('#ctl00_footer_pnlCustomFooter').css({"backgroundColor": "#f2f2f2"});
+		var footerImg = $('<img id="slopedFooterImage">');
+	        footerImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/angle.png');
+                footerImg.appendTo('.p-panel');
 		
 		/********BEGIN - Featured Cards Component **********/
 			
