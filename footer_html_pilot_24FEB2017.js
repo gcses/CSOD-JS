@@ -45,6 +45,7 @@
 		$smjquery('.p-content-slider-header').css({'border' : '2px solid red'});
 		$smjquery('.p-content-slider-title').css({'border' : '2px solid blue'});
 		$smjquery('div.slick-initializer.slick-slider').css({'border' : '2px solid #000' });
+		$smjquery('.p-contentslider').css({'border' : '2px solid green'});
 		
 
 		/********BEGIN - Featured Cards Component **********/
