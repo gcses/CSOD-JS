@@ -31,6 +31,7 @@
 
 		/***** BEGIN - Navigation *****/
 		$smjquery('.navTabs').css({'background': '#023970' });
+		$smjquery('.navTabs li').css({'border-right': '#444c54' });
 		$smjquery('.navTabs li a').css({'color':'#fff', 'text-shadow' : 'none'});
 		$smjquery('.navTabs li a:hover').css({'text-decoration' : 'underline', 'text-shadow' : 'none', 'opacity' : '0.7'});
 		$smjquery('.navTabs li.active').css({'text-decoration' : 'underline' , 'font-weight' : 'bold'});
