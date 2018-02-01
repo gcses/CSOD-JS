@@ -35,7 +35,7 @@
 		$smjquery('.navTabs li a').css({'color':'#fff', 'text-shadow' : 'none'});
 		$smjquery('.navTabs li a:hover').css({'text-decoration' : 'underline', 'text-shadow' : 'none', 'opacity' : '0.7'});
 		$smjquery('.navTabs li.active').css({'text-decoration' : 'underline' , 'font-weight' : 'bold'});
-		$smjquery('.c-glbl-nav').css({'border-top' : '1px solid ##545d6d'});
+		$smjquery('.c-glbl-nav').css({'border-top' : '1px solid #545d6d'});
 		/***** END - Navigation *****/
 			
 		/********BEGIN - Featured Cards Component **********/
