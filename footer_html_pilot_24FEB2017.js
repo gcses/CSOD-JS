@@ -125,12 +125,13 @@
 		
 		/***** END - Footer *****/
 	});
-	$(window).load(function(){
+	
+	(function(){
    		function addCards(){
-      		var ppanelcount = $smjquery("#ct100_masterPageBod#ct100_masterPageBody .p-mediaquerycontainer").length;
+      		var ppanelcount = $smjquery("#ct100_masterPageBody .p-mediaquerycontainer").length;
 		console.log(ppanelcount);
    		};
    		window.setTimeout( addCards, 5000 ); // 5 seconds
-	});
+	})();
 
 }($smjquery)); 
