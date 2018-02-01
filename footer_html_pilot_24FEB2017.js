@@ -39,17 +39,8 @@
 		$smjquery('.navTabs li.active').css({'text-decoration' : 'underline' , 'font-weight' : 'bold'});
 		$smjquery('.c-glbl-nav').css({'border-top' : '1px solid #545d6d'});
 		/***** END - Navigation *****/
-			
-		/********BEGIN - Featured Cards Component **********/
-			$smjquery('#ctl00_footer_pnlCustomFooter').css({"backgroundColor": "#f2f2f2"});
-		var footerImg = $('<img id="slopedFooterImage">');
-	        footerImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/angle.png');
-                footerImg.appendTo('.p-panel');
-		
-		/********BEGIN - Featured Cards Component **********/
-			
 
-		
+
 		
 		/***** BEGIN - Footer *****/
 		$smjquery('.df-footer').css({"display": "none"}); // hide the csod default footer
@@ -59,8 +50,7 @@
 	        footerImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/angle.png');
                 footerImg.appendTo('#ctl00_footer_pnlCustomFooter');
 		
-		var footerContents = $(
-			'<div class="footerContentsRow">'
+		var footerContents = $('<div class="footerContentsRow">' +
 			    '<div class="col"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/logo.png" id="footerLogo"></div>' +
 			    '<div class="col"><a href="http://www.facebook.com/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/facebookIcon.png" id="sm1"></a></div>' +
 			    '<div class="col"><a href="http://www.linkedin.com/company/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/linkedInIcon.jpg" id="sm2"></a></div>' +
@@ -78,7 +68,6 @@
 		$smjquery('#sm2').css({'height': '45px', 'padding-bottom': '18px'});
 		$smjquery('#sm3').css({'height': '37px', 'padding-bottom': '20px'});
 		$smjquery('#sm4').css({'height': '37px', 'padding-bottom': '18px'});
-
 		
 		/***** END - Footer *****/
 	});
