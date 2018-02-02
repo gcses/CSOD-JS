@@ -68,10 +68,10 @@
 'padding' : '20px 0 30px', 'position' : 'relative' , 'text-align' : 'center' ,  'margin-top' : '-5px' , 'height' : '150px'});
 		 $smjquery('.footerContentsRow div.col').css({'float' : 'left', 'display' : 'inline-block', 'min-width' : '40px' , 'width' : 'auto' , 'padding' : '20px' });
 		// now style the footer elements
-		$smjquery('#sm1').css({'height': '40px', 'padding-bottom': '20px'});
-		$smjquery('#sm2').css({'height': '45px', 'padding-bottom': '18px'});
-		$smjquery('#sm3').css({'height': '37px', 'padding-bottom': '20px'});
-		$smjquery('#sm4').css({'height': '37px', 'padding-bottom': '18px'});
+		$smjquery('#sm1').css({'height': '40px'});
+		$smjquery('#sm2').css({'height': '45px'});
+		$smjquery('#sm3').css({'height': '37px'});
+		$smjquery('#sm4').css({'height': '37px'});
 		$smjquery('.footerLink').css({'float' : 'right' , 'border-right': '1px solid #ccc' , 'padding-top' : '0' , 'margin-top' : '20px' });
 		$smjquery('.footerLink a').css({'color' : '#fff'});
 		
