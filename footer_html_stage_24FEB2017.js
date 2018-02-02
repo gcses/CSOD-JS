@@ -1,6 +1,6 @@
 (function($) {
 	
-	console.log("test9");
+	console.log("test10");
    
 	$smjquery(document).ready(function() {
 		//overlay a new image to cover up settings cog image
@@ -59,7 +59,7 @@
 		
 		
 		//the best
-		$smjquery("div.p-prerenderplaceholder div.p-panel.p-p-t-md").css({"backgroundColor": "black"});
+		$smjquery("div.p-prerenderplaceholder div.p-panel.p-p-t-md").css({"backgroundColor": "yellow"});
 		
 		//now inject a table
 		//var cardsTable = $(
@@ -70,13 +70,14 @@
 		//cardsTable.prepend('div.p-prerenderplaceholder div.p-panel.p-p-t-md');
 		
 		
-		var newHR = $('<hr id="newHR">');
-		$smjquery("#newHR").css({"backgroundColor": "red"});
-		newHR.prepend('div.p-prerenderplaceholder div.p-panel.p-p-t-md');
-		newHR.appendTo('div.p-prerenderplaceholder div.p-panel.p-p-t-md');
+		//var newHR = $('<hr id="newHR">');
+		//$smjquery("#newHR").css({"backgroundColor": "red"});
+		//newHR.prepend('div.p-prerenderplaceholder div.p-panel.p-p-t-md');
+		//newHR.appendTo('div.p-prerenderplaceholder div.p-panel.p-p-t-md');
 		
 		
-                //$smjquery(".cardsTable").css({"backgroundColor": "red", "width": "50%"});
+        $('div.p-prerenderplaceholder div.p-panel.p-p-t-md').append('<hr>');
+  
 		
 	
 		
