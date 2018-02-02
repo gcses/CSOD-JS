@@ -41,14 +41,70 @@
 		/***** END - Navigation *****/
 
 		
-		console.log("test1");
 		
 		
-		/********BEGIN - Featured Cards Component **********/					
+		
+		/********BEGIN - Featured Cards Component **********/	
+		
+		console.log("test2");
+		
+		var cardStructure = $('<div class="cso-min-height">' +
+			'<ul>'+
+	                   '<div class="card">' + 
+				'<li><a href="https://bd.csod.com/DeepLink/ProcessRedirect.aspx?module=23">' +
+				    '<img src="/clientimg/bd/welcome/image%204_title1_pyxis.png"></a>' +
+				 '</li><a href="https://bd.csod.com/DeepLink/ProcessRedirect.aspx?module=23">' +
+				 '<li><h2>Pyxis™ Learning</h2>' +
+				      '<p>Pyxis™ courses are available for dispensing and supply technologies. Includes MedStation, Anesthesia System, ES Platform, SupplyStation™ and C<sup>II</sup>Safe.</p>' +
+                                  '</li></a>' +
+                            '</div>' +
+		            '<div class="card">' + 
+				'<li><a href="https://bd.csod.com/DeepLink/ProcessRedirect.aspx?module=23">' +
+				    '<img src="/clientimg/bd/welcome/image%204_title1_pyxis.png"></a>' +
+				 '</li><a href="https://bd.csod.com/DeepLink/ProcessRedirect.aspx?module=23">' +
+				 '<li><h2>Pyxis™ Learning</h2>' +
+				      '<p>Pyxis™ courses are available for dispensing and supply technologies. Includes MedStation, Anesthesia System, ES Platform, SupplyStation™ and C<sup>II</sup>Safe.</p>' +
+                                  '</li></a>' +
+                            '</div>' +
+	                      '<div class="card">' + 
+				'<li><a href="https://bd.csod.com/DeepLink/ProcessRedirect.aspx?module=23">' +
+				    '<img src="/clientimg/bd/welcome/image%204_title1_pyxis.png"></a>' +
+				 '</li><a href="https://bd.csod.com/DeepLink/ProcessRedirect.aspx?module=23">' +
+				 '<li><h2>Pyxis™ Learning</h2>' +
+				      '<p>Pyxis™ courses are available for dispensing and supply technologies. Includes MedStation, Anesthesia System, ES Platform, SupplyStation™ and C<sup>II</sup>Safe.</p>' +
+                                  '</li></a>' +
+                            '</div>' +
+				       '<div class="card">' + 
+				'<li><a href="https://bd.csod.com/DeepLink/ProcessRedirect.aspx?module=23">' +
+				    '<img src="/clientimg/bd/welcome/image%204_title1_pyxis.png"></a>' +
+				 '</li><a href="https://bd.csod.com/DeepLink/ProcessRedirect.aspx?module=23">' +
+				 '<li><h2>Pyxis™ Learning</h2>' +
+				      '<p>Pyxis™ courses are available for dispensing and supply technologies. Includes MedStation, Anesthesia System, ES Platform, SupplyStation™ and C<sup>II</sup>Safe.</p>' +
+                                  '</li></a>' +
+                            '</div>' +
+		      '</ul></div>');
+
+
+
+
+		
+		
 		$smjquery('div.p-prerenderplaceholder div.p-panel.p-p-t-md').prepend('<hr id="testHR">');		
 		$smjquery('#testHR').css({"backgroundColor": "black", "color": "black", "height": "50px"});
 		
-		
+		//CARD Style
+		/*
+		$smjquery(".widgetToMove").css({"box-shadow": "0 1px 6px 0 rgba(0,0,0,0.2)"});
+	        $smjquery(".card").css({"width": "20%", "box-sizing": "border-box", "padding": "0px", "border-radius": "0px 0px 0px 0px", "border-top": "solid 9px #00a79e", "border-bottom": "none", "border-left": "solid 1px #f2f3f4", "border-right": "none", "margin": "0px 0px 0px 0px" }); 
+		$smjquery(".card:first-child").css({"border-left": "none"});
+		$smjquery(".card:nth-child(2)").css({"border-top": "solid 9px #6f2780"});
+		$smjquery(".card:nth-child(3)").css({"border-top": "solid 9px #02abd7"});
+		$smjquery(".card li").css({"width": "100%", "box-sizing": "border-box"});
+		$smjquery(".card img").css({"width": "100%", "height": "100px"});
+		$smjquery(".card h2").css({"padding": "5px", "color": "#808080", "font-size": "14px", "margin-top": "0px"});
+		$smjquery(".card a:nth-child(2) li").css({"padding": "5px"});
+		$smjquery(".card p ").css({"color": "#808080", "font-size": "10px"});
+		*/
 		
 
 		
