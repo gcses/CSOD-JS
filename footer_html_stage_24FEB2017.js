@@ -1,6 +1,6 @@
 (function($) {
 	
-	console.log("test4");
+	console.log("test5");
    
 	$smjquery(document).ready(function() {
 		//overlay a new image to cover up settings cog image
@@ -53,11 +53,11 @@
 		
 		//$smjquery('div').css({"backgroundColor": "black"});
 		//$smjquery(".p-panel.p-p-t-md").css({"backgroundColor": "black"});
-		
+		//$smjquery(".p-prerenderplaceholder").css({"backgroundColor": "black"});
 		
 		
 		//maybe not
-		$smjquery(".p-prerenderplaceholder").css({"backgroundColor": "black"});
+		$smjquery(".p-panel.p-p-t-md").css({"backgroundColor": "black"});
 		
 		
 		
@@ -80,7 +80,7 @@
 		//$( "ul li:nth-child(2)" ).append( "<span> - 2nd!</span>" );
 		//$smjquery(".p-prerenderplaceholder:nth-child(2)").css({"backgroundColor": "black"});
 		
-		//$smjquery(".p-panel.p-p-t-md").css({"backgroundColor": "black"});
+		
 		//$smjquery(".p-panel.p-p-t-lg").css({"backgroundColor": "black"});
 		
 		
