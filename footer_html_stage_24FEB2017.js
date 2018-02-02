@@ -42,9 +42,10 @@
 
 		
 		/********BEGIN - Featured Cards Component **********/	
-		
-		var cardStructure = $('<div class="cso-min-height">' +
-			'<ul>'+
+		//var cardStructure = $('<div><ul><li>Hello</li><li>Hi</li><li>Whats up</li><li>Hola</li></ul></div>');
+				      
+				      
+/*
 	                   '<div class="card">' + 
 				'<li><a href="https://bd.csod.com/DeepLink/ProcessRedirect.aspx?module=23">' +
 				    '<img src="/clientimg/bd/welcome/image%204_title1_pyxis.png"></a>' +
@@ -78,7 +79,7 @@
                                   '</li></a>' +
                             '</div>' +
 		      '</ul></div>');
-
+*/
 
 		
 		$('div.p-prerenderplaceholder div.p-panel.p-p-t-md').prepend('<hr id="testHR">');		
