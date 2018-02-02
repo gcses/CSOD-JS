@@ -54,11 +54,7 @@
 		
 		//$smjquery('.p-f-sz-2x').css({ 'font-size' : '1.3rem'});
 	
-		
-		
 		//$smjquery('p.content-slider-header:first-child').css({'border' : '2px solid red'});
-		
-		
 		
 		//$smjquery('.p-prerenderplaceholder div:first-child').css({"backgroundcolor": "black", "height": "90px"});
 		//var cardsTable = $('<H3>TEST!</H3>');
@@ -85,7 +81,9 @@
 		
 		//$smjquery('p.content-slider-header:first-child').css({"backgroundColor": "black"});
 		
-		$smjquery('div').css({"backgroundColor": "black"});
+		
+		$smjquery(".p-panel.p-p-t-md").css({"backgroundColor": "black"});
+		//$smjquery('div').css({"backgroundColor": "black"});
 		
 		/********BEGIN - Featured Cards Component **********/
 			
