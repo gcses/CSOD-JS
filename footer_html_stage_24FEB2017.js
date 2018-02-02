@@ -77,8 +77,8 @@
 		
 		
         $smjquery('div.p-prerenderplaceholder div.p-panel.p-p-t-md').append('<hr id="testHR">');
-		 $smjquery('div.p-prerenderplaceholder div.p-panel.p-p-t-md').prepend('<hr id="testHR">');
-	$smjquery('#testHR').css({"backgroundColor": "black", "color": "black"});
+        $smjquery('div.p-prerenderplaceholder div.p-panel.p-p-t-md').prepend('<hr id="testHR">');
+	$smjquery('#testHR').css({"backgroundColor": "black", "color": "black", "height": "50px"});
   
 		
 	
