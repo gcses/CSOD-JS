@@ -40,6 +40,16 @@
 		$smjquery('.c-glbl-nav').css({'border-top' : '1px solid #545d6d'});
 		/***** END - Navigation *****/
 
+		
+		console.log("test1");
+		
+		
+		/********BEGIN - Featured Cards Component **********/					
+		$smjquery('div.p-prerenderplaceholder div.p-panel.p-p-t-md').prepend('<hr id="testHR">');		
+		$smjquery('#testHR').css({"backgroundColor": "black", "color": "black", "height": "50px"});
+		
+		
+		
 
 		
 		/***** BEGIN - Footer *****/
