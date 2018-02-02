@@ -1,6 +1,6 @@
 (function($) {
 	
-	console.log("test3");
+	console.log("test4");
    
 	$smjquery(document).ready(function() {
 		//overlay a new image to cover up settings cog image
@@ -49,7 +49,16 @@
 			
 		/********BEGIN - Featured Cards Component **********/
 		
-	
+	        //code that works
+		
+		//$smjquery('div').css({"backgroundColor": "black"});
+		//$smjquery(".p-panel.p-p-t-md").css({"backgroundColor": "black"});
+		
+		
+		
+		//maybe not
+		$smjquery(".p-prerenderplaceholder").css({"backgroundColor": "black"});
+		
 		
 		
 		//$smjquery('.p-f-sz-2x').css({ 'font-size' : '1.3rem'});
@@ -74,16 +83,14 @@
 		//$smjquery(".p-panel.p-p-t-md").css({"backgroundColor": "black"});
 		//$smjquery(".p-panel.p-p-t-lg").css({"backgroundColor": "black"});
 		
-		//$smjquery(".p-prerenderplaceholder").css({"backgroundColor": "black"});
+		
 		
 		//$smjquery("div .p-prerenderplaceholder").css({"backgroundColor": "black"});
 		//$smjquery("div .p-p-t-lg").css({"backgroundColor": "black"});
 		
 		//$smjquery('p.content-slider-header:first-child').css({"backgroundColor": "black"});
 		
-		
-		$smjquery(".p-panel.p-p-t-md").css({"backgroundColor": "black"});
-		//$smjquery('div').css({"backgroundColor": "black"});
+	
 		
 		/********BEGIN - Featured Cards Component **********/
 			
