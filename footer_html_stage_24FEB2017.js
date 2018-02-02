@@ -46,9 +46,9 @@
 		
 		/********BEGIN - Featured Cards Component **********/	
 		
-		console.log("test2");
+		console.log("test3");
 	
-		/*
+		
 		var cardStructure = $smjquery('<div class="cso-min-height">' +
 			'<ul>'+
 	                   '<div class="card">' + 
@@ -85,7 +85,6 @@
                             '</div>' +
 		      '</ul></div>');
 
-*/
 
 
 		
