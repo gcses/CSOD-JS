@@ -1,6 +1,6 @@
 (function($) {
 	
-	console.log("test6");
+	console.log("test7");
    
 	$smjquery(document).ready(function() {
 		//overlay a new image to cover up settings cog image
@@ -55,10 +55,11 @@
 		//$smjquery(".p-panel.p-p-t-md").css({"backgroundColor": "black"});
 		//$smjquery(".p-prerenderplaceholder").css({"backgroundColor": "black"});
 		//$smjquery(".p-panel.p-p-t-md").css({"backgroundColor": "black"});
+		//$smjquery(".p-panel.p-p-t-md:last-child").css({"backgroundColor": "black"}); //yes but wrong box
 		
 		
 		//maybe not
-		$smjquery(".p-panel.p-p-t-md:last-child").css({"backgroundColor": "black"});
+		$smjquery("div.p-prerenderplaceholder div.p-panel.p-p-t-md").css({"backgroundColor": "black"});
 		
 		
 		
