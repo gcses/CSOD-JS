@@ -66,14 +66,14 @@
 		 $smjquery('#ctl00_footer_pnlCustomFooter').css({'padding' : '0'});
 		 $smjquery('.footerContentsRow').css({'backgroundColor': '#004593', 'color': '#fff' , 'font-size' : '11px' ,
 'padding' : '20px', 'text-align' : 'center' ,  'margin-top' : '-5px' , 'height' : '150px'});
-		 $smjquery('.footerContentsRow div.col').css({'float' : 'left', 'display' : 'inline-block', 'min-width' : '40px' , 'width' : 'auto' , 'padding' : '20px' });
+		 $smjquery('.footerContentsRow div.col').css({'float' : 'left', 'display' : 'inline-block', 'min-width' : '80px' , 'width' : '50%' , 'padding' : '20px' });
 		
 		// now style the footer elements
 		$smjquery('#footerLogo').css({'position' : 'relative' , 'top': '-35px' });
-		$smjquery('#sm1').css({'height': '30px'});
-		$smjquery('#sm2').css({'height': '35px'});
-		$smjquery('#sm3').css({'height': '35px'});
-		$smjquery('#sm4').css({'height': '30px'});
+		$smjquery('#sm1').css({'height': '20px'});
+		$smjquery('#sm2').css({'height': '27px'});
+		$smjquery('#sm3').css({'height': '25px'});
+		$smjquery('#sm4').css({'height': '25px'});
 		$smjquery('.footerLink').css({'float' : 'right' , 'border-right': '1px solid #ccc' , 'padding-top' : '0' , 'padding-bottom' : '0' , 'margin-top' : '20px' });
 		$smjquery('.footerLink:first-child').css({'border-right': '0'});
 		$smjquery('.footerLink a').css({'color' : '#fff'});
