@@ -51,14 +51,14 @@
                 footerImg.appendTo('#ctl00_footer_pnlCustomFooter');
 		
 		var footerContents = $('<div class="footerContentsRow">' +
-			    '<div class="col"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/logo.png" id="footerLogo"></div>' +
+			    '<div class="col"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/bd_white_rgb_tag_EN_1_5.png" id="footerLogo"></div>' +
 			    '<div class="col"><a href="http://www.facebook.com/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/facebookIcon.png" id="sm1"></a></div>' +
 			    '<div class="col"><a href="http://www.linkedin.com/company/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/linkedInIcon.jpg" id="sm2"></a></div>' +
 			    '<div class="col"><a href="http://youtube.com/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/youTubeIcon.jpg" id="sm3"></a></div>' +
 			    '<div class="col"><a href="http://twitter.com/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/twitterIcon.jpg" id="sm4"></a> </div>' +
-			    '<div class="col"><p class="copy">&copy; 2017 BD. All rights reserved. Unless otherwise noted, BD, the BD Logo and all other trademarks are property of Becton, Dickinson and Company.</p></div>' +
-			    '<div class="col"><a href="http://www.bd.com/legal/privacy_policy/">Privacy Policy</a></div>' +
-			    '<div class="col"><a href="http://www.bd.com/legal/terms/">Terms of Use</a></div>' +
+			    '<div class="col copyright"><p class="copy">&copy; 2017 BD. All rights reserved. Unless otherwise noted, BD, the BD Logo and all other trademarks are property of Becton, Dickinson and Company.</p></div>' +
+			    '<div class="col footerLink"><a href="http://www.bd.com/legal/privacy_policy/">Privacy Policy</a></div>' +
+			    '<div class="col footerLink"><a href="http://www.bd.com/legal/terms/">Terms of Use</a></div>' +
 			'</div>');
 		
 		footerContents.appendTo('#ctl00_footer_pnlCustomFooter');
@@ -71,6 +71,7 @@
 		$smjquery('#sm2').css({'height': '45px', 'padding-bottom': '18px'});
 		$smjquery('#sm3').css({'height': '37px', 'padding-bottom': '20px'});
 		$smjquery('#sm4').css({'height': '37px', 'padding-bottom': '18px'});
+		$smjquery('.footerLinks').css({'float' : 'right' , 'color' : '#fff' , 'border-right': "1px solid #ccc"});
 		
 		/***** END - Footer *****/
 	});
