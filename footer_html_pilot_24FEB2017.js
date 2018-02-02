@@ -133,7 +133,7 @@
 		$('#sm3').css({'height': '25px'});
 		$('#sm4').css({'height': '25px'});
 		$('.footerLink').css({'float' : 'right' , 'border-right': '1px solid #ccc' , 'padding-top' : '0' , 'padding-bottom' : '0' , 'margin-top' : '20px' });
-		$('.footerLink:first-child').css({'border-right' : '0'});
+		$('.footerLink:first-child').css({'border-right' : '1px solid red'});
 		$('.footerLink a').css({'color' : '#fff'});
 		
 		/***** END - Footer *****/
