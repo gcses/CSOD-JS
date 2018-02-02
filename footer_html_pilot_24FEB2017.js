@@ -62,9 +62,10 @@
 			'</div>');
 		
 		footerContents.appendTo('#ctl00_footer_pnlCustomFooter');
+		 $smjquery('.footerContentsRow').css('backgroundColor': '#004593');
 		 $smjquery('.footerContentsRow div.col').css({'float' : 'left', 'display' : 'inline-block', 'min-width' : '40px' , 'width' : 'auto' , 'padding' : '20px' });
 		// now style the footer elements
-		$smjquery('#sm1').css({'height': '30px', 'padding-bottom': '20px'});
+		$smjquery('#sm1').css({'height': '40px', 'padding-bottom': '20px'});
 		$smjquery('#sm2').css({'height': '45px', 'padding-bottom': '18px'});
 		$smjquery('#sm3').css({'height': '37px', 'padding-bottom': '20px'});
 		$smjquery('#sm4').css({'height': '37px', 'padding-bottom': '18px'});
