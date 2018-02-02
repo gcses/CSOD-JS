@@ -72,7 +72,8 @@
 		$smjquery('#sm2').css({'height': '45px', 'padding-bottom': '18px'});
 		$smjquery('#sm3').css({'height': '37px', 'padding-bottom': '20px'});
 		$smjquery('#sm4').css({'height': '37px', 'padding-bottom': '18px'});
-		$smjquery('.footerLink').css({'float' : 'right' , 'color' : '#fff' , 'border-right': "1px solid #ccc"});
+		$smjquery('.footerLink').css({'float' : 'right' , 'border-right': '1px solid #ccc' , 'padding-top' : '0' , 'margin-top' : '20px' });
+		$smjquery('.footerLink a').css({'color' : '#fff'});
 		
 		/***** END - Footer *****/
 	});
