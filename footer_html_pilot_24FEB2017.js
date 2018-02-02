@@ -76,7 +76,7 @@
 		$smjquery('#sm4').css({'height': '25px'});
 		$smjquery('.footerLink').css({'float' : 'right' , 'border-right': '1px solid #ccc' , 'padding-top' : '0' , 'padding-bottom' : '0' , 'margin-top' : '20px' });
 		$smjquery('.footerLink:first-child').css({'border-right' : '0'});
-		$smjquery('.footerLink a').css({'color' : '#fff'});
+		$('.footerLink a').css({'color' : '#fff'});
 		
 		/***** END - Footer *****/
 	});
