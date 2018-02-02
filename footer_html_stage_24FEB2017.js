@@ -47,8 +47,9 @@
 		/********BEGIN - Featured Cards Component **********/	
 		
 		console.log("test2");
-		
-		var cardStructure = $('<div class="cso-min-height">' +
+	
+		/*
+		var cardStructure = $smjquery('<div class="cso-min-height">' +
 			'<ul>'+
 	                   '<div class="card">' + 
 				'<li><a href="https://bd.csod.com/DeepLink/ProcessRedirect.aspx?module=23">' +
@@ -84,7 +85,7 @@
                             '</div>' +
 		      '</ul></div>');
 
-
+*/
 
 
 		
@@ -112,11 +113,11 @@
 		$smjquery('.df-footer').css({"display": "none"}); // hide the csod default footer
 		//create grey background and add sloped image
 		$smjquery('#ctl00_footer_pnlCustomFooter').css({"backgroundColor": "#f2f2f2"});
-		var footerImg = $('<img id="slopedFooterImage">');
+		var footerImg = $smjquery('<img id="slopedFooterImage">');
 	        footerImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/angle.png');
                 footerImg.appendTo('#ctl00_footer_pnlCustomFooter');
 		
-		var footerContents = $('<div class="footerContentsRow">' +
+		var footerContents = $smjquery('<div class="footerContentsRow">' +
 			    '<div class="col"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/bd_white_rgb_tag_EN_1_5.png" id="footerLogo"></div>' +
 			    '<div class="col"><a href="http://www.facebook.com/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/facebookIcon.png" id="sm1"></a></div>' +
 			    '<div class="col"><a href="http://www.linkedin.com/company/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/linkedInIcon.jpg" id="sm2"></a></div>' +
