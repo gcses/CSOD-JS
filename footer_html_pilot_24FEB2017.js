@@ -73,6 +73,7 @@
 		$smjquery('#sm3').css({'height': '37px'});
 		$smjquery('#sm4').css({'height': '37px'});
 		$smjquery('.footerLink').css({'float' : 'right' , 'border-right': '1px solid #ccc' , 'padding-top' : '0' , 'padding-bottom' : '0' , 'margin-top' : '20px' });
+		$smjquery('.footerLink:last-child').css({'border-right': 'none'});
 		$smjquery('.footerLink a').css({'color' : '#fff'});
 		
 		/***** END - Footer *****/
