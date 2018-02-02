@@ -1,6 +1,6 @@
 (function($) {
 	
-	console.log("test8");
+	console.log("test9");
    
 	$smjquery(document).ready(function() {
 		//overlay a new image to cover up settings cog image
@@ -62,14 +62,21 @@
 		$smjquery("div.p-prerenderplaceholder div.p-panel.p-p-t-md").css({"backgroundColor": "black"});
 		
 		//now inject a table
-		var cardsTable = $(
-		             '<table class="cardsTable"><tr>'+
-			     '<td id="cardTD1"></td>'+
-			     '</tr></table>');
+		//var cardsTable = $(
+		 //            '<table class="cardsTable"><tr>'+
+		//	     '<td id="cardTD1"></td>'+
+		//	     '</tr></table>');
 		
-		cardsTable.prepend('div.p-prerenderplaceholder div.p-panel.p-p-t-md');
+		//cardsTable.prepend('div.p-prerenderplaceholder div.p-panel.p-p-t-md');
 		
-                $smjquery(".cardsTable").css({"backgroundColor": "red", "width": "50%"});
+		
+		var newHR = $('<hr id="newHR">');
+		$smjquery("#newHR").css({"backgroundColor": "red"});
+		newHR.prepend('div.p-prerenderplaceholder div.p-panel.p-p-t-md');
+		newHR.appendTo('div.p-prerenderplaceholder div.p-panel.p-p-t-md');
+		
+		
+                //$smjquery(".cardsTable").css({"backgroundColor": "red", "width": "50%"});
 		
 	
 		
