@@ -62,7 +62,7 @@
 			'</div>');
 		
 		footerContents.appendTo('#ctl00_footer_pnlCustomFooter');
-		 $smjquery('.footerContetsRow div.col').css({'float' : 'left', 'display' : 'inline-block', 'width' : 'auto' , 'padding' : '20px' });
+		 $smjquery('.footerContetsRow div.col').css({'float' : 'left', 'display' : 'inline-block', 'width' : '40px' , 'padding' : '20px' });
 		// now style the footer elements
 		$smjquery('#sm1').css({'height': '30px', 'padding-bottom': '20px'});
 		$smjquery('#sm2').css({'height': '45px', 'padding-bottom': '18px'});
@@ -74,3 +74,38 @@
 
 
 }($smjquery)); 
+
+/*
+
+		$smjquery('#footerTD2').css({"width": "40px"});
+		$smjquery('#footerTD3').css({"width": "40px"});
+		$smjquery('#footerTD4').css({"width": "40px"});
+		$smjquery('#footerTD5').css({"width": "40px"});
+
+		//enlarge the link area for the social media links
+		$smjquery('.smLink').css({'font-size': '400%'});
+
+		$smjquery('.footer-links').css({"padding-left": "0", "float": "right", "padding-right": "15px", "margin-top": "8px"});
+		$smjquery('.footer-links li').css({"display": "inline-block", "line-height": "16px", "padding-right": "5px", "padding-left": "5px", "border-left": "1px solid #EEEEEE"});
+		$smjquery('.footer-links li:first-child').css({"border-left": "none"});
+		$smjquery('.footer-links a').css({"color": "#FFFFFF", "font-weight": "400", "text-decoration": "none", "font-size": "11px", "font-weight": "bold"});
+
+		// sloped image with top margin
+		 $smjquery('#slopedFooterImage').css({"width": "100%", "padding-bottom": "0px", "margin-top": "35px", "margin-bottom": "-5px"});
+
+		 // margin: top, right, bottom, left
+		 $smjquery('.footerTable').css({"margin": "0px 0px 0px 0px", "padding-top": "0px", "backgroundColor": "#004593", "width": "100%", "height": "100px"});
+
+		  // copywrite info
+		 $smjquery('.copy').css({'font-size': '11px', 'padding-left': '40px', 'text-align': 'center', "font-weight": "bold"});	
+
+		//footer logo
+		 $smjquery('#footerLogo').css({'height': '40px', 'margin-left': '20px', 'margin-right': '30px','padding-bottom': '20px'});
+		 $smjquery('#footerTD1').css({'width': '60px', 'padding': '0px'}); 
+
+		 $smjquery('#footerTDspace').css({'width': '15px'});
+
+		 $smjquery('#footerTD6').css({"width": "50%", "color": "#ffffff"});
+		 $smjquery('#footerTD7').css({"width": "20%"});
+
+*/
