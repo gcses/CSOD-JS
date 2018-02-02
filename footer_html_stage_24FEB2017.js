@@ -1,6 +1,6 @@
 (function($) {
 	
-	console.log("test5");
+	console.log("test6");
    
 	$smjquery(document).ready(function() {
 		//overlay a new image to cover up settings cog image
@@ -54,10 +54,11 @@
 		//$smjquery('div').css({"backgroundColor": "black"});
 		//$smjquery(".p-panel.p-p-t-md").css({"backgroundColor": "black"});
 		//$smjquery(".p-prerenderplaceholder").css({"backgroundColor": "black"});
+		//$smjquery(".p-panel.p-p-t-md").css({"backgroundColor": "black"});
 		
 		
 		//maybe not
-		$smjquery(".p-panel.p-p-t-md").css({"backgroundColor": "black"});
+		$smjquery(".p-panel.p-p-t-md:last-child").css({"backgroundColor": "black"});
 		
 		
 		
