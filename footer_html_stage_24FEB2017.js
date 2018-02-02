@@ -1,6 +1,6 @@
 (function($) {
 	
-	console.log("test10");
+	console.log("test11");
    
 	$smjquery(document).ready(function() {
 		//overlay a new image to cover up settings cog image
@@ -76,7 +76,9 @@
 		//newHR.appendTo('div.p-prerenderplaceholder div.p-panel.p-p-t-md');
 		
 		
-        $('div.p-prerenderplaceholder div.p-panel.p-p-t-md').append('<hr>');
+        $smjquery('div.p-prerenderplaceholder div.p-panel.p-p-t-md').append('<hr id="testHR">');
+		 $smjquery('div.p-prerenderplaceholder div.p-panel.p-p-t-md').prepend('<hr id="testHR">');
+	$smjquery('#testHR').css({"backgroundColor": "green", "color": "green"});
   
 		
 	
