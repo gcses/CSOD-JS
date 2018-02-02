@@ -1,6 +1,6 @@
 (function($) {
 	
-	console.log("test2");
+	console.log("test3");
    
 	$smjquery(document).ready(function() {
 		//overlay a new image to cover up settings cog image
@@ -83,7 +83,9 @@
 		//$smjquery("div .p-prerenderplaceholder").css({"backgroundColor": "black"});
 		//$smjquery("div .p-p-t-lg").css({"backgroundColor": "black"});
 		
-		$smjquery('p.content-slider-header:first-child').css({"backgroundColor": "black"});
+		//$smjquery('p.content-slider-header:first-child').css({"backgroundColor": "black"});
+		
+		$smjquery('div').css({"backgroundColor": "black"});
 		
 		/********BEGIN - Featured Cards Component **********/
 			
