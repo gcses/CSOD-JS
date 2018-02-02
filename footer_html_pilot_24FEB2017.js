@@ -141,5 +141,5 @@
 //Make the home page clickable and link to the Welcome page / Main page
 	$('a:contains("Home")').attr("href","/lms-learner-home/home?tab_page_id=-200300006&tab_id=-2"); 
 	
-}($smjquery)); 
+}($smjquery)); $
 
