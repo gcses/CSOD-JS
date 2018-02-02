@@ -1,6 +1,6 @@
 (function($) {
 	
-	console.log("test7");
+	console.log("test8");
    
 	$smjquery(document).ready(function() {
 		//overlay a new image to cover up settings cog image
@@ -58,39 +58,18 @@
 		//$smjquery(".p-panel.p-p-t-md:last-child").css({"backgroundColor": "black"}); //yes but wrong box
 		
 		
-		//maybe not
+		//the best
 		$smjquery("div.p-prerenderplaceholder div.p-panel.p-p-t-md").css({"backgroundColor": "black"});
 		
+		//now inject a table
+		var cardsTable = $(
+		             '<table class="cardsTable"><tr>'+
+			     '<td id="cardTD1"></td>'+
+			     '</tr></table>');
 		
+		cardsTable.prepend('div.p-prerenderplaceholder div.p-panel.p-p-t-md');
 		
-		//$smjquery('.p-f-sz-2x').css({ 'font-size' : '1.3rem'});
-	
-		//$smjquery('p.content-slider-header:first-child').css({'border' : '2px solid red'});
-		
-		//$smjquery('.p-prerenderplaceholder div:first-child').css({"backgroundcolor": "black", "height": "90px"});
-		//var cardsTable = $('<H3>TEST!</H3>');
-		//cardsTable.attr('backgroundcolor', 'red');
-		
-		//var testImg = $('<img id="slopedFooterImage">');
-	        //testImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/angle.png');
-		
-		//var cardsTable = $('<table id="cardsTable">');
-		//$smjquery('div .p-p-t-md').prepend(testImg);
-		
-		//$smjquery("div").find("[data-tag='ContinueLearning']").css({"backgroundColor": "black", 'margin-top': '100px'});
-		
-		//$( "ul li:nth-child(2)" ).append( "<span> - 2nd!</span>" );
-		//$smjquery(".p-prerenderplaceholder:nth-child(2)").css({"backgroundColor": "black"});
-		
-		
-		//$smjquery(".p-panel.p-p-t-lg").css({"backgroundColor": "black"});
-		
-		
-		
-		//$smjquery("div .p-prerenderplaceholder").css({"backgroundColor": "black"});
-		//$smjquery("div .p-p-t-lg").css({"backgroundColor": "black"});
-		
-		//$smjquery('p.content-slider-header:first-child').css({"backgroundColor": "black"});
+                $smjquery(".cardsTable").css({"backgroundColor": "red", "width": "50%"});
 		
 	
 		
