@@ -132,7 +132,7 @@
 		$smjquery('#ctl00_footer_pnlCustomFooter').css({'padding' : '0'});
 		$smjquery('.footerContentsRow').css({'backgroundColor': '#004593', 'color': '#fff' , 'font-size' : '11px' ,
 'padding' : '30px 20px 20px', 'text-align' : 'center' ,  'margin-top' : '-5px' , 'height' : '150px'});
-		$smjquery('.footerContentsRow div.col').css({'float' : 'left', 'display' : 'inline-block', 'min-width' : '80px' , 'width' : 'auto' , 'padding-top' : '20px' });
+		$smjquery('.footerContentsRow div.col').css({'float' : 'left', 'display' : 'inline-block', 'min-width' : '20px' , 'width' : 'auto' , 'padding-top' : '20px' });
 		$smjquery('.footerContentsRow div.copyright').css({'width' : '50%'});
 		// now style the footer elements
 		$smjquery('#footerLogo').css({'position' : 'relative' , 'top': '-35px' });
