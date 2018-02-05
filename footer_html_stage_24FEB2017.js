@@ -224,6 +224,8 @@
 	{
 		if (expanded == false)
 		{
+			console.log("inside");
+			
 			var eventObject = document.createEvent('Events');
 	   		eventObject.initEvent(elementType, true, false);
 	   		element.dispatchEvent(eventObject);
