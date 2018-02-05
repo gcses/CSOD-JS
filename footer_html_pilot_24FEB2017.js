@@ -55,8 +55,8 @@
 			    '<div class="col"><a href="http://youtube.com/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/youTubeIcon.jpg" id="sm3"></a></div>' +
 			    '<div class="col"><a href="http://twitter.com/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/twitterIcon.jpg" id="sm4"></a> </div>' +
 			    '<div class="col copyright"><p class="copy">&copy; 2017 BD. All rights reserved. Unless otherwise noted, BD, the BD Logo and all other trademarks are property of Becton, Dickinson and Company.</p></div>' +
-			    '<div class="col footerLink1"><a href="http://www.bd.com/legal/privacy_policy/">Privacy Policy</a></div>' +
-			    '<div class="col footerLink2"><a href="http://www.bd.com/legal/terms/">Terms of Use</a></div>' +
+			    '<div class="col footerLink privacy"><a href="http://www.bd.com/legal/privacy_policy/">Privacy Policy</a></div>' +
+			    '<div class="col footerLink"><a href="http://www.bd.com/legal/terms/">Terms of Use</a></div>' +
 			'</div>');
 		
 		footerContents.appendTo('#ctl00_footer_pnlCustomFooter');
@@ -73,7 +73,7 @@
 		$('#sm3').css({'height': '25px'});
 		$('#sm4').css({'height': '25px'});
 		$('.footerLink').css({'float' : 'right' , 'border-right': '1px solid #ccc' , 'padding-top' : '0' , 'padding-bottom' : '0' , 'margin-top' : '20px' });
-		$('.footerLink1').css({'border-right' : 'none'});
+		$('.privacy').css({'border-right' : 'none'});
 		$('.footerLink a').css({'color' : '#fff'});
 		
 		/***** END - Footer *****/
