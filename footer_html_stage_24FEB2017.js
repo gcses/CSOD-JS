@@ -139,8 +139,35 @@
 		
 		/***** END - Footer *****/
 	});
-//Make the home page clickable and link to the Welcome page / Main page
+	
+        //Make the home page clickable and link to the Welcome page / Main page
 	$('a:contains("Home")').attr("href","/LMS/catalog/Main.aspx?tab_page_id=-67"); 
+	
+	
+	/***** BEGIN - Global Search *****/
+	
+
+	function eventFire(element, elementType)
+	{
+      		if (element.fireEvent)
+       		{
+           		element.fireEvent('on' + elementType);
+       		} 
+      		else 
+      		{
+	   		var eventObject = document.createEvent('Events');
+	   		eventObject.initEvent(elementType, true, false);
+	   		element.dispatchEvent(eventObject);
+      		} 
+	}
+
+	var expanded = false;
+	
+	/****** END - Global Search *****/
+	
+	
+	
+	
 	
 }($smjquery)); 
 
