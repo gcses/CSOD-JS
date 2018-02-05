@@ -64,8 +64,8 @@
 		$('#ctl00_footer_pnlCustomFooter').css({'padding' : '0'});
 		$('.footerContentsRow').css({'backgroundColor': '#004593', 'color': '#fff' , 'font-size' : '11px' ,
 'padding' : '30px 20px 20px', 'text-align' : 'center' ,  'margin-top' : '-5px' , 'height' : '150px'});
-		$('.footerContentsRow div.col').css({'float' : 'left', 'display' : 'inline-block', 'min-width' : '20px' , 'width' : 'auto' , 'padding-top' : '20px' });
-		$('.footerContentsRow div.copyright').css({'width' : '50%'});
+		$('.footerContentsRow div.col').css({'float' : 'left', 'display' : 'inline-block', 'min-width' : '20px' , 'width' : 'auto' , 'padding' : '20px 5px 5px' });
+		$('.footerContentsRow div.copyright').css({'width' : '49%', 'text-align' : 'center' , 'margin' : '0 auto'});
 		// now style the footer elements
 		$('#footerLogo').css({'position' : 'relative' , 'top': '-35px' });
 		$('#sm1').css({'height': '20px'});
