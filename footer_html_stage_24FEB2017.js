@@ -144,8 +144,60 @@
 	$('a:contains("Home")').attr("href","/LMS/catalog/Main.aspx?tab_page_id=-67"); 
 	
 	
-	/***** BEGIN - Global Search *****/
+	/***** BEGIN - Browse For Training Global Search Options *****/
+	if (document.title.indexOf("Browse for Training") > -1)
+	{		 
+		//Change "Subject" header to "Topic"
+		$('h2:contains("Subject")').each(function(){
+ 			$(this).html($(this).html().replace('Subject','Topic'));
+			});
 	
+        }  //end Browse For Training
+	
+       //show the advanced search option whenever search is shown
+       $("#lnkShowMoreSearchOptions").each(function(){
+        	eventFire(document.getElementById('lnkShowMoreSearchOptions'), 'click');
+       });
+	
+	
+       //remove the close button on the advanced options
+       $(".cs-advsrch-close-btn").remove();
+	
+       //use the name field to alter the My Learning header
+       $('h2:contains("My Learning")').each(function(){
+ 	    $(this).html($(this).html().replace('My Learning', fname + '\'s Learning In Progress'));
+	});
+	
+        $("a:has(span:contains('Popular'))").remove();
+	
+        $('h2:contains("Browse for Training")').each(function(){
+ 		$(this).html($(this).html().replace('Browse for Training','Browse Learning'));
+	});
+	
+	$('h2:contains("Suggested Training")').each(function(){
+ 		$(this).html($(this).html().replace('Suggested Training','Suggested Learning'));
+	});
+	
+	$('a:contains("Change your password")').each(function(){
+ 		$(this).remove();
+	});
+	
+	$('a:contains("Go to Customer Portal")').each(function(){
+ 		$(this).remove();
+	});
+	
+	$(".cso-cont-padtb5:has(h3:contains('Subjects'))").remove();
+	$(".cso-cont-padtb5:has(h3:contains('Available Languages'))").remove();
+	$(".cso-cont-padtb5:has(h3:contains('Product'))").remove();
+	$(".cso-cont-padtb5:has(h3:contains('Brand'))").remove();
+	$(".cso-cont-padtb5:has(span:contains('$0.00'))").remove();
+	$(".dot:contains('$0.00')").remove();
+	$(".usr-content:has(div:has(span:contains('$0.00')))").remove();
+	
+	$("[aria-labelledby=Support]").empty();
+	
+        $("[aria-labelledby=Support]").append('<li><a href="https://eim.carefusion.com/Account/ChangePassword" title="Change Password" tabindex="-1">Change Password</a></li><li><a href="/catalog/CustomPage.aspx?id=20000480&amp;tab_page_id=20000480" title="Contact Us" tabindex="-1">Contact Us</a></li><li><a href="/catalog/CustomPage.aspx?id=20000479&amp;tab_page_id=20000479" title="Frequently Asked Questions" tabindex="-1">Frequently Asked Questions</a></li>');
+        $smjquery('#main-menu').smartmenus('refresh');
 
 	function eventFire(element, elementType)
 	{
