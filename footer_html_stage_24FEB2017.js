@@ -165,9 +165,9 @@
 	console.log("one");
 	
 	
-       $smjquery("#lnkShowMoreSearchOptions").each(function(){
-        	eventFire(document.getElementById('lnkShowMoreSearchOptions'), 'click');
-       });
+     //  $smjquery("#lnkShowMoreSearchOptions").each(function(){
+     //   	eventFire(document.getElementById('lnkShowMoreSearchOptions'), 'click');
+     //  });
 		
 	console.log("three");
 	
@@ -218,6 +218,10 @@
         $smjquery('#main-menu').smartmenus('refresh');
 	*/
 	
+        $smjquery("#divAdvanceOptions ").show();  
+
+	
+	/*
 	var expanded = false;
 
 	function eventFire(element, elementType)
@@ -226,14 +230,14 @@
 		{
 			console.log("firing");
 		   element.fireEvent('on' + elementType);
-		   expanded = true;)
+		   expanded = true;
 		}
 		
 		console.log("not");
 		
 		
 		
-		/*
+		
       		if (element.fireEvent)
        		{
 			console.log("two.A");
@@ -246,9 +250,9 @@
 	   		eventObject.initEvent(elementType, true, false);
 	   		element.dispatchEvent(eventObject);
       		} 
-		*/
+		
 	}
-
+*/
 	
 	
 	/****** END - Global Search *****/
