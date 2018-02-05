@@ -161,10 +161,14 @@
 	*/
 	
        //show the advanced search option whenever search is shown
-       $("#lnkShowMoreSearchOptions").each(function(){
+	console.log("one");
+	
+	
+       $smjquery("#lnkShowMoreSearchOptions").each(function(){
         	eventFire(document.getElementById('lnkShowMoreSearchOptions'), 'click');
        });
 		
+	console.log("three");
 	
 	/*
        //remove the close button on the advanced options
@@ -210,6 +214,8 @@
 
 	function eventFire(element, elementType)
 	{
+		console.log("two");
+		
       		if (element.fireEvent)
        		{
            		element.fireEvent('on' + elementType);
