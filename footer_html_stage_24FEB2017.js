@@ -172,7 +172,7 @@
 	console.log("three");
 	
 	/*
-       //remove the close button on the advanced options
+       //remove the X (close) button on the advanced options
        $(".cs-advsrch-close-btn").remove();
 	
        //use the name field to alter the My Learning header
@@ -212,10 +212,18 @@
         $smjquery('#main-menu').smartmenus('refresh');
 	*/
 	
+	var expanded = false;
 
 	function eventFire(element, elementType)
 	{
-		console.log("two");
+		if (expanded == false)
+		{
+			var eventObject = document.createEvent('Events');
+	   		eventObject.initEvent(elementType, true, false);
+	   		element.dispatchEvent(eventObject);
+			expanded = true;
+		}
+		
 		
       		if (element.fireEvent)
        		{
@@ -231,7 +239,7 @@
       		} 
 	}
 
-	var expanded = false;
+	
 	
 	/****** END - Global Search *****/
 	
