@@ -141,10 +141,15 @@
 	});
 	
         //Make the home page clickable and link to the Welcome page / Main page
-	$('a:contains("Home")').attr("href","/LMS/catalog/Main.aspx?tab_page_id=-67"); 
+	$('a:contains("Home")').attr("href","/ui/lms-learner-home/home?tab_page_id=-200300006"); 
+	
+	
 	
 	
 	/***** BEGIN - Browse For Training Global Search Options *****/
+	
+	
+	/*
 	if (document.title.indexOf("Browse for Training") > -1)
 	{		 
 		//Change "Subject" header to "Topic"
@@ -153,6 +158,7 @@
 			});
 	
         }  //end Browse For Training
+	*/
 	
        //show the advanced search option whenever search is shown
        $("#lnkShowMoreSearchOptions").each(function(){
@@ -160,6 +166,7 @@
        });
 	
 	
+	/*
        //remove the close button on the advanced options
        $(".cs-advsrch-close-btn").remove();
 	
@@ -198,6 +205,8 @@
 	
         $("[aria-labelledby=Support]").append('<li><a href="https://eim.carefusion.com/Account/ChangePassword" title="Change Password" tabindex="-1">Change Password</a></li><li><a href="/catalog/CustomPage.aspx?id=20000480&amp;tab_page_id=20000480" title="Contact Us" tabindex="-1">Contact Us</a></li><li><a href="/catalog/CustomPage.aspx?id=20000479&amp;tab_page_id=20000479" title="Frequently Asked Questions" tabindex="-1">Frequently Asked Questions</a></li>');
         $smjquery('#main-menu').smartmenus('refresh');
+	*/
+	
 
 	function eventFire(element, elementType)
 	{
