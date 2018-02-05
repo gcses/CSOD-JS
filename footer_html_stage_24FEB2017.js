@@ -164,7 +164,7 @@
        $("#lnkShowMoreSearchOptions").each(function(){
         	eventFire(document.getElementById('lnkShowMoreSearchOptions'), 'click');
        });
-	
+		
 	
 	/*
        //remove the close button on the advanced options
