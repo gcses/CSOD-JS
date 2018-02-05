@@ -171,9 +171,15 @@
 		
 	console.log("three");
 	
+       $smjquery(".cs-advsrch-close-btn").remove();
+	
+	
+	
 	/*
        //remove the X (close) button on the advanced options
-       $(".cs-advsrch-close-btn").remove();
+
+       
+      
 	
        //use the name field to alter the My Learning header
        $('h2:contains("My Learning")').each(function(){
