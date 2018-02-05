@@ -224,15 +224,16 @@
 	{
 		if (expanded == false)
 		{
-			console.log("inside");
-			
-			var eventObject = document.createEvent('Events');
-	   		eventObject.initEvent(elementType, true, false);
-	   		element.dispatchEvent(eventObject);
-			expanded = true;
+			console.log("firing");
+		   element.fireEvent('on' + elementType);
+		   expanded = true;)
 		}
 		
+		console.log("not");
 		
+		
+		
+		/*
       		if (element.fireEvent)
        		{
 			console.log("two.A");
@@ -245,6 +246,7 @@
 	   		eventObject.initEvent(elementType, true, false);
 	   		element.dispatchEvent(eventObject);
       		} 
+		*/
 	}
 
 	
