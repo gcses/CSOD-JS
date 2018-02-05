@@ -62,7 +62,7 @@
 			'</div>');
 		
 		footerContents.appendTo('#ctl00_footer_pnlCustomFooter');
-		
+		$smjquery('#slopedFooterImage').css({'max-width' : '100%', 'display' : 'block' , 'height' : 'auto'});
 		$smjquery('#ctl00_footer_pnlCustomFooter').css({'padding' : '0'});
 		$smjquery('.footerContentsRow').css({'backgroundColor': '#004593', 'color': '#fff' , 'font-size' : '11px' ,
 'padding' : '30px 20px 20px', 'text-align' : 'center' ,  'margin-top' : '-5px' , 'height' : '150px'});
