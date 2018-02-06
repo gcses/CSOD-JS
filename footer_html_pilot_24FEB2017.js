@@ -40,6 +40,9 @@
 		$('.c-glbl-nav').css({'border-top' : '1px solid #545d6d'});
 		/***** END - Navigation *****/
 		
+		//Make the home page clickable and link to the Welcome page / Main page
+	        $('a:contains("Home")').attr("href","/ui/lms-learner-home/home?tab_page_id=-200300006"); 
+		
 		/***** BEGIN - Footer *****/
 		$('.df-footer').css({"display": "none"}); // hide the csod default footer
 		//create grey background and add sloped image
@@ -63,7 +66,7 @@
 		$('#slopedFooterImage').css({'max-width' : '100%', 'display' : 'block' , 'height' : 'auto'});
 		$('#ctl00_footer_pnlCustomFooter').css({'padding' : '0'});
 		$('.footerContentsRow').css({'backgroundColor': '#004593', 'color': '#fff' , 'font-size' : '11px' ,
-'padding' : '30px 20px 20px', 'text-align' : 'center' ,  'margin-top' : '-5px' , 'height' : '150px'});
+'padding' : '30px 20px 20px', 'text-align' : 'center' ,  'margin-top' : '-5px' , 'margin-bottom': '0px', 'height' : '150px'});
 		$('.footerContentsRow div.col').css({'float' : 'left', 'display' : 'inline-block', 'min-width' : '20px' , 'width' : 'auto' , 'padding' : '20px 5px 5px' });
 		$('.footerContentsRow div.copyright').css({'width' : '49%', 'text-align' : 'center' , 'margin' : '0 auto'});
 		// now style the footer elements
