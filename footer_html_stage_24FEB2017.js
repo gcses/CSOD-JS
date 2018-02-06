@@ -57,7 +57,7 @@
                 footerImg.appendTo('#ctl00_footer_pnlCustomFooter');
 		
 		var footerContents = $('<div class="footerContentsRow">' +
-			    '<div class="col"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/bd_white_rgb_tag_EN_1_5.png" id="footerLogo"></div>' +
+			    '<div class="colX"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/bd_white_rgb_tag_EN_1_5.png" id="footerLogo"></div>' +
 			    '<div class="col"><a href="http://www.facebook.com/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/facebookIcon.png" id="sm1"></a></div>' +
 			    '<div class="col"><a href="http://www.linkedin.com/company/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/linkedInIcon.jpg" id="sm2"></a></div>' +
 			    '<div class="col"><a href="http://youtube.com/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/youTubeIcon.jpg" id="sm3"></a></div>' +
@@ -68,10 +68,17 @@
 			'</div>');
 		
 		footerContents.appendTo('#ctl00_footer_pnlCustomFooter');
-		$('#slopedFooterImage').css({'max-width' : '100%', 'display' : 'block' , 'height' : 'auto'});
+		
+		//offset the slope a bit to offset whatever is pulling it down
+		$('#slopedFooterImage').css({'max-width' : '100%',  'margin-top': '-5px', 'display' : 'block' , 'height' : 'auto'});
+	
 		$('#ctl00_footer_pnlCustomFooter').css({'padding' : '0'});
 		$('.footerContentsRow').css({'backgroundColor': '#004593', 'color': '#fff' , 'font-size' : '11px' ,
 'padding' : '30px 20px 20px', 'text-align' : 'center' ,  'margin-top' : '-5px' , 'height' : '150px'});
+		
+		//the logo div is too tall and raises the entire footer. Setting a small height here seems to solve.
+		$('.footerContentsRow div.colX').css({'height': '3px', 'float' : 'left', 'display' : 'inline-block', 'min-width' : '20px' , 'width' : 'auto' , 'padding' : '20px 5px 5px' });
+		
 		$('.footerContentsRow div.col').css({'float' : 'left', 'display' : 'inline-block', 'min-width' : '20px' , 'width' : 'auto' , 'padding' : '20px 5px 5px' });
 		$('.footerContentsRow div.copyright').css({'width' : '49%', 'text-align' : 'center' , 'margin' : '0 auto'});
 		// now style the footer elements
