@@ -65,9 +65,9 @@
 		
 		
 		footerContents.appendTo('#ctl00_footer_pnlCustomFooter');
-		$('#slopedFooterImage').css({'max-width' : '100%', 'display' : 'block' , 'height' : 'auto'});
+		$('#slopedFooterImage').css({'max-width' : '100%',  'margin-top': '-5px', 'display' : 'block' , 'height' : 'auto'});
 		
-		console.log("btest4");
+		console.log("btes5");
 		$('#ctl00_footer_pnlCustomFooter').css({'padding': '0px'});
 		
 		
