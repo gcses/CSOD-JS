@@ -43,6 +43,12 @@
 		//Make the home page clickable and link to the Welcome page / Main page
 	        $('a:contains("Home")').attr("href","/ui/lms-learner-home/home?tab_page_id=-200300006"); 
 		
+		console.log("btes5");
+		
+		
+		
+		
+		
 		/***** BEGIN - Footer *****/
 		$('.df-footer').css({"display": "none"}); // hide the csod default footer
 		//create grey background and add sloped image
@@ -62,22 +68,14 @@
 			    '<div class="col footerLink"><a href="http://www.bd.com/legal/terms/">Terms of Use</a></div>' +
 			'</div>');
 		
-		
-		
 		footerContents.appendTo('#ctl00_footer_pnlCustomFooter');
+		
+		//offset the slope a bit to offset whatever is pulling it down
 		$('#slopedFooterImage').css({'max-width' : '100%',  'margin-top': '-5px', 'display' : 'block' , 'height' : 'auto'});
-		
-		console.log("btes5");
+	
 		$('#ctl00_footer_pnlCustomFooter').css({'padding': '0px'});
-		
-		
 		$('.footerContentsRow').css({'backgroundColor': '#004593', 'color': '#fff' , 'font-size' : '11px' ,
 'padding' : '30px 20px 20px', 'text-align' : 'center' ,  'margin-top' : '0px' , 'margin-bottom': '0px', 'height' : '150px'});
-		
-		
-		
-		
-		
 		
 		$('.footerContentsRow div.col').css({'float' : 'left', 'display' : 'inline-block', 'min-width' : '20px' , 'width' : 'auto' , 'padding' : '20px 5px 5px' });
 		
