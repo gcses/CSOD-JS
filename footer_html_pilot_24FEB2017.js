@@ -67,14 +67,21 @@
 		footerContents.appendTo('#ctl00_footer_pnlCustomFooter');
 		$('#slopedFooterImage').css({'max-width' : '100%', 'display' : 'block' , 'height' : 'auto'});
 		
-		console.log("btest3");
+		console.log("btest4");
 		$('#ctl00_footer_pnlCustomFooter').css({'padding': '0px'});
 		
 		
 		$('.footerContentsRow').css({'backgroundColor': '#004593', 'color': '#fff' , 'font-size' : '11px' ,
-'padding' : '30px 20px 20px', 'text-align' : 'center' ,  'margin-top' : '-5px' , 'margin-bottom': '0px', 'height' : '150px'});
+'padding' : '30px 20px 20px', 'text-align' : 'center' ,  'margin-top' : '0px' , 'margin-bottom': '0px', 'height' : '150px'});
+		
+		
+		
+		
+		
+		
 		$('.footerContentsRow div.col').css({'float' : 'left', 'display' : 'inline-block', 'min-width' : '20px' , 'width' : 'auto' , 'padding' : '20px 5px 5px' });
 		
+		//the logo div is too tall and raises the entire footer. Setting a small height here seems to solve.
 		$('.footerContentsRow div.colX').css({'height': '3px', 'float' : 'left', 'display' : 'inline-block', 'min-width' : '20px' , 'width' : 'auto' , 'padding' : '20px 5px 5px' });
 		
 		$('.footerContentsRow div.copyright').css({'width' : '49%', 'text-align' : 'center' , 'margin' : '0 auto'});
