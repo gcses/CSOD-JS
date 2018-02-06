@@ -43,11 +43,41 @@
 		//Make the home page clickable and link to the Welcome page / Main page
 	        $('a:contains("Home")').attr("href","/ui/lms-learner-home/home?tab_page_id=-200300006"); 
 		
+		
+		
+		
+		
+		
+		
 		console.log("btes5");
 		
+		/***** BEGIN - Browse For Training Global Search Options *****/
+
+     		$smjquery("#lnkShowMoreSearchOptions").each(function(){
+     		  	eventFire(document.getElementById('lnkShowMoreSearchOptions'), 'click');
+     		 });
 		
+       		$smjquery(".cs-advsrch-close-btn").remove();
+
+		var expanded = false;
 		
+		function eventFire(element, elementType)
+		{
+      			if (element.fireEvent)
+       			{
+				console.log("two.A");
+           			element.fireEvent('on' + elementType);
+       			} 
+      			else 
+      			{
+				console.log("two.B");
+	   			var eventObject = document.createEvent('Events');
+	   			eventObject.initEvent(elementType, true, false);
+	   			element.dispatchEvent(eventObject);
+      			} 
+		}
 		
+
 		
 		/***** BEGIN - Footer *****/
 		$('.df-footer').css({"display": "none"}); // hide the csod default footer
