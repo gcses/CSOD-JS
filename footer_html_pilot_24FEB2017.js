@@ -52,7 +52,7 @@
                 footerImg.appendTo('#ctl00_footer_pnlCustomFooter');
 		
 		var footerContents = $('<div class="footerContentsRow">' +
-			    '<div class="col"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/bd_white_rgb_tag_EN_1_5.png" id="footerLogo"></div>' +
+			    '<div class="colX"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/bd_white_rgb_tag_EN_1_5.png" id="footerLogo"></div>' +
 			    '<div class="col"><a href="http://www.facebook.com/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/facebookIcon.png" id="sm1"></a></div>' +
 			    '<div class="col"><a href="http://www.linkedin.com/company/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/linkedInIcon.jpg" id="sm2"></a></div>' +
 			    '<div class="col"><a href="http://youtube.com/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/youTubeIcon.jpg" id="sm3"></a></div>' +
@@ -62,16 +62,21 @@
 			    '<div class="col footerLink"><a href="http://www.bd.com/legal/terms/">Terms of Use</a></div>' +
 			'</div>');
 		
+		
+		
 		footerContents.appendTo('#ctl00_footer_pnlCustomFooter');
 		$('#slopedFooterImage').css({'max-width' : '100%', 'display' : 'block' , 'height' : 'auto'});
 		
-		console.log("btest2");
-		$('#ctl00_footer_pnlCustomFooter').css({'padding': '0px', 'margin-bottom': '-40px'});
+		console.log("btest3");
+		$('#ctl00_footer_pnlCustomFooter').css({'padding': '0px'});
 		
 		
 		$('.footerContentsRow').css({'backgroundColor': '#004593', 'color': '#fff' , 'font-size' : '11px' ,
 'padding' : '30px 20px 20px', 'text-align' : 'center' ,  'margin-top' : '-5px' , 'margin-bottom': '0px', 'height' : '150px'});
 		$('.footerContentsRow div.col').css({'float' : 'left', 'display' : 'inline-block', 'min-width' : '20px' , 'width' : 'auto' , 'padding' : '20px 5px 5px' });
+		
+		$('.footerContentsRow div.colX').css({'height': '3px', 'float' : 'left', 'display' : 'inline-block', 'min-width' : '20px' , 'width' : 'auto' , 'padding' : '20px 5px 5px' });
+		
 		$('.footerContentsRow div.copyright').css({'width' : '49%', 'text-align' : 'center' , 'margin' : '0 auto'});
 		// now style the footer elements
 		$('#footerLogo').css({'position' : 'relative' , 'top': '-35px' });
