@@ -65,8 +65,8 @@
 		footerContents.appendTo('#ctl00_footer_pnlCustomFooter');
 		$('#slopedFooterImage').css({'max-width' : '100%', 'display' : 'block' , 'height' : 'auto'});
 		
-		console.log("btest1");
-		$('#ctl00_footer_pnlCustomFooter').css({'padding': '0px', 'margin-bottom': '0px'});
+		console.log("btest2");
+		$('#ctl00_footer_pnlCustomFooter').css({'padding': '0px', 'margin-bottom': '-40px'});
 		
 		
 		$('.footerContentsRow').css({'backgroundColor': '#004593', 'color': '#fff' , 'font-size' : '11px' ,
