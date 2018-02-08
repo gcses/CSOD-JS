@@ -44,8 +44,7 @@
 	       //Make the home page clickable and link to the Welcome page / Main page
 	       $('a:contains("Home")').attr("href","/ui/lms-learner-home/home?tab_page_id=-200300006"); 
 	
-		//Make warning message BD orange
-		$('.p-panel.p-bg-warning50').css({'background-color' : '#f27707 !important'});
+		
 
 		
 		/***** BEGIN - Footer *****/
@@ -87,7 +86,7 @@
 		$('#sm2').css({'height': '27px'});
 		$('#sm3').css({'height': '25px'});
 		$('#sm4').css({'height': '25px'});
-		$('.footerLink').css({'float' : 'right' , 'border-right': '1px solid #ccc' , 'padding-top' : '0' , 'padding-bottom' : '0' , 'margin-top' : '20px' });
+		$('.footerLink').css({'float' : 'right' , 'border-right': '1px solid #ccc' , 'padding' : '0 15px', 'margin-top' : '20px' });
 		$('.privacy').css({'border-right' : 'none'});
 		$('.footerLink a').css({'color' : '#fff'});
 		
