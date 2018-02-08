@@ -44,9 +44,9 @@
 	       //Make the home page clickable and link to the Welcome page / Main page
 	       $('a:contains("Home")').attr("href","/ui/lms-learner-home/home?tab_page_id=-200300006"); 
 	
-	
-	
-		
+		//Make warning message BD orange
+		$('.p-panel.p-bg-warning50').css({'background-color' : '#f27707 !important'});
+
 		
 		/***** BEGIN - Footer *****/
 		$('.df-footer').css({"display": "none"}); // hide the csod default footer
