@@ -83,6 +83,7 @@
 		
 		/***** BEGIN - Text Changes *****/
 		
+/*
 		//change Subject to Topic
 		if (document.title.indexOf("Browse for Training") > -1)
 		{		 
@@ -93,7 +94,6 @@
 	
        		 }  //end Browse For Training
 	
-/*
         $("a:has(span:contains('Popular'))").remove();
 	
         $('h2:contains("Browse for Training")').each(function(){
@@ -149,11 +149,14 @@
  	$(this).html($(this).html().replace('Browse for Training','Browse Learning'));
 	});
 
-	$('.navTabs-subTabList a:contains("Manage Employee Learning")').each(function(){
- 	$(this).html($(this).html().replace('Manage Employee Learning','Manage My Learners'));
-	});
+
 	
 */
+		
+	$('.navTabs-subTabList a:contains("Manage Employee Learning")').each(function(){
+ 		$(this).html($(this).html().replace('Manage Employee Learning','Manage My Learners'));
+		});
+		
 		
 		/***** End - Text Changes *****/
 		
