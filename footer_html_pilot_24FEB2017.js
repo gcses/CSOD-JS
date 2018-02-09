@@ -2,7 +2,7 @@
    
 	$smjquery(document).ready(function() {
 		
-		console.log("word test 3");
+		//console.log("word test 3");
 	
 		/***** BEGIN : Header Tools *****/
 		$('.topBarOuter .tools').css({'padding': '10px', 'height' : '40px' , 'margin-right' : '20px'});
@@ -69,100 +69,13 @@
 		}
 		/***** END - Browse For Training Global Search Option Opens By Default *****/
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+
 		/***** BEGIN - Text Changes *****/
-		
-/*
-		//change Subject to Topic
-		if (document.title.indexOf("Browse for Training") > -1)
-		{		 
-		    //Change "Subject" header to "Topic"
-		    $('h2:contains("Subject")').each(function(){
- 			$(this).html($(this).html().replace('Subject','Topic'));
+		$('.navTabs-subTabList a:contains("Manage Employee Learning")').each(function(){
+ 			$(this).html($(this).html().replace('Manage Employee Learning','Manage My Learners'));
 			});
-	
-       		 }  //end Browse For Training
-	
-        $("a:has(span:contains('Popular'))").remove();
-	
-        $('h2:contains("Browse for Training")').each(function(){
- 		$(this).html($(this).html().replace('Browse for Training','Browse Learning'));
-	});
-	
-	$('h2:contains("Suggested Training")').each(function(){
- 		$(this).html($(this).html().replace('Suggested Training','Suggested Learning'));
-	});
-	
-	$('a:contains("Change your password")').each(function(){
- 		$(this).remove();
-	});
-	
-	$('a:contains("Go to Customer Portal")').each(function(){
- 		$(this).remove();
-	});
-	
-	$(".cso-cont-padtb5:has(h3:contains('Subjects'))").remove();
-	$(".cso-cont-padtb5:has(h3:contains('Available Languages'))").remove();
-	$(".cso-cont-padtb5:has(h3:contains('Product'))").remove();
-	$(".cso-cont-padtb5:has(h3:contains('Brand'))").remove();
-	$(".cso-cont-padtb5:has(span:contains('$0.00'))").remove();
-	$(".dot:contains('$0.00')").remove();
-	$(".usr-content:has(div:has(span:contains('$0.00')))").remove();
-	
-	$("[aria-labelledby=Support]").empty();
-	
-        $("[aria-labelledby=Support]").append('<li><a href="https://eim.carefusion.com/Account/ChangePassword" title="Change Password" tabindex="-1">Change Password</a></li><li><a href="/catalog/CustomPage.aspx?id=20000480&amp;tab_page_id=20000480" title="Contact Us" tabindex="-1">Contact Us</a></li><li><a href="/catalog/CustomPage.aspx?id=20000479&amp;tab_page_id=20000479" title="Frequently Asked Questions" tabindex="-1">Frequently Asked Questions</a></li>');
-        $smjquery('#main-menu').smartmenus('refresh');
-	
-	$('.cso-txt span:contains("Online Class")').each(function(){
- 	     $(this).html($(this).html().replace('Online Class','Web-Based Training'));
-	    });
-
-	$('[data-original-title="Online Class"]').attr('data-original-title', 'Web-Based Training');
-        //  $('.tooltip-cso').tooltip();
-	
-	
-	$('.cso-brdcrm-cont a:contains("Browse for Training")').each(function(){
- 	$(this).html($(this).html().replace('Browse for Training','Browse Learning'));
-	});
-
-	$('.cso-title-cont.cso-wsp-cont span:contains("Browse for Training")').each(function(){
- 	$(this).html($(this).html().replace('Browse for Training','Browse Learning'));
-	});
-
-	$('.cso-cont-marb35.cso-cont-mart20 h2:contains("Training")').each(function(){
- 	$(this).html($(this).html().replace('Training','Learning'));
-	});
-
-	$('.navTabs-subTabList a:contains("Browse for Training")').each(function(){
- 	$(this).html($(this).html().replace('Browse for Training','Browse Learning'));
-	});
-
-
-	
-*/
-		
-	$('.navTabs-subTabList a:contains("Manage Employee Learning")').each(function(){
- 		$(this).html($(this).html().replace('Manage Employee Learning','Manage My Learners'));
-		});
-		
-		
 		/***** End - Text Changes *****/
 		
-		
-		
-
 		
 		/***** BEGIN - Footer *****/
 		$('.df-footer').css({"display": "none"}); // hide the csod default footer
