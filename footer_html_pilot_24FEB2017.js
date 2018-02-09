@@ -2,7 +2,7 @@
    
 	$smjquery(document).ready(function() {
 		
-		console.log("word test 2");
+		console.log("word test 3");
 	
 		/***** BEGIN : Header Tools *****/
 		$('.topBarOuter .tools').css({'padding': '10px', 'height' : '40px' , 'margin-right' : '20px'});
