@@ -1,6 +1,8 @@
 (function($) {
    
 	$smjquery(document).ready(function() {
+		
+		console.log("word test 1");
 	
 		/***** BEGIN : Header Tools *****/
 		$('.topBarOuter .tools').css({'padding': '10px', 'height' : '40px' , 'margin-right' : '20px'});
@@ -43,23 +45,12 @@
 		//Make the home page clickable and link to the Welcome page / Main page
 	        $('a:contains("Home")').attr("href","/ui/lms-learner-home/home?tab_page_id=-200300006"); 
 		
-		
-		
-		
-		
-		
-		
-		console.log("btes5");
-		
-		/***** BEGIN - Browse For Training Global Search Options *****/
-
+		/***** BEGIN - Browse For Training Global Search Option Opens By Default *****/
      		$smjquery("#lnkShowMoreSearchOptions").each(function(){
      		  	eventFire(document.getElementById('lnkShowMoreSearchOptions'), 'click');
      		 });
 		
        		$smjquery(".cs-advsrch-close-btn").remove();
-
-		var expanded = false;
 		
 		function eventFire(element, elementType)
 		{
@@ -76,6 +67,7 @@
 	   			element.dispatchEvent(eventObject);
       			} 
 		}
+		/***** END - Footer *****/
 		
 
 		
