@@ -31,7 +31,8 @@
 		$('.cso-hdr-dd .item a span').css({'height' : 'auto' , 'width' : 'auto' });
 
 		/***** BEGIN - Navigation *****/
-		$('<span class="lc-title">Learning Compass</span>').insertBefore('.c-glbl-nav ul:first-child li:first-child');
+		$('<span class=\"lcTitle\">Learning Compass</span>').insertBefore('.c-glbl-nav ul:first-child li:first-child');
+		$('.lcTitle').css({'float': 'left', 'display' : 'inline-block' , 'vertical-align' : 'middle' , 'font-size' : '16px' });
 		$('.navTabs').css({'background': '#fff' });
 		$('.navTabs li').css({'border-right': '1px solid #444c54' });
 		$('.navTabs-subTabList li').css({'border-right': 'none' });
