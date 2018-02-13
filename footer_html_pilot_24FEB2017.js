@@ -43,7 +43,7 @@
 		$('.navTabs li a:hover').css({'text-shadow' : 'none' , 'background-color' : 'none !important'});
 		$('.navTabs li a.highlighted').css({'background-color' : 'none !important'});
 		$('.navTabs li.active').css({ 'font-weight' : 'bold'});
-		$('.c-glbl-nav').css({'height' : '60px'});
+		$('.c-glbl-nav').css({'height' : '60px', 'overflow' : 'hidden'});
 		/***** END - Navigation *****/
 		
 		
