@@ -3,6 +3,7 @@
 	$smjquery(document).ready(function() {
 	
 		/***** BEGIN : Header Tools *****/
+		$('.topBarOuter').css({'height' : '50px'});
 		$('.topBarOuter .tools').css({'padding': '10px', 'height' : '40px' , 'margin-right' : '20px'});
 		$('.topBar').css({'margin-top': '0px', 'margin-right': '10px', 'border': 'none'}); 
 		
