@@ -39,7 +39,7 @@
 		$('.navTabs li').css({'border-right': '1px solid #444c54' });
 		$('.navTabs-subTabList li').css({'border-right': 'none' });
 		$('.navTabs li:last-child').css({'border-right': 'none' });
-		$('.navTabs li a').css({'color':'#fff', 'text-shadow' : 'none'});
+		$('.navTabs li a').css({'color':'#808080', 'text-shadow' : 'none'});
 		$('.navTabs li a:hover').css({'text-decoration' : 'underline', 'text-shadow' : 'none', 'opacity' : '0.7'});
 		$('.navTabs li.active').css({'text-decoration' : 'underline' , 'font-weight' : 'bold'});
 		$('.c-glbl-nav').css({'height' : '60px'});
