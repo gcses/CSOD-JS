@@ -31,7 +31,7 @@
 
 		/***** BEGIN - Navigation *****/
 		$('ul #main-menu').before('<span>Learning Compass</span>');
-		$('.navTabs').css({'background': '#004593' });
+		$('.navTabs').css({'background': '#fff' });
 		$('.navTabs li').css({'border-right': '1px solid #444c54' });
 		$('.navTabs-subTabList li').css({'border-right': 'none' });
 		$('.navTabs li:last-child').css({'border-right': 'none' });
