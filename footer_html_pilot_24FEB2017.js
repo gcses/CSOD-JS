@@ -7,6 +7,9 @@
 		$('.topBarOuter .tools').css({'padding': '10px', 'height' : '40px' , 'margin-right' : '20px'});
 		$('.topBar').css({'margin-top': '0px', 'margin-right': '10px', 'border': 'none'}); 
 		
+		/*****BEGIN: Logo Customization *****/
+		$('.imageLogo').css({'height' : '50px' , 'top' : '-14px' , 'position' : 'relative' });
+		
 		/*****BEGIN: Search Bar Customization *****/
 		$('#search .cso-top-srch-box').css({'backgroundColor': '#fff', 'border-radius': '4px', 'margin-top': '7px', 'margin-left': '-10px', 'margin-right': '30px', 'border': '0px solid #004593' , 'padding-left': '0'});
 		$('#search input').css({'color':'#ccc'});
@@ -30,9 +33,10 @@
 		$('.settings a span').css({'background-position' : '0 0' , 'height' : '40px' , 'width' : '40px' });
 		$('.cso-hdr-dd .item a span').css({'height' : 'auto' , 'width' : 'auto' });
 		
+		
+		/***** BEGIN - Navigation *****/
 		var lcTitleImg = $('<img id=\"lcTitle\">');
 		lcTitleImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/Learning_Compass_title_img.png');
-		/***** BEGIN - Navigation *****/
 		$(lcTitleImg).insertBefore('.c-glbl-nav ul:first-child');
 		$('#lcTitle').css({'float': 'left', 'display' : 'inline-block' , 'vertical-align' : 'middle' , 'font-size' : '16px', 'height' : '75px' });
 		$('.navTabs').css({'background': '#fff' });
@@ -46,13 +50,9 @@
 		$('.c-glbl-nav').css({'height' : '60px', 'overflow' : 'hidden'});
 		/***** END - Navigation *****/
 		
-		
 	       //Make the home page clickable and link to the Welcome page / Main page
 	       $('a:contains("Home")').attr("href","/ui/lms-learner-home/home?tab_page_id=-200300006"); 
 	
-		
-
-		
 		/***** BEGIN - Footer *****/
 		$('.df-footer').css({"display": "none"}); // hide the csod default footer
 		//create grey background and add sloped image
