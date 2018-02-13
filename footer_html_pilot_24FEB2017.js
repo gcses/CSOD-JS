@@ -33,7 +33,7 @@
 		var lcTitleImg = $('<img id=\"lcTitle\">');
 		lcTitleImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/Learning_Compass_title_img.png');
 		/***** BEGIN - Navigation *****/
-		$(lcTitleImg).insertBefore('.c-glbl-nav ul:first-child li:first-child');
+		$(lcTitleImg).insertBefore('.c-glbl-nav ul:first-child');
 		$('#lcTitle').css({'float': 'left', 'display' : 'inline-block' , 'vertical-align' : 'middle' , 'font-size' : '16px', 'height' : '60px' });
 		$('.navTabs').css({'background': '#fff' });
 		$('.navTabs li').css({'border-right': '1px solid #444c54' });
