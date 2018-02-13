@@ -30,6 +30,7 @@
 		$('.cso-hdr-dd .item a span').css({'height' : 'auto' , 'width' : 'auto' });
 
 		/***** BEGIN - Navigation *****/
+		$('ul #main-menu').before('<span>Learning Compass</span>');
 		$('.navTabs').css({'background': '#004593' });
 		$('.navTabs li').css({'border-right': '1px solid #444c54' });
 		$('.navTabs-subTabList li').css({'border-right': 'none' });
