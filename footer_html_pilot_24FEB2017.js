@@ -1,12 +1,10 @@
 (function($) {
    
 	$smjquery(document).ready(function() {
-		
-		//console.log("word test 3");
 	
 		/***** BEGIN : Header Tools *****/
 		$('.topBarOuter .tools').css({'padding': '10px', 'height' : '40px' , 'margin-right' : '20px'});
-		$('.topBar').css({'backgroundColor': '#023970',  'margin-top': '0px', 'margin-right': '10px', 'border': 'none'}); 
+		$('.topBar').css({'backgroundColor': '#004593',  'margin-top': '0px', 'margin-right': '10px', 'border': 'none'}); 
 		
 		/*****BEGIN: Search Bar Customization *****/
 		$('#search .cso-top-srch-box').css({'backgroundColor': '#fff', 'border-radius': '4px', 'margin-top': '7px', 'margin-left': '-10px', 'margin-right': '30px', 'border': '0px solid #004593' , 'padding-left': '0'});
@@ -32,7 +30,7 @@
 		$('.cso-hdr-dd .item a span').css({'height' : 'auto' , 'width' : 'auto' });
 
 		/***** BEGIN - Navigation *****/
-		$('.navTabs').css({'background': '#023970' });
+		$('.navTabs').css({'background': '#004593' });
 		$('.navTabs li').css({'border-right': '1px solid #444c54' });
 		$('.navTabs-subTabList li').css({'border-right': 'none' });
 		$('.navTabs li:last-child').css({'border-right': 'none' });
@@ -42,40 +40,12 @@
 		$('.c-glbl-nav').css({'border-top' : '1px solid #545d6d'});
 		/***** END - Navigation *****/
 		
-		//Make the home page clickable and link to the Welcome page / Main page
-	        $('a:contains("Home")').attr("href","/ui/lms-learner-home/home?tab_page_id=-200300006"); 
 		
-		/***** BEGIN - Browse For Training Global Search Option Opens By Default *****/
-     		$smjquery("#lnkShowMoreSearchOptions").each(function(){
-     		  	eventFire(document.getElementById('lnkShowMoreSearchOptions'), 'click');
-     		 });
-		
-       		$smjquery(".cs-advsrch-close-btn").remove();
-		
-		function eventFire(element, elementType)
-		{
-      			if (element.fireEvent)
-       			{
-				console.log("two.A");
-           			element.fireEvent('on' + elementType);
-       			} 
-      			else 
-      			{
-				console.log("two.B");
-	   			var eventObject = document.createEvent('Events');
-	   			eventObject.initEvent(elementType, true, false);
-	   			element.dispatchEvent(eventObject);
-      			} 
-		}
-		/***** END - Browse For Training Global Search Option Opens By Default *****/
+	       //Make the home page clickable and link to the Welcome page / Main page
+	       $('a:contains("Home")').attr("href","/ui/lms-learner-home/home?tab_page_id=-200300006"); 
+	
 		
 
-		/***** BEGIN - Text Changes *****/
-		$('.navTabs-subTabList a:contains("Manage Employee Learning")').each(function(){
- 			$(this).html($(this).html().replace('Manage Employee Learning','Manage My Learners'));
-			});
-		/***** End - Text Changes *****/
-		
 		
 		/***** BEGIN - Footer *****/
 		$('.df-footer').css({"display": "none"}); // hide the csod default footer
@@ -101,15 +71,14 @@
 		//offset the slope a bit to offset whatever is pulling it down
 		$('#slopedFooterImage').css({'max-width' : '100%',  'margin-top': '-5px', 'display' : 'block' , 'height' : 'auto'});
 	
-		$('#ctl00_footer_pnlCustomFooter').css({'padding': '0px'});
+		$('#ctl00_footer_pnlCustomFooter').css({'padding' : '0'});
 		$('.footerContentsRow').css({'backgroundColor': '#004593', 'color': '#fff' , 'font-size' : '11px' ,
-'padding' : '30px 20px 20px', 'text-align' : 'center' ,  'margin-top' : '0px' , 'margin-bottom': '0px', 'height' : '150px'});
-		
-		$('.footerContentsRow div.col').css({'float' : 'left', 'display' : 'inline-block', 'min-width' : '20px' , 'width' : 'auto' , 'padding' : '20px 5px 5px' });
+'padding' : '30px 20px 20px', 'text-align' : 'center' ,  'margin-top' : '-5px' , 'height' : '150px'});
 		
 		//the logo div is too tall and raises the entire footer. Setting a small height here seems to solve.
 		$('.footerContentsRow div.colX').css({'height': '3px', 'float' : 'left', 'display' : 'inline-block', 'min-width' : '20px' , 'width' : 'auto' , 'padding' : '20px 5px 5px' });
 		
+		$('.footerContentsRow div.col').css({'float' : 'left', 'display' : 'inline-block', 'min-width' : '20px' , 'width' : 'auto' , 'padding' : '20px 5px 5px' });
 		$('.footerContentsRow div.copyright').css({'width' : '49%', 'text-align' : 'center' , 'margin' : '0 auto'});
 		// now style the footer elements
 		$('#footerLogo').css({'position' : 'relative' , 'top': '-35px' });
@@ -117,7 +86,7 @@
 		$('#sm2').css({'height': '27px'});
 		$('#sm3').css({'height': '25px'});
 		$('#sm4').css({'height': '25px'});
-		$('.footerLink').css({'float' : 'right' , 'border-right': '1px solid #ccc' , 'padding-top' : '0' , 'padding-bottom' : '0' , 'margin-top' : '20px' });
+		$('.footerLink').css({'float' : 'right' , 'border-right': '1px solid #ccc' , 'padding' : '0 15px', 'margin-top' : '20px' });
 		$('.privacy').css({'border-right' : 'none'});
 		$('.footerLink a').css({'color' : '#fff'});
 		
