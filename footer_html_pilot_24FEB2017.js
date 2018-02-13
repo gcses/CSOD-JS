@@ -29,10 +29,12 @@
 		$('.cso-hdr-dd .item a span').css({'background-image' : 'none' });
 		$('.settings a span').css({'background-position' : '0 0' , 'height' : '40px' , 'width' : '40px' });
 		$('.cso-hdr-dd .item a span').css({'height' : 'auto' , 'width' : 'auto' });
-
+		
+		var lcTitleImg = $('<img id=\"lcTitle\">');
+		lcTitleImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/Learning_Compass_title_img.png');
 		/***** BEGIN - Navigation *****/
-		$('<span class=\"lcTitle\">Learning Compass</span>').insertBefore('.c-glbl-nav ul:first-child li:first-child');
-		$('.lcTitle').css({'float': 'left', 'display' : 'inline-block' , 'vertical-align' : 'middle' , 'font-size' : '16px' });
+		$(lcTitleImg).insertBefore('.c-glbl-nav ul:first-child li:first-child');
+		$('#id').css({'float': 'left', 'display' : 'inline-block' , 'vertical-align' : 'middle' , 'font-size' : '16px' });
 		$('.navTabs').css({'background': '#fff' });
 		$('.navTabs li').css({'border-right': '1px solid #444c54' });
 		$('.navTabs-subTabList li').css({'border-right': 'none' });
