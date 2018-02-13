@@ -4,7 +4,7 @@
 	
 		/***** BEGIN : Header Tools *****/
 		$('.topBarOuter .tools').css({'padding': '10px', 'height' : '40px' , 'margin-right' : '20px'});
-		$('.topBar').css({'backgroundColor': '#fff',  'margin-top': '0px', 'margin-right': '10px', 'border': 'none'}); 
+		$('.topBar').css({'margin-top': '0px', 'margin-right': '10px', 'border': 'none'}); 
 		
 		/*****BEGIN: Search Bar Customization *****/
 		$('#search .cso-top-srch-box').css({'backgroundColor': '#fff', 'border-radius': '4px', 'margin-top': '7px', 'margin-left': '-10px', 'margin-right': '30px', 'border': '0px solid #004593' , 'padding-left': '0'});
