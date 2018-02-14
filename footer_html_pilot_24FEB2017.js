@@ -11,7 +11,7 @@
 		$('.imageLogo').css({'height' : '62px' , 'top' : '-14px' , 'position' : 'relative' });
 		
 		/*****BEGIN: Search Bar Customization *****/
-		$('#search .cso-top-srch-box').css({'width' : '140px' , 'backgroundColor': '#fff', 'border-radius': '4px', 'margin-right': '20px', 'border': '0px solid #004593' , 'padding-left': '0'});
+		$('#search .cso-top-srch-box').css({'width' : '140px' , 'backgroundColor': '#fff', 'border-radius': '4px', 'margin-right': '20px', 'border-right': '1px solid #1a589e' , 'padding-left': '0'});
 		$('#search input').css({'color':'#ccc' , 'width' : '130px' });
 		$('#search .search-lnk').css({'background-image' : 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/magnifyingGlass.png")' });
 		
