@@ -41,7 +41,8 @@
 		$(lcTitleImg).insertBefore('.c-glbl-nav ul:first-child');
 		$('#lcTitle').css({'float': 'left', 'display' : 'inline-block' , 'vertical-align' : 'middle' , 'font-size' : '16px', 'height' : '62px' });
 		$('.navTabs').css({'background': '#fff' });
-		$('.navTabs li').css({'padding-right': '5px' , 'padding-top' : '19px' });
+		$('.navTabs').css({'padding-top' : '19px' });
+		$('.navTabs li').css({'padding-right': '5px'});
 		$('.navTabs-subTabList li').css({'border-right': 'none' });
 		$('.navTabs li:last-child').css({'border-right': 'none' });
 		$('.navTabs li a').css({'color':'#808080', 'text-shadow' : 'none'});
