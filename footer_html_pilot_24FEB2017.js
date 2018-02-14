@@ -11,7 +11,7 @@
 		$('.imageLogo').css({'height' : '62px' , 'top' : '-14px' , 'position' : 'relative' });
 		
 		/*****BEGIN: Search Bar Customization *****/
-		$('#search .cso-top-srch-box').css({'backgroundColor': '#fff', 'border-radius': '4px', 'margin-top': '7px', 'margin-left': '-10px', 'margin-right': '30px', 'border': '0px solid #004593' , 'padding-left': '0'});
+		$('#search .cso-top-srch-box').css({'width' : '140px' , 'backgroundColor': '#fff', 'border-radius': '4px', 'margin-top': '7px', 'margin-left': '-10px', 'margin-right': '30px', 'border': '0px solid #004593' , 'padding-left': '0'});
 		$('#search input').css({'color':'#ccc'});
 		
 		/*****END: Search Bar Customization *****/
