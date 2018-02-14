@@ -8,11 +8,12 @@
 		$('.topBar').css({'margin-top': '0px', 'margin-right': '10px', 'border': 'none'}); 
 		
 		/*****BEGIN: Logo Customization *****/
-		$('.imageLogo').css({'height' : '50px' , 'top' : '-14px' , 'position' : 'relative' });
+		$('.imageLogo').css({'height' : '62px' , 'top' : '-14px' , 'position' : 'relative' });
 		
 		/*****BEGIN: Search Bar Customization *****/
 		$('#search .cso-top-srch-box').css({'backgroundColor': '#fff', 'border-radius': '4px', 'margin-top': '7px', 'margin-left': '-10px', 'margin-right': '30px', 'border': '0px solid #004593' , 'padding-left': '0'});
 		$('#search input').css({'color':'#ccc'});
+		
 		/*****END: Search Bar Customization *****/
 		
 		/***** BEGIN : AVATAR IMAGE **********/
@@ -40,8 +41,7 @@
 		lcTitleImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/Learning_Compass_title_img.png');
 		$(lcTitleImg).insertBefore('.c-glbl-nav ul:first-child');
 		$('#lcTitle').css({'float': 'left', 'display' : 'inline-block' , 'vertical-align' : 'middle' , 'font-size' : '16px', 'height' : '62px' });
-		$('.navTabs').css({'background': '#fff' });
-		$('.navTabs').css({'padding-top' : '19px' });
+		$('.navTabs').css({'background': '#fff' , 'padding-top' : '12px' });
 		$('.navTabs li').css({'padding-right': '5px'});
 		$('.navTabs-subTabList li').css({'border-right': 'none' });
 		$('.navTabs li:last-child').css({'border-right': 'none' });
