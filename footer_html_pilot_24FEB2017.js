@@ -35,7 +35,7 @@
 		
 		
 		/***** BEGIN - Navigation *****/
-		$('.c-glbl-nav').css({'height' : '60px', 'overflow' : 'hidden'});
+		$('.c-glbl-nav').css({'height' : '60px'});
 		var lcTitleImg = $('<img id=\"lcTitle\">');
 		lcTitleImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/Learning_Compass_title_img.png');
 		$(lcTitleImg).insertBefore('.c-glbl-nav ul:first-child');
