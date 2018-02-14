@@ -13,7 +13,7 @@
 		/*****BEGIN: Search Bar Customization *****/
 		$('#search').css({ 'border-right': '1px solid #1a589e'});
 		$('#search .cso-top-srch-box').css({'width' : '140px' , 'backgroundColor': '#fff', 'border-radius': '4px', 'margin-right': '20px' , 'border' : 'none' , 'padding-left': '0'});
-		$('#search input').css({'color':'#ccc' , 'width' : '130px' });
+		$('#search input').css({'color':'#808080' , 'width' : '130px' });
 		$('#search .search-lnk').css({'background-image' : 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/magnifyingGlass.png")' , 'background-position' : '-5px -4px' });
 		
 		/*****END: Search Bar Customization *****/
