@@ -49,7 +49,7 @@
 		$('.navTabs li:last-child').css({'border-right': 'none' });
 		$('.navTabs li a').css({'color':'#808080', 'text-shadow' : 'none'});
 		$('.navTabs li a:hover').css({'text-shadow' : 'none' , 'background-color' : 'none !important'});
-		$('.highlighted').css({'background-color' : 'none !important'});
+		$('.navTabs li a.highlighted').css({'background-color' : '#fff !important'});
 		$('#main-menu li a.has-submenu.highlighted').attr('style', 'height: 0px !important');
 		$('.navTabs li.active').css({ 'font-weight' : 'bold'});
 		
