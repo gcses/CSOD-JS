@@ -19,7 +19,7 @@
 		/*****END: Search Bar Customization *****/
 		
 		/***** BEGIN : AVATAR IMAGE **********/
-		//$smjquery('.avatar a img').css({ 'display' : 'none'});
+
 		var avatargImg = $(document.getElementById('ctl00_header_headerFixed_imgAvatar'));
 		avatargImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/avatar-sm.png');
 		$('.user-interaction .avatar a img').css({ 'height' : '40px !important' , 'width' : '40px !important'});
@@ -29,7 +29,7 @@
 		/******* END : AVATAR Image *****/ 
 		
 		/************ BEGIN : COG ***********/
-		$('.user-interaction a span').css({'background-image' : 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/gear-small.png")' , 'top' : '-1px' , 'left' : '-1px' });
+		$('.user-interaction a span').css({'background-image' : 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/gear-small.png")' , 'top' : '-2px' , 'left' : '-1px' });
 		$('.user-interaction').css({'backgroundcolor': 'none', 'border-radius': '0', 'border': 'none'});
 		//$smjquery('.user-interaction li').css({'border-radius': '0', 'border': 'none'});
 		$('.cso-hdr-dd .item a span').css({'background-image' : 'none' });
@@ -52,11 +52,6 @@
 		$('.navTabs li a.highlighted').css({'background-color' : '#fff !important'});
 		$('#main-menu li a.has-submenu.highlighted').attr('style', 'background-color: #fff !important');
 		$('.navTabs li.active').css({ 'font-weight' : 'bold' ,  'background-color' : '#fff !important' , 'color' : '#000' });
-		//$('#main-menu .navTabs li:hover').css({'border' : '2px solid red' });
-                 //$(".navTabs li:hover").css("cssText", "background-color: none !important;");
-		//$(".navTabs li:focus").css("cssText", "background-color: none !important;");
-		//$(".navTabs li").addClass("navLinkBgColor");
-		//$('.navLinkBgColor:hover').css({'background-color' : '#fff' , 'border' : '2px solid red' });
 		
 		   $('.navTabs li').hover(function() {
 			$(this).css('background-color', '#fff !important');
