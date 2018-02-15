@@ -21,7 +21,7 @@
 		/***** BEGIN : AVATAR IMAGE **********/
 		//$smjquery('.avatar a img').css({ 'display' : 'none'});
 		var avatargImg = $(document.getElementById('ctl00_header_headerFixed_imgAvatar'));
-		avatargImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/avatar3.png');
+		avatargImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/avatar-sm.png');
 		$('.user-interaction .avatar a img').css({ 'height' : '40px !important' , 'width' : '40px !important'});
 		$('.avatar').css({'backgroundColor': '#004593', 'margin-top': '7px', 'margin-right': '10px', 'border': '0px solid #004593' , 'border-radius': '0', 'padding-left': '0'});
 		$('.avatar a .img').css({'backgroundColor': '#004593', 'border-radius': '0', 'border': '0px solid #004593'});
@@ -29,7 +29,7 @@
 		/******* END : AVATAR Image *****/ 
 		
 		/************ BEGIN : COG ***********/
-		$('.user-interaction a span').css({'background-image' : 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/gear6.png")' , 'top' : '-1px' , 'left' : '-1px' });
+		$('.user-interaction a span').css({'background-image' : 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/gear-sm.png")' , 'top' : '-1px' , 'left' : '-1px' });
 		$('.user-interaction').css({'backgroundcolor': 'none', 'border-radius': '0', 'border': 'none'});
 		//$smjquery('.user-interaction li').css({'border-radius': '0', 'border': 'none'});
 		$('.cso-hdr-dd .item a span').css({'background-image' : 'none' });
