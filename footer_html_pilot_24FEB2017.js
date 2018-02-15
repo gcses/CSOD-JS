@@ -52,18 +52,17 @@
 		$('.navTabs li a.highlighted').css({'background-color' : '#fff !important'});
 		$('#main-menu li a.has-submenu.highlighted').attr('style', 'background-color: #fff !important');
 		$('.navTabs li.active').css({ 'font-weight' : 'bold' ,  'background-color' : '#fff !important' , 'color' : '#000' });
-		$('#main-menu .navTabs li:hover').css({'border' : '2px solid red' });
-$(".navTabs li:hover").css("cssText", "background-color: none !important;");
-		$(".navTabs li:focus").css("cssText", "background-color: none !important;");
-		$(".navTabs li").addClass("navLinkBgColor");
-		$('.navLinkBgColor').css({'background-color' : '#ccc' , 'border' : '2px solid green' });
-		$('.navLinkBgColor:hover').css({'background-color' : '#fff' , 'border' : '2px solid red' });
+		//$('#main-menu .navTabs li:hover').css({'border' : '2px solid red' });
+                 //$(".navTabs li:hover").css("cssText", "background-color: none !important;");
+		//$(".navTabs li:focus").css("cssText", "background-color: none !important;");
+		//$(".navTabs li").addClass("navLinkBgColor");
+		//$('.navLinkBgColor:hover').css({'background-color' : '#fff' , 'border' : '2px solid red' });
 		
-		   $('.navLinkBgColor').hover(function() {
-        $(this).css('background-color', '#fff !important');
-    }, function() {
-        $(this).css('background-color', '#fff');
-    });
+		   $('.navTabs li').hover(function() {
+			$(this).css('background-color', '#fff !important');
+		    }, function() {
+			$(this).css('background-color', '#fff');
+		    });
 
 		/***** END - Navigation *****/
 		
