@@ -55,7 +55,9 @@
 		('#main-menu .navTabs li:hover').css({'border' : '2px solid red' });
 $(".navTabs li:hover").css("cssText", "background-color: none !important;");
 		$(".navTabs li:focus").css("cssText", "background-color: none !important;");
-		
+		$(".navTabs li").addClass("navLinkBgColor");
+		$('.navLinkBgColor:hover').css({'background-color' : '#fff !important' });
+
 		/***** END - Navigation *****/
 		
 	       //Make the home page clickable and link to the Welcome page / Main page
