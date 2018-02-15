@@ -52,7 +52,7 @@
 		$('.navTabs li a.highlighted').css({'background-color' : '#fff !important'});
 		$('#main-menu li a.has-submenu.highlighted').attr('style', 'height: 0px !important');
 		$('.navTabs li.active').css({ 'font-weight' : 'bold' ,  'background-color' : 'none' , 'color' : '#000' });
-		$('#main-menu .navTabs li:hover' , '#main-menu .navTabs li:focus').css({'background-color' : '#fff !important' });
+		$('#main-menu .navTabs li:hover').css({'background-color' : '#fff !important' });
 
 		
 		/***** END - Navigation *****/
