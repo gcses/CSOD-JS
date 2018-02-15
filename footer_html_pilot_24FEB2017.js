@@ -54,6 +54,7 @@
 		$('.navTabs li.active').css({ 'font-weight' : 'bold' ,  'background-color' : 'none' , 'color' : '#000' });
 		//$('#main-menu .navTabs li:hover').css({'background-color' : '#fff !important' });
 $(".navTabs li:hover").css("cssText", "background-color: none !important;");
+		$(".navTabs li:focus").css("cssText", "background-color: none !important;");
 		
 		/***** END - Navigation *****/
 		
