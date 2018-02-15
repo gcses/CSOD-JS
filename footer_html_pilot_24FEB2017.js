@@ -52,7 +52,7 @@
 		$('.navTabs li a.highlighted').css({'background-color' : '#fff !important'});
 		$('#main-menu li a.has-submenu.highlighted').attr('style', 'height: 0px !important');
 		$('.navTabs li.active').css({ 'font-weight' : 'bold' ,  'background-color' : 'none' , 'color' : '#000' });
-		//$('#main-menu .navTabs li:hover').css({'background-color' : '#fff !important' });
+		('#main-menu .navTabs li:hover').css({'border' : '2px solid red' });
 $(".navTabs li:hover").css("cssText", "background-color: none !important;");
 		$(".navTabs li:focus").css("cssText", "background-color: none !important;");
 		
