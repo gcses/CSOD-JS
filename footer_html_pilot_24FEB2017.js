@@ -50,7 +50,7 @@
 		$('.navTabs li a').css({'color':'#808080', 'text-shadow' : 'none'});
 		$('.navTabs li a:hover').css({'text-shadow' : 'none' , 'background-color' : 'none !important'});
 		$('.navTabs li a.highlighted').css({'background-color' : '#fff !important'});
-		$('#main-menu li a.has-submenu.highlighted').attr('style', 'height: 0px !important');
+		$('#main-menu li a.has-submenu.highlighted').attr('style', 'background-color: #fff !important');
 		$('.navTabs li.active').css({ 'font-weight' : 'bold' ,  'background-color' : '#fff !important' , 'color' : '#000' });
 		('#main-menu .navTabs li:hover').css({'border' : '2px solid red' });
 $(".navTabs li:hover").css("cssText", "background-color: none !important;");
