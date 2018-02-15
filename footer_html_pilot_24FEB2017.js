@@ -23,7 +23,7 @@
 		var avatargImg = $(document.getElementById('ctl00_header_headerFixed_imgAvatar'));
 		avatargImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/avatar3.png');
 		$('.user-interaction .avatar a img').css({ 'height' : '40px !important' , 'width' : '40px !important'});
-		$('.avatar').css({'backgroundColor': '#004593', 'border-radius': '0', 'margin-top': '7px', 'margin-left': '-10px', 'margin-right': '10px', 'border': '0px solid #004593' , 'padding-left': '0'});
+		$('.avatar').css({'backgroundColor': '#004593', 'border-radius': '0', 'margin-top': '7px', 'margin-right': '10px', 'border': '0px solid #004593' , 'border-right': '1px solid #1a589e' ,'padding-left': '0'});
 		$('.avatar a .img').css({'backgroundColor': '#004593', 'border-radius': '0', 'border': '0px solid #004593'});
 		$('.avatar a').css({'backgroundColor': '#004593', 'border-radius': '0',  'margin-top': '0px', 'margin-right': '10px', 'border': '0px solid #004593'});
 		/******* END : AVATAR Image *****/ 
