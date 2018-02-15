@@ -60,9 +60,9 @@ $(".navTabs li:hover").css("cssText", "background-color: none !important;");
 		$('.navLinkBgColor:hover').css({'background-color' : '#fff' , 'border' : '2px solid red' });
 		
 		   $('.navLinkBgColor').hover(function() {
-        $(this).css('background-color', 'yellow');
+        $(this).css('background-color', '#fff !important');
     }, function() {
-        $(this).css('background-color', 'cyan');
+        $(this).css('background-color', '#fff');
     });
 
 		/***** END - Navigation *****/
