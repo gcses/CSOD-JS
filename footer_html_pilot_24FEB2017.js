@@ -58,6 +58,12 @@ $(".navTabs li:hover").css("cssText", "background-color: none !important;");
 		$(".navTabs li").addClass("navLinkBgColor");
 		$('.navLinkBgColor').css({'background-color' : '#ccc' , 'border' : '2px solid green' });
 		$('.navLinkBgColor:hover').css({'background-color' : '#fff' , 'border' : '2px solid red' });
+		
+		   $('.navLinkBgColor').hover(function() {
+        $(this).css('background-color', 'yellow');
+    }, function() {
+        $(this).css('background-color', 'cyan');
+    });
 
 		/***** END - Navigation *****/
 		
