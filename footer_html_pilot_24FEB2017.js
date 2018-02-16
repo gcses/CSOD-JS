@@ -60,7 +60,7 @@
 			$('.navTabs li').active(function() {
 			$(this).css({'font-weight' : 'bold' , 'color' : '#999' });
 		    }, function() {
-			$(this).css('font-weight' : 'normal' , 'color' : '#808080' );
+			$(this).css({'font-weight' : 'normal' , 'color' : '#808080' });
 		    });
 
 		/***** END - Navigation *****/
