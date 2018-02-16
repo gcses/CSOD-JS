@@ -51,17 +51,13 @@
 		$('.navTabs li a:hover').css({'text-shadow' : 'none' , 'background-color' : 'none !important'});
 		$('.navTabs li a.highlighted').css({'background-color' : '#fff !important'});
 		$('#main-menu li a.has-submenu.highlighted').attr('style', 'background-color: #fff !important');
-		$('.navTabs li.active').css({ 'font-weight' : 'bold' ,  'background-color' : '#fff !important' , 'color' : '#000' });
+		$('.navTabs li.active').css({ 'font-weight' : 'bold !important' ,  'background-color' : '#fff !important' , 'color' : '#000' });
 		   $('.navTabs li').hover(function() {
 			$(this).css('background-color', '#fff !important');
 		    }, function() {
 			$(this).css('background-color', '#fff');
 		    });
-			$('.navTabs li').active(function() {
-			$(this).css({'font-weight' : 'bold' , 'color' : '#999' });
-		    }, function() {
-			$(this).css({'font-weight' : 'normal' , 'color' : '#808080' });
-		    });
+		
 
 		/***** END - Navigation *****/
 		
