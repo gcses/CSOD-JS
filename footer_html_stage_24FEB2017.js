@@ -1,321 +1,113 @@
-$(document).ready(function(){
-
-	console.log("Test16");
+(function($) {
+   
+	$smjquery(document).ready(function() {
 	
-	//profile icon replacement
-	//$("#header_headerFixed_imgAvatar").attr({'src': 'https://bd.csod.com/clientimg/bd/welcome/profile.png'});
-	//$('#header_headerFixed_imgAvatar').attr({'width': '5px', 'height': '5px'});
-	
-
-	//var sps = document.getElementsByClassName(".cart a span");
-	//sps[0].css({'background': 'url("https://bd.csod.com/clientimg/bd/welcome/shoppingCart.png")',  'backgroundColor': 'yellow'});
-
-	//$('#settingscontainer').css({'background': 'url("https://bd.csod.com/clientimg/bd/welcome/cog.png")', 'backgroundColor': 'yellow'});
-	
-	
-	
-	
-	
-	
-	$('#main-menu').css({"background-image": "none", "background-color": "#004593"});
-	
-	
-	if (document.title.indexOf("Universal Profile") > -1)
-	{	
-       	 	// change the Profile page's links
-		$('span:contains("Transcript")').each(function(){
- 			$(this).html($(this).html().replace('Transcript','My Learning'));
-		});
-        	$(".nav-transcript").attr("title","My Learning");
-	}
-	
-	//move enlarge slider text / link - margin: top, right, bottom, left
-	 //$(".ism-caption.ism-caption-0").css({"width": "40px", "height": "70px"}); 
-	 $(".myCaptions").css({"margin": "0px 0px 0px 300px"}); 
-	
-	// WELCOME PAGE specific changes
-	if (document.title.indexOf("Welcome - Realize Your Potential") > -1)
-	{
-	    //add action button to slider
-	    $(".sliderButton").css({"opacity": "0.8", "font-weight": "bold", "padding": "12px", "width": "90px", "height": "15px", "color": "#ffffff", "appearance": "button", "text-decoration": "none", "backgroundColor": "#004593", "margin": "140px 0px 0px -55px"}); //top, right, bottom, left
-	    var elements = document.getElementsByClassName("sliderButton");
-		//console.log("num elements: " + elements.length);
-	    for (var i = 0; i < elements.length; i++) 
-	    {
-		 elements[i].style.position = "absolute";
-           	 elements[i].style.zIndex="2147483620";
-	     }
+		/***** BEGIN : Header Tools *****/
+		$('.topBarOuter').css({'height' : '50px'});
+		$('.topBarOuter .tools').css({'padding': '0 10px', 'height' : '60px' , 'margin-right' : '20px'});
+		$('.topBar').css({'margin-top': '0px', 'margin-right': '10px', 'border': 'none'}); 
 		
-		//remove rounded corners from slider
-		$("#my-slider").css({"width": "69%", "margin-bottom": "300px"}); 
-	   	document.getElementById("my-slider").style.borderRadius = "0px";
+		/*****BEGIN: Logo Customization *****/
+		$('.imageLogo').css({'height' : '62px' , 'top' : '-14px' , 'position' : 'relative' });
 		
-		//CARD Style
-	        $(".card").css({"width": "20%", "box-sizing": "border-box", "padding": "0px", "border-radius": "0px 0px 0px 0px", "border-top": "solid 9px #00a79e", "border-bottom": "none", "border-left": "solid 1px #f2f3f4", "border-right": "none", "margin": "0px 0px 0px 0px" }); 
-		$(".card:first-child").css({"border-left": "none"});
-		$(".card:nth-child(2)").css({"border-top": "solid 9px #6f2780"});
-		$(".card:nth-child(3)").css({"border-top": "solid 9px #02abd7"});
-		$(".card li").css({"width": "100%", "box-sizing": "border-box"});
-		$(".card img").css({"width": "100%", "height": "100px"});
-		$(".card h2").css({"padding": "5px", "color": "#808080", "font-size": "14px", "margin-top": "0px"});
-		$(".card a:nth-child(2) li").css({"padding": "5px"});
-		$(".card p ").css({"color": "#808080", "font-size": "10px"});
-
+		/*****BEGIN: Search Bar Customization *****/
+		$('#search').css({ 'border-right': '1px solid #1a589e'});
+		$('#search .cso-top-srch-box').css({'width' : '140px' , 'backgroundColor': '#fff', 'border-radius': '4px', 'margin-right': '20px' , 'border' : 'none' , 'padding-left': '0'});
+		$('#search input').css({'color':'#808080' , 'width' : '130px' });
+		$('#search .search-lnk').css({'background-image' : 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/magnifyingGlass.png")' , 'background-position' : '-5px -4px' });
 		
-		//*************************************
-		//   Z-Index Area (float cards over slider)
-		//*************************************
-		// margin: top, right, bottom, left
-		$(".wrapper").css({"margin": "-270px 0px 0px 15%"});
-        	var elements = document.getElementsByClassName('wrapper');
-       		elements[0].style.position = "absolute"
-        	elements[0].style.zIndex="2147483644";
-	}
-	
-	//Make the home page clickable and link to the Welcome page / Main page
-	$('a:contains("Home")').attr("href","/LMS/catalog/Main.aspx?tab_page_id=-67");
-	    
-	//hide the various Cornerstone footers
-	$('.df-footer').hide();
-	
-	// -------------  Browse For Training Global Search Options -------------
-	if (document.title.indexOf("Browse for Training") > -1)
-	{		 
-		//Change "Subject" header to "Topic"
-		$('h2:contains("Subject")').each(function(){
- 			$(this).html($(this).html().replace('Subject','Topic'));
-			});
-
-        }  //end Browse For Training
-
-   	
-
-       //show the advanced search option whenever search is shown
-       $("#lnkShowMoreSearchOptions").each(function(){
-        	eventFire(document.getElementById('lnkShowMoreSearchOptions'), 'click');
-       });
-	
-       //remove the close button on the advanced options
-       $(".cs-advsrch-close-btn").remove();
-	
-       //hide the first name field. It is only included to that we can use the name elsewhere
-       $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl01_widgetContainer_ctl00_htmlContainer").hide();
-	
-       //use the name field to alter the My Learning header
-       var fName = $("#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl01_widgetContainer_ctl00_htmlContainer").text();
-	
-	if (fName != null)
-	{
-     	  $('h2:contains("My Learning")').each(function(){
- 	    $(this).html($(this).html().replace('My Learning', fName + '\'s Learning In Progress'));
-		});
-	}
-	else
-	{
-		$('h2:contains("My Learning")').each(function(){
- 	    		$(this).html($(this).html().replace('My Learning', 'Learning In Progress'));
-		});
-	}
-
-        $smjquery('#main-menu').smartmenus('refresh');
-	
-        $("a:has(span:contains('Popular'))").remove();
-	
-        $('h2:contains("Browse for Training")').each(function(){
- 		$(this).html($(this).html().replace('Browse for Training','Browse Learning'));
-	});
-	
-	$('h2:contains("Suggested Training")').each(function(){
- 		$(this).html($(this).html().replace('Suggested Training','Suggested Learning'));
-	});
-	
-	$('a:contains("Change your password")').each(function(){
- 		$(this).remove();
-	});
-	
-	$('a:contains("Go to Customer Portal")').each(function(){
- 		$(this).remove();
-	});
-	
-	$(".cso-cont-padtb5:has(h3:contains('Subjects'))").remove();
-	$(".cso-cont-padtb5:has(h3:contains('Available Languages'))").remove();
-	$(".cso-cont-padtb5:has(h3:contains('Product'))").remove();
-	$(".cso-cont-padtb5:has(h3:contains('Brand'))").remove();
-	$(".cso-cont-padtb5:has(span:contains('$0.00'))").remove();
-	$(".dot:contains('$0.00')").remove();
-	$(".usr-content:has(div:has(span:contains('$0.00')))").remove();
-
-	$("[aria-labelledby=Support]").empty();
-	
-        $("[aria-labelledby=Support]").append('<li><a href="https://eim.carefusion.com/Account/ChangePassword" title="Change Password" tabindex="-1">Change Password</a></li><li><a href="/catalog/CustomPage.aspx?id=20000480&amp;tab_page_id=20000480" title="Contact Us" tabindex="-1">Contact Us</a></li><li><a href="/catalog/CustomPage.aspx?id=20000479&amp;tab_page_id=20000479" title="Frequently Asked Questions" tabindex="-1">Frequently Asked Questions</a></li>');
-        $smjquery('#main-menu').smartmenus('refresh');
-
-	$('.cso-txt span:contains("Online Class")').each(function(){
- 	     $(this).html($(this).html().replace('Online Class','Web-Based Training'));
-	    });
-
-	$('[data-original-title="Online Class"]').attr('data-original-title', 'Web-Based Training');
-        //  $('.tooltip-cso').tooltip();
-	
-	
-	$('.cso-brdcrm-cont a:contains("Browse for Training")').each(function(){
- 	$(this).html($(this).html().replace('Browse for Training','Browse Learning'));
-	});
-
-	$('.cso-title-cont.cso-wsp-cont span:contains("Browse for Training")').each(function(){
- 	$(this).html($(this).html().replace('Browse for Training','Browse Learning'));
-	});
-
-	$('.cso-cont-marb35.cso-cont-mart20 h2:contains("Training")').each(function(){
- 	$(this).html($(this).html().replace('Training','Learning'));
-	});
-
-	$('.navTabs-subTabList a:contains("Browse for Training")').each(function(){
- 	$(this).html($(this).html().replace('Browse for Training','Browse Learning'));
-	});
-
-	$('.navTabs-subTabList a:contains("Manage Employee Learning")').each(function(){
- 	$(this).html($(this).html().replace('Manage Employee Learning','Manage My Learners'));
-	});
-
-	
-	
-	
-	//master icons - learning objects
-	//   /clientimg/bd/welcome/lo_sprite_lrg.png
-
-	//master icons - general
-        //   /clientimg/bd/welcome/compass-sprite.png
-/*
-	$('.item.oc').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px 5px transparent'});
-
-	$('.item.mt').css({'background':'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px 5px transparent'});
-
-	$('.item.ts').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px 5px transparent'});
-
-	$('.item.ev').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px 5px transparent'});
-
-	$('.item.vd').css({'background': 'url("/clientimg/bd/welcome/lo_sprite_lrg.png") no-repeat scroll 0px 5px transparent'});
-*/
-	//$('#ctl00_ContentPlaceHolder1_widgetLayout_rptWidgets_ctl01_widgetContainer_ctl00_pnlSuggestedTraining_title').css({'background-color':'#00B8B0'});
-        
-
-	//setInterval here breaks Internet Explorer
-	//window.setInterval(replaceOnlineClass, 1000);
-	replaceOnlineClass();
-	
-	if (document.getElementById("common-messages"))   
-	{
-			try
-			{
-				if (document.getElementById("common-messages").innerHTML.indexOf("This training item is currently unavailable to you.") > -1)
-				{
-					document.getElementById("common-messages").innerHTML = '<div>' +
-                
-						'<span class="cso-txt blue">' +
-						'This item is part of a curriculum. ' +
-						'Please return to the previous page and select Request to access this item.' +
-						'</span>' +
-					'</div>';
-					
-				} //end if
-			} 
-			catch(err)
-			{
-				console.log("common-messages = null");
-			}
-			
-			try
-			{
-				console.log("selectedSearchEngineID = " + selectedSearchEngineID);
-			} 
-			catch(err)
-			{
-			}
-	} //end if
-	
-	
-	// $(".usr-content:contains('$0.00')").css("border", "solid red");
-			
-	$(".usr-content:contains('$0.00')").each(function(){
-			$(this).html($(this).html().replace('Total Price',''));
- 			$(this).html($(this).html().replace('$0.00',''));
-	});
-	
-	 // console.log("replace() - End");
-	
-});
-
-
-function eventFire(element, elementType)
-{
-      if (element.fireEvent)
-       {
-           element.fireEvent('on' + elementType);
-       } 
-      else 
-      {
-	   var eventObject = document.createEvent('Events');
-	   eventObject.initEvent(elementType, true, false);
-	   element.dispatchEvent(eventObject);
-      } 
-}
-
-var expanded = false;
-
-function showCheckboxes() {
-  var checkboxes = document.getElementById("checkboxes");
-  if (!expanded) {
-    checkboxes.style.display = "block";
-    expanded = true;
-  } else {
-    checkboxes.style.display = "none";
-    expanded = false;
-  }
-}
-
-
-function replaceOnlineClass() 
-{
-    //	console.log("replace() - Start");
+		/*****END: Search Bar Customization *****/
 		
-    var elements=document.getElementsByTagName("*"), count=elements.length, elementChildNodes=[], subCount=0, i=0, sub=0, elementHeight=0;
-    
-    for(i=0; i<count; i++)
-    {
-	elementChildNodes = elements[i].childNodes;
-	subCount = elementChildNodes.length;
-	for (sub=0; sub<subCount; sub++)
-	{
-		//  if(elementChildNodes[sub].nodeType === 1 || elementChildNodes[sub].nodeType === 3) {
-		if(elementChildNodes[sub].nodeType === 3)
-		{
-		   // console.log("replaceOnlineClass() - i="+i+" - sub="+sub);
-					try {
-						elementChildNodes[sub].nodeValue = elementChildNodes[sub].nodeValue.replace(new RegExp("Online Class", "g"), "Web-based Training");
-					} catch(err) {
-					}
-					try {	
-						elementChildNodes[sub].innerText = elementChildNodes[sub].innerText.replace(new RegExp("Online Class", "g"), "Web-based Training");
-					} catch(err) {
-					}
-					try {
-						elementChildNodes[sub].textContent = elementChildNodes[sub].textContent.replace(new RegExp("Online Class", "g"), "Web-based Training");
-					} catch(err) {
-					}
-					try {
-						elementChildNodes[sub].innerHTML = elementChildNodes[sub].innerHTML.replace(new RegExp("Online Class", "g"), "Web-based Training");
-					} catch(err) {
-					}
-					try {
-						elementChildNodes[sub].text = elementChildNodes[sub].text.replace(new RegExp("Online Class", "g"), "Web-based Training");
-					} 
-					catch(err) 
-					{
-					}
-		 } //end if
-				  
-	} //end inner for
-    } //end outer for
-} //end function	
+		/***** BEGIN : AVATAR IMAGE **********/
+
+		//var avatargImg = $(document.getElementById('ctl00_header_headerFixed_imgAvatar'));
+		//avatargImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/avatar-sm.png');
+		$('.user-interaction .avatar a img').css({ 'height' : '40px !important' , 'width' : '40px !important'});
+		$('.avatar').css({'backgroundColor': '#004593', 'margin-right': '10px', 'border': '0px solid #004593' , 'border-radius': '0', 'padding-left': '0'});
+		$('.avatar a .img').css({'backgroundColor': '#004593', 'border-radius': '0', 'border': '0px solid #004593'});
+		$('.avatar a').css({'backgroundColor': '#004593', 'border-radius': '0',  'margin-top': '0px', 'margin-right': '10px', 'border': '0px solid #004593'});
+		/******* END : AVATAR Image *****/ 
 		
+		/************ BEGIN : COG ***********/
+		$('.user-interaction .settings a span').css({'background-image' : 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/gear-small.png")' , 'top' : '-2px' , 'left' : '-1px' });
+		$('.user-interaction').css({'backgroundcolor': 'none', 'border-radius': '0', 'border': 'none' , 'margin-left' : '20px'});
+		//$smjquery('.user-interaction li').css({'border-radius': '0', 'border': 'none'});
+		$('.cso-hdr-dd .item a span').css({'background-image' : 'none' });
+		$('.settings a span').css({'background-position' : '0 0' , 'height' : '40px' , 'width' : '40px' });
+		$('.cso-hdr-dd .item a span').css({'height' : 'auto' , 'width' : 'auto' });
+		
+		
+		/***** BEGIN - Navigation *****/
+		$('.c-glbl-nav').css({'height' : '62px'});
+		var lcTitleImg = $('<img id=\"lcTitle\">');
+		lcTitleImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/Learning_Compass_title_img.png');
+		$(lcTitleImg).insertBefore('.c-glbl-nav ul:first-child');
+		$('#lcTitle').css({'float': 'left', 'display' : 'inline-block' , 'vertical-align' : 'middle' , 'font-size' : '16px', 'height' : '62px' });
+		$('.navTabs').css({'background': '#fff' , 'padding-top' : '12px' });
+		$('.navTabs li').css({'padding-right': '5px'});
+		$('.navTabs-subTabList li').css({'border-right': 'none' });
+		$('.navTabs li:last-child').css({'border-right': 'none' });
+		$('.navTabs li a').css({'color':'#808080', 'text-shadow' : 'none'});
+		$('.navTabs li a:hover').css({'text-shadow' : 'none' , 'background-color' : 'none !important'});
+		$('.navTabs li a.highlighted').css({'background-color' : '#fff !important'});
+		$('#main-menu li a.has-submenu.highlighted').attr('style', 'background-color: #fff !important');
+		$('.navTabs li.active').css({ 'font-weight' : 'bold !important' ,  'background-color' : '#fff !important' , 'color' : '#000' });
+		   $('.navTabs li').hover(function() {
+			$(this).css('background-color', '#fff !important');
+		    }, function() {
+			$(this).css('background-color', '#fff');
+		    });
+		
+
+		/***** END - Navigation *****/
+		
+	       //Make the home page clickable and link to the Welcome page / Main page
+	       $('a:contains("Home")').attr("href","/ui/lms-learner-home/home?tab_page_id=-200300006"); 
+	
+		/***** BEGIN - Footer *****/
+		$('.df-footer').css({"display": "none"}); // hide the csod default footer
+		//create grey background and add sloped image
+		$('#ctl00_footer_pnlCustomFooter').css({"backgroundColor": "#f2f2f2"});
+		var footerImg = $('<img id="slopedFooterImage">');
+	        footerImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/angle.png');
+                footerImg.appendTo('#ctl00_footer_pnlCustomFooter');
+		
+		var footerContents = $('<div class="footerContentsRow">' +
+			    '<div class="colX"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/bd_white_rgb_tag_EN_1_5.png" id="footerLogo"></div>' +
+			    '<div class="col"><a href="http://www.facebook.com/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/facebookIcon.png" id="sm1"></a></div>' +
+			    '<div class="col"><a href="http://www.linkedin.com/company/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/linkedInIcon.jpg" id="sm2"></a></div>' +
+			    '<div class="col"><a href="http://youtube.com/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/youTubeIcon.jpg" id="sm3"></a></div>' +
+			    '<div class="col"><a href="http://twitter.com/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/twitterIcon.jpg" id="sm4"></a> </div>' +
+			    '<div class="col copyright"><p class="copy">&copy; 2017 BD. All rights reserved. Unless otherwise noted, BD, the BD Logo and all other trademarks are property of Becton, Dickinson and Company.</p></div>' +
+			    '<div class="col footerLink privacy"><a href="http://www.bd.com/legal/privacy_policy/">Privacy Policy</a></div>' +
+			    '<div class="col footerLink"><a href="http://www.bd.com/legal/terms/">Terms of Use</a></div>' +
+			'</div>');
+		
+		footerContents.appendTo('#ctl00_footer_pnlCustomFooter');
+		
+		//offset the slope a bit to offset whatever is pulling it down
+		$('#slopedFooterImage').css({'max-width' : '100%',  'margin-top': '-5px', 'display' : 'block' , 'height' : 'auto'});
+	
+		$('#ctl00_footer_pnlCustomFooter').css({'padding' : '0'});
+		$('.footerContentsRow').css({'backgroundColor': '#004593', 'color': '#fff' , 'font-size' : '11px' ,
+'padding' : '30px 20px 20px', 'text-align' : 'center' ,  'margin-top' : '-5px' , 'height' : '150px'});
+		
+		//the logo div is too tall and raises the entire footer. Setting a small height here seems to solve.
+		$('.footerContentsRow div.colX').css({'height': '3px', 'float' : 'left', 'display' : 'inline-block', 'min-width' : '20px' , 'width' : 'auto' , 'padding' : '20px 5px 5px' });
+		
+		$('.footerContentsRow div.col').css({'float' : 'left', 'display' : 'inline-block', 'min-width' : '20px' , 'width' : 'auto' , 'padding' : '20px 5px 5px' });
+		$('.footerContentsRow div.copyright').css({'width' : '49%', 'text-align' : 'center' , 'margin' : '0 auto' , 'float' : 'none' });
+		// now style the footer elements
+		$('#footerLogo').css({'position' : 'relative' , 'top': '-35px' });
+		$('#sm1').css({'height': '20px'});
+		$('#sm2').css({'height': '27px'});
+		$('#sm3').css({'height': '25px'});
+		$('#sm4').css({'height': '25px'});
+		$('.footerLink').css({'float' : 'right' , 'border-right': '1px solid #ccc' , 'padding' : '0 15px', 'margin-top' : '20px' });
+		$('.privacy').css({'border-right' : 'none'});
+		$('.footerLink a').css({'color' : '#fff'});
+		
+		/***** END - Footer *****/
+	});
+
+}($smjquery)); 
