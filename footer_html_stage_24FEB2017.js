@@ -22,7 +22,7 @@
 
 		//var avatargImg = $(document.getElementById('ctl00_header_headerFixed_imgAvatar'));
 		//avatargImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/avatar-sm.png');
-		$('.user-interaction .avatar a img').css({ 'height' : '40px !important' , 'width' : '40px !important'});
+		//$('.user-interaction .avatar a img').css({ 'height' : '40px !important' , 'width' : '40px !important'});
 		$('.avatar').css({'backgroundColor': '#004593', 'margin-right': '10px', 'border': '0px solid #004593' , 'border-radius': '0', 'padding-left': '0'});
 		$('.avatar a .img').css({'backgroundColor': '#004593', 'border-radius': '0', 'border': '0px solid #004593'});
 		$('.avatar a').css({'backgroundColor': '#004593', 'border-radius': '0',  'margin-top': '0px', 'margin-right': '10px', 'border': '0px solid #004593'});
@@ -32,7 +32,7 @@
 		$('.user-interaction').css({'backgroundcolor': 'none', 'border-radius': '0', 'border': 'none' , 'margin-left' : '20px'});
 		//$smjquery('.user-interaction li').css({'border-radius': '0', 'border': 'none'});
 		$('.cso-hdr-dd .item a span').css({'background-image' : 'none' });
-		$('.settings a span').css({'background-position' : '0 0' , 'height' : '40px' , 'width' : '40px' });
+		//$('.settings a span').css({'background-position' : '0 0' , 'height' : '40px' , 'width' : '40px' });
 		$('.cso-hdr-dd .item a span').css({'height' : 'auto' , 'width' : 'auto' });
 		
 		
