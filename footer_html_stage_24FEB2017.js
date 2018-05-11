@@ -29,7 +29,6 @@
 		/******* END : AVATAR Image *****/ 
 		
 		/************ BEGIN : COG ***********/
-		//$('.user-interaction .settings a span').css({'background-image' : 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/gear-small.png")' , 'top' : '-2px' , 'left' : '-1px' });
 		$('.user-interaction').css({'backgroundcolor': 'none', 'border-radius': '0', 'border': 'none' , 'margin-left' : '20px'});
 		//$smjquery('.user-interaction li').css({'border-radius': '0', 'border': 'none'});
 		$('.cso-hdr-dd .item a span').css({'background-image' : 'none' });
