@@ -22,18 +22,17 @@
 
 		//var avatargImg = $(document.getElementById('ctl00_header_headerFixed_imgAvatar'));
 		//avatargImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/avatar-sm.png');
-		$('.user-interaction .avatar a img').css({ 'height' : '40px !important' , 'width' : '40px !important'});
+		//$('.user-interaction .avatar a img').css({ 'height' : '40px !important' , 'width' : '40px !important'});
 		$('.avatar').css({'backgroundColor': '#004593', 'margin-right': '10px', 'border': '0px solid #004593' , 'border-radius': '0', 'padding-left': '0'});
 		$('.avatar a .img').css({'backgroundColor': '#004593', 'border-radius': '0', 'border': '0px solid #004593'});
 		$('.avatar a').css({'backgroundColor': '#004593', 'border-radius': '0',  'margin-top': '0px', 'margin-right': '10px', 'border': '0px solid #004593'});
 		/******* END : AVATAR Image *****/ 
 		
 		/************ BEGIN : COG ***********/
-		$('.user-interaction .settings a span').css({'background-image' : 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/gear-small.png")' , 'top' : '-2px' , 'left' : '-1px' });
 		$('.user-interaction').css({'backgroundcolor': 'none', 'border-radius': '0', 'border': 'none' , 'margin-left' : '20px'});
 		//$smjquery('.user-interaction li').css({'border-radius': '0', 'border': 'none'});
 		$('.cso-hdr-dd .item a span').css({'background-image' : 'none' });
-		$('.settings a span').css({'background-position' : '0 0' , 'height' : '40px' , 'width' : '40px' });
+		//$('.settings a span').css({'background-position' : '0 0' , 'height' : '40px' , 'width' : '40px' });
 		$('.cso-hdr-dd .item a span').css({'height' : 'auto' , 'width' : 'auto' });
 		
 		
@@ -51,7 +50,7 @@
 		$('.navTabs li a:hover').css({'text-shadow' : 'none' , 'background-color' : 'none !important'});
 		$('.navTabs li a.highlighted').css({'background-color' : '#fff !important'});
 		$('#main-menu li a.has-submenu.highlighted').attr('style', 'background-color: #fff !important');
-		$('.navTabs li.active').css({ 'font-weight' : 'bold !important' ,  'background-color' : '#fff !important' , 'color' : '#000' });
+		$('.navTabs li.active a').css({ 'font-weight' : 'bold !important' ,  'background-color' : '#fff !important' , 'color' : '#000' });
 		   $('.navTabs li').hover(function() {
 			$(this).css('background-color', '#fff !important');
 		    }, function() {
@@ -78,7 +77,7 @@
 			    '<div class="col"><a href="http://www.linkedin.com/company/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/linkedInIcon.jpg" id="sm2"></a></div>' +
 			    '<div class="col"><a href="http://youtube.com/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/youTubeIcon.jpg" id="sm3"></a></div>' +
 			    '<div class="col"><a href="http://twitter.com/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/twitterIcon.jpg" id="sm4"></a> </div>' +
-			    '<div class="col copyright"><p class="copy">&copy; 2017 BD. All rights reserved. Unless otherwise noted, BD, the BD Logo and all other trademarks are property of Becton, Dickinson and Company.</p></div>' +
+			    '<div class="col copyright"><p class="copy">&copy; 2018 BD. All rights reserved. Unless otherwise noted, BD, the BD Logo and all other trademarks are property of Becton, Dickinson and Company.</p></div>' +
 			    '<div class="col footerLink privacy"><a href="http://www.bd.com/legal/privacy_policy/">Privacy Policy</a></div>' +
 			    '<div class="col footerLink"><a href="http://www.bd.com/legal/terms/">Terms of Use</a></div>' +
 			'</div>');
