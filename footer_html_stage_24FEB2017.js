@@ -50,7 +50,7 @@
 		$('.navTabs li a:hover').css({'text-shadow' : 'none' , 'background-color' : 'none !important'});
 		$('.navTabs li a.highlighted').css({'background-color' : '#fff !important'});
 		$('#main-menu li a.has-submenu.highlighted').attr('style', 'background-color: #fff !important');
-		$('.navTabs li.active a').css({ 'font-weight' : 'bold !important' ,  'background-color' : '#fff !important' , 'text-decoration' : 'underline' });
+		$('.navTabs li.active a').css({ 'font-weight' : 'bold !important' ,  'background-color' : '#fff !important' , 'opacity' : '0.6' });
 		   $('.navTabs li').hover(function() {
 			$(this).css('background-color', '#fff !important');
 		    }, function() {
