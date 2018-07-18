@@ -10,6 +10,12 @@
 		/*****BEGIN: Logo Customization *****/
 		$('.imageLogo').css({'height' : '62px' , 'top' : '-14px' , 'position' : 'relative' });
 		
+		var feedback_button = $('<img id=\"fdSurvey\">');
+		feedback_button.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/btn_feedback.png');
+		feedback_button.attr('href', 'https://bd2.az1.qualtrics.com/jfe/form/SV_5yWSp8x3k8D4PBz');
+		$(feedback_button).insertBefore('#search');
+		$(feedback_button).css({'width' : '80px' , 'margin-right': '20px', 'cursor' : 'pointer';});
+		
 		/*****BEGIN: Search Bar Customization *****/
 		$('#search').css({ 'border-right': '1px solid #1a589e'});
 		$('#search .cso-top-srch-box').css({'width' : '140px' , 'backgroundColor': '#fff', 'border-radius': '4px', 'margin-right': '20px' , 'border' : 'none' , 'padding-left': '0'});
