@@ -7,6 +7,12 @@
 		$('.topBarOuter .tools').css({'padding': '0 10px', 'height' : '60px' , 'margin-right' : '20px'});
 		$('.topBar').css({'margin-top': '0px', 'margin-right': '10px', 'border': 'none'}); 
 		
+		
+		var feedback_button = $('<img id=\"fdSurvey\">');
+		feedback_button.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/btn_feedback.png');
+		feedback_button.attr('href', 'https://bd2.az1.qualtrics.com/jfe/form/SV_5yWSp8x3k8D4PBz');
+		$(feedback_button).insertBefore('#search');
+		
 		/*****BEGIN: Logo Customization *****/
 		$('.imageLogo').css({'height' : '62px' , 'top' : '-14px' , 'position' : 'relative' });
 		
