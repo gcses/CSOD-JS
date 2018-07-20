@@ -12,6 +12,7 @@
 		
 		var feedback_button = $('<img id=\"fdSurvey\">');
 		feedback_button.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/btn_feedback.png');
+		feedback_button.attr('target', '_blank');
 		$(feedback_button).insertBefore('#search');
 		$(feedback_button).css({'width' : '80px' , 'height' : '35px' ,  'margin-right': '20px', 'cursor' : 'pointer'});
 		$(feedback_button).wrap($("<a class=\"feedback-link\">").attr('href', 'https://bd2.az1.qualtrics.com/jfe/form/SV_5yWSp8x3k8D4PBz'));
