@@ -11,7 +11,7 @@
 		$('.imageLogo').css({'height' : '62px' , 'top' : '-14px' , 'position' : 'relative' });
 		
 		var feedback_button = $('<img id=\"fdSurvey\">');
-		feedback_button.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/btn_feedback.png');
+		feedback_button.attr('src', 'https://bd.csod.com/clientimg/bd/welcome/btn_feedback.png');
 		feedback_button.attr('target', '_blank');
 		$(feedback_button).insertBefore('#search');
 		$(feedback_button).css({'width' : '80px' , 'height' : '35px' ,  'margin-right': '20px', 'cursor' : 'pointer'});
