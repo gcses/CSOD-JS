@@ -81,7 +81,7 @@
 	        footerImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/angle.png');
                 footerImg.appendTo('#ctl00_footer_pnlCustomFooter');
 		
-		var footerQuickLinkBox = $('<div id="footerQuickLinks" style="height:>');
+		var footerQuickLinkBox = $('<div id="footerQuickLinks" style="height : 100px; background-color: #e6e7e9">');
                 footerQuickLinkBox.appendTo("#footerQuickLinks");
 		$('#footerQuickLinks').css({'color':'#cccccc' , 'height' : '130px' , 'width' :  '100%'});
 		
