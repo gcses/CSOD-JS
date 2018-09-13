@@ -82,10 +82,10 @@
                 footerImg.appendTo('#ctl00_footer_pnlCustomFooter');
 		
 		var footerQuickLinksBox = $('<div id="footerQuickLinks" style="height : 100px; background-color: #e6e7e9">' +
-			'<div class="row"> +
-					    '<div class="column"><a href="http://www.bd.com/legal/privacy_policy/">Link</a> +
-					    '<div class="column"><a href="http://www.bd.com/legal/privacy_policy/">Link</a> +
-					    '<div class="column"><a href="http://www.bd.com/legal/privacy_policy/">Link</a> +
+			'<div class="row">' +
+					    '<div class="column"><a href="http://www.bd.com/legal/privacy_policy/">Link</a>' +
+					    '<div class="column"><a href="http://www.bd.com/legal/privacy_policy/">Link</a>' +
+					    '<div class="column"><a href="http://www.bd.com/legal/privacy_policy/">Link</a>' +
 					    '</div>' +
 					    '</div>' +
 					    '</div>' +
