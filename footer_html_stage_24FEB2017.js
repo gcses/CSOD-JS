@@ -76,13 +76,15 @@
 		$('.df-footer').css({"display": "none"}); // hide the csod default footer
 		//create grey background and add sloped image
 		$('#ctl00_footer_pnlCustomFooter').css({"backgroundColor": "#f2f2f2"});
+				
+		var footerImg = $('<img id="slopedFooterImage">');
+	        footerImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/angle.png');
+                footerImg.appendTo('#ctl00_footer_pnlCustomFooter');
+		
 		var footerQuickLinkBox = $('<div id="footerQuickLinks" style="height:>');
                 footerQuickLinkBox.appendTo("#footerQuickLinks");
 		$('#footerQuickLinks').css({'color':'#cccccc' , 'height' : '130px' , 'width' :  '100%'});
 		
-		var footerImg = $('<img id="slopedFooterImage">');
-	        footerImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/angle.png');
-                footerImg.appendTo('#ctl00_footer_pnlCustomFooter');
 		
 		var footerContents = $('<div class="footerContentsRow">' +
 			    '<div class="colX"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/bd_white_rgb_tag_EN_1_5.png" id="footerLogo"></div>' +
