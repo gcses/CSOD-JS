@@ -77,8 +77,8 @@
 		//create grey background and add sloped image
 		$('#ctl00_footer_pnlCustomFooter').css({"backgroundColor": "#f2f2f2"});
 		var footerQuickLinkBox = $('<div id="footerQuickLinks" style="height:>');
-                footerQuickLinkBox.appendTo(footerImg);
-		$('#footerQuickLinks').css({'color':'#cccccc' , 'height' : '130px' });
+                footerQuickLinkBox.appendTo("#footerQuickLinks");
+		$('#footerQuickLinks').css({'color':'#cccccc' , 'height' : '130px' , 'width' :  '100%'});
 		
 		var footerImg = $('<img id="slopedFooterImage">');
 	        footerImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/angle.png');
