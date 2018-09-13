@@ -82,17 +82,18 @@
                 footerImg.appendTo('#ctl00_footer_pnlCustomFooter');
 		
 		var footerQuickLinksBox = $('<div id="footerQuickLinks" style="height : 100px; background-color: #e6e7e9">' +
-				'<div class="colX"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/bd_white_rgb_tag_EN_1_5.png" id="footerLogo"></div>' +
-			    '<div class="col"><a href="http://www.facebook.com/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/facebookIcon.png" id="sm1"></a></div>' +
-			    '<div class="col"><a href="http://www.linkedin.com/company/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/linkedInIcon.jpg" id="sm2"></a></div>' +
-			    '<div class="col"><a href="http://youtube.com/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/youTubeIcon.jpg" id="sm3"></a></div>' +
-			    '<div class="col"><a href="http://twitter.com/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/twitterIcon.jpg" id="sm4"></a> </div>' +
-			    '<div class="col copyright"><p class="copy">&copy; 2018 BD. All rights reserved. Unless otherwise noted, BD, the BD Logo and all other trademarks are property of Becton, Dickinson and Company.</p></div>' +
-			    '<div class="col footerLink privacy"><a href="http://www.bd.com/legal/privacy_policy/">Privacy Policy</a></div>' +
-			    '<div class="col footerLink"><a href="http://www.bd.com/legal/terms/">Terms of Use</a></div>' +
-			'</div>');
+			'<div class="row"> +
+					    '<div class="column"><a href="http://www.bd.com/legal/privacy_policy/">Link</a> +
+					    '<div class="column"><a href="http://www.bd.com/legal/privacy_policy/">Link</a> +
+					    '<div class="column"><a href="http://www.bd.com/legal/privacy_policy/">Link</a> +
+					    '</div>' +
+					    '</div>' +
+					    '</div>' +
+			 '</div>');
                 footerQuickLinksBox.appendTo('#ctl00_footer_pnlCustomFooter');
-		$('#footerQuickLinks').css({'color':'#cccccc' , 'height' : '130px' , 'width' :  '100%'});
+		$('#footerQuickLinks row').css({'color':'#cccccc' , 'height' : 'auto' , 'width' :  '100%'});
+		$('#footerQuickLinks row:after').css({'content':'' , 'display' : 'table' , 'clear' :  'both'});
+		$('#footerQuickLinks col').css({'height' : 'auto' , 'width' :  '33.33%'});
 		
 		
 		var footerContents = $('<div class="footerContentsRow">' +
