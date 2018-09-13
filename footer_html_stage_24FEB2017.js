@@ -76,6 +76,10 @@
 		$('.df-footer').css({"display": "none"}); // hide the csod default footer
 		//create grey background and add sloped image
 		$('#ctl00_footer_pnlCustomFooter').css({"backgroundColor": "#f2f2f2"});
+		var footerQuickLinkBox = $('<div id="footerQuickLinks" style="height:>');
+                footerQuickLinkBox.appendTo(footerImg);
+		$('#footerQuickLinks').css({'color':'#cccccc' , 'height' : '130px' });
+		
 		var footerImg = $('<img id="slopedFooterImage">');
 	        footerImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/angle.png');
                 footerImg.appendTo('#ctl00_footer_pnlCustomFooter');
