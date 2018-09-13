@@ -82,7 +82,7 @@
                 footerImg.appendTo('#ctl00_footer_pnlCustomFooter');
 		
 		var footerQuickLinkBox = $('<div id="footerQuickLinks" style="height : 100px; background-color: #e6e7e9">');
-                footerQuickLinkBox.appendTo("#footerQuickLinks");
+                footerQuickLinkBox.appendTo('#ctl00_footer_pnlCustomFooter');
 		$('#footerQuickLinks').css({'color':'#cccccc' , 'height' : '130px' , 'width' :  '100%'});
 		
 		
