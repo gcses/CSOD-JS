@@ -76,16 +76,12 @@
 		$('.df-footer').css({"display": "none"}); // hide the csod default footer
 		//create grey background and add sloped image
 		$('#ctl00_footer_pnlCustomFooter').css({"backgroundColor": "#f2f2f2"});
-				
-		var footerImg = $('<img id="slopedFooterImage">');
-	        footerImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/angle.png');
-                footerImg.appendTo('#ctl00_footer_pnlCustomFooter');
 		
 		var footerQuickLinksBox = $('<div id="footerQuickLinks" style="height : 100px; background-color: #e6e7e9">' +
 			'<div class="row">' +
-					    '<div class="column"><a href="http://www.bd.com/legal/privacy_policy/">Link</a>' +
-					    '<div class="column"><a href="http://www.bd.com/legal/privacy_policy/">Link</a>' +
-					    '<div class="column"><a href="http://www.bd.com/legal/privacy_policy/">Link</a>' +
+					    '<div class="col"><a href="http://www.bd.com/legal/privacy_policy/">Link</a>' +
+					    '<div class="col"><a href="http://www.bd.com/legal/privacy_policy/">Link</a>' +
+					    '<div class="col"><a href="http://www.bd.com/legal/privacy_policy/">Link</a>' +
 					    '</div>' +
 					    '</div>' +
 					    '</div>' +
@@ -94,6 +90,11 @@
 		$('#footerQuickLinks row').css({'color':'#cccccc' , 'height' : 'auto' , 'width' :  '100%'});
 		$('#footerQuickLinks row:after').css({'content':'' , 'display' : 'table' , 'clear' :  'both'});
 		$('#footerQuickLinks col').css({'height' : 'auto' , 'width' :  '33.33%'});
+		
+				
+		var footerImg = $('<img id="slopedFooterImage">');
+	        footerImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/angle.png');
+                footerImg.appendTo('#ctl00_footer_pnlCustomFooter');
 		
 		
 		var footerContents = $('<div class="footerContentsRow">' +
