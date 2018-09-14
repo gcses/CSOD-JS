@@ -122,7 +122,7 @@
                 footerQuickLinksBox.appendTo('#ctl00_footer_pnlCustomFooter');
 		$('#footerQuickLinks .row').css({'border':'1px solid blue' , 'height' : 'auto' , 'width' :  '100%', 'font-size' : '10px'});
 		$('#footerQuickLinks .row:after').css({'content':'' , 'display' : 'table' , 'clear' :  'both'});
-		$('#footerQuickLinks .col').css({'height' : '300px' , 'width' :  '33.33%', 'border' : '1px solid yellow'});
+		$('#footerQuickLinks .col').css({'height' : '300px' , 'width' :  '33.33%', 'border' : '1px solid yellow', 'float' : 'left'});
 		$('#footerQuickLinks ul li a').css({'font-weight' : 'normal' , 'color' :  '#404041'});
 		
 				
