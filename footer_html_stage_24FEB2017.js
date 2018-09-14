@@ -77,7 +77,7 @@
 		//create grey background and add sloped image
 		$('#ctl00_footer_pnlCustomFooter').css({"backgroundColor": "#f2f2f2"});
 		
-		var footerQuickLinksBox = $('<div id="footerQuickLinks" style="height : auto; background-color: #e6e7e9; border: 1px solid red;">' +
+		var footerQuickLinksBox = $('<div id="footerQuickLinks" style="height : auto; background-color: #e6e7e9;">' +
 			'<div class="row">' +
 					    '<div class="col">Hot Topics' +
 					    	'<ul>' +
@@ -120,9 +120,9 @@
 					    '</div>' +
 			 '</div>');
                 footerQuickLinksBox.appendTo('#ctl00_footer_pnlCustomFooter');
-		$('#footerQuickLinks .row').css({'border':'1px solid blue' , 'height' : 'auto' , 'width' :  '100%', 'font-size' : '10px'});
+		$('#footerQuickLinks .row').css({'height' : 'auto' , 'width' :  '100%', 'font-size' : '10px'});
 		$('#footerQuickLinks .row:after').css({'content':'' , 'display' : 'table' , 'clear' :  'both'});
-		$('#footerQuickLinks .col').css({'height' : '300px' , 'width' :  '33.33%', 'border' : '1px solid yellow', 'float' : 'left'});
+		$('#footerQuickLinks .col').css({'height' : '300px' , 'width' :  '33.33%', 'float' : 'left'});
 		$('#footerQuickLinks ul li a').css({'font-weight' : 'normal' , 'color' :  '#404041'});
 		
 				
