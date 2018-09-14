@@ -50,7 +50,7 @@
 		var lcTitleImg = $('<img id=\"lcTitle\">');
 		lcTitleImg.attr('src', 'https://bd-stg.csod.com/clientimg/bd/welcome/Learning_Compass_title_img1.png');
 		$(lcTitleImg).insertBefore('.c-glbl-nav ul:first-child');
-		$('#lcTitle').css({'float': 'left', 'display' : 'inline-block' , 'vertical-align' : 'middle' , 'font-size' : '16px', 'height' : '62px' });
+		$('#lcTitle').css({'float': 'left', 'display' : 'inline-block' , 'vertical-align' : 'middle' , 'font-size' : '16px', 'height' : '58px' });
 		$('.navTabs').css({'background': '#fff' , 'padding-top' : '12px' });
 		$('.navTabs li').css({'padding-right': '5px'});
 		$('.navTabs-subTabList li').css({'border-right': 'none' });
