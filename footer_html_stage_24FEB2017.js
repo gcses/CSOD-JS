@@ -75,7 +75,7 @@
 		/***** BEGIN - Footer *****/
 		$('.df-footer').css({"display": "none"}); // hide the csod default footer
 		//create grey background and add sloped image
-		$('#ctl00_footer_pnlCustomFooter').css({"backgroundColor": "#f2f2f2"});
+		$('#ctl00_footer_pnlCustomFooter').css({"backgroundColor": "#e6e7e9"});
 		
 		var footerQuickLinksBox = $('<div id="footerQuickLinks" style="height : auto; background-color: #d9d9d9;">' +
 			'<div class="row">' +
@@ -115,12 +115,12 @@
 					    '</div>' +
 			 '</div>');
                 footerQuickLinksBox.appendTo('#ctl00_footer_pnlCustomFooter');
-		$('#footerQuickLinks .row').css({'height' : 'auto' , 'width' :  '100%', 'font-size' : '10px' , 'background-color' : '#d9d9d9'});
+		$('#footerQuickLinks .row').css({'height' : 'auto' , 'width' :  '100%', 'font-size' : '10px'});
 		$('#footerQuickLinks .row:after').css({'content':'' , 'display' : 'table' , 'clear' :  'both'});
 		$('#footerQuickLinks .col').css({'height' : 'auto' , 'width' :  '33.33%', 'float' : 'left' , 'padding' : '20px 20px 50px 20px'});
-		$('#footerQuickLinks .col p').css({'font-size' : '11px' , 'font-weight' :  'bold'});
+		$('#footerQuickLinks .col p').css({'font-size' : '11px' , 'font-weight' :  'bold' , 'color' :  '#666666'});
 		$('#footerQuickLinks ul').css({'list-style' : 'none'});
-		$('#footerQuickLinks ul li a').css({'font-weight' : 'normal' , 'color' :  '#404041' , 'line-height' : '2'});
+		$('#footerQuickLinks ul li a').css({'font-weight' : 'normal' , 'color' :  '#666666' , 'line-height' : '2'});
 		
 				
 		var footerImg = $('<img id="slopedFooterImage">');
