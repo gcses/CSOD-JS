@@ -77,7 +77,7 @@
 		//create grey background and add sloped image
 		$('#ctl00_footer_pnlCustomFooter').css({"backgroundColor": "#f2f2f2"});
 		
-		var footerQuickLinksBox = $('<div id="footerQuickLinks" style="height : auto; background-color: #e6e7e9;">' +
+		var footerQuickLinksBox = $('<div id="footerQuickLinks" style="height : auto; background-color: #d9d9d9;">' +
 			'<div class="row">' +
 					    '<div class="col">Hot Topics' +
 					    	'<ul>' +
@@ -146,11 +146,10 @@
 		footerContents.appendTo('#ctl00_footer_pnlCustomFooter');
 		
 		//offset the slope a bit to offset whatever is pulling it down
-		$('#slopedFooterImage').css({'max-width' : '100%',  'margin-top': '-35px', 'display' : 'block' , 'height' : 'auto'});
+		$('#slopedFooterImage').css({'max-width' : '100%',  'margin-top': '-34px', 'display' : 'block' , 'height' : 'auto', 'float' : 'left'});
 	
 		$('#ctl00_footer_pnlCustomFooter').css({'padding' : '0'});
-		$('.footerContentsRow').css({'backgroundColor': '#004593', 'color': '#fff' , 'font-size' : '11px' ,
-'padding' : '30px 20px 20px', 'text-align' : 'center' ,  'margin-top' : '-5px' , 'height' : '150px'});
+		$('.footerContentsRow').css({'backgroundColor': '#004593', 'color': '#fff' , 'font-size' : '11px' , 'padding' : '30px 20px 20px', 'text-align' : 'center' ,  'margin-top' : '-5px' , 'height' : '150px' , 'float' : 'left'});
 		
 		//the logo div is too tall and raises the entire footer. Setting a small height here seems to solve.
 		$('.footerContentsRow div.colX').css({'height': '3px', 'float' : 'left', 'display' : 'inline-block', 'min-width' : '20px' , 'width' : 'auto' , 'padding' : '20px 5px 5px' });
