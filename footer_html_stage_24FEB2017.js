@@ -113,7 +113,7 @@
 		//$('#footerQuickLinks div a:hover').css({'text-decoration' :  'underline' , 'color' :  '#666666'});
 		
 		 $('#footerQuickLinks div a').hover(function() {
-			$(this).css('text-decoration' : 'underline !important');
+			$(this).css({'text-decoration' : 'underline !important'});
 		  });
 		
 		
