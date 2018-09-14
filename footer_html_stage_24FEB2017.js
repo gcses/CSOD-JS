@@ -79,33 +79,29 @@
 		
 		var footerQuickLinksBox = $('<div id="footerQuickLinks" style="height : auto; background-color: #d9d9d9; float: left;">' +
 			'<div class="row">' +
-					    '<div class="col"><p>Hot Topics</p>' +
-					    	'<ul>' +
-							'<li><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=e049e85e-c131-46a3-90aa-fe2fa5520192#t=1">Alaris System with Guardrails Suite MX training - CLP1106 (CBT)</a></li>' +
-							'<li><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=85401bdb-ffcf-459e-8081-53db384d25e5#t=1">CLP1042 - Pyxis MedStation 4000 Nursing Tutorial</a></li>' +
-							'<li><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=9de7cb68-68e1-49ca-a510-940a6e882232#t=1">CLP1107 - Pyxis MedStation ES system for Nurses, v1.3.4</a></li>' +
-							'<li><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=c2e7031e-3100-4942-a862-d9f465d762dc#t=1">BD Pyxis ES System v1.5 Training Guide, Tool Kit and Other Resources</a></li>' +
-							'<li><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=0609c768-d305-421e-ad0e-30011635211b#t=1">CLP-ES200-XX - v1.4 Pyxis MedStation ES system for Nurses</a></li>' +
-							'<li><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=9ad18b49-7753-4e19-94ff-9a49b2563a10">BD Pyxis ES Station and ES Link v1.5 for Nurses and Clinicians - Custom - Advanced  - Profile - Quiz (CLP-ES200-N_Q) and BD Pyxis ES Link</a></li>' +
-							'<li><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=16f0cea1-d7f3-4bf1-bb4d-c4f1977edf21#t=1">Clinical workflows for BD Pyxis ES System v1.5 devices in Profile mode (CLP-ES200-N)</a></li>' +
-							'<li><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=1c283ca8-59c6-4050-8d86-b30ba0acde2e#t=1">CLP1041 - Pyxis MedStation 4000 System for Nursings</a></li>' +
-							
-						'</ul>' +
+					    '<div class="col">' +
+					    		'<p>Hot Topics</p>' +
+							'<div class="text-link"><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=e049e85e-c131-46a3-90aa-fe2fa5520192#t=1">Alaris System with Guardrails Suite MX training - CLP1106 (CBT)</a></div>' +
+							'<div class="text-link"><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=85401bdb-ffcf-459e-8081-53db384d25e5#t=1">CLP1042 - Pyxis MedStation 4000 Nursing Tutorial</a></div>' +
+							'<div class="text-link"><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=9de7cb68-68e1-49ca-a510-940a6e882232#t=1">CLP1107 - Pyxis MedStation ES system for Nurses, v1.3.4</a></div>' +
+							'<div class="text-link"><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=c2e7031e-3100-4942-a862-d9f465d762dc#t=1">BD Pyxis ES System v1.5 Training Guide, Tool Kit and Other Resources</a></div>' +
+							'<div class="text-link"><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=0609c768-d305-421e-ad0e-30011635211b#t=1">CLP-ES200-XX - v1.4 Pyxis MedStation ES system for Nurses</a></div>' +
+							'<div class="text-link"><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=9ad18b49-7753-4e19-94ff-9a49b2563a10">BD Pyxis ES Station and ES Link v1.5 for Nurses and Clinicians - Custom - Advanced  - Profile - Quiz (CLP-ES200-N_Q) and BD Pyxis ES Link</a></div>' +
+							'<div class="text-link"><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=16f0cea1-d7f3-4bf1-bb4d-c4f1977edf21#t=1">Clinical workflows for BD Pyxis ES System v1.5 devices in Profile mode (CLP-ES200-N)</a></div>' +
+							'<div class="text-link"><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=1c283ca8-59c6-4050-8d86-b30ba0acde2e#t=1">CLP1041 - Pyxis MedStation 4000 System for Nursings</a></div>' +
 					     '</div>' +
-					    '<div class="col"><p>Frequent Questions</p>' +
-					    	'<ul>' +
-							'<li><a href="https://bd.csod.com/phnx/driver.aspx?routename=Social/Topic/Posting/QAPostingDetails&Posting=27&Root=-1">How do I fix the Pop-up Blocker to allow the course to open?</a></li>' +
-							'<li><a href="https://bd.csod.com/phnx/driver.aspx?routename=Social/Topic/Posting/QAPostingDetails&Posting=13&Root=-1">How do I print the certificate for a course I have already completed?</a></li>' +
-							'<li><a href="https://bd.csod.com/phnx/driver.aspx?routename=Social/Topic/Posting/QAPostingDetails&Posting=17&Root=-1">How do I view transcripts and/or assign courses in Learning Compass?</a></li>' +
-							'<li><a href="https://bd.csod.com/phnx/driver.aspx?routename=Social/Topic/TopicDetails&Topic=3&Root=-1">Frequently Asked Questrions</a></li>' +
-						'</ul>' +
+					    '<div class="col">' +
+					    		'<p>Frequent Questions</p>' +
+							'<div class="text-link"><a href="https://bd.csod.com/phnx/driver.aspx?routename=Social/Topic/Posting/QAPostingDetails&Posting=27&Root=-1">How do I fix the Pop-up Blocker to allow the course to open?</a></div>' +
+							'<div class="text-link"><a href="https://bd.csod.com/phnx/driver.aspx?routename=Social/Topic/Posting/QAPostingDetails&Posting=13&Root=-1">How do I print the certificate for a course I have already completed?</a></div>' +
+							'<div class="text-link"><a href="https://bd.csod.com/phnx/driver.aspx?routename=Social/Topic/Posting/QAPostingDetails&Posting=17&Root=-1">How do I view transcripts and/or assign courses in Learning Compass?</a></div>' +
+							'<div class="text-link"><a href="https://bd.csod.com/phnx/driver.aspx?routename=Social/Topic/TopicDetails&Topic=3&Root=-1">Frequently Asked Questrions</a></div>' +
 					      '</div>' +
-					    '<div class="col"><p>Need Help?</p>' +
-					    	'<div>' +
-							'<div><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=e049e85e-c131-46a3-90aa-fe2fa5520192#t=1">NEW! - Try our Curriculum Finder to find courses for your role</a></div>' +
-							'<div><a href="https://bd-stg.csod.com/catalog/CustomPage.aspx?id=20000480&tab_page_id=20000480">Contact Us</a></div>' +
-							'<div><a href="https://bd2.az1.qualtrics.com/jfe/form/SV_5yWSp8x3k8D4PBz">Give us Feedback</a></div>' +
-						'</ul>' +
+					    '<div class="col"> +
+					    		'<p>Need Help?</p>' +
+							'<div class="text-link"><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=e049e85e-c131-46a3-90aa-fe2fa5520192#t=1">NEW! - Try our Curriculum Finder to find courses for your role</a></div>' +
+							'<div class="text-link"><a href="https://bd-stg.csod.com/catalog/CustomPage.aspx?id=20000480&tab_page_id=20000480">Contact Us</a></div>' +
+							'<div class="text-link"><a href="https://bd2.az1.qualtrics.com/jfe/form/SV_5yWSp8x3k8D4PBz">Give us Feedback</a></div>' +
 					    '</div>' +
 			 '</div>');
                 footerQuickLinksBox.appendTo('#ctl00_footer_pnlCustomFooter');
@@ -113,9 +109,8 @@
 		$('#footerQuickLinks .row:after').css({'content':'' , 'display' : 'table' , 'clear' :  'both'});
 		$('#footerQuickLinks .col').css({'height' : 'auto' , 'width' :  '28%', 'float' : 'left' , 'padding' : '20px 5px 50px 55px'});
 		$('#footerQuickLinks .col p').css({'font-size' : '11px' , 'font-weight' :  'bold' , 'color' :  '#404041', 'padding' : '5px 0'});
-		$('#footerQuickLinks ul').css({'list-style' : 'none'});
-		$('#footerQuickLinks ul li a').css({'font-weight' : 'normal' , 'color' :  '#404041' , 'line-height' : '2'});
-		$('#footerQuickLinks ul li a:hover').css({'text-decoration' : 'underline' , 'color' :  '#666666'});
+		$('#footerQuickLinks div a').css({'font-weight' : 'normal' , 'color' :  '#404041' , 'line-height' : '2'});
+		$('#footerQuickLinks div a:hover').css({'text-decoration' :  'underline' , 'color' :  '#666666'});
 		
 		var footerImg = $('<img id="slopedFooterImage">');
 	        footerImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/angle.png');
