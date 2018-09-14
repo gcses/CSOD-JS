@@ -79,7 +79,7 @@
 		
 		var footerQuickLinksBox = $('<div id="footerQuickLinks" style="height : auto; background-color: #d9d9d9;">' +
 			'<div class="row">' +
-					    '<div class="col">Hot Topics' +
+					    '<div class="col"><p>Hot Topics</p>' +
 					    	'<ul>' +
 							'<li><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=e049e85e-c131-46a3-90aa-fe2fa5520192#t=1">Alaris System with Guardrails Suite MX training - CLP1106 (CBT)</a></li>' +
 							'<li><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=85401bdb-ffcf-459e-8081-53db384d25e5#t=1">CLP1042 - Pyxis MedStation 4000 Nursing Tutorial</a></li>' +
@@ -92,7 +92,7 @@
 							
 						'</ul>' +
 					     '</div>' +
-					    '<div class="col">Frequent Questions' +
+					    '<div class="col"><p>Frequent Questions</p>' +
 					    	'<ul>' +
 							'<li><a href="https://bd.csod.com/phnx/driver.aspx?routename=Social/Topic/Posting/QAPostingDetails&Posting=27&Root=-1">How do I fix the Pop-up Blocker to allow the course to open?</a></li>' +
 							'<li><a href="https://bd.csod.com/phnx/driver.aspx?routename=Social/Topic/Posting/QAPostingDetails&Posting=13&Root=-1">How do I print the certificate for a course I have already completed?</a></li>' +
@@ -100,7 +100,7 @@
 							'<li><a href="https://bd.csod.com/phnx/driver.aspx?routename=Social/Topic/TopicDetails&Topic=3&Root=-1">Frequently Asked Questrions</a></li>' +
 						'</ul>' +
 					      '</div>' +
-					    '<div class="col">Hot Topics' +
+					    '<div class="col"><p>Hot Topics</p>' +
 					    	'<ul>' +
 							'<li><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=e049e85e-c131-46a3-90aa-fe2fa5520192#t=1">Alaris System with Guardrails Suite MX training - CLP1106 (CBT)</a></li>' +
 							'<li><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=85401bdb-ffcf-459e-8081-53db384d25e5#t=1">CLP1042 - Pyxis MedStation 4000 Nursing Tutorial</a></li>' +
@@ -117,7 +117,8 @@
                 footerQuickLinksBox.appendTo('#ctl00_footer_pnlCustomFooter');
 		$('#footerQuickLinks .row').css({'height' : 'auto' , 'width' :  '100%', 'font-size' : '10px' , 'background-color' : '#d9d9d9'});
 		$('#footerQuickLinks .row:after').css({'content':'' , 'display' : 'table' , 'clear' :  'both'});
-		$('#footerQuickLinks .col').css({'height' : '200px' , 'width' :  '33.33%', 'float' : 'left' , 'padding' : '20px'});
+		$('#footerQuickLinks .col').css({'height' : 'auto' , 'width' :  '33.33%', 'float' : 'left' , 'padding' : '20px'});
+		$('#footerQuickLinks .col p').css({'font-size' : '11px' , 'font-weight' :  'bold'});
 		$('#footerQuickLinks ul').css({'list-style' : 'none'});
 		$('#footerQuickLinks ul li a').css({'font-weight' : 'normal' , 'color' :  '#404041' , 'line-height' : '2'});
 		
