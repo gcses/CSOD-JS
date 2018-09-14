@@ -97,7 +97,7 @@
 					      '</div>' +
 					    '<div class="col">' +
 					    		'<p>Need Help?</p>' +
-							'<div class="text-link"><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=e049e85e-c131-46a3-90aa-fe2fa5520192#t=1">NEW! - Try our Curriculum Finder to find courses for your role</a></div>' +
+							//'<div class="text-link"><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=e049e85e-c131-46a3-90aa-fe2fa5520192#t=1">NEW! - Try our Curriculum Finder to find courses for your role</a></div>' +
 							'<div class="text-link"><a href="https://bd-stg.csod.com/catalog/CustomPage.aspx?id=20000480&tab_page_id=20000480">Contact Us</a></div>' +
 							'<div class="text-link"><a href="https://bd2.az1.qualtrics.com/jfe/form/SV_5yWSp8x3k8D4PBz">Give us Feedback</a></div>' +
 					    '</div>' +
