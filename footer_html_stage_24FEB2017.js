@@ -114,7 +114,7 @@
 							'<li><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=0609c768-d305-421e-ad0e-30011635211b#t=1">CLP-ES200-XX - v1.4 Pyxis MedStation ES system for Nurses</a></li>' +
 							'<li><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=9ad18b49-7753-4e19-94ff-9a49b2563a10">BD Pyxis ES Station and ES Link v1.5 for Nurses and Clinicians - Custom - Advanced  - Profile - Quiz (CLP-ES200-N_Q) and BD Pyxis ES Link</a></li>' +
 							'<li><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=16f0cea1-d7f3-4bf1-bb4d-c4f1977edf21#t=1">Clinical workflows for BD Pyxis ES System v1.5 devices in Profile mode (CLP-ES200-N)</a></li>' +
-							'<li><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=1c283ca8-59c6-4050-8d86-b30ba0acde2e#t=1">CLP1041 - Pyxis MedStation 4000 System for Nursings</a></li>' +
+							'<li><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=1c283ca8-59c6-4050-8d86-b30ba0acde2e#t=1">CLP1041 - Pyxis MedStation 4000 System for Nursing</a></li>' +
 							
 						'</ul>' +
 					    '</div>' +
@@ -122,9 +122,9 @@
                 footerQuickLinksBox.appendTo('#ctl00_footer_pnlCustomFooter');
 		$('#footerQuickLinks .row').css({'height' : 'auto' , 'width' :  '100%', 'font-size' : '10px' , 'background-color' : '#d9d9d9'});
 		$('#footerQuickLinks .row:after').css({'content':'' , 'display' : 'table' , 'clear' :  'both'});
-		$('#footerQuickLinks .col').css({'height' : '300px' , 'width' :  '33.33%', 'float' : 'left' , 'padding' : '20px'});
+		$('#footerQuickLinks .col').css({'height' : '200px' , 'width' :  '33.33%', 'float' : 'left' , 'padding' : '20px'});
 		$('#footerQuickLinks ul').css({'list-style' : 'none'});
-		$('#footerQuickLinks ul li a').css({'font-weight' : 'normal' , 'color' :  '#404041' ,  'line-height ': '2'});
+		$('#footerQuickLinks ul li a').css({'font-weight' : 'normal' , 'color' :  '#404041' , 'line-height' : '2'});
 		
 				
 		var footerImg = $('<img id="slopedFooterImage">');
