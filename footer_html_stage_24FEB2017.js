@@ -114,7 +114,7 @@
 		
 		 $('#footerQuickLinks div a').hover(function() {
 			$(this).css('text-decoration', 'underline !important');
-		    };
+		  });
 		
 		
 		var footerImg = $('<img id="slopedFooterImage">');
