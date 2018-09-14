@@ -125,9 +125,9 @@
 					    '</div>' +
 			 '</div>');
                 footerQuickLinksBox.appendTo('#ctl00_footer_pnlCustomFooter');
-		$('#footerQuickLinks row').css({'color':'#cccccc' , 'height' : 'auto' , 'width' :  '100%', 'font-size' : '10px'});
-		$('#footerQuickLinks row:after').css({'content':'' , 'display' : 'table' , 'clear' :  'both'});
-		$('#footerQuickLinks col').css({'height' : 'auto' , 'width' :  '33.33%'});
+		$('#footerQuickLinks .row').css({'color':'#cccccc' , 'height' : 'auto' , 'width' :  '100%', 'font-size' : '10px'});
+		$('#footerQuickLinks .row:after').css({'content':'' , 'display' : 'table' , 'clear' :  'both'});
+		$('#footerQuickLinks .col').css({'height' : '300px' , 'width' :  '33.33%'});
 		$('#footerQuickLinks ul li a').css({'font-weight' : 'normal' , 'color' :  '#404041'});
 		
 				
@@ -150,7 +150,7 @@
 		footerContents.appendTo('#ctl00_footer_pnlCustomFooter');
 		
 		//offset the slope a bit to offset whatever is pulling it down
-		$('#slopedFooterImage').css({'max-width' : '100%',  'margin-top': '-5px', 'display' : 'block' , 'height' : 'auto'});
+		$('#slopedFooterImage').css({'max-width' : '100%',  'margin-top': '-35px', 'display' : 'block' , 'height' : 'auto'});
 	
 		$('#ctl00_footer_pnlCustomFooter').css({'padding' : '0'});
 		$('.footerContentsRow').css({'backgroundColor': '#004593', 'color': '#fff' , 'font-size' : '11px' ,
