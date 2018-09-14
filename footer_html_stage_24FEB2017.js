@@ -91,6 +91,7 @@
 							'<li><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=1c283ca8-59c6-4050-8d86-b30ba0acde2e#t=1">CLP1041 - Pyxis MedStation 4000 System for Nursings</a</li>' +
 							
 						'</ul>' +
+					     '</div>' +
 					    '<div class="col">Hot Topics' +
 					    	'<ul>' +
 							'<li><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=e049e85e-c131-46a3-90aa-fe2fa5520192#t=1">Alaris System with Guardrails Suite MX training - CLP1106 (CBT)</a</li>' +
@@ -103,6 +104,7 @@
 							'<li><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=1c283ca8-59c6-4050-8d86-b30ba0acde2e#t=1">CLP1041 - Pyxis MedStation 4000 System for Nursings</a</li>' +
 							
 						'</ul>' +
+					      '</div>' +
 					    '<div class="col">Hot Topics' +
 					    	'<ul>' +
 							'<li><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=e049e85e-c131-46a3-90aa-fe2fa5520192#t=1">Alaris System with Guardrails Suite MX training - CLP1106 (CBT)</a</li>' +
@@ -115,13 +117,6 @@
 							'<li><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=1c283ca8-59c6-4050-8d86-b30ba0acde2e#t=1">CLP1041 - Pyxis MedStation 4000 System for Nursings</a</li>' +
 							
 						'</ul>' +
-					    
-					    
-					    
-					    '<div class="col"><a href="http://www.bd.com/legal/privacy_policy/">Link</a>' +
-					    '<div class="col"><a href="http://www.bd.com/legal/privacy_policy/">Link</a>' +
-					    '</div>' +
-					    '</div>' +
 					    '</div>' +
 			 '</div>');
                 footerQuickLinksBox.appendTo('#ctl00_footer_pnlCustomFooter');
