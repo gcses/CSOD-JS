@@ -75,7 +75,7 @@
 		//create grey background and add sloped image
 		$('#ctl00_footer_pnlCustomFooter').css({"backgroundColor": "#e6e7e9"});
 		
-		var footerQuickLinksBox = $('<div id="footerQuickLinks" style="height : auto; background-color: #bfb8b3; float: left; width: 100%;">' +
+		var footerQuickLinksBox = $('<div id="footerQuickLinks" style="height : auto; background-color: #e6e7e9; float: left; width: 100%;">' +
 			'<div class="row">' +
 					    '<div class="col">' +
 					    		'<p>Hot Topics</p>' +
@@ -106,8 +106,8 @@
 		$('#footerQuickLinks .row').css({'height' : 'auto' , 'width' :  '100%', 'font-size' : '10px'});
 		$('#footerQuickLinks .row:after').css({'content':'' , 'display' : 'table' , 'clear' :  'both'});
 		$('#footerQuickLinks .col').css({'height' : 'auto' , 'width' :  '28%', 'float' : 'left' , 'padding' : '20px 5px 50px 55px'});
-		$('#footerQuickLinks .col p').css({'font-size' : '11px' , 'font-weight' :  'bold' , 'color' :  '#404041', 'padding' : '5px 0'});
-		$('#footerQuickLinks div a').css({'font-weight' : 'normal' , 'color' :  '#5f6062' , 'line-height' : '2'});
+		$('#footerQuickLinks .col p').css({'font-size' : '11px' , 'font-weight' :  'bold' , 'color' :  '#666666', 'padding' : '5px 0'});
+		$('#footerQuickLinks div a').css({'font-weight' : 'normal' , 'color' :  '#666666' , 'line-height' : '2'});
 		//$('#footerQuickLinks div a:hover').css({'text-decoration' :  'underline' , 'color' :  '#666666'});
 		
 		 $('#footerQuickLinks div a').hover(function() {
