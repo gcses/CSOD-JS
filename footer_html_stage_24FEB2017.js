@@ -124,7 +124,7 @@
 		$('#footerQuickLinks .row:after').css({'content':'' , 'display' : 'table' , 'clear' :  'both'});
 		$('#footerQuickLinks .col').css({'height' : '300px' , 'width' :  '33.33%', 'float' : 'left' , 'padding' : '20px'});
 		$('#footerQuickLinks ul').css({'list-style' : 'none'});
-		$('#footerQuickLinks ul li a').css({'font-weight' : 'normal' , 'color' :  '#404041'});
+		$('#footerQuickLinks ul li a').css({'font-weight' : 'normal' , 'color' :  '#404041' ,  'line-height ': '2';});
 		
 				
 		var footerImg = $('<img id="slopedFooterImage">');
