@@ -115,6 +115,7 @@
 		$('#footerQuickLinks .col p').css({'font-size' : '11px' , 'font-weight' :  'bold' , 'color' :  '#404041', 'padding' : '5px 0'});
 		$('#footerQuickLinks ul').css({'list-style' : 'none'});
 		$('#footerQuickLinks ul li a').css({'font-weight' : 'normal' , 'color' :  '#404041' , 'line-height' : '2'});
+		$('#footerQuickLinks ul li a:hover').css({'text-decoration' : 'underline' , 'color' :  '#666666'});
 		
 				
 		var footerImg = $('<img id="slopedFooterImage">');
