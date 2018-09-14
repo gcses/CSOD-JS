@@ -77,7 +77,7 @@
 		//create grey background and add sloped image
 		$('#ctl00_footer_pnlCustomFooter').css({"backgroundColor": "#e6e7e9"});
 		
-		var footerQuickLinksBox = $('<div id="footerQuickLinks" style="height : auto; background-color: #d9d9d9;">' +
+		var footerQuickLinksBox = $('<div id="footerQuickLinks" style="height : auto; background-color: #d9d9d9; float: left;">' +
 			'<div class="row">' +
 					    '<div class="col"><p>Hot Topics</p>' +
 					    	'<ul>' +
