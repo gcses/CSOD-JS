@@ -117,11 +117,9 @@
 		$('#footerQuickLinks ul li a').css({'font-weight' : 'normal' , 'color' :  '#404041' , 'line-height' : '2'});
 		$('#footerQuickLinks ul li a:hover').css({'text-decoration' : 'underline' , 'color' :  '#666666'});
 		
-				
 		var footerImg = $('<img id="slopedFooterImage">');
 	        footerImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/angle.png');
                 footerImg.appendTo('#ctl00_footer_pnlCustomFooter');
-		
 		
 		var footerContents = $('<div class="footerContentsRow">' +
 			    '<div class="colX"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/bd_white_rgb_tag_EN_1_5.png" id="footerLogo"></div>' +
