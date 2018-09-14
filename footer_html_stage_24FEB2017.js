@@ -97,7 +97,7 @@
 							'<div class="text-link"><a href="https://bd.csod.com/phnx/driver.aspx?routename=Social/Topic/Posting/QAPostingDetails&Posting=17&Root=-1">How do I view transcripts and/or assign courses in Learning Compass?</a></div>' +
 							'<div class="text-link"><a href="https://bd.csod.com/phnx/driver.aspx?routename=Social/Topic/TopicDetails&Topic=3&Root=-1">Frequently Asked Questrions</a></div>' +
 					      '</div>' +
-					    '<div class="col"> +
+					    '<div class="col">' +
 					    		'<p>Need Help?</p>' +
 							'<div class="text-link"><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=e049e85e-c131-46a3-90aa-fe2fa5520192#t=1">NEW! - Try our Curriculum Finder to find courses for your role</a></div>' +
 							'<div class="text-link"><a href="https://bd-stg.csod.com/catalog/CustomPage.aspx?id=20000480&tab_page_id=20000480">Contact Us</a></div>' +
