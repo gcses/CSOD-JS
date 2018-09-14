@@ -151,8 +151,8 @@
 		$('#sm2').css({'height': '27px'});
 		$('#sm3').css({'height': '25px'});
 		$('#sm4').css({'height': '25px'});
-		$('.footerLink').css({'float' : 'right' , 'border-right': '1px solid #ccc' , 'padding' : '0 15px', 'margin-top' : '20px' });
-		$('.privacy').css({'border-right' : 'none'});
+		$('.footerLink').css({'border-left': '1px solid #ccc' , 'padding' : '0 15px', 'margin-top' : '20px' });
+		$('.privacy').css({'border-left' : 'none'});
 		$('.footerLink a').css({'color' : '#fff'});
 		
 		/***** END - Footer *****/
