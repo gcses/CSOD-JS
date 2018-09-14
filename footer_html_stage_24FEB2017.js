@@ -117,7 +117,7 @@
                 footerQuickLinksBox.appendTo('#ctl00_footer_pnlCustomFooter');
 		$('#footerQuickLinks .row').css({'height' : 'auto' , 'width' :  '100%', 'font-size' : '10px'});
 		$('#footerQuickLinks .row:after').css({'content':'' , 'display' : 'table' , 'clear' :  'both'});
-		$('#footerQuickLinks .col').css({'height' : 'auto' , 'width' :  '33.33%', 'float' : 'left' , 'padding' : '20px 20px 50px 20px'});
+		$('#footerQuickLinks .col').css({'height' : 'auto' , 'width' :  '33.33%', 'float' : 'left' , 'padding' : '20px 40px 50px 40px'});
 		$('#footerQuickLinks .col p').css({'font-size' : '11px' , 'font-weight' :  'bold' , 'color' :  '#666666'});
 		$('#footerQuickLinks ul').css({'list-style' : 'none'});
 		$('#footerQuickLinks ul li a').css({'font-weight' : 'normal' , 'color' :  '#666666' , 'line-height' : '2'});
