@@ -112,7 +112,7 @@
 		
 		
 
-		var footerLinkItems = menu.getElementsByID("#footerQuickLinks div a");
+		var footerLinkItems = getElementsByID("#footerQuickLinks div a");
 
 		for (var i = 0; i < footerLinkItems.length; i++) {
 		  var li = footerLinkItems[i];
