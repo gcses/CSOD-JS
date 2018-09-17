@@ -109,7 +109,7 @@
 		$('#footerQuickLinks div a').css({'font-weight' : 'normal' , 'color' :  '#666666' , 'line-height' : '2'});
 		$('#footerQuickLinks div a:hover').css({'font-weight' : 'bold' , 'color' :  '#72635d' });
 
-		var footerLinkItems = getElementByID("footerQuickLinks div a");
+		var footerLinkItems = document.getElementByID("footerQuickLinks div a");
 
 		for (var i = 0; i < footerLinkItems.length; i++) {
 		  var li = footerLinkItems[i];
