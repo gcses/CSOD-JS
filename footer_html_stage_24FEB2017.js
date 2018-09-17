@@ -106,10 +106,10 @@
 		$('#footerQuickLinks .row:after').css({'content':'' , 'display' : 'table' , 'clear' :  'both'});
 		$('#footerQuickLinks .col').css({'height' : 'auto' , 'width' :  '28%', 'float' : 'left' , 'padding' : '20px 5px 50px 55px'});
 		$('#footerQuickLinks .col p').css({'font-size' : '11px' , 'font-weight' :  'bold' , 'color' :  '#666666', 'padding' : '5px 0'});
-		$('#footerQuickLinks div a').css({'font-weight' : 'normal' , 'color' :  '#666666' , 'line-height' : '2'});
+		$('#footerQuickLinks .text-link a').css({'font-weight' : 'normal' , 'color' :  '#666666' , 'line-height' : '2'});
 		$('#footerQuickLinks div a:hover').css({'font-weight' : 'bold' , 'color' :  '#72635d' });
 
-		var footerLinkItems = document.getElementById("footerQuickLinks div a");
+		var footerLinkItems = document.getElementById("footerQuickLinks .text-link a");
 
 		for (var i = 0; i < footerLinkItems.length; i++) {
 		  var li = footerLinkItems[i];
