@@ -108,11 +108,7 @@
 		$('#footerQuickLinks .col').css({'height' : 'auto' , 'width' :  '28%', 'float' : 'left' , 'padding' : '20px 5px 50px 55px'});
 		$('#footerQuickLinks .col p').css({'font-size' : '11px' , 'font-weight' :  'bold' , 'color' :  '#666666', 'padding' : '5px 0'});
 		$('#footerQuickLinks div a').css({'font-weight' : 'normal' , 'color' :  '#666666' , 'line-height' : '2'});
-		$('#footerQuickLinks .text-link a:hover').css({'text-decoration' :  'underline' , 'color' :  '#666666'});
-		
-		 $('#footerQuickLinks .text-link a').hover(function() {
-			$(this).css({'text-decoration' : 'underline !important'});
-		  });
+		$('#footerQuickLinks div a:hover').css({'font-weight' : 'bold' , 'color' :  '#72635d' });
 		
 		
 		var footerImg = $('<img id="slopedFooterImage">');
