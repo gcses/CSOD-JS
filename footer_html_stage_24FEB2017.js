@@ -64,7 +64,6 @@
 			$(this).css({'background-color': '#fff'});
 		    });
 		
-
 		/***** END - Navigation *****/
 		
 	       //Make the home page clickable and link to the Welcome page / Main page
@@ -109,8 +108,6 @@
 		$('#footerQuickLinks .col p').css({'font-size' : '11px' , 'font-weight' :  'bold' , 'color' :  '#666666', 'padding' : '5px 0'});
 		$('#footerQuickLinks div a').css({'font-weight' : 'normal' , 'color' :  '#666666' , 'line-height' : '2'});
 		$('#footerQuickLinks div a:hover').css({'font-weight' : 'bold' , 'color' :  '#72635d' });
-		
-		
 
 		var footerLinkItems = getElementByID("footerQuickLinks div a");
 
