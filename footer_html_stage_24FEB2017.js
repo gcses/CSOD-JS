@@ -111,6 +111,19 @@
 		$('#footerQuickLinks div a:hover').css({'font-weight' : 'bold' , 'color' :  '#72635d' });
 		
 		
+
+		var footerLinkItems = menu.getElementsByID("#footerQuickLinks div a");
+
+		for (var i = 0; i < footerLinkItems.length; i++) {
+		  var li = footerLinkItems[i];
+		  li.addEventListener("mouseover", function() {
+		    this.getElementsByTagName("a")[0].style.color = "#8080ff";
+		  });
+		  li.addEventListener("mouseout", function() {
+		    this.getElementsByTagName("a")[0].style.color = "#000000";
+		  });
+		}
+
 		var footerImg = $('<img id="slopedFooterImage">');
 	        footerImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/angle.png');
                 footerImg.appendTo('#ctl00_footer_pnlCustomFooter');
