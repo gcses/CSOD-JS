@@ -156,7 +156,7 @@
 		//offset the slope a bit to offset whatever is pulling it down
 		$('#slopedFooterImage').css({'max-width' : '100%',  'margin-top': '-34px', 'display' : 'block' , 'height' : 'auto', 'float' : 'left'});
 	
-		$('#ctl00_footer_pnlCustomFooter').css({'padding' : '0'});
+		$('#ctl00_footer_pnlCustomFooter').css({'padding' : '0 !important'});
 		$('.footerContentsRow').css({'backgroundColor': '#004593', 'color': '#fff' , 'font-size' : '11px' , 'text-align' : 'center' ,  'margin-top' : '-5px' , 'height' : '150px' , 'float' : 'left' , 'width' : '100%'});
 		
 		//the logo div is too tall and raises the entire footer. Setting a small height here seems to solve.
