@@ -77,7 +77,7 @@
 		var footerQuickLinksBox = $('<div id="footerQuickLinks" style="height : auto; z-index: 1; padding: 30px 0 15px; position: relative;  background-color: #fff; border-top: 2px solid #e5e5e5; float: left; width: 100%;">' +
 			'<div class="row">' +
 					    '<div class="col">' +
-					    		'<p>Hot Topics</p>' +
+					    		'<p>HOT TOPICS</p>' +
 							'<div class="text-link"><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=e049e85e-c131-46a3-90aa-fe2fa5520192#t=1">Alaris System with Guardrails Suite MX training - CLP1106 (CBT)</a></div>' +
 							'<div class="text-link"><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=85401bdb-ffcf-459e-8081-53db384d25e5#t=1">CLP1042 - Pyxis MedStation 4000 Nursing Tutorial</a></div>' +
 							'<div class="text-link"><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=9de7cb68-68e1-49ca-a510-940a6e882232#t=1">CLP1107 - Pyxis MedStation ES system for Nurses, v1.3.4</a></div>' +
@@ -88,26 +88,26 @@
 							'<div class="text-link"><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=1c283ca8-59c6-4050-8d86-b30ba0acde2e#t=1">CLP1041 - Pyxis MedStation 4000 System for Nursings</a></div>' +
 					     '</div>' +
 					    '<div class="col">' +
-					    		'<p>Frequent Questions</p>' +
+					    		'<p>FREQUENT QUESTIONS</p>' +
 							'<div class="text-link"><a href="https://bd.csod.com/phnx/driver.aspx?routename=Social/Topic/Posting/QAPostingDetails&Posting=27&Root=-1">How do I fix the Pop-up Blocker to allow the course to open?</a></div>' +
 							'<div class="text-link"><a href="https://bd.csod.com/phnx/driver.aspx?routename=Social/Topic/Posting/QAPostingDetails&Posting=13&Root=-1">How do I print the certificate for a course I have already completed?</a></div>' +
 							'<div class="text-link"><a href="https://bd.csod.com/phnx/driver.aspx?routename=Social/Topic/Posting/QAPostingDetails&Posting=17&Root=-1">How do I view transcripts and/or assign courses in Learning Compass?</a></div>' +
 							'<div class="text-link"><a href="https://bd.csod.com/phnx/driver.aspx?routename=Social/Topic/TopicDetails&Topic=3&Root=-1">Frequently Asked Questrions</a></div>' +
 					      '</div>' +
 					    '<div class="col">' +
-					    		'<p>Need Help?</p>' +
+					    		'<p>NEED HELP?</p>' +
 							//'<div class="text-link"><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=e049e85e-c131-46a3-90aa-fe2fa5520192#t=1">NEW! - Try our Curriculum Finder to find courses for your role</a></div>' +
 							'<div class="text-link"><a href="https://bd-stg.csod.com/catalog/CustomPage.aspx?id=20000480&tab_page_id=20000480">Contact Us</a></div>' +
 							'<div class="text-link"><a href="https://bd2.az1.qualtrics.com/jfe/form/SV_5yWSp8x3k8D4PBz">Give us Feedback</a></div>' +
 					    '</div>' +
 			 '</div>');
                 footerQuickLinksBox.appendTo('#ctl00_footer_pnlCustomFooter');
-		$('#footerQuickLinks .row').css({'height' : 'auto' , 'width' :  '100%', 'font-size' : '10px', 'display' : 'flex' , 'justify-content' : 'center'});
+		$('#footerQuickLinks .row').css({'height' : 'auto' , 'width' :  '100%', 'font-size' : '14px', 'display' : 'flex' , 'justify-content' : 'center'});
 		$('#footerQuickLinks .row:after').css({'content':'' , 'display' : 'table' , 'clear' :  'both'});
 		$('#footerQuickLinks .col').css({'height' : 'auto' , 'width' :  '28%', 'float' : 'left' , 'padding' : '20px 5px 50px 55px'});
-		$('#footerQuickLinks .col p').css({'font-size' : '11px' , 'font-weight' :  'bold' , 'color' :  '#666666', 'padding' : '5px 0'});
+		$('#footerQuickLinks .col p').css({'font-size' : '14px' , 'font-weight' :  'bold' , 'color' :  '#444444', 'padding' : '5px 0'});
 		$('#footerQuickLinks .text-link a').css({'font-weight' : 'normal' , 'color' :  '#666666' , 'line-height' : '2'});
-		$('#footerQuickLinks div a:hover').css({'font-weight' : 'bold' , 'color' :  '#72635d' });
+		$('#footerQuickLinks div a:hover').css({'font-weight' : 'bold' ,   'opacity' : '0.6' });
 
 		var footerLinkItems = document.getElementById("footerQuickLinks .text-link a");
 
