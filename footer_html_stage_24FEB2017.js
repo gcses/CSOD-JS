@@ -45,6 +45,7 @@
 		
 		/***** BEGIN - Navigation *****/
 		$('.c-glbl-nav').css({'height' : '58px'});
+		$('.c-glbl-nav:after').css ({'content': ".",  'visibility': 'hidden' , 'display' : 'block' , 'height' : '0' , clear: both; });
 		var lcTitleImg = $('<img id=\"lcTitle\">');
 		lcTitleImg.attr('src', 'https://bd-stg.csod.com/clientimg/bd/welcome/Learning_Compass_title_img1.png');
 		$(lcTitleImg).insertBefore('.c-glbl-nav ul:first-child');
