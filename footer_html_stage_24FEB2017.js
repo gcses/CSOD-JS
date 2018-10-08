@@ -63,9 +63,9 @@
 		$('.navTabs li').removeClass('highlighted');
 		$('.navTabs li a').hover(function() {
 			
-			$(this).css({'background-color': '#fff !important' , 'opacity' : '0.7' });
+			$(this).css({'background-color': '#fff !important' , 'font-color' : '#5f6062'  });
 		    }, function() {
-			$(this).css({'background-color': '#fff' , 'opacity' : '1'});
+			$(this).css({'background-color': '#fff' ,  'font-color' : '#808080'});
 		    });
 		
 		/***** END - Navigation *****/
