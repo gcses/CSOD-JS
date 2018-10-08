@@ -129,13 +129,13 @@
 $('#footerQuickLinks a:hover').css( { 'color': 'black !important' });
 
 
-$('.navTabs li').click(clearNavMenu_Hover);
+$('.c-glbl-nav ul').click(clearNavMenu_Hover);
 
 function clearNavMenu_Hover() {
-    var tmpStore=$('.navTabs').html();
-    $('.navTabs').empty();
-    $('.navTabs').html(tmpStore);
-    $('.navTabs li').click(clearNavMenu_Hover);
+    var tmpStore=$('.c-glbl-nav').html();
+    $('.c-glbl-nav').empty();
+    $('.c-glbl-nav').html(tmpStore);
+    $('.c-glbl-nav ul').click(clearNavMenu_Hover);
 }
 
 		var footerImg = $('<img id="slopedFooterImage">');
