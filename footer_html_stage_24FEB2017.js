@@ -60,7 +60,8 @@
 		$('.navTabs li a.highlighted').css({'background-color' : '#fff !important'});
 		$('#main-menu li a.has-submenu.highlighted').attr('style', 'background-color: #fff !important');
 		$('.navTabs li.active a').css({ 'font-weight' : 'bold !important' ,  'background-color' : '#fff !important' , 'opacity' : '0.7' });
-		   $('.navTabs li').hover(function() {
+		 $('.navTabs').removeClass('highlighted');
+		$('.navTabs li').hover(function() {
 			$(this).removeClass('highlighted');
 			$(this).css({'background-color': '#fff !important' , 'opacity' : '0.7' });
 		    }, function() {
