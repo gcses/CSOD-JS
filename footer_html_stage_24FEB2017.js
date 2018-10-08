@@ -126,17 +126,12 @@
 		$('#footerQuickLinks .feedback-link a').css({'color' :  '#f27707'});
 		$( "#footerQuickLinks div a:hover" ).addClass( "footerlinkshover" );
 		$('.footerlinkshover').css({'font-weight' : 'bold' ,   'opacity' : '0.6' });
-$('#footerQuickLinks a:hover').css( { 'color': 'black !important' });
 
-
-$('.c-glbl-nav ul').click(clearNavMenu_Hover);
-
-function clearNavMenu_Hover() {
-    var tmpStore=$('.c-glbl-nav').html();
-    $('.c-glbl-nav').empty();
-    $('.c-glbl-nav').html(tmpStore);
-    $('.c-glbl-nav ul').click(clearNavMenu_Hover);
-}
+		   $('#footerQuickLinks a').hover(function() {
+			$(this).css({'background-color': 'red !important'});
+		    }, function() {
+			$(this).css({'background-color': 'green'});
+		    });
 
 		var footerImg = $('<img id="slopedFooterImage">');
 	        footerImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/angle.png');
