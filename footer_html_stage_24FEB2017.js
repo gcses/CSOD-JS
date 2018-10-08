@@ -107,7 +107,7 @@
 							'<div class="text-link"><a href="https://bd.csod.com/phnx/driver.aspx?routename=Social/Topic/Posting/QAPostingDetails&Posting=27&Root=-1">How do I fix the Pop-up Blocker to allow the course to open?</a></div>' +
 							'<div class="text-link"><a href="https://bd.csod.com/phnx/driver.aspx?routename=Social/Topic/Posting/QAPostingDetails&Posting=13&Root=-1">How do I print the certificate for a course I have already completed?</a></div>' +
 							'<div class="text-link"><a href="https://bd.csod.com/phnx/driver.aspx?routename=Social/Topic/Posting/QAPostingDetails&Posting=17&Root=-1">How do I view transcripts and/or assign courses in Learning Compass?</a></div>' +
-							'<div class="text-link"><a href="https://bd.csod.com/phnx/driver.aspx?routename=Social/Topic/TopicDetails&Topic=3&Root=-1">Frequently Asked Questrions</a></div>' +
+							'<div class="text-link"><a href="https://bd.csod.com/phnx/driver.aspx?routename=Social/Topic/TopicDetails&Topic=3&Root=-1">Frequently Asked Questions</a></div>' +
 					      '</div>' +
 					    '<div class="col">' +
 					    		'<p>NEED HELP?</p>' +
@@ -121,7 +121,7 @@
 		$('#footerQuickLinks .row:after').css({'content':'' , 'display' : 'table' , 'clear' :  'both'});
 		$('#footerQuickLinks .col').css({'height' : 'auto' , 'width' :  '28%', 'float' : 'left' , 'padding' : '20px 5px 50px 55px'});
 		$('#footerQuickLinks .col p').css({'font-size' : '12px' , 'font-weight' :  'bold' , 'color' :  '#444444', 'padding' : '5px 0'});
-		$('#footerQuickLinks .text-link a').css({'font-weight' : 'normal' , 'color' :  '#666666'});
+		$('#footerQuickLinks .text-link a').css({'font-weight' : 'normal' , 'color' :  '#666666', 'display' : 'block' , 'margin' : '8px 0'});
 		$('#footerQuickLinks div a:hover').css({'font-weight' : 'bold' ,   'opacity' : '0.6' });
 		$('#footerQuickLinks .feedback-link a').css({'color' :  '#f27707'});
 		$( "#footerQuickLinks div a:hover" ).addClass( "footerlinkshover" );
