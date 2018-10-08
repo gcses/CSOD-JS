@@ -126,7 +126,7 @@
 		$('#footerQuickLinks .feedback-link a').css({'color' :  '#f27707'});
 		$( "#footerQuickLinks div a:hover" ).addClass( "footerlinkshover" );
 		$('.footerlinkshover').css({'font-weight' : 'bold' ,   'opacity' : '0.6' });
-$(#footerQuickLinks a:hover).css( { 'color': 'black !important' });
+$('#footerQuickLinks a:hover').css( { 'color': 'black !important' });
 
 
 $('.navTabs li').click(clearNavMenu_Hover);
