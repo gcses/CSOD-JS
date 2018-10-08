@@ -27,6 +27,7 @@
 		
 		/***** BEGIN : AVATAR IMAGE **********/
 
+		
 		//var avatargImg = $(document.getElementById('ctl00_header_headerFixed_imgAvatar'));
 		//avatargImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/avatar-sm.png');
 		//$('.user-interaction .avatar a img').css({ 'height' : '40px !important' , 'width' : '40px !important'});
