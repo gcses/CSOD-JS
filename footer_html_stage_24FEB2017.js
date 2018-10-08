@@ -128,9 +128,9 @@
 		$('.footerlinkshover').css({'font-weight' : 'bold' ,   'opacity' : '0.6' });
 
 		   $('#footerQuickLinks a').hover(function() {
-			$(this).css({'background-color': 'red !important'});
+			$(this).css({'font-weight' : 'bold' ,   'opacity' : '0.6'});
 		    }, function() {
-			$(this).css({'background-color': 'green'});
+			$(this).css({'font-weight' : 'bold' ,   'opacity' : '0.6'});
 		    });
 
 		var footerImg = $('<img id="slopedFooterImage">');
