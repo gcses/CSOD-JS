@@ -21,7 +21,7 @@
 		$('#search').css({ 'border-right': '1px solid #1a589e'});
 		$('#search .cso-top-srch-box').css({'width' : '140px' , 'backgroundColor': '#fff', 'border-radius': '4px', 'margin-right': '20px' , 'border' : 'none' , 'padding-left': '0'});
 		$('#search input').css({'color':'#808080' , 'width' : '130px' });
-		$('#search .search-lnk').css({'background-image' : 'url("https://bd.csod.com/clientimg/bd/welcome/magnifyingGlass.png")' , 'background-position' : '-5px -4px' });
+		$('#search .search-lnk').css({'background-image' : 'url("https://bd.csod.com/clientimg/bd/welcome/magnifyingGlass.png")' , 'background-position' : '-4px -2px' });
 		
 		/*****END: Search Bar Customization *****/
 		
@@ -93,7 +93,7 @@
 					     '</div>' +
 					     '<div class="col">' +
 					    		'<p>PHARMACY - QUICK LINKS</p>' +
-					    		'<div class="text-link"><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loId=7d262bbf-47db-410c-a205-d2462ae6118a">Preparing for Alaris™ Interoperability - Adobe Connect Webinar - CLP1266</a></div>' +
+					    		'<div class="text-link"><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loId=7d262bbf-47db-410c-a205-d2462ae6118a">Preparing for Alaris&trade; Interoperability - Adobe Connect Webinar - CLP1266</a></div>' +
 							'<div class="text-link"><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=2507553d-61bb-49bf-9f9c-9aa6d5a6bb27">CLP1043 - Pyxis MedStation 4000 system for Pharmacy</a></div>' +
 					    		'<div class="text-link"><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=ecd49018-3bdf-4cf5-bc68-b87852744ea5">Pyxis MedStation 4000 for System Managers (CLP1008 - CLP1012)</a></div>' +
 							'<div class="text-link"><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=b0ce2671-4467-4aec-9308-1af879b6d354">CLP1107 - Pyxis MedStation ES system for Pharmacy, v1.3.4</a></div>' +
