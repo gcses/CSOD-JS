@@ -8,7 +8,7 @@
 		$('.topBar').css({'margin-top': '0px', 'margin-right': '10px', 'border': 'none'}); 
 		
 		var feedback_button = $('<img id=\"fdSurvey\">');
-		feedback_button.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/btn_feedback.png');
+		feedback_button.attr('src', 'https://bd.csod.com/clientimg/bd/welcome/btn_feedback.png');
 		$(feedback_button).insertBefore('#search');
 		$(feedback_button).css({'width' : '80px' , 'height' : '35px' ,  'margin-right': '20px', 'cursor' : 'pointer'});
 		$(feedback_button).wrap($("<a class=\"feedback-link\">").attr('href', 'https://bd2.az1.qualtrics.com/jfe/form/SV_5yWSp8x3k8D4PBz'));
@@ -21,13 +21,13 @@
 		$('#search').css({ 'border-right': '1px solid #1a589e'});
 		$('#search .cso-top-srch-box').css({'width' : '140px' , 'backgroundColor': '#fff', 'border-radius': '4px', 'margin-right': '20px' , 'border' : 'none' , 'padding-left': '0'});
 		$('#search input').css({'color':'#808080' , 'width' : '130px' });
-		$('#search .search-lnk').css({'background-image' : 'url("https://bd-pilot.csod.com/clientimg/bd/welcome/magnifyingGlass.png")' , 'background-position' : '-5px -4px' });
+		$('#search .search-lnk').css({'background-image' : 'url("https://bd.csod.com/clientimg/bd/welcome/magnifyingGlass.png")' , 'background-position' : '-5px -4px' });
 		
 		/*****END: Search Bar Customization *****/
 		
 		/***** BEGIN : AVATAR IMAGE **********/
 		//var avatargImg = $(document.getElementById('ctl00_header_headerFixed_imgAvatar'));
-		//avatargImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/avatar-sm.png');
+		//avatargImg.attr('src', 'https://bd.csod.com/clientimg/bd/welcome/avatar-sm.png');
 		//$('.user-interaction .avatar a img').css({ 'height' : '40px !important' , 'width' : '40px !important'});
 		$('.avatar').css({'backgroundColor': '#004593', 'margin-right': '10px', 'border': '0px solid #004593' , 'border-radius': '0', 'padding-left': '0'});
 		$('.avatar a .img').css({'backgroundColor': '#004593', 'border-radius': '0', 'border': '0px solid #004593'});
@@ -47,7 +47,7 @@
 		
 		//$('.c-glbl-nav').append("<style>.clearfix::after{ content:'.' ;  visibility: hidden ; display : block ; height : 0 ; clear : both;  }</style>");
 		var lcTitleImg = $('<img id=\"lcTitle\">');
-		lcTitleImg.attr('src', 'https://bd-stg.csod.com/clientimg/bd/welcome/Learning_Compass_title_img1.png');
+		lcTitleImg.attr('src', 'https://bd.csod.com/clientimg/bd/welcome/Learning_Compass_title_img1.png');
 		$(lcTitleImg).insertBefore('.c-glbl-nav ul:first-child');
 		$('#lcTitle').css({'float': 'left', 'height' : '40px' });
 		$('.navTabs').css({'background': '#fff' , 'padding-top' : '1px' });
@@ -135,15 +135,15 @@
 		    });
 
 		var footerImg = $('<img id="slopedFooterImage">');
-	        footerImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/angle.png');
+	        footerImg.attr('src', 'https://bd.csod.com/clientimg/bd/welcome/angle.png');
                 footerImg.appendTo('#ctl00_footer_pnlCustomFooter');
 		
 		var footerContents = $('<div class="footerContentsRow">' +
-			    '<div class="colX"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/bd_white_rgb_tag_EN_1_5.png" id="footerLogo"></div>' +
-			    '<div class="col"><a href="http://www.facebook.com/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/facebookIcon.png" id="sm1"></a></div>' +
-			    '<div class="col"><a href="http://www.linkedin.com/company/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/linkedInIcon.jpg" id="sm2"></a></div>' +
-			    '<div class="col"><a href="http://youtube.com/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/youTubeIcon.jpg" id="sm3"></a></div>' +
-			    '<div class="col"><a href="http://twitter.com/carefusion"><img src="https://bd-pilot.csod.com/clientimg/bd/welcome/twitterIcon.jpg" id="sm4"></a> </div>' +
+			    '<div class="colX"><img src="https://bd.csod.com/clientimg/bd/welcome/bd_white_rgb_tag_EN_1_5.png" id="footerLogo"></div>' +
+			    '<div class="col"><a href="http://www.facebook.com/carefusion"><img src="https://bd.csod.com/clientimg/bd/welcome/facebookIcon.png" id="sm1"></a></div>' +
+			    '<div class="col"><a href="http://www.linkedin.com/company/carefusion"><img src="https://bd.csod.com/clientimg/bd/welcome/linkedInIcon.jpg" id="sm2"></a></div>' +
+			    '<div class="col"><a href="http://youtube.com/carefusion"><img src="https://bd.csod.com/clientimg/bd/welcome/youTubeIcon.jpg" id="sm3"></a></div>' +
+			    '<div class="col"><a href="http://twitter.com/carefusion"><img src="https://bd.csod.com/clientimg/bd/welcome/twitterIcon.jpg" id="sm4"></a> </div>' +
 			    '<div class="col copyright"><p class="copy">&copy; 2018 BD. All rights reserved. Unless otherwise noted, BD, the BD Logo and all other trademarks are property of Becton, Dickinson and Company.</p></div>' +
 			    '<div class="col footerLink privacy"><a href="http://www.bd.com/legal/privacy_policy/">Privacy Policy</a></div>' +
 			    '<div class="col footerLink"><a href="http://www.bd.com/legal/terms/">Terms of Use</a></div>' +
