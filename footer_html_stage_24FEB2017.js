@@ -7,6 +7,9 @@
 		$('.topBarOuter .tools').css({'padding': '0 10px', 'height' : '60px' , 'margin-right' : '20px'});
 		$('.topBar').css({'margin-top': '0px', 'margin-right': '10px', 'border': 'none'}); 
 		
+		$('div[role=navigation]').css ({ 'border-bottom' : '1px solid #f7f7f7'});
+
+		
 		var feedback_button = $('<img id=\"fdSurvey\">');
 		feedback_button.attr('src', 'https://bd.csod.com/clientimg/bd/welcome/btn_feedback.png');
 		$(feedback_button).insertBefore('#search');
