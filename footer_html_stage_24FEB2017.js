@@ -80,7 +80,7 @@
 		//create grey background and add sloped image
 		$('#ctl00_footer_pnlCustomFooter').css({"backgroundColor": "#e6e7e9" , "padding" : "0"});
 		
-		var footerQuickLinksBox = $('<div id="footerQuickLinks" style="height : auto; z-index: 1; padding: 30px 0 15px; position: relative; border-top: 2px solid #e5e5e5; float: left; width: 100%;">' +
+		var footerQuickLinksBox = $('<div id="footerQuickLinks" style="height : auto; z-index: 1; padding: 30px 0 15px; border-top: 2px solid #e5e5e5; float: left; width: 100%;">' +
 			'<div class="row">' +
 					    '<div class="col">' +
 					    		'<p>NURSES AND CLINICIANS - QUICK LINKS</p>' +
