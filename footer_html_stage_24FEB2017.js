@@ -7,7 +7,7 @@
 		$('.topBarOuter .tools').css({'padding': '0 10px', 'height' : '60px' , 'margin-right' : '20px'});
 		$('.topBar').css({'margin-top': '0px', 'margin-right': '10px', 'border': 'none'}); 
 		
-		$('div[role=navigation]').css ({ 'border-bottom' : '1px solid #f7f7f7'});
+		$('div[role=navigation]').css ({ 'border-bottom' : '1px solid #b6b6b6'});
 
 		
 		var feedback_button = $('<img id=\"fdSurvey\">');
@@ -53,7 +53,7 @@
 		lcTitleImg.attr('src', 'https://bd.csod.com/clientimg/bd/welcome/Learning_Compass_title_img1.png');
 		$(lcTitleImg).insertBefore('.c-glbl-nav ul:first-child');
 		$('#lcTitle').css({'float': 'left', 'height' : '40px' });
-		$('.navTabs').css({'background': '#fff' , 'padding-top' : '1px' });
+		$('.navTabs').css({'background': '#fff'});
 		$('.navTabs li').css({'padding-right': '5px'});
 		$('.navTabs-subTabList li').css({'border-right': 'none' });
 		$('.navTabs li:last-child').css({'border-right': 'none' });
