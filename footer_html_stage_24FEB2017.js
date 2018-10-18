@@ -121,9 +121,9 @@
 					    '</div>' +
 			 '</div>');
                 footerQuickLinksBox.appendTo('#ctl00_footer_pnlCustomFooter');
-		$('#footerQuickLinks .row').css({'height' : 'auto' , 'width' :  '100%', 'font-size' : '11px',  'line-height' : '1.2', 'display' : 'flex' , 'justify-content' : 'center'});
+		$('#footerQuickLinks .row').css({'height' : 'auto' , 'width' :  '80%', 'font-size' : '11px',  'line-height' : '1.2', 'display' : 'flex' , 'justify-content' : 'center'});
 		$('#footerQuickLinks .row:after').css({'content':'' , 'display' : 'table' , 'clear' :  'both'});
-		$('#footerQuickLinks .col').css({'height' : 'auto' , 'width' :  '28%', 'float' : 'left' , 'padding' : '20px 5px 50px 55px'});
+		$('#footerQuickLinks .col').css({'height' : 'auto' , 'width' :  '28%', 'float' : 'left'});
 		$('#footerQuickLinks .col p').css({'font-size' : '12px' , 'font-weight' :  'bold' , 'color' :  '#444444', 'padding' : '5px 0'});
 		$('#footerQuickLinks .text-link a').css({'font-weight' : 'normal' , 'color' :  '#666666', 'display' : 'block' , 'margin' : '8px 0'});
 		$('#footerQuickLinks div a:hover').css({'font-weight' : 'bold' ,   'opacity' : '0.6' });
