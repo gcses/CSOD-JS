@@ -71,7 +71,7 @@
 		    });
 		
 		 $('.navTabs li a').hover(function() {
-			$(this).css({'opacity' : '0.6'});
+			$(this).css({'opacity' : '0'});
 		    }, function() {
 			$(this).css({'opacity' : '1'});
 		    });
