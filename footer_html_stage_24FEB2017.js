@@ -63,18 +63,14 @@
 		//$('#main-menu li a.has-submenu.highlighted').attr('style', 'background-color: #fff !important');
 		$('.navTabs li.active').css({ 'font-weight' : 'bold !important' ,  'background-color' : '#fff !important' });
 		$('.navTabs li').removeClass('highlighted');
-		$('.navTabs li').hover(function() {
+		$('.navTabs li a').hover(function() {
 			$(this).removeClass('highlighted');
 			$(this).css({'background-color': '#fff !important' , 'font-color' : '#5f6062'  });
 		    }, function() {
 			$(this).css({'background-color': '#fff' ,  'font-color' : '#808080'});
 		    });
 		
-		 $('.navTabs li a').hover(function() {
-			$(this).css({'opacity' : '0'});
-		    }, function() {
-			$(this).css({'opacity' : '1'});
-		    });
+
 		
 		/***** END - Navigation *****/
 		
