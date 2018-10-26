@@ -65,7 +65,7 @@
 		$('.navTabs li').removeClass('highlighted');
 		$('.navTabs li a').hover(function() {
 			$(this).removeClass('highlighted');
-			$(this).css({'background-color': '#fff !important' , 'font-color' : '#5f6062'  });
+			$(this).css({'background-color': '#fff !important' , 'font-color' : '#5f6062', 'padding-right' : '0'  });
 		    }, function() {
 			$(this).css({'background-color': '#fff' ,  'font-color' : '#808080'});
 		    });
