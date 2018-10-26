@@ -70,6 +70,12 @@
 			$(this).css({'background-color': '#fff' ,  'font-color' : '#808080'});
 		    });
 		
+		 $('.navTabs li a').hover(function() {
+			$(this).css({'opacity' : '0.6'});
+		    }, function() {
+			$(this).css({'opacity' : '1'});
+		    });
+		
 		/***** END - Navigation *****/
 		
 	       //Make the home page clickable and link to the Welcome page / Main page
