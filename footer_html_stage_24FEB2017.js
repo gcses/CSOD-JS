@@ -70,11 +70,11 @@
 		//	$(this).css({'background-color': '#fff' ,  'font-color' : '#808080'});
 		//    });
 		
-		$('.navTabs li a').hover(function() {
-			$(this).css({'opacity' : '.5'});
-		    }, function() {
-			$(this).css({'opacity' : '.5'});
-		    });
+		//$('.navTabs li a').hover(function() {
+		//	$(this).css({'opacity' : '.5'});
+		//    }, function() {
+		//	$(this).css({'opacity' : '.5'});
+		  //  });
 		
 
 		
