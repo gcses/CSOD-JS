@@ -90,8 +90,8 @@
 		
 		var footerQuickLinksBox = $('<div id="footerQuickLinks" style="height : auto; z-index: 1; padding: 30px 0 15px; border-top: 2px solid #e5e5e5; float: left; width: 100%; background-color: #f5f5f5;">' +
 				'<div id="feedback">' +						
-					'<a href="https://bd2.az1.qualtrics.com/jfe/form/SV_5yWSp8x3k8D4PBz" >' +						
-						'<img src="/clientimg/bd/welcome/feedback-purple-side.png" alt="Feedback" title="Feedback Button" height="70px"/>' +
+					'<a href="https://bd2.az1.qualtrics.com/jfe/form/SV_5yWSp8x3k8D4PBz">' +						
+					    '<img src="/clientimg/bd/welcome/feedback-purple-side1.png" alt="Feedback" title="Feedback Button" width="40px" height="103px"/>' +
 					'</a>'	+			           
 				'</div>' +
 			        '<div class="row">' +
@@ -191,8 +191,8 @@
 		$('.footerLink a').css({'color' : '#fff'});
 		
 		$('#feedback').css({'float' : 'left' ,'position' : 'fixed' , 'top': 'calc(50% - 47px)' , 'right' : '0' });
-		$('#feedback a').css({'transition': 'all .2s ease-in-out','padding': '20px 12px','display': 'block','border-right' : '0', 'border ' : '3px solid #fff' , 'background' : '#FF4500' , 'border-radius' : '5px 0 0 5px' , 'box-shadow': '0 0 3px rgba(0, 0, 0, .3)' });
-		$('#feedback a:hover').css({'padding-right': '20px' });
+		//$('#feedback a').css({'transition': 'all .2s ease-in-out','padding': '20px 12px','display': 'block','border-right' : '0', 'border ' : '3px solid #fff' , 'background' : '#FF4500' , 'border-radius' : '5px 0 0 5px' , 'box-shadow': '0 0 3px rgba(0, 0, 0, .3)' });
+		
 
 
 		/***** END - Footer *****/
