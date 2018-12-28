@@ -90,8 +90,8 @@
 		
 		var footerQuickLinksBox = $('<div id="footerQuickLinks" style="height : auto; z-index: 1; padding: 30px 0 15px; border-top: 2px solid #e5e5e5; float: left; width: 100%; background-color: #f5f5f5;">' +
 				'<div id="feedback">' +						
-					'<a href="#" >' +						
-						'<img src="" alt="Feedback" title="Feedback Button" height="70px"/>' +
+					'<a href="https://bd2.az1.qualtrics.com/jfe/form/SV_5yWSp8x3k8D4PBz" >' +						
+						'<img src="/clientimg/bd/welcome/feedback-purple-side.png" alt="Feedback" title="Feedback Button" height="70px"/>' +
 					'</a>'	+			           
 				'</div>' +
 			        '<div class="row">' +
