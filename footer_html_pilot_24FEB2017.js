@@ -146,7 +146,7 @@
 		$( "#footerQuickLinks div a:hover" ).addClass( "footerlinkshover" );
 		$('.footerlinkshover').css({'font-weight' : 'bold' ,   'opacity' : '0.6' });
 
-		   $('#footerQuickLinks a').hover(function() {
+		   $('#footerQuickLinks .row a').hover(function() {
 			$(this).css({'opacity' : '0.6'});
 		    }, function() {
 			$(this).css({'opacity' : '1'});
@@ -192,7 +192,11 @@
 		
 		$('#feedback').css({'float' : 'left' ,'position' : 'fixed' , 'top': 'calc(50% - 47px)' , 'right' : '0' });
 		//$('#feedback a').css({'transition': 'all .2s ease-in-out','padding': '20px 12px','display': 'block','border-right' : '0', 'border ' : '3px solid #fff' , 'background' : '#FF4500' , 'border-radius' : '5px 0 0 5px' , 'box-shadow': '0 0 3px rgba(0, 0, 0, .3)' });
-		$('#feedback a:hover').css({ 'padding-right' : '20px' });
+
+		
+		$('#footerQuickLinks #feedback a').hover(function() {
+			$(this).css({'padding-right' : '20px'});
+		    });
 
 		/***** END - Footer *****/
 	});
