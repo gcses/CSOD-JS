@@ -92,7 +92,7 @@
 				'<div id="feedback">' +						
 					'<a href="#" >' +						
 						'<img src="" alt="Feedback" title="Feedback Button" height="70px"/>' +
-					'</a>'				           
+					'</a>'	+			           
 				'</div>' +
 			        '<div class="row">' +
 					    '<div class="col">' +
