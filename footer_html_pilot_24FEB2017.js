@@ -89,7 +89,12 @@
 		$('#ctl00_footer_pnlCustomFooter').css({"backgroundColor": "#e6e7e9" , "padding" : "0"});
 		
 		var footerQuickLinksBox = $('<div id="footerQuickLinks" style="height : auto; z-index: 1; padding: 30px 0 15px; border-top: 2px solid #e5e5e5; float: left; width: 100%; background-color: #f5f5f5;">' +
-			'<div class="row">' +
+				'<div id="feedback">' +						
+					'<a href="#" >' +						
+						'<img src="" alt="Feedback" title="Feedback Button" height="70px"/>' +
+					'</a>'				           
+				'</div>' +
+			        '<div class="row">' +
 					    '<div class="col">' +
 					    		'<p>NURSES AND CLINICIANS - QUICK LINKS</p>' +
 							'<div class="text-link"><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=ec3b84f3-3130-4719-b19a-24ef5b62f31d">Alaris System with Guardrails Suite MX training - CLP1106 (CBT)</a></div>' +
