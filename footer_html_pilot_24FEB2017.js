@@ -191,12 +191,6 @@
 		$('.footerLink a').css({'color' : '#fff'});
 		
 		$('#feedback').css({'float' : 'left' ,'position' : 'fixed' , 'top': 'calc(50% - 47px)' , 'right' : '0' });
-		$('#feedback a').css({'transition': 'all .2s ease-in-out','padding': '20px 12px','display': 'block','border-right' : '0', 'border ' : '3px solid #fff' , 'background' : '#FF4500' , 'border-radius' : '5px 0 0 5px' , 'box-shadow': '0 0 3px rgba(0, 0, 0, .3)' });
-
-		
-		$('#footerQuickLinks #feedback a').hover(function() {
-			$(this).css({'padding-right' : '20px'});
-		    });
 
 		/***** END - Footer *****/
 	});
