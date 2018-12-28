@@ -126,7 +126,12 @@
 							//'<div class="text-link"><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=e049e85e-c131-46a3-90aa-fe2fa5520192#t=1">NEW! - Try our Curriculum Finder to find courses for your role</a></div>' +
 							'<div class="text-link"><a href="https://bd.csod.com/catalog/CustomPage.aspx?id=20000480&tab_page_id=20000480">&#9990; Contact Us</a></div>' +
 							'<div class="text-link feedback-link"><a href="https://bd2.az1.qualtrics.com/jfe/form/SV_5yWSp8x3k8D4PBz">&#9997; Give us Feedback</a></div>' +
-					    '</div>' +
+					    '</div>' + 
+					    '<div id="feedback">' +
+						'<a href="#" type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">' +
+							'<img src="" alt="Feedback" title="Feedback Button" height="70px"/>' +
+						'</a>'
+					'</div>' +
 			 '</div>');
                 footerQuickLinksBox.appendTo('#ctl00_footer_pnlCustomFooter');
 		$('#footerQuickLinks .row').css({'height' : 'auto' , 'width' :  '80%', 'font-size' : '11px',  'line-height' : '1.2', 'display' : 'flex' , 'margin' : '0 auto' , 'padding-bottom' : '30px'});
@@ -184,6 +189,11 @@
 		$('.privacy').css({'border-right' : 'none'});
 		$('.footerLink a').css({'color' : '#fff'});
 		
+		$('#feedback').css({'float' : 'left' ,'position' : 'fixed' , 'top': 'calc(50% - 47px)' , 'right' : '0' });
+		$('#feedback a').css({'transition': 'all .2s ease-in-out','padding': '20px 12px','display': 'block','border-right' : '0', 'border ' : '3px solid #fff' , 'background' : '#FF4500' , 'border-radius' : '5px 0 0 5px' , 'box-shadow': '0 0 3px rgba(0, 0, 0, .3)' });
+		$('#feedback a:hover').css({'padding-right': '20px' ]);
+
+
 		/***** END - Footer *****/
 	});
 
