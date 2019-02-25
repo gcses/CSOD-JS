@@ -25,6 +25,7 @@
 		$('#search .cso-top-srch-box').css({'width' : '140px' , 'backgroundColor': '#fff', 'border-radius': '4px', 'margin-right': '20px' , 'border' : 'none' , 'padding-left': '0'});
 		$('#search input').css({'color':'#808080' , 'width' : '130px' });
 		$('#search .search-lnk').css({'background-image' : 'url("https://bd.csod.com/clientimg/bd/welcome/magnifyingGlass.png")' , 'background-position' : '-4px -2px' });
+		$('.p-predictivesearch .predictor').css({'border' : '1px solid #416299'});
 		
 		/*****END: Search Bar Customization *****/
 		
