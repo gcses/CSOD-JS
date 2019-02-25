@@ -18,7 +18,7 @@
 		$('.feedback-link').css({'display' : 'inline' });  *****/
 		
 		/*****BEGIN: Logo Customization *****/
-		$('.imageLogo').css({'height' : '62px' , 'top' : '-14px' , 'position' : 'relative' });
+		//$('.imageLogo').css({'height' : '62px' , 'top' : '-14px' , 'position' : 'relative' });
 		
 		/*****BEGIN: Search Bar Customization *****/
 		$('#search').css({ 'border-right': '1px solid #1a589e'});
