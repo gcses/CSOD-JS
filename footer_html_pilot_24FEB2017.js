@@ -145,7 +145,7 @@
 		$('#footerQuickLinks .col p').css({'font-size' : '12px' , 'font-weight' :  'bold' , 'color' :  '#444444', 'padding' : '5px 0'});
 		$('#footerQuickLinks .text-link a').css({'font-weight' : 'normal' , 'color' :  '#666666', 'display' : 'block' , 'margin' : '8px 0'});
 		$('#footerQuickLinks div a:hover').css({'font-weight' : 'bold' ,   'opacity' : '0.6' });
-		$('#footerQuickLinks .feedback-link a').css({'color' :  '#f27707'});
+		//$('#footerQuickLinks .feedback-link a').css({'color' :  '#f27707'});
 		$( "#footerQuickLinks div a:hover" ).addClass( "footerlinkshover" );
 		$('.footerlinkshover').css({'font-weight' : 'bold' ,   'opacity' : '0.6' });
 
