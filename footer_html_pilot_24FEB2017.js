@@ -45,7 +45,7 @@
 		$('.cso-hdr-dd .item a span').css({'background-image' : 'none' });
 		//$('.settings a span').css({'background-position' : '0 0' , 'height' : '40px' , 'width' : '40px' });
 		$('.cso-hdr-dd .item a span').css({'height' : 'auto' , 'width' : 'auto' });
-		$('.tools').css({'height': '32px' , 'padding' : '3px 8px 0' )};
+		$('.tools').css({'height': '32px' , 'padding' : '3px 8px 0' });
 		
 		/***** BEGIN - Navigation *****/
 		//$('.c-glbl-nav').css({'height' : '58px'});
