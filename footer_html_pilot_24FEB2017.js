@@ -3,9 +3,9 @@
 	$smjquery(document).ready(function() {
 	
 		/***** BEGIN : Header Tools *****/
-		//$('.topBarOuter').css({'height' : '50px'});
-		//$('.topBarOuter .tools').css({'padding': '0 10px', 'height' : '60px' , 'margin-right' : '20px'});
-		//$('.topBar').css({'margin-top': '0px', 'margin-right': '10px', 'border': 'none'}); 
+		$('.topBarOuter').css({'height' : '50px'});
+		$('.topBarOuter .tools').css({'padding': '0 10px', 'height' : '60px' , 'margin-right' : '20px'});
+		$('.topBar').css({'margin-top': '0px', 'margin-right': '10px', 'border': 'none'}); 
 		
 		$('div[role=navigation]').css ({ 'border-bottom' : '1px solid #b6b6b6'});
 
@@ -18,7 +18,7 @@
 		$('.feedback-link').css({'display' : 'inline' });  *****/
 		
 		/*****BEGIN: Logo Customization *****/
-		//$('.imageLogo').css({'height' : '62px' , 'top' : '-14px' , 'position' : 'relative' });
+		$('.imageLogo').css({'height' : '62px' , 'top' : '-14px' , 'position' : 'relative' });
 		
 		/*****BEGIN: Search Bar Customization *****/
 		$('#search').css({ 'display': 'none'});
