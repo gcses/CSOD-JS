@@ -55,7 +55,7 @@
 		var lcTitleImg = $('<img id=\"lcTitle\">');
 		lcTitleImg.attr('src', 'https://bd.csod.com/clientimg/bd/welcome/Learning_Compass_title_img2.png');
 		$(lcTitleImg).insertBefore('.c-glbl-nav ul:first-child');
-		$('#lcTitle').css({'float': 'left', 'height' : '40px' });
+		$('#lcTitle').css({'float': 'left' });
 		$('.navTabs').css({'background': '#fff'});
 		$('.navTabs li').css({'padding-right': '5px'});
 		$('.navTabs-subTabList li').css({'border-right': 'none' });
