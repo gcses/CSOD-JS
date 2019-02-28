@@ -6,6 +6,7 @@
 		//$('.topBarOuter').css({'height' : '50px'});
 		$('.topBarOuter .tools').css({'padding': '0 10px', 'margin-right' : '20px'});
 		$('.topBar').css({'margin-top': '0px', 'margin-right': '10px', 'border': 'none'}); 
+		$('.topBar tr td').css({'display' : 'inline-table'});
 		
 		$('div[role=navigation]').css ({ 'border-bottom' : '1px solid #b6b6b6'});
 
