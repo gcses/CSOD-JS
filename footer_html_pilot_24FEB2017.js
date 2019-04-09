@@ -55,7 +55,7 @@
 		var lcTitleImg = $('<img id=\"lcTitle\">');
 		lcTitleImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/Learning_Compass_title_img2.png');
 		$(lcTitleImg).insertBefore('.c-glbl-nav ul:first-child');
-		$('#lcTitle').css({'float': 'left' , 'padding' : '4px 0' , 'height' : '31px' });
+		$('#lcTitle').css({'float': 'left' , 'height' : '39px' });
 		$('.navTabs').css({'background': '#fff'});
 		$('.navTabs li').css({'padding-right': '5px'});
 		$('.navTabs-subTabList li').css({'border-right': 'none' });
@@ -154,7 +154,9 @@
 		    }, function() {
 			$(this).css({'opacity' : '1'});
 		    });
-
+if (!$('#main-menu > li a:contains("Home")').length > 0) {
+    $("#footerQuickLinks").hide();
+}
 		var footerImg = $('<img id="slopedFooterImage">');
 	        footerImg.attr('src', 'https://bd.csod.com/clientimg/bd/welcome/angle.png');
                 footerImg.appendTo('#ctl00_footer_pnlCustomFooter');
