@@ -155,7 +155,8 @@
 			$(this).css({'opacity' : '1'});
 		    });
 if ($('#main-menu > li a:contains("Curriculum Finder")').length > 0) {
-    $("#footerQuickLinks").hide();
+	alert("its here");
+    //$("#footerQuickLinks").hide();
 }
 		var footerImg = $('<img id="slopedFooterImage">');
 	        footerImg.attr('src', 'https://bd.csod.com/clientimg/bd/welcome/angle.png');
