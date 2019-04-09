@@ -154,7 +154,7 @@
 		    }, function() {
 			$(this).css({'opacity' : '1'});
 		    });
-if (!$('#main-menu > li a:contains("Home")').length > 0) {
+if ($('#main-menu > li a:contains("Curriculum Finder")').length > 0) {
     $("#footerQuickLinks").hide();
 }
 		var footerImg = $('<img id="slopedFooterImage">');
