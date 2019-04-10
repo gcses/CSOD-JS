@@ -85,7 +85,10 @@
 		
 	       //Make the home page clickable and link to the Welcome page / Main page
 	       $('a:contains("Home")').attr("href","/ui/lms-learner-home/home?tab_page_id=-200300006"); 
-	
+	 //Make the home page clickable and link to the Welcome page / Main page
+	       $('a:contains("Home")').attr("class","showFAQLinks"); 
+		
+		
 		/***** BEGIN - Footer *****/
 		$('.df-footer').css({"display": "none"}); // hide the csod default footer
 		//create grey background and add sloped image
@@ -154,10 +157,7 @@
 		    }, function() {
 			$(this).css({'opacity' : '1'});
 		    });
-if ($('#main-menu > li a:contains("Curriculum Finder")').length > 0) {
-	alert("its here");
-    //$("#footerQuickLinks").hide();
-}
+
 		var footerImg = $('<img id="slopedFooterImage">');
 	        footerImg.attr('src', 'https://bd.csod.com/clientimg/bd/welcome/angle.png');
                 footerImg.appendTo('#ctl00_footer_pnlCustomFooter');
