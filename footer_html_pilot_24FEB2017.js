@@ -86,7 +86,7 @@
 	       //Make the home page clickable and link to the Welcome page / Main page
 	       $('a:contains("Home")').attr("href","/ui/lms-learner-home/home?tab_page_id=-200300006"); 
 	 //Make the home page clickable and link to the Welcome page / Main page
-	       $('a:contains("Home")').attr("class","showFAQLinks"); 
+	       $('a:contains("Curriculum Finder")').attr("class","showFAQLinks"); 
 		
 		
 		/***** BEGIN - Footer *****/
