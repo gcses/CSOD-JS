@@ -9,26 +9,10 @@
 		
 		$('div[role=navigation]').css ({ 'border-bottom' : '1px solid #b6b6b6'});
 
-		/***** BEGIN : Feedback Button on header
-		var feedback_button = $('<img id=\"fdSurvey\">');
-		feedback_button.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/btn_feedback2.png');
-		$(feedback_button).insertBefore('#search');
-		$(feedback_button).css({'width' : '80px' , 'height' : '32px' ,  'margin-right': '20px', 'cursor' : 'pointer', 'border-radius' : '10px'});
-		$(feedback_button).wrap($("<a class=\"feedback-link\">").attr('href', 'https://bd2.az1.qualtrics.com/jfe/form/SV_5yWSp8x3k8D4PBz'));
-		$('.feedback-link').css({'display' : 'inline' });  *****/
-		
-		/*****BEGIN: Logo Customization *****/
-		//$('.imageLogo').css({'height' : '62px' , 'top' : '-14px' , 'position' : 'relative' });
 		
 		/*****BEGIN: Search Bar Customization *****/
-		//var homepage = window.location.href.indexOf('?home=') > 0;
-		
-	
-$( "#search" ).addClass( "hidesearchhome" );
-body form[action="./home?tab_page_id=-200300006&amp;tab_id=-2"] #search .hidesearchhome{display:none;}
-
-		
-		
+		var homepage = window.location.href.indexOf('?home=') > 0;
+		console.log(homepage);
 		//$('#search').css({ 'border-right': '1px solid #1a589e'});
 		//$('#search .cso-top-srch-box').css({'width' : '140px' , 'backgroundColor': '#fff', 'border-radius': '4px', 'margin-right': '20px' , 'border' : 'none' , 'padding-left': '0'});
 		//$('#search input').css({'color':'#808080' , 'width' : '130px' });
@@ -39,9 +23,7 @@ body form[action="./home?tab_page_id=-200300006&amp;tab_id=-2"] #search .hidesea
 		/*****END: Search Bar Customization *****/
 		
 		/***** BEGIN : AVATAR IMAGE **********/
-		//var avatargImg = $(document.getElementById('ctl00_header_headerFixed_imgAvatar'));
-		//avatargImg.attr('src', 'https://bd.csod.com/clientimg/bd/welcome/avatar-sm.png');
-		//$('.user-interaction .avatar a img').css({ 'height' : '40px !important' , 'width' : '40px !important'});
+	
 		$('.avatar').css({'backgroundColor': '#004593', 'margin-right': '10px', 'border': '0px solid #004593' , 'border-radius': '0', 'padding-left': '0'});
 		$('.avatar a .img').css({'backgroundColor': '#004593', 'border-radius': '0', 'border': '0px solid #004593'});
 		$('.avatar a').css({'backgroundColor': '#004593', 'border-radius': '0',  'margin-top': '0px', 'margin-right': '10px', 'border': '0px solid #004593'});
@@ -49,16 +31,11 @@ body form[action="./home?tab_page_id=-200300006&amp;tab_id=-2"] #search .hidesea
 		
 		/************ BEGIN : COG ***********/
 		$('.user-interaction').css({'backgroundcolor': 'none', 'border-radius': '0', 'border': 'none' , 'margin-left' : '20px'});
-		//$smjquery('.user-interaction li').css({'border-radius': '0', 'border': 'none'});
 		$('.cso-hdr-dd .item a span').css({'background-image' : 'none' });
-		//$('.settings a span').css({'background-position' : '0 0' , 'height' : '40px' , 'width' : '40px' });
 		$('.cso-hdr-dd .item a span').css({'height' : 'auto' , 'width' : 'auto' });
 		$('.tools').css({'height': '32px' , 'padding' : '3px 8px' });
 		
 		/***** BEGIN - Navigation *****/
-		//$('.c-glbl-nav').css({'height' : '58px'});
-		
-		//$('.c-glbl-nav').append("<style>.clearfix::after{ content:'.' ;  visibility: hidden ; display : block ; height : 0 ; clear : both;  }</style>");
 		var lcTitleImg = $('<img id=\"lcTitle\">');
 		lcTitleImg.attr('src', 'https://bd-pilot.csod.com/clientimg/bd/welcome/Learning_Compass_title_img2.png');
 		$(lcTitleImg).insertBefore('.c-glbl-nav ul:first-child');
@@ -69,30 +46,15 @@ body form[action="./home?tab_page_id=-200300006&amp;tab_id=-2"] #search .hidesea
 		$('.navTabs li:last-child').css({'border-right': 'none' });
 		$('.navTabs li a').css({'color':'#808080', 'text-shadow' : 'none'});
 		$('.navTabs li a:hover').css({'text-shadow' : 'none' , 'background-color' : 'none !important'});
-		//$('.navTabs li a.highlighted').css({'background-color' : '#fff !important'});
-		//$('#main-menu li a.has-submenu.highlighted').attr('style', 'background-color: #fff !important');
+		
 		$('.navTabs li.active').css({ 'font-weight' : 'bold !important' ,  'background-color' : '#fff !important' });
 		$('.navTabs li').removeClass('highlighted');
-		//$('.navTabs li a').hover(function() {
-		//	$(this).removeClass('highlighted');
-		//	$(this).css({'background-color': '#fff !important' , 'font-color' : '#5f6062', 'padding-right' : '0'  });
-		//    }, function() {
-		//	$(this).css({'background-color': '#fff' ,  'font-color' : '#808080'});
-		//    });
-		
-		//$('.navTabs li a').hover(function() {
-		//	$(this).css({'opacity' : '.5'});
-		//    }, function() {
-		//	$(this).css({'opacity' : '.5'});
-		  //  });
-		
-
-		
+				
 		/***** END - Navigation *****/
 		
 	       //Make the home page clickable and link to the Welcome page / Main page
 	       $('a:contains("Home")').attr("href","/ui/lms-learner-home/home?tab_page_id=-200300006"); 
-	 //Make the home page clickable and link to the Welcome page / Main page
+	 	
 	       $('a:contains("Curriculum Finder")').attr("class","showFAQLinks"); 
 		
 		
