@@ -11,13 +11,16 @@
 
 		
 		/*****BEGIN: Search Bar Customization *****/
-		var homepage = window.location.href.indexOf('?home=') > 0;
+		var homepage = window.location.href.contains("home") > -1;
+		 if(window.location.href.contains("home") > -1) {
+		       alert("Alert: Desktop!");
+		 };
 		 if (homepage ){
 		     $('#search').css({ 'display' : 'none'});
 		    }
 		    else {
 		      $('#search').css({ 'display' : 'block'});
-		    }
+		    };
 		//$('#search').css({ 'border-right': '1px solid #1a589e'});
 		//$('#search .cso-top-srch-box').css({'width' : '140px' , 'backgroundColor': '#fff', 'border-radius': '4px', 'margin-right': '20px' , 'border' : 'none' , 'padding-left': '0'});
 		//$('#search input').css({'color':'#808080' , 'width' : '130px' });
