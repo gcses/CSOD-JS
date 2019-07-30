@@ -11,7 +11,29 @@
 
 		
 		/*****BEGIN: Search Bar Customization *****/
-		var homepage = window.location.href.contains("home") > -1;
+		
+		 function matchSearchLocation(key) {
+		     var list = window.location.search.split("&");
+
+		     for (var i=0;i<list.length;i++) {
+		       var item = list[i].split("=")[0];
+		       if (i === 0) 
+			 item = item.substr(1,item.length - 1);
+
+		       if (item === key) return true;
+		     }
+		    return false;
+		  }
+
+	
+		    if (matchSearchLocation("home"))
+		      $("#search").hide();    
+		    else
+		      $("#search").show();
+	
+		
+		
+		/*****var homepage = window.location.href.contains("home") > -1;
 		 if(window.location.href.contains("home") > -1) {
 		       alert("Alert: Desktop!");
 		 };
@@ -20,7 +42,10 @@
 		    }
 		    else {
 		      $('#search').css({ 'display' : 'block'});
-		    };
+		    };*****/
+		
+		
+		
 		//$('#search').css({ 'border-right': '1px solid #1a589e'});
 		//$('#search .cso-top-srch-box').css({'width' : '140px' , 'backgroundColor': '#fff', 'border-radius': '4px', 'margin-right': '20px' , 'border' : 'none' , 'padding-left': '0'});
 		//$('#search input').css({'color':'#808080' , 'width' : '130px' });
