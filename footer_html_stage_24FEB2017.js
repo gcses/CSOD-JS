@@ -7,12 +7,17 @@
 		$('.topBarOuter .tools').css({'padding': '0 10px', 'margin-right' : '20px'});
 		$('.topBar').css({'margin-top': '0px', 'margin-right': '10px', 'border': 'none'}); 
 		
-		$('div[role=navigation]').css ({ 'border-bottom' : '1px solid #b6b6b6'});
+		$('div[role=navigation]').css({ 'border-bottom' : '1px solid #b6b6b6'});
 
 		
 		/*****BEGIN: Search Bar Customization *****/
 		var homepage = window.location.href.indexOf('?home=') > 0;
-		console.log(homepage);
+		 if (homepage ){
+     $('#Search').css({ 'display' : 'none'});
+    }
+    else { //<-- Here
+      $('#Search').css({ 'display' : 'block'});
+    }
 		//$('#search').css({ 'border-right': '1px solid #1a589e'});
 		//$('#search .cso-top-srch-box').css({'width' : '140px' , 'backgroundColor': '#fff', 'border-radius': '4px', 'margin-right': '20px' , 'border' : 'none' , 'padding-left': '0'});
 		//$('#search input').css({'color':'#808080' , 'width' : '130px' });
