@@ -22,10 +22,12 @@
 		
 		/*****BEGIN: Search Bar Customization *****/
 		//var homepage = window.location.href.indexOf('?home=') > 0;
-		var url = window.location.href;
-		    if(url.indexOf("home") >= 0) { 
-			    $('#search').css({ 'display': 'none'});
-		    }
+		
+	
+$( "#search" ).addClass( "hidesearchhome" );
+body form[action="./home?tab_page_id=-200300006&amp;tab_id=-2"] #search .hidesearchhome{display:none;}
+
+		
 		
 		//$('#search').css({ 'border-right': '1px solid #1a589e'});
 		//$('#search .cso-top-srch-box').css({'width' : '140px' , 'backgroundColor': '#fff', 'border-radius': '4px', 'margin-right': '20px' , 'border' : 'none' , 'padding-left': '0'});
