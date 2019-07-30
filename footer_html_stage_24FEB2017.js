@@ -21,7 +21,12 @@
 		//$('.imageLogo').css({'height' : '62px' , 'top' : '-14px' , 'position' : 'relative' });
 		
 		/*****BEGIN: Search Bar Customization *****/
-		$('#search').css({ 'display': 'none'});
+		//var homepage = window.location.href.indexOf('?home=') > 0;
+		var url = window.location.href;
+		    if(url.indexOf("home") >= 0) { 
+			    $('#search').css({ 'display': 'none'});
+		    }
+		
 		//$('#search').css({ 'border-right': '1px solid #1a589e'});
 		//$('#search .cso-top-srch-box').css({'width' : '140px' , 'backgroundColor': '#fff', 'border-radius': '4px', 'margin-right': '20px' , 'border' : 'none' , 'padding-left': '0'});
 		//$('#search input').css({'color':'#808080' , 'width' : '130px' });
@@ -137,6 +142,7 @@
 							//'<div class="text-link"><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=e049e85e-c131-46a3-90aa-fe2fa5520192#t=1">NEW! - Try our Curriculum Finder to find courses for your role</a></div>' +
 							'<div class="text-link"><a href="https://bd.csod.com/catalog/CustomPage.aspx?id=20000480&tab_page_id=20000480">&#9990; Contact Us</a></div>' +
 							'<div class="text-link feedback-link"><a href="https://bd2.az1.qualtrics.com/jfe/form/SV_5yWSp8x3k8D4PBz">&#9997; Give us Feedback</a></div>' +
+					   '<div class="text-link"><a href="https://bd-stg.csod.com/catalog/CustomPage.aspx?id=20000515&tab_page_id=20000515">SCORM Download</a></div>' +
 					    '</div>' + 
 				
 			 '</div>');
