@@ -9,17 +9,7 @@
 		
 		$('div[role=navigation]').css({ 'border-bottom' : '1px solid #b6b6b6'});	
 		
-		var homepage = window.location.href.contains("home") > -1;
-		 if(window.location.href.contains("home") > -1) {
-		       alert("Alert: Desktop!");
-		 };
-		 if (homepage ){
-		     $('#search').css({ 'display' : 'none'});
-		    }
-		    else {
-		      $('#search').css({ 'display' : 'block'});
-		    };
-		
+	
 		
 		
 		//$('#search').css({ 'border-right': '1px solid #1a589e'});
