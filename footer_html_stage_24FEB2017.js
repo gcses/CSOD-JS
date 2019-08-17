@@ -10,26 +10,7 @@
 		$('div[role=navigation]').css({ 'border-bottom' : '1px solid #b6b6b6'});
 
 		
-		/*****BEGIN: Search Bar Customization *****/
-		
-		 function matchSearchLocation(key) {
-		     var list = window.location.search.split("&");
 
-		     for (var i=0;i<list.length;i++) {
-		       var item = list[i].split("=")[0];
-		       if (i === 0) 
-			 item = item.substr(1,item.length - 1);
-
-		       if (item === key) return true;
-		     }
-		    return false;
-		  }
-
-	
-		    if (matchSearchLocation("home"))
-		      $("#search").hide();    
-		    else
-		      $("#search").show();
 	
 		
 		
