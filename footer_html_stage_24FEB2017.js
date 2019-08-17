@@ -7,14 +7,9 @@
 		$('.topBarOuter .tools').css({'padding': '0 10px', 'margin-right' : '20px'});
 		$('.topBar').css({'margin-top': '0px', 'margin-right': '10px', 'border': 'none'}); 
 		
-		$('div[role=navigation]').css({ 'border-bottom' : '1px solid #b6b6b6'});
-
+		$('div[role=navigation]').css({ 'border-bottom' : '1px solid #b6b6b6'});	
 		
-
-	
-		
-		
-		/*****var homepage = window.location.href.contains("home") > -1;
+		var homepage = window.location.href.contains("home") > -1;
 		 if(window.location.href.contains("home") > -1) {
 		       alert("Alert: Desktop!");
 		 };
@@ -23,7 +18,7 @@
 		    }
 		    else {
 		      $('#search').css({ 'display' : 'block'});
-		    };*****/
+		    };
 		
 		
 		
