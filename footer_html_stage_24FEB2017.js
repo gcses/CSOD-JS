@@ -14,7 +14,7 @@
 		feedback_button.attr('src', 'https://bd.csod.com/clientimg/bd/welcome/btn_feedback2.png');
 		$(feedback_button).insertBefore('#search');
 		$(feedback_button).css({'width' : '80px' , 'height' : '32px' ,  'margin-right': '20px', 'cursor' : 'pointer', 'border-radius' : '10px'});
-		$(feedback_button).wrap($("<a class=\"feedback-link\">").attr('href', 'https://bd2.az1.qualtrics.com/jfe/form/SV_5yWSp8x3k8D4PBz'));
+		$(feedback_button).wrap($("<a class=\"feedback-link\">").attr('href', 'https://bd2.az1.qualtrics.com/jfe/form/SV_eQYAiZqIHUNjXrD'));
 		$('.feedback-link').css({'display' : 'inline' });  *****/
 		
 		/*****BEGIN: Logo Customization *****/
@@ -94,7 +94,7 @@
 		
 		var footerQuickLinksBox = $('<div id="footerQuickLinks" style="height : auto; z-index: 1; padding: 30px 0 15px; border-top: 2px solid #e5e5e5; float: left; width: 100%; background-color: #f5f5f5;">' +
 				'<div id="feedback">' +						
-					'<a href="https://bd2.az1.qualtrics.com/jfe/form/SV_5yWSp8x3k8D4PBz">' +						
+					'<a href="https://bd2.az1.qualtrics.com/jfe/form/SV_eQYAiZqIHUNjXrD">' +						
 					    '<img src="/clientimg/bd/welcome/feedback-purple-side2.png" alt="Feedback" title="Feedback Button" width="40px" height="103px"/>' +
 					'</a>'	+			           
 				'</div>' +
@@ -134,7 +134,7 @@
 					    		'<p>NEED HELP?</p>' +
 							//'<div class="text-link"><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=e049e85e-c131-46a3-90aa-fe2fa5520192#t=1">NEW! - Try our Curriculum Finder to find courses for your role</a></div>' +
 							'<div class="text-link"><a href="https://bd.csod.com/catalog/CustomPage.aspx?id=20000480&tab_page_id=20000480">&#9990; Contact Us</a></div>' +
-							'<div class="text-link feedback-link"><a href="https://bd2.az1.qualtrics.com/jfe/form/SV_5yWSp8x3k8D4PBz">&#9997; Give us Feedback</a></div>' +
+							'<div class="text-link feedback-link"><a href="https://bd2.az1.qualtrics.com/jfe/form/SV_eQYAiZqIHUNjXrD">&#9997; Give us Feedback</a></div>' +
 					    '</div>' + 
 				
 			 '</div>');
