@@ -101,39 +101,37 @@
 			        '<div class="row">' +
 					    '<div class="col">' +
 					    		'<p>NURSES AND CLINICIANS - QUICK LINKS</p>' +
-							'<div class="text-link"><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=ec3b84f3-3130-4719-b19a-24ef5b62f31d">Alaris System with Guardrails Suite MX training - CLP1106 (CBT)</a></div>' +
-							'<div class="text-link"><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=aab53be1-1579-428b-a2ce-ed3f15fd3cd8">CLP1042 - Pyxis MedStation 4000 Nursing Tutorial</a></div>' +
-					    		'<div class="text-link"><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=1c283ca8-59c6-4050-8d86-b30ba0acde2e#t=1">CLP1041 - Pyxis MedStation 4000 System for Nursing</a></div>' +
-							'<div class="text-link"><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=9de7cb68-68e1-49ca-a510-940a6e882232#t=1">CLP1107 - Pyxis MedStation ES system for Nurses, v1.3.4</a></div>' +
-							'<div class="text-link"><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=0609c768-d305-421e-ad0e-30011635211b#t=1">CLP-ES200-XX - v1.4 Pyxis MedStation ES system for Nurses</a></div>' +	
-					    		'<div class="text-link"><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=16f0cea1-d7f3-4bf1-bb4d-c4f1977edf21#t=1">Clinical workflows for BD Pyxis ES System v1.5 devices in Profile mode (CLP-ES200-N)</a></div>' +
-							'<div class="text-link"><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=9ad18b49-7753-4e19-94ff-9a49b2563a10">BD Pyxis ES Station and ES Link v1.5 for Nurses and Clinicians - Custom - Advanced  - Profile - Quiz (CLP-ES200-N_Q) and BD Pyxis ES Link</a></div>' +
-							'<div class="text-link"><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=c2e7031e-3100-4942-a862-d9f465d762dc#t=1">BD Pyxis ES System v1.5 Training Guide, Tool Kit and Other Resources</a></div>' +
-
+							'<div class="text-link"><a href="https://bd.csod.com/LMS/BrowseTraining/BrowseTraining.aspx?tab_page_id=-1700000#f=1&amp;s=534,825&amp;o=1&amp;h=2">Alaris System Video Education Curricula - Choose ONE</a></div>' +
+							'<div class="text-link"><a href="https://bd.csod.com/GlobalSearch/search.aspx?q=Nurse%2fClinician%25v1.6%3a%20Essentials&amp;s=1">Pyxis MedStation ES v1.6: Curricula</a></div>' +
+							'<div class="text-link"><a href="https://bd.csod.com/GlobalSearch/search.aspx?q=Nurse%2fClinician%25v1.5%3a%20Essentials&amp;s=1">Pyxis MedStation ES v1.5: Curricula (CLP-ES200-N)</a></div>' +
+							'<div class="text-link"><a href="https://bd.csod.com/GlobalSearch/search.aspx?q=Nurse%2fClinician%25v1.4%3a%20Essentials&amp;s=1">Pyxis MedStation ES v1.4: Curricula (CLP-ES200-N)</a></div>' +	
+							'<div class="text-link"><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=2eaff25e-61aa-4f9d-9094-a747820c16b0">Pyxis MedStation ES v1.3.4: Curricula (CLP1107)</a></div>' +
+							'<div class="text-link"><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=4fda5eaa-ed88-4679-9c8b-265394f63a95">CLP1041 - Pyxis MedStation 4000 System for Nursing</a></div>' +
+							'<div class="text-link"><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=aab53be1-1579-428b-a2ce-ed3f15fd3cd8">Pyxis MedStation 4000: Essentials (CLP1042) CONTAINS FLASH</a></div>' +
 					     '</div>' +
 					     '<div class="col">' +
 					    		'<p>PHARMACY - QUICK LINKS</p>' +
 					    		'<div class="text-link"><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loId=7d262bbf-47db-410c-a205-d2462ae6118a">Preparing for Alaris&trade; Interoperability - Adobe Connect Webinar - CLP1266</a></div>' +
-							'<div class="text-link"><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=2507553d-61bb-49bf-9f9c-9aa6d5a6bb27">CLP1043 - Pyxis MedStation 4000 system for Pharmacy</a></div>' +
-					    		'<div class="text-link"><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=ecd49018-3bdf-4cf5-bc68-b87852744ea5">Pyxis MedStation 4000 for System Managers (CLP1008 - CLP1012)</a></div>' +
-							'<div class="text-link"><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=b0ce2671-4467-4aec-9308-1af879b6d354">CLP1107 - Pyxis MedStation ES system for Pharmacy, v1.3.4</a></div>' +
-							'<div class="text-link"><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=be89e791-ef5e-4851-b752-59b6f2cb6876">CLP-ES200-XX - Pyxis MedStation ES system for Pharmacy, v1.4</a></div>' +	
-					    		'<div class="text-link"><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=36e106a3-c4fa-4193-8394-5045b4b4bff8">Pharmacy workflows for BD Pyxis ES System v1.5 devices (CLP-ES200-PH)</a></div>' +
-							'<div class="text-link"><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=79c259c6-9fe0-4847-9438-a4d8691f4ca4">BD Pyxis ES System Manager Series for ES v1.5</a></div>' +
-
-					    
+					    		'<div class="text-link"><a href="https://bd.csod.com/GlobalSearch/search.aspx?q=Pharmacy%25v1.6%3a%20Essentials&amp;s=1">Pharmacy - Pyxis MedStation ES v1.6: Curricula</a></div>' +
+					    		'<div class="text-link"><a href="https://bd.csod.com/GlobalSearch/search.aspx?q=Pharmacy%20-%20%25v1.5%20Essentials&amp;s=1">Pharmacy - Pyxis MedStation ES v1.5: Curricula (CLP-ES200-PH)</a></div>' +
+					    		'<div class="text-link"><a href="https://bd.csod.com/GlobalSearch/search.aspx?q=Pharmacy%20-%20%25v1.4%20Essentials&amp;s=1">Pharmacy - Pyxis MedStation ES v1.4: Curricula (CLP-ES200-PH)</a></div>' +	
+					    		'<div class="text-link"><a href="https://bd.csod.com/GlobalSearch/search.aspx?q=Pharmacy%20-%20v1.3.4%3a%20Essentials&amp;s=1">Pharmacy - Pyxis MedStation ES v1.3.4: Curricula (CLP1107)</a></div>' +
+					    		'<div class="text-link"><a href="https://bd.csod.com/GlobalSearch/search.aspx?q=System%20Manager%25v1.6%3a%20Essentials&amp;s=1">System Manager - Pyxis MedStation ES v1.6 Curricula</a></div>' +
+					    		'<div class="text-link"><a href="https://bd.csod.com/GlobalSearch/search.aspx?s=&amp;q=system%20manager%25v1.5%20Essentials">System Manager - Pyxis MedStation ES v1.5 Curricula</a></div>' +
+					    		'<div class="text-link"><a href="https://bd.csod.com/GlobalSearch/search.aspx?s=&amp;q=system%20manager%25v1.4%20Essentials">System Manager - Pyxis MedStation ES v1.4 Curricula</a></div>' +
+					    		'<div class="text-link"><a href="https://bd.csod.com/GlobalSearch/search.aspx?q=System%20Manager%25v1.3.4%3a%20Essentials&amp;s=1">System Manager - Pyxis MedStation ES v1.3.4 Curricula</a></div>' +   
 					    '</div>' +
 					    '<div class="col">' +
 					    		'<p>FREQUENT QUESTIONS</p>' +
-							'<div class="text-link"><a href="https://bd.csod.com/phnx/driver.aspx?routename=Social/Topic/Posting/QAPostingDetails&Posting=27&Root=-1">How do I fix the Pop-up Blocker to allow the course to open?</a></div>' +
-							'<div class="text-link"><a href="https://bd.csod.com/phnx/driver.aspx?routename=Social/Topic/Posting/QAPostingDetails&Posting=13&Root=-1">How do I print the certificate for a course I have already completed?</a></div>' +
-							'<div class="text-link"><a href="https://bd.csod.com/phnx/driver.aspx?routename=Social/Topic/Posting/QAPostingDetails&Posting=17&Root=-1">How do I view transcripts and/or assign courses in Learning Compass?</a></div>' +
-							'<div class="text-link"><a href="https://bd.csod.com/phnx/driver.aspx?routename=Social/Topic/TopicDetails&Topic=3&Root=-1">Frequently Asked Questions</a></div>' +
+							'<div class="text-link"><a href="https://bd.csod.com/phnx/driver.aspx?routename=Social/Topic/Posting/QAPostingDetails&amp;Posting=27&amp;Root=-1">How do I fix the Pop-up Blocker to allow the course to open?</a></div>' +
+							'<div class="text-link"><a href="https://bd.csod.com/phnx/driver.aspx?routename=Social/Topic/Posting/QAPostingDetails&amp;Posting=13&amp;Root=-1">How do I print the certificate for a course I have already completed?</a></div>' +
+							'<div class="text-link"><a href="https://bd.csod.com/phnx/driver.aspx?routename=Social/Topic/Posting/QAPostingDetails&amp;Posting=17&amp;Root=-1">How do I view transcripts and/or assign courses in Learning Compass?</a></div>' +
+							'<div class="text-link"><a href="https://bd.csod.com/phnx/driver.aspx?routename=Social/Topic/TopicDetails&amp;Topic=3&amp;Root=-1">Frequently Asked Questions</a></div>' +
 					      '</div>' +
 					    '<div class="col last-col">' +
 					    		'<p>NEED HELP?</p>' +
 							//'<div class="text-link"><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=e049e85e-c131-46a3-90aa-fe2fa5520192#t=1">NEW! - Try our Curriculum Finder to find courses for your role</a></div>' +
-							'<div class="text-link"><a href="https://bd.csod.com/catalog/CustomPage.aspx?id=20000480&tab_page_id=20000480">&#9990; Contact Us</a></div>' +
+							'<div class="text-link"><a href="https://bd.csod.com/catalog/CustomPage.aspx?id=20000480&amp;tab_page_id=20000480">&#9990; Contact Us</a></div>' +
 							'<div class="text-link feedback-link"><a href="https://bd2.az1.qualtrics.com/jfe/form/SV_eQYAiZqIHUNjXrD">&#9997; Give us Feedback</a></div>' +
 					    '</div>' + 
 				
