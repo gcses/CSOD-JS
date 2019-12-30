@@ -105,7 +105,7 @@
 							'<div class="text-link"><a href="https://bd.csod.com/GlobalSearch/search.aspx?q=Nurse%2fClinician%25v1.6%3a%20Essentials&amp;s=1">Pyxis MedStation ES v1.6: Curricula</a></div>' +
 							'<div class="text-link"><a href="https://bd.csod.com/GlobalSearch/search.aspx?q=Nurse%2fClinician%25v1.5%3a%20Essentials&amp;s=1">Pyxis MedStation ES v1.5: Curricula (CLP-ES200-N)</a></div>' +
 							'<div class="text-link"><a href="https://bd.csod.com/GlobalSearch/search.aspx?q=Nurse%2fClinician%25v1.4%3a%20Essentials&amp;s=1">Pyxis MedStation ES v1.4: Curricula (CLP-ES200-N)</a></div>' +	
-							'<div class="text-link"><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=2eaff25e-61aa-4f9d-9094-a747820c16b0">Pyxis MedStation ES v1.3.4: Curricula (CLP1107)</a></div>' +
+							'<div class="text-link"><a href="https://bd.csod.com/GlobalSearch/search.aspx?q=Nurse%2fClinician%25v1.3.4%3a%20Essentials">Pyxis MedStation ES v1.3.4: Curricula (CLP1107)</a></div>' +
 							'<div class="text-link"><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=4fda5eaa-ed88-4679-9c8b-265394f63a95">CLP1041 - Pyxis MedStation 4000 System for Nursing</a></div>' +
 							'<div class="text-link"><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=aab53be1-1579-428b-a2ce-ed3f15fd3cd8">Pyxis MedStation 4000: Essentials (CLP1042) CONTAINS FLASH</a></div>' +
 					     '</div>' +
@@ -164,7 +164,7 @@
 			    '<div class="col"><a href="http://www.linkedin.com/company/carefusion"><img src="https://bd.csod.com/clientimg/bd/welcome/linkedInIcon.jpg" id="sm2"></a></div>' +
 			    '<div class="col"><a href="http://youtube.com/carefusion"><img src="https://bd.csod.com/clientimg/bd/welcome/youTubeIcon.jpg" id="sm3"></a></div>' +
 			    '<div class="col"><a href="http://twitter.com/carefusion"><img src="https://bd.csod.com/clientimg/bd/welcome/twitterIcon.jpg" id="sm4"></a> </div>' +
-			    '<div class="col copyright"><p class="copy">&copy; 2019 BD. All rights reserved. Unless otherwise noted, BD, the BD Logo and all other trademarks are property of Becton, Dickinson and Company.</p></div>' +
+			    '<div class="col copyright"><p class="copy">&copy; 2020 BD. All rights reserved. Unless otherwise noted, BD, the BD Logo and all other trademarks are property of Becton, Dickinson and Company.</p></div>' +
 			    '<div class="col footerLink privacy"><a href="http://www.bd.com/legal/privacy_policy/">Privacy Policy</a></div>' +
 			    '<div class="col footerLink"><a href="http://www.bd.com/legal/terms/">Terms of Use</a></div>' +
 			'</div>');
