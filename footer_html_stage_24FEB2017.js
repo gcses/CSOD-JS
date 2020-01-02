@@ -105,7 +105,7 @@
 							'<div class="text-link"><a href="https://bd.csod.com/GlobalSearch/search.aspx?q=Nurse%2fClinician%25v1.6%3a%20Essentials&amp;s=1">Pyxis MedStation ES v1.6: Curricula</a></div>' +
 							'<div class="text-link"><a href="https://bd.csod.com/GlobalSearch/search.aspx?q=Nurse%2fClinician%25v1.5%3a%20Essentials&amp;s=1">Pyxis MedStation ES v1.5: Curricula (CLP-ES200-N)</a></div>' +
 							'<div class="text-link"><a href="https://bd.csod.com/GlobalSearch/search.aspx?q=Nurse%2fClinician%25v1.4%3a%20Essentials&amp;s=1">Pyxis MedStation ES v1.4: Curricula (CLP-ES200-N)</a></div>' +	
-							'<div class="text-link"><a href="https://bd.csod.com/GlobalSearch/search.aspx?q=Nurse%2fClinician%25v1.3.4%3a%20Essentials">Pyxis MedStation ES v1.3.4: Curricula (CLP1107)</a></div>' +
+							'<div class="text-link"><a href="https://bd.csod.com/GlobalSearch/search.aspx?q=Nurse%2fClinician%25v1.3.4%3a%20Essentials&amp;s=1">Pyxis MedStation ES v1.3.4: Curricula (CLP1107)</a></div>' +
 							'<div class="text-link"><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=4fda5eaa-ed88-4679-9c8b-265394f63a95">CLP1041 - Pyxis MedStation 4000 System for Nursing</a></div>' +
 							'<div class="text-link"><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=aab53be1-1579-428b-a2ce-ed3f15fd3cd8">Pyxis MedStation 4000: Essentials (CLP1042) CONTAINS FLASH</a></div>' +
 					     '</div>' +
