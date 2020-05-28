@@ -84,7 +84,7 @@
 		/***** END - Navigation *****/
 		
 	       //Make the home page clickable and link to the Welcome page / Main page
-	       $('a:contains("Home")').attr("href","/ui/lms-learner-home/home?tab_page_id=-200300006"); 
+	       $('a:contains("Home/Curriculum Finder")').attr("href","LMS/catalog/Welcome.aspx"); 
 		
 		
 		/***** BEGIN - Footer *****/
