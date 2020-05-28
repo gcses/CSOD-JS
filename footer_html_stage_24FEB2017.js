@@ -84,7 +84,7 @@
 		/***** END - Navigation *****/
 		
 	       //Make the home page clickable and link to the Welcome page / Main page
-	       $('a:contains("Home/Curriculum Finder")').attr("href","LMS/catalog/Welcome.aspx"); 
+	       $('a:contains("Home")').attr("href","/LMS/catalog/Welcome.aspx"); 
 		
 		
 		/***** BEGIN - Footer *****/
