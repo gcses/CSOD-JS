@@ -150,10 +150,10 @@
 		$('#footerQuickLinks div a:hover').css({'font-weight' : 'bold' ,   'opacity' : '0.6' });
 		//$('#footerQuickLinks .feedback-link a').css({'color' :  '#f27707'});
 		$( "#footerQuickLinks div a:hover" ).addClass( "footerlinkshover" );
-		$('.footerlinkshover').css({'font-weight' : 'bold' ,   'opacity' : '0.6' });
+		$('.footerlinkshover').css({'font-weight' : 'bold' ,   'opacity' : '0.8' });
 
 		   $('#footerQuickLinks .row a').hover(function() {
-			$(this).css({'opacity' : '0.6'});
+			$(this).css({'opacity' : '0.8'});
 		    }, function() {
 			$(this).css({'opacity' : '1'});
 		    });
