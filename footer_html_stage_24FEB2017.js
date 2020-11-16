@@ -1,3 +1,4 @@
+  
 (function($) {
    
 	$smjquery(document).ready(function() {
@@ -101,17 +102,19 @@
 			        '<div class="row">' +
 					    '<div class="col">' +
 					    		'<p>NURSES AND CLINICIANS - QUICK LINKS</p>' +
-							'<div class="text-link"><a href="https://bd.csod.com/LMS/BrowseTraining/BrowseTraining.aspx?tab_page_id=-1700000#f=1&amp;s=534,825&amp;o=1&amp;h=2">Alaris System Video Education Curricula - Choose ONE</a></div>' +
+							'<div class="text-link"><a href="https://bd.csod.com/LMS/BrowseTraining/BrowseTraining.aspx?tab_page_id=-1700000#f=1&s=534,827,852&o=1&h=2">Alaris System v9.33 Video Education  - Choose ONE</a></div>' +
+							'<div class="text-link"><a href="https://bd.csod.com/LMS/BrowseTraining/BrowseTraining.aspx?tab_page_id=-1700000#f=1&s=534,827,853&o=1&h=2">Alaris System v12 Video Education Curricula - Choose ONE</a></div>' +
 							'<div class="text-link"><a href="https://bd.csod.com/GlobalSearch/search.aspx?q=Nurse%2fClinician%25v1.6%3a%20Essentials&amp;s=1">Pyxis MedStation ES v1.6: Curricula</a></div>' +
 							'<div class="text-link"><a href="https://bd.csod.com/GlobalSearch/search.aspx?q=Nurse%2fClinician%25v1.5%3a%20Essentials&amp;s=1">Pyxis MedStation ES v1.5: Curricula (CLP-ES200-N)</a></div>' +
 							'<div class="text-link"><a href="https://bd.csod.com/GlobalSearch/search.aspx?q=Nurse%2fClinician%25v1.4%3a%20Essentials&amp;s=1">Pyxis MedStation ES v1.4: Curricula (CLP-ES200-N)</a></div>' +	
 							'<div class="text-link"><a href="https://bd.csod.com/GlobalSearch/search.aspx?q=Nurse%2fClinician%25v1.3.4%3a%20Essentials&amp;s=1">Pyxis MedStation ES v1.3.4: Curricula (CLP1107)</a></div>' +
-							'<div class="text-link"><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=4fda5eaa-ed88-4679-9c8b-265394f63a95">CLP1041 - Pyxis MedStation 4000 System for Nursing</a></div>' +
-							'<div class="text-link"><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loid=aab53be1-1579-428b-a2ce-ed3f15fd3cd8">Pyxis MedStation 4000: Essentials (CLP1042) CONTAINS FLASH</a></div>' +
+							'<div class="text-link"><a href="https://bd.csod.com/DeepLink/ProcessRedirect.aspx?module=launchtraining&lo=b4f9a63c-c63c-4c9c-8182-3e9d39e78643">CLP1041 - Pyxis MedStation 4000 System for Nursing</a></div>' +
+							'<div class="text-link"><a href="https://bd.csod.com/DeepLink/ProcessRedirect.aspx?module=launchtraining&lo=7a7032e8-d215-400e-bc4f-90833fcdf994">Pyxis MedStation 4000: Essentials (CLP1042)</a></div>' +
 					     '</div>' +
 					     '<div class="col">' +
 					    		'<p>PHARMACY - QUICK LINKS</p>' +
-					    		'<div class="text-link"><a href="https://bd.csod.com/LMS/LoDetails/DetailsLo.aspx?loId=7d262bbf-47db-410c-a205-d2462ae6118a">Preparing for Alaris&trade; Interoperability - Adobe Connect Webinar - CLP1266</a></div>' +
+					    		'<div class="text-link"><a href="https://bd.csod.com/DeepLink/ProcessRedirect.aspx?module=launchtraining&lo=c6bce56b-d99b-495f-ba41-8fe746b05b09">Preparing for Alaris&trade; Interoperability - Adobe Connect Webinar - CLP1266</a></div>' +
+					    		'<div class="text-link"><a href="https://bd.csod.com/LMS/BrowseTraining/BrowseTraining.aspx?tab_page_id=-1700000#f=1&s=534&t=2&o=1&h=2,3">Alaris&trade; System Webinars</a></div>' +
 					    		'<div class="text-link"><a href="https://bd.csod.com/GlobalSearch/search.aspx?q=Pharmacy%25v1.6%3a%20Essentials&amp;s=1">Pharmacy - Pyxis MedStation ES v1.6: Curricula</a></div>' +
 					    		'<div class="text-link"><a href="https://bd.csod.com/GlobalSearch/search.aspx?q=Pharmacy%20-%20%25v1.5%20Essentials&amp;s=1">Pharmacy - Pyxis MedStation ES v1.5: Curricula (CLP-ES200-PH)</a></div>' +
 					    		'<div class="text-link"><a href="https://bd.csod.com/GlobalSearch/search.aspx?q=Pharmacy%20-%20%25v1.4%20Essentials&amp;s=1">Pharmacy - Pyxis MedStation ES v1.4: Curricula (CLP-ES200-PH)</a></div>' +	
@@ -123,6 +126,7 @@
 					    '</div>' +
 					    '<div class="col">' +
 					    		'<p>FREQUENT QUESTIONS</p>' +
+							'<div class="text-link"><a href="https://bd.csod.com/phnx/driver.aspx?routename=Social/Topic/Posting/QAPostingDetails&Posting=7&Root=-1&Page=1">How do I find and start a course?</a></div>' +
 							'<div class="text-link"><a href="https://bd.csod.com/phnx/driver.aspx?routename=Social/Topic/Posting/QAPostingDetails&amp;Posting=27&amp;Root=-1">How do I fix the Pop-up Blocker to allow the course to open?</a></div>' +
 							'<div class="text-link"><a href="https://bd.csod.com/phnx/driver.aspx?routename=Social/Topic/Posting/QAPostingDetails&amp;Posting=13&amp;Root=-1">How do I print the certificate for a course I have already completed?</a></div>' +
 							'<div class="text-link"><a href="https://bd.csod.com/phnx/driver.aspx?routename=Social/Topic/Posting/QAPostingDetails&amp;Posting=17&amp;Root=-1">How do I view transcripts and/or assign courses in Learning Compass?</a></div>' +
