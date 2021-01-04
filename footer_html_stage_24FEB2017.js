@@ -168,7 +168,7 @@
 			    '<div class="col"><a href="http://www.linkedin.com/company/carefusion"><img src="https://bd.csod.com/clientimg/bd/welcome/linkedInIcon.jpg" id="sm2"></a></div>' +
 			    '<div class="col"><a href="http://youtube.com/carefusion"><img src="https://bd.csod.com/clientimg/bd/welcome/youTubeIcon.jpg" id="sm3"></a></div>' +
 			    '<div class="col"><a href="http://twitter.com/carefusion"><img src="https://bd.csod.com/clientimg/bd/welcome/twitterIcon.jpg" id="sm4"></a> </div>' +
-			    '<div class="col copyright"><p class="copy">&copy; 2020 BD. All rights reserved. Unless otherwise noted, BD, the BD Logo and all other trademarks are property of Becton, Dickinson and Company.</p></div>' +
+			    '<div class="col copyright"><p class="copy">&copy; 2021 BD. All rights reserved. Unless otherwise noted, BD, the BD Logo and all other trademarks are property of Becton, Dickinson and Company.</p></div>' +
 			    '<div class="col footerLink privacy"><a href="http://www.bd.com/legal/privacy_policy/">Privacy Policy</a></div>' +
 			    '<div class="col footerLink"><a href="http://www.bd.com/legal/terms/">Terms of Use</a></div>' +
 			'</div>');
