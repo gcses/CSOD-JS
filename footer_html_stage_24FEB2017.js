@@ -1,7 +1,8 @@
   
 (function($) {
    
-	$smjquery(document).ready(function() {
+	//$smjquery(document).ready(function() {
+	$(document).ready(function() {
 	
 		/***** BEGIN : Header Tools *****/
 		//$('.topBarOuter').css({'height' : '50px'});
@@ -201,4 +202,5 @@
 		/***** END - Footer *****/
 	});
 
-}($smjquery)); 
+//}($smjquery)); 
+}($)); 
